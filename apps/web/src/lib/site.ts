@@ -3,9 +3,11 @@ import { marked } from "marked";
 import { panSVG } from "@arros/pans";
 import { LANGS, DEFAULT_LANG, loadLang, provName, provSlug, regionLabel, stripMd, type Lang, type Page } from "@arros/content";
 import { UI, HTML_LANG } from "./i18n";
+import { areaView, areaIds, regionArea, recipeArea, type AreaView } from "./areas";
 import { adHtml } from "./ads";
 
-export { LANGS, DEFAULT_LANG, HTML_LANG, provSlug, type Lang, type Page };
+export { LANGS, DEFAULT_LANG, HTML_LANG, provSlug, recipeArea, type Lang, type Page, type AreaView };
+export { isRtl } from "@arros/content";
 export type Key = keyof (typeof UI)["en"];
 
 export const esc = (s: string) =>
@@ -21,13 +23,14 @@ export const langParam = (lang: Lang) => (lang === DEFAULT_LANG ? undefined : la
 export const langFromParam = (p: string | undefined): Lang => (p && (LANGS as readonly string[]).includes(p) ? (p as Lang) : DEFAULT_LANG);
 export const langPaths = () => LANGS.map((lang) => ({ params: { lang: langParam(lang) }, props: { lang } }));
 
-export const VESSEL: Record<string, string> = { paella: "Paella", cassola: "Cassola", caldero: "Caldero", olla: "Olla" };
+export const VESSEL: Record<string, string> = { paella: "Paella", cassola: "Cassola", caldero: "Caldero", olla: "Olla", tray: "Siniyyeh", tanjara: "Tanjara" };
 // The vessel names are Spanish/Valencian words; explain them in the reader's language.
 const VESSEL_L: Record<Lang, Record<string, string>> = {
-  en: { paella: "Paella pan", cassola: "Clay casserole", caldero: "Iron cauldron", olla: "Stew pot" },
-  es: { paella: "Paella", cassola: "Cazuela de barro", caldero: "Caldero", olla: "Olla" },
-  ca: { paella: "Paella", cassola: "Cassola de fang", caldero: "Calder", olla: "Olla" },
-  th: { paella: "กระทะปาเอยา", cassola: "หม้อดินเผา", caldero: "หม้อเหล็กหล่อ", olla: "หม้อตุ๋น" },
+  en: { paella: "Paella pan", cassola: "Clay casserole", caldero: "Iron cauldron", olla: "Stew pot", tray: "Serving tray", tanjara: "Copper pot" },
+  es: { paella: "Paella", cassola: "Cazuela de barro", caldero: "Caldero", olla: "Olla", tray: "Bandeja", tanjara: "Olla de cobre" },
+  ca: { paella: "Paella", cassola: "Cassola de fang", caldero: "Calder", olla: "Olla", tray: "Safata", tanjara: "Olla de coure" },
+  th: { paella: "กระทะปาเอยา", cassola: "หม้อดินเผา", caldero: "หม้อเหล็กหล่อ", olla: "หม้อตุ๋น", tray: "ถาดเสิร์ฟ", tanjara: "หม้อทองแดง" },
+  ar: { paella: "مقلاة الباييلا", cassola: "طاجن فخّار", caldero: "قِدر حديد", olla: "قِدر", tray: "صينية", tanjara: "طنجرة نحاس" },
 };
 export const vesselLabel = (lang: Lang, v: string) => VESSEL_L[lang]?.[v] ?? VESSEL[v] ?? v;
 const TEX_KEY = { seco: "chipSeco", meloso: "chipMeloso", caldoso: "chipCaldoso" } as const;
@@ -45,8 +48,11 @@ export interface SiteModel {
   pages: Page[];
   byFile: Map<string, Page>;
   recipes: Page[];
-  regions: { file: string; name: string; slug: string; recipes: Page[]; page?: Page }[];
+  regions: { file: string; name: string; slug: string; recipes: Page[]; page?: Page; area?: string }[];
+  /** Areas in glosses.json order, with their regions and recipes (empty areas included: "coming soon"). */
+  areas: (AreaView & { regionList: SiteModel["regions"]; recipes: Page[] })[];
   regionName: (file: string, fallback: string) => string;
+  areaOfRecipe: (p: Page) => string | undefined;
 }
 const models = new Map<Lang, SiteModel>();
 export function site(lang: Lang): SiteModel {
@@ -69,8 +75,14 @@ export function site(lang: Lang): SiteModel {
   const regions = [...refs.entries()].map(([file, name]) => ({
     file, name: regionName(file, name), slug: provSlug(file), page: byFile.get(file),
     recipes: recipes.filter((r) => r.provinces.some((x) => x.file === file)),
+    area: regionArea(file),
   }));
-  const m = { lang, pages, byFile, recipes, regions, regionName };
+  const areas = areaIds().map((id) => {
+    const v = areaView(id, lang)!;
+    const regionList = regions.filter((r) => r.area === id);
+    return { ...v, regionList, recipes: recipes.filter((r) => recipeArea(r) === id) };
+  });
+  const m: SiteModel = { lang, pages, byFile, recipes, regions, areas, regionName, areaOfRecipe: recipeArea };
   models.set(lang, m);
   return m;
 }

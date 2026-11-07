@@ -3,7 +3,7 @@ import Layout from "../../../layouts/Layout.astro";
 import Chip from "../../../components/Chip.astro";
 import Toc from "../../../components/Toc.astro";
 import Notice from "../../../components/Notice.astro";
-import { LANGS, langParam, langBase, site, renderPage, panHtml, tr, vtName, vesselLabel, provSlug, HTML_LANG, DEFAULT_LANG, type Lang } from "../../../lib/site";
+import { LANGS, langParam, langBase, site, renderPage, panHtml, tr, vtName, vesselLabel, provSlug, HTML_LANG, DEFAULT_LANG, isRtl, type Lang } from "../../../lib/site";
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => site(lang).recipes.map((p) => ({ params: { lang: langParam(lang), slug: p.slug }, props: { lang, file: p.file } })));
@@ -11,17 +11,24 @@ export function getStaticPaths() {
 const { lang, file } = Astro.props as { lang: Lang; file: string };
 const m = site(lang);
 const p = m.byFile.get(file)!;
+const areaId = m.areaOfRecipe(p);
+const area = m.areas.find((a) => a.id === areaId);
+const firstRegion = p.provinces[0];
+const crumbs: [string, string][] = [
+  ...(area ? [[area.name, `${langBase(lang)}${area.id}`] as [string, string]] : []),
+  ...(firstRegion ? [[m.regionName(firstRegion.file, firstRegion.name), `${langBase(lang)}provinces/${provSlug(firstRegion.file)}`] as [string, string]] : []),
+];
 const { html, headings } = renderPage(p, m);
 const base = langBase(lang);
 ---
-<Layout lang={lang} path={p.url} title={p.gloss ? `${p.title} · ${p.gloss}` : p.title} active="recipes" description={p.summary} bodyClass="is-recipe">
+<Layout lang={lang} path={p.url} title={p.gloss ? `${p.title} · ${p.gloss}` : p.title} active="recipes" description={p.summary} bodyClass="is-recipe" theme={area?.theme} crumbs={crumbs}>
   <main class={`recipe base-${p.spec?.base ?? "none"}`}>
     <header class="recipe-hero">
       <div class="rh-text">
         <p class="kicker">{tr(lang, "kickerRecipe")} · {tr(lang, "readTime", { n: p.minutes })}</p>
-        <h1 class="rh-title" data-pagefind-meta="title">{p.title}</h1>
-        {p.gloss && <p class="gloss" data-pagefind-meta="gloss">{p.gloss}</p>}
-        {p.altTitle && <p class="alt-title">{p.altTitle}</p>}
+        <h1 dir="auto" class="rh-title" data-pagefind-meta="title">{p.title}</h1>
+        {p.gloss && <p dir="auto" class="gloss" data-pagefind-meta="gloss">{p.gloss}</p>}
+        {p.altTitle && <p dir="auto" class="alt-title">{p.altTitle}</p>}
         <div class="tags">
           <Chip lang={lang} texture={p.texture} />
           {p.spec && <span class="tag"><span class="tag-k">{tr(lang, "vessel")}</span> {vesselLabel(lang, p.spec.vessel)}</span>}
@@ -38,7 +45,7 @@ const base = langBase(lang);
     </header>
     <div class={`page${headings.length > 1 ? " with-toc" : ""}`}>
       <Toc lang={lang} headings={headings} />
-      <article class="prose" data-pagefind-body data-timer-label={tr(lang, "timerStart", { n: "{n}" })} lang={p.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined} set:html={html} />
+      <article class="prose" data-pagefind-body data-timer-label={tr(lang, "timerStart", { n: "{n}" })} lang={p.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined} dir={p.status === "missing" && isRtl(lang) ? "ltr" : undefined} set:html={html} />
     </div>
   </main>
 </Layout>

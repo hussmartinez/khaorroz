@@ -4,18 +4,20 @@ import { langBase, panHtml, vtName, vesselLabel, type SiteModel, type Page } fro
 interface Props { p: Page; m: SiteModel; i?: number }
 const { p, m, i = 0 } = Astro.props;
 const provs = p.provinces.map((x) => m.regionName(x.file, x.name)).join(" · ");
+const area = m.areaOfRecipe(p);
+const theme = m.areas.find((a) => a.id === area)?.theme ?? "spain";
 const search = `${p.title} ${p.gloss} ${p.altTitle} ${p.zone} ${p.summary}`.toLowerCase();
 ---
 <a class={`card base-${p.spec?.base ?? "none"}`} href={`${langBase(m.lang)}${p.url}`}
    style={`--i:${i % 12};view-transition-name:${vtName("card", p.slug)}`} data-reveal data-slug={p.slug}
-   data-texture={p.texture} data-provinces={p.provinces.map((x) => x.file).join(" ")} data-search={search}>
+   data-area={area} data-theme={theme} data-texture={p.texture} data-provinces={p.provinces.map((x) => x.file).join(" ")} data-search={search}>
   <div class="card-visual" style={`view-transition-name:${vtName("pan", p.slug)}`} set:html={panHtml(p)} />
   <div class="card-body">
     <div class="card-meta"><Chip lang={m.lang} texture={p.texture} />{p.spec && <span class="vessel">{vesselLabel(m.lang, p.spec.vessel)}</span>}</div>
-    <h3>{p.title}</h3>
-    {p.gloss && <p class="gloss">{p.gloss}</p>}
-    {p.altTitle && <p class="alt">{p.altTitle}</p>}
-    <p class="summary">{p.summary}</p>
+    <h3 dir="auto">{p.title}</h3>
+    {p.gloss && <p dir="auto" class="gloss">{p.gloss}</p>}
+    {p.altTitle && <p dir="auto" class="alt">{p.altTitle}</p>}
+    <p dir="auto" class="summary">{p.summary}</p>
     {provs && <p class="card-foot"><span class="pin" aria-hidden="true"></span>{provs}<span class="arrow" aria-hidden="true">→</span></p>}
   </div>
 </a>

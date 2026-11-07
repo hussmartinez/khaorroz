@@ -57,19 +57,22 @@
     });
   }
 
-  // ---------- Home: filtering ----------
-  const grid = $("#grid");
-  if (grid) {
-    const cards = $$(".card", grid);
-    const q = $("#q"), count = $("#count"), empty = $("#empty"), sec = $("#recipes");
-    const state = { texture: "", province: "", q: "", ft: new Map() };
+  // ---------- Home / area pages: filtering ----------
+  const sec = $("#recipes");
+  const grids = sec ? $$(".grid", sec) : [];
+  if (grids.length) {
+    const cards = $$(".card", sec);
+    const groupsEl = $$(".area-group", sec);
+    const q = $("#q"), count = $("#count"), empty = $("#empty");
+    const state = { area: "", texture: "", province: "", q: "", ft: new Map() };
     const apply = (animate = true) => {
       const run = () => {
         let n = 0;
         for (const c of cards) {
           const text = !state.q || c.dataset.search.includes(state.q);
           const hit = state.ft.get(c.dataset.slug);
-          const ok = (!state.texture || c.dataset.texture === state.texture)
+          const ok = (!state.area || c.dataset.area === state.area)
+            && (!state.texture || c.dataset.texture === state.texture)
             && (!state.province || c.dataset.provinces.split(" ").includes(state.province))
             && (text || hit !== undefined);
           c.hidden = !ok;
@@ -81,14 +84,22 @@
             ex.innerHTML = hit;
           } else ex?.remove();
         }
-        count.textContent = (n === 1 ? sec.dataset.one : sec.dataset.many).replace("{n}", n);
-        empty.hidden = n > 0;
+        // area groups with nothing visible disappear (heading included)
+        for (const g of groupsEl) g.hidden = !$$(".card", g).some((c) => !c.hidden);
+        if (count) count.textContent = (n === 1 ? sec.dataset.one : sec.dataset.many).replace("{n}", n);
+        if (empty) empty.hidden = n > 0;
         // keep in-feed ad slots spaced out: only show one after at least 6 visible cards since the last
-        let since = 0;
-        for (const el of grid.children) {
-          if (el.classList.contains("card")) { if (!el.hidden) since++; }
-          else if (el.classList.contains("ad")) { el.hidden = since < 6; if (!el.hidden) since = 0; }
+        for (const grid of grids) {
+          let since = 0;
+          for (const el of grid.children) {
+            if (el.classList.contains("card")) { if (!el.hidden) since++; }
+            else if (el.classList.contains("ad")) { el.hidden = since < 6; if (!el.hidden) since = 0; }
+          }
         }
+        // region chips/options only for the chosen area
+        $$("[data-filter-province][data-area], [data-select=province] option[data-area]").forEach((el) => {
+          el.hidden = !!state.area && el.dataset.area !== state.area;
+        });
       };
       animate ? vt(run) : run();
     };
@@ -102,8 +113,14 @@
         apply();
       }));
     };
+    group("data-filter-area", "area");
     group("data-filter-texture", "texture");
     group("data-filter-province", "province");
+    // choosing an area clears a region filter that belongs to another area
+    $$("[data-filter-area]").forEach((b) => b.addEventListener("click", () => {
+      const cur = $(`[data-filter-province][aria-pressed="true"]`);
+      if (state.area && cur?.dataset.area && cur.dataset.area !== state.area) $(`[data-filter-province=""]`)?.click();
+    }));
     // Mobile dropdowns drive the same chips, so state, counts and animations stay in one place.
     $$("[data-select]").forEach((s) => s.addEventListener("change", () =>
       $(`[data-filter-${s.dataset.select}="${CSS.escape(s.value)}"]`)?.click()));
@@ -180,7 +197,7 @@
   // Timers: turn "18 min", "25–30 minutes", "17 minutos", "5 นาที" into tap-to-start buttons
   const prose = $(".prose");
   const label = prose?.dataset.timerLabel || "{n} min";
-  const re = /(\d{1,3})(?:\s*[–-]\s*(\d{1,3}))?\s*(min(?:ute)?s?|minutos?|minuts?|นาที)(?![\p{L}])/gu;
+  const re = /(\d{1,3})(?:\s*[–-]\s*(\d{1,3}))?\s*(min(?:ute)?s?|minutos?|minuts?|นาที|دقائق|دقيقة|د)(?![\p{L}])/gu;
   const reTest = new RegExp(re.source, "u");
   const walker = document.createTreeWalker(recipe, NodeFilter.SHOW_TEXT, {
     acceptNode: (n) => (n.parentElement.closest("li, p") && !n.parentElement.closest("table, a, button, h2, h3") && reTest.test(n.data) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT),

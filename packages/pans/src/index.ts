@@ -2,8 +2,8 @@
 // its recipe — the vessel it is cooked in, the colour of its rice, and the ingredients on top.
 // Deterministic per slug, so a dish always looks the same.
 
-export type Vessel = "paella" | "cassola" | "caldero" | "olla";
-export type Base = "seco" | "banda" | "negro" | "meloso" | "caldoso" | "caldoso-negro" | "horno" | "costra" | "leche";
+export type Vessel = "paella" | "cassola" | "caldero" | "olla" | "tray" | "tanjara";
+export type Base = "seco" | "banda" | "negro" | "meloso" | "caldoso" | "caldoso-negro" | "horno" | "costra" | "leche" | "white" | "vermicelli" | "maqluba" | "mujaddara" | "yellow";
 
 export interface PanSpec {
   vessel: Vessel;
@@ -15,6 +15,7 @@ export interface PanSpec {
 type Glyph =
   | "prawn" | "galera" | "lobster" | "mussel" | "clam" | "ring" | "sepia" | "fish" | "artichoke" | "bean"
   | "garrofo" | "chickpea" | "potato" | "garlic" | "tomato" | "morcilla" | "chorizo" | "meat" | "snail"
+  | "pinenut" | "almond" | "eggplant" | "parsley" | "onion"
   | "egg" | "lemon" | "rosemary" | "pepper" | "chard" | "turnip" | "cauli" | "mushroom" | "pea" | "fava" | "cinnamon" | "peel";
 
 // ---------- deterministic randomness ----------
@@ -61,13 +62,19 @@ const RULES: [Glyph, RegExp, number][] = [
   ["mushroom", /mushroom|\bsetas?\b|bolets?|níscal|rovell|chanterelle|boletus/, 5],
   ["pepper", /red pepper|bell pepper|pimiento rojo|pimiento morr|roasted pepper|pebrot|piquillo/, 5],
   ["tomato", /tomato(es)?,? halved|halved tomato|tomato halves|whole tomato/, 3],
+  ["eggplant", /aubergine|eggplant|batinjan|bādhinjān|berenjena/, 5],
+  ["pinenut", /pine nut|pine kernel|snobar|piñon|piñón|pinyon/, 14],
+  ["almond", /almond|lawz|almendra|ametlla/, 9],
+  ["onion", /crisp(y)? onion|fried onion|caramelis(ed|ized) onion|birista/, 9],
+  ["parsley", /chopped parsley|parsley (to|for) garnish|garnish.*parsley/, 8],
   ["egg", /fried egg|huevo frito|ou ferrat|ous ferrats/, 2],
   ["lemon", /lemon|limón|llima/, 2],
   ["rosemary", /rosemary|romero|romer\b/, 1],
 ];
 
-export function specFrom(opts: { slug: string; title: string; texture: string; vessel: string; recipeText: string }): PanSpec {
+export function specFrom(opts: { slug: string; title: string; texture: string; vessel: string; recipeText: string; area?: string }): PanSpec {
   const { title, texture } = opts;
+  if (opts.area === "sham") return levantSpec(opts);
   const t = opts.recipeText.toLowerCase();
   const name = title.toLowerCase();
   const v = opts.vessel.toLowerCase();
@@ -113,6 +120,30 @@ export function specFrom(opts: { slug: string; title: string; texture: string; v
   return { vessel, base, items, center };
 }
 
+// Bilad al-Sham: white rice by default, trays and copper pots, nuts and crisp onions on top.
+function levantSpec(opts: { title: string; texture: string; vessel: string; recipeText: string }): PanSpec {
+  const t = opts.recipeText.toLowerCase();
+  const name = opts.title.toLowerCase();
+  const v = opts.vessel.toLowerCase();
+  const all = name + " " + t;
+  const base: Base =
+    /maqlub|maqloub|makloub|مقلوب/.test(all) ? "maqluba"
+    : /mujadd|mjadd|mudardar|مجدر|مدردر/.test(all) || /\blentil/.test(t) ? "mujaddara"
+    : /vermicelli|sha'?riyy?e|sha'?ariyy?a|شعيري/.test(all) ? "vermicelli"
+    : /turmeric|saffron|kurkum|zafaran|qidra|قدرة/.test(all) ? "yellow"
+    : opts.texture === "caldoso" ? "caldoso"
+    : "white";
+  const vessel: Vessel =
+    base === "maqluba" || /tray|sedr|siniyy?eh|platter|صينية|سدر/.test(v) ? "tray"
+    : /clay|qidra|\bjar\b|فخار|قدرة/.test(v) ? "olla"
+    : "tanjara";
+  const items: PanSpec["items"] = [];
+  for (const [g, re, n] of RULES) if (re.test(t)) items.push({ kind: g, n });
+  if (base === "maqluba" && !items.some((i) => i.kind === "eggplant")) items.push({ kind: "eggplant", n: 5 });
+  if (base === "mujaddara") { for (const i of items) if (i.kind !== "onion") i.n = Math.min(i.n, 2); if (!items.some((i) => i.kind === "onion")) items.push({ kind: "onion", n: 9 }); }
+  return { vessel, base, items };
+}
+
 // ---------- glyphs (drawn around 0,0, roughly 20 units wide) ----------
 const G: Record<Glyph, { r: number; svg: string }> = {
   prawn: { r: 11, svg: `<path d="M-8 3C-11-4-5-11 3-10c6 1 9 6 7 11-1 3-4 4-6 3l1-3c2 0 2-2 1-4-1-3-6-4-9-1-2 2-2 5 0 8z" fill="#ef7f52" stroke="#b9472c" stroke-width="1.1"/><path d="M-4-7l2 3M1-9l0 4M6-6l-2 3" stroke="#f6b08c" stroke-width="1.1" stroke-linecap="round"/><path d="M-8 3l-4 3 5 1z" fill="#d85f3a"/><circle cx="7.3" cy="-2.5" r="1" fill="#2a1a14"/><path d="M9-3c4-2 7-1 9 1M8-1c4 0 6 2 7 4" stroke="#b9472c" stroke-width=".7" fill="none"/>` },
@@ -140,6 +171,11 @@ const G: Record<Glyph, { r: number; svg: string }> = {
   chorizo: { r: 5.5, svg: `<circle r="5.3" fill="#b8372a" stroke="#7d1f16" stroke-width="1"/><circle cx="-1.6" cy="-1" r="1" fill="#f0b9a0"/><circle cx="1.5" cy="1.4" r=".9" fill="#f0b9a0"/><circle cx="2" cy="-2" r=".6" fill="#f0b9a0"/>` },
   meat: { r: 9, svg: `<path d="M-8-2c1-5 7-7 11-5 5 2 6 7 3 10-3 4-9 4-12 1-2-2-3-4-2-6z" fill="#a8622c" stroke="#6f3c16" stroke-width="1"/><path d="M-4-3c2-2 6-2 8 0" stroke="#d29152" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-2 3c2 1 4 0 5-1" stroke="#8a4d20" stroke-width="1" fill="none"/>` },
   snail: { r: 6, svg: `<circle r="5.6" fill="#c9a678" stroke="#7a5a36" stroke-width=".9"/><path d="M0 0c1-1 2 0 2 1 0 2-2 3-3 3-3 0-4-2-4-4 0-3 3-5 5-5 4 0 6 3 6 6" stroke="#7a5a36" stroke-width="1" fill="none"/>` },
+  pinenut: { r: 2.6, svg: `<path d="M0-2.8c1.4 0 2 1.6 2 3S1 2.8 0 2.8-2 1.6-2 .2s.6-3 2-3z" fill="#f3e3b5" stroke="#c9ad6a" stroke-width=".5"/>` },
+  almond: { r: 4.5, svg: `<path d="M0-4.5C2.6-3 3 1 0 4.5-3 1-2.6-3 0-4.5z" fill="#e9d2a6" stroke="#b8935a" stroke-width=".6"/><path d="M0-3v6" stroke="#f6e7c7" stroke-width=".7"/>` },
+  eggplant: { r: 8, svg: `<circle r="7.6" fill="#4a2350" stroke="#2c1230" stroke-width="1"/><circle r="5.8" fill="#e7d6a8"/><circle r="5.8" fill="#c08a3e" opacity=".35"/><g fill="#8a6a3a">${[0, 60, 120, 180, 240, 300].map((a) => `<circle cx="${f1(3 * Math.cos((a * Math.PI) / 180))}" cy="${f1(3 * Math.sin((a * Math.PI) / 180))}" r=".6"/>`).join("")}</g>` },
+  parsley: { r: 3, svg: `<path d="M-3 0c0-2 2-3 3-2 1-1 3 0 3 2-1 1-1 2-3 2s-3-1-3-2z" fill="#3f7d34" stroke="#2c5a24" stroke-width=".4"/>` },
+  onion: { r: 4.5, svg: `<path d="M-4 1c1-3 4-4 6-3 2 1 2 3 0 4-1 1-3 0-3-1" fill="none" stroke="#7a3f12" stroke-width="1.8" stroke-linecap="round"/><path d="M-4 1c1-3 4-4 6-3" fill="none" stroke="#b56a24" stroke-width=".8" stroke-linecap="round"/>` },
   egg: { r: 12, svg: `<path d="M-11-2c0-7 8-10 13-9 7 1 10 6 9 11-1 6-7 10-13 9-6-1-9-5-9-11z" fill="#fbf7ee" stroke="#e8dcc4" stroke-width=".8"/><path d="M-10 4c1 2 3 4 5 4" stroke="#d9a14a" stroke-width="1.3" fill="none" opacity=".7"/><circle cx="1" cy="-.5" r="5" fill="#f5b21c"/><circle cx="-.5" cy="-2" r="1.6" fill="#fde08a"/>` },
   lemon: { r: 9, svg: `<path d="M-9 2a9 9 0 0 1 18 0z" fill="#f5d33c" stroke="#d9a915" stroke-width="1.2"/><path d="M-6.6 2a6.6 6.6 0 0 1 13.2 0z" fill="#fbe98a"/><path d="M0 2V-4.6M0 2l-4.6-4.6M0 2l4.6-4.6" stroke="#f6dc5c" stroke-width=".9"/>` },
   rosemary: { r: 12, svg: `<path d="M-12 4C-4 1 4-1 12-5" stroke="#4d6a37" stroke-width="1.3" fill="none"/>${Array.from({ length: 9 }, (_, i) => { const x = -10 + i * 2.6, y = 3.4 - i * 1.0; return `<path d="M${f1(x)} ${f1(y)}l-1.5-3.5M${f1(x)} ${f1(y)}l1.6 3.4" stroke="#6d8f4f" stroke-width="1.1" stroke-linecap="round"/>`; }).join("")}` },
@@ -159,6 +195,11 @@ const PAL: Record<Base, Pal> = {
   "caldoso-negro": { bg: "#262224", grainA: "#5a5254", grainB: "#3a3335", edge: "#0b0909", gloss: 0.4, tile: 13, grains: 3 },
   horno: { bg: "#c9772f", grainA: "#eab26a", grainB: "#a95a22", edge: "#6e3510", gloss: 0.12, tile: 9, grains: 4 },
   costra: { bg: "#e7b149", grainA: "#f3cf73", grainB: "#d29436", edge: "#9a5a1a", gloss: 0.2, tile: 9, grains: 0 },
+  white: { bg: "#f2ead7", grainA: "#fffbf1", grainB: "#e6dcc4", edge: "#c9b994", gloss: 0.3, tile: 9, grains: 4 },
+  vermicelli: { bg: "#efe5cf", grainA: "#fffaf0", grainB: "#b77a3a", edge: "#b99d6c", gloss: 0.25, tile: 9, grains: 5 },
+  yellow: { bg: "#e9c159", grainA: "#f7dc8e", grainB: "#d7a33a", edge: "#a9781f", gloss: 0.15, tile: 9, grains: 4 },
+  maqluba: { bg: "#c98a45", grainA: "#e8b874", grainB: "#a8682a", edge: "#7c4516", gloss: 0.2, tile: 9, grains: 4 },
+  mujaddara: { bg: "#b89a72", grainA: "#e2cfac", grainB: "#5c4630", edge: "#6f5435", gloss: 0.12, tile: 8, grains: 5 },
   leche: { bg: "#f5ead2", grainA: "#fffaf0", grainB: "#eadcc0", edge: "#d9c6a0", gloss: 0.35, tile: 10, grains: 4 },
 };
 
@@ -177,7 +218,7 @@ export function panSVG(spec: PanSpec, slug: string, opts: { label?: string; stea
       : "#c99a3e";
   }
   const C = 100;
-  const R = spec.vessel === "olla" ? 66 : spec.vessel === "caldero" ? 72 : 80; // food radius
+  const R = spec.vessel === "olla" ? 66 : spec.vessel === "caldero" ? 72 : spec.vessel === "tray" ? 74 : spec.vessel === "tanjara" ? 70 : 80; // food radius
 
   // grain tile
   const grains = Array.from({ length: pal.grains }, (_, i) => {
@@ -203,6 +244,17 @@ export function panSVG(spec: PanSpec, slug: string, opts: { label?: string; stea
       + `<circle cx="${C}" cy="${C}" r="${R + 11}" fill="url(#iron${uid})"/><circle cx="${C}" cy="${C}" r="${R + 3}" fill="#121110"/>`
       + [-1, 1].map((s) => `<circle cx="${C + s * (R + 10)}" cy="${C}" r="4" fill="#2a2725"/>`).join("");
     rimTop = `<circle cx="${C}" cy="${C}" r="${R + 8}" fill="none" stroke="#5a5550" stroke-width="1" opacity=".7"/>`;
+  } else if (spec.vessel === "tray") {
+    // round brass serving tray (siniyyeh / sedr) with a chased rim
+    back = `<circle cx="${C}" cy="${C}" r="${R + 20}" fill="url(#brass${uid})"/><circle cx="${C}" cy="${C}" r="${R + 13}" fill="none" stroke="#8a6418" stroke-width="1.2"/>`
+      + Array.from({ length: 24 }, (_, i) => { const a = (i * Math.PI) / 12; return `<circle cx="${f1(C + Math.cos(a) * (R + 16.5))}" cy="${f1(C + Math.sin(a) * (R + 16.5))}" r="1.3" fill="#f3d48a" opacity=".8"/>`; }).join("")
+      + `<circle cx="${C}" cy="${C}" r="${R + 8}" fill="#b98f3e"/>`;
+    rimTop = `<circle cx="${C}" cy="${C}" r="${R + 2}" fill="none" stroke="#6e4f12" stroke-width="1" opacity=".5"/>`;
+  } else if (spec.vessel === "tanjara") {
+    // hammered copper pot with two handles
+    back = [-1, 1].map((s) => `<path d="M${C + s * (R + 9)} ${C - 10}q${s * 13} 10 0 20" fill="none" stroke="#7a3a1c" stroke-width="5" stroke-linecap="round"/>`).join("")
+      + `<circle cx="${C}" cy="${C}" r="${R + 12}" fill="url(#copper${uid})"/><circle cx="${C}" cy="${C}" r="${R + 4}" fill="#5b2a12"/>`;
+    rimTop = `<circle cx="${C}" cy="${C}" r="${R + 9}" fill="none" stroke="#f0b48a" stroke-width="1" opacity=".5"/>`;
   } else {
     back = `<circle cx="${C}" cy="${C}" r="${R + 16}" fill="url(#clay${uid})"/><circle cx="${C}" cy="${C}" r="${R + 8}" fill="#5c2b12"/><circle cx="${C}" cy="${C}" r="${R + 3}" fill="#3e1c0b"/>`
       + [-1, 1].map((s) => `<path d="M${C + s * (R + 13)} ${C - 12}q${s * 14} 12 0 24" fill="none" stroke="#8f4520" stroke-width="5" stroke-linecap="round"/>`).join("");
@@ -281,6 +333,8 @@ export function panSVG(spec: PanSpec, slug: string, opts: { label?: string; stea
 <linearGradient id="steel${uid}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9ced4"/><stop offset=".5" stop-color="#6f757d"/><stop offset="1" stop-color="#3b3f45"/></linearGradient>
 <linearGradient id="clay${uid}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d27a45"/><stop offset=".6" stop-color="#a24e24"/><stop offset="1" stop-color="#6f3216"/></linearGradient>
 <linearGradient id="iron${uid}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#57524d"/><stop offset=".5" stop-color="#2b2826"/><stop offset="1" stop-color="#121110"/></linearGradient>
+<linearGradient id="brass${uid}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1cf7a"/><stop offset=".55" stop-color="#c9963a"/><stop offset="1" stop-color="#8a6418"/></linearGradient>
+<linearGradient id="copper${uid}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6956a"/><stop offset=".5" stop-color="#b5552c"/><stop offset="1" stop-color="#6e2d12"/></linearGradient>
 <radialGradient id="crust${uid}" cx="45%" cy="40%"><stop offset="0" stop-color="#f6d27a"/><stop offset=".7" stop-color="#e2a646"/><stop offset="1" stop-color="#a8641e"/></radialGradient>
 <clipPath id="cl${uid}"><circle cx="${C}" cy="${C}" r="${R}"/></clipPath>
 </defs>

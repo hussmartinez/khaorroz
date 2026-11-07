@@ -1,0 +1,17 @@
+---
+// Area landing page (/spain, /sham, /ar/sham …): the home view limited to one area, in its theme.
+import Layout from "../../layouts/Layout.astro";
+import HomeView from "../../components/HomeView.astro";
+import { LANGS, langParam, site, tr, type Lang } from "../../lib/site";
+import { areaIds, areaView } from "../../lib/areas";
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => areaIds().map((id) => ({ params: { lang: langParam(lang), area: id }, props: { lang, id } })));
+}
+const { lang, id } = Astro.props as { lang: Lang; id: string };
+const m = site(lang);
+const area = areaView(id, lang)!;
+---
+<Layout lang={lang} path={`${id}.html`} title={area.name} active="recipes" bodyClass="is-home" theme={area.theme}
+        description={area.copy.heroLede} crumbs={[[area.name, ""]]}>
+  <HomeView m={m} area={area} />
+</Layout>

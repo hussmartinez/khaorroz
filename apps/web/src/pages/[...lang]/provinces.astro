@@ -12,14 +12,29 @@ const m = site(lang);
       <h1>{tr(lang, "regionsTitle")}</h1>
       <p class="lede">{tr(lang, "regionsLede")}</p>
     </div></header>
-    <section class="wrap"><div class="regions">
-      {m.regions.map((r, i) => (
-        <a class="region" href={`${langBase(lang)}provinces/${r.slug}`} style={`--i:${i % 12}`} data-reveal>
-          <div class="region-pans" aria-hidden="true" set:html={r.recipes.slice(0, 3).map((d) => panHtml(d, { steam: false })).join("")} />
-          <div class="region-text"><h3>{r.name}</h3><p>{nDishes(lang, r.recipes.length)}</p></div>
-          <span class="arrow" aria-hidden="true">→</span>
-        </a>
-      ))}
-    </div></section>
+    {m.areas.map((a) => (
+      <section class="wrap area-regions" id={a.id} data-theme={a.theme}>
+        <header class="area-group-head">
+          <h2>{a.name}</h2>
+          <a href={`${langBase(lang)}${a.id}`}>{tr(lang, "exploreArea", { name: a.name })} <span class="arrow" aria-hidden="true">→</span></a>
+        </header>
+        {a.regionList.length === 0 ? <p class="note">{tr(lang, "areaSoon")}</p> : (
+          <div class="regions">
+            {a.regionList.map((r, i) => (
+              <a class="region" href={`${langBase(lang)}provinces/${r.slug}`} style={`--i:${i % 12}`} data-reveal>
+                <div class="region-pans" aria-hidden="true" set:html={r.recipes.slice(0, 3).map((d) => panHtml(d, { steam: false })).join("")} />
+                <div class="region-text"><h3>{r.name}</h3><p>{nDishes(lang, r.recipes.length)}</p></div>
+                <span class="arrow" aria-hidden="true">→</span>
+              </a>
+            ))}
+          </div>
+        )}
+      </section>
+    ))}
+    {(() => { const loose = m.regions.filter((r) => !r.area); return loose.length > 0 && (
+      <section class="wrap area-regions"><div class="regions">
+        {loose.map((r) => <a class="region" href={`${langBase(lang)}provinces/${r.slug}`}><div class="region-text"><h3>{r.name}</h3><p>{nDishes(lang, r.recipes.length)}</p></div></a>)}
+      </div></section>
+    ); })()}
   </main>
 </Layout>

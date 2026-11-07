@@ -1,0 +1,148 @@
+---
+// The home page (all areas) and each area page share this view. With `area` set, everything is
+// limited to that area and the page wears the area's theme (set on <body> by the layout).
+import Grid from "./Grid.astro";
+import Ad from "./Ad.astro";
+import { langBase, tr, nDishes, shortTex, panHtml, vtName, type SiteModel, type AreaView, type Page } from "../lib/site";
+
+interface Props { m: SiteModel; area?: AreaView }
+const { m, area } = Astro.props;
+const lang = m.lang;
+const base = langBase(lang);
+const scoped = area ? m.areas.find((a) => a.id === area.id)! : undefined;
+const recipes: Page[] = scoped ? scoped.recipes : m.recipes;
+const regions = (scoped ? scoped.regionList : m.regions).filter((r) => r.recipes.length);
+const counts = { seco: 0, meloso: 0, caldoso: 0 } as Record<string, number>;
+for (const r of recipes) if (r.texture in counts) counts[r.texture]++;
+const PREFERRED: Record<string, string> = { spain: "paella-valenciana", sham: "maqluba" };
+const heroDish = recipes.find((r) => r.slug === PREFERRED[area?.id ?? "spain"]) ?? recipes.find((r) => r.slug === "paella-valenciana") ?? recipes[0];
+const sample = (tex: string) => recipes.find((r) => r.texture === tex && r.spec && !["negro", "costra", "horno"].includes(r.spec.base));
+const title = area ? area.copy.heroTitle : tr(lang, "heroTitle");
+const lede = area ? area.copy.heroLede : tr(lang, "heroLede");
+const lines = title.split("<br>");
+const textures = [["seco", "secoDesc"], ["meloso", "melosoDesc"], ["caldoso", "caldosoDesc"]] as const;
+// Home: one grid per area that has dishes, so each tradition keeps its own heading and theme.
+const groups = area ? [] : m.areas.filter((a) => a.recipes.length);
+const showAreaFilter = !area && groups.length > 1;
+---
+<main class={`home${area ? ` area-home area-${area.id}` : ""}`}>
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"><span></span><span></span><span></span></div>
+    {area?.theme === "sham" && <div class="hero-ornament" aria-hidden="true"></div>}
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="kicker hero-kicker">{area ? area.name : tr(lang, "heroKicker")}</p>
+        <h1 class="hero-title">
+          {lines.map((line) => <span class="line">{line.split(/\s+/).filter(Boolean).map((w, i) => <><span class="word" style={`--w:${i}`}>{w}</span>{" "}</>)}</span>)}
+        </h1>
+        <p class="lede hero-lede">{lede}</p>
+        <a class="btn btn-primary hero-cta" href="#recipes">{tr(lang, "exploreDishes")} <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-visual">
+        {heroDish && <div class="hero-pan-wrap" style={`view-transition-name:${vtName("pan", heroDish.slug)}`} set:html={panHtml(heroDish, { cls: "hero-pan", label: true })} />}
+        <div class="hero-stat"><strong>{recipes.length}</strong><span>{tr(lang, "navRecipes")}</span></div>
+        <div class="hero-stat hero-stat-2"><strong>{(scoped ? scoped.regionList : m.regions).length}</strong><span>{tr(lang, "navRegions")}</span></div>
+      </div>
+    </div>
+  </section>
+
+  {recipes.length > 0 && (
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        {[0, 1].map(() => recipes.map((r) => <><span>{r.title}</span><i>✺</i></>))}
+      </div>
+    </div>
+  )}
+
+  {!area && (
+    <section class="wrap areas-sec">
+      <p class="kicker" data-reveal>{tr(lang, "areasKicker")}</p>
+      <h2 class="section-title big" data-reveal>{tr(lang, "areasTitle")}</h2>
+      <div class="area-tiles">
+        {m.areas.map((a, i) => (
+          <a class="area-tile" href={`${base}${a.id}`} data-theme={a.theme} data-reveal style={`--i:${i}`}>
+            <div class="area-pans" aria-hidden="true" set:html={a.recipes.slice(0, 3).map((d) => panHtml(d, { steam: false })).join("")} />
+            <div class="area-text">
+              <h3>{a.name}</h3>
+              <p>{a.recipes.length ? `${nDishes(lang, a.recipes.length)} · ${a.regionList.length} ${tr(lang, "navRegions").toLowerCase()}` : tr(lang, "areaSoon")}</p>
+            </div>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {recipes.length > 0 && (
+    <section class="wrap textures-sec">
+      <p class="kicker" data-reveal>{tr(lang, "texturesKicker")}</p>
+      <h2 class="section-title big" data-reveal>{tr(lang, "texturesTitle")}</h2>
+      <div class="textures">
+        {textures.map(([tex, desc], i) => {
+          const s = sample(tex);
+          return (
+            <a class={`tex-tile tex-${tex}`} href="#recipes" data-set-texture={tex} data-reveal style={`--i:${i}`}>
+              <div class="tex-pan" set:html={s ? panHtml(s, { steam: true }) : ""} />
+              <div><strong>{shortTex(lang, tex)}</strong><span>{tr(lang, desc)}</span></div>
+              <em>{counts[tex]}</em>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  <div class="wrap"><Ad lang={lang} kind="banner" /></div>
+
+  <section class="wrap" id="recipes" data-one={tr(lang, "dish")} data-many={tr(lang, "dishes")}>
+    {recipes.length === 0 ? <p class="note">{tr(lang, "areaSoon")}</p> : (
+      <>
+        <div class="toolbar" data-reveal>
+          <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input type="search" id="q" placeholder={tr(lang, "searchPlaceholder")} aria-label={tr(lang, "searchLabel")} autocomplete="off"></label>
+          {showAreaFilter && (
+            <div class="filters seg area-filter" role="group" aria-label={tr(lang, "area")}>
+              <button type="button" data-filter-area="" aria-pressed="true">{tr(lang, "allAreas")}</button>
+              {groups.map((a) => <button type="button" data-filter-area={a.id}>{a.name}</button>)}
+            </div>
+          )}
+          <div class="filters seg" role="group" aria-label={tr(lang, "texture")}>
+            <button type="button" data-filter-texture="" aria-pressed="true">{tr(lang, "all")}</button>
+            {(["seco", "meloso", "caldoso"] as const).map((tex) => <button type="button" data-filter-texture={tex}><i class={`dot dot-${tex}`}></i>{shortTex(lang, tex)}</button>)}
+          </div>
+          <div class="filters regions-filter" role="group" aria-label={tr(lang, "region")}>
+            <button type="button" data-filter-province="" aria-pressed="true">{tr(lang, "allRegions")}</button>
+            {regions.map((r) => <button type="button" data-filter-province={r.file} data-area={r.area}>{r.name}</button>)}
+          </div>
+          {/* Phones: the chip rows collapse into native dropdowns (kept in sync with the chips by site.js) */}
+          <div class="filter-selects">
+            {showAreaFilter && (
+              <select data-select="area" aria-label={tr(lang, "area")}>
+                <option value="">{tr(lang, "area")}: {tr(lang, "allAreas")}</option>
+                {groups.map((a) => <option value={a.id}>{a.name}</option>)}
+              </select>
+            )}
+            <select data-select="texture" aria-label={tr(lang, "texture")}>
+              <option value="">{tr(lang, "texture")}: {tr(lang, "all")}</option>
+              {(["seco", "meloso", "caldoso"] as const).map((tex) => <option value={tex}>{shortTex(lang, tex)}</option>)}
+            </select>
+            <select data-select="province" aria-label={tr(lang, "region")}>
+              <option value="">{tr(lang, "allRegions")}</option>
+              {regions.map((r) => <option value={r.file} data-area={r.area}>{r.name}</option>)}
+            </select>
+          </div>
+        </div>
+        <p class="count" id="count">{nDishes(lang, recipes.length)}</p>
+        {area || groups.length <= 1 ? <Grid list={recipes} m={m} id="grid" /> : groups.map((a) => (
+          <section class="area-group" data-area={a.id} data-theme={a.theme}>
+            <header class="area-group-head">
+              <h2>{a.name}</h2>
+              <a href={`${base}${a.id}`}>{tr(lang, "exploreArea", { name: a.name })} <span class="arrow" aria-hidden="true">→</span></a>
+            </header>
+            <Grid list={a.recipes} m={m} />
+          </section>
+        ))}
+        <p class="empty" id="empty" hidden>{tr(lang, "noMatch")}</p>
+      </>
+    )}
+  </section>
+</main>

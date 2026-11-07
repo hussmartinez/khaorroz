@@ -2,7 +2,7 @@
 // Generic long-form page (region, history, about): hero + optional TOC + rendered Markdown.
 import Toc from "./Toc.astro";
 import Notice from "./Notice.astro";
-import { renderPage, HTML_LANG, DEFAULT_LANG, type SiteModel, type Page } from "../lib/site";
+import { renderPage, HTML_LANG, DEFAULT_LANG, isRtl, type SiteModel, type Page } from "../lib/site";
 interface Props { p: Page; m: SiteModel; kicker: string; title?: string }
 const { p, m, kicker, title } = Astro.props;
 const { html, headings } = renderPage(p, m);
@@ -19,7 +19,7 @@ const { html, headings } = renderPage(p, m);
   </header>
   <div class={`page${headings.length > 1 ? " with-toc" : ""}`}>
     <Toc lang={m.lang} headings={headings} />
-    <article class="prose" lang={p.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined} set:html={html} />
+    <article class="prose" lang={p.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined} dir={p.status === "missing" && isRtl(m.lang) ? "ltr" : undefined} set:html={html} />
   </div>
   <slot />
 </main>

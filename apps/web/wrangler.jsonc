@@ -1,17 +1,24 @@
-// Cloudflare Worker (static assets only) serving the Astro build.
-// Deployed by .github/workflows/deploy.yml on every push to main.
+// Cloudflare Worker serving the Astro build. Deployed by .github/workflows/deploy.yml on every push to main.
 // Clean URLs: files are built as /recipes/x.html and /es/index.html; "auto-trailing-slash" serves them
 // at /recipes/x and /es/ and 307-redirects old /x.html links to the clean form.
+// worker/index.ts runs first only to 301 the old hostnames (arroz., khaorice.) to khaorroz.forfreedom.app.
 {
   "$schema": "../../node_modules/wrangler/config-schema.json",
   "name": "khaorice",
+  "main": "worker/index.ts",
   "compatibility_date": "2026-11-01",
   "assets": {
     "directory": "./dist",
+    "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
-    "not_found_handling": "404-page"
+    "not_found_handling": "404-page",
+    "run_worker_first": true
   },
-  "routes": [{ "pattern": "arroz.forfreedom.app", "custom_domain": true }],
+  "routes": [
+    { "pattern": "khaorroz.forfreedom.app", "custom_domain": true },
+    { "pattern": "arroz.forfreedom.app", "custom_domain": true },
+    { "pattern": "khaorice.forfreedom.app", "custom_domain": true }
+  ],
   "workers_dev": false,
   "observability": { "enabled": false }
 }

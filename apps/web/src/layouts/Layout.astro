@@ -1,5 +1,5 @@
 ---
-import { LANGS, HTML_LANG, langBase, tr, type Lang } from "../lib/site";
+import { LANGS, HTML_LANG, langBase, tr, isRtl, type Lang } from "../lib/site";
 import { UI } from "../lib/i18n";
 import { ADS } from "../lib/ads";
 
@@ -10,8 +10,12 @@ interface Props {
   active: "recipes" | "history" | "provinces" | "about" | "";
   description?: string;
   bodyClass?: string;
+  /** Area theme id ("spain" = original look, "sham" = Shami); see style.css [data-theme]. */
+  theme?: string;
+  /** Breadcrumb trail above the page (area › region), each [label, href]. */
+  crumbs?: [string, string][];
 }
-const { lang, path, title, active, description, bodyClass } = Astro.props;
+const { lang, path, title, active, description, bodyClass, theme = "spain", crumbs = [] } = Astro.props;
 const base = langBase(lang);
 // Clean URLs: "x.html" → "x", "index.html" / "a/index.html" → "" / "a/". Files are still built as .html;
 // Cloudflare serves /x from x.html and 307-redirects old /x.html links (wrangler html_handling auto-trailing-slash).
@@ -30,7 +34,7 @@ const nav = [
 ] as const;
 ---
 <!doctype html>
-<html lang={HTML_LANG[lang]}>
+<html lang={HTML_LANG[lang]} dir={isRtl(lang) ? "rtl" : "ltr"}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -49,15 +53,16 @@ const nav = [
 <script is:inline>document.documentElement.classList.add("js")</script>
 <link rel="preload" href="/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts.css">
+<link rel="stylesheet" href="/fonts-arabic.css">
 <link rel="stylesheet" href="/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥘</text></svg>">
 {ADS.mode === "live" && ADS.head && <Fragment set:html={ADS.head} />}
 </head>
-<body class={bodyClass}>
+<body class={bodyClass} data-theme={theme}>
 <div class="progress" aria-hidden="true"></div>
 <a class="skip" href="#main">↓</a>
 <header class="site-header" data-pagefind-ignore>
-  <a class="brand" href={base}><span class="brand-pan" aria-hidden="true"></span><span>Arròs</span></a>
+  <a class="brand" href={base}><span class="brand-pan" aria-hidden="true"></span><span>Khaorroz</span></a>
   <nav class="main-nav">
     {nav.map(([h, l, k]) => <a href={`${base}${h}`} aria-current={k === active ? "page" : undefined}>{l}</a>)}
   </nav>
@@ -69,6 +74,14 @@ const nav = [
   </details>
 </header>
 <div id="main">
+{crumbs.length > 0 && (
+  <nav class="crumbs wrap" aria-label="Breadcrumb" data-pagefind-ignore>
+    <ol>
+      <li><a href={base}>{tr(lang, "home")}</a></li>
+      {crumbs.map(([label, href], i) => <li>{i === crumbs.length - 1 && !href ? <span aria-current="page">{label}</span> : <a href={href}>{label}</a>}</li>)}
+    </ol>
+  </nav>
+)}
 <slot />
 </div>
 <footer class="site-footer" data-pagefind-ignore>

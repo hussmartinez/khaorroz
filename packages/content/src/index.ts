@@ -6,9 +6,11 @@ import { createHash } from "node:crypto";
 import { z } from "zod";
 import { specFrom, type PanSpec } from "@arros/pans";
 
-export const LANGS = ["en", "es", "ca", "th"] as const;
+export const LANGS = ["en", "es", "ca", "th", "ar"] as const;
 export type Lang = (typeof LANGS)[number];
 export const DEFAULT_LANG: Lang = "en";
+export const RTL_LANGS: readonly Lang[] = ["ar"];
+export const isRtl = (lang: Lang) => RTL_LANGS.includes(lang);
 
 // Repo layout: <repo>/content (English) and <repo>/content/i18n/<lang>. Before the move to
 // content/ the files lived in the repo root, so fall back to that.
@@ -58,11 +60,30 @@ export const provName = (n: string) => n.replace(/^Prov[ií]ncia\s+(de\s+|d')?/i
 // description ("rice with rabbit and snails") in their own language, and region names in their language.
 type Labels = Record<string, Partial<Record<Lang, string>>>;
 const GLOSS_FILE = join(CONTENT_DIR, "glosses.json");
-const LABELS: { recipes: Labels; regions: Labels } = existsSync(GLOSS_FILE)
-  ? { recipes: {}, regions: {}, ...JSON.parse(readFileSync(GLOSS_FILE, "utf8")) }
-  : { recipes: {}, regions: {} };
+interface AreaDef { name: Partial<Record<Lang, string>>; regions: string[] }
+const LABELS: { recipes: Labels; regions: Labels; areas: Record<string, AreaDef> } = existsSync(GLOSS_FILE)
+  ? { recipes: {}, regions: {}, areas: {}, ...JSON.parse(readFileSync(GLOSS_FILE, "utf8")) }
+  : { recipes: {}, regions: {}, areas: {} };
 export const glossFor = (file: string, lang: Lang) => LABELS.recipes[file]?.[lang] ?? LABELS.recipes[file]?.en ?? "";
 export const regionLabel = (file: string, lang: Lang) => LABELS.regions[file]?.[lang] ?? LABELS.regions[file]?.en;
+
+// ---------- areas (glosses.json "areas"): top level above regions, e.g. Spain / Bilad al-Sham ----------
+export interface Area {
+  id: string;
+  name: (lang: Lang) => string;
+  regions: string[];
+  theme?: string; // optional visual theme id (defaults to the area id)
+  hero?: Partial<Record<Lang, { heroTitle: string; heroLede: string }>>; // optional area-page copy override
+}
+export const AREAS: Area[] = Object.entries(LABELS.areas).map(([id, a]) => ({
+  id,
+  name: (lang: Lang) => a.name?.[lang] ?? a.name?.en ?? id,
+  regions: a.regions ?? [],
+  theme: (a as any).theme,
+  hero: (a as any).hero,
+}));
+/** Area id of a region file (provincial_x.md), or undefined if it is in no area. */
+export const areaOf = (regionFile: string) => AREAS.find((a) => a.regions.includes(regionFile))?.id;
 
 export function kindOf(file: string): Kind | null {
   if (/^recipe_.+\.md$/.test(file)) return "recipe";
@@ -143,7 +164,7 @@ export function parse(file: string, src: string, en?: Page): Page | null {
   if (!en && kind === "recipe") {
     const sec4 = body.split(/^## /m).find((s) => /^4\./.test(s)) ?? body;
     const recipeText = sec4.split("\n").filter((l) => l.startsWith("|")).join("\n") || sec4;
-    spec = specFrom({ slug, title, texture, vessel: field("Traditional Cooking Vessel"), recipeText });
+    spec = specFrom({ slug, title, texture, vessel: field("Traditional Cooking Vessel"), recipeText, area: provinces[0] ? areaOf(provinces[0].file) : undefined });
   }
   return {
     file, kind, slug, url: urlFor(kind, slug), title, altTitle, gloss: "", body,
@@ -176,6 +197,11 @@ export function loadEnglish(): Page[] {
   const names = new Set(files);
   for (const p of pages) for (const x of p.provinces)
     if (!names.has(x.file)) errors.push(`${p.file}: links to ${x.file}, which does not exist`);
+  // Areas: every region should belong to one; areas may list regions still being researched.
+  for (const p of pages) if (p.kind === "province" && AREAS.length && !areaOf(p.file))
+    problems.push(`${p.file}: region is in no area (add it to "areas" in glosses.json)`);
+  for (const a of AREAS) for (const f of a.regions) if (!names.has(f))
+    problems.push(`glosses.json: area "${a.id}" lists ${f}, which does not exist yet`);
   if (!pages.some((p) => p.kind === "recipe")) errors.push(`no recipe_*.md files found in ${CONTENT_DIR}`);
   if (errors.length) throw new ContentError(`Content check failed (${errors.length}):\n  - ${errors.join("\n  - ")}`);
   return (enCache = pages);
