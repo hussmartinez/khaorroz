@@ -1,6 +1,6 @@
 # Arrossos d'Espanya: A Field Atlas of Spanish Rice
 
-A granular, multilingual (Castellano / Valencià / Català / English) atlas of Spain's rice traditions. It is rooted in the **Valencian Community** (València, Alacant/Alicante, Castelló/Castellón) and extends to every other rice-cooking region of Spain. **108 recipes** document **town-by-town variations** wherever the sources support them, plus forgotten and endangered village rices. For the long story see [A History of Rice in Spain](history.md).
+A granular, multilingual (Castellano / Valencià / Català / English) atlas of Spain's rice traditions. It is rooted in the **Valencian Community** (València, Alacant/Alicante, Castelló/Castellón) and extends to every other rice-cooking region of Spain. **125 recipes** document **town-by-town variations** wherever the sources support them, plus forgotten and endangered village rices. For the long story see [A History of Rice in Spain](history.md).
 
 ## 1. How to Use This Atlas
 *   **Region pages** describe cultural sub-regions and link to their recipes.
@@ -12,23 +12,27 @@ A granular, multilingual (Castellano / Valencià / Català / English) atlas of S
 ## 2. Region Index
 | Region | Recipes |
 |---|---|
-| [València](provincial_valencia.md) | 29 |
+| [Valencia](provincial_valencia.md) | 29 |
 | [Alicante (incl. La Vega Baja)](provincial_alicante.md) | 26 |
-| [Castellón](provincial_castellon.md) | 10 |
-| [Región de Murcia](provincial_murcia.md) | 11 |
-| [Catalunya](provincial_catalunya.md) | 8 |
-| [Illes Balears](provincial_baleares.md) | 5 |
-| [Andalucía](provincial_andalucia.md) | 11 |
-| [Aragón, Navarra & La Rioja](provincial_aragon_navarra_rioja.md) | 6 |
+| [Castellon](provincial_castellon.md) | 10 |
+| [Murcia](provincial_murcia.md) | 11 |
+| [Catalonia](provincial_catalunya.md) | 8 |
+| [Balearic Islands](provincial_baleares.md) | 5 |
+| [Andalusia](provincial_andalucia.md) | 11 |
+| [Aragon, Navarre & La Rioja](provincial_aragon_navarra_rioja.md) | 6 |
 | [Castilla-La Mancha & Extremadura](provincial_castilla_la_mancha_extremadura.md) | 5 |
-| [Castilla y León](provincial_castilla_y_leon.md) | 4 |
+| [Castile and Leon](provincial_castilla_y_leon.md) | 4 |
 | [Madrid](provincial_madrid.md) | 2 |
-| [Northern Spain (Galicia, Asturias, Cantabria, País Vasco)](provincial_norte.md) | 9 |
-| [Canarias](provincial_canarias.md) | 2 |
+| [Northern Spain (Galicia, Asturias, Cantabria, Basque Country)](provincial_norte.md) | 9 |
+| [Canary Islands](provincial_canarias.md) | 2 |
+| [Palestine](provincial_palestine.md) | 10 |
+| [Lebanon](provincial_lebanon.md) | 11 |
+| [Jordan](provincial_jordan.md) | 7 |
+| [Syria](provincial_syria.md) | 11 |
 
 ## 3. Master Directory of Recipes
 
-### València
+### Valencia
 *   [Arroz al Horno / Arròs al Forn](recipe_arroz_al_horno.md) · Seco
 *   [Arroz al Horno con Guisantes / Arròs al Forn amb Pèsols](recipe_arros_al_forn_amb_pesols.md) ⚠️ · Seco
 *   [Arroz al Horno con Pasas y Garbanzos / Arròs al Forn amb Panses i Cigrons (Arròs Viudo)](recipe_arros_al_forn_amb_panses_i_cigrons.md) · Seco
@@ -76,7 +80,7 @@ A granular, multilingual (Castellano / Valencià / Català / English) atlas of S
 *   [Arroz y Gatet (Arroz con Pintarroja) / Arròs amb Gatet](recipe_arroz_y_gatet.md) ⚠️ · Caldoso
 *   [Caldero de Santa Pola y Tabarca / Caldero Santapolero i Tabarquí](recipe_caldero_santa_pola_tabarca.md) · Meloso
 
-### Castellón
+### Castellon
 *   [Arrocito del Grau de Castelló / Arrosset del Grau](recipe_arrocito_del_grau.md) ⚠️ · Meloso
 *   [Arroz Caldoso de Langostinos de Vinaròs / Arròs Caldós de Llagostins de Vinaròs](recipe_arroz_caldoso_langostinos_vinaros.md) · Caldoso
 *   [Arroz con Alcachofas de Benicarló / Arròs amb Carxofes de Benicarló](recipe_arroz_con_alcachofas_benicarlo.md) · Seco
@@ -85,7 +89,7 @@ A granular, multilingual (Castellano / Valencià / Català / English) atlas of S
 *   [Arroz de Montaña de Castellón / Arròs de Muntanya (amb Conill, Caragols i Bolets)](recipe_arroz_de_montana_castellon.md) ⚠️ · Seco
 *   [Olla de Benicarló (con Arroz) / Olla de Benicarló amb Arròs](recipe_olla_de_benicarlo.md) ⚠️ · Caldoso
 
-### Región de Murcia
+### Murcia
 *   [Arroz Caldero del Mar Menor / Caldero Murciano](recipe_caldero_del_mar_menor.md) · Meloso
 *   [Arroz con Boquerones y Pava (Coliflor) / Arroz Huertano de Boquerones](recipe_arroz_con_boquerones_y_pava_murciano.md) · Seco
 *   [Arroz con Conejo y Caracoles Murciano / Arroz con Conejo y Serranas](recipe_arroz_conejo_caracoles_murciano.md) · Seco
@@ -96,7 +100,7 @@ A granular, multilingual (Castellano / Valencià / Català / English) atlas of S
 *   [Arroz y Pollo con Alcaciles / Arroz Huertano de Pollo y Alcachofas](recipe_arroz_y_pollo_con_alcaciles.md) · Seco
 *   [Arroz y Verduras con Bacalao / Arroz Huertano de Verduras (Murcia)](recipe_arroz_y_verduras_con_bacalao_murciano.md) · Seco
 
-### Catalunya
+### Catalonia
 *   [Arroz a la Cazuela / Arròs a la Cassola](recipe_arros_a_la_cassola.md) · Meloso
 *   [Arroz con Conejo y Caracoles Catalán / Arròs amb Conill i Cargols](recipe_arros_amb_conill_i_cargols_catala.md) ⚠️ · Seco
 *   [Arroz de Montaña Catalán / Arròs de Muntanya (Cerdanya, Terres de Lleida)](recipe_arros_de_muntanya_catala.md) · Meloso
@@ -106,14 +110,14 @@ A granular, multilingual (Castellano / Valencià / Català / English) atlas of S
 *   [Arroz Rossejat / Arrossejat (L'Ametlla de Mar)](recipe_arrossejat.md) ⚠️ · Seco
 *   [Arroz, Col y Alubias / Arròs, Col i Fesols (Delta de l'Ebre)](recipe_arros_col_i_fesols.md) · Caldoso
 
-### Illes Balears
+### Balearic Islands
 *   [Arroz de Langosta Menorquín / Arròs de Llagosta (Fornells)](recipe_arros_de_llagosta_menorca.md) ⚠️ · Caldoso
 *   [Arroz de Matanza Ibicenco / Arròs de Matances (Eivissa)](recipe_arros_de_matances_eivissa.md) ⚠️ · Caldoso
 *   [Arroz Marinero Balear / Arròs de Peix (Caldós de Pescadors)](recipe_arros_de_peix_balear.md) ⚠️ · Caldoso
 *   [Arroz Sucio Mallorquín / Arròs Brut](recipe_arros_brut.md) · Caldoso
 *   [Escudilla de Ángel / Escudella d'Àngel (Arroz con Leche Mallorquín Antiguo)](recipe_escudella_d_angel.md) ⚠️ · Meloso
 
-### Andalucía
+### Andalusia
 *   [Arroz a la Sevillana / Arroz con Cosas](recipe_arroz_a_la_sevillana.md) ⚠️ · Meloso
 *   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor / Arroz con Cangrejos de las Marismas](recipe_arroz_con_cangrejos_isla_mayor.md) ⚠️ · Caldoso
 *   [Arroz Caldoso con Pato de las Marismas / Arroz de Pato Cortijero](recipe_arroz_caldoso_con_pato_marismas.md) · Caldoso
@@ -125,7 +129,7 @@ A granular, multilingual (Castellano / Valencià / Català / English) atlas of S
 *   [Arroz Marinero Andaluz / Arroz Caldoso Marinero (Málaga y Cádiz)](recipe_arroz_marinero_andaluz.md) ⚠️ · Caldoso
 *   [Perol Cordobés / Arroz de Perol (Día de San Rafael)](recipe_perol_cordobes.md) ⚠️ · Meloso
 
-### Aragón, Navarra & La Rioja
+### Aragon, Navarre & La Rioja
 *   [Arroz a la Zaragozana / Arroz a la Aragonesa](recipe_arroz_a_la_zaragozana.md) ⚠️ · Meloso
 *   [Arroz con Borrajas y Almejas / Borrajas con Arroz y Almejas](recipe_arroz_con_borrajas_y_almejas.md) · Caldoso
 *   [Arroz con Conejo y Caracoles (Aragón, Navarra y La Rioja) / Arroz de Monte del Valle del Ebro](recipe_arroz_con_conejo_y_caracoles_aragones.md) ⚠️ · Meloso
@@ -139,13 +143,13 @@ A granular, multilingual (Castellano / Valencià / Català / English) atlas of S
 *   [Arroz con Miel de Bogarra / Arroz con Miel Navideño (Sierra de Albacete)](recipe_arroz_con_miel_bogarra.md) ⚠️ · Meloso
 *   [Cardillos con Arroz / Tagarninas con Arroz](recipe_cardillos_con_arroz.md) ⚠️ · Meloso
 
-### Castilla y León
+### Castile and Leon
 *   [Arroz a la Zamorana / Arroz Zamorano](recipe_arroz_a_la_zamorana.md) · Meloso
 *   [Arroz con Cangrejos (La Bañeza) / Arroz con Cangrejos de Río Bañezano](recipe_arroz_con_cangrejos_banezano.md) ⚠️ · Meloso
 *   [Chanfaina Salmantina / Arroz de Chanfaina](recipe_chanfaina_salmantina.md) ⚠️ · Meloso
 *   [Potaje Bañezano (Garbanzos con Arroz) / Potaje de La Bañeza](recipe_potaje_banezano.md) ⚠️ · Caldoso
 
-### Northern Spain (Galicia, Asturias, Cantabria, País Vasco)
+### Northern Spain (Galicia, Asturias, Cantabria, Basque Country)
 *   [Arroz a la Asturiana / Arroz con Cosas Asturiano](recipe_arroz_a_la_asturiana.md) ⚠️ · Seco
 *   [Arroz Caldoso con Bogavante del Cantábrico / Arroz con Lumbrigante (Rinlo y la Mariña)](recipe_arroz_con_bogavante_norte.md) · Caldoso
 *   [Arroz con Almejas / Arroz con Ameixas](recipe_arroz_con_almejas.md) ⚠️ · Caldoso
@@ -156,9 +160,34 @@ A granular, multilingual (Castellano / Valencià / Català / English) atlas of S
 *   [Chipirones en su Tinta con Arroz Blanco / Txipiroiak Bere Tintan Arroz Zuriarekin](recipe_chipirones_en_su_tinta_con_arroz.md) ⚠️ · Seco
 *   [Lamprea a la Bordelesa con Arroz / Lamprea á Bordelesa con Arroz (Arbo)](recipe_lamprea_a_la_bordelesa_con_arroz.md) ⚠️ · Seco
 
-### Canarias
+### Canary Islands
 *   [Arroz a la Cubana (Canarias) / Arroz con Huevo y Plátano](recipe_arroz_a_la_cubana_canario.md) ⚠️ · Seco
 *   [Arroz Amarillo Canario / Arroz Canario](recipe_arroz_amarillo_canario.md) ⚠️ · Seco
+
+### Palestine
+*   [Mahshi Kousa wa Batinjan / محشي كوسا وباذنجان](recipe_mahshi.md) ⚠️ · Meloso
+*   [Maqluba / مقلوبة](recipe_maqluba.md) ⚠️ · Seco
+*   [Qidreh / قدرة (al-Qidra al-Khaliliyya)](recipe_qidreh.md) · Seco
+*   [Ruz bi-Djaj ma'a Hashweh / رز بالدجاج مع الحشوة](recipe_ruz_bi_djaj_hashweh.md) ⚠️ · Seco
+
+### Lebanon
+*   [Fasoulia w Riz / فاصوليا ورز](recipe_fasoulia_w_riz.md) ⚠️ · Caldoso
+*   [Mujaddara / مجدرة (Mudardara / مدردرة)](recipe_mujaddara.md) · Seco
+*   [Riz a Djej / رز ع دجاج](recipe_riz_a_djej.md) ⚠️ · Seco
+*   [Riz bi Sh'ariyyeh / رز بشعيرية](recipe_riz_bi_shariyyeh.md) · Seco
+*   [Sayadieh / صيادية](recipe_sayadieh.md) ⚠️ · Seco
+*   [Warak Enab / ورق عنب](recipe_warak_enab.md) ⚠️ · Meloso
+
+### Jordan
+*   [Mansaf / منسف](recipe_mansaf.md) ⚠️ · Seco
+*   [Zarb / زرب](recipe_zarb.md) ⚠️ · Seco
+
+### Syria
+*   [Mahshi Halabi (Aleppo Stuffed Vegetables) / محشي حلبي](recipe_mahshi_halabi.md) ⚠️ · Meloso
+*   [Ouzi / أوزي](recipe_ouzi.md) ⚠️ · Seco
+*   [Riz bi Foul (Rice with Fava Beans) / رز بفول](recipe_riz_bi_foul.md) ⚠️ · Seco
+*   [Riz bi Haleeb (Rice Pudding) / رز بحليب](recipe_riz_bi_haleeb.md) · Meloso
+*   [Shakriyeh with Vermicelli Rice / شاكرية مع رز بشعيرية](recipe_shakriyeh.md) · Seco
 
 ## 4. Dish Families (cross-regional cousins)
 The same idea is cooked differently from town to town and region to region. Each recipe's **Related Dishes** section links its cousins.
@@ -167,47 +196,51 @@ The same idea is cooked differently from town to town and region to region. Each
 *   **Mountain & game rices:** Upland rices built on game, farmyard birds and wild mushrooms. [Arroz de Montaña de Castellón](recipe_arroz_de_montana_castellon.md), [Arroz de Montaña Catalán](recipe_arros_de_muntanya_catala.md), [Arroz con Liebre](recipe_arroz_con_liebre.md), [Arroz con Perdiz](recipe_arroz_con_perdiz.md), [Arroz con Pitu de Caleya](recipe_arroz_con_pitu_de_caleya.md), [Arroz con Conejo](recipe_arroz_con_conejo.md), [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md)
 *   **Duck & wetland rices:** Rices of the great rice marshes: Albufera, Ebro Delta, Guadalquivir. [Arroz con Pato](recipe_arroz_con_pato.md), [Arroz Caldoso con Pato de las Marismas](recipe_arroz_caldoso_con_pato_marismas.md), [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md), [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md), [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md)
 *   **The paella family:** Wide shallow pan, thin layer, seco, and the debate over what counts as 'valenciana'. [Paella Valenciana](recipe_paella_valenciana.md), [Paella de Marisco](recipe_paella_de_marisco.md), [Paella Mixta](recipe_paella_mixta.md), [Paella de Verduras](recipe_paella_de_verduras.md), [Arroz de la Plana](recipe_arros_de_la_plana.md), [Fideuá](recipe_fideua.md), [Arroz a la Alicantina](recipe_arroz_a_la_alicantina.md), [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md), [Paella con Albóndigas](recipe_paella_amb_mandonguilles.md), [Paella a la Riojana](recipe_paella_a_la_riojana.md)
-*   **Fishermen's broth rices:** Unsaleable catch boiled into broth; fish often eaten first, rice cooked in what remains. [Arroz a Banda](recipe_arroz_a_banda.md), [Caldero de Santa Pola y Tabarca](recipe_caldero_santa_pola_tabarca.md), [Arroz Caldero del Mar Menor](recipe_caldero_del_mar_menor.md), [Arroz del Señorito](recipe_arroz_del_senyoret.md), [Arroz Rossejat](recipe_arrossejat.md), [Arroz Marinero Balear](recipe_arros_de_peix_balear.md), [Arroz Marinero Andaluz](recipe_arroz_marinero_andaluz.md), [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md), [Arroz y Gatet (Arroz con Pintarroja)](recipe_arroz_y_gatet.md), [Fideuá](recipe_fideua.md)
+*   **Fishermen's broth rices:** Unsaleable catch boiled into broth; fish often eaten first, rice cooked in what remains. [Arroz a Banda](recipe_arroz_a_banda.md), [Caldero de Santa Pola y Tabarca](recipe_caldero_santa_pola_tabarca.md), [Arroz Caldero del Mar Menor](recipe_caldero_del_mar_menor.md), [Arroz del Señorito](recipe_arroz_del_senyoret.md), [Arroz Rossejat](recipe_arrossejat.md), [Arroz Marinero Balear](recipe_arros_de_peix_balear.md), [Arroz Marinero Andaluz](recipe_arroz_marinero_andaluz.md), [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md), [Arroz y Gatet (Arroz con Pintarroja)](recipe_arroz_y_gatet.md), [Fideuá](recipe_fideua.md), [Sayadieh](recipe_sayadieh.md)
 *   **Cephalopod & ink rices:** Cuttlefish, squid, choco and octopus, with or without their ink. [Arroz Negro](recipe_arroz_negro.md), [Arroz Negro Catalán](recipe_arros_negre_catala.md), [Arroz con Choco](recipe_arroz_con_choco.md), [Arroz Meloso de Pulpo](recipe_arroz_meloso_de_pulpo.md), [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md), [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md), [Arroz con Chipirones y Ajos Tiernos](recipe_arroz_con_chipirones_y_ajos_tiernos.md), [Arroz Caldoso de Sepia y Coliflor](recipe_arros_de_sepia_i_coliflor.md), [Chipirones en su Tinta con Arroz Blanco](recipe_chipirones_en_su_tinta_con_arroz.md)
 *   **Shellfish caldosos & melosos:** Lobster, prawns, mantis shrimp and clams, usually soupy or creamy. [Arroz Caldoso con Bogavante](recipe_arroz_caldoso_con_bogavante.md), [Arroz Caldoso con Bogavante del Cantábrico](recipe_arroz_con_bogavante_norte.md), [Arroz de Langosta Menorquín](recipe_arros_de_llagosta_menorca.md), [Arroz Caldoso de Langostinos de Vinaròs](recipe_arroz_caldoso_langostinos_vinaros.md), [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md), [Arroz con Almejas](recipe_arroz_con_almejas.md), [Arroz Caldoso de Isla Cristina](recipe_arroz_caldoso_isla_cristina.md), [Arroz con Borrajas y Almejas](recipe_arroz_con_borrajas_y_almejas.md), [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md), [Arroz con Rape y Gamba Roja](recipe_arroz_con_rape_y_gamba_roja.md), [Arroz con Mariscos y Pescados de Candamo](recipe_arroz_con_mariscos_candamo.md)
 *   **River & freshwater rices:** Crayfish, eel and lamprey from inland rivers, lagoons and the Miño. [Arroz con Cangrejos (La Bañeza)](recipe_arroz_con_cangrejos_banezano.md), [Arroz del Pedrón de Parayo](recipe_arroz_del_pedron_de_parayo.md), [Lamprea a la Bordelesa con Arroz](recipe_lamprea_a_la_bordelesa_con_arroz.md), [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md), [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md)
 *   **Cazuela / cassola rices:** Rices cooked and served in an earthenware casserole rather than a paella. [Arroz a la Cazuela](recipe_arros_a_la_cassola.md), [Arroz de Pals a la Cazuela](recipe_arros_a_la_cassola_de_pals.md), [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md), [Arroz a la Zaragozana](recipe_arroz_a_la_zaragozana.md), [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md), [Perol Cordobés](recipe_perol_cordobes.md)
-*   **Baked & crust rices:** Finished in the oven (or under embers): the leftover-cocido logic, sometimes sealed with egg. [Arroz al Horno](recipe_arroz_al_horno.md), [Arroz con Costra](recipe_arroz_con_costra.md), [Arroz Empedrado](recipe_arroz_empedrado.md), [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md), [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md), [Arroz al Horno con Guisantes](recipe_arros_al_forn_amb_pesols.md), [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md), [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md)
+*   **Baked & crust rices:** Finished in the oven (or under embers): the leftover-cocido logic, sometimes sealed with egg. [Arroz al Horno](recipe_arroz_al_horno.md), [Arroz con Costra](recipe_arroz_con_costra.md), [Arroz Empedrado](recipe_arroz_empedrado.md), [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md), [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md), [Arroz al Horno con Guisantes](recipe_arros_al_forn_amb_pesols.md), [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md), [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md), [Qidreh](recipe_qidreh.md), [Ouzi](recipe_ouzi.md), [Maqluba](recipe_maqluba.md)
 *   **Empedrado ('cobbled') rices:** Rice studded with beans like cobblestones; Valencian and Murcian versions differ. [Arroz Empedrado](recipe_arroz_empedrado.md), [Arroz Empedrao (Empedrado) Murciano](recipe_arroz_empedrao_murciano.md)
-*   **Winter pot & matanza rices:** Olla-style pots of legumes, pork and offal with the rice cooked in. [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md), [Olla de Benicarló (con Arroz)](recipe_olla_de_benicarlo.md), [Arroz con Pata de Ternera](recipe_arroz_con_pata_de_ternera.md), [Arroz de Matanza Ibicenco](recipe_arros_de_matances_eivissa.md), [Arroz Sucio Mallorquín](recipe_arros_brut.md), [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md), [Arroz con Hígado de Toro](recipe_arroz_con_higado_de_toro.md), [Colas de Cordero con Arroz](recipe_arroz_con_colas_de_cordero.md), [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md), [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md), [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md), [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md), [Arroz a la Zamorana](recipe_arroz_a_la_zamorana.md), [Chanfaina Salmantina](recipe_chanfaina_salmantina.md), [Txuritabeltz (Relleno Navarro y Sangrecilla)](recipe_txuritabeltz.md), [Arroz Clarico (con Hierbabuena)](recipe_arroz_clarico.md)
-*   **Lent & vigil rices:** Meatless rices of Cuaresma and fast days: legumes, greens and salt cod. [Arroz de los Tres Puñaos](recipe_arroz_de_los_tres_punaos.md), [Arroz con Acelgas](recipe_arroz_con_acelgas.md), [Arroz Empedrado](recipe_arroz_empedrado.md), [Arroz Empedrao (Empedrado) Murciano](recipe_arroz_empedrao_murciano.md), [Arroz con Bacalao y Coliflor](recipe_arroz_con_bacalao_y_coliflor.md), [Arroz de Ayuno de Calasparra](recipe_arroz_de_ayuno_calasparra.md), [Arroz con Bacalao de Vigilia (La Mancha y Extremadura)](recipe_arroz_con_bacalao_de_vigilia.md), [Cardillos con Arroz](recipe_cardillos_con_arroz.md), [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md), [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md), [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md), [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md), [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md), [Paella de Cebolla y Bacalao](recipe_paella_de_ceba_i_bacalla.md), [Potaje Bañezano (Garbanzos con Arroz)](recipe_potaje_banezano.md)
+*   **Winter pot & matanza rices:** Olla-style pots of legumes, pork and offal with the rice cooked in. [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md), [Olla de Benicarló (con Arroz)](recipe_olla_de_benicarlo.md), [Arroz con Pata de Ternera](recipe_arroz_con_pata_de_ternera.md), [Arroz de Matanza Ibicenco](recipe_arros_de_matances_eivissa.md), [Arroz Sucio Mallorquín](recipe_arros_brut.md), [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md), [Arroz con Hígado de Toro](recipe_arroz_con_higado_de_toro.md), [Colas de Cordero con Arroz](recipe_arroz_con_colas_de_cordero.md), [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md), [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md), [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md), [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md), [Arroz a la Zamorana](recipe_arroz_a_la_zamorana.md), [Chanfaina Salmantina](recipe_chanfaina_salmantina.md), [Txuritabeltz (Relleno Navarro y Sangrecilla)](recipe_txuritabeltz.md), [Arroz Clarico (con Hierbabuena)](recipe_arroz_clarico.md), [Fasoulia w Riz](recipe_fasoulia_w_riz.md)
+*   **Lent & vigil rices:** Meatless rices of Cuaresma and fast days: legumes, greens and salt cod. [Arroz de los Tres Puñaos](recipe_arroz_de_los_tres_punaos.md), [Arroz con Acelgas](recipe_arroz_con_acelgas.md), [Arroz Empedrado](recipe_arroz_empedrado.md), [Arroz Empedrao (Empedrado) Murciano](recipe_arroz_empedrao_murciano.md), [Arroz con Bacalao y Coliflor](recipe_arroz_con_bacalao_y_coliflor.md), [Arroz de Ayuno de Calasparra](recipe_arroz_de_ayuno_calasparra.md), [Arroz con Bacalao de Vigilia (La Mancha y Extremadura)](recipe_arroz_con_bacalao_de_vigilia.md), [Cardillos con Arroz](recipe_cardillos_con_arroz.md), [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md), [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md), [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md), [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md), [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md), [Paella de Cebolla y Bacalao](recipe_paella_de_ceba_i_bacalla.md), [Potaje Bañezano (Garbanzos con Arroz)](recipe_potaje_banezano.md), [Mujaddara](recipe_mujaddara.md), [Warak Enab](recipe_warak_enab.md)
 *   **Huerta & artichoke rices:** Irrigated-garden vegetables: artichoke, broad beans, chard and peppers lead the dish. [Arroz de Verduras de la Vega Baja](recipe_arroz_de_verduras_vega_baja.md), [Paella de Verduras](recipe_paella_de_verduras.md), [Arroz con Alcachofas de Benicarló](recipe_arroz_con_alcachofas_benicarlo.md), [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md), [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md), [Arroz con Magra, Costillejas y Verduras](recipe_arroz_con_costillejas_y_verduras_murcia.md), [Arroz de la Plana](recipe_arros_de_la_plana.md), [Arroz con Acelgas](recipe_arroz_con_acelgas.md), [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md), [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md), [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md), [Arroz y Pollo con Alcaciles](recipe_arroz_y_pollo_con_alcaciles.md), [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md), [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md)
-*   **Festive poultry rices:** Turkey, duck and free-range cockerel for holidays. [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md), [Arroz con Pitu de Caleya](recipe_arroz_con_pitu_de_caleya.md), [Arroz con Pato](recipe_arroz_con_pato.md), [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md)
-*   **Sweet rices:** Desserts: rice cooked in milk or honey. [Arroz con Leche](recipe_arroz_con_leche.md), [Arroz con Miel de Bogarra](recipe_arroz_con_miel_bogarra.md), [Escudilla de Ángel](recipe_escudella_d_angel.md)
-*   **Home-style & country rices:** Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had. [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md), [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md), [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md), [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md), [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md), [Perol Cordobés](recipe_perol_cordobes.md), [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md)
+*   **Festive poultry rices:** Turkey, duck and free-range cockerel for holidays. [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md), [Arroz con Pitu de Caleya](recipe_arroz_con_pitu_de_caleya.md), [Arroz con Pato](recipe_arroz_con_pato.md), [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md), [Riz a Djej](recipe_riz_a_djej.md), [Ruz bi-Djaj ma'a Hashweh](recipe_ruz_bi_djaj_hashweh.md), [Maqluba](recipe_maqluba.md)
+*   **Sweet rices:** Desserts: rice cooked in milk or honey. [Arroz con Leche](recipe_arroz_con_leche.md), [Arroz con Miel de Bogarra](recipe_arroz_con_miel_bogarra.md), [Escudilla de Ángel](recipe_escudella_d_angel.md), [Riz bi Haleeb (Rice Pudding)](recipe_riz_bi_haleeb.md)
+*   **Home-style & country rices:** Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had. [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md), [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md), [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md), [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md), [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md), [Perol Cordobés](recipe_perol_cordobes.md), [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md), [Riz bi Foul (Rice with Fava Beans)](recipe_riz_bi_foul.md), [Riz bi Sh'ariyyeh](recipe_riz_bi_shariyyeh.md)
+*   **Rice & legumes:** Rice cooked with lentils, beans or fava: the poor-and-sustaining pot from Orihuela to Beirut. [Mujaddara](recipe_mujaddara.md), [Arroz de los Tres Puñaos](recipe_arroz_de_los_tres_punaos.md), [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md), [Potaje Bañezano (Garbanzos con Arroz)](recipe_potaje_banezano.md), [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md), [Riz bi Foul (Rice with Fava Beans)](recipe_riz_bi_foul.md), [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md), [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md)
+*   **Stuffed vegetables & leaves:** Rice used as a filling: vine leaves, zucchini and eggplant simmered in broth. [Mahshi Kousa wa Batinjan](recipe_mahshi.md), [Mahshi Halabi (Aleppo Stuffed Vegetables)](recipe_mahshi_halabi.md), [Warak Enab](recipe_warak_enab.md)
+*   **Lamb feast rices:** Celebration platters of lamb over rice: yogurt sauces, sealed pots, pit ovens and pastry domes. [Mansaf](recipe_mansaf.md), [Zarb](recipe_zarb.md), [Qidreh](recipe_qidreh.md), [Shakriyeh with Vermicelli Rice](recipe_shakriyeh.md), [Ouzi](recipe_ouzi.md)
+*   **Rice with noodles:** Rice and toasted vermicelli or noodles cooked together, and the noodle 'paellas'. [Riz bi Sh'ariyyeh](recipe_riz_bi_shariyyeh.md), [Shakriyeh with Vermicelli Rice](recipe_shakriyeh.md), [Fasoulia w Riz](recipe_fasoulia_w_riz.md), [Fideuá](recipe_fideua.md), [Arroz Rossejat](recipe_arrossejat.md)
 
 ## 5. Quick Matrix (all recipes)
-Texture totals: **Seco 50** · **Meloso 30** · **Caldoso 28**.
+Texture totals: **Seco 62** · **Meloso 34** · **Caldoso 29**.
 
 | Dish | Region | Texture | Families | ⚠️ |
 |---|---|---|---|---|
-| [Arroz al Horno](recipe_arroz_al_horno.md) | València | Seco | Baked & crust rices |  |
-| [Arroz al Horno con Guisantes](recipe_arros_al_forn_amb_pesols.md) | València | Seco | Baked & crust rices | ⚠️ |
-| [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md) | València | Seco | Baked & crust rices; Lent & vigil rices |  |
-| [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md) | València | Seco | Baked & crust rices; Winter pot & matanza rices | ⚠️ |
-| [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md) | València | Seco | Duck & wetland rices; River & freshwater rices; Baked & crust rices | ⚠️ |
-| [Arroz Caldoso de Sepia y Coliflor](recipe_arros_de_sepia_i_coliflor.md) | València | Caldoso | Cephalopod & ink rices | ⚠️ |
-| [Arroz con Acelgas](recipe_arroz_con_acelgas.md) | València | Meloso | Lent & vigil rices; Huerta & artichoke rices |  |
-| [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md) | València | Caldoso | Winter pot & matanza rices |  |
-| [Arroz con Hígado de Toro](recipe_arroz_con_higado_de_toro.md) | València | Meloso | Winter pot & matanza rices | ⚠️ |
-| [Arroz con Pato](recipe_arroz_con_pato.md) | València | Seco | Duck & wetland rices; Festive poultry rices |  |
-| [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md) | València | Seco | Cephalopod & ink rices; Huerta & artichoke rices |  |
-| [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md) | València | Meloso | Huerta & artichoke rices; Festive poultry rices | ⚠️ |
-| [Arroz Empedrado](recipe_arroz_empedrado.md) | València | Seco | Baked & crust rices; Empedrado ('cobbled') rices; Lent & vigil rices | ⚠️ |
-| [Arroz Negro](recipe_arroz_negro.md) | València | Seco | Cephalopod & ink rices |  |
-| [Fideuá](recipe_fideua.md) | València | Seco | The paella family; Fishermen's broth rices |  |
-| [Paella con Albóndigas](recipe_paella_amb_mandonguilles.md) | València | Seco | The paella family | ⚠️ |
-| [Paella de Cebolla y Bacalao](recipe_paella_de_ceba_i_bacalla.md) | València | Seco | Lent & vigil rices | ⚠️ |
-| [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md) | València | Seco | The paella family; Winter pot & matanza rices | ⚠️ |
-| [Paella de Marisco](recipe_paella_de_marisco.md) | València | Seco | The paella family |  |
-| [Paella de Verduras](recipe_paella_de_verduras.md) | València | Seco | The paella family; Huerta & artichoke rices |  |
-| [Paella Mixta](recipe_paella_mixta.md) | València | Seco | The paella family | ⚠️ |
-| [Paella Valenciana](recipe_paella_valenciana.md) | València | Seco | Rabbit & snail rices; The paella family |  |
+| [Arroz al Horno](recipe_arroz_al_horno.md) | Valencia | Seco | Baked & crust rices |  |
+| [Arroz al Horno con Guisantes](recipe_arros_al_forn_amb_pesols.md) | Valencia | Seco | Baked & crust rices | ⚠️ |
+| [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md) | Valencia | Seco | Baked & crust rices; Lent & vigil rices |  |
+| [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md) | Valencia | Seco | Baked & crust rices; Winter pot & matanza rices | ⚠️ |
+| [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md) | Valencia | Seco | Duck & wetland rices; River & freshwater rices; Baked & crust rices | ⚠️ |
+| [Arroz Caldoso de Sepia y Coliflor](recipe_arros_de_sepia_i_coliflor.md) | Valencia | Caldoso | Cephalopod & ink rices | ⚠️ |
+| [Arroz con Acelgas](recipe_arroz_con_acelgas.md) | Valencia | Meloso | Lent & vigil rices; Huerta & artichoke rices |  |
+| [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md) | Valencia | Caldoso | Winter pot & matanza rices; Rice & legumes |  |
+| [Arroz con Hígado de Toro](recipe_arroz_con_higado_de_toro.md) | Valencia | Meloso | Winter pot & matanza rices | ⚠️ |
+| [Arroz con Pato](recipe_arroz_con_pato.md) | Valencia | Seco | Duck & wetland rices; Festive poultry rices |  |
+| [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md) | Valencia | Seco | Cephalopod & ink rices; Huerta & artichoke rices |  |
+| [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md) | Valencia | Meloso | Huerta & artichoke rices; Festive poultry rices | ⚠️ |
+| [Arroz Empedrado](recipe_arroz_empedrado.md) | Valencia | Seco | Baked & crust rices; Empedrado ('cobbled') rices; Lent & vigil rices | ⚠️ |
+| [Arroz Negro](recipe_arroz_negro.md) | Valencia | Seco | Cephalopod & ink rices |  |
+| [Fideuá](recipe_fideua.md) | Valencia | Seco | The paella family; Fishermen's broth rices; Rice with noodles |  |
+| [Paella con Albóndigas](recipe_paella_amb_mandonguilles.md) | Valencia | Seco | The paella family | ⚠️ |
+| [Paella de Cebolla y Bacalao](recipe_paella_de_ceba_i_bacalla.md) | Valencia | Seco | Lent & vigil rices | ⚠️ |
+| [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md) | Valencia | Seco | The paella family; Winter pot & matanza rices | ⚠️ |
+| [Paella de Marisco](recipe_paella_de_marisco.md) | Valencia | Seco | The paella family |  |
+| [Paella de Verduras](recipe_paella_de_verduras.md) | Valencia | Seco | The paella family; Huerta & artichoke rices |  |
+| [Paella Mixta](recipe_paella_mixta.md) | Valencia | Seco | The paella family | ⚠️ |
+| [Paella Valenciana](recipe_paella_valenciana.md) | Valencia | Seco | Rabbit & snail rices; The paella family |  |
 | [Arroz a Banda](recipe_arroz_a_banda.md) | Alicante | Seco | Fishermen's broth rices |  |
 | [Arroz a la Alicantina](recipe_arroz_a_la_alicantina.md) | Alicante | Seco | The paella family | ⚠️ |
 | [Arroz Caldoso con Bogavante](recipe_arroz_caldoso_con_bogavante.md) | Alicante | Caldoso | Shellfish caldosos & melosos |  |
@@ -217,12 +250,12 @@ Texture totals: **Seco 50** · **Meloso 30** · **Caldoso 28**.
 | [Arroz con Conejo](recipe_arroz_con_conejo.md) | Alicante | Seco | Rabbit & snail rices; Mountain & game rices | ⚠️ |
 | [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md) | Alicante | Seco | Rabbit & snail rices; Mountain & game rices |  |
 | [Arroz con Costra](recipe_arroz_con_costra.md) | Alicante | Seco | Baked & crust rices |  |
-| [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md) | Alicante | Meloso | Winter pot & matanza rices | ⚠️ |
+| [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md) | Alicante | Meloso | Winter pot & matanza rices; Rice & legumes | ⚠️ |
 | [Arroz con Pata de Ternera](recipe_arroz_con_pata_de_ternera.md) | Alicante | Meloso | Winter pot & matanza rices |  |
 | [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md) | Alicante | Meloso | Baked & crust rices; Festive poultry rices | ⚠️ |
 | [Arroz con Rape y Gamba Roja](recipe_arroz_con_rape_y_gamba_roja.md) | Alicante | Seco | Shellfish caldosos & melosos |  |
 | [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md) | Alicante | Seco | Lent & vigil rices; Huerta & artichoke rices |  |
-| [Arroz de los Tres Puñaos](recipe_arroz_de_los_tres_punaos.md) | Alicante | Caldoso | Lent & vigil rices |  |
+| [Arroz de los Tres Puñaos](recipe_arroz_de_los_tres_punaos.md) | Alicante | Caldoso | Lent & vigil rices; Rice & legumes |  |
 | [Arroz de Renda](recipe_arros_de_renda.md) | Alicante | Caldoso | Rabbit & snail rices | ⚠️ |
 | [Arroz de Trilla](recipe_arros_de_batre.md) | Alicante | Caldoso | Rabbit & snail rices | ⚠️ |
 | [Arroz de Verduras de la Vega Baja](recipe_arroz_de_verduras_vega_baja.md) | Alicante | Seco | Huerta & artichoke rices |  |
@@ -230,59 +263,59 @@ Texture totals: **Seco 50** · **Meloso 30** · **Caldoso 28**.
 | [Arroz Meloso de Pulpo](recipe_arroz_meloso_de_pulpo.md) | Alicante | Meloso | Cephalopod & ink rices | ⚠️ |
 | [Arroz y Gatet (Arroz con Pintarroja)](recipe_arroz_y_gatet.md) | Alicante | Caldoso | Fishermen's broth rices | ⚠️ |
 | [Caldero de Santa Pola y Tabarca](recipe_caldero_santa_pola_tabarca.md) | Alicante | Meloso | Fishermen's broth rices |  |
-| [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md) | Castellón | Meloso | Cephalopod & ink rices; Cazuela / cassola rices | ⚠️ |
-| [Arroz Caldoso de Langostinos de Vinaròs](recipe_arroz_caldoso_langostinos_vinaros.md) | Castellón | Caldoso | Shellfish caldosos & melosos |  |
-| [Arroz con Alcachofas de Benicarló](recipe_arroz_con_alcachofas_benicarlo.md) | Castellón | Seco | Huerta & artichoke rices |  |
-| [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md) | Castellón | Meloso | Shellfish caldosos & melosos; Huerta & artichoke rices |  |
-| [Arroz de la Plana](recipe_arros_de_la_plana.md) | Castellón | Seco | The paella family; Huerta & artichoke rices | ⚠️ |
-| [Arroz de Montaña de Castellón](recipe_arroz_de_montana_castellon.md) | Castellón | Seco | Mountain & game rices | ⚠️ |
-| [Olla de Benicarló (con Arroz)](recipe_olla_de_benicarlo.md) | Castellón | Caldoso | Winter pot & matanza rices | ⚠️ |
-| [Arroz Caldero del Mar Menor](recipe_caldero_del_mar_menor.md) | Región de Murcia | Meloso | Fishermen's broth rices |  |
-| [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md) | Región de Murcia | Seco | Lent & vigil rices; Huerta & artichoke rices |  |
-| [Arroz con Conejo y Caracoles Murciano](recipe_arroz_conejo_caracoles_murciano.md) | Región de Murcia | Seco | Rabbit & snail rices |  |
-| [Arroz con Magra, Costillejas y Verduras](recipe_arroz_con_costillejas_y_verduras_murcia.md) | Región de Murcia | Seco | Huerta & artichoke rices |  |
-| [Arroz de Ayuno de Calasparra](recipe_arroz_de_ayuno_calasparra.md) | Región de Murcia | Seco | Lent & vigil rices | ⚠️ |
-| [Arroz Empedrao (Empedrado) Murciano](recipe_arroz_empedrao_murciano.md) | Región de Murcia | Meloso | Empedrado ('cobbled') rices; Lent & vigil rices |  |
-| [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md) | Región de Murcia | Caldoso | Winter pot & matanza rices; Lent & vigil rices |  |
-| [Arroz y Pollo con Alcaciles](recipe_arroz_y_pollo_con_alcaciles.md) | Región de Murcia | Seco | Huerta & artichoke rices |  |
-| [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md) | Región de Murcia | Seco | Lent & vigil rices; Huerta & artichoke rices |  |
-| [Arroz a la Cazuela](recipe_arros_a_la_cassola.md) | Catalunya | Meloso | Cazuela / cassola rices |  |
-| [Arroz con Conejo y Caracoles Catalán](recipe_arros_amb_conill_i_cargols_catala.md) | Catalunya | Seco | Rabbit & snail rices | ⚠️ |
-| [Arroz de Montaña Catalán](recipe_arros_de_muntanya_catala.md) | Catalunya | Meloso | Mountain & game rices |  |
-| [Arroz de Pals a la Cazuela](recipe_arros_a_la_cassola_de_pals.md) | Catalunya | Meloso | Cazuela / cassola rices | ⚠️ |
-| [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md) | Catalunya | Meloso | Duck & wetland rices; Fishermen's broth rices |  |
-| [Arroz Negro Catalán](recipe_arros_negre_catala.md) | Catalunya | Seco | Cephalopod & ink rices |  |
-| [Arroz Rossejat](recipe_arrossejat.md) | Catalunya | Seco | Fishermen's broth rices | ⚠️ |
-| [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md) | Catalunya | Caldoso | Winter pot & matanza rices |  |
-| [Arroz de Langosta Menorquín](recipe_arros_de_llagosta_menorca.md) | Illes Balears | Caldoso | Shellfish caldosos & melosos | ⚠️ |
-| [Arroz de Matanza Ibicenco](recipe_arros_de_matances_eivissa.md) | Illes Balears | Caldoso | Winter pot & matanza rices | ⚠️ |
-| [Arroz Marinero Balear](recipe_arros_de_peix_balear.md) | Illes Balears | Caldoso | Fishermen's broth rices | ⚠️ |
-| [Arroz Sucio Mallorquín](recipe_arros_brut.md) | Illes Balears | Caldoso | Winter pot & matanza rices |  |
-| [Escudilla de Ángel](recipe_escudella_d_angel.md) | Illes Balears | Meloso | Sweet rices | ⚠️ |
-| [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md) | Andalucía | Meloso | Cazuela / cassola rices; Home-style & country rices | ⚠️ |
-| [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md) | Andalucía | Caldoso | Duck & wetland rices; Shellfish caldosos & melosos; River & freshwater rices | ⚠️ |
-| [Arroz Caldoso con Pato de las Marismas](recipe_arroz_caldoso_con_pato_marismas.md) | Andalucía | Caldoso | Duck & wetland rices |  |
-| [Arroz Caldoso de Isla Cristina](recipe_arroz_caldoso_isla_cristina.md) | Andalucía | Caldoso | Shellfish caldosos & melosos | ⚠️ |
-| [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md) | Andalucía | Seco | Huerta & artichoke rices; Home-style & country rices |  |
-| [Arroz con Choco](recipe_arroz_con_choco.md) | Andalucía | Caldoso | Cephalopod & ink rices | ⚠️ |
-| [Arroz con Perdiz](recipe_arroz_con_perdiz.md) | Andalucía | Caldoso | Mountain & game rices | ⚠️ |
-| [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md) | Andalucía | Seco | Home-style & country rices | ⚠️ |
-| [Arroz Marinero Andaluz](recipe_arroz_marinero_andaluz.md) | Andalucía | Caldoso | Fishermen's broth rices | ⚠️ |
-| [Perol Cordobés](recipe_perol_cordobes.md) | Andalucía | Meloso | Cazuela / cassola rices; Home-style & country rices | ⚠️ |
-| [Arroz a la Zaragozana](recipe_arroz_a_la_zaragozana.md) | Aragón, Navarra & La Rioja | Meloso | Cazuela / cassola rices | ⚠️ |
-| [Arroz con Borrajas y Almejas](recipe_arroz_con_borrajas_y_almejas.md) | Aragón, Navarra & La Rioja | Caldoso | Shellfish caldosos & melosos |  |
-| [Arroz con Conejo y Caracoles (Aragón, Navarra y La Rioja)](recipe_arroz_con_conejo_y_caracoles_aragones.md) | Aragón, Navarra & La Rioja | Meloso | Rabbit & snail rices | ⚠️ |
-| [Colas de Cordero con Arroz](recipe_arroz_con_colas_de_cordero.md) | Aragón, Navarra & La Rioja | Caldoso | Winter pot & matanza rices | ⚠️ |
-| [Paella a la Riojana](recipe_paella_a_la_riojana.md) | Aragón, Navarra & La Rioja | Seco | The paella family | ⚠️ |
-| [Txuritabeltz (Relleno Navarro y Sangrecilla)](recipe_txuritabeltz.md) | Aragón, Navarra & La Rioja | Seco | Winter pot & matanza rices | ⚠️ |
+| [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md) | Castellon | Meloso | Cephalopod & ink rices; Cazuela / cassola rices | ⚠️ |
+| [Arroz Caldoso de Langostinos de Vinaròs](recipe_arroz_caldoso_langostinos_vinaros.md) | Castellon | Caldoso | Shellfish caldosos & melosos |  |
+| [Arroz con Alcachofas de Benicarló](recipe_arroz_con_alcachofas_benicarlo.md) | Castellon | Seco | Huerta & artichoke rices |  |
+| [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md) | Castellon | Meloso | Shellfish caldosos & melosos; Huerta & artichoke rices |  |
+| [Arroz de la Plana](recipe_arros_de_la_plana.md) | Castellon | Seco | The paella family; Huerta & artichoke rices | ⚠️ |
+| [Arroz de Montaña de Castellón](recipe_arroz_de_montana_castellon.md) | Castellon | Seco | Mountain & game rices | ⚠️ |
+| [Olla de Benicarló (con Arroz)](recipe_olla_de_benicarlo.md) | Castellon | Caldoso | Winter pot & matanza rices | ⚠️ |
+| [Arroz Caldero del Mar Menor](recipe_caldero_del_mar_menor.md) | Murcia | Meloso | Fishermen's broth rices |  |
+| [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md) | Murcia | Seco | Lent & vigil rices; Huerta & artichoke rices |  |
+| [Arroz con Conejo y Caracoles Murciano](recipe_arroz_conejo_caracoles_murciano.md) | Murcia | Seco | Rabbit & snail rices |  |
+| [Arroz con Magra, Costillejas y Verduras](recipe_arroz_con_costillejas_y_verduras_murcia.md) | Murcia | Seco | Huerta & artichoke rices |  |
+| [Arroz de Ayuno de Calasparra](recipe_arroz_de_ayuno_calasparra.md) | Murcia | Seco | Lent & vigil rices | ⚠️ |
+| [Arroz Empedrao (Empedrado) Murciano](recipe_arroz_empedrao_murciano.md) | Murcia | Meloso | Empedrado ('cobbled') rices; Lent & vigil rices |  |
+| [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md) | Murcia | Caldoso | Winter pot & matanza rices; Lent & vigil rices; Rice & legumes |  |
+| [Arroz y Pollo con Alcaciles](recipe_arroz_y_pollo_con_alcaciles.md) | Murcia | Seco | Huerta & artichoke rices |  |
+| [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md) | Murcia | Seco | Lent & vigil rices; Huerta & artichoke rices |  |
+| [Arroz a la Cazuela](recipe_arros_a_la_cassola.md) | Catalonia | Meloso | Cazuela / cassola rices |  |
+| [Arroz con Conejo y Caracoles Catalán](recipe_arros_amb_conill_i_cargols_catala.md) | Catalonia | Seco | Rabbit & snail rices | ⚠️ |
+| [Arroz de Montaña Catalán](recipe_arros_de_muntanya_catala.md) | Catalonia | Meloso | Mountain & game rices |  |
+| [Arroz de Pals a la Cazuela](recipe_arros_a_la_cassola_de_pals.md) | Catalonia | Meloso | Cazuela / cassola rices | ⚠️ |
+| [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md) | Catalonia | Meloso | Duck & wetland rices; Fishermen's broth rices |  |
+| [Arroz Negro Catalán](recipe_arros_negre_catala.md) | Catalonia | Seco | Cephalopod & ink rices |  |
+| [Arroz Rossejat](recipe_arrossejat.md) | Catalonia | Seco | Fishermen's broth rices; Rice with noodles | ⚠️ |
+| [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md) | Catalonia | Caldoso | Winter pot & matanza rices; Rice & legumes |  |
+| [Arroz de Langosta Menorquín](recipe_arros_de_llagosta_menorca.md) | Balearic Islands | Caldoso | Shellfish caldosos & melosos | ⚠️ |
+| [Arroz de Matanza Ibicenco](recipe_arros_de_matances_eivissa.md) | Balearic Islands | Caldoso | Winter pot & matanza rices | ⚠️ |
+| [Arroz Marinero Balear](recipe_arros_de_peix_balear.md) | Balearic Islands | Caldoso | Fishermen's broth rices | ⚠️ |
+| [Arroz Sucio Mallorquín](recipe_arros_brut.md) | Balearic Islands | Caldoso | Winter pot & matanza rices |  |
+| [Escudilla de Ángel](recipe_escudella_d_angel.md) | Balearic Islands | Meloso | Sweet rices | ⚠️ |
+| [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md) | Andalusia | Meloso | Cazuela / cassola rices; Home-style & country rices | ⚠️ |
+| [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md) | Andalusia | Caldoso | Duck & wetland rices; Shellfish caldosos & melosos; River & freshwater rices | ⚠️ |
+| [Arroz Caldoso con Pato de las Marismas](recipe_arroz_caldoso_con_pato_marismas.md) | Andalusia | Caldoso | Duck & wetland rices |  |
+| [Arroz Caldoso de Isla Cristina](recipe_arroz_caldoso_isla_cristina.md) | Andalusia | Caldoso | Shellfish caldosos & melosos | ⚠️ |
+| [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md) | Andalusia | Seco | Huerta & artichoke rices; Home-style & country rices |  |
+| [Arroz con Choco](recipe_arroz_con_choco.md) | Andalusia | Caldoso | Cephalopod & ink rices | ⚠️ |
+| [Arroz con Perdiz](recipe_arroz_con_perdiz.md) | Andalusia | Caldoso | Mountain & game rices | ⚠️ |
+| [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md) | Andalusia | Seco | Home-style & country rices | ⚠️ |
+| [Arroz Marinero Andaluz](recipe_arroz_marinero_andaluz.md) | Andalusia | Caldoso | Fishermen's broth rices | ⚠️ |
+| [Perol Cordobés](recipe_perol_cordobes.md) | Andalusia | Meloso | Cazuela / cassola rices; Home-style & country rices | ⚠️ |
+| [Arroz a la Zaragozana](recipe_arroz_a_la_zaragozana.md) | Aragon, Navarre & La Rioja | Meloso | Cazuela / cassola rices | ⚠️ |
+| [Arroz con Borrajas y Almejas](recipe_arroz_con_borrajas_y_almejas.md) | Aragon, Navarre & La Rioja | Caldoso | Shellfish caldosos & melosos |  |
+| [Arroz con Conejo y Caracoles (Aragón, Navarra y La Rioja)](recipe_arroz_con_conejo_y_caracoles_aragones.md) | Aragon, Navarre & La Rioja | Meloso | Rabbit & snail rices | ⚠️ |
+| [Colas de Cordero con Arroz](recipe_arroz_con_colas_de_cordero.md) | Aragon, Navarre & La Rioja | Caldoso | Winter pot & matanza rices | ⚠️ |
+| [Paella a la Riojana](recipe_paella_a_la_riojana.md) | Aragon, Navarre & La Rioja | Seco | The paella family | ⚠️ |
+| [Txuritabeltz (Relleno Navarro y Sangrecilla)](recipe_txuritabeltz.md) | Aragon, Navarre & La Rioja | Seco | Winter pot & matanza rices | ⚠️ |
 | [Arroz con Bacalao de Vigilia (La Mancha y Extremadura)](recipe_arroz_con_bacalao_de_vigilia.md) | Castilla-La Mancha & Extremadura | Caldoso | Lent & vigil rices | ⚠️ |
 | [Arroz con Liebre](recipe_arroz_con_liebre.md) | Castilla-La Mancha & Extremadura | Meloso | Mountain & game rices |  |
 | [Arroz con Miel de Bogarra](recipe_arroz_con_miel_bogarra.md) | Castilla-La Mancha & Extremadura | Meloso | Sweet rices | ⚠️ |
 | [Cardillos con Arroz](recipe_cardillos_con_arroz.md) | Castilla-La Mancha & Extremadura | Meloso | Lent & vigil rices | ⚠️ |
-| [Arroz a la Zamorana](recipe_arroz_a_la_zamorana.md) | Castilla y León | Meloso | Winter pot & matanza rices |  |
-| [Arroz con Cangrejos (La Bañeza)](recipe_arroz_con_cangrejos_banezano.md) | Castilla y León | Meloso | River & freshwater rices | ⚠️ |
-| [Chanfaina Salmantina](recipe_chanfaina_salmantina.md) | Castilla y León | Meloso | Winter pot & matanza rices | ⚠️ |
-| [Potaje Bañezano (Garbanzos con Arroz)](recipe_potaje_banezano.md) | Castilla y León | Caldoso | Lent & vigil rices | ⚠️ |
+| [Arroz a la Zamorana](recipe_arroz_a_la_zamorana.md) | Castile and Leon | Meloso | Winter pot & matanza rices |  |
+| [Arroz con Cangrejos (La Bañeza)](recipe_arroz_con_cangrejos_banezano.md) | Castile and Leon | Meloso | River & freshwater rices | ⚠️ |
+| [Chanfaina Salmantina](recipe_chanfaina_salmantina.md) | Castile and Leon | Meloso | Winter pot & matanza rices | ⚠️ |
+| [Potaje Bañezano (Garbanzos con Arroz)](recipe_potaje_banezano.md) | Castile and Leon | Caldoso | Lent & vigil rices; Rice & legumes | ⚠️ |
 | [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md) | Northern Spain | Seco | Home-style & country rices | ⚠️ |
 | [Arroz Caldoso con Bogavante del Cantábrico](recipe_arroz_con_bogavante_norte.md) | Northern Spain | Caldoso | Shellfish caldosos & melosos |  |
 | [Arroz con Almejas](recipe_arroz_con_almejas.md) | Northern Spain | Caldoso | Shellfish caldosos & melosos | ⚠️ |
@@ -292,8 +325,25 @@ Texture totals: **Seco 50** · **Meloso 30** · **Caldoso 28**.
 | [Arroz del Pedrón de Parayo](recipe_arroz_del_pedron_de_parayo.md) | Northern Spain | Seco | River & freshwater rices | ⚠️ |
 | [Chipirones en su Tinta con Arroz Blanco](recipe_chipirones_en_su_tinta_con_arroz.md) | Northern Spain | Seco | Cephalopod & ink rices | ⚠️ |
 | [Lamprea a la Bordelesa con Arroz](recipe_lamprea_a_la_bordelesa_con_arroz.md) | Northern Spain | Seco | River & freshwater rices | ⚠️ |
-| [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md) | Canarias | Seco | Home-style & country rices | ⚠️ |
-| [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md) | Canarias | Seco | Home-style & country rices | ⚠️ |
+| [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md) | Canary Islands | Seco | Home-style & country rices | ⚠️ |
+| [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md) | Canary Islands | Seco | Home-style & country rices | ⚠️ |
+| [Mahshi Kousa wa Batinjan](recipe_mahshi.md) | Palestine | Meloso | Stuffed vegetables & leaves | ⚠️ |
+| [Maqluba](recipe_maqluba.md) | Palestine | Seco | Baked & crust rices; Festive poultry rices | ⚠️ |
+| [Qidreh](recipe_qidreh.md) | Palestine | Seco | Baked & crust rices; Lamb feast rices |  |
+| [Ruz bi-Djaj ma'a Hashweh](recipe_ruz_bi_djaj_hashweh.md) | Palestine | Seco | Festive poultry rices | ⚠️ |
+| [Fasoulia w Riz](recipe_fasoulia_w_riz.md) | Lebanon | Caldoso | Winter pot & matanza rices; Rice with noodles | ⚠️ |
+| [Mujaddara](recipe_mujaddara.md) | Lebanon | Seco | Lent & vigil rices; Rice & legumes |  |
+| [Riz a Djej](recipe_riz_a_djej.md) | Lebanon | Seco | Festive poultry rices | ⚠️ |
+| [Riz bi Sh'ariyyeh](recipe_riz_bi_shariyyeh.md) | Lebanon | Seco | Home-style & country rices; Rice with noodles |  |
+| [Sayadieh](recipe_sayadieh.md) | Lebanon | Seco | Fishermen's broth rices | ⚠️ |
+| [Warak Enab](recipe_warak_enab.md) | Lebanon | Meloso | Lent & vigil rices; Stuffed vegetables & leaves | ⚠️ |
+| [Mansaf](recipe_mansaf.md) | Jordan | Seco | Lamb feast rices | ⚠️ |
+| [Zarb](recipe_zarb.md) | Jordan | Seco | Lamb feast rices | ⚠️ |
+| [Mahshi Halabi (Aleppo Stuffed Vegetables)](recipe_mahshi_halabi.md) | Syria | Meloso | Stuffed vegetables & leaves | ⚠️ |
+| [Ouzi](recipe_ouzi.md) | Syria | Seco | Baked & crust rices; Lamb feast rices | ⚠️ |
+| [Riz bi Foul (Rice with Fava Beans)](recipe_riz_bi_foul.md) | Syria | Seco | Home-style & country rices; Rice & legumes | ⚠️ |
+| [Riz bi Haleeb (Rice Pudding)](recipe_riz_bi_haleeb.md) | Syria | Meloso | Sweet rices |  |
+| [Shakriyeh with Vermicelli Rice](recipe_shakriyeh.md) | Syria | Seco | Lamb feast rices; Rice with noodles |  |
 
 ## 6. Detailed Comparison Matrix: Valencian Community Core
 | Dish | Province | Category | Texture | Vessel | Fuel (traditional) | Base / Fondo | Rice : Liquid* | Signature element |

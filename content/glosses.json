@@ -1,5 +1,5 @@
 {
- "_comment": "Plain-language labels per language. recipes: one-line 'what is this dish' shown under the authentic (Spanish/local) name. regions: region names shown on tags, cards and region pages. Add an entry for every new recipe_*.md / provincial_*.md (bun scripts/check.ts warns when one is missing).",
+ "_comment": "Plain-language labels per language (en/es/ca/th/ar). recipes: one-line 'what is this dish' under the authentic name. regions: region names. areas: top-level sections (spain, sham) and the region files in each. Add an entry for every new recipe_*.md / provincial_*.md (bun scripts/check.ts warns when one is missing).",
  "recipes": {
   "recipe_arrocito_del_grau.md": {
    "en": "Creamy seafood rice from Castellon's fishing port",
@@ -648,6 +648,125 @@
    "es": "Relleno navarro de arroz y sangrecilla de cordero",
    "ca": "Farcit navarrès d'arròs i sang de xai fregida",
    "th": "ไส้ข้าวผสมเลือดแกะทอดสไตล์นาวาร์รา"
+  },
+  "recipe_sayadieh.md": {
+   "en": "Fishermen's rice cooked in fish stock with deep-brown onions, fish on top",
+   "es": "Arroz de pescadores en caldo de pescado con cebolla muy dorada, con el pescado encima",
+   "ca": "Arròs de pescadors amb brou de peix i ceba molt daurada, amb el peix al damunt",
+   "th": "ข้าวชาวประมงหุงในน้ำซุปปลากับหอมใหญ่เจียวสีน้ำตาลเข้ม วางเนื้อปลาด้านบน",
+   "ar": "أرز الصيادين مطبوخ بمرق السمك مع البصل المحمّر، يُقدَّم مع السمك فوقه"
+  },
+  "recipe_mujaddara.md": {
+   "en": "Rice (or bulgur) with lentils, topped with crisp fried onions",
+   "es": "Arroz (o bulgur) con lentejas, cubierto de cebolla frita crujiente",
+   "ca": "Arròs (o bulgur) amb llenties, cobert de ceba fregida cruixent",
+   "th": "ข้าว (หรือข้าวสาลีบัลเกอร์) กับถั่วเลนทิล โรยหอมใหญ่ทอดกรอบ",
+   "ar": "أرز (أو برغل) مع العدس، يُزيَّن بالبصل المقلي المقرمش"
+  },
+  "recipe_riz_a_djej.md": {
+   "en": "Festive spiced rice with minced meat, shredded chicken and toasted nuts",
+   "es": "Arroz festivo especiado con carne picada, pollo deshilachado y frutos secos tostados",
+   "ca": "Arròs festiu especiat amb carn picada, pollastre esfilagarsat i fruits secs torrats",
+   "th": "ข้าวเทศกาลปรุงเครื่องเทศ ใส่เนื้อสับ ไก่ฉีก และถั่วคั่ว",
+   "ar": "أرز احتفالي متبّل مع اللحم المفروم والدجاج المنسّل والمكسرات المحمّصة"
+  },
+  "recipe_riz_bi_shariyyeh.md": {
+   "en": "Everyday rice with toasted vermicelli, served under stews",
+   "es": "Arroz diario con fideos tostados, para acompañar guisos",
+   "ca": "Arròs de cada dia amb fideus torrats, per acompanyar guisats",
+   "th": "ข้าวประจำวันผัดกับเส้นหมี่ข้าวสาลีคั่ว เสิร์ฟคู่กับสตูว์",
+   "ar": "أرز يومي مع الشعيرية المحمّصة، يُقدَّم مع اليخنات"
+  },
+  "recipe_warak_enab.md": {
+   "en": "Vine leaves stuffed with rice, herbs and lemon (or with meat over lamb chops)",
+   "es": "Hojas de parra rellenas de arroz, hierbas y limón (o con carne sobre chuletas de cordero)",
+   "ca": "Fulles de parra farcides d'arròs, herbes i llimona (o amb carn sobre costelles de xai)",
+   "th": "ใบองุ่นห่อข้าว สมุนไพร และมะนาว (หรือใส่เนื้อ วางบนซี่โครงแกะ)",
+   "ar": "ورق عنب محشو بالأرز والأعشاب والليمون (أو باللحم فوق ريش الغنم)"
+  },
+  "recipe_fasoulia_w_riz.md": {
+   "en": "White bean and lamb stew in tomato sauce, served over vermicelli rice",
+   "es": "Guiso de alubias blancas y cordero en salsa de tomate, servido sobre arroz con fideos",
+   "ca": "Guisat de fesols blancs i xai amb tomàquet, servit sobre arròs amb fideus",
+   "th": "สตูว์ถั่วขาวกับเนื้อแกะในซอสมะเขือเทศ ราดบนข้าวผัดเส้นหมี่",
+   "ar": "يخنة الفاصوليا البيضاء مع لحم الغنم بصلصة البندورة، تُقدَّم فوق الأرز بالشعيرية"
+  },
+  "recipe_ouzi.md": {
+   "en": "Spiced rice with minced meat, peas and nuts baked inside filo pastry",
+   "es": "Arroz especiado con carne picada, guisantes y frutos secos horneado en masa filo",
+   "ca": "Arròs especiat amb carn picada, pèsols i fruita seca enfornat dins de pasta fil·lo",
+   "th": "ข้าวเครื่องเทศกับเนื้อสับ ถั่วลันเตา และถั่วต่างๆ ห่อแป้งฟิลโลแล้วอบ",
+   "ar": "أرز متبّل باللحم المفروم والبازلاء والمكسرات مخبوز داخل عجينة الفيلو"
+  },
+  "recipe_shakriyeh.md": {
+   "en": "Lamb cooked in hot yogurt sauce, served with vermicelli rice",
+   "es": "Cordero guisado en salsa de yogur caliente, con arroz con fideos",
+   "ca": "Xai cuit en salsa de iogurt calenta, amb arròs amb fideus",
+   "th": "เนื้อแกะตุ๋นในซอสโยเกิร์ตร้อน เสิร์ฟกับข้าวผัดเส้นหมี่",
+   "ar": "لحم ضأن مطبوخ باللبن الساخن يُقدّم مع الرز بالشعيرية"
+  },
+  "recipe_mahshi_halabi.md": {
+   "en": "Aleppo-style zucchini stuffed with rice and meat in a tart tomato broth",
+   "es": "Calabacines al estilo de Alepo rellenos de arroz y carne en caldo de tomate agrio",
+   "ca": "Carbassons a l'estil d'Alep farcits d'arròs i carn en brou de tomàquet agre",
+   "th": "ซูกินีสไตล์อะเลปโปยัดไส้ข้าวและเนื้อ ต้มในน้ำซุปมะเขือเทศรสเปรี้ยว",
+   "ar": "كوسا محشية بالرز واللحم على الطريقة الحلبية بمرق البندورة الحامض"
+  },
+  "recipe_riz_bi_foul.md": {
+   "en": "Spring rice pilaf with fresh fava beans, dill and lamb",
+   "es": "Arroz de primavera con habas frescas, eneldo y cordero",
+   "ca": "Arròs de primavera amb faves tendres, anet i xai",
+   "th": "ข้าวหุงฤดูใบไม้ผลิกับถั่วปากอ้าสด ผักชีลาว และเนื้อแกะ",
+   "ar": "رز ربيعي بالفول الأخضر والشبت ولحم الضأن"
+  },
+  "recipe_riz_bi_haleeb.md": {
+   "en": "Levantine rice pudding with mastic and orange-blossom water (dessert)",
+   "es": "Arroz con leche levantino con almáciga y agua de azahar (postre)",
+   "ca": "Arròs amb llet llevantí amb màstic i aigua de flor de taronger (postres)",
+   "th": "ขนมข้าวต้มนมสไตล์ลิแวนต์กับยางมาสติกและน้ำดอกส้ม (ของหวาน)",
+   "ar": "رز بحليب شامي بالمستكة وماء الزهر (حلوى)"
+  },
+  "recipe_maqluba.md": {
+   "en": "Upside-down rice with chicken or lamb, fried eggplant and cauliflower",
+   "es": "Arroz al revés con pollo o cordero, berenjena y coliflor fritas",
+   "ca": "Arròs del revés amb pollastre o xai, albergínia i col-i-flor fregides",
+   "th": "ข้าวคว่ำหน้ากับไก่หรือเนื้อแกะ มะเขือยาวและกะหล่ำดอกทอด",
+   "ar": "أرز مقلوب مع الدجاج أو اللحم والباذنجان والزهرة المقلية"
+  },
+  "recipe_qidreh.md": {
+   "en": "Hebron rice and lamb baked in a sealed pot in the baker's oven",
+   "es": "Arroz con cordero de Hebrón horneado en olla cerrada en el horno del panadero",
+   "ca": "Arròs amb xai d'Hebron cuit en olla tancada al forn del flequer",
+   "th": "ข้าวกับเนื้อแกะจากเฮบรอน อบในหม้อปิดฝาในเตาอบของร้านขนมปัง",
+   "ar": "أرز ولحم خليلي يُطهى في قدرة مغلقة في فرن الحطب"
+  },
+  "recipe_ruz_bi_djaj_hashweh.md": {
+   "en": "Festive chicken on spiced rice with minced meat, pine nuts and almonds",
+   "es": "Pollo festivo sobre arroz especiado con carne picada, piñones y almendras",
+   "ca": "Pollastre de festa sobre arròs especiat amb carn picada, pinyons i ametlles",
+   "th": "ไก่งานเลี้ยงบนข้าวเครื่องเทศผัดเนื้อสับ เมล็ดสน และอัลมอนด์",
+   "ar": "دجاج للمناسبات على أرز متبّل باللحم المفروم والصنوبر واللوز"
+  },
+  "recipe_mahshi.md": {
+   "en": "Zucchini and eggplants stuffed with rice and meat, simmered in tomato",
+   "es": "Calabacines y berenjenas rellenos de arroz y carne, guisados en tomate",
+   "ca": "Carabassons i albergínies farcits d'arròs i carn, guisats amb tomàquet",
+   "th": "ซูกินีและมะเขือยาวยัดไส้ข้าวและเนื้อ เคี่ยวในซอสมะเขือเทศ",
+   "ar": "كوسا وباذنجان محشي بالأرز واللحم مطبوخ بصلصة البندورة"
+  },
+  "recipe_mansaf.md": {
+   "en": "Jordan's national feast: lamb in dried-yogurt (jameed) sauce over rice and thin bread",
+   "es": "El banquete nacional de Jordania: cordero en salsa de yogur seco (jameed) sobre arroz y pan fino",
+   "ca": "El banquet nacional de Jordània: xai en salsa de iogurt sec (jameed) sobre arròs i pa prim",
+   "th": "อาหารงานเลี้ยงประจำชาติจอร์แดน: เนื้อแกะในซอสโยเกิร์ตแห้ง (จามีด) ราดบนข้าวและขนมปังแผ่นบาง",
+   "ar": "وليمة الأردن الوطنية: لحم ضأن مطبوخ باللبن الجميد يُقدَّم على الأرز وخبز الشراك"
+  },
+  "recipe_zarb.md": {
+   "en": "Bedouin pit-oven feast: lamb and chicken roasted underground over spiced rice",
+   "es": "Festín beduino al horno bajo tierra: cordero y pollo asados sobre arroz especiado",
+   "ca": "Festí beduí al forn sota terra: xai i pollastre rostits sobre arròs especiat",
+   "th": "งานเลี้ยงชาวเบดูอินอบในหลุมใต้ดิน: เนื้อแกะและไก่อบบนข้าวปรุงเครื่องเทศ",
+   "ar": "وليمة بدوية تُطهى في حفرة تحت الأرض: لحم ضأن ودجاج فوق أرز متبّل"
   }
  },
  "regions": {
@@ -728,6 +847,75 @@
    "es": "Valencia",
    "ca": "València",
    "th": "บาเลนเซีย"
+  },
+  "provincial_palestine.md": {
+   "en": "Palestine",
+   "es": "Palestina",
+   "ca": "Palestina",
+   "th": "ปาเลสไตน์",
+   "ar": "فلسطين"
+  },
+  "provincial_lebanon.md": {
+   "en": "Lebanon",
+   "es": "Líbano",
+   "ca": "Líban",
+   "th": "เลบานอน",
+   "ar": "لبنان"
+  },
+  "provincial_jordan.md": {
+   "en": "Jordan",
+   "es": "Jordania",
+   "ca": "Jordània",
+   "th": "จอร์แดน",
+   "ar": "الأردن"
+  },
+  "provincial_syria.md": {
+   "en": "Syria",
+   "es": "Siria",
+   "ca": "Síria",
+   "th": "ซีเรีย",
+   "ar": "سوريا"
+  }
+ },
+ "areas": {
+  "spain": {
+   "name": {
+    "en": "Spain",
+    "es": "España",
+    "ca": "Espanya",
+    "th": "สเปน",
+    "ar": "إسبانيا"
+   },
+   "regions": [
+    "provincial_alicante.md",
+    "provincial_andalucia.md",
+    "provincial_aragon_navarra_rioja.md",
+    "provincial_baleares.md",
+    "provincial_canarias.md",
+    "provincial_castellon.md",
+    "provincial_castilla_la_mancha_extremadura.md",
+    "provincial_castilla_y_leon.md",
+    "provincial_catalunya.md",
+    "provincial_madrid.md",
+    "provincial_murcia.md",
+    "provincial_norte.md",
+    "provincial_valencia.md"
+   ]
+  },
+  "sham": {
+   "name": {
+    "en": "Bilad al-Sham (the Levant)",
+    "es": "Bilad al-Sham (Levante)",
+    "ca": "Bilad al-Xam (el Llevant)",
+    "th": "บิลาดอัชชาม (ลิแวนต์)",
+    "ar": "بلاد الشام"
+   },
+   "regions": [
+    "provincial_palestine.md",
+    "provincial_lebanon.md",
+    "provincial_jordan.md",
+    "provincial_syria.md"
+   ]
   }
  }
 }
