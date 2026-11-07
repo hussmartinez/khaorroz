@@ -1,0 +1,770 @@
+{
+ "_comment": "Recipe photos from Wikimedia Commons with attribution; rendered with a visible credit.",
+ "recipes": {
+  "recipe_arros_a_la_cassola.md": {
+   "file": "images/arros-a-la-cassola.webp",
+   "width": 800,
+   "height": 600,
+   "commonsTitle": "File:Arròs a la cassola amb escamarlans.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arr%C3%B2s_a_la_cassola_amb_escamarlans.jpg",
+   "author": "e_calamar",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "en": "Catalan casserole rice with langoustines served in a white bowl",
+    "es": "Arroz a la cazuela catalán con cigalas en un plato hondo blanco",
+    "ca": "Arròs a la cassola amb escamarlans servit en un plat fondo blanc",
+    "th": "ข้าวหม้อดินสไตล์กาตาลันกับกุ้งมังกรน้ำลึก เสิร์ฟในชามสีขาว",
+    "ar": "أرز كتالوني في قدر فخاري مع جراد البحر الصغير يُقدَّم في طبق أبيض"
+   }
+  },
+  "recipe_arros_al_forn_de_fesols_i_naps.md": {
+   "file": "images/arros-al-forn-de-fesols-i-naps.webp",
+   "width": 1000,
+   "height": 1000,
+   "commonsTitle": "File:Arròs al forn amb fesols i naps.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arr%C3%B2s_al_forn_amb_fesols_i_naps.jpg",
+   "author": "Romang",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Oven-baked rice in a clay dish with pork, blood sausage, beans and turnip",
+    "es": "Arroz al horno en cazuela de barro con cerdo, morcilla, alubias y nabo",
+    "ca": "Arròs al forn en cassola de fang amb porc, botifarra, fesols i nap",
+    "th": "ข้าวอบในหม้อดินกับหมู ไส้กรอกเลือด ถั่ว และหัวผักกาด",
+    "ar": "أرز مخبوز في قدر فخاري مع لحم الخنزير والنقانق والفاصوليا واللفت"
+   }
+  },
+  "recipe_arros_de_la_plana.md": {
+   "file": "images/arros-de-la-plana.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Plato de arroz de paella con costilla, muy tradicional en la comarca Plana Alta, provincia Castellón (España).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Plato_de_arroz_de_paella_con_costilla,_muy_tradicional_en_la_comarca_Plana_Alta,_provincia_Castell%C3%B3n_(Espa%C3%B1a).jpg",
+   "author": "Juan Emilio Prades Bel",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Plate of paella rice with pork ribs, typical of the Plana Alta",
+    "es": "Plato de arroz de paella con costilla, típico de la Plana Alta",
+    "ca": "Plat d'arròs de paella amb costella, típic de la Plana Alta",
+    "th": "จานข้าวปาเอยากับซี่โครงหมู แบบฉบับของปลานาอัลตา",
+    "ar": "طبق أرز بايلا مع أضلاع لحم الخنزير، نموذجي في منطقة بلانا ألتا"
+   }
+  },
+  "recipe_arros_negre_catala.md": {
+   "file": "images/arros-negre-catala.webp",
+   "width": 1200,
+   "height": 900,
+   "commonsTitle": "File:Arroz negro en una arrocería de Barcelona.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_negro_en_una_arrocer%C3%ADa_de_Barcelona.jpg",
+   "author": "El Mono Español",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Black rice with squid ink and a prawn in a paella pan, Barcelona",
+    "es": "Arroz negro con tinta de calamar y una gamba en paellera, Barcelona",
+    "ca": "Arròs negre amb tinta de calamar i una gamba a la paella, Barcelona",
+    "th": "ข้าวดำหมึกปลาหมึกกับกุ้งในกระทะปาเอยา บาร์เซโลนา",
+    "ar": "أرز أسود بحبر الحبار مع جمبري في مقلاة بايلا، برشلونة"
+   }
+  },
+  "recipe_arrossejat.md": {
+   "file": "images/arrossejat.webp",
+   "width": 1200,
+   "height": 900,
+   "commonsTitle": "File:\"Arrossejat\", Delta del Ebro.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%22Arrossejat%22,_Delta_del_Ebro.jpg",
+   "author": "Juan Emilio Prades Bel",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": {
+    "en": "Arrossejat, toasted rice cooked in fish broth, in a paella pan in the Ebro Delta",
+    "es": "Arrossejat, arroz tostado cocido en caldo de pescado, en paellera en el Delta del Ebro",
+    "ca": "Arrossejat, arròs rossejat cuit amb brou de peix, a la paella al Delta de l'Ebre",
+    "th": "ข้าวคั่วต้มในน้ำซุปปลาในกระทะปาเอยา ปากแม่น้ำเอโบร",
+    "ar": "أرز محمّص مطبوخ بمرق السمك في مقلاة بايلا، دلتا نهر إيبرو"
+   }
+  },
+  "recipe_arroz_a_banda.md": {
+   "file": "images/arroz-a-banda.webp",
+   "width": 1200,
+   "height": 1200,
+   "commonsTitle": "File:Arroz a banda (Alicante, 2026).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_a_banda_(Alicante,_2026).jpg",
+   "author": "Alvy",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": {
+    "en": "Arroz a banda in a paella pan with serving spoons, Alicante",
+    "es": "Arroz a banda en paellera con cucharas para servir, Alicante",
+    "ca": "Arròs a banda a la paella amb culleres per servir, Alacant",
+    "th": "ข้าวอาบันดาในกระทะปาเอยาพร้อมช้อนตัก อาลีกันเต",
+    "ar": "أرز آ باندا في مقلاة بايلا مع ملاعق التقديم، أليكانتي"
+   }
+  },
+  "recipe_arroz_a_la_cubana_canario.md": {
+   "file": "images/arroz-a-la-cubana-canario.webp",
+   "width": 968,
+   "height": 768,
+   "commonsTitle": "File:Arroz a la cubana.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_a_la_cubana.jpg",
+   "author": "Jacob Sunol",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "en": "Rice with a fried egg and fried bananas",
+    "es": "Arroz con huevo frito y plátano frito",
+    "ca": "Arròs amb ou ferrat i plàtan fregit",
+    "th": "ข้าวกับไข่ดาวและกล้วยทอด",
+    "ar": "أرز مع بيضة مقلية وموز مقلي"
+   }
+  },
+  "recipe_arroz_a_la_zamorana.md": {
+   "file": "images/arroz-a-la-zamorana.webp",
+   "width": 1600,
+   "height": 1195,
+   "commonsTitle": "File:Arroz Zamorano-2011.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_Zamorano-2011.jpg",
+   "author": "Tamorlan",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "alt": {
+    "en": "Plate of arroz a la zamorana with pork",
+    "es": "Plato de arroz a la zamorana con cerdo",
+    "ca": "Plat d'arròs a la zamorana amb porc",
+    "th": "จานข้าวสไตล์ซาโมรากับหมู",
+    "ar": "طبق أرز على طريقة سمورة مع لحم الخنزير"
+   }
+  },
+  "recipe_arroz_al_horno.md": {
+   "file": "images/arroz-al-horno.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Arroz al horno.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_al_horno.JPG",
+   "author": "19Tarrestnom65",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Arroz al horno in a clay dish topped with tomato, blood sausage and chickpeas",
+    "es": "Arroz al horno en cazuela de barro con tomate, morcilla y garbanzos",
+    "ca": "Arròs al forn en cassola de fang amb tomaca, botifarra i cigrons",
+    "th": "ข้าวอบในหม้อดินโปะมะเขือเทศ ไส้กรอกเลือด และถั่วลูกไก่",
+    "ar": "أرز مخبوز في قدر فخاري مع الطماطم والنقانق والحمص"
+   }
+  },
+  "recipe_arroz_caldoso_con_bogavante.md": {
+   "file": "images/arroz-caldoso-con-bogavante.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Arroz caldoso con bogavante.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_caldoso_con_bogavante.jpg",
+   "author": "Juan Emilio Prades Bel",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Soupy rice with a lobster claw",
+    "es": "Arroz caldoso con una pinza de bogavante",
+    "ca": "Arròs caldós amb una pinça de llamàntol",
+    "th": "ข้าวต้มกับก้ามล็อบสเตอร์",
+    "ar": "أرز بالمرق مع مخلب جراد البحر"
+   }
+  },
+  "recipe_arroz_con_acelgas.md": {
+   "file": "images/arroz-con-acelgas.webp",
+   "width": 1280,
+   "height": 960,
+   "commonsTitle": "File:Arroz con acelgas.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_con_acelgas.jpg",
+   "author": "Sento from Valencia, Spain",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": {
+    "en": "Bowl of rice with chard and snails",
+    "es": "Plato hondo de arroz con acelgas y caracoles",
+    "ca": "Plat fondo d'arròs amb bledes i caragols",
+    "th": "ชามข้าวกับผักชาร์ดและหอยทาก",
+    "ar": "صحن أرز بالسلق والحلزون"
+   }
+  },
+  "recipe_arroz_con_costra.md": {
+   "file": "images/arroz-con-costra.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Arroz con costra - Elche.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_con_costra_-_Elche.jpg",
+   "author": "Juan J. Martínez from Valencia, España",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": {
+    "en": "Arroz con costra from Elche with a golden baked egg crust",
+    "es": "Arroz con costra de Elche con la costra de huevo dorada",
+    "ca": "Arròs amb crosta d'Elx amb la crosta d'ou daurada",
+    "th": "ข้าวคอสตราจากเมืองเอลเชกับหน้าไข่อบสีทอง",
+    "ar": "أرز بالقشرة من إلتشي بقشرة بيض ذهبية مخبوزة"
+   }
+  },
+  "recipe_arroz_con_fesols_i_naps.md": {
+   "file": "images/arroz-con-fesols-i-naps.webp",
+   "width": 1600,
+   "height": 2133,
+   "commonsTitle": "File:2015 01 17 Cuinant Caldera, Festa de Sant Antoni de Massalfassar 2015 02.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:2015_01_17_Cuinant_Caldera,_Festa_de_Sant_Antoni_de_Massalfassar_2015_02.jpg",
+   "author": "Pacopac",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Caldera of rice with beans and turnip being stirred in a large pot at a village festival",
+    "es": "Caldera de arroz con alubias y nabos removiéndose en una olla grande en una fiesta de pueblo",
+    "ca": "Caldera d'arròs amb fesols i naps remenant-se en una olla gran en una festa de poble",
+    "th": "หม้อใหญ่ข้าวต้มถั่วกับหัวผักกาดกำลังถูกคนในงานเทศกาลหมู่บ้าน",
+    "ar": "قدر كبير من الأرز بالفاصوليا واللفت يُحرَّك في احتفال قروي"
+   }
+  },
+  "recipe_arroz_con_galeras_y_alcachofas.md": {
+   "file": "images/arroz-con-galeras-y-alcachofas.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Arroz con galeras y alcachofas.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_con_galeras_y_alcachofas.jpg",
+   "author": "Juan Emilio Prades Bel",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Rice with mantis shrimp and artichokes",
+    "es": "Arroz con galeras y alcachofas",
+    "ca": "Arròs amb galeres i carxofes",
+    "th": "ข้าวกับกั้งตั๊กแตนและอาร์ติโชก",
+    "ar": "أرز مع قريدس السرعوف والخرشوف"
+   }
+  },
+  "recipe_arroz_con_leche.md": {
+   "file": "images/arroz-con-leche.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Arroz con leche espolvoreado con canela molida.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_con_leche_espolvoreado_con_canela_molida.jpg",
+   "author": "Juan Emilio Prades Bel",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Rice pudding dusted with ground cinnamon",
+    "es": "Arroz con leche espolvoreado con canela molida",
+    "ca": "Arròs amb llet empolsinat amb canyella mòlta",
+    "th": "ขนมข้าวต้มนมโรยอบเชยป่น",
+    "ar": "أرز بالحليب مرشوش بالقرفة المطحونة"
+   }
+  },
+  "recipe_arroz_con_sepia_y_alcachofas.md": {
+   "file": "images/arroz-con-sepia-y-alcachofas.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Arroz con sepia y alcachofas.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_con_sepia_y_alcachofas.JPG",
+   "author": "Dorieo",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Plate of rice with cuttlefish, artichokes and prawns",
+    "es": "Plato de arroz con sepia, alcachofas y gambas",
+    "ca": "Plat d'arròs amb sèpia, carxofes i gambes",
+    "th": "จานข้าวกับปลาหมึกกระดอง อาร์ติโชก และกุ้ง",
+    "ar": "طبق أرز مع الحبار والخرشوف والجمبري"
+   }
+  },
+  "recipe_arroz_conejo_caracoles_murciano.md": {
+   "file": "images/arroz-conejo-caracoles-murciano.webp",
+   "width": 1200,
+   "height": 902,
+   "commonsTitle": "File:Arroz y conejo con caracoles, Murcia.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_y_conejo_con_caracoles,_Murcia.jpg",
+   "author": "Avicentegil",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Paella pan of rice with rabbit, snails and red peppers, Murcia",
+    "es": "Paellera de arroz con conejo, caracoles y pimiento rojo, Murcia",
+    "ca": "Paella d'arròs amb conill, caragols i pebrot roig, Múrcia",
+    "th": "กระทะปาเอยาข้าวกับกระต่าย หอยทาก และพริกหวานแดง มูร์เซีย",
+    "ar": "مقلاة بايلا من الأرز مع الأرنب والحلزون والفلفل الأحمر، مرسية"
+   }
+  },
+  "recipe_arroz_del_senyoret.md": {
+   "file": "images/arroz-del-senyoret.webp",
+   "width": 1200,
+   "height": 902,
+   "commonsTitle": "File:Arròs del senyoret - Binhui.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arr%C3%B2s_del_senyoret_-_Binhui.jpg",
+   "author": "Francesc Fort",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Arros del senyoret with peeled prawns in a paella pan",
+    "es": "Arroz del señorito con gambas peladas en la paellera",
+    "ca": "Arròs del senyoret amb gambes pelades a la paella",
+    "th": "ข้าวเซญอเร็ตกับกุ้งแกะเปลือกในกระทะปาเอยา",
+    "ar": "أرز السنيوريت مع الجمبري المقشر في مقلاة البايلا"
+   }
+  },
+  "recipe_arroz_empedrado.md": {
+   "file": "images/arroz-empedrado.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Arroz Empedrado con Bacalao.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_Empedrado_con_Bacalao.jpg",
+   "author": "Juan Emilio Prades Bel",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": {
+    "en": "Rice with salt cod and white beans",
+    "es": "Arroz empedrado con bacalao y alubias",
+    "ca": "Arròs empedrat amb bacallà i fesols",
+    "th": "ข้าวกับปลาค็อดเค็มและถั่วขาว",
+    "ar": "أرز مع سمك القد المملح والفاصوليا البيضاء"
+   }
+  },
+  "recipe_arroz_marinero_andaluz.md": {
+   "file": "images/arroz-marinero-andaluz.webp",
+   "width": 1600,
+   "height": 1067,
+   "commonsTitle": "File:Arroz marinero caldoso.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_marinero_caldoso.jpg",
+   "author": "Venta Aurelio",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Soupy seafood rice with langoustines in a pan",
+    "es": "Arroz marinero caldoso con cigalas en la sartén",
+    "ca": "Arròs mariner caldós amb escamarlans a la paella",
+    "th": "ข้าวต้มทะเลกับกุ้งมังกรน้ำลึกในกระทะ",
+    "ar": "أرز بحري بالمرق مع جراد البحر الصغير في مقلاة"
+   }
+  },
+  "recipe_arroz_negro.md": {
+   "file": "images/arroz-negro.webp",
+   "width": 1000,
+   "height": 752,
+   "commonsTitle": "File:Arròs Negre - Font d'En Corts.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arr%C3%B2s_Negre_-_Font_d%27En_Corts.jpg",
+   "author": "Francesc Fort",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Black rice with prawns in a paella pan, Valencia",
+    "es": "Arroz negro con gambas en paellera, Valencia",
+    "ca": "Arròs negre amb gambes a la paella, València",
+    "th": "ข้าวดำกับกุ้งในกระทะปาเอยา บาเลนเซีย",
+    "ar": "أرز أسود مع الجمبري في مقلاة بايلا، فالنسيا"
+   }
+  },
+  "recipe_fideua.md": {
+   "file": "images/fideua.webp",
+   "width": 1600,
+   "height": 1195,
+   "commonsTitle": "File:Fideua de Gandia.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Fideua_de_Gandia.jpg",
+   "author": "boklm (Flickr)",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Fideua de Gandia, short noodles with seafood",
+    "es": "Fideuá de Gandia, fideos cortos con marisco",
+    "ca": "Fideuà de Gandia, fideus curts amb marisc",
+    "th": "ฟิเดวาเมืองกันเดีย เส้นสั้นกับอาหารทะเล",
+    "ar": "فيديوا غانديا، شعيرية قصيرة مع المأكولات البحرية"
+   }
+  },
+  "recipe_lamprea_a_la_bordelesa_con_arroz.md": {
+   "file": "images/lamprea-a-la-bordelesa-con-arroz.webp",
+   "width": 1024,
+   "height": 768,
+   "commonsTitle": "File:Lamprea a la bordelesa - juantiagues.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Lamprea_a_la_bordelesa_-_juantiagues.jpg",
+   "author": "Juan Mejuto",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": {
+    "en": "Lamprey stewed bordelaise-style in a pan, served with rice",
+    "es": "Lamprea a la bordelesa en la cazuela, servida con arroz",
+    "ca": "Llamprea a la bordelesa a la cassola, servida amb arròs",
+    "th": "ปลาแลมป์เพรย์ตุ๋นซอสบอร์เดอเลสในกระทะ เสิร์ฟกับข้าว",
+    "ar": "سمك الجلكى مطبوخ على الطريقة البوردولية يُقدَّم مع الأرز"
+   }
+  },
+  "recipe_mansaf.md": {
+   "file": "images/mansaf.webp",
+   "width": 1600,
+   "height": 1126,
+   "commonsTitle": "File:Préparation du mansaf-Jordanie (8).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Pr%C3%A9paration_du_mansaf-Jordanie_(8).jpg",
+   "author": "Ji-Elle",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Mansaf: lamb over rice and flatbread on a large tray, Jordan",
+    "es": "Mansaf: cordero sobre arroz y pan plano en una gran bandeja, Jordania",
+    "ca": "Mansaf: xai sobre arròs i pa pla en una safata gran, Jordània",
+    "th": "มันซาฟ: เนื้อแกะบนข้าวและขนมปังแผ่นในถาดใหญ่ จอร์แดน",
+    "ar": "منسف: لحم الضأن فوق الأرز وخبز الشراك في سدر كبير، الأردن"
+   }
+  },
+  "recipe_maqluba.md": {
+   "file": "images/maqluba.webp",
+   "width": 1200,
+   "height": 900,
+   "commonsTitle": "File:طبخة المقلوبة Maqluba.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D8%B7%D8%A8%D8%AE%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D9%84%D9%88%D8%A8%D8%A9_Maqluba.jpg",
+   "author": "Ramadan9044",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Maqluba turned out onto a tray, surrounded by salads",
+    "es": "Maqluba volcada sobre una bandeja, rodeada de ensaladas",
+    "ca": "Maqluba girada sobre una safata, envoltada d'amanides",
+    "th": "มักลูบาคว่ำลงบนถาด ล้อมรอบด้วยสลัด",
+    "ar": "مقلوبة مقلوبة على صينية تحيط بها السلطات"
+   }
+  },
+  "recipe_mujaddara.md": {
+   "file": "images/mujaddara.webp",
+   "width": 1600,
+   "height": 1067,
+   "commonsTitle": "File:Mujaddara.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Mujaddara.jpg",
+   "author": "Bazel",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "alt": {
+    "en": "Mujaddara of rice and lentils topped with browned onions",
+    "es": "Mujaddara de arroz y lentejas cubierta de cebolla dorada",
+    "ca": "Mujaddara d'arròs i llenties coberta de ceba daurada",
+    "th": "มูจัดดาราข้าวกับถั่วเลนทิล โรยหอมใหญ่เจียว",
+    "ar": "مجدرة أرز وعدس مزيّنة بالبصل المحمّر"
+   }
+  },
+  "recipe_paella_de_marisco.md": {
+   "file": "images/paella-de-marisco.webp",
+   "width": 1600,
+   "height": 1201,
+   "commonsTitle": "File:Paella de Marisco Valencia.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Paella_de_Marisco_Valencia.jpg",
+   "author": "nikonvscanon (Flickr)",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "en": "Seafood paella with mussels and prawns, Valencia",
+    "es": "Paella de marisco con mejillones y gambas, Valencia",
+    "ca": "Paella de marisc amb musclos i gambes, València",
+    "th": "ปาเอยาอาหารทะเลกับหอยแมลงภู่และกุ้ง บาเลนเซีย",
+    "ar": "بايلا المأكولات البحرية مع بلح البحر والجمبري، فالنسيا"
+   }
+  },
+  "recipe_paella_de_verduras.md": {
+   "file": "images/paella-de-verduras.webp",
+   "width": 1200,
+   "height": 902,
+   "commonsTitle": "File:Paella de verduras o arroz viudo.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Paella_de_verduras_o_arroz_viudo.jpg",
+   "author": "Avicentegil",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Vegetable paella with zucchini, eggplant and peppers",
+    "es": "Paella de verduras con calabacín, berenjena y pimiento",
+    "ca": "Paella de verdures amb carabassó, albergínia i pebrot",
+    "th": "ปาเอยาผักกับซูกินี มะเขือยาว และพริกหวาน",
+    "ar": "بايلا الخضار مع الكوسا والباذنجان والفلفل"
+   }
+  },
+  "recipe_paella_mixta.md": {
+   "file": "images/paella-mixta.webp",
+   "width": 1600,
+   "height": 1067,
+   "commonsTitle": "File:Paella Mixta at Celler sa Premsa.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Paella_Mixta_at_Celler_sa_Premsa.jpg",
+   "author": "Tsumugii",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Paella mixta with meat and seafood",
+    "es": "Paella mixta de carne y marisco",
+    "ca": "Paella mixta de carn i marisc",
+    "th": "ปาเอยารวมเนื้อและอาหารทะเล",
+    "ar": "بايلا مختلطة باللحم والمأكولات البحرية"
+   }
+  },
+  "recipe_paella_valenciana.md": {
+   "file": "images/paella-valenciana.webp",
+   "width": 1600,
+   "height": 1067,
+   "commonsTitle": "File:01 Paella Valenciana original.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:01_Paella_Valenciana_original.jpg",
+   "author": "Jan Harenburg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Paella valenciana with flat green beans, butter beans, chicken and rabbit",
+    "es": "Paella valenciana con judía verde, garrofón, pollo y conejo",
+    "ca": "Paella valenciana amb bajoqueta, garrofó, pollastre i conill",
+    "th": "ปาเอยาบาเลนเซียกับถั่วแขก ถั่วลิมา ไก่ และกระต่าย",
+    "ar": "بايلا فالنسيا مع الفاصوليا الخضراء وفاصوليا الليما والدجاج والأرنب"
+   }
+  },
+  "recipe_qidreh.md": {
+   "file": "images/qidreh.webp",
+   "width": 1600,
+   "height": 1067,
+   "commonsTitle": "File:Qedra (1).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Qedra_(1).jpg",
+   "author": "علاء",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Qidreh: yellow rice and meat in a copper pot",
+    "es": "Qidreh: arroz amarillo con carne en una olla de cobre",
+    "ca": "Qidreh: arròs groc amb carn en una olla de coure",
+    "th": "กิดเราะห์: ข้าวเหลืองกับเนื้อในหม้อทองแดง",
+    "ar": "قدرة: أرز أصفر مع اللحم في قدر نحاسي"
+   }
+  },
+  "recipe_sayadieh.md": {
+   "file": "images/sayadieh.webp",
+   "width": 1600,
+   "height": 1075,
+   "commonsTitle": "File:Fish Sayadieh.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Fish_Sayadieh.jpg",
+   "author": "young shanahan",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "en": "Fish sayadieh: fried fish on brown spiced rice with nuts",
+    "es": "Sayadieh de pescado: pescado frito sobre arroz especiado dorado con frutos secos",
+    "ca": "Sayadieh de peix: peix fregit sobre arròs especiat daurat amb fruita seca",
+    "th": "ซัยยาดีเยห์: ปลาทอดบนข้าวเครื่องเทศสีน้ำตาลกับถั่ว",
+    "ar": "صيادية سمك: سمك مقلي فوق أرز متبّل بني مع المكسرات"
+   }
+  },
+  "recipe_txuritabeltz.md": {
+   "file": "images/txuritabeltz.webp",
+   "width": 1200,
+   "height": 900,
+   "commonsTitle": "File:Txuri beltza kazuela.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Txuri_beltza_kazuela.jpg",
+   "author": "Birasuegi",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Slices of white and black pudding in tomato sauce in a clay dish",
+    "es": "Rodajas de relleno blanco y negro en salsa de tomate en cazuela",
+    "ca": "Rodanxes de farcit blanc i negre amb salsa de tomàquet a la cassola",
+    "th": "ไส้กรอกขาวและดำหั่นแว่นในซอสมะเขือเทศในหม้อดิน",
+    "ar": "شرائح نقانق بيضاء وسوداء بصلصة الطماطم في قدر فخاري"
+   }
+  },
+  "recipe_warak_enab.md": {
+   "file": "images/warak-enab.webp",
+   "width": 1600,
+   "height": 938,
+   "commonsTitle": "File:Sarma.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Sarma.jpg",
+   "author": "Noumenon",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "alt": {
+    "en": "Stuffed vine leaves with a lemon wedge",
+    "es": "Hojas de parra rellenas con un gajo de limón",
+    "ca": "Fulles de parra farcides amb un grill de llimona",
+    "th": "ใบองุ่นยัดไส้กับมะนาวฝาน",
+    "ar": "ورق عنب محشي مع شريحة ليمون"
+   }
+  },
+  "recipe_arros_brut.md": {
+   "file": "images/arros-brut.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Arroçbrut.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arro%C3%A7brut.jpg",
+   "author": "Chixoy",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "alt": {
+    "en": "Arros brut simmering in a clay pot on the stove",
+    "es": "Arròs brut cociendo en una cazuela de barro al fuego",
+    "ca": "Arròs brut bullint en una greixonera al foc",
+    "th": "ข้าวอาร์รอสบรุตเคี่ยวในหม้อดินบนเตา",
+    "ar": "أرز آروس بروت يغلي في قدر فخاري على الموقد"
+   }
+  },
+  "recipe_arroz_a_la_alicantina.md": {
+   "file": "images/arroz-a-la-alicantina.webp",
+   "width": 1100,
+   "height": 825,
+   "commonsTitle": "File:Arroz alicantino 2.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_alicantino_2.jpg",
+   "author": "Joakinol",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Arroz a la alicantina with red pepper strips in a paella pan",
+    "es": "Arroz a la alicantina con tiras de pimiento rojo en paellera",
+    "ca": "Arròs a l'alacantina amb tires de pebrot roig a la paella",
+    "th": "ข้าวสไตล์อาลีกันเตกับพริกหวานแดงหั่นเส้นในกระทะปาเอยา",
+    "ar": "أرز على طريقة أليكانتي مع شرائح الفلفل الأحمر في مقلاة بايلا"
+   }
+  },
+  "recipe_arroz_con_alcachofas_benicarlo.md": {
+   "file": "images/arroz-con-alcachofas-benicarlo.webp",
+   "width": 1200,
+   "height": 900,
+   "commonsTitle": "File:Paella con alcachofas.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Paella_con_alcachofas.jpg",
+   "author": "Juan Emilio Prades Bel",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": {
+    "en": "Paella with artichokes and meat",
+    "es": "Paella con alcachofas y carne",
+    "ca": "Paella amb carxofes i carn",
+    "th": "ปาเอยากับอาร์ติโชกและเนื้อ",
+    "ar": "بايلا مع الخرشوف واللحم"
+   }
+  },
+  "recipe_arroz_con_bogavante_norte.md": {
+   "file": "images/arroz-con-bogavante-norte.webp",
+   "width": 1200,
+   "height": 896,
+   "commonsTitle": "File:Arroz con Bogavante (Caldoso).JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_con_Bogavante_(Caldoso).JPG",
+   "author": "Tamorlan",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "alt": {
+    "en": "Soupy lobster rice in a clay pot",
+    "es": "Arroz caldoso con bogavante en cazuela de barro",
+    "ca": "Arròs caldós amb llamàntol en cassola de fang",
+    "th": "ข้าวต้มล็อบสเตอร์ในหม้อดิน",
+    "ar": "أرز بالمرق مع جراد البحر في قدر فخاري"
+   }
+  },
+  "recipe_arroz_con_pato.md": {
+   "file": "images/arroz-con-pato.webp",
+   "width": 1100,
+   "height": 825,
+   "commonsTitle": "File:Paella valenciana con pato.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Paella_valenciana_con_pato.jpg",
+   "author": "Juan Emilio Prades Bel",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": {
+    "en": "Paella valenciana with duck",
+    "es": "Paella valenciana con pato",
+    "ca": "Paella valenciana amb ànec",
+    "th": "ปาเอยาบาเลนเซียกับเป็ด",
+    "ar": "بايلا فالنسيا مع البط"
+   }
+  },
+  "recipe_caldero_del_mar_menor.md": {
+   "file": "images/caldero-del-mar-menor.webp",
+   "width": 1024,
+   "height": 683,
+   "commonsTitle": "File:Arroz caldero con Mujol.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_caldero_con_Mujol.jpg",
+   "author": "Javier Lastras",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "en": "Caldero rice served with grey mullet",
+    "es": "Arroz caldero servido con mújol",
+    "ca": "Arròs de caldero servit amb llissa",
+    "th": "ข้าวกัลเดโรเสิร์ฟกับปลากระบอก",
+    "ar": "أرز كالديرو يُقدَّم مع سمك البوري"
+   }
+  },
+  "recipe_chipirones_en_su_tinta_con_arroz.md": {
+   "file": "images/chipirones-en-su-tinta-con-arroz.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Calamares en su tinta.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Calamares_en_su_tinta.jpg",
+   "author": "Jorge Díaz from San Francisco, USA",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": {
+    "en": "Squid in black ink sauce with white rice",
+    "es": "Calamares en su tinta con arroz blanco",
+    "ca": "Calamars en la seva tinta amb arròs blanc",
+    "th": "ปลาหมึกในซอสหมึกดำกับข้าวสวย",
+    "ar": "حبار بصلصة الحبر الأسود مع الأرز الأبيض"
+   }
+  },
+  "recipe_mahshi.md": {
+   "file": "images/mahshi.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Stuffed squash 2025 JORDAN (2).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Stuffed_squash_2025_JORDAN_(2).jpg",
+   "author": "Justwiki",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": {
+    "en": "Zucchini and eggplants stuffed with rice, cooked in a pot",
+    "es": "Calabacines y berenjenas rellenos de arroz, cocinados en olla",
+    "ca": "Carabassons i albergínies farcits d'arròs, cuits a l'olla",
+    "th": "ซูกินีและมะเขือยาวยัดไส้ข้าว ต้มในหม้อ",
+    "ar": "كوسا وباذنجان محشي بالأرز مطبوخ في القدر"
+   }
+  },
+  "recipe_mahshi_halabi.md": {
+   "file": "images/mahshi-halabi.webp",
+   "width": 1600,
+   "height": 1025,
+   "commonsTitle": "File:Kousa Mahshi.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Kousa_Mahshi.jpg",
+   "author": "Bazel",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "alt": {
+    "en": "Stuffed zucchini in tomato sauce",
+    "es": "Calabacines rellenos en salsa de tomate",
+    "ca": "Carabassons farcits amb salsa de tomàquet",
+    "th": "ซูกินียัดไส้ในซอสมะเขือเทศ",
+    "ar": "كوسا محشية بصلصة البندورة"
+   }
+  },
+  "recipe_zarb.md": {
+   "file": "images/zarb.webp",
+   "width": 1536,
+   "height": 2048,
+   "commonsTitle": "File:Cooked zarb 01.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Cooked_zarb_01.jpg",
+   "author": "فيصل العدناني",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Zarb: lamb and vegetables lifted from an underground oven in the desert",
+    "es": "Zarb: cordero y verduras sacados de un horno bajo tierra en el desierto",
+    "ca": "Zarb: xai i verdures trets d'un forn soterrat al desert",
+    "th": "ซาร์บ: เนื้อแกะและผักที่ยกขึ้นจากเตาใต้ดินกลางทะเลทราย",
+    "ar": "زرب: لحم ضأن وخضار مستخرجة من فرن تحت الأرض في الصحراء"
+   }
+  },
+  "recipe_arroz_empedrao_murciano.md": {
+   "file": "images/arroz-empedrao-murciano.webp",
+   "width": 1200,
+   "height": 800,
+   "commonsTitle": "File:Arroz Empedrado-Murcia-2011-01.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_Empedrado-Murcia-2011-01.JPG",
+   "author": "Tamorlan",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "alt": {
+    "en": "Murcian arroz empedrao in a paella pan with lemon wedges",
+    "es": "Arroz empedrao murciano en paellera con gajos de limón",
+    "ca": "Arròs empedrao murcià a la paella amb grills de llimona",
+    "th": "ข้าวเอ็มเปดราโอสไตล์มูร์เซียในกระทะปาเอยากับมะนาวฝาน",
+    "ar": "أرز إمبيدراو المرسي في مقلاة بايلا مع شرائح الليمون"
+   }
+  }
+ }
+}
