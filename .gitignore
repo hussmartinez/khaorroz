@@ -5,3 +5,4 @@ dist/
 dist.old-*
 .wrangler/
 .dev.vars
+__pycache__/
