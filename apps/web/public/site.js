@@ -12,7 +12,7 @@
   try {
     const pref = localStorage.getItem("arros-lang");
     const isEnglishHome = document.documentElement.lang === "en" && /\/(index\.html)?$/.test(location.pathname);
-    if (isEnglishHome && pref && pref !== "en" && !document.referrer.includes(location.host)) location.replace(`${pref}/index.html`);
+    if (isEnglishHome && pref && pref !== "en" && !document.referrer.includes(location.host)) location.replace(`/${pref}/`);
   } catch {}
   document.addEventListener("click", (e) => {
     $$("details.lang[open]").forEach((d) => { if (!d.contains(e.target)) d.open = false; });

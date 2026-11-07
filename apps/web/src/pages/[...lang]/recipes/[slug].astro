@@ -24,7 +24,7 @@ const base = langBase(lang);
         <div class="tags">
           <Chip lang={lang} texture={p.texture} />
           {p.spec && <span class="tag"><span class="tag-k">{tr(lang, "vessel")}</span> {VESSEL[p.spec.vessel]}</span>}
-          {p.provinces.map((x) => <a class="tag" href={`${base}provinces/${provSlug(x.file)}.html`}><span class="pin" aria-hidden="true"></span>{m.regionName(x.file, x.name)}</a>)}
+          {p.provinces.map((x) => <a class="tag" href={`${base}provinces/${provSlug(x.file)}`}><span class="pin" aria-hidden="true"></span>{m.regionName(x.file, x.name)}</a>)}
         </div>
         <Notice lang={lang} status={p.status} />
         <div class="rh-actions">

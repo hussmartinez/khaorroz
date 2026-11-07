@@ -5,7 +5,7 @@ import { ADS } from "../lib/ads";
 
 interface Props {
   lang: Lang;
-  path: string; // page path relative to a language root, e.g. "recipes/paella-valenciana.html"
+  path: string; // page path relative to a language root, e.g. "recipes/paella-valenciana" (".html"/"index.html" are tolerated and stripped)
   title: string;
   active: "recipes" | "history" | "provinces" | "about" | "";
   description?: string;
@@ -13,17 +13,20 @@ interface Props {
 }
 const { lang, path, title, active, description, bodyClass } = Astro.props;
 const base = langBase(lang);
+// Clean URLs: "x.html" → "x", "index.html" / "a/index.html" → "" / "a/". Files are still built as .html;
+// Cloudflare serves /x from x.html and 307-redirects old /x.html links (wrangler html_handling auto-trailing-slash).
+const clean = (p: string) => p.replace(/(^|\/)index\.html$/, "$1").replace(/\.html$/, "");
 const isErrorPage = path === "404.html";
-const switchPath = isErrorPage ? "index.html" : path;
+const switchPath = isErrorPage ? "" : clean(path);
 const site = tr(lang, "siteName");
 const fullTitle = title === site ? title : `${title} · ${site}`;
-const pretty = (lg: Lang) => `${langBase(lg)}${path === "index.html" ? "" : path}`;
+const pretty = (lg: Lang) => `${langBase(lg)}${clean(path)}`;
 const canonical = new URL(pretty(lang), Astro.site).href;
 const nav = [
-  ["index.html", tr(lang, "navRecipes"), "recipes"],
-  ["history.html", tr(lang, "navHistory"), "history"],
-  ["provinces.html", tr(lang, "navRegions"), "provinces"],
-  ["about.html", tr(lang, "navAbout"), "about"],
+  ["", tr(lang, "navRecipes"), "recipes"],
+  ["history", tr(lang, "navHistory"), "history"],
+  ["provinces", tr(lang, "navRegions"), "provinces"],
+  ["about", tr(lang, "navAbout"), "about"],
 ] as const;
 ---
 <!doctype html>
@@ -54,7 +57,7 @@ const nav = [
 <div class="progress" aria-hidden="true"></div>
 <a class="skip" href="#main">↓</a>
 <header class="site-header" data-pagefind-ignore>
-  <a class="brand" href={`${base}index.html`}><span class="brand-pan" aria-hidden="true"></span><span>Arròs</span></a>
+  <a class="brand" href={base}><span class="brand-pan" aria-hidden="true"></span><span>Arròs</span></a>
   <nav class="main-nav">
     {nav.map(([h, l, k]) => <a href={`${base}${h}`} aria-current={k === active ? "page" : undefined}>{l}</a>)}
   </nav>

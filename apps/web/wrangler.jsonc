@@ -1,16 +1,15 @@
-// Cloudflare Worker serving the Astro build.
+// Cloudflare Worker (static assets only) serving the Astro build.
 // Deployed by .github/workflows/deploy.yml on every push to main.
-// Files are served exactly as built (html_handling "none" keeps /x.html URLs = canonical URLs);
-// worker.js only handles unmatched paths: "…/" → index.html, everything else → 404 page.
+// Clean URLs: files are built as /recipes/x.html and /es/index.html; "auto-trailing-slash" serves them
+// at /recipes/x and /es/ and 307-redirects old /x.html links to the clean form.
 {
   "$schema": "../../node_modules/wrangler/config-schema.json",
   "name": "khaorice",
-  "main": "./worker.js",
   "compatibility_date": "2026-11-01",
   "assets": {
     "directory": "./dist",
-    "binding": "ASSETS",
-    "html_handling": "none"
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
   },
   "routes": [{ "pattern": "arroz.forfreedom.app", "custom_domain": true }],
   "workers_dev": false,

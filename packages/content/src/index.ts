@@ -31,7 +31,7 @@ export interface Page {
   file: string;
   kind: Kind;
   slug: string;
-  url: string; // relative to a language root, e.g. recipes/paella-valenciana.html
+  url: string; // relative to a language root, e.g. recipes/paella-valenciana (clean URL, no .html)
   title: string;
   altTitle: string;
   body: string; // Markdown without front matter, H1 and nav line
@@ -61,7 +61,7 @@ export function kindOf(file: string): Kind | null {
 }
 
 export function urlFor(kind: Kind, slug: string) {
-  return { recipe: `recipes/${slug}.html`, province: `provinces/${slug}.html`, history: "history.html", readme: "about.html" }[kind];
+  return { recipe: `recipes/${slug}`, province: `provinces/${slug}`, history: "history", readme: "about" }[kind];
 }
 
 export function splitFrontMatter(src: string): { meta: Record<string, string>; text: string } {
