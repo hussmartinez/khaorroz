@@ -23,7 +23,7 @@ const entries = page ? [] : m.recipes.map((r) => {
         {entries.map(({ r, html }) => (
           <section class="history-entry" data-reveal lang={r.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined}>
             <a class="he-pan" href={`${langBase(lang)}${r.url}`} aria-hidden="true" tabindex="-1" set:html={panHtml(r, { steam: false })} />
-            <div><h2 id={r.slug}><a href={`${langBase(lang)}${r.url}`}>{r.title}</a></h2>{r.altTitle && <p class="alt">{r.altTitle}</p>}<Fragment set:html={html} /></div>
+            <div><h2 id={r.slug}><a href={`${langBase(lang)}${r.url}`}>{r.title}</a></h2>{r.gloss && <p class="gloss">{r.gloss}</p>}{r.altTitle && <p class="alt">{r.altTitle}</p>}<Fragment set:html={html} /></div>
           </section>
         ))}
       </article></div>

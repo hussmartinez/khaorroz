@@ -70,6 +70,17 @@ const textures = [
           <button type="button" data-filter-province="" aria-pressed="true">{tr(lang, "allRegions")}</button>
           {regions.filter((r) => r.recipes.length).map((r) => <button type="button" data-filter-province={r.file}>{r.name}</button>)}
         </div>
+        {/* Phones: the two chip rows collapse into native dropdowns (kept in sync with the chips by site.js) */}
+        <div class="filter-selects">
+          <select data-select="texture" aria-label={tr(lang, "texture")}>
+            <option value="">{tr(lang, "texture")}: {tr(lang, "all")}</option>
+            {(["seco", "meloso", "caldoso"] as const).map((tex) => <option value={tex}>{shortTex(lang, tex)}</option>)}
+          </select>
+          <select data-select="province" aria-label={tr(lang, "region")}>
+            <option value="">{tr(lang, "allRegions")}</option>
+            {regions.filter((r) => r.recipes.length).map((r) => <option value={r.file}>{r.name}</option>)}
+          </select>
+        </div>
       </div>
       <p class="count" id="count">{nDishes(lang, recipes.length)}</p>
       <Grid list={recipes} m={m} id="grid" />

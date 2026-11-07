@@ -1,0 +1,733 @@
+{
+ "_comment": "Plain-language labels per language. recipes: one-line 'what is this dish' shown under the authentic (Spanish/local) name. regions: region names shown on tags, cards and region pages. Add an entry for every new recipe_*.md / provincial_*.md (bun scripts/check.ts warns when one is missing).",
+ "recipes": {
+  "recipe_arrocito_del_grau.md": {
+   "en": "Creamy seafood rice from Castellón's fishing port",
+   "es": "Arroz meloso marinero del puerto de Castellón",
+   "ca": "Arròs melós mariner del port de Castelló",
+   "th": "ข้าวทะเลเนื้อครีมจากท่าเรือประมงเมืองกัสเตยอน"
+  },
+  "recipe_arros_a_la_cassola.md": {
+   "en": "Barcelona-style rice in a clay casserole with seafood and meat",
+   "es": "Arroz en cazuela de barro al estilo de Barcelona, con marisco y carne",
+   "ca": "Arròs a la cassola a l'estil de Barcelona, amb marisc i carn",
+   "th": "ข้าวในหม้อดินสไตล์บาร์เซโลนา ใส่อาหารทะเลและเนื้อ"
+  },
+  "recipe_arros_a_la_cassola_de_pals.md": {
+   "en": "Pals rice in a clay casserole with seafood and meat",
+   "es": "Arroz de Pals en cazuela de barro con marisco y carne",
+   "ca": "Arròs de Pals a la cassola amb marisc i carn",
+   "th": "ข้าวพันธุ์ปัลส์อบในหม้อดินกับอาหารทะเลและเนื้อ"
+  },
+  "recipe_arros_al_forn_amb_panses_i_cigrons.md": {
+   "en": "Oven-baked rice with raisins and chickpeas",
+   "es": "Arroz al horno con pasas y garbanzos",
+   "ca": "Arròs al forn amb panses i cigrons",
+   "th": "ข้าวอบเตาใส่ลูกเกดและถั่วลูกไก่"
+  },
+  "recipe_arros_al_forn_amb_pesols.md": {
+   "en": "Oven-baked rice with peas and pork",
+   "es": "Arroz al horno con guisantes y cerdo",
+   "ca": "Arròs al forn amb pèsols i porc",
+   "th": "ข้าวอบเตาใส่ถั่วลันเตาและหมู"
+  },
+  "recipe_arros_al_forn_d_anguiles_i_bajoques.md": {
+   "en": "Oven-baked rice with eel and green beans",
+   "es": "Arroz al horno con anguila y judías verdes",
+   "ca": "Arròs al forn amb anguila i bajoques",
+   "th": "ข้าวอบเตาใส่ปลาไหลและถั่วแขก"
+  },
+  "recipe_arros_al_forn_de_fesols_i_naps.md": {
+   "en": "Oven-baked rice with white beans, turnip and pork",
+   "es": "Arroz al horno con alubias, nabo y cerdo",
+   "ca": "Arròs al forn amb fesols, naps i porc",
+   "th": "ข้าวอบเตาใส่ถั่วขาว หัวผักกาด และหมู"
+  },
+  "recipe_arros_amb_conill_i_cargols_catala.md": {
+   "en": "Catalan rice with rabbit and snails",
+   "es": "Arroz catalán con conejo y caracoles",
+   "ca": "Arròs català amb conill i cargols",
+   "th": "ข้าวสไตล์กาตาลันกับกระต่ายและหอยทาก"
+  },
+  "recipe_arros_amb_fava_pela.md": {
+   "en": "Thick rice with dried peeled broad beans",
+   "es": "Arroz espeso con habas secas peladas",
+   "ca": "Arròs espés amb fava seca pelada",
+   "th": "ข้าวข้นกับถั่วปากอ้าแห้งปอกเปลือก"
+  },
+  "recipe_arros_brut.md": {
+   "en": "Mallorcan spiced rice soup with meat, game and vegetables",
+   "es": "Sopa de arroz mallorquina especiada con carne, caza y verduras",
+   "ca": "Arròs caldós mallorquí especiat amb carn, caça i verdures",
+   "th": "ซุปข้าวมายอร์กาใส่เครื่องเทศ เนื้อสัตว์ เนื้อสัตว์ป่า และผัก"
+  },
+  "recipe_arros_col_i_fesols.md": {
+   "en": "Ebro Delta rice soup with cabbage, white beans and pork belly",
+   "es": "Arroz caldoso del Delta del Ebro con col, alubias y panceta",
+   "ca": "Arròs caldós del Delta amb col, fesols i cansalada",
+   "th": "ข้าวต้มจากปากแม่น้ำเอโบรกับกะหล่ำปลี ถั่วขาว และหมูสามชั้น"
+  },
+  "recipe_arros_de_batre.md": {
+   "en": "Harvest-time rice soup with rabbit, snails and green chickpeas",
+   "es": "Arroz caldoso de la trilla con conejo, caracoles y garbanzos tiernos",
+   "ca": "Arròs caldós de batre amb conill, caragols i cigrons tendres",
+   "th": "ข้าวต้มฤดูนวดข้าว ใส่กระต่าย หอยทาก และถั่วลูกไก่สด"
+  },
+  "recipe_arros_de_la_plana.md": {
+   "en": "Castellón farm paella with chicken, rabbit, pork and artichoke",
+   "es": "Paella huertana de Castellón con pollo, conejo, cerdo y alcachofa",
+   "ca": "Paella de l'horta de Castelló amb pollastre, conill, porc i carxofa",
+   "th": "ปาเอยาสวนผักเมืองกัสเตยอน ใส่ไก่ กระต่าย หมู และอาร์ติโชก"
+  },
+  "recipe_arros_de_les_riberes_del_turia.md": {
+   "en": "Creamy rice with chicken or duck, artichoke and mushrooms",
+   "es": "Arroz meloso con pollo o pato, alcachofa y setas",
+   "ca": "Arròs melós amb pollastre o ànec, carxofa i bolets",
+   "th": "ข้าวเนื้อครีมกับไก่หรือเป็ด อาร์ติโชก และเห็ด"
+  },
+  "recipe_arros_de_llagosta_menorca.md": {
+   "en": "Menorcan spiny lobster rice soup",
+   "es": "Arroz caldoso de langosta de Menorca",
+   "ca": "Arròs caldós de llagosta de Menorca",
+   "th": "ข้าวต้มกุ้งมังกรจากเกาะเมนอร์กา"
+  },
+  "recipe_arros_de_matances_eivissa.md": {
+   "en": "Ibizan pig-slaughter rice soup with pork, chicken and sausage",
+   "es": "Arroz caldoso ibicenco de matanza con cerdo, pollo y embutido",
+   "ca": "Arròs caldós eivissenc de matances amb porc, pollastre i embotit",
+   "th": "ข้าวต้มเทศกาลล้มหมูจากอิบิซา ใส่หมู ไก่ และไส้กรอก"
+  },
+  "recipe_arros_de_muntanya_catala.md": {
+   "en": "Catalan mountain rice with rabbit, sausage and mushrooms",
+   "es": "Arroz de montaña catalán con conejo, butifarra y setas",
+   "ca": "Arròs de muntanya amb conill, botifarra i bolets",
+   "th": "ข้าวภูเขาสไตล์กาตาลัน ใส่กระต่าย ไส้กรอก และเห็ด"
+  },
+  "recipe_arros_de_peix_balear.md": {
+   "en": "Balearic fishermen's rice soup with rockfish",
+   "es": "Arroz caldoso marinero balear con pescado de roca",
+   "ca": "Arròs caldós de peix de roca, de pescadors",
+   "th": "ข้าวต้มชาวประมงหมู่เกาะแบลีแอริก ใส่ปลาหิน"
+  },
+  "recipe_arros_de_renda.md": {
+   "en": "Xàbia rice soup with snails and butter beans",
+   "es": "Arroz caldoso de Xàbia con caracoles y garrofón",
+   "ca": "Arròs caldós de Xàbia amb caragols i garrofó",
+   "th": "ข้าวต้มเมืองชาเบียกับหอยทากและถั่วลิมา"
+  },
+  "recipe_arros_de_ribera_delta_ebre.md": {
+   "en": "Ebro Delta rice with duck, eel and snails",
+   "es": "Arroz del Delta del Ebro con pato, anguila y caracoles",
+   "ca": "Arròs del Delta amb ànec, anguila i cargols",
+   "th": "ข้าวปากแม่น้ำเอโบรกับเป็ด ปลาไหล และหอยทาก"
+  },
+  "recipe_arros_de_sepia_i_coliflor.md": {
+   "en": "Rice soup with cuttlefish and cauliflower",
+   "es": "Arroz caldoso de sepia y coliflor",
+   "ca": "Arròs caldós de sèpia i col-i-flor",
+   "th": "ข้าวต้มปลาหมึกกระดองกับกะหล่ำดอก"
+  },
+  "recipe_arros_negre_catala.md": {
+   "en": "Catalan black rice with cuttlefish ink",
+   "es": "Arroz negro catalán con tinta de sepia",
+   "ca": "Arròs negre de l'Empordà amb tinta de sèpia",
+   "th": "ข้าวดำสไตล์กาตาลันกับหมึกของปลาหมึกกระดอง"
+  },
+  "recipe_arrossejat.md": {
+   "en": "Toasted rice cooked in rockfish broth",
+   "es": "Arroz tostado cocido en caldo de pescado de roca",
+   "ca": "Arròs rossejat cuit amb caldo de peix de roca",
+   "th": "ข้าวคั่วต้มในน้ำซุปปลาหิน"
+  },
+  "recipe_arroz_a_banda.md": {
+   "en": "Fishermen's rice cooked in fish stock, served with allioli",
+   "es": "Arroz marinero cocido en caldo de pescado, con alioli",
+   "ca": "Arròs mariner cuit amb fumet, amb allioli",
+   "th": "ข้าวชาวประมงหุงในน้ำซุปปลา เสิร์ฟกับซอสกระเทียมอัลลิโอลี"
+  },
+  "recipe_arroz_a_la_alicantina.md": {
+   "en": "Alicante rice with chicken, squid and red pepper",
+   "es": "Arroz alicantino con pollo, calamar y pimiento rojo",
+   "ca": "Arròs alacantí amb pollastre, calamar i pebrot roig",
+   "th": "ข้าวสไตล์อาลีกันเตกับไก่ ปลาหมึก และพริกหวานแดง"
+  },
+  "recipe_arroz_a_la_asturiana.md": {
+   "en": "Asturian rice with pork, chicken and sausages",
+   "es": "Arroz asturiano con cerdo, pollo y embutidos",
+   "ca": "Arròs asturià amb porc, pollastre i embotits",
+   "th": "ข้าวสไตล์อัสตูเรียสกับหมู ไก่ และไส้กรอก"
+  },
+  "recipe_arroz_a_la_cubana_canario.md": {
+   "en": "White rice with tomato sauce, fried egg and fried banana",
+   "es": "Arroz blanco con tomate, huevo frito y plátano frito",
+   "ca": "Arròs blanc amb tomàquet, ou ferrat i plàtan fregit",
+   "th": "ข้าวสวยราดซอสมะเขือเทศ ไข่ดาว และกล้วยทอด"
+  },
+  "recipe_arroz_a_la_sevillana.md": {
+   "en": "Seville-style rice with chicken, pork and peppers",
+   "es": "Arroz a la sevillana con pollo, cerdo y pimientos",
+   "ca": "Arròs a la sevillana amb pollastre, porc i pebrots",
+   "th": "ข้าวสไตล์เซบิยากับไก่ หมู และพริกหวาน"
+  },
+  "recipe_arroz_a_la_zamorana.md": {
+   "en": "Zamora winter rice with pig's ear and snout, turnip and garlic",
+   "es": "Arroz zamorano de invierno con oreja y morro de cerdo, nabo y ajo",
+   "ca": "Arròs de Zamora d'hivern amb orella i morro de porc, nap i all",
+   "th": "ข้าวฤดูหนาวเมืองซาโมรา ใส่หูหมู จมูกหมู หัวผักกาด และกระเทียม"
+  },
+  "recipe_arroz_a_la_zaragozana.md": {
+   "en": "Aragonese rice with pork ribs, sausage, ham and peppers",
+   "es": "Arroz aragonés con costilla, longaniza, jamón y pimientos",
+   "ca": "Arròs aragonès amb costella, llonganissa, pernil i pebrots",
+   "th": "ข้าวสไตล์อารากอนกับซี่โครงหมู ไส้กรอก แฮม และพริกหวาน"
+  },
+  "recipe_arroz_al_horno.md": {
+   "en": "Oven-baked rice with pork, sausages, chickpeas and potato",
+   "es": "Arroz al horno con cerdo, morcilla, garbanzos y patata",
+   "ca": "Arròs al forn amb porc, botifarra, cigrons i creïlla",
+   "th": "ข้าวอบเตาใส่หมู ไส้กรอกเลือด ถั่วลูกไก่ และมันฝรั่ง"
+  },
+  "recipe_arroz_amarillo_canario.md": {
+   "en": "Canarian saffron-yellow rice side dish",
+   "es": "Arroz amarillo canario de guarnición, con azafrán",
+   "ca": "Arròs groc canari d'acompanyament, amb safrà",
+   "th": "ข้าวเหลืองหญ้าฝรั่นจากหมู่เกาะคานารี (เครื่องเคียง)"
+  },
+  "recipe_arroz_caldoso_con_bogavante.md": {
+   "en": "Lobster rice soup",
+   "es": "Arroz caldoso con bogavante",
+   "ca": "Arròs caldós amb llamàntol",
+   "th": "ข้าวต้มล็อบสเตอร์"
+  },
+  "recipe_arroz_caldoso_con_pato_marismas.md": {
+   "en": "Rice soup with duck from the Guadalquivir marshes",
+   "es": "Arroz caldoso con pato de las marismas del Guadalquivir",
+   "ca": "Arròs caldós amb ànec de les maresmes del Guadalquivir",
+   "th": "ข้าวต้มเป็ดจากที่ลุ่มน้ำกวาดัลกิบีร์"
+  },
+  "recipe_arroz_caldoso_isla_cristina.md": {
+   "en": "Huelva rice soup with clams and shellfish",
+   "es": "Arroz caldoso onubense con almejas y marisco",
+   "ca": "Arròs caldós de Huelva amb cloïsses i marisc",
+   "th": "ข้าวต้มเมืองอูเอลบากับหอยลายและอาหารทะเล"
+  },
+  "recipe_arroz_caldoso_langostinos_vinaros.md": {
+   "en": "Rice soup with Vinaròs king prawns",
+   "es": "Arroz caldoso con langostinos de Vinaròs",
+   "ca": "Arròs caldós amb llagostins de Vinaròs",
+   "th": "ข้าวต้มกุ้งลายเสือจากเมืองบีนาร็อส"
+  },
+  "recipe_arroz_campero_andaluz.md": {
+   "en": "Andalusian country rice with pork, peppers and artichoke",
+   "es": "Arroz campero andaluz con cerdo, pimientos y alcachofa",
+   "ca": "Arròs de camp andalús amb porc, pebrots i carxofa",
+   "th": "ข้าวบ้านนาสไตล์อันดาลูเซีย ใส่หมู พริกหวาน และอาร์ติโชก"
+  },
+  "recipe_arroz_clarico.md": {
+   "en": "Clear yellow rice soup with meat, chickpeas and fresh mint",
+   "es": "Arroz caldoso de caldo claro y amarillo con carne, garbanzos y hierbabuena",
+   "ca": "Arròs caldós de brou clar i groc amb carn, cigrons i menta",
+   "th": "ข้าวต้มน้ำใสสีเหลือง ใส่เนื้อสัตว์ ถั่วลูกไก่ และใบสะระแหน่"
+  },
+  "recipe_arroz_con_acelgas.md": {
+   "en": "Creamy Lenten rice with chard, white beans and potato",
+   "es": "Arroz meloso de Cuaresma con acelgas, alubias y patata",
+   "ca": "Arròs melós de Quaresma amb bledes, fesols i creïlla",
+   "th": "ข้าวเนื้อครีมช่วงเทศกาลมหาพรต ใส่ผักชาร์ด ถั่วขาว และมันฝรั่ง"
+  },
+  "recipe_arroz_con_alcachofas_benicarlo.md": {
+   "en": "Rice with Benicarló artichokes and pork",
+   "es": "Arroz con alcachofas de Benicarló y cerdo",
+   "ca": "Arròs amb carxofes de Benicarló i porc",
+   "th": "ข้าวกับอาร์ติโชกเมืองเบนิการ์โลและหมู"
+  },
+  "recipe_arroz_con_almejas.md": {
+   "en": "Rice soup with clams",
+   "es": "Arroz caldoso con almejas",
+   "ca": "Arròs caldós amb cloïsses",
+   "th": "ข้าวต้มหอยลาย"
+  },
+  "recipe_arroz_con_bacalao_de_vigilia.md": {
+   "en": "Lenten rice soup with salt cod",
+   "es": "Arroz caldoso de vigilia con bacalao",
+   "ca": "Arròs caldós de vigília amb bacallà",
+   "th": "ข้าวต้มปลาค็อดเค็ม สำหรับวันถือศีล"
+  },
+  "recipe_arroz_con_bacalao_y_coliflor.md": {
+   "en": "Rice with salt cod and cauliflower",
+   "es": "Arroz con bacalao y coliflor",
+   "ca": "Arròs amb bacallà i col-i-flor",
+   "th": "ข้าวกับปลาค็อดเค็มและกะหล่ำดอก"
+  },
+  "recipe_arroz_con_bogavante_norte.md": {
+   "en": "Cantabrian lobster rice soup",
+   "es": "Arroz caldoso con bogavante del Cantábrico",
+   "ca": "Arròs caldós amb llamàntol del Cantàbric",
+   "th": "ข้าวต้มล็อบสเตอร์จากทะเลกันตาเบรีย"
+  },
+  "recipe_arroz_con_boquerones_y_pava_murciano.md": {
+   "en": "Murcian rice with fresh anchovies and cauliflower",
+   "es": "Arroz murciano con boquerones y coliflor",
+   "ca": "Arròs murcià amb seitons i col-i-flor",
+   "th": "ข้าวสไตล์มูร์เซียกับปลากะตักสดและกะหล่ำดอก"
+  },
+  "recipe_arroz_con_borrajas_y_almejas.md": {
+   "en": "Aragonese rice soup with borage and clams",
+   "es": "Arroz caldoso aragonés con borrajas y almejas",
+   "ca": "Arròs caldós aragonès amb borratja i cloïsses",
+   "th": "ข้าวต้มสไตล์อารากอนกับผักบอเรจและหอยลาย"
+  },
+  "recipe_arroz_con_cangrejos_banezano.md": {
+   "en": "Creamy rice with river crayfish",
+   "es": "Arroz meloso con cangrejos de río",
+   "ca": "Arròs melós amb crancs de riu",
+   "th": "ข้าวเนื้อครีมกับกุ้งเครย์ฟิชน้ำจืด"
+  },
+  "recipe_arroz_con_cangrejos_isla_mayor.md": {
+   "en": "Rice soup with crayfish tails from the rice marshes",
+   "es": "Arroz caldoso con colas de cangrejo de las marismas",
+   "ca": "Arròs caldós amb cues de cranc de les maresmes",
+   "th": "ข้าวต้มหางกุ้งเครย์ฟิชจากนาข้าวที่ลุ่ม"
+  },
+  "recipe_arroz_con_chipirones_y_ajos_tiernos.md": {
+   "en": "Creamy rice with baby squid and green garlic",
+   "es": "Arroz meloso con chipirones y ajos tiernos",
+   "ca": "Arròs melós amb xipirons i alls tendres",
+   "th": "ข้าวเนื้อครีมกับปลาหมึกตัวเล็กและกระเทียมอ่อน"
+  },
+  "recipe_arroz_con_choco.md": {
+   "en": "Huelva rice soup with cuttlefish",
+   "es": "Arroz caldoso onubense con choco (sepia)",
+   "ca": "Arròs caldós de Huelva amb sèpia",
+   "th": "ข้าวต้มปลาหมึกกระดองสไตล์อูเอลบา"
+  },
+  "recipe_arroz_con_colas_de_cordero.md": {
+   "en": "Good Friday stew of lamb tails, potato and rice",
+   "es": "Guiso de Viernes Santo de colas de cordero, patata y arroz",
+   "ca": "Guisat de Divendres Sant de cues de xai, creïlla i arròs",
+   "th": "สตูว์วันศุกร์ประเสริฐ หางแกะ มันฝรั่ง และข้าว"
+  },
+  "recipe_arroz_con_conejo.md": {
+   "en": "Rice with rabbit and red peppers (no snails)",
+   "es": "Arroz con conejo y pimiento rojo (sin caracoles)",
+   "ca": "Arròs amb conill i pebrot roig (sense caragols)",
+   "th": "ข้าวกับกระต่ายและพริกหวานแดง (ไม่ใส่หอยทาก)"
+  },
+  "recipe_arroz_con_conejo_y_caracoles_aragones.md": {
+   "en": "Aragonese rice with rabbit and snails",
+   "es": "Arroz aragonés con conejo y caracoles",
+   "ca": "Arròs aragonès amb conill i caragols",
+   "th": "ข้าวสไตล์อารากอนกับกระต่ายและหอยทาก"
+  },
+  "recipe_arroz_con_costillejas_y_verduras_murcia.md": {
+   "en": "Murcian farm rice with pork ribs and vegetables",
+   "es": "Arroz huertano murciano con costillejas de cerdo y verduras",
+   "ca": "Arròs de l'horta murciana amb costelletes de porc i verdures",
+   "th": "ข้าวสวนผักมูร์เซียกับซี่โครงหมูและผัก"
+  },
+  "recipe_arroz_con_costra.md": {
+   "en": "Baked rice with rabbit and sausages under an egg crust",
+   "es": "Arroz al horno con conejo y embutidos bajo una costra de huevo",
+   "ca": "Arròs al forn amb conill i embotits sota una crosta d'ou",
+   "th": "ข้าวอบใส่กระต่ายและไส้กรอก ปิดหน้าด้วยไข่อบกรอบ"
+  },
+  "recipe_arroz_con_fesols_i_naps.md": {
+   "en": "Winter rice soup with white beans, turnip and pork",
+   "es": "Arroz caldoso de invierno con alubias, nabo y cerdo",
+   "ca": "Arròs caldós d'hivern amb fesols, naps i porc",
+   "th": "ข้าวต้มฤดูหนาวใส่ถั่วขาว หัวผักกาด และหมู"
+  },
+  "recipe_arroz_con_galeras_y_alcachofas.md": {
+   "en": "Creamy rice with mantis shrimp and artichokes",
+   "es": "Arroz meloso con galeras y alcachofas",
+   "ca": "Arròs melós amb galeres i carxofes",
+   "th": "ข้าวเนื้อครีมกับกั้งตั๊กแตนและอาร์ติโชก"
+  },
+  "recipe_arroz_con_higado_de_toro.md": {
+   "en": "Creamy rice with bull's liver and offal, chickpeas and escarole",
+   "es": "Arroz meloso con hígado y casquería de toro, garbanzos y escarola",
+   "ca": "Arròs melós amb fetge i menuts de bou, cigrons i escarola",
+   "th": "ข้าวเนื้อครีมกับตับและเครื่องในวัวกระทิง ถั่วลูกไก่ และผักเอนไดฟ์"
+  },
+  "recipe_arroz_con_leche.md": {
+   "en": "Rice pudding with milk, cinnamon and lemon (dessert)",
+   "es": "Postre de arroz con leche, canela y limón",
+   "ca": "Postres d'arròs amb llet, canyella i llimona",
+   "th": "ขนมข้าวต้มนม อบเชย และมะนาว (ของหวาน)"
+  },
+  "recipe_arroz_con_liebre.md": {
+   "en": "Creamy rice with wild hare",
+   "es": "Arroz meloso con liebre",
+   "ca": "Arròs melós amb llebre",
+   "th": "ข้าวเนื้อครีมกับกระต่ายป่า"
+  },
+  "recipe_arroz_con_mariscos_candamo.md": {
+   "en": "Asturian rice with velvet crab, prawns, clams and fish",
+   "es": "Arroz asturiano con andaricas, gambas, almejas y pescado",
+   "ca": "Arròs asturià amb nècores, gambes, cloïsses i peix",
+   "th": "ข้าวสไตล์อัสตูเรียสกับปูขน กุ้ง หอยลาย และปลา"
+  },
+  "recipe_arroz_con_miel_bogarra.md": {
+   "en": "Sweet Christmas rice with honey, citrus peel and cinnamon (dessert)",
+   "es": "Arroz dulce navideño con miel, cáscara de cítricos y canela",
+   "ca": "Arròs dolç de Nadal amb mel, pell de cítrics i canyella",
+   "th": "ข้าวหวานคริสต์มาสกับน้ำผึ้ง ผิวส้ม และอบเชย (ของหวาน)"
+  },
+  "recipe_arroz_con_pata_de_ternera.md": {
+   "en": "Creamy rice with calf's foot, chickpeas and sausage",
+   "es": "Arroz meloso con pata de ternera, garbanzos y embutido",
+   "ca": "Arròs melós amb pota de vedella, cigrons i embotit",
+   "th": "ข้าวเนื้อครีมกับขาลูกวัว ถั่วลูกไก่ และไส้กรอก"
+  },
+  "recipe_arroz_con_pato.md": {
+   "en": "Paella-style rice with duck from the Albufera lagoon",
+   "es": "Arroz en paella con pato de la Albufera",
+   "ca": "Arròs en paella amb ànec de l'Albufera",
+   "th": "ข้าวแบบปาเอยากับเป็ดจากทะเลสาบอัลบูเฟรา"
+  },
+  "recipe_arroz_con_pava.md": {
+   "en": "Festive rice with turkey and meatballs",
+   "es": "Arroz festivo con pava y pelotas",
+   "ca": "Arròs festiu amb titot i pilotes",
+   "th": "ข้าวเทศกาลกับไก่งวงและลูกชิ้น"
+  },
+  "recipe_arroz_con_perdiz.md": {
+   "en": "Rice soup with wild partridge",
+   "es": "Arroz caldoso con perdiz",
+   "ca": "Arròs caldós amb perdiu",
+   "th": "ข้าวต้มนกกระทาป่า"
+  },
+  "recipe_arroz_con_pitu_de_caleya.md": {
+   "en": "Creamy rice with Asturian free-range rooster",
+   "es": "Arroz meloso con pitu de caleya (gallo de corral asturiano)",
+   "ca": "Arròs melós amb gall de corral asturià",
+   "th": "ข้าวเนื้อครีมกับไก่บ้านเลี้ยงปล่อยจากอัสตูเรียส"
+  },
+  "recipe_arroz_con_rape_y_gamba_roja.md": {
+   "en": "Rice with monkfish and red prawns",
+   "es": "Arroz con rape y gamba roja",
+   "ca": "Arròs amb rap i gamba roja",
+   "th": "ข้าวกับปลามังค์ฟิชและกุ้งแดง"
+  },
+  "recipe_arroz_con_sepia_y_alcachofas.md": {
+   "en": "Rice with cuttlefish and artichokes",
+   "es": "Arroz con sepia y alcachofas",
+   "ca": "Arròs amb sèpia i carxofes",
+   "th": "ข้าวกับปลาหมึกกระดองและอาร์ติโชก"
+  },
+  "recipe_arroz_conejo_caracoles_murciano.md": {
+   "en": "Murcian rice with rabbit and mountain snails",
+   "es": "Arroz murciano con conejo y caracoles serranos",
+   "ca": "Arròs murcià amb conill i caragols de muntanya",
+   "th": "ข้าวสไตล์มูร์เซียกับกระต่ายและหอยทากภูเขา"
+  },
+  "recipe_arroz_conejo_y_caracoles.md": {
+   "en": "Wood-fired rice with rabbit and mountain snails",
+   "es": "Arroz a la leña con conejo y caracoles serranos",
+   "ca": "Arròs a la llenya amb conill i caragols de muntanya",
+   "th": "ข้าวหุงในกระทะบนเตาฟืน ใส่กระต่ายและหอยทากภูเขา"
+  },
+  "recipe_arroz_cortijero_jaen.md": {
+   "en": "Jaén country rice with ham, chorizo, peppers and olives",
+   "es": "Arroz cortijero de Jaén con jamón, chorizo, pimientos y aceitunas",
+   "ca": "Arròs de cortijo de Jaén amb pernil, xoriço, pebrots i olives",
+   "th": "ข้าวบ้านไร่เมืองฆาเอน ใส่แฮม ไส้กรอกโชริโซ พริกหวาน และมะกอก"
+  },
+  "recipe_arroz_de_ayuno_calasparra.md": {
+   "en": "Lenten fasting rice with salt cod, cauliflower and artichoke",
+   "es": "Arroz de ayuno con bacalao, coliflor y alcachofa",
+   "ca": "Arròs de dejuni amb bacallà, col-i-flor i carxofa",
+   "th": "ข้าวถือศีลอดกับปลาค็อดเค็ม กะหล่ำดอก และอาร์ติโชก"
+  },
+  "recipe_arroz_de_boquerones_y_espinacas.md": {
+   "en": "Rice with fresh anchovies and spinach",
+   "es": "Arroz con boquerones y espinacas",
+   "ca": "Arròs amb aladrocs i espinacs",
+   "th": "ข้าวกับปลากะตักสดและผักโขม"
+  },
+  "recipe_arroz_de_los_tres_punaos.md": {
+   "en": "Meatless Lenten rice soup with beans, lentils and vegetables",
+   "es": "Arroz caldoso de vigilia, sin carne, con alubias, lentejas y verduras",
+   "ca": "Arròs caldós de vigília, sense carn, amb fesols, llenties i verdures",
+   "th": "ข้าวต้มมังสวิรัติช่วงมหาพรต ใส่ถั่วขาว ถั่วเลนทิล และผัก"
+  },
+  "recipe_arroz_de_montana_castellon.md": {
+   "en": "Mountain rice with rabbit, snails and wild mushrooms",
+   "es": "Arroz de montaña con conejo, caracoles y setas",
+   "ca": "Arròs de muntanya amb conill, caragols i bolets",
+   "th": "ข้าวภูเขากับกระต่าย หอยทาก และเห็ดป่า"
+  },
+  "recipe_arroz_de_verduras_vega_baja.md": {
+   "en": "Vegetable rice with broad beans and artichokes",
+   "es": "Arroz de verduras con habas y alcachofas",
+   "ca": "Arròs de verdures amb faves i carxofes",
+   "th": "ข้าวผักกับถั่วปากอ้าและอาร์ติโชก"
+  },
+  "recipe_arroz_del_pedron_de_parayo.md": {
+   "en": "Cantabrian rice with eel and river crayfish",
+   "es": "Arroz cántabro con anguila y cangrejos de río",
+   "ca": "Arròs càntabre amb anguila i crancs de riu",
+   "th": "ข้าวสไตล์กันตาเบรียกับปลาไหลและกุ้งเครย์ฟิชน้ำจืด"
+  },
+  "recipe_arroz_del_senyoret.md": {
+   "en": "Seafood rice with everything already peeled",
+   "es": "Arroz marinero con todo el marisco ya pelado",
+   "ca": "Arròs mariner amb tot el marisc ja pelat",
+   "th": "ข้าวทะเลที่แกะเปลือกอาหารทะเลไว้ให้ทั้งหมด"
+  },
+  "recipe_arroz_empedrado.md": {
+   "en": "Baked Lenten rice with salt cod and white beans",
+   "es": "Arroz al horno de Cuaresma con bacalao y alubias",
+   "ca": "Arròs al forn de Quaresma amb bacallà i fesols",
+   "th": "ข้าวอบช่วงมหาพรตกับปลาค็อดเค็มและถั่วขาว"
+  },
+  "recipe_arroz_empedrao_murciano.md": {
+   "en": "Murcian creamy rice with red beans and salt cod",
+   "es": "Arroz meloso murciano con alubias rojas y bacalao",
+   "ca": "Arròs melós murcià amb fesols rojos i bacallà",
+   "th": "ข้าวเนื้อครีมสไตล์มูร์เซียกับถั่วแดงและปลาค็อดเค็ม"
+  },
+  "recipe_arroz_marinero_andaluz.md": {
+   "en": "Andalusian fishermen's rice soup",
+   "es": "Arroz caldoso marinero andaluz",
+   "ca": "Arròs caldós mariner andalús",
+   "th": "ข้าวต้มทะเลแบบชาวประมงอันดาลูเซีย"
+  },
+  "recipe_arroz_meloso_de_pulpo.md": {
+   "en": "Creamy rice with octopus",
+   "es": "Arroz meloso de pulpo",
+   "ca": "Arròs melós de polp",
+   "th": "ข้าวเนื้อครีมกับปลาหมึกยักษ์"
+  },
+  "recipe_arroz_negro.md": {
+   "en": "Black rice coloured with cuttlefish ink, served with allioli",
+   "es": "Arroz negro con tinta de sepia, con alioli",
+   "ca": "Arròs negre amb tinta de sèpia, amb allioli",
+   "th": "ข้าวดำจากหมึกปลาหมึกกระดอง เสิร์ฟกับซอสอัลลิโอลี"
+  },
+  "recipe_arroz_y_gatet.md": {
+   "en": "Santa Pola rice soup with small-spotted catshark and vegetables",
+   "es": "Arroz caldoso de Santa Pola con pintarroja y verduras",
+   "ca": "Arròs caldós de Santa Pola amb gatet i verdures",
+   "th": "ข้าวต้มเมืองซานตาโปลากับปลาฉลามแมวลายจุดและผัก"
+  },
+  "recipe_arroz_y_habichuelas_murciano.md": {
+   "en": "Murcian rice soup with beans and vegetables",
+   "es": "Arroz caldoso murciano con habichuelas y verduras",
+   "ca": "Arròs caldós murcià amb fesols i verdures",
+   "th": "ข้าวต้มสไตล์มูร์เซียกับถั่วและผัก"
+  },
+  "recipe_arroz_y_pollo_con_alcaciles.md": {
+   "en": "Murcian rice with chicken and artichokes",
+   "es": "Arroz murciano con pollo y alcachofas",
+   "ca": "Arròs murcià amb pollastre i carxofes",
+   "th": "ข้าวสไตล์มูร์เซียกับไก่และอาร์ติโชก"
+  },
+  "recipe_arroz_y_verduras_con_bacalao_murciano.md": {
+   "en": "Murcian vegetable rice with salt cod",
+   "es": "Arroz huertano murciano con verduras y bacalao",
+   "ca": "Arròs murcià de verdures amb bacallà",
+   "th": "ข้าวผักสไตล์มูร์เซียกับปลาค็อดเค็ม"
+  },
+  "recipe_caldero_del_mar_menor.md": {
+   "en": "Murcian fishermen's rice cooked in a rich fish broth with ñora pepper",
+   "es": "Arroz caldero murciano en caldo de pescado con ñora",
+   "ca": "Arròs de caldero murcià amb brou de peix i nyora",
+   "th": "ข้าวชาวประมงมูร์เซียหุงในน้ำซุปปลาเข้มข้นกับพริกญอรา"
+  },
+  "recipe_caldero_santa_pola_tabarca.md": {
+   "en": "Fishermen's rice from a cauldron of rockfish broth; fish and potatoes served first",
+   "es": "Arroz de caldero en caldo de pescado de roca; primero se sirven el pescado y las patatas",
+   "ca": "Arròs de calder amb brou de peix de roca; primer es serveixen el peix i les creïlles",
+   "th": "ข้าวชาวประมงจากหม้อน้ำซุปปลาหิน เสิร์ฟปลาและมันฝรั่งก่อน"
+  },
+  "recipe_cardillos_con_arroz.md": {
+   "en": "Creamy rice with wild golden thistle (foraged greens)",
+   "es": "Arroz meloso con cardillos (tagarninas silvestres)",
+   "ca": "Arròs melós amb cardets silvestres",
+   "th": "ข้าวเนื้อครีมกับผักธิสเซิลป่า (ผักเก็บจากธรรมชาติ)"
+  },
+  "recipe_chanfaina_salmantina.md": {
+   "en": "Salamanca rice stew with lamb offal and chorizo",
+   "es": "Guiso salmantino de arroz con asadura de cordero y chorizo",
+   "ca": "Guisat salmantí d'arròs amb freixura de xai i xoriço",
+   "th": "สตูว์ข้าวเมืองซาลามังกากับเครื่องในแกะและไส้กรอกโชริโซ"
+  },
+  "recipe_chipirones_en_su_tinta_con_arroz.md": {
+   "en": "Baby squid in black ink sauce with white rice",
+   "es": "Chipirones en su tinta con arroz blanco",
+   "ca": "Calamarsons en la seva tinta amb arròs blanc",
+   "th": "ปลาหมึกตัวเล็กในซอสหมึกดำ เสิร์ฟกับข้าวสวย"
+  },
+  "recipe_escudella_d_angel.md": {
+   "en": "Old Mallorcan sweet rice with cinnamon (dessert)",
+   "es": "Antiguo arroz dulce mallorquín con canela (postre)",
+   "ca": "Antic arròs dolç mallorquí amb canyella (postres)",
+   "th": "ข้าวหวานโบราณจากมายอร์กากับอบเชย (ของหวาน)"
+  },
+  "recipe_fideua.md": {
+   "en": "Seafood noodles cooked like a paella (not rice)",
+   "es": "Fideos con marisco cocinados como una paella (no es arroz)",
+   "ca": "Fideus amb marisc cuinats com una paella (no és arròs)",
+   "th": "เส้นก๋วยเตี๋ยวทะเลทำแบบปาเอยา (ไม่ใช่ข้าว)"
+  },
+  "recipe_lamprea_a_la_bordelesa_con_arroz.md": {
+   "en": "Lamprey stewed in red wine and its blood, served with white rice",
+   "es": "Lamprea guisada en vino tinto y su sangre, con arroz blanco",
+   "ca": "Llamprea guisada amb vi negre i la seva sang, amb arròs blanc",
+   "th": "ปลาแลมป์เพรย์ตุ๋นไวน์แดงกับเลือด เสิร์ฟกับข้าวสวย"
+  },
+  "recipe_olla_de_benicarlo.md": {
+   "en": "Benicarló bean pot with ham, sausage, cardoon and rice",
+   "es": "Olla de Benicarló con alubias, jamón, morcilla, cardo y arroz",
+   "ca": "Olla de Benicarló amb fesols, pernil, botifarra, card i arròs",
+   "th": "หม้อถั่วเมืองเบนิการ์โล ใส่แฮม ไส้กรอกเลือด ผักคาร์ดูน และข้าว"
+  },
+  "recipe_paella_a_la_riojana.md": {
+   "en": "Rioja-style rice with chicken or pork, potato and paprika",
+   "es": "Arroz a la riojana con pollo o cerdo, patata y pimentón",
+   "ca": "Arròs a la riojana amb pollastre o porc, creïlla i pebre roig",
+   "th": "ข้าวสไตล์ริโอคาใส่ไก่หรือหมู มันฝรั่ง และปาปริกา"
+  },
+  "recipe_paella_amb_mandonguilles.md": {
+   "en": "Paella with meatballs",
+   "es": "Paella con albóndigas",
+   "ca": "Paella amb mandonguilles",
+   "th": "ปาเอยากับลูกชิ้น"
+  },
+  "recipe_paella_de_ceba_i_bacalla.md": {
+   "en": "Paella with onion, dried garlic and salt cod",
+   "es": "Paella de cebolla, ajos secos y bacalao",
+   "ca": "Paella de ceba, alls secs i bacallà",
+   "th": "ปาเอยากับหัวหอม กระเทียมแห้ง และปลาค็อดเค็ม"
+  },
+  "recipe_paella_de_costelletes_i_coliflor.md": {
+   "en": "Paella with pork ribs and cauliflower",
+   "es": "Paella de costillas de cerdo y coliflor",
+   "ca": "Paella de costelletes de porc i col-i-flor",
+   "th": "ปาเอยากับซี่โครงหมูและกะหล่ำดอก"
+  },
+  "recipe_paella_de_marisco.md": {
+   "en": "Seafood paella",
+   "es": "Paella de marisco",
+   "ca": "Paella de marisc",
+   "th": "ปาเอยาอาหารทะเล"
+  },
+  "recipe_paella_de_verduras.md": {
+   "en": "Vegetable paella",
+   "es": "Paella de verduras",
+   "ca": "Paella de verdures",
+   "th": "ปาเอยาผัก"
+  },
+  "recipe_paella_mixta.md": {
+   "en": "Paella with meat and seafood (a tourist-era mix)",
+   "es": "Paella mixta de carne y marisco (de la época turística)",
+   "ca": "Paella mixta de carn i marisc (de l'època turística)",
+   "th": "ปาเอยารวมเนื้อและอาหารทะเล (สูตรยุคท่องเที่ยว)"
+  },
+  "recipe_paella_valenciana.md": {
+   "en": "The original paella: chicken, rabbit, green beans and butter beans",
+   "es": "La paella original: pollo, conejo, judía verde y garrofón",
+   "ca": "La paella original: pollastre, conill, bajoqueta i garrofó",
+   "th": "ปาเอยาต้นตำรับ: ไก่ กระต่าย ถั่วแขก และถั่วลิมา"
+  },
+  "recipe_perol_cordobes.md": {
+   "en": "Córdoba countryside rice with pork and chicken, cooked outdoors",
+   "es": "Arroz cordobés de campo con cerdo y pollo, al aire libre",
+   "ca": "Arròs de perol cordovès amb porc i pollastre, a l'aire lliure",
+   "th": "ข้าวชนบทเมืองกอร์โดบากับหมูและไก่ ทำกลางแจ้ง"
+  },
+  "recipe_potaje_banezano.md": {
+   "en": "Chickpea stew with rice from La Bañeza",
+   "es": "Potaje de garbanzos con arroz de La Bañeza",
+   "ca": "Potatge de cigrons amb arròs de La Bañeza",
+   "th": "สตูว์ถั่วลูกไก่กับข้าวจากเมืองลาบาเญซา"
+  },
+  "recipe_txuritabeltz.md": {
+   "en": "Navarrese rice-and-blood sausage filling with fried lamb's blood",
+   "es": "Relleno navarro de arroz y sangrecilla de cordero",
+   "ca": "Farcit navarrès d'arròs i sang de xai fregida",
+   "th": "ไส้ข้าวผสมเลือดแกะทอดสไตล์นาวาร์รา"
+  }
+ },
+ "regions": {
+  "provincial_alicante.md": {
+   "en": "Alicante",
+   "es": "Alicante",
+   "ca": "Alacant",
+   "th": "อาลีกันเต"
+  },
+  "provincial_andalucia.md": {
+   "en": "Andalusia",
+   "es": "Andalucía",
+   "ca": "Andalusia",
+   "th": "อันดาลูเซีย"
+  },
+  "provincial_aragon_navarra_rioja.md": {
+   "en": "Aragon, Navarre & La Rioja",
+   "es": "Aragón, Navarra y La Rioja",
+   "ca": "Aragó, Navarra i la Rioja",
+   "th": "อารากอน นาวาร์รา และลารีโอคา"
+  },
+  "provincial_baleares.md": {
+   "en": "Balearic Islands",
+   "es": "Islas Baleares",
+   "ca": "Illes Balears",
+   "th": "หมู่เกาะแบลีแอริก"
+  },
+  "provincial_canarias.md": {
+   "en": "Canary Islands",
+   "es": "Canarias",
+   "ca": "Canàries",
+   "th": "หมู่เกาะคานารี"
+  },
+  "provincial_castellon.md": {
+   "en": "Castellón",
+   "es": "Castellón",
+   "ca": "Castelló",
+   "th": "กัสเตยอน"
+  },
+  "provincial_castilla_la_mancha_extremadura.md": {
+   "en": "Castilla-La Mancha & Extremadura",
+   "es": "Castilla-La Mancha y Extremadura",
+   "ca": "Castella-la Manxa i Extremadura",
+   "th": "กัสติยา-ลามันชา และเอซเตรมาดูรา"
+  },
+  "provincial_castilla_y_leon.md": {
+   "en": "Castile and León",
+   "es": "Castilla y León",
+   "ca": "Castella i Lleó",
+   "th": "กัสติยาและเลออน"
+  },
+  "provincial_catalunya.md": {
+   "en": "Catalonia",
+   "es": "Cataluña",
+   "ca": "Catalunya",
+   "th": "กาตาลุญญา"
+  },
+  "provincial_madrid.md": {
+   "en": "Madrid",
+   "es": "Madrid",
+   "ca": "Madrid",
+   "th": "มาดริด"
+  },
+  "provincial_murcia.md": {
+   "en": "Murcia",
+   "es": "Región de Murcia",
+   "ca": "Regió de Múrcia",
+   "th": "มูร์เซีย"
+  },
+  "provincial_norte.md": {
+   "en": "Northern Spain",
+   "es": "Norte de España",
+   "ca": "Nord d'Espanya",
+   "th": "ภาคเหนือของสเปน"
+  },
+  "provincial_valencia.md": {
+   "en": "Valencia",
+   "es": "Valencia",
+   "ca": "València",
+   "th": "บาเลนเซีย"
+  }
+ }
+}

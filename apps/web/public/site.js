@@ -97,11 +97,16 @@
       btns.forEach((b) => b.addEventListener("click", () => {
         state[key] = b.getAttribute(attr);
         btns.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+        const sel = $(`[data-select="${key}"]`);
+        if (sel) { sel.value = state[key]; sel.classList.toggle("on", !!state[key]); }
         apply();
       }));
     };
     group("data-filter-texture", "texture");
     group("data-filter-province", "province");
+    // Mobile dropdowns drive the same chips, so state, counts and animations stay in one place.
+    $$("[data-select]").forEach((s) => s.addEventListener("change", () =>
+      $(`[data-filter-${s.dataset.select}="${CSS.escape(s.value)}"]`)?.click()));
 
     // Full-text search over every recipe (ingredients, steps, history) via Pagefind, in this page's language.
     let pf = null, seq = 0;

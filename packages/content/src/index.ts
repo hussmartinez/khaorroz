@@ -34,6 +34,7 @@ export interface Page {
   url: string; // relative to a language root, e.g. recipes/paella-valenciana (clean URL, no .html)
   title: string;
   altTitle: string;
+  gloss: string; // plain-language 'what is this dish' in the page's language (content/glosses.json)
   body: string; // Markdown without front matter, H1 and nav line
   zone: string;
   texture: "" | "seco" | "meloso" | "caldoso";
@@ -51,6 +52,17 @@ export const slugify = (s: string) =>
 const fileSlug = (file: string) => slugify(basename(file, ".md").replace(/^(recipe|provincial)_/, "").replace(/_/g, "-"));
 export const provSlug = (file: string) => fileSlug(file);
 export const provName = (n: string) => n.replace(/^Prov[ií]ncia\s+(de\s+|d')?/i, "");
+
+// ---------- plain-language labels (content/glosses.json) ----------
+// Recipe titles are authentic Spanish/local names; a reader who knows neither language needs a short
+// description ("rice with rabbit and snails") in their own language, and region names in their language.
+type Labels = Record<string, Partial<Record<Lang, string>>>;
+const GLOSS_FILE = join(CONTENT_DIR, "glosses.json");
+const LABELS: { recipes: Labels; regions: Labels } = existsSync(GLOSS_FILE)
+  ? { recipes: {}, regions: {}, ...JSON.parse(readFileSync(GLOSS_FILE, "utf8")) }
+  : { recipes: {}, regions: {} };
+export const glossFor = (file: string, lang: Lang) => LABELS.recipes[file]?.[lang] ?? LABELS.recipes[file]?.en ?? "";
+export const regionLabel = (file: string, lang: Lang) => LABELS.regions[file]?.[lang] ?? LABELS.regions[file]?.en;
 
 export function kindOf(file: string): Kind | null {
   if (/^recipe_.+\.md$/.test(file)) return "recipe";
@@ -134,7 +146,7 @@ export function parse(file: string, src: string, en?: Page): Page | null {
     spec = specFrom({ slug, title, texture, vessel: field("Traditional Cooking Vessel"), recipeText });
   }
   return {
-    file, kind, slug, url: urlFor(kind, slug), title, altTitle, body,
+    file, kind, slug, url: urlFor(kind, slug), title, altTitle, gloss: "", body,
     zone: en?.zone ?? zone, texture: en?.texture ?? texture, provinces: en?.provinces ?? provinces,
     summary, status: en ? "ok" : "source", spec,
     minutes: en?.minutes ?? Math.max(1, Math.round(body.split(/\s+/).length / 220)),
@@ -153,6 +165,9 @@ export function loadEnglish(): Page[] {
   const pages: Page[] = [];
   for (const f of files) {
     const p = parse(f, readFileSync(join(CONTENT_DIR, f), "utf8"))!;
+    p.gloss = glossFor(f, DEFAULT_LANG);
+    if (p.kind === "recipe" && !p.gloss) problems.push(`${f}: no plain-language description in content/glosses.json`);
+    if (p.kind === "province" && !regionLabel(f, DEFAULT_LANG)) problems.push(`${f}: no region name in content/glosses.json`);
     const res = (p.kind === "recipe" ? RecipeSchema : OtherSchema).safeParse(p);
     if (!res.success) errors.push(`${f}: ${res.error.issues.map((i) => i.message).join("; ")}`);
     pages.push(p);
@@ -172,9 +187,10 @@ export function loadLang(lang: Lang): Page[] {
   if (hit) return hit;
   const pages = loadEnglish().map((ep): Page => {
     const tf = join(I18N_DIR, lang, ep.file);
-    if (!existsSync(tf)) return { ...ep, status: "missing" };
+    if (!existsSync(tf)) return { ...ep, gloss: glossFor(ep.file, lang), status: "missing" };
     const { meta, text } = splitFrontMatter(readFileSync(tf, "utf8"));
     const p = parse(ep.file, text, ep)!;
+    p.gloss = glossFor(ep.file, lang);
     if (!p.title) { problems.push(`i18n/${lang}/${ep.file}: no H1 title, using the English one`); p.title = ep.title; }
     p.status = meta.source_hash === sourceHash(readFileSync(join(CONTENT_DIR, ep.file), "utf8")) ? "ok" : "stale";
     return p;

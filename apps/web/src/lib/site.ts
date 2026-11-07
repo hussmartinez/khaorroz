@@ -1,7 +1,7 @@
 // Per-language view model + Markdown rendering shared by all pages.
 import { marked } from "marked";
 import { panSVG } from "@arros/pans";
-import { LANGS, DEFAULT_LANG, loadLang, provName, provSlug, stripMd, type Lang, type Page } from "@arros/content";
+import { LANGS, DEFAULT_LANG, loadLang, provName, provSlug, regionLabel, stripMd, type Lang, type Page } from "@arros/content";
 import { UI, HTML_LANG } from "./i18n";
 import { adHtml } from "./ads";
 
@@ -22,6 +22,14 @@ export const langFromParam = (p: string | undefined): Lang => (p && (LANGS as re
 export const langPaths = () => LANGS.map((lang) => ({ params: { lang: langParam(lang) }, props: { lang } }));
 
 export const VESSEL: Record<string, string> = { paella: "Paella", cassola: "Cassola", caldero: "Caldero", olla: "Olla" };
+// The vessel names are Spanish/Valencian words; explain them in the reader's language.
+const VESSEL_L: Record<Lang, Record<string, string>> = {
+  en: { paella: "Paella pan", cassola: "Clay casserole", caldero: "Iron cauldron", olla: "Stew pot" },
+  es: { paella: "Paella", cassola: "Cazuela de barro", caldero: "Caldero", olla: "Olla" },
+  ca: { paella: "Paella", cassola: "Cassola de fang", caldero: "Calder", olla: "Olla" },
+  th: { paella: "กระทะปาเอยา", cassola: "หม้อดินเผา", caldero: "หม้อเหล็กหล่อ", olla: "หม้อตุ๋น" },
+};
+export const vesselLabel = (lang: Lang, v: string) => VESSEL_L[lang]?.[v] ?? VESSEL[v] ?? v;
 const TEX_KEY = { seco: "chipSeco", meloso: "chipMeloso", caldoso: "chipCaldoso" } as const;
 export const texLabel = (lang: Lang, tex: string) => (tex in TEX_KEY ? tr(lang, TEX_KEY[tex as keyof typeof TEX_KEY]) : "");
 export const shortTex = (lang: Lang, tex: keyof typeof TEX_KEY) => tr(lang, TEX_KEY[tex]).split(" · ")[0];
@@ -48,6 +56,9 @@ export function site(lang: Lang): SiteModel {
   const byFile = new Map(pages.map((p) => [p.file, p]));
   const recipes = pages.filter((p) => p.kind === "recipe").sort((a, b) => a.title.localeCompare(b.title, "es"));
   const regionName = (file: string, fallback: string) => {
+    // A curated name in the reader's language (content/glosses.json) beats any Markdown spelling.
+    const label = regionLabel(file, lang);
+    if (label) return label;
     const p = byFile.get(file);
     // The region page's own title wins (recipes spell regions inconsistently in their nav lines).
     return provName(p && p.status !== "missing" ? p.title : fallback);
