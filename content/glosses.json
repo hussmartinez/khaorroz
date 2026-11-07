@@ -2,7 +2,7 @@
  "_comment": "Plain-language labels per language. recipes: one-line 'what is this dish' shown under the authentic (Spanish/local) name. regions: region names shown on tags, cards and region pages. Add an entry for every new recipe_*.md / provincial_*.md (bun scripts/check.ts warns when one is missing).",
  "recipes": {
   "recipe_arrocito_del_grau.md": {
-   "en": "Creamy seafood rice from Castellón's fishing port",
+   "en": "Creamy seafood rice from Castellon's fishing port",
    "es": "Arroz meloso marinero del puerto de Castellón",
    "ca": "Arròs melós mariner del port de Castelló",
    "th": "ข้าวทะเลเนื้อครีมจากท่าเรือประมงเมืองกัสเตยอน"
@@ -74,7 +74,7 @@
    "th": "ข้าวต้มฤดูนวดข้าว ใส่กระต่าย หอยทาก และถั่วลูกไก่สด"
   },
   "recipe_arros_de_la_plana.md": {
-   "en": "Castellón farm paella with chicken, rabbit, pork and artichoke",
+   "en": "Castellon farm paella with chicken, rabbit, pork and artichoke",
    "es": "Paella huertana de Castellón con pollo, conejo, cerdo y alcachofa",
    "ca": "Paella de l'horta de Castelló amb pollastre, conill, porc i carxofa",
    "th": "ปาเอยาสวนผักเมืองกัสเตยอน ใส่ไก่ กระต่าย หมู และอาร์ติโชก"
@@ -682,7 +682,7 @@
    "th": "หมู่เกาะคานารี"
   },
   "provincial_castellon.md": {
-   "en": "Castellón",
+   "en": "Castellon",
    "es": "Castellón",
    "ca": "Castelló",
    "th": "กัสเตยอน"
