@@ -235,3 +235,93 @@ export function translationStatus(lang: Lang) {
   }
   return out;
 }
+
+// ---------- structured recipe data (JSON-LD, llms.txt, a future CMS schema) ----------
+// Derived from the Markdown conventions: §4 tables = ingredients, §4 ordered list = method,
+// §5 links = sources. Works on translations too (section numbers are language-neutral).
+export interface Source { title: string; url: string }
+export interface RecipeData { ingredients: string[]; steps: string[]; sources: Source[] }
+
+const section = (body: string, n: number) => {
+  const m = body.split(/^(?=## )/m).find((s) => new RegExp(`^## ${n}\\.`).test(s));
+  return m ? m.replace(/^## .*\n/, "") : "";
+};
+const plain = (s: string) => stripMd(s).replace(/\s+/g, " ").replace(/<[^>]+>/g, "").trim();
+const RICE = /\b(rice|arroz|arròs|arros)\b|ข้าว|أرز|رز/i;
+
+export function recipeData(p: Page): RecipeData {
+  const s4 = section(p.body, 4);
+  const ingredients: string[] = [];
+  const lines = s4.split("\n");
+  // group consecutive "|" lines into tables: header row, separator row, data rows
+  const tables: string[][] = [];
+  let cur: string[] | null = null;
+  for (const l of lines) {
+    if (l.trim().startsWith("|")) (cur ??= (tables.push([]), tables[tables.length - 1])).push(l.trim());
+    else cur = null;
+  }
+  for (const t of tables) {
+    const rows = t.map((l) => l.replace(/^\||\|$/g, "").split("|").map((c) => plain(c)));
+    if (rows.length < 3) continue;
+    const cols = rows[0].length;
+    for (const r of rows.slice(2)) {
+      const [name, qty] = r;
+      if (!name || /^[-:\s]+$/.test(name)) continue;
+      if (cols >= 3 && !RICE.test(name)) continue; // ratio tables: keep only the rice line
+      ingredients.push(qty && !/^[-–—]$/.test(qty) ? `${qty} ${name}` : name);
+    }
+  }
+  // method: ordered lists in §4; the last list is the step-by-step blueprint, prefer it when substantial
+  const lists: string[][] = [];
+  let inList = false;
+  for (const line of lines) {
+    const top = line.match(/^\d+\.\s+(.*)$/);
+    const sub = line.match(/^\s+(?:[*-]|\d+\.)\s+(.*)$/);
+    if (top) { if (!inList) lists.push([]); inList = true; lists[lists.length - 1].push(plain(top[1])); }
+    else if (sub && inList) { const l = lists[lists.length - 1]; l[l.length - 1] += " " + plain(sub[1]); }
+    else if (line.trim() && !sub) inList = false;
+  }
+  const last = lists[lists.length - 1] ?? [];
+  const steps = last.length >= 3 ? last : lists.flat();
+  const sources: Source[] = [];
+  for (const m of section(p.body, 5).matchAll(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g)) sources.push({ title: plain(m[1]), url: m[2] });
+  return { ingredients, steps, sources };
+}
+
+// ---------- first/last commit date per content file (falls back to "now") ----------
+let datesCache: Map<string, { published: string; modified: string }> | undefined;
+export function contentDates(file: string) {
+  if (!datesCache) {
+    datesCache = new Map();
+    try {
+      const { execSync } = require("node:child_process") as typeof import("node:child_process");
+      const out = execSync(`git log --format=@%cI --name-only -- .`, { cwd: CONTENT_DIR, encoding: "utf8", maxBuffer: 64 << 20 });
+      let date = "";
+      for (const line of out.split("\n")) {
+        if (line.startsWith("@")) { date = line.slice(1); continue; }
+        const f = line.trim().split("/").pop();
+        if (!f || !date) continue;
+        const cur = datesCache.get(f);
+        if (!cur) datesCache.set(f, { published: date, modified: date }); // newest first
+        else cur.published = date; // keep walking back to the first commit
+      }
+    } catch { /* not a git checkout */ }
+  }
+  const now = new Date().toISOString();
+  return datesCache.get(file) ?? { published: now, modified: now };
+}
+
+// ---------- photos (content/images.json + content/images/*.webp) ----------
+export interface Photo {
+  file: string; width: number; height: number; commonsTitle?: string; source?: string;
+  author?: string; license?: string; licenseUrl?: string; alt?: Partial<Record<Lang, string>>;
+}
+const IMAGES_FILE = join(CONTENT_DIR, "images.json");
+const PHOTOS: Record<string, Photo> = existsSync(IMAGES_FILE) ? (JSON.parse(readFileSync(IMAGES_FILE, "utf8")).recipes ?? {}) : {};
+/** Photo for a recipe file, only if its image file really exists. */
+export const photoFor = (file: string): (Photo & { path: string }) | undefined => {
+  const ph = PHOTOS[file];
+  if (!ph?.file) return undefined;
+  const path = join(CONTENT_DIR, ph.file);
+  return existsSync(path) ? { ...ph, path } : undefined;
+};
