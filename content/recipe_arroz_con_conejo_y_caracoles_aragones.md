@@ -56,15 +56,3 @@ Snails (*caracoles*, *cargols*) are a deep-rooted festival food along the Ebro. 
 *   [NueveCuatroUno – Caracoles en Nochebuena, menú tradicional riojano](https://nuevecuatrouno.com/2023/12/13/caracoles-nochebuena-navidad-menu-tradicional-riojano/)
 *   [Consumer – Arroz con conejo y caracoles](https://www.consumer.es/alimentacion/arroz-con-conejo-y-caracoles.html)
 *   [RENC – Platos olvidados de Aragón (PDF)](https://www.renc.es/imagenes/auxiliar/files/2022_RENC_VOL_28_SUPL1_PLATOS_OLVIDADOS_ARAGON__1_.pdf)
-
-## 6. Related Dishes
-
-**Rabbit & snail rices:** Rabbit, mountain snails (serranas/vaquetas) and herbs, mostly seco over a hot wood fire.
-
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco
-*   [Arroz con Conejo y Caracoles Murciano](recipe_arroz_conejo_caracoles_murciano.md): Región de Murcia · Seco
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco
-*   [Arroz de Renda](recipe_arros_de_renda.md): Alicante · Caldoso
-*   [Arroz de Trilla](recipe_arros_de_batre.md): Alicante · Caldoso
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco
-*   [Arroz con Conejo y Caracoles Catalán](recipe_arros_amb_conill_i_cargols_catala.md): Catalunya · Seco

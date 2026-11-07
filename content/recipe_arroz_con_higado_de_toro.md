@@ -53,23 +53,3 @@ This is an offal rice: **liver, sweetbread (*molleja*), heart and *entrañas*** 
 
 ## 5. Authority Reference Links
 *   [Revista Española de Nutrición Comunitaria (2022) – Platos olvidados de la Comunitat Valenciana, parte 1 (PDF; "Arroz con hígado de toro", p. 162)](https://renc.es/imagenes/auxiliar/files/2022_RENC_VOL_28_SUPL1_PLATOS_OLVIDADOS_COMUNITAT_VALENCIANA_parte_1__1_.pdf)
-
-## 6. Related Dishes
-
-**Winter pot & matanza rices:** Olla-style pots of legumes, pork and offal with the rice cooked in.
-
-*   [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md): València · Caldoso
-*   [Olla de Benicarló (con Arroz)](recipe_olla_de_benicarlo.md): Castellón · Caldoso
-*   [Arroz con Pata de Ternera](recipe_arroz_con_pata_de_ternera.md): Alicante · Meloso
-*   [Arroz de Matanza Ibicenco](recipe_arros_de_matances_eivissa.md): Illes Balears · Caldoso
-*   [Arroz Sucio Mallorquín](recipe_arros_brut.md): Illes Balears · Caldoso
-*   [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md): Alicante · Meloso
-*   [Colas de Cordero con Arroz](recipe_arroz_con_colas_de_cordero.md): Aragón, Navarra & La Rioja · Caldoso
-*   [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md): Catalunya · Caldoso
-*   [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md): Región de Murcia · Caldoso
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
-*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): València · Seco
-*   [Arroz a la Zamorana](recipe_arroz_a_la_zamorana.md): Castilla y León · Meloso
-*   [Chanfaina Salmantina](recipe_chanfaina_salmantina.md): Castilla y León · Meloso
-*   [Txuritabeltz (Relleno Navarro y Sangrecilla)](recipe_txuritabeltz.md): Aragón, Navarra & La Rioja · Seco
-*   [Arroz Clarico (con Hierbabuena)](recipe_arroz_clarico.md): Alicante · Caldoso

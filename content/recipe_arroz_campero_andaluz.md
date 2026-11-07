@@ -52,30 +52,3 @@
 ## 5. Authority Reference Links
 *   [Directo al Paladar – Receta de arroz campero, el más típico de Andalucía](https://www.directoalpaladar.com/recetas-de-arroces/receta-arroz-campero-tipico-andalucia)
 *   [Directo al Paladar – Este arroz con cosas andaluz no tiene que envidiar nada a la paella valenciana](https://www.directoalpaladar.com/recetas-de-arroces/este-arroz-cosas-andaluz-no-tiene-que-envidiar-nada-a-paella-valenciana-plato-impresionante-para-finde)
-
-## 6. Related Dishes
-
-**Huerta & artichoke rices:** Irrigated-garden vegetables: artichoke, broad beans, chard and peppers lead the dish.
-
-*   [Arroz de Verduras de la Vega Baja](recipe_arroz_de_verduras_vega_baja.md): Alicante · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz con Alcachofas de Benicarló](recipe_arroz_con_alcachofas_benicarlo.md): Castellón · Seco
-*   [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md): Castellón · Meloso
-*   [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md): València · Seco
-*   [Arroz con Magra, Costillejas y Verduras](recipe_arroz_con_costillejas_y_verduras_murcia.md): Región de Murcia · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Arroz con Acelgas](recipe_arroz_con_acelgas.md): València · Meloso
-*   [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md): Alicante · Seco
-*   [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md): Región de Murcia · Seco
-*   [Arroz y Pollo con Alcaciles](recipe_arroz_y_pollo_con_alcaciles.md): Región de Murcia · Seco
-*   [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md): Región de Murcia · Seco
-*   [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md): València · Meloso
-
-**Home-style & country rices:** Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had.
-
-*   [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md): Canarias · Seco
-*   [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md): Canarias · Seco
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md): Andalucía · Seco
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso
-*   [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md): Northern Spain · Seco

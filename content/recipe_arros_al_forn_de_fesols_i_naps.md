@@ -48,33 +48,3 @@ The well-known [arròs amb fesols i naps](recipe_arroz_con_fesols_i_naps.md) is 
 
 ## 5. Authority Reference Links
 *   [Universitat de València (Baldoví) – Receptari d'arrossos: arròs al forn de fesols i naps](https://www.uv.es/baldovi/cuina/arrossos.htm)
-
-## 6. Related Dishes
-
-**Baked & crust rices:** Finished in the oven (or under embers): the leftover-cocido logic, sometimes sealed with egg.
-
-*   [Arroz al Horno](recipe_arroz_al_horno.md): València · Seco
-*   [Arroz con Costra](recipe_arroz_con_costra.md): Alicante · Seco
-*   [Arroz Empedrado](recipe_arroz_empedrado.md): València · Seco
-*   [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md): Alicante · Meloso
-*   [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md): València · Seco
-*   [Arroz al Horno con Guisantes](recipe_arros_al_forn_amb_pesols.md): València · Seco
-*   [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md): València · Seco
-
-**Winter pot & matanza rices:** Olla-style pots of legumes, pork and offal with the rice cooked in.
-
-*   [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md): València · Caldoso
-*   [Olla de Benicarló (con Arroz)](recipe_olla_de_benicarlo.md): Castellón · Caldoso
-*   [Arroz con Pata de Ternera](recipe_arroz_con_pata_de_ternera.md): Alicante · Meloso
-*   [Arroz de Matanza Ibicenco](recipe_arros_de_matances_eivissa.md): Illes Balears · Caldoso
-*   [Arroz Sucio Mallorquín](recipe_arros_brut.md): Illes Balears · Caldoso
-*   [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md): Alicante · Meloso
-*   [Arroz con Hígado de Toro](recipe_arroz_con_higado_de_toro.md): València · Meloso
-*   [Colas de Cordero con Arroz](recipe_arroz_con_colas_de_cordero.md): Aragón, Navarra & La Rioja · Caldoso
-*   [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md): Catalunya · Caldoso
-*   [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md): Región de Murcia · Caldoso
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
-*   [Arroz a la Zamorana](recipe_arroz_a_la_zamorana.md): Castilla y León · Meloso
-*   [Chanfaina Salmantina](recipe_chanfaina_salmantina.md): Castilla y León · Meloso
-*   [Txuritabeltz (Relleno Navarro y Sangrecilla)](recipe_txuritabeltz.md): Aragón, Navarra & La Rioja · Seco
-*   [Arroz Clarico (con Hierbabuena)](recipe_arroz_clarico.md): Alicante · Caldoso

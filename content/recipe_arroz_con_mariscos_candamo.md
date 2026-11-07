@@ -54,18 +54,3 @@ An Asturian seafood rice built on the Cantabrian catch: **andaricas** (velvet cr
 ## 5. Authority Reference Links
 *   [Vivir Asturias – Arroz con mariscos y pescados (Grullos, Candamo)](https://www.vivirasturias.com/amp/cocina-asturiana/c/0/i/54629807/arroz-con-mariscos-y-pescados)
 *   [Asturias.com – El marisco del Cantábrico (andaricas)](https://asturias.com/el-marisco-del-cantabrico/)
-
-## 6. Related Dishes
-
-**Shellfish caldosos & melosos:** Lobster, prawns, mantis shrimp and clams, usually soupy or creamy.
-
-*   [Arroz Caldoso con Bogavante](recipe_arroz_caldoso_con_bogavante.md): Alicante · Caldoso
-*   [Arroz Caldoso con Bogavante del Cantábrico](recipe_arroz_con_bogavante_norte.md): Northern Spain · Caldoso
-*   [Arroz de Langosta Menorquín](recipe_arros_de_llagosta_menorca.md): Illes Balears · Caldoso
-*   [Arroz Caldoso de Langostinos de Vinaròs](recipe_arroz_caldoso_langostinos_vinaros.md): Castellón · Caldoso
-*   [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md): Castellón · Meloso
-*   [Arroz con Almejas](recipe_arroz_con_almejas.md): Northern Spain · Caldoso
-*   [Arroz Caldoso de Isla Cristina](recipe_arroz_caldoso_isla_cristina.md): Andalucía · Caldoso
-*   [Arroz con Borrajas y Almejas](recipe_arroz_con_borrajas_y_almejas.md): Aragón, Navarra & La Rioja · Caldoso
-*   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md): Andalucía · Caldoso
-*   [Arroz con Rape y Gamba Roja](recipe_arroz_con_rape_y_gamba_roja.md): Alicante · Seco

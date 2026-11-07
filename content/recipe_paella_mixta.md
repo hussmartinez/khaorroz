@@ -64,17 +64,3 @@ The usual account links it to the 1960s–70s tourism boom. On that account, res
 *   [Hektoen International – Paella: the universal rice dish](https://hekint.org/2026/07/28/paella-the-universal-rice-dish/)
 *   [Manu's Menu – Paella mixta](https://www.manusmenu.com/paella-mixta)
 *   [Tara's Multicultural Table – Paella mixta (Spanish paella with seafood and meat)](https://tarasmulticulturaltable.com/paella-mixta-spanish-paella-with-seafood-and-meat/)
-
-## 6. Related Dishes
-
-**The paella family:** Wide shallow pan, thin layer, seco, and the debate over what counts as 'valenciana'.
-
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco
-*   [Paella de Marisco](recipe_paella_de_marisco.md): València · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Fideuá](recipe_fideua.md): València · Seco
-*   [Arroz a la Alicantina](recipe_arroz_a_la_alicantina.md): Alicante · Seco
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
-*   [Paella con Albóndigas](recipe_paella_amb_mandonguilles.md): València · Seco
-*   [Paella a la Riojana](recipe_paella_a_la_riojana.md): Aragón, Navarra & La Rioja · Seco

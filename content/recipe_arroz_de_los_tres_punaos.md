@@ -73,22 +73,3 @@ Its naming is a perfect case of hyper-local nomenclature. (For Orihuela's meat *
 *   [El Periòdic – Del arroz de vigilia a la olla viuda: platos de Cuaresma en la Vega Baja](https://www.elperiodic.com/palicante/arroz-vigilia-olla-viuda-platos-tipicos-cuaresma-vega-baja-segura_1008934)
 *   [La Cocina de las Almela – Potaje de "los tres puñados" o arroz de vigilia](http://lacocinadelasalmela.blogspot.com/2018/10/potaje-de-los-tres-punados-o-arroz-de.html)
 *   [Los domingos cocino yo – Arroz clarico de vigilia (o de los tres "puñaos")](http://losdomingoscocinoyo.blogspot.com/2012/10/arroz-clarico-de-vigilia-o-de-los-tres.html)
-
-## 6. Related Dishes
-
-**Lent & vigil rices:** Meatless rices of Cuaresma and fast days: legumes, greens and salt cod.
-
-*   [Arroz con Acelgas](recipe_arroz_con_acelgas.md): València · Meloso
-*   [Arroz Empedrado](recipe_arroz_empedrado.md): València · Seco
-*   [Arroz Empedrao (Empedrado) Murciano](recipe_arroz_empedrao_murciano.md): Región de Murcia · Meloso
-*   [Arroz con Bacalao y Coliflor](recipe_arroz_con_bacalao_y_coliflor.md): Alicante · Seco
-*   [Arroz de Ayuno de Calasparra](recipe_arroz_de_ayuno_calasparra.md): Región de Murcia · Seco
-*   [Arroz con Bacalao de Vigilia (La Mancha y Extremadura)](recipe_arroz_con_bacalao_de_vigilia.md): Castilla-La Mancha & Extremadura · Caldoso
-*   [Cardillos con Arroz](recipe_cardillos_con_arroz.md): Castilla-La Mancha & Extremadura · Meloso
-*   [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md): Alicante · Seco
-*   [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md): Región de Murcia · Caldoso
-*   [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md): Región de Murcia · Seco
-*   [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md): Región de Murcia · Seco
-*   [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md): València · Seco
-*   [Paella de Cebolla y Bacalao](recipe_paella_de_ceba_i_bacalla.md): València · Seco
-*   [Potaje Bañezano (Garbanzos con Arroz)](recipe_potaje_banezano.md): Castilla y León · Caldoso

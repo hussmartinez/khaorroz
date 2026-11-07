@@ -52,15 +52,3 @@
 *   [Alicante Plaza – D'arròs caldós i cuina tradicional (arròs de batre at Jesús Pobre)](https://alicanteplaza.es/alicanteplaza/darros-caldos-i-cuina-tradicional)
 *   [La Marina Alta – Ximo Carrión: «La Marina tiene una cultura del arroz brutal y cada pueblo, auténticas joyas»](https://lamarinaalta.com/ximo-carrion-cocinero-experto-en-arroces-la-marina-tiene-una-cultura-del-arroz-brutal-y-cada-pueblo-autenticas-joyas/)
 *   [Fentdetutto – Ximo Carrión's blog of recovered Valencian recipes](https://fentdetutto.blogspot.com/)
-
-## 6. Related Dishes
-
-**Rabbit & snail rices:** Rabbit, mountain snails (serranas/vaquetas) and herbs, mostly seco over a hot wood fire.
-
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco
-*   [Arroz con Conejo y Caracoles Murciano](recipe_arroz_conejo_caracoles_murciano.md): Región de Murcia · Seco
-*   [Arroz con Conejo y Caracoles (Aragón, Navarra y La Rioja)](recipe_arroz_con_conejo_y_caracoles_aragones.md): Aragón, Navarra & La Rioja · Meloso
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco
-*   [Arroz de Renda](recipe_arros_de_renda.md): Alicante · Caldoso
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco
-*   [Arroz con Conejo y Caracoles Catalán](recipe_arros_amb_conill_i_cargols_catala.md): Catalunya · Seco

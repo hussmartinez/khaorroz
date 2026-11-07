@@ -77,15 +77,3 @@ The dish is a direct cousin of [arròs al forn](recipe_arroz_al_horno.md): the s
 *   [AQUÍ Medios – Los orígenes medievales del arroz y costra](https://aquimediosdecomunicacion.com/2022/03/08/los-origenes-medievales-del-arroz-y-costra)
 *   [Alicante Plaza – Elche pedirá declarar el arroz con costra Bien de Interés Cultural Inmaterial](https://alicanteplaza.es/alicanteplaza/elche-pedira-la-declaracion-del-arroz-con-costra-como-bien-de-interes-cultural-inmaterial)
 *   [Directo al Paladar – Cómo hacer arroz con costra o arròs amb crosta](https://www.directoalpaladar.com/recetas-de-arroces/receta-de-arroz-con-costra-arros-amb-crosta)
-
-## 6. Related Dishes
-
-**Baked & crust rices:** Finished in the oven (or under embers): the leftover-cocido logic, sometimes sealed with egg.
-
-*   [Arroz al Horno](recipe_arroz_al_horno.md): València · Seco
-*   [Arroz Empedrado](recipe_arroz_empedrado.md): València · Seco
-*   [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md): Alicante · Meloso
-*   [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md): València · Seco
-*   [Arroz al Horno con Guisantes](recipe_arros_al_forn_amb_pesols.md): València · Seco
-*   [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md): València · Seco
-*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): València · Seco

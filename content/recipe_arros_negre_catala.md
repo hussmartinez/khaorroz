@@ -54,16 +54,3 @@ Barcelona Turisme lists **"Arròs negre de l'Empordà"** among its Catalan class
 *   [Wikipedia – Arròs negre](https://en.wikipedia.org/wiki/Arr%C3%B2s_negre)
 *   [Barcelona Review – Food: arròs negre](https://Barcelonareview.com/18/e_food_1.htm)
 *   [TasteAtlas – Top Catalan seafood dishes](https://www.tasteatlas.com/best-rated-seafood-dishes-in-catalonia)
-
-## 6. Related Dishes
-
-**Cephalopod & ink rices:** Cuttlefish, squid, choco and octopus, with or without their ink.
-
-*   [Arroz Negro](recipe_arroz_negro.md): València · Seco
-*   [Arroz con Choco](recipe_arroz_con_choco.md): Andalucía · Caldoso
-*   [Arroz Meloso de Pulpo](recipe_arroz_meloso_de_pulpo.md): Alicante · Meloso
-*   [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md): València · Seco
-*   [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md): Castellón · Meloso
-*   [Arroz con Chipirones y Ajos Tiernos](recipe_arroz_con_chipirones_y_ajos_tiernos.md): Alicante · Meloso
-*   [Arroz Caldoso de Sepia y Coliflor](recipe_arros_de_sepia_i_coliflor.md): València · Caldoso
-*   [Chipirones en su Tinta con Arroz Blanco](recipe_chipirones_en_su_tinta_con_arroz.md): Northern Spain · Seco

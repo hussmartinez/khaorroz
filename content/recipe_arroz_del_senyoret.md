@@ -58,17 +58,3 @@
 *   [Alicante Turismo – Guía Alicante Ciudad del Arroz (PDF)](https://alicanteturismo.com/wp-content/uploads/2024/06/GUIA-ALICANTE-CIUDAD-DEL-ARROZ.pdf)
 *   [Fascinating Spain – Paella del señorito / arroz del senyoret](https://fascinatingspain.com/gastronomy/spanish-cuisine-recipes/paella-del-senorito-alicante-paella/)
 *   [Hola.com – Arroz del senyoret de carne (Hermanos Torres; modern riff)](https://www.hola.com/cocina/noticias/20260420895819/arroz-de-carne-del-senyoret-hermanos-torres/)
-
-## 6. Related Dishes
-
-**Fishermen's broth rices:** Unsaleable catch boiled into broth; fish often eaten first, rice cooked in what remains.
-
-*   [Arroz a Banda](recipe_arroz_a_banda.md): Alicante · Seco
-*   [Caldero de Santa Pola y Tabarca](recipe_caldero_santa_pola_tabarca.md): Alicante · Meloso
-*   [Arroz Caldero del Mar Menor](recipe_caldero_del_mar_menor.md): Región de Murcia · Meloso
-*   [Arroz Rossejat](recipe_arrossejat.md): Catalunya · Seco
-*   [Arroz Marinero Balear](recipe_arros_de_peix_balear.md): Illes Balears · Caldoso
-*   [Arroz Marinero Andaluz](recipe_arroz_marinero_andaluz.md): Andalucía · Caldoso
-*   [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md): Catalunya · Meloso
-*   [Arroz y Gatet (Arroz con Pintarroja)](recipe_arroz_y_gatet.md): Alicante · Caldoso
-*   [Fideuá](recipe_fideua.md): València · Seco

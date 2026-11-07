@@ -50,12 +50,3 @@ La Bañeza's crayfish tradition is "more than two centuries" old, according to t
 ## 5. Authority Reference Links
 *   [Revista Española de Nutrición Comunitaria (2022) – Platos olvidados: Castilla y León, parte 1 (PDF; salsa/arroz de cangrejos, La Bañeza)](https://www.renc.es/imagenes/auxiliar/files/2022_RENC_VOL_28_SUPL1_PLATOS_OLVIDADOS_CASTILLA_Y_LEON_parte_1.pdf)
 *   [Turismo Castilla y León – Guiso de cangrejos](https://turismocastillayleon.com/es/enoturismo-gastronomia/platos-tipicos/guiso-cangrejos)
-
-## 6. Related Dishes
-
-**River & freshwater rices:** Crayfish, eel and lamprey from inland rivers, lagoons and the Miño.
-
-*   [Arroz del Pedrón de Parayo](recipe_arroz_del_pedron_de_parayo.md): Northern Spain · Seco
-*   [Lamprea a la Bordelesa con Arroz](recipe_lamprea_a_la_bordelesa_con_arroz.md): Northern Spain · Seco
-*   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md): Andalucía · Caldoso
-*   [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md): València · Seco

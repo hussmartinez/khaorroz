@@ -54,10 +54,3 @@ Rice cooked in sweetened milk is one of the oldest rice preparations in Spain. S
 *   [Hola.com – Festival del Arroz con Leche de Cabranes](https://www.hola.com/cocina/noticias/20220506209268/festival-arroz-leche-cabranes-2022/)
 *   [Festivales de España – Festival del Arroz con Leche, Santa Eulalia de Cabranes](https://www.festivalesdeespana.com/festival/festival-del-arroz-con-leche-cabranes-santa-eulalia-de-cabranes/2025)
 *   [El Cronista – Arroz con leche al estilo español](https://www.cronista.com/espana/viajes-recetas/arroz-con-leche-la-receta-sencilla-y-rapida-para-preparar-el-sabroso-postre-al-estilo-espanol)
-
-## 6. Related Dishes
-
-**Sweet rices:** Desserts: rice cooked in milk or honey.
-
-*   [Arroz con Miel de Bogarra](recipe_arroz_con_miel_bogarra.md): Castilla-La Mancha & Extremadura · Meloso
-*   [Escudilla de Ángel](recipe_escudella_d_angel.md): Illes Balears · Meloso

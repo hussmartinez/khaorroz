@@ -54,17 +54,3 @@ A southern-Valencian **festive paella** in which small **meatballs** (*mandongui
 *   [Oli, sal i pebre (Substack) – Paella valenciana amb mandonguilles (Gandia cook)](https://olisalpebre.substack.com/p/17-paella-valenciana-amb-mandonguilles)
 *   [Universitat de València (Baldoví) – Receptari d'arrossos: paella valenciana (pilotetes optional)](https://www.uv.es/baldovi/cuina/arrossos.htm)
 *   [Turisme Diputació de València – Saboreando Tavernes de la Valldigna (PDF)](https://turisme.dival.es/wp-content/uploads/2021/09/1-SABOREANDO-TAVERNES-DE-LA-VALLDIGNA.pdf)
-
-## 6. Related Dishes
-
-**The paella family:** Wide shallow pan, thin layer, seco, and the debate over what counts as 'valenciana'.
-
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco
-*   [Paella de Marisco](recipe_paella_de_marisco.md): València · Seco
-*   [Paella Mixta](recipe_paella_mixta.md): València · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Fideuá](recipe_fideua.md): València · Seco
-*   [Arroz a la Alicantina](recipe_arroz_a_la_alicantina.md): Alicante · Seco
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
-*   [Paella a la Riojana](recipe_paella_a_la_riojana.md): Aragón, Navarra & La Rioja · Seco

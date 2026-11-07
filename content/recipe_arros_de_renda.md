@@ -48,15 +48,3 @@ A humble inland-Marina rice of **snails, lima beans and red pepper**, with almos
 ## 5. Authority Reference Links
 *   [Xàbia Turisme (GastroXàbia) – Arròs de renda (stewed rice with snails)](https://en.xabia.org/ver/1724/%A1---.html)
 *   [Jávea.com – Gastronomía de Jávea](https://www.javea.com/en/gastronomia-de-javea/)
-
-## 6. Related Dishes
-
-**Rabbit & snail rices:** Rabbit, mountain snails (serranas/vaquetas) and herbs, mostly seco over a hot wood fire.
-
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco
-*   [Arroz con Conejo y Caracoles Murciano](recipe_arroz_conejo_caracoles_murciano.md): Región de Murcia · Seco
-*   [Arroz con Conejo y Caracoles (Aragón, Navarra y La Rioja)](recipe_arroz_con_conejo_y_caracoles_aragones.md): Aragón, Navarra & La Rioja · Meloso
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco
-*   [Arroz de Trilla](recipe_arros_de_batre.md): Alicante · Caldoso
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco
-*   [Arroz con Conejo y Caracoles Catalán](recipe_arros_amb_conill_i_cargols_catala.md): Catalunya · Seco

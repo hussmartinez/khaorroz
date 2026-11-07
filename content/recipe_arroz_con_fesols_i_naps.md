@@ -69,23 +69,3 @@ This is the great **winter rice** of the Valencian countryside. It is also known
 *   [El Español – El mejor arroz de fesols i naps de Valencia está en este pueblo](https://elespanol.com/valencia/20240405/mejor-arroz-fesols-naps-valencia-mundo-pueblo/845165972_0.html)
 *   [Dénia.net – Rice with beans and turnips recipe](https://denia.net/en/receta/rice-with-beans-and-turnips-recipe/)
 *   [Gastronosfera – Arroz de fesols i naps, referente de la gastronomía valenciana](https://gastronosfera.com/tendencias/arroz-de-fesols-i-naps-referente-de-la-gastronomia-valenciana)
-
-## 6. Related Dishes
-
-**Winter pot & matanza rices:** Olla-style pots of legumes, pork and offal with the rice cooked in.
-
-*   [Olla de Benicarló (con Arroz)](recipe_olla_de_benicarlo.md): Castellón · Caldoso
-*   [Arroz con Pata de Ternera](recipe_arroz_con_pata_de_ternera.md): Alicante · Meloso
-*   [Arroz de Matanza Ibicenco](recipe_arros_de_matances_eivissa.md): Illes Balears · Caldoso
-*   [Arroz Sucio Mallorquín](recipe_arros_brut.md): Illes Balears · Caldoso
-*   [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md): Alicante · Meloso
-*   [Arroz con Hígado de Toro](recipe_arroz_con_higado_de_toro.md): València · Meloso
-*   [Colas de Cordero con Arroz](recipe_arroz_con_colas_de_cordero.md): Aragón, Navarra & La Rioja · Caldoso
-*   [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md): Catalunya · Caldoso
-*   [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md): Región de Murcia · Caldoso
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
-*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): València · Seco
-*   [Arroz a la Zamorana](recipe_arroz_a_la_zamorana.md): Castilla y León · Meloso
-*   [Chanfaina Salmantina](recipe_chanfaina_salmantina.md): Castilla y León · Meloso
-*   [Txuritabeltz (Relleno Navarro y Sangrecilla)](recipe_txuritabeltz.md): Aragón, Navarra & La Rioja · Seco
-*   [Arroz Clarico (con Hierbabuena)](recipe_arroz_clarico.md): Alicante · Caldoso

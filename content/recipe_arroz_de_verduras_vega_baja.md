@@ -60,21 +60,3 @@ La Vega Baja is the irrigated floodplain of the River Segura. It is one of Europ
 *   [El Periòdic – Del arroz de vigilia a la olla viuda: platos de Cuaresma en la Vega Baja](https://www.elperiodic.com/palicante/arroz-vigilia-olla-viuda-platos-tipicos-cuaresma-vega-baja-segura_1008934)
 *   [Directo al Paladar – Un libro de cocina oriolana](https://www.directoalpaladar.com/libros-de-cocina/un-libro-de-cocina-oriolana)
 *   [Spain Seeker – Artichokes from Vega Baja](https://spainseeker.com/en/food/orihuela-alcachofas-de-la-vega-baja)
-
-## 6. Related Dishes
-
-**Huerta & artichoke rices:** Irrigated-garden vegetables: artichoke, broad beans, chard and peppers lead the dish.
-
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz con Alcachofas de Benicarló](recipe_arroz_con_alcachofas_benicarlo.md): Castellón · Seco
-*   [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md): Castellón · Meloso
-*   [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md): València · Seco
-*   [Arroz con Magra, Costillejas y Verduras](recipe_arroz_con_costillejas_y_verduras_murcia.md): Región de Murcia · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Arroz con Acelgas](recipe_arroz_con_acelgas.md): València · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md): Alicante · Seco
-*   [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md): Región de Murcia · Seco
-*   [Arroz y Pollo con Alcaciles](recipe_arroz_y_pollo_con_alcaciles.md): Región de Murcia · Seco
-*   [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md): Región de Murcia · Seco
-*   [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md): València · Meloso

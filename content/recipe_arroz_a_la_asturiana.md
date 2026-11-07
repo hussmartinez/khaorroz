@@ -56,14 +56,3 @@ A generous Sunday "**arroz con cosas**" ("rice with things") of Asturian homes. 
 ## 5. Authority Reference Links
 *   [Directo al Paladar – Arroz a la asturiana, la deliciosa y más contundente receta de arroz con cosas](https://www.directoalpaladar.com/recetas-de-arroces/arroz-a-asturiana-deliciosa-contundente-receta-arroz-cosas-muchas-cosas)
 *   [Asturias.com – Receta del pote asturiano (compango context)](https://asturias.com/receta-pote-asturiano/)
-
-## 6. Related Dishes
-
-**Home-style & country rices:** Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had.
-
-*   [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md): Canarias · Seco
-*   [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md): Canarias · Seco
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md): Andalucía · Seco
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso

@@ -62,23 +62,3 @@ This is a working-class Alicante city classic and a **winter** rice. It uses the
 *   [El Español (VA) – Els cuiners coincidixen: el millor arròs amb pota de vedella](https://www.elespanol.com/va/alacant/viure/20260629/els-cuiners-coincidixen-el-millor-arros-amb-pota-de-vedella-porta-cigrons-botifarres-xoric/1003744301296_0.html)
 *   [Alicante Turismo – Guía Alicante Ciudad del Arroz (PDF)](https://alicanteturismo.com/wp-content/uploads/2024/06/GUIA-ALICANTE-CIUDAD-DEL-ARROZ.pdf)
 *   [Comunitat Valenciana – Alacant, ciutat de l'arròs (VA)](https://www.comunitatvalenciana.com/va/mediterrani-en-accio/alacant-ciutat-del-arros)
-
-## 6. Related Dishes
-
-**Winter pot & matanza rices:** Olla-style pots of legumes, pork and offal with the rice cooked in.
-
-*   [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md): València · Caldoso
-*   [Olla de Benicarló (con Arroz)](recipe_olla_de_benicarlo.md): Castellón · Caldoso
-*   [Arroz de Matanza Ibicenco](recipe_arros_de_matances_eivissa.md): Illes Balears · Caldoso
-*   [Arroz Sucio Mallorquín](recipe_arros_brut.md): Illes Balears · Caldoso
-*   [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md): Alicante · Meloso
-*   [Arroz con Hígado de Toro](recipe_arroz_con_higado_de_toro.md): València · Meloso
-*   [Colas de Cordero con Arroz](recipe_arroz_con_colas_de_cordero.md): Aragón, Navarra & La Rioja · Caldoso
-*   [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md): Catalunya · Caldoso
-*   [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md): Región de Murcia · Caldoso
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
-*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): València · Seco
-*   [Arroz a la Zamorana](recipe_arroz_a_la_zamorana.md): Castilla y León · Meloso
-*   [Chanfaina Salmantina](recipe_chanfaina_salmantina.md): Castilla y León · Meloso
-*   [Txuritabeltz (Relleno Navarro y Sangrecilla)](recipe_txuritabeltz.md): Aragón, Navarra & La Rioja · Seco
-*   [Arroz Clarico (con Hierbabuena)](recipe_arroz_clarico.md): Alicante · Caldoso

@@ -59,36 +59,3 @@
 *   [3Cat Cuines – Arròs del mal temps (rice + bacallà + fesolets, oven finish)](https://www.3cat.cat/tv3/cuines/recepta/arros-del-mal-temps/31936/)
 *   [Conselleria d'Educació – Valencian school recipe dossier (PDF)](https://portal.edu.gva.es/wp-content/uploads/sites/1173/2022/11/DLFE-310022.pdf)
 *   [El Periòdic – Platos típicos de Cuaresma (arroz de vigilia)](https://www.elperiodic.com/palicante/arroz-vigilia-olla-viuda-platos-tipicos-cuaresma-vega-baja-segura_1008934)
-
-## 6. Related Dishes
-
-**Baked & crust rices:** Finished in the oven (or under embers): the leftover-cocido logic, sometimes sealed with egg.
-
-*   [Arroz al Horno](recipe_arroz_al_horno.md): València · Seco
-*   [Arroz con Costra](recipe_arroz_con_costra.md): Alicante · Seco
-*   [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md): Alicante · Meloso
-*   [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md): València · Seco
-*   [Arroz al Horno con Guisantes](recipe_arros_al_forn_amb_pesols.md): València · Seco
-*   [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md): València · Seco
-*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): València · Seco
-
-**Empedrado ('cobbled') rices:** Rice studded with beans like cobblestones; Valencian and Murcian versions differ.
-
-*   [Arroz Empedrao (Empedrado) Murciano](recipe_arroz_empedrao_murciano.md): Región de Murcia · Meloso
-
-**Lent & vigil rices:** Meatless rices of Cuaresma and fast days: legumes, greens and salt cod.
-
-*   [Arroz de los Tres Puñaos](recipe_arroz_de_los_tres_punaos.md): Alicante · Caldoso
-*   [Arroz con Acelgas](recipe_arroz_con_acelgas.md): València · Meloso
-*   [Arroz Empedrao (Empedrado) Murciano](recipe_arroz_empedrao_murciano.md): Región de Murcia · Meloso
-*   [Arroz con Bacalao y Coliflor](recipe_arroz_con_bacalao_y_coliflor.md): Alicante · Seco
-*   [Arroz de Ayuno de Calasparra](recipe_arroz_de_ayuno_calasparra.md): Región de Murcia · Seco
-*   [Arroz con Bacalao de Vigilia (La Mancha y Extremadura)](recipe_arroz_con_bacalao_de_vigilia.md): Castilla-La Mancha & Extremadura · Caldoso
-*   [Cardillos con Arroz](recipe_cardillos_con_arroz.md): Castilla-La Mancha & Extremadura · Meloso
-*   [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md): Alicante · Seco
-*   [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md): Región de Murcia · Caldoso
-*   [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md): Región de Murcia · Seco
-*   [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md): Región de Murcia · Seco
-*   [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md): València · Seco
-*   [Paella de Cebolla y Bacalao](recipe_paella_de_ceba_i_bacalla.md): València · Seco
-*   [Potaje Bañezano (Garbanzos con Arroz)](recipe_potaje_banezano.md): Castilla y León · Caldoso

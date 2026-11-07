@@ -54,14 +54,3 @@ High in the Pyrenees, rice was a bought luxury and the protein came from the far
 *   [VilaWeb – Recepta: arròs caldós de muntanya](https://www.vilaweb.cat/noticies/recepta-arros-caldos-de-muntanya/)
 *   [Grup 62 – La cuina de les terres de Lleida (J. Lladonosa), synopsis (PDF)](https://proapi.grup62.cat/descargas/sala-prensa-libro/sinopsis-y-biografia/97547/la-cuina-de-les-terres-de-lleida.pdf)
 *   [El Nacional – Catalan classics: snails](https://www.elnacional.cat/en/gastronomy/catalan-classics-snails-escargots-recipe-garlic-parsley_410551_102.html)
-
-## 6. Related Dishes
-
-**Mountain & game rices:** Upland rices built on game, farmyard birds and wild mushrooms.
-
-*   [Arroz de Montaña de Castellón](recipe_arroz_de_montana_castellon.md): Castellón · Seco
-*   [Arroz con Liebre](recipe_arroz_con_liebre.md): Castilla-La Mancha & Extremadura · Meloso
-*   [Arroz con Perdiz](recipe_arroz_con_perdiz.md): Andalucía · Caldoso
-*   [Arroz con Pitu de Caleya](recipe_arroz_con_pitu_de_caleya.md): Northern Spain · Meloso
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco

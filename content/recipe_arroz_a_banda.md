@@ -84,17 +84,3 @@ Blend everything to a paste. Cook it gently in a small pan for **10 min** until 
 *   [Consum Entre Nosotros – Arroz a banda: traditional recipe](https://entrenosotros.consum.es/en/arroz-a-banda)
 *   [Claudia & Julia – Arroz a banda con salmorreta](https://claudiaandjulia.com/en/blogs/general/arroz-a-banda-con-salmorreta)
 *   [National Geographic – Alicante's enduring obsession with arroz](https://www.nationalgeographic.com/travel/article/city-rice-alicante-enduring-obsession-arroz)
-
-## 6. Related Dishes
-
-**Fishermen's broth rices:** Unsaleable catch boiled into broth; fish often eaten first, rice cooked in what remains.
-
-*   [Caldero de Santa Pola y Tabarca](recipe_caldero_santa_pola_tabarca.md): Alicante · Meloso
-*   [Arroz Caldero del Mar Menor](recipe_caldero_del_mar_menor.md): Región de Murcia · Meloso
-*   [Arroz del Señorito](recipe_arroz_del_senyoret.md): Alicante · Seco
-*   [Arroz Rossejat](recipe_arrossejat.md): Catalunya · Seco
-*   [Arroz Marinero Balear](recipe_arros_de_peix_balear.md): Illes Balears · Caldoso
-*   [Arroz Marinero Andaluz](recipe_arroz_marinero_andaluz.md): Andalucía · Caldoso
-*   [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md): Catalunya · Meloso
-*   [Arroz y Gatet (Arroz con Pintarroja)](recipe_arroz_y_gatet.md): Alicante · Caldoso
-*   [Fideuá](recipe_fideua.md): València · Seco

@@ -52,12 +52,3 @@ The rice paddies of the Guadalquivir marshes are Spain's largest rice-growing ar
 ## 5. Authority Reference Links
 *   [Directo al Paladar – Arroz caldoso con pato, la receta cortijera tradicional de las marismas sevillanas](https://www.directoalpaladar.com/recetas-de-arroces/arroz-caldoso-pato-receta-cortijera-tradicional-marismas-sevillanas)
 *   [Revista Club Eroski – Arroz caldoso con pato](https://revistaclub.eroski.es/.202511/index-14.html)
-
-## 6. Related Dishes
-
-**Duck & wetland rices:** Rices of the great rice marshes: Albufera, Ebro Delta, Guadalquivir.
-
-*   [Arroz con Pato](recipe_arroz_con_pato.md): València · Seco
-*   [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md): Catalunya · Meloso
-*   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md): Andalucía · Caldoso
-*   [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md): València · Seco

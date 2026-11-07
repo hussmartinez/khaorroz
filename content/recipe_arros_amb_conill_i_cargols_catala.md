@@ -50,15 +50,3 @@ Rabbit and snails is a rice combination shared across eastern Spain's dry interi
 
 ## 5. Authority Reference Links
 *   [Diputació de Barcelona – Recepta: arròs amb conill i cargols (PDF)](https://bibliotecavirtual.diba.cat/documents/d/global/recepta_arros-amb-conill-i-cargols)
-
-## 6. Related Dishes
-
-**Rabbit & snail rices:** Rabbit, mountain snails (serranas/vaquetas) and herbs, mostly seco over a hot wood fire.
-
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco
-*   [Arroz con Conejo y Caracoles Murciano](recipe_arroz_conejo_caracoles_murciano.md): Región de Murcia · Seco
-*   [Arroz con Conejo y Caracoles (Aragón, Navarra y La Rioja)](recipe_arroz_con_conejo_y_caracoles_aragones.md): Aragón, Navarra & La Rioja · Meloso
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco
-*   [Arroz de Renda](recipe_arros_de_renda.md): Alicante · Caldoso
-*   [Arroz de Trilla](recipe_arros_de_batre.md): Alicante · Caldoso
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco

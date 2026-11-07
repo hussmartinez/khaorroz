@@ -61,14 +61,3 @@ The Castellón interior is a high, cold, sparsely populated land of masías, liv
 *   [Directo al Paladar – Arroz con conejo, pollo y verduras (receta tradicional)](https://www.directoalpaladar.com/recetas-de-arroces/arroz-con-conejo-pollo-y-verduras-receta)
 *   [Directo al Paladar – Los mejores platos de la gastronomía de Castellón](https://www.directoalpaladar.com/cultura-gastronomica/mejores-platos-injustamente-desconocida-gastronomia-castellon-sus-chefs-estrella)
 *   [Comunitat Valenciana – Menjar en Castelló (VA)](https://www.comunitatvalenciana.com/va/inspirat/menjar-en-castello)
-
-## 6. Related Dishes
-
-**Mountain & game rices:** Upland rices built on game, farmyard birds and wild mushrooms.
-
-*   [Arroz de Montaña Catalán](recipe_arros_de_muntanya_catala.md): Catalunya · Meloso
-*   [Arroz con Liebre](recipe_arroz_con_liebre.md): Castilla-La Mancha & Extremadura · Meloso
-*   [Arroz con Perdiz](recipe_arroz_con_perdiz.md): Andalucía · Caldoso
-*   [Arroz con Pitu de Caleya](recipe_arroz_con_pitu_de_caleya.md): Northern Spain · Meloso
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco

@@ -57,15 +57,3 @@ Murcian sources describe rice cooked "a la lumbre" (over an open wood fire) as o
 *   [Gastronosfera – Nos ponemos muy melosos con los arroces de Murcia](https://www.gastronosfera.com/tendencias/nos-ponemos-muy-melosos-con-los-arroces-de-murcia)
 *   [Turismo Región de Murcia – Un paseo por la huerta (Federación de Peñas Huertanas recipe book, PDF)](https://www.turismoregiondemurcia.es/catalogos/OTMURCIA26995041Libro%20Un%20Paseo%20por%20la%20Huerta-AF-Web.pdf)
 *   [Wikipedia – Calasparra rice](https://en.wikipedia.org/wiki/Calasparra_rice)
-
-## 6. Related Dishes
-
-**Rabbit & snail rices:** Rabbit, mountain snails (serranas/vaquetas) and herbs, mostly seco over a hot wood fire.
-
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco
-*   [Arroz con Conejo y Caracoles (Aragón, Navarra y La Rioja)](recipe_arroz_con_conejo_y_caracoles_aragones.md): Aragón, Navarra & La Rioja · Meloso
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco
-*   [Arroz de Renda](recipe_arros_de_renda.md): Alicante · Caldoso
-*   [Arroz de Trilla](recipe_arros_de_batre.md): Alicante · Caldoso
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco
-*   [Arroz con Conejo y Caracoles Catalán](recipe_arros_amb_conill_i_cargols_catala.md): Catalunya · Seco

@@ -60,22 +60,3 @@ Sevilla province is **Spain's leading rice producer**. The **marismas del Guadal
 *   [Directo al Paladar – Este arroz con cosas andaluz no tiene que envidiar nada a la paella valenciana](https://www.directoalpaladar.com/recetas-de-arroces/este-arroz-cosas-andaluz-no-tiene-que-envidiar-nada-a-paella-valenciana-plato-impresionante-para-finde)
 *   [Vivir Ediciones – Concurso de Recetas de Arroz de la Diputación de Sevilla](https://vivirediciones.es/?p=1138946)
 *   [Michelin – Los mejores arroces de España más allá de la paella](https://guide.michelin.com/es/es/articulo/features/los-mejores-arroces-de-espana-mas-alla-de-la-paella)
-
-## 6. Related Dishes
-
-**Cazuela / cassola rices:** Rices cooked and served in an earthenware casserole rather than a paella.
-
-*   [Arroz a la Cazuela](recipe_arros_a_la_cassola.md): Catalunya · Meloso
-*   [Arroz de Pals a la Cazuela](recipe_arros_a_la_cassola_de_pals.md): Catalunya · Meloso
-*   [Arroz a la Zaragozana](recipe_arroz_a_la_zaragozana.md): Aragón, Navarra & La Rioja · Meloso
-*   [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md): Castellón · Meloso
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso
-
-**Home-style & country rices:** Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had.
-
-*   [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md): Canarias · Seco
-*   [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md): Canarias · Seco
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md): Andalucía · Seco
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso
-*   [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md): Northern Spain · Seco

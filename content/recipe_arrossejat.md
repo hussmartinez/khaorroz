@@ -52,17 +52,3 @@ Simmer the fish with the onion, tomato, garlic and water for **30 min**, then st
 *   [Fem Turisme – Diada de l'Arrossejat a l'Ametlla de Mar](https://www.femturisme.cat/ca/agenda/diada-de-larrossejat-a-lametlla-de-mar)
 *   [Diari de Tarragona – Jornades del peix de llotja i l'arrossejat](https://www.diaridetarragona.com/ebre/197502/jornades-del-peix-de-llotja-i-l-arrossejat-a-l-ametlla-ce21340507_amp.html)
 *   [Fem Turisme – Diada dels Fideus Rossejats de la Cala](https://femturisme.cat/agenda/diada-dels-fideus-rossejats-de-la-cala-a-l-ametlla-de-mar)
-
-## 6. Related Dishes
-
-**Fishermen's broth rices:** Unsaleable catch boiled into broth; fish often eaten first, rice cooked in what remains.
-
-*   [Arroz a Banda](recipe_arroz_a_banda.md): Alicante · Seco
-*   [Caldero de Santa Pola y Tabarca](recipe_caldero_santa_pola_tabarca.md): Alicante · Meloso
-*   [Arroz Caldero del Mar Menor](recipe_caldero_del_mar_menor.md): Región de Murcia · Meloso
-*   [Arroz del Señorito](recipe_arroz_del_senyoret.md): Alicante · Seco
-*   [Arroz Marinero Balear](recipe_arros_de_peix_balear.md): Illes Balears · Caldoso
-*   [Arroz Marinero Andaluz](recipe_arroz_marinero_andaluz.md): Andalucía · Caldoso
-*   [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md): Catalunya · Meloso
-*   [Arroz y Gatet (Arroz con Pintarroja)](recipe_arroz_y_gatet.md): Alicante · Caldoso
-*   [Fideuá](recipe_fideua.md): València · Seco

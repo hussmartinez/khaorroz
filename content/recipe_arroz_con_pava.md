@@ -61,21 +61,3 @@ La Vega Baja has a long tradition of raising **Spanish Black turkeys**. In **Alm
 *   [Comunitat Valenciana – La pava borracha (ES)](https://www.comunitatvalenciana.com/es/inspirate/la-pava-borracha)
 *   [CONVEGA – Recetario de la Vega Baja (PDF)](https://convega.com/wp-content/uploads/2026/05/Recetario.pdf)
 *   [El Español – Rosario, cocinera de la Vega Baja (caldo + dorar; comarca cooking context)](https://www.elespanol.com/alacant/viure/20251120/rosario-anos-cocinera-arroz-costra-clave-buen-caldo-dorar-ingredientes/1003744020930_30.html)
-
-## 6. Related Dishes
-
-**Baked & crust rices:** Finished in the oven (or under embers): the leftover-cocido logic, sometimes sealed with egg.
-
-*   [Arroz al Horno](recipe_arroz_al_horno.md): València · Seco
-*   [Arroz con Costra](recipe_arroz_con_costra.md): Alicante · Seco
-*   [Arroz Empedrado](recipe_arroz_empedrado.md): València · Seco
-*   [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md): València · Seco
-*   [Arroz al Horno con Guisantes](recipe_arros_al_forn_amb_pesols.md): València · Seco
-*   [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md): València · Seco
-*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): València · Seco
-
-**Festive poultry rices:** Turkey, duck and free-range cockerel for holidays.
-
-*   [Arroz con Pitu de Caleya](recipe_arroz_con_pitu_de_caleya.md): Northern Spain · Meloso
-*   [Arroz con Pato](recipe_arroz_con_pato.md): València · Seco
-*   [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md): València · Meloso

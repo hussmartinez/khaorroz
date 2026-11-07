@@ -61,17 +61,3 @@ In Andalucía, rice by the sea is mostly eaten **soupy**: a fishermen's pot of r
 *   [Directo al Paladar – Arroz marinero: seco, meloso o caldoso](https://www.directoalpaladar.com/recetas-de-arroces/arroz-marinero-sencillo-rapido-receta-facil-para-hacer-seco-meloso-caldoso)
 *   [Directo al Paladar – Arroz marinero picante](https://www.directoalpaladar.com/recetas-de-arroces/arroz-marinero-picante-receta)
 *   [Michelin – Los mejores arroces de España más allá de la paella](https://guide.michelin.com/es/es/articulo/features/los-mejores-arroces-de-espana-mas-alla-de-la-paella)
-
-## 6. Related Dishes
-
-**Fishermen's broth rices:** Unsaleable catch boiled into broth; fish often eaten first, rice cooked in what remains.
-
-*   [Arroz a Banda](recipe_arroz_a_banda.md): Alicante · Seco
-*   [Caldero de Santa Pola y Tabarca](recipe_caldero_santa_pola_tabarca.md): Alicante · Meloso
-*   [Arroz Caldero del Mar Menor](recipe_caldero_del_mar_menor.md): Región de Murcia · Meloso
-*   [Arroz del Señorito](recipe_arroz_del_senyoret.md): Alicante · Seco
-*   [Arroz Rossejat](recipe_arrossejat.md): Catalunya · Seco
-*   [Arroz Marinero Balear](recipe_arros_de_peix_balear.md): Illes Balears · Caldoso
-*   [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md): Catalunya · Meloso
-*   [Arroz y Gatet (Arroz con Pintarroja)](recipe_arroz_y_gatet.md): Alicante · Caldoso
-*   [Fideuá](recipe_fideua.md): València · Seco

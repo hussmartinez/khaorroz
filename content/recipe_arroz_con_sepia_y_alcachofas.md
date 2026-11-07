@@ -54,32 +54,3 @@ This is the classic **winter mar i muntanya of the Valencian coast**. Cuttlefish
 *   [Comunitat Valenciana – Carxofa de Benicarló (VA)](https://www.comunitatvalenciana.com/va/inspirat/carxofa-de-benicarlo)
 *   [Universitat de València (Baldoví) – Arrossos secs (traditional recipe collection)](https://www.uv.es/baldovi/cuina/arrossos.htm)
 *   [3Cat Cuines – Arròs amb sípia (technique reference)](https://www.3cat.cat/tv3/cuines/recepta/arros-amb-sipia/49816/)
-
-## 6. Related Dishes
-
-**Cephalopod & ink rices:** Cuttlefish, squid, choco and octopus, with or without their ink.
-
-*   [Arroz Negro](recipe_arroz_negro.md): València · Seco
-*   [Arroz Negro Catalán](recipe_arros_negre_catala.md): Catalunya · Seco
-*   [Arroz con Choco](recipe_arroz_con_choco.md): Andalucía · Caldoso
-*   [Arroz Meloso de Pulpo](recipe_arroz_meloso_de_pulpo.md): Alicante · Meloso
-*   [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md): Castellón · Meloso
-*   [Arroz con Chipirones y Ajos Tiernos](recipe_arroz_con_chipirones_y_ajos_tiernos.md): Alicante · Meloso
-*   [Arroz Caldoso de Sepia y Coliflor](recipe_arros_de_sepia_i_coliflor.md): València · Caldoso
-*   [Chipirones en su Tinta con Arroz Blanco](recipe_chipirones_en_su_tinta_con_arroz.md): Northern Spain · Seco
-
-**Huerta & artichoke rices:** Irrigated-garden vegetables: artichoke, broad beans, chard and peppers lead the dish.
-
-*   [Arroz de Verduras de la Vega Baja](recipe_arroz_de_verduras_vega_baja.md): Alicante · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz con Alcachofas de Benicarló](recipe_arroz_con_alcachofas_benicarlo.md): Castellón · Seco
-*   [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md): Castellón · Meloso
-*   [Arroz con Magra, Costillejas y Verduras](recipe_arroz_con_costillejas_y_verduras_murcia.md): Región de Murcia · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Arroz con Acelgas](recipe_arroz_con_acelgas.md): València · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md): Alicante · Seco
-*   [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md): Región de Murcia · Seco
-*   [Arroz y Pollo con Alcaciles](recipe_arroz_y_pollo_con_alcaciles.md): Región de Murcia · Seco
-*   [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md): Región de Murcia · Seco
-*   [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md): València · Meloso

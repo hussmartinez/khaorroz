@@ -48,16 +48,3 @@ A winter soupy rice in which the **cuttlefish is boiled for half an hour first**
 
 ## 5. Authority Reference Links
 *   [Universitat de València (Baldoví) – Receptari d'arrossos: arròs de sèpia i col-i-flor; arrossos caldosos amb peix](https://www.uv.es/baldovi/cuina/arrossos.htm)
-
-## 6. Related Dishes
-
-**Cephalopod & ink rices:** Cuttlefish, squid, choco and octopus, with or without their ink.
-
-*   [Arroz Negro](recipe_arroz_negro.md): València · Seco
-*   [Arroz Negro Catalán](recipe_arros_negre_catala.md): Catalunya · Seco
-*   [Arroz con Choco](recipe_arroz_con_choco.md): Andalucía · Caldoso
-*   [Arroz Meloso de Pulpo](recipe_arroz_meloso_de_pulpo.md): Alicante · Meloso
-*   [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md): València · Seco
-*   [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md): Castellón · Meloso
-*   [Arroz con Chipirones y Ajos Tiernos](recipe_arroz_con_chipirones_y_ajos_tiernos.md): Alicante · Meloso
-*   [Chipirones en su Tinta con Arroz Blanco](recipe_chipirones_en_su_tinta_con_arroz.md): Northern Spain · Seco

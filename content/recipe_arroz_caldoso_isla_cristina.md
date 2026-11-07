@@ -54,18 +54,3 @@ Isla Cristina is one of Spain's major fishing ports. It was founded after the 17
 *   [Gastroranking – Restaurante Playa Mar, Isla Cristina (arroz caldoso con almejas)](https://gastroranking.es/r/restaurante-playa-mar_235117/)
 *   [Gastroranking – Bar Marinero, Isla Cristina (arroz caldoso marinero)](https://gastroranking.es/r/bar-marinero-2_211839/)
 *   [Wikipedia – Arroz caldoso](https://en.wikipedia.org/wiki/Arroz_caldoso)
-
-## 6. Related Dishes
-
-**Shellfish caldosos & melosos:** Lobster, prawns, mantis shrimp and clams, usually soupy or creamy.
-
-*   [Arroz Caldoso con Bogavante](recipe_arroz_caldoso_con_bogavante.md): Alicante · Caldoso
-*   [Arroz Caldoso con Bogavante del Cantábrico](recipe_arroz_con_bogavante_norte.md): Northern Spain · Caldoso
-*   [Arroz de Langosta Menorquín](recipe_arros_de_llagosta_menorca.md): Illes Balears · Caldoso
-*   [Arroz Caldoso de Langostinos de Vinaròs](recipe_arroz_caldoso_langostinos_vinaros.md): Castellón · Caldoso
-*   [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md): Castellón · Meloso
-*   [Arroz con Almejas](recipe_arroz_con_almejas.md): Northern Spain · Caldoso
-*   [Arroz con Borrajas y Almejas](recipe_arroz_con_borrajas_y_almejas.md): Aragón, Navarra & La Rioja · Caldoso
-*   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md): Andalucía · Caldoso
-*   [Arroz con Rape y Gamba Roja](recipe_arroz_con_rape_y_gamba_roja.md): Alicante · Seco
-*   [Arroz con Mariscos y Pescados de Candamo](recipe_arroz_con_mariscos_candamo.md): Northern Spain · Seco

@@ -50,15 +50,3 @@ The **spring** version of [arròs al forn](recipe_arroz_al_horno.md). Instead of
 
 ## 5. Authority Reference Links
 *   [Universitat de València (Baldoví) – Receptari d'arrossos: arròs al forn amb pèsols](https://www.uv.es/baldovi/cuina/arrossos.htm)
-
-## 6. Related Dishes
-
-**Baked & crust rices:** Finished in the oven (or under embers): the leftover-cocido logic, sometimes sealed with egg.
-
-*   [Arroz al Horno](recipe_arroz_al_horno.md): València · Seco
-*   [Arroz con Costra](recipe_arroz_con_costra.md): Alicante · Seco
-*   [Arroz Empedrado](recipe_arroz_empedrado.md): València · Seco
-*   [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md): Alicante · Meloso
-*   [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md): València · Seco
-*   [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md): València · Seco
-*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): València · Seco

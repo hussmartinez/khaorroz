@@ -84,27 +84,3 @@ There is an ongoing debate about the canonical ingredient list. In its survey of
 *   [Google Arts & Culture – Valencian Paella](https://artsandculture.google.com/asset/valencian-paella/kwFG-BrXRn9BdA?hl=es)
 *   [Que.es – Así se hace la paella valenciana auténtica](https://www.que.es/2023/05/16/hace-paella-valenciana-autentica/)
 *   [The Takeout – the two unexpected ingredients (rabbit & garrofó)](https://www.thetakeout.com/1865652/traditional-valencian-paella-ingredients-seafood/)
-
-## 6. Related Dishes
-
-**Rabbit & snail rices:** Rabbit, mountain snails (serranas/vaquetas) and herbs, mostly seco over a hot wood fire.
-
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco
-*   [Arroz con Conejo y Caracoles Murciano](recipe_arroz_conejo_caracoles_murciano.md): Región de Murcia · Seco
-*   [Arroz con Conejo y Caracoles (Aragón, Navarra y La Rioja)](recipe_arroz_con_conejo_y_caracoles_aragones.md): Aragón, Navarra & La Rioja · Meloso
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco
-*   [Arroz de Renda](recipe_arros_de_renda.md): Alicante · Caldoso
-*   [Arroz de Trilla](recipe_arros_de_batre.md): Alicante · Caldoso
-*   [Arroz con Conejo y Caracoles Catalán](recipe_arros_amb_conill_i_cargols_catala.md): Catalunya · Seco
-
-**The paella family:** Wide shallow pan, thin layer, seco, and the debate over what counts as 'valenciana'.
-
-*   [Paella de Marisco](recipe_paella_de_marisco.md): València · Seco
-*   [Paella Mixta](recipe_paella_mixta.md): València · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Fideuá](recipe_fideua.md): València · Seco
-*   [Arroz a la Alicantina](recipe_arroz_a_la_alicantina.md): Alicante · Seco
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
-*   [Paella con Albóndigas](recipe_paella_amb_mandonguilles.md): València · Seco
-*   [Paella a la Riojana](recipe_paella_a_la_riojana.md): Aragón, Navarra & La Rioja · Seco

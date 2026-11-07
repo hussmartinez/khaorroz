@@ -89,24 +89,3 @@ This is the rice of the dry, vine-and-almond interior of Alicante. It was a hunt
 *   [Directo al Paladar – Arroz a leña: técnicas y matices](https://www.directoalpaladar.com/cultura-gastronomica/arroz-a-lena-tecnicas-y-matices-de-todos-sus-secretos)
 *   [Life in Culebrón – Mostra de la Cuina del Pinós](https://lifeinculebron.blogspot.com/2020/02/mostra-de-la-cuina-del-pinos.html?m=0)
 *   [Escapada Rural – Qué hacer en Pinoso (gastronomía al sarmiento)](https://www.escapadarural.com/que-hacer/pinoso)
-
-## 6. Related Dishes
-
-**Rabbit & snail rices:** Rabbit, mountain snails (serranas/vaquetas) and herbs, mostly seco over a hot wood fire.
-
-*   [Arroz con Conejo y Caracoles Murciano](recipe_arroz_conejo_caracoles_murciano.md): Región de Murcia · Seco
-*   [Arroz con Conejo y Caracoles (Aragón, Navarra y La Rioja)](recipe_arroz_con_conejo_y_caracoles_aragones.md): Aragón, Navarra & La Rioja · Meloso
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco
-*   [Arroz de Renda](recipe_arros_de_renda.md): Alicante · Caldoso
-*   [Arroz de Trilla](recipe_arros_de_batre.md): Alicante · Caldoso
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco
-*   [Arroz con Conejo y Caracoles Catalán](recipe_arros_amb_conill_i_cargols_catala.md): Catalunya · Seco
-
-**Mountain & game rices:** Upland rices built on game, farmyard birds and wild mushrooms.
-
-*   [Arroz de Montaña de Castellón](recipe_arroz_de_montana_castellon.md): Castellón · Seco
-*   [Arroz de Montaña Catalán](recipe_arros_de_muntanya_catala.md): Catalunya · Meloso
-*   [Arroz con Liebre](recipe_arroz_con_liebre.md): Castilla-La Mancha & Extremadura · Meloso
-*   [Arroz con Perdiz](recipe_arroz_con_perdiz.md): Andalucía · Caldoso
-*   [Arroz con Pitu de Caleya](recipe_arroz_con_pitu_de_caleya.md): Northern Spain · Meloso
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco

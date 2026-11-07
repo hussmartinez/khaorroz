@@ -87,15 +87,3 @@ Simmer for **2.5 h**, skimming, then strain. Keep the chickpeas. You need **800 
 *   [Valencia Bonita – De la taula a la boca: recepta d'arròs al forn](https://www.valenciabonita.es/2016/02/13/de-la-taula-a-la-boca-recepta-darros-al-forn/)
 *   [Xàtiva Turismo – Tastes of Xàtiva](https://xativaturismo.com/en/?p=10990)
 *   [Ajuntament de Xeraco – Llibret de receptes (PDF, local recipe collection)](https://www.xeraco.eu/wp-content/uploads/2025/01/Llibret-Xeraco-Receptes.pdf)
-
-## 6. Related Dishes
-
-**Baked & crust rices:** Finished in the oven (or under embers): the leftover-cocido logic, sometimes sealed with egg.
-
-*   [Arroz con Costra](recipe_arroz_con_costra.md): Alicante · Seco
-*   [Arroz Empedrado](recipe_arroz_empedrado.md): València · Seco
-*   [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md): Alicante · Meloso
-*   [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md): València · Seco
-*   [Arroz al Horno con Guisantes](recipe_arros_al_forn_amb_pesols.md): València · Seco
-*   [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md): València · Seco
-*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): València · Seco

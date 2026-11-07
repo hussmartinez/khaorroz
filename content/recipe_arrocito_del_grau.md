@@ -55,24 +55,3 @@ El Grau is Castelló's fishermen's quarter, built around the port and its fish a
 *   [Comunitat Valenciana – Mes de l'Arròs a Castelló de la Plana](https://www.comunitatvalenciana.com/va/castello-castellon/castello-de-la-plana/eventos/mes-de-larros-a-castello-de-la-plana)
 *   [Directo al Paladar – Los mejores platos de la gastronomía de Castellón (según sus chefs estrella)](https://www.directoalpaladar.com/cultura-gastronomica/mejores-platos-injustamente-desconocida-gastronomia-castellon-sus-chefs-estrella)
 *   [Comunitat Valenciana – Mercat Central de Castelló de la Plana](https://www.comunitatvalenciana.com/va/mediterrani-en-accio/mercat-central-castello-de-la-plana)
-
-## 6. Related Dishes
-
-**Cephalopod & ink rices:** Cuttlefish, squid, choco and octopus, with or without their ink.
-
-*   [Arroz Negro](recipe_arroz_negro.md): València · Seco
-*   [Arroz Negro Catalán](recipe_arros_negre_catala.md): Catalunya · Seco
-*   [Arroz con Choco](recipe_arroz_con_choco.md): Andalucía · Caldoso
-*   [Arroz Meloso de Pulpo](recipe_arroz_meloso_de_pulpo.md): Alicante · Meloso
-*   [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md): València · Seco
-*   [Arroz con Chipirones y Ajos Tiernos](recipe_arroz_con_chipirones_y_ajos_tiernos.md): Alicante · Meloso
-*   [Arroz Caldoso de Sepia y Coliflor](recipe_arros_de_sepia_i_coliflor.md): València · Caldoso
-*   [Chipirones en su Tinta con Arroz Blanco](recipe_chipirones_en_su_tinta_con_arroz.md): Northern Spain · Seco
-
-**Cazuela / cassola rices:** Rices cooked and served in an earthenware casserole rather than a paella.
-
-*   [Arroz a la Cazuela](recipe_arros_a_la_cassola.md): Catalunya · Meloso
-*   [Arroz de Pals a la Cazuela](recipe_arros_a_la_cassola_de_pals.md): Catalunya · Meloso
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arroz a la Zaragozana](recipe_arroz_a_la_zaragozana.md): Aragón, Navarra & La Rioja · Meloso
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso

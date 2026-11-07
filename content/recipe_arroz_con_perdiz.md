@@ -58,14 +58,3 @@ The red-legged partridge (*perdiz roja*) is the defining small game of the dehes
 *   [Jaén Paraíso Interior – Restaurante Orellana Perdiz](https://www.jaenparaisointerior.es/en/w/restaurante-orellana-perdiz)
 *   [El Corte Inglés – Arroz caldoso con perdiz](https://www.elcorteingles.es/aptc/arroz-caldoso-con-perdiz/)
 *   [Saveur – Saffron rice with partridges and amontillado sherry](https://www.saveur.com/saffron-rice-partridges-amontillado-sherry-recipe)
-
-## 6. Related Dishes
-
-**Mountain & game rices:** Upland rices built on game, farmyard birds and wild mushrooms.
-
-*   [Arroz de Montaña de Castellón](recipe_arroz_de_montana_castellon.md): Castellón · Seco
-*   [Arroz de Montaña Catalán](recipe_arros_de_muntanya_catala.md): Catalunya · Meloso
-*   [Arroz con Liebre](recipe_arroz_con_liebre.md): Castilla-La Mancha & Extremadura · Meloso
-*   [Arroz con Pitu de Caleya](recipe_arroz_con_pitu_de_caleya.md): Northern Spain · Meloso
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco

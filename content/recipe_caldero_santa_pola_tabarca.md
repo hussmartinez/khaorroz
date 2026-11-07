@@ -76,17 +76,3 @@ The caldero is the "mother" of arroz a banda. It is a two-service fishermen's me
 *   [Vorwerk / Thermomix – Cómo preparar caldero santapolero](https://www.vorwerk.com/es/es/comunidad/noticias/inspiracion-thermomix/recetas/como-preparar-caldero-santapolero-en-thermomix)
 *   [AQUÍ Medios – Gastronomía macerada en tiempo y mar](https://aquimediosdecomunicacion.com/2022/12/30/gastronomia-macerada-en-tiempo-y-mar)
 *   [Ayto. San Pedro del Pinatar – Caldero (Mar Menor cross-reference, PDF)](https://www.sanpedrodelpinatar.es/wp-content/uploads/2019/01/CALDERO.pdf)
-
-## 6. Related Dishes
-
-**Fishermen's broth rices:** Unsaleable catch boiled into broth; fish often eaten first, rice cooked in what remains.
-
-*   [Arroz a Banda](recipe_arroz_a_banda.md): Alicante · Seco
-*   [Arroz Caldero del Mar Menor](recipe_caldero_del_mar_menor.md): Región de Murcia · Meloso
-*   [Arroz del Señorito](recipe_arroz_del_senyoret.md): Alicante · Seco
-*   [Arroz Rossejat](recipe_arrossejat.md): Catalunya · Seco
-*   [Arroz Marinero Balear](recipe_arros_de_peix_balear.md): Illes Balears · Caldoso
-*   [Arroz Marinero Andaluz](recipe_arroz_marinero_andaluz.md): Andalucía · Caldoso
-*   [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md): Catalunya · Meloso
-*   [Arroz y Gatet (Arroz con Pintarroja)](recipe_arroz_y_gatet.md): Alicante · Caldoso
-*   [Fideuá](recipe_fideua.md): València · Seco

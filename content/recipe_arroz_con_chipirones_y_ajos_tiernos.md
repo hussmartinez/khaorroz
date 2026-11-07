@@ -47,16 +47,3 @@ A spring rice of the Alicante coast. Small squid (*chipirones*, Valencian *xipir
 *   [El Español Alicante – Los expertos coinciden: el arroz con chipirones se hace con un manojo de ajos tiernos y dos litros de caldo de pescado](https://www.elespanol.com/alicante/vivir/20260730/expertos-coinciden-arroz-chipirones-hace-manojo-ajos-tiernos-litros-caldo-pescado-trt/1003744338795_0.html)
 *   [El Español (VA) – Els experts coincidixen: l'arròs amb xipirons es fa amb un manat d'alls tendres](https://www.elespanol.com/va/alacant/viure/20260730/els-experts-coincidixen-larros-amb-xipirons-es-fa-un-manat-dalls-tendres-litres-de-caldo-peix/1003744338795_0.html)
 *   [Alicante Turismo – Guía Alicante Ciudad del Arroz (PDF)](https://alicanteturismo.com/wp-content/uploads/2024/06/GUIA-ALICANTE-CIUDAD-DEL-ARROZ.pdf)
-
-## 6. Related Dishes
-
-**Cephalopod & ink rices:** Cuttlefish, squid, choco and octopus, with or without their ink.
-
-*   [Arroz Negro](recipe_arroz_negro.md): València · Seco
-*   [Arroz Negro Catalán](recipe_arros_negre_catala.md): Catalunya · Seco
-*   [Arroz con Choco](recipe_arroz_con_choco.md): Andalucía · Caldoso
-*   [Arroz Meloso de Pulpo](recipe_arroz_meloso_de_pulpo.md): Alicante · Meloso
-*   [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md): València · Seco
-*   [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md): Castellón · Meloso
-*   [Arroz Caldoso de Sepia y Coliflor](recipe_arros_de_sepia_i_coliflor.md): València · Caldoso
-*   [Chipirones en su Tinta con Arroz Blanco](recipe_chipirones_en_su_tinta_con_arroz.md): Northern Spain · Seco

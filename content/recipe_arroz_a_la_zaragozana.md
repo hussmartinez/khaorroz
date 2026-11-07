@@ -54,13 +54,3 @@ Aragonese home cooking adds rice to stews (*cazuela aragonesa*, *colas de corder
 *   [El Español Aragón – Receta típica aragonesa (cazuela con arroz al final)](https://elespanol.com/aragon/vivir/20241017/ingrediente-abuelas-aragonesas-alubias-queden-perfectas-receta-tipica-alta-proteinas-trt/894160734_0.html)
 *   [Go Aragón – Aragonese gastronomy: traditional dishes](https://www.goaragon.eu/www-goaragon-eu-new-aragon-spain-aragonese-gastronomy-traditional-dishes/)
 *   [Ouigo – Los platos típicos de Zaragoza](https://www.ouigo.com/es/actualidad/los-platos-tipicos-de-zaragoza)
-
-## 6. Related Dishes
-
-**Cazuela / cassola rices:** Rices cooked and served in an earthenware casserole rather than a paella.
-
-*   [Arroz a la Cazuela](recipe_arros_a_la_cassola.md): Catalunya · Meloso
-*   [Arroz de Pals a la Cazuela](recipe_arros_a_la_cassola_de_pals.md): Catalunya · Meloso
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md): Castellón · Meloso
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso

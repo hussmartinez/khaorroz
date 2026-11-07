@@ -63,18 +63,3 @@ L'Albufera is Europe's most important wintering wetland for ducks, and from Octo
 *   [Enciclopèdia Catalana – Sueca (rice production data)](https://www.enciclopedia.cat/gran-enciclopedia-catalana/sueca)
 *   [Saveur – Arròs amb Ànec i Naps (rice with duck and turnips)](https://www.saveur.com/article/Recipes/Rice-with-Duck-and-Turnips)
 *   [3Cat Cuines – Arròs d'ànec amb bolets](https://www.3cat.cat/tv3/cuines/recepta/arros-danec-amb-bolets/16428/)
-
-## 6. Related Dishes
-
-**Duck & wetland rices:** Rices of the great rice marshes: Albufera, Ebro Delta, Guadalquivir.
-
-*   [Arroz Caldoso con Pato de las Marismas](recipe_arroz_caldoso_con_pato_marismas.md): Andalucía · Caldoso
-*   [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md): Catalunya · Meloso
-*   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md): Andalucía · Caldoso
-*   [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md): València · Seco
-
-**Festive poultry rices:** Turkey, duck and free-range cockerel for holidays.
-
-*   [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md): Alicante · Meloso
-*   [Arroz con Pitu de Caleya](recipe_arroz_con_pitu_de_caleya.md): Northern Spain · Meloso
-*   [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md): València · Meloso

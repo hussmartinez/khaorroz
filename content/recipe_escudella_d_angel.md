@@ -47,10 +47,3 @@
 
 ## 5. Authority Reference Links
 *   [Revista Española de Nutrición Comunitaria (2022) – Platos olvidados: Baleares (PDF; "Escudella d'Àngel")](https://www.renc.es/imagenes/auxiliar/files/2022_RENC_VOL_28_SUPL1_PLATOS_OLVIDADOS_BALEARES__1_.pdf)
-
-## 6. Related Dishes
-
-**Sweet rices:** Desserts: rice cooked in milk or honey.
-
-*   [Arroz con Leche](recipe_arroz_con_leche.md): Northern Spain · Meloso
-*   [Arroz con Miel de Bogarra](recipe_arroz_con_miel_bogarra.md): Castilla-La Mancha & Extremadura · Meloso

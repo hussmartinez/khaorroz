@@ -25,7 +25,11 @@ A plate of **white rice**, **tomato sauce**, **fried egg** and **fried plantain 
 ### The Flavor Base (El Fondo)
 | Ingredient | Quantity |
 |---|---|
-| Tomato sauce: olive oil 40 ml, onion 1, garlic 2, crushed tomato 600 g, sugar pinch | ≈ 500 ml |
+| Olive oil (sauce) | 40 ml |
+| Onion, finely chopped (sauce) | 1 |
+| Garlic, sliced (sauce) | 2 cloves |
+| Crushed tomato (sauce; makes ≈ 500 ml) | 600 g |
+| Sugar (sauce) | pinch |
 | Garlic clove + bay leaf (for rice) | 1 + 1 |
 
 ### Assembly Ratios
@@ -45,14 +49,3 @@ A plate of **white rice**, **tomato sauce**, **fried egg** and **fried plantain 
 
 ## 5. Authority Reference Links
 *   [Directo al Paladar – Arroz a la cubana (típico de Canarias)](https://www.directoalpaladar.com/recetario/arroz-a-la-cubana-receta)
-
-## 6. Related Dishes
-
-**Home-style & country rices:** Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had.
-
-*   [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md): Canarias · Seco
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md): Andalucía · Seco
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso
-*   [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md): Northern Spain · Seco

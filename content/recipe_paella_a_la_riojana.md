@@ -50,17 +50,3 @@ La Rioja has a popular "paella riojana" culture of fiestas and *cuadrillas*, and
 ## 5. Authority Reference Links
 *   [Nueve Cuatro Uno – ¿Con o sin chorizo? Qué debería llevar la paella a la riojana (Pepe Fortea)](https://nuevecuatrouno.com/2024/07/15/con-o-sin-chorizo-que-deberia-llevar-la-paella-a-la-riojana/)
 *   [Directo al Paladar – Receta de patatas riojanas (source of the chorizo flavour)](https://www.directoalpaladar.com/recetario/receta-de-patatas-riojanas)
-
-## 6. Related Dishes
-
-**The paella family:** Wide shallow pan, thin layer, seco, and the debate over what counts as 'valenciana'.
-
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco
-*   [Paella de Marisco](recipe_paella_de_marisco.md): València · Seco
-*   [Paella Mixta](recipe_paella_mixta.md): València · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Fideuá](recipe_fideua.md): València · Seco
-*   [Arroz a la Alicantina](recipe_arroz_a_la_alicantina.md): Alicante · Seco
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
-*   [Paella con Albóndigas](recipe_paella_amb_mandonguilles.md): València · Seco

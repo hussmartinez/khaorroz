@@ -52,20 +52,3 @@ The **pitu de caleya** is a free-range rooster or chicken that roams the *caleya
 *   [Asturias.com – Receta arroz con pitu caleya](https://asturias.com/receta-arroz-con-pitu-caleya/)
 *   [Directo al Paladar – Arroz con pitu de caleya: de comida de pueblo a plato de restaurante](https://www.directoalpaladar.com/recetas-de-arroces/arroz-pitu-caleya-receta-asturiana-que-paso-comida-pueblo-a-plato-restaurante)
 *   [Turismo Asturias – 6 recetas tradicionales para darte un homenaje](https://www.turismoasturias.es/-/blogs/6-recetas-tradicionales-para-darte-un-homenaje-en-asturias)
-
-## 6. Related Dishes
-
-**Mountain & game rices:** Upland rices built on game, farmyard birds and wild mushrooms.
-
-*   [Arroz de Montaña de Castellón](recipe_arroz_de_montana_castellon.md): Castellón · Seco
-*   [Arroz de Montaña Catalán](recipe_arros_de_muntanya_catala.md): Catalunya · Meloso
-*   [Arroz con Liebre](recipe_arroz_con_liebre.md): Castilla-La Mancha & Extremadura · Meloso
-*   [Arroz con Perdiz](recipe_arroz_con_perdiz.md): Andalucía · Caldoso
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco
-
-**Festive poultry rices:** Turkey, duck and free-range cockerel for holidays.
-
-*   [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md): Alicante · Meloso
-*   [Arroz con Pato](recipe_arroz_con_pato.md): València · Seco
-*   [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md): València · Meloso

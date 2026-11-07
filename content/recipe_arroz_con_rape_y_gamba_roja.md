@@ -48,18 +48,3 @@ A modern Alicante classic in the "Ciudad del Arroz" canon. It combines two luxur
 *   [El Español Alicante – Los chefs alicantinos coinciden: el arroz con rape se hace con 400 g de variedad bomba, salmorreta y gamba roja](https://www.elespanol.com/alacant/viure/20260523/chefs-alicantinos-coinciden-arroz-rape-hace-variedad-bomba-salmorreta-gamba-roja-trt/1003744255916_0.html)
 *   [Universitat de València (Baldoví) – Receptari d'arrossos valencians (rap in the caldós family)](https://www.uv.es/baldovi/cuina/arrossos.htm)
 *   [Alicante Turismo – Guía Alicante Ciudad del Arroz (PDF)](https://alicanteturismo.com/wp-content/uploads/2024/06/GUIA-ALICANTE-CIUDAD-DEL-ARROZ.pdf)
-
-## 6. Related Dishes
-
-**Shellfish caldosos & melosos:** Lobster, prawns, mantis shrimp and clams, usually soupy or creamy.
-
-*   [Arroz Caldoso con Bogavante](recipe_arroz_caldoso_con_bogavante.md): Alicante · Caldoso
-*   [Arroz Caldoso con Bogavante del Cantábrico](recipe_arroz_con_bogavante_norte.md): Northern Spain · Caldoso
-*   [Arroz de Langosta Menorquín](recipe_arros_de_llagosta_menorca.md): Illes Balears · Caldoso
-*   [Arroz Caldoso de Langostinos de Vinaròs](recipe_arroz_caldoso_langostinos_vinaros.md): Castellón · Caldoso
-*   [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md): Castellón · Meloso
-*   [Arroz con Almejas](recipe_arroz_con_almejas.md): Northern Spain · Caldoso
-*   [Arroz Caldoso de Isla Cristina](recipe_arroz_caldoso_isla_cristina.md): Andalucía · Caldoso
-*   [Arroz con Borrajas y Almejas](recipe_arroz_con_borrajas_y_almejas.md): Aragón, Navarra & La Rioja · Caldoso
-*   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md): Andalucía · Caldoso
-*   [Arroz con Mariscos y Pescados de Candamo](recipe_arroz_con_mariscos_candamo.md): Northern Spain · Seco

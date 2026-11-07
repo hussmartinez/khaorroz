@@ -52,14 +52,3 @@ Canarian cooking sits between Castile, Andalucía, Africa and the Americas, and 
 *   [Cookpad – Arroz canario con picadillo](https://cookpad.com/mx/recetas/871735)
 *   [Directo al Paladar – Arroz a la cubana (típico de Canarias)](https://www.directoalpaladar.com/recetario/arroz-a-la-cubana-receta)
 *   [ULPGC Memoria Digital de Canarias – Canarian culinary document (PDF)](https://mdc.ulpgc.es/files/original/0c2ebc7982040972d93a8eed6f7057eb01711e2b.pdf)
-
-## 6. Related Dishes
-
-**Home-style & country rices:** Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had.
-
-*   [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md): Canarias · Seco
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md): Andalucía · Seco
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso
-*   [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md): Northern Spain · Seco

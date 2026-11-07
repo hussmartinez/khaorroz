@@ -53,32 +53,3 @@ Isla Mayor was **born from rice**: paddies were laid out in the Guadalquivir mar
 *   [La Marea – Isla Mayor and the crayfish economy ("arroz caldoso con colitas")](https://lamarea.com/2016/04/15/84668)
 *   [elDiario.es – La otra cara de la crisis del cangrejo rojo](https://www.eldiario.es/andalucia/enclave_rural/agricultura_y_pesca/drama-recurrente-crisis-cangrejo-pescar_1_3304242.html)
 *   [Hispanopedia – Isla Mayor](https://es.hispanopedia.com/wiki/Isla_Mayor)
-
-## 6. Related Dishes
-
-**Duck & wetland rices:** Rices of the great rice marshes: Albufera, Ebro Delta, Guadalquivir.
-
-*   [Arroz con Pato](recipe_arroz_con_pato.md): València · Seco
-*   [Arroz Caldoso con Pato de las Marismas](recipe_arroz_caldoso_con_pato_marismas.md): Andalucía · Caldoso
-*   [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md): Catalunya · Meloso
-*   [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md): València · Seco
-
-**Shellfish caldosos & melosos:** Lobster, prawns, mantis shrimp and clams, usually soupy or creamy.
-
-*   [Arroz Caldoso con Bogavante](recipe_arroz_caldoso_con_bogavante.md): Alicante · Caldoso
-*   [Arroz Caldoso con Bogavante del Cantábrico](recipe_arroz_con_bogavante_norte.md): Northern Spain · Caldoso
-*   [Arroz de Langosta Menorquín](recipe_arros_de_llagosta_menorca.md): Illes Balears · Caldoso
-*   [Arroz Caldoso de Langostinos de Vinaròs](recipe_arroz_caldoso_langostinos_vinaros.md): Castellón · Caldoso
-*   [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md): Castellón · Meloso
-*   [Arroz con Almejas](recipe_arroz_con_almejas.md): Northern Spain · Caldoso
-*   [Arroz Caldoso de Isla Cristina](recipe_arroz_caldoso_isla_cristina.md): Andalucía · Caldoso
-*   [Arroz con Borrajas y Almejas](recipe_arroz_con_borrajas_y_almejas.md): Aragón, Navarra & La Rioja · Caldoso
-*   [Arroz con Rape y Gamba Roja](recipe_arroz_con_rape_y_gamba_roja.md): Alicante · Seco
-*   [Arroz con Mariscos y Pescados de Candamo](recipe_arroz_con_mariscos_candamo.md): Northern Spain · Seco
-
-**River & freshwater rices:** Crayfish, eel and lamprey from inland rivers, lagoons and the Miño.
-
-*   [Arroz con Cangrejos (La Bañeza)](recipe_arroz_con_cangrejos_banezano.md): Castilla y León · Meloso
-*   [Arroz del Pedrón de Parayo](recipe_arroz_del_pedron_de_parayo.md): Northern Spain · Seco
-*   [Lamprea a la Bordelesa con Arroz](recipe_lamprea_a_la_bordelesa_con_arroz.md): Northern Spain · Seco
-*   [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md): València · Seco

@@ -62,21 +62,3 @@ The Huerta de Murcia is the irrigated plain of the Segura, watered by Andalusi c
 *   [Directo al Paladar – Bando de la Huerta: recetas murcianas](https://www.directoalpaladar.com/viajes/bando-huerta-mejores-recetas-murcianas-para-celebrar-fiestas-primavera)
 *   [Libertad Digital – Platos típicos de Murcia](https://www.libertaddigital.com/chic/viajar-comer/2021-11-29/platos-tipicos-de-murcia-0e-6841343/)
 *   [Gastronosfera – Recetas tradicionales de la huerta murciana](https://gastronosfera.com/tendencias/recetas-tradicionales-sabrosas-y-saludables-de-la-huerta-murciana)
-
-## 6. Related Dishes
-
-**Huerta & artichoke rices:** Irrigated-garden vegetables: artichoke, broad beans, chard and peppers lead the dish.
-
-*   [Arroz de Verduras de la Vega Baja](recipe_arroz_de_verduras_vega_baja.md): Alicante · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz con Alcachofas de Benicarló](recipe_arroz_con_alcachofas_benicarlo.md): Castellón · Seco
-*   [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md): Castellón · Meloso
-*   [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md): València · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Arroz con Acelgas](recipe_arroz_con_acelgas.md): València · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md): Alicante · Seco
-*   [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md): Región de Murcia · Seco
-*   [Arroz y Pollo con Alcaciles](recipe_arroz_y_pollo_con_alcaciles.md): Región de Murcia · Seco
-*   [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md): Región de Murcia · Seco
-*   [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md): València · Meloso

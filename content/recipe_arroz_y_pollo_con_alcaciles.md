@@ -49,21 +49,3 @@
 
 ## 5. Authority Reference Links
 *   [Ayuntamiento de Murcia & Federación de Peñas Huertanas – *Un paseo por la huerta* (PDF, "Arroz y pollo con alcaciles", p. 66)](https://www.turismoregiondemurcia.es/catalogos/OTMURCIA26995041Libro%20Un%20Paseo%20por%20la%20Huerta-AF-Web.pdf)
-
-## 6. Related Dishes
-
-**Huerta & artichoke rices:** Irrigated-garden vegetables: artichoke, broad beans, chard and peppers lead the dish.
-
-*   [Arroz de Verduras de la Vega Baja](recipe_arroz_de_verduras_vega_baja.md): Alicante · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz con Alcachofas de Benicarló](recipe_arroz_con_alcachofas_benicarlo.md): Castellón · Seco
-*   [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md): Castellón · Meloso
-*   [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md): València · Seco
-*   [Arroz con Magra, Costillejas y Verduras](recipe_arroz_con_costillejas_y_verduras_murcia.md): Región de Murcia · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Arroz con Acelgas](recipe_arroz_con_acelgas.md): València · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md): Alicante · Seco
-*   [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md): Región de Murcia · Seco
-*   [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md): Región de Murcia · Seco
-*   [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md): València · Meloso

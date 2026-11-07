@@ -54,14 +54,3 @@ The hare (*liebre*) is the prized small game of the open cereal plains of La Man
 *   [Wikipedia – Extremaduran cuisine (arroz con liebre listed)](https://en.wikipedia.org/wiki/Extremaduran_cuisine)
 *   [MAPA – Vida Rural: Extremadura rice production (PDF)](https://www.mapa.gob.es/ministerio/pags/Biblioteca/Revistas/pdf_vrural/Vrural_2000_101_38_38.pdf)
 *   [Gastronosfera – Gazpacho manchego (Manchegan game context)](https://www.gastronosfera.com/tendencias/gazpacho-manchego-que-es-y-como-hacerlo)
-
-## 6. Related Dishes
-
-**Mountain & game rices:** Upland rices built on game, farmyard birds and wild mushrooms.
-
-*   [Arroz de Montaña de Castellón](recipe_arroz_de_montana_castellon.md): Castellón · Seco
-*   [Arroz de Montaña Catalán](recipe_arros_de_muntanya_catala.md): Catalunya · Meloso
-*   [Arroz con Perdiz](recipe_arroz_con_perdiz.md): Andalucía · Caldoso
-*   [Arroz con Pitu de Caleya](recipe_arroz_con_pitu_de_caleya.md): Northern Spain · Meloso
-*   [Arroz con Conejo](recipe_arroz_con_conejo.md): Alicante · Seco
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco

@@ -52,17 +52,3 @@ As on the Valencian and Murcian coasts, Balearic fishermen boiled the unsold cat
 *   [Ibiza Travel – Gastronomia d'Eivissa (bullit de peix amb arròs a banda, PDF)](https://ibiza.travel/wp-content/uploads/2014/06/gastronomia-ibiza-cat.pdf)
 *   [Eat Your Books – Fisherman's brothy rice (arròs caldós), Jeff Koehler](https://www.eatyourbooks.com/library/recipes/3382362/fishermans-brothy-rice-arros-caldos)
 *   [Idealista – Typical Balearic Islands dishes](https://www.idealista.com/en/news/lifestyle-in-spain/2025/08/13/844719-typical-balearic-islands-dishes-this-is-the-archipelago-s-cuisine)
-
-## 6. Related Dishes
-
-**Fishermen's broth rices:** Unsaleable catch boiled into broth; fish often eaten first, rice cooked in what remains.
-
-*   [Arroz a Banda](recipe_arroz_a_banda.md): Alicante · Seco
-*   [Caldero de Santa Pola y Tabarca](recipe_caldero_santa_pola_tabarca.md): Alicante · Meloso
-*   [Arroz Caldero del Mar Menor](recipe_caldero_del_mar_menor.md): Región de Murcia · Meloso
-*   [Arroz del Señorito](recipe_arroz_del_senyoret.md): Alicante · Seco
-*   [Arroz Rossejat](recipe_arrossejat.md): Catalunya · Seco
-*   [Arroz Marinero Andaluz](recipe_arroz_marinero_andaluz.md): Andalucía · Caldoso
-*   [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md): Catalunya · Meloso
-*   [Arroz y Gatet (Arroz con Pintarroja)](recipe_arroz_y_gatet.md): Alicante · Caldoso
-*   [Fideuá](recipe_fideua.md): València · Seco

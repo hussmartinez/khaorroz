@@ -54,16 +54,3 @@
 *   [Spain.info (Turespaña) – Chipirones en su tinta con arroz blanco (País Vasco)](https://www.spain.info/es/receta/chipirones-su-tinta-con-arroz-blanco/)
 *   [Hola.com – La receta más tradicional de los chipirones en su tinta](https://www.hola.com/cocina/noticias/20190506141411/recetas-cocina-hola-tv-jorge-brazalez-pepa-munoz-chipirones-tinta/)
 *   [Directo al Paladar – Chipirones rellenos en su tinta, receta marinera típica del País Vasco](https://www.directoalpaladar.com/recetas-de-pescados-y-mariscos/chipirones-rellenos-su-tinta-receta-marinera-tipica-pais-vasco)
-
-## 6. Related Dishes
-
-**Cephalopod & ink rices:** Cuttlefish, squid, choco and octopus, with or without their ink.
-
-*   [Arroz Negro](recipe_arroz_negro.md): València · Seco
-*   [Arroz Negro Catalán](recipe_arros_negre_catala.md): Catalunya · Seco
-*   [Arroz con Choco](recipe_arroz_con_choco.md): Andalucía · Caldoso
-*   [Arroz Meloso de Pulpo](recipe_arroz_meloso_de_pulpo.md): Alicante · Meloso
-*   [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md): València · Seco
-*   [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md): Castellón · Meloso
-*   [Arroz con Chipirones y Ajos Tiernos](recipe_arroz_con_chipirones_y_ajos_tiernos.md): Alicante · Meloso
-*   [Arroz Caldoso de Sepia y Coliflor](recipe_arros_de_sepia_i_coliflor.md): València · Caldoso

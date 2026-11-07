@@ -47,10 +47,3 @@ In the remote mountain villages of the Albacete Sierra, **honey** from rosemary 
 
 ## 5. Authority Reference Links
 *   [RENC – Platos olvidados de Castilla-La Mancha: Arroz con miel, Bogarra (PDF)](https://www.renc.es/imagenes/auxiliar/files/2022_RENC_VOL_28_SUPL1_PLATOS_OLVIDADOS_CASTILLA_LA_MANCHA__1_.pdf)
-
-## 6. Related Dishes
-
-**Sweet rices:** Desserts: rice cooked in milk or honey.
-
-*   [Arroz con Leche](recipe_arroz_con_leche.md): Northern Spain · Meloso
-*   [Escudilla de Ángel](recipe_escudella_d_angel.md): Illes Balears · Meloso

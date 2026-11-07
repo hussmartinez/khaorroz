@@ -60,38 +60,3 @@ Arròs amb bledes is the definitive **Lenten** (*Quaresma*) rice. It contains no
 *   [Valencia Bonita – Arròs amb bledes](https://www.valenciabonita.es/2021/01/27/arros-amb-bledes/)
 *   [Comunitat Valenciana – Paelles i arrossos (Meliana wood-fire reference, VA)](https://www.comunitatvalenciana.com/va/turisme-gastronomic/paelles)
 *   [El Español – El plato típico de Valencia en Navidad que no se come en el resto de España](https://www.elespanol.com/valencia/oci/20241211/plato-tipico-valencia-navidad-no-come-resto-espana-saludable-facil-hacer-trt/1003631686802_30.html)
-
-## 6. Related Dishes
-
-**Lent & vigil rices:** Meatless rices of Cuaresma and fast days: legumes, greens and salt cod.
-
-*   [Arroz de los Tres Puñaos](recipe_arroz_de_los_tres_punaos.md): Alicante · Caldoso
-*   [Arroz Empedrado](recipe_arroz_empedrado.md): València · Seco
-*   [Arroz Empedrao (Empedrado) Murciano](recipe_arroz_empedrao_murciano.md): Región de Murcia · Meloso
-*   [Arroz con Bacalao y Coliflor](recipe_arroz_con_bacalao_y_coliflor.md): Alicante · Seco
-*   [Arroz de Ayuno de Calasparra](recipe_arroz_de_ayuno_calasparra.md): Región de Murcia · Seco
-*   [Arroz con Bacalao de Vigilia (La Mancha y Extremadura)](recipe_arroz_con_bacalao_de_vigilia.md): Castilla-La Mancha & Extremadura · Caldoso
-*   [Cardillos con Arroz](recipe_cardillos_con_arroz.md): Castilla-La Mancha & Extremadura · Meloso
-*   [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md): Alicante · Seco
-*   [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md): Región de Murcia · Caldoso
-*   [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md): Región de Murcia · Seco
-*   [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md): Región de Murcia · Seco
-*   [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md): València · Seco
-*   [Paella de Cebolla y Bacalao](recipe_paella_de_ceba_i_bacalla.md): València · Seco
-*   [Potaje Bañezano (Garbanzos con Arroz)](recipe_potaje_banezano.md): Castilla y León · Caldoso
-
-**Huerta & artichoke rices:** Irrigated-garden vegetables: artichoke, broad beans, chard and peppers lead the dish.
-
-*   [Arroz de Verduras de la Vega Baja](recipe_arroz_de_verduras_vega_baja.md): Alicante · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz con Alcachofas de Benicarló](recipe_arroz_con_alcachofas_benicarlo.md): Castellón · Seco
-*   [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md): Castellón · Meloso
-*   [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md): València · Seco
-*   [Arroz con Magra, Costillejas y Verduras](recipe_arroz_con_costillejas_y_verduras_murcia.md): Región de Murcia · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md): Alicante · Seco
-*   [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md): Región de Murcia · Seco
-*   [Arroz y Pollo con Alcaciles](recipe_arroz_y_pollo_con_alcaciles.md): Región de Murcia · Seco
-*   [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md): Región de Murcia · Seco
-*   [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md): València · Meloso

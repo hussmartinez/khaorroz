@@ -58,17 +58,3 @@ The seafood version took hold as paella moved from the fields to the coast. As r
 *   [Que.es – Paella de mariscos paso a paso](https://www.que.es/2023/11/14/paella-de-mariscos-paso-a-paso/)
 *   [Comunitat Valenciana – Paelles i arrossos (VA)](https://www.comunitatvalenciana.com/va/turisme-gastronomic/paelles)
 *   [BBC Travel (mirror) – Is this Spain's most authentic paella? (La Pepica, Malva-rosa)](https://meleleh.pages.dev/travel/story/20190930-is-this-spains-most-authentic-paella)
-
-## 6. Related Dishes
-
-**The paella family:** Wide shallow pan, thin layer, seco, and the debate over what counts as 'valenciana'.
-
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco
-*   [Paella Mixta](recipe_paella_mixta.md): València · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Fideuá](recipe_fideua.md): València · Seco
-*   [Arroz a la Alicantina](recipe_arroz_a_la_alicantina.md): Alicante · Seco
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
-*   [Paella con Albóndigas](recipe_paella_amb_mandonguilles.md): València · Seco
-*   [Paella a la Riojana](recipe_paella_a_la_riojana.md): Aragón, Navarra & La Rioja · Seco

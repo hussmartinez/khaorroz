@@ -56,17 +56,3 @@ The rice is a "sea and huerta" combination. Garden vegetables (cauliflower, peas
 ## 5. Authority Reference Links
 *   [Revista Española de Nutrición Comunitaria (2022) – Platos olvidados de la Comunitat Valenciana, parte 2 (PDF; "Arroz y gatet", p. 169–170)](https://www.renc.es/imagenes/auxiliar/files/2022_RENC_VOL_28_SUPL1_PLATOS_OLVIDADOS_COMUNITAT_VALENCIANA_parte_2__1_.pdf)
 *   [AQUÍ Medios – Gastronomía macerada en tiempo y mar (Santa Pola context)](https://aquimediosdecomunicacion.com/2022/12/30/gastronomia-macerada-en-tiempo-y-mar)
-
-## 6. Related Dishes
-
-**Fishermen's broth rices:** Unsaleable catch boiled into broth; fish often eaten first, rice cooked in what remains.
-
-*   [Arroz a Banda](recipe_arroz_a_banda.md): Alicante · Seco
-*   [Caldero de Santa Pola y Tabarca](recipe_caldero_santa_pola_tabarca.md): Alicante · Meloso
-*   [Arroz Caldero del Mar Menor](recipe_caldero_del_mar_menor.md): Región de Murcia · Meloso
-*   [Arroz del Señorito](recipe_arroz_del_senyoret.md): Alicante · Seco
-*   [Arroz Rossejat](recipe_arrossejat.md): Catalunya · Seco
-*   [Arroz Marinero Balear](recipe_arros_de_peix_balear.md): Illes Balears · Caldoso
-*   [Arroz Marinero Andaluz](recipe_arroz_marinero_andaluz.md): Andalucía · Caldoso
-*   [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md): Catalunya · Meloso
-*   [Fideuá](recipe_fideua.md): València · Seco

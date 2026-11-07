@@ -54,18 +54,3 @@ Arroz caldoso con bogavante is the coast's **celebration rice**. It is ordered f
 *   [El Español Cocinillas – Arroz con bogavante](https://elespanol.com/cocinillas/recetas/pasta-y-arroz/20120525/arroz-bogavante/1000016048402_30.amp.html)
 *   [Merca2 – Arroz caldoso con bogavante](https://www.merca2.es/2023/12/04/receta-sabroso-arroz-caldoso-con-bogavante-quita-hipo-1501554/)
 *   [Osukaa is cooking – Arroz caldoso con bogavante, gambas y… (Alicante festive context)](https://osukaaiscooking.blogspot.com/2016/08/arroz-caldoso-con-bogavante-gambas-y.html)
-
-## 6. Related Dishes
-
-**Shellfish caldosos & melosos:** Lobster, prawns, mantis shrimp and clams, usually soupy or creamy.
-
-*   [Arroz Caldoso con Bogavante del Cantábrico](recipe_arroz_con_bogavante_norte.md): Northern Spain · Caldoso
-*   [Arroz de Langosta Menorquín](recipe_arros_de_llagosta_menorca.md): Illes Balears · Caldoso
-*   [Arroz Caldoso de Langostinos de Vinaròs](recipe_arroz_caldoso_langostinos_vinaros.md): Castellón · Caldoso
-*   [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md): Castellón · Meloso
-*   [Arroz con Almejas](recipe_arroz_con_almejas.md): Northern Spain · Caldoso
-*   [Arroz Caldoso de Isla Cristina](recipe_arroz_caldoso_isla_cristina.md): Andalucía · Caldoso
-*   [Arroz con Borrajas y Almejas](recipe_arroz_con_borrajas_y_almejas.md): Aragón, Navarra & La Rioja · Caldoso
-*   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md): Andalucía · Caldoso
-*   [Arroz con Rape y Gamba Roja](recipe_arroz_con_rape_y_gamba_roja.md): Alicante · Seco
-*   [Arroz con Mariscos y Pescados de Candamo](recipe_arroz_con_mariscos_candamo.md): Northern Spain · Seco

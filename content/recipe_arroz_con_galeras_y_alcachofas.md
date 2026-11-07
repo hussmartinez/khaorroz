@@ -59,34 +59,3 @@ The **galera** (*Squilla mantis*, mantis shrimp) is the winter jewel of the Vina
 *   [Turisme Vinaròs – Revista Arrossos 2025 (PDF)](https://turisme.vinaros.es/sites/turisme/files/2025-10/Revista%20Arrossos_25.pdf)
 *   [Ajuntament de Vinaròs – Menús Jornadas de la Cocina de los Arroces 2022 (PDF)](https://www.vinaros.es/sites/default/files/2022-11/Men%C3%BAs%20Jornadas%20de%20la%20Cocina%20de%20los%20Arroces%20Vinar%C3%B2s%202022_0.pdf)
 *   [Terres de l'Ebre – Jornades gastronòmiques de la galera 2023 (PDF)](https://terresdelebre.travel/jornadesgalera/documents/jornades-gastronomiques-galera-cat-2023.pdf)
-
-## 6. Related Dishes
-
-**Shellfish caldosos & melosos:** Lobster, prawns, mantis shrimp and clams, usually soupy or creamy.
-
-*   [Arroz Caldoso con Bogavante](recipe_arroz_caldoso_con_bogavante.md): Alicante · Caldoso
-*   [Arroz Caldoso con Bogavante del Cantábrico](recipe_arroz_con_bogavante_norte.md): Northern Spain · Caldoso
-*   [Arroz de Langosta Menorquín](recipe_arros_de_llagosta_menorca.md): Illes Balears · Caldoso
-*   [Arroz Caldoso de Langostinos de Vinaròs](recipe_arroz_caldoso_langostinos_vinaros.md): Castellón · Caldoso
-*   [Arroz con Almejas](recipe_arroz_con_almejas.md): Northern Spain · Caldoso
-*   [Arroz Caldoso de Isla Cristina](recipe_arroz_caldoso_isla_cristina.md): Andalucía · Caldoso
-*   [Arroz con Borrajas y Almejas](recipe_arroz_con_borrajas_y_almejas.md): Aragón, Navarra & La Rioja · Caldoso
-*   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md): Andalucía · Caldoso
-*   [Arroz con Rape y Gamba Roja](recipe_arroz_con_rape_y_gamba_roja.md): Alicante · Seco
-*   [Arroz con Mariscos y Pescados de Candamo](recipe_arroz_con_mariscos_candamo.md): Northern Spain · Seco
-
-**Huerta & artichoke rices:** Irrigated-garden vegetables: artichoke, broad beans, chard and peppers lead the dish.
-
-*   [Arroz de Verduras de la Vega Baja](recipe_arroz_de_verduras_vega_baja.md): Alicante · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz con Alcachofas de Benicarló](recipe_arroz_con_alcachofas_benicarlo.md): Castellón · Seco
-*   [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md): València · Seco
-*   [Arroz con Magra, Costillejas y Verduras](recipe_arroz_con_costillejas_y_verduras_murcia.md): Región de Murcia · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Arroz con Acelgas](recipe_arroz_con_acelgas.md): València · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md): Alicante · Seco
-*   [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md): Región de Murcia · Seco
-*   [Arroz y Pollo con Alcaciles](recipe_arroz_y_pollo_con_alcaciles.md): Región de Murcia · Seco
-*   [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md): Región de Murcia · Seco
-*   [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md): València · Meloso

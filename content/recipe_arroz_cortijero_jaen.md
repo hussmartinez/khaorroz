@@ -52,14 +52,3 @@ A rice of the **olive-grove cortijos** of Jaén, the world's largest olive-oil-p
 ## 5. Authority Reference Links
 *   [Jaén Paraíso Interior – Arroz cortijero (country-estate style rice)](https://www.jaenparaisointerior.es/en/w/arroz-cortijero)
 *   [Jaén Paraíso Interior – Arroz con conejo (Jaén)](https://www.jaenparaisointerior.es/en/w/arroz-con-conejo)
-
-## 6. Related Dishes
-
-**Home-style & country rices:** Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had.
-
-*   [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md): Canarias · Seco
-*   [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md): Canarias · Seco
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso
-*   [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md): Northern Spain · Seco

@@ -71,24 +71,3 @@ A Generalitat Valenciana tourism page documents the Valencian sister dish, **arr
 *   [Directo al Paladar – Gurullos murcianos con conejo y pollo (rabbit + peppers as the widespread form)](https://www.directoalpaladar.com/recetas-de-carnes-y-aves/gurullos-murcianos-conejo-pollo-receta-familiar-guiso-tradicional)
 *   [Directo al Paladar – Receta de arroz con conejo otoñal](https://www.directoalpaladar.com/recetas-de-arroces/receta-de-arroz-con-conejo-otonal)
 *   [Alicante Plaza – Ruta gastronómica de la carne de conejo (Alicante restaurants)](https://alicanteplaza.es/alicanteplaza/diez-restaurantes-de-alicante-participan-en-la-nueva-ruta-gastronomica-de-la-carne-de-conejo)
-
-## 6. Related Dishes
-
-**Rabbit & snail rices:** Rabbit, mountain snails (serranas/vaquetas) and herbs, mostly seco over a hot wood fire.
-
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco
-*   [Arroz con Conejo y Caracoles Murciano](recipe_arroz_conejo_caracoles_murciano.md): Región de Murcia · Seco
-*   [Arroz con Conejo y Caracoles (Aragón, Navarra y La Rioja)](recipe_arroz_con_conejo_y_caracoles_aragones.md): Aragón, Navarra & La Rioja · Meloso
-*   [Arroz de Renda](recipe_arros_de_renda.md): Alicante · Caldoso
-*   [Arroz de Trilla](recipe_arros_de_batre.md): Alicante · Caldoso
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco
-*   [Arroz con Conejo y Caracoles Catalán](recipe_arros_amb_conill_i_cargols_catala.md): Catalunya · Seco
-
-**Mountain & game rices:** Upland rices built on game, farmyard birds and wild mushrooms.
-
-*   [Arroz de Montaña de Castellón](recipe_arroz_de_montana_castellon.md): Castellón · Seco
-*   [Arroz de Montaña Catalán](recipe_arros_de_muntanya_catala.md): Catalunya · Meloso
-*   [Arroz con Liebre](recipe_arroz_con_liebre.md): Castilla-La Mancha & Extremadura · Meloso
-*   [Arroz con Perdiz](recipe_arroz_con_perdiz.md): Andalucía · Caldoso
-*   [Arroz con Pitu de Caleya](recipe_arroz_con_pitu_de_caleya.md): Northern Spain · Meloso
-*   [Arroz con Conejo y Caracoles](recipe_arroz_conejo_y_caracoles.md): Alicante · Seco

@@ -57,13 +57,3 @@ The Gran Enciclopèdia Catalana defines arròs a la cassola as rice cooked in a 
 *   [NacióDigital – Els consells de Maria Nicolau per fer un bon arròs](https://naciodigital.cat/viure-be/alimentacio/els-consells-de-maria-nicolau-per-fer-un-bon-arros.html)
 *   [VilaWeb – La història real dels canelons de Sant Esteve (arròs a la cassola tradition)](https://www.vilaweb.cat/noticies/la-historia-real-dels-canelons-de-sant-esteve/)
 *   [Costa Brava Lifestyle – Palamós cookery school (arròs a la cassola)](https://www.costabravalifestyle.com/news/the-guardian-reports-on-new-palamos-cookery-school/)
-
-## 6. Related Dishes
-
-**Cazuela / cassola rices:** Rices cooked and served in an earthenware casserole rather than a paella.
-
-*   [Arroz de Pals a la Cazuela](recipe_arros_a_la_cassola_de_pals.md): Catalunya · Meloso
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arroz a la Zaragozana](recipe_arroz_a_la_zaragozana.md): Aragón, Navarra & La Rioja · Meloso
-*   [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md): Castellón · Meloso
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso

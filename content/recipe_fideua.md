@@ -62,29 +62,3 @@ The dish is dated to the first quarter of the 20th century, and the usual story 
 *   [El Periòdic – Cómo un traspiés gastronómico originó la fideuà; concurso internacional de Gandia](https://www.elperiodic.com/gandia/como-traspies-gastronomico-origino-fideua-gandia-saca-pecho-receta-universal-puertas-concurso-internacional_1071565)
 *   [El Periòdic – IV Concurso Amateur de Fideuà de Gandia](https://www.elperiodic.com/gandia/gandia-acoge-este-sabado-concurso-amateur-fideua-cita-gastronomica-turistica-fallera-referencia_1029195)
 *   [Spain Food Sherpas – Traditional fideuà: the original recipe from Gandia](https://www.spainfoodsherpas.com/traditional-fideua-recipe-the-original-fideua-recipe-from-gandia/amp)
-
-## 6. Related Dishes
-
-**The paella family:** Wide shallow pan, thin layer, seco, and the debate over what counts as 'valenciana'.
-
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco
-*   [Paella de Marisco](recipe_paella_de_marisco.md): València · Seco
-*   [Paella Mixta](recipe_paella_mixta.md): València · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Arroz a la Alicantina](recipe_arroz_a_la_alicantina.md): Alicante · Seco
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
-*   [Paella con Albóndigas](recipe_paella_amb_mandonguilles.md): València · Seco
-*   [Paella a la Riojana](recipe_paella_a_la_riojana.md): Aragón, Navarra & La Rioja · Seco
-
-**Fishermen's broth rices:** Unsaleable catch boiled into broth; fish often eaten first, rice cooked in what remains.
-
-*   [Arroz a Banda](recipe_arroz_a_banda.md): Alicante · Seco
-*   [Caldero de Santa Pola y Tabarca](recipe_caldero_santa_pola_tabarca.md): Alicante · Meloso
-*   [Arroz Caldero del Mar Menor](recipe_caldero_del_mar_menor.md): Región de Murcia · Meloso
-*   [Arroz del Señorito](recipe_arroz_del_senyoret.md): Alicante · Seco
-*   [Arroz Rossejat](recipe_arrossejat.md): Catalunya · Seco
-*   [Arroz Marinero Balear](recipe_arros_de_peix_balear.md): Illes Balears · Caldoso
-*   [Arroz Marinero Andaluz](recipe_arroz_marinero_andaluz.md): Andalucía · Caldoso
-*   [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md): Catalunya · Meloso
-*   [Arroz y Gatet (Arroz con Pintarroja)](recipe_arroz_y_gatet.md): Alicante · Caldoso

@@ -49,29 +49,3 @@ A rare baked rice that puts **eel**, the fish of L'Albufera's *all i pebre*, tog
 
 ## 5. Authority Reference Links
 *   [Universitat de València (Baldoví) – Receptari d'arrossos: arròs al forn d'anguiles i bajoques](https://www.uv.es/baldovi/cuina/arrossos.htm)
-
-## 6. Related Dishes
-
-**Duck & wetland rices:** Rices of the great rice marshes: Albufera, Ebro Delta, Guadalquivir.
-
-*   [Arroz con Pato](recipe_arroz_con_pato.md): València · Seco
-*   [Arroz Caldoso con Pato de las Marismas](recipe_arroz_caldoso_con_pato_marismas.md): Andalucía · Caldoso
-*   [Arroz de Ribera del Delta del Ebro](recipe_arros_de_ribera_delta_ebre.md): Catalunya · Meloso
-*   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md): Andalucía · Caldoso
-
-**River & freshwater rices:** Crayfish, eel and lamprey from inland rivers, lagoons and the Miño.
-
-*   [Arroz con Cangrejos (La Bañeza)](recipe_arroz_con_cangrejos_banezano.md): Castilla y León · Meloso
-*   [Arroz del Pedrón de Parayo](recipe_arroz_del_pedron_de_parayo.md): Northern Spain · Seco
-*   [Lamprea a la Bordelesa con Arroz](recipe_lamprea_a_la_bordelesa_con_arroz.md): Northern Spain · Seco
-*   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md): Andalucía · Caldoso
-
-**Baked & crust rices:** Finished in the oven (or under embers): the leftover-cocido logic, sometimes sealed with egg.
-
-*   [Arroz al Horno](recipe_arroz_al_horno.md): València · Seco
-*   [Arroz con Costra](recipe_arroz_con_costra.md): Alicante · Seco
-*   [Arroz Empedrado](recipe_arroz_empedrado.md): València · Seco
-*   [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md): Alicante · Meloso
-*   [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md): València · Seco
-*   [Arroz al Horno con Guisantes](recipe_arros_al_forn_amb_pesols.md): València · Seco
-*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): València · Seco

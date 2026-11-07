@@ -52,17 +52,3 @@ Alicante's own *mar i muntanya* (sea and mountain) paella. Clams, mussels, lango
 ## 5. Authority Reference Links
 *   [El Español Alicante – Los expertos coinciden: el arroz a la alicantina no se hace con agua, sino con caldo de pescado y 250 g de pollo](https://www.elespanol.com/alacant/viure/20260507/expertos-coinciden-arroz-alicantina-no-hace-agua-caldo-pescado-gramos-pollo-trt/1003744235178_30.html)
 *   [Alicante Turismo – Guía Alicante Ciudad del Arroz (PDF)](https://alicanteturismo.com/wp-content/uploads/2024/06/GUIA-ALICANTE-CIUDAD-DEL-ARROZ.pdf)
-
-## 6. Related Dishes
-
-**The paella family:** Wide shallow pan, thin layer, seco, and the debate over what counts as 'valenciana'.
-
-*   [Paella Valenciana](recipe_paella_valenciana.md): València · Seco
-*   [Paella de Marisco](recipe_paella_de_marisco.md): València · Seco
-*   [Paella Mixta](recipe_paella_mixta.md): València · Seco
-*   [Paella de Verduras](recipe_paella_de_verduras.md): València · Seco
-*   [Arroz de la Plana](recipe_arros_de_la_plana.md): Castellón · Seco
-*   [Fideuá](recipe_fideua.md): València · Seco
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
-*   [Paella con Albóndigas](recipe_paella_amb_mandonguilles.md): València · Seco
-*   [Paella a la Riojana](recipe_paella_a_la_riojana.md): Aragón, Navarra & La Rioja · Seco

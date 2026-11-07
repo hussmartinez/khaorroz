@@ -56,13 +56,3 @@ Rice has a long and interrupted history in Pals. A Catalan study dates the town'
 *   [Wikipedia – Pals Rice](https://wikipedia.com/wiki/Pals_Rice)
 *   [Fem Turisme – Pals i la Cuina de l'Arròs](https://femturisme.cat/agenda/pals-i-la-cuina-de-larros)
 *   [Visit Empordà – Dossier gastronomia (PDF)](https://visitemporda.com/wp-content/uploads/2021/05/DOSSIER_GASTRONOMIA_CAT.pdf)
-
-## 6. Related Dishes
-
-**Cazuela / cassola rices:** Rices cooked and served in an earthenware casserole rather than a paella.
-
-*   [Arroz a la Cazuela](recipe_arros_a_la_cassola.md): Catalunya · Meloso
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arroz a la Zaragozana](recipe_arroz_a_la_zaragozana.md): Aragón, Navarra & La Rioja · Meloso
-*   [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md): Castellón · Meloso
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso

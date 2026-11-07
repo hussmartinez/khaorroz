@@ -53,12 +53,3 @@ The **sea lamprey** (*Petromyzon marinus*) is a jawless fish of prehistoric line
 *   [Turismo Rías Baixas – Arbo ensalza la lamprea en su Fiesta de Interés Turístico Nacional](https://turismoriasbaixas.com/-/noticia-arbo-ensalza-la-lamprea-en-su-fiesta-de-interes-turistico-nacional)
 *   [Guía Michelin – La lamprea, una delicatessen prehistórica](https://guide.michelin.com/es/es/articulo/features/la-lamprea-una-delicatessen-prehistorica)
 *   [Gastronosfera – Hasta que cante el cuco es temporada de lamprea](https://gastronosfera.com/tendencias/hasta-que-cante-el-cuco-es-temporada-de-lamprea-atrevete)
-
-## 6. Related Dishes
-
-**River & freshwater rices:** Crayfish, eel and lamprey from inland rivers, lagoons and the Miño.
-
-*   [Arroz con Cangrejos (La Bañeza)](recipe_arroz_con_cangrejos_banezano.md): Castilla y León · Meloso
-*   [Arroz del Pedrón de Parayo](recipe_arroz_del_pedron_de_parayo.md): Northern Spain · Seco
-*   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md): Andalucía · Caldoso
-*   [Arroz al Horno de Anguilas y Judías](recipe_arros_al_forn_d_anguiles_i_bajoques.md): València · Seco

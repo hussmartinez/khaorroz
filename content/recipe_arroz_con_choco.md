@@ -54,16 +54,3 @@ People from Huelva are nicknamed *choqueros* because of their attachment to the 
 *   [UPO Patio Colorado – Ocho platos típicos andaluces: una receta por cada provincia](https://www.upo.es/patio-colorado/2022/05/27/ocho-platos-tipicos-andaluces-una-receta-por-cada-provincia/)
 *   [Hola.com – Papas con choco: receta andaluza tradicional](https://www.hola.com/cocina/recetas/20250313819694/papas-con-choco-receta-andaluza-tradicional/)
 *   [Escritores.org – Recetario gastronómico tradicional y popular de Huelva](https://escritores.org/libros/index.php/item/recetario-gastronomico-tradicional-y-popular-de-huelva)
-
-## 6. Related Dishes
-
-**Cephalopod & ink rices:** Cuttlefish, squid, choco and octopus, with or without their ink.
-
-*   [Arroz Negro](recipe_arroz_negro.md): València · Seco
-*   [Arroz Negro Catalán](recipe_arros_negre_catala.md): Catalunya · Seco
-*   [Arroz Meloso de Pulpo](recipe_arroz_meloso_de_pulpo.md): Alicante · Meloso
-*   [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md): València · Seco
-*   [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md): Castellón · Meloso
-*   [Arroz con Chipirones y Ajos Tiernos](recipe_arroz_con_chipirones_y_ajos_tiernos.md): Alicante · Meloso
-*   [Arroz Caldoso de Sepia y Coliflor](recipe_arros_de_sepia_i_coliflor.md): València · Caldoso
-*   [Chipirones en su Tinta con Arroz Blanco](recipe_chipirones_en_su_tinta_con_arroz.md): Northern Spain · Seco

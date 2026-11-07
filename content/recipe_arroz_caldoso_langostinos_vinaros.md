@@ -58,18 +58,3 @@ The **Llagostí de Vinaròs** (*Penaeus kerathurus*, the striped prawn) is caugh
 *   [Directo al Paladar – Recetas con langostino de Vinaròs (Concurso Nacional de Cocina Aplicada)](https://www.directoalpaladar.com/eventos/recetas-con-langostino-de-vinaros-presentadas-al-concurso-nacional-de-cocina-aplicada)
 *   [Diputació de Barcelona – Recepta d'arròs caldós (technique reference)](https://bibliotecavirtual.diba.cat/documents/d/global/receptaarroscaldos)
 *   [3Cat Cuines – Arròs de llagostins i cansalada (Ebro-style reference)](https://www.3cat.cat/tv3/cuines/recepta/arros-de-llagostins-i-cansalada/34556/)
-
-## 6. Related Dishes
-
-**Shellfish caldosos & melosos:** Lobster, prawns, mantis shrimp and clams, usually soupy or creamy.
-
-*   [Arroz Caldoso con Bogavante](recipe_arroz_caldoso_con_bogavante.md): Alicante · Caldoso
-*   [Arroz Caldoso con Bogavante del Cantábrico](recipe_arroz_con_bogavante_norte.md): Northern Spain · Caldoso
-*   [Arroz de Langosta Menorquín](recipe_arros_de_llagosta_menorca.md): Illes Balears · Caldoso
-*   [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md): Castellón · Meloso
-*   [Arroz con Almejas](recipe_arroz_con_almejas.md): Northern Spain · Caldoso
-*   [Arroz Caldoso de Isla Cristina](recipe_arroz_caldoso_isla_cristina.md): Andalucía · Caldoso
-*   [Arroz con Borrajas y Almejas](recipe_arroz_con_borrajas_y_almejas.md): Aragón, Navarra & La Rioja · Caldoso
-*   [Arroz Caldoso con Colitas de Cangrejo de Isla Mayor](recipe_arroz_con_cangrejos_isla_mayor.md): Andalucía · Caldoso
-*   [Arroz con Rape y Gamba Roja](recipe_arroz_con_rape_y_gamba_roja.md): Alicante · Seco
-*   [Arroz con Mariscos y Pescados de Candamo](recipe_arroz_con_mariscos_candamo.md): Northern Spain · Seco

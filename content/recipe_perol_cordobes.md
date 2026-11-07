@@ -60,22 +60,3 @@ In the past the protein was whatever was "caught that day" in the monte: **rabbi
 *   [Moncloa – Cómo preparar un auténtico perol cordobés con cerdo, pollo y conejo](https://www.moncloa.com/2025/08/26/perol-cordobes-conejo-pollo-cer-3258008/)
 *   [Universidad de Córdoba (Helvia/UCOCRIS) – Characterization of Cordoba's perol: food patrimony and demographic influence](https://ucocris.uco.es/entities/publication/ef21b04a-5e1b-4e66-b834-5c11812e1c28)
 *   [My Kitchen in Spain – Rice in a skillet for San Rafael day](https://mykitcheninspain.blogspot.com/2015/10/rice-in-skillet-for-san-rafael-day.html)
-
-## 6. Related Dishes
-
-**Cazuela / cassola rices:** Rices cooked and served in an earthenware casserole rather than a paella.
-
-*   [Arroz a la Cazuela](recipe_arros_a_la_cassola.md): Catalunya · Meloso
-*   [Arroz de Pals a la Cazuela](recipe_arros_a_la_cassola_de_pals.md): Catalunya · Meloso
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arroz a la Zaragozana](recipe_arroz_a_la_zaragozana.md): Aragón, Navarra & La Rioja · Meloso
-*   [Arrocito del Grau de Castelló](recipe_arrocito_del_grau.md): Castellón · Meloso
-
-**Home-style & country rices:** Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had.
-
-*   [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md): Canarias · Seco
-*   [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md): Canarias · Seco
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md): Andalucía · Seco
-*   [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md): Northern Spain · Seco
