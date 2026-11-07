@@ -3,17 +3,24 @@ import Layout from "../../layouts/Layout.astro";
 import Article from "../../components/Article.astro";
 import { langPaths, langBase, site, tr, panHtml, renderPage, HTML_LANG, DEFAULT_LANG, type Lang } from "../../lib/site";
 import { marked } from "marked";
+import { graph, organization, pageUrl, abs, BRAND } from "../../lib/seo";
+import { contentDates } from "@arros/content";
 export const getStaticPaths = langPaths;
 const { lang } = Astro.props as { lang: Lang };
 const m = site(lang);
 const page = m.byFile.get("history.md");
+const hUrl = pageUrl(lang, "history.html");
+const hDates = contentDates("history.md");
+const jsonLd = page ? graph(organization(), { "@type": "Article", "@id": hUrl, url: hUrl, headline: page.title, description: page.summary, inLanguage: lang,
+  datePublished: hDates.published, dateModified: hDates.modified, author: { "@id": `${abs("/")}#org` }, publisher: { "@id": `${abs("/")}#org` },
+  image: abs(`/og/${lang}/_home.jpg`) }) : undefined;
 // Until history.md exists: each dish's own history section.
 const entries = page ? [] : m.recipes.map((r) => {
   const sec = r.body.split(/^## /m).find((s) => /^(2\.|.*Histor)/i.test(s));
   return sec ? { r, html: marked.parse(sec.split("\n").slice(1).join("\n"), { async: false }) as string } : null;
 }).filter((x) => x !== null);
 ---
-<Layout lang={lang} path="history.html" title={page?.title ?? tr(lang, "navHistory")} active="history" description={page?.summary}>
+<Layout lang={lang} path="history.html" title={page?.title ?? tr(lang, "navHistory")} active="history" description={page?.summary} jsonLd={jsonLd} seoTitle={page ? `${page.title} | ${BRAND}` : undefined}>
   {page ? <Article p={page} m={m} kicker={tr(lang, "kickerHistory")} /> : (
     <main>
       <header class="page-hero"><div class="wrap">
@@ -22,7 +29,7 @@ const entries = page ? [] : m.recipes.map((r) => {
       <div class="page"><article class="prose wide">
         {entries.map(({ r, html }) => (
           <section class="history-entry" data-reveal lang={r.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined} dir={r.status === "missing" && lang === "ar" ? "ltr" : undefined}>
-            <a class="he-pan" href={`${langBase(lang)}${r.url}`} aria-hidden="true" tabindex="-1" set:html={panHtml(r, { steam: false })} />
+            <a class="he-pan" href={`${langBase(lang)}${r.url}`} aria-hidden="true" tabindex="-1"><img class="pan" src={`/pans/${r.slug}.svg`} width="228" height="228" alt="" loading="lazy" decoding="async" /></a>
             <div><h2 id={r.slug}><a href={`${langBase(lang)}${r.url}`}>{r.title}</a></h2>{r.gloss && <p class="gloss">{r.gloss}</p>}{r.altTitle && <p class="alt">{r.altTitle}</p>}<Fragment set:html={html} /></div>
           </section>
         ))}

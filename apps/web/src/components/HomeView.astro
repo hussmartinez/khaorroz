@@ -61,7 +61,7 @@ const showAreaFilter = !area && groups.length > 1;
       <div class="area-tiles">
         {m.areas.map((a, i) => (
           <a class="area-tile" href={`${base}${a.id}`} data-theme={a.theme} data-reveal style={`--i:${i}`}>
-            <div class="area-pans" aria-hidden="true" set:html={a.recipes.slice(0, 3).map((d) => panHtml(d, { steam: false })).join("")} />
+            <div class="area-pans" aria-hidden="true" set:html={a.recipes.slice(0, 3).map((d) => `<img class="pan" src="/pans/${d.slug}.svg" width="228" height="228" alt="" loading="lazy" decoding="async">`).join("")} />
             <div class="area-text">
               <h3>{a.name}</h3>
               <p>{a.recipes.length ? `${nDishes(lang, a.recipes.length)} · ${a.regionList.length} ${tr(lang, "navRegions").toLowerCase()}` : tr(lang, "areaSoon")}</p>

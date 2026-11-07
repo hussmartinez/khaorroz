@@ -1,5 +1,5 @@
 ---
-source_hash: f19ba442ccd1825c
+source_hash: a87fefd168a7ba01
 ---
 
 # Arroz con Pata de Ternera / Arròs amb Pota de Vedella

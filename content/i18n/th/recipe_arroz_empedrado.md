@@ -1,5 +1,5 @@
 ---
-source_hash: 1e8f75b70cb2c82e
+source_hash: 97949b0cba588191
 ---
 
 # Arroz Empedrado / Arròs Empedrat

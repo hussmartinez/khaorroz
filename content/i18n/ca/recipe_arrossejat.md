@@ -1,5 +1,5 @@
 ---
-source_hash: 9654857733dfb9f9
+source_hash: 5947e67c7fddd88a
 ---
 
 # Arroz Rossejat / Arrossejat (L'Ametlla de Mar)

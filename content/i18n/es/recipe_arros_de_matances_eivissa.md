@@ -1,5 +1,5 @@
 ---
-source_hash: 9364ecf659102e68
+source_hash: 92f6a1841457b126
 ---
 
 # Arroz de Matanza Ibicenco / Arròs de Matances (Eivissa)

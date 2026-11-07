@@ -1,5 +1,5 @@
 ---
-source_hash: a6a7611af5fe2ad0
+source_hash: ef2526675efdbb57
 ---
 
 # Arroz de Ayuno de Calasparra / Arroz de Vigilia con Bacalao

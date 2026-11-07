@@ -1,6 +1,6 @@
 ---
 import Chip from "./Chip.astro";
-import { langBase, panHtml, vtName, vesselLabel, type SiteModel, type Page } from "../lib/site";
+import { langBase, vtName, vesselLabel, type SiteModel, type Page } from "../lib/site";
 interface Props { p: Page; m: SiteModel; i?: number }
 const { p, m, i = 0 } = Astro.props;
 const provs = p.provinces.map((x) => m.regionName(x.file, x.name)).join(" · ");
@@ -11,7 +11,9 @@ const search = `${p.title} ${p.gloss} ${p.altTitle} ${p.zone} ${p.summary}`.toLo
 <a class={`card base-${p.spec?.base ?? "none"}`} href={`${langBase(m.lang)}${p.url}`}
    style={`--i:${i % 12};view-transition-name:${vtName("card", p.slug)}`} data-reveal data-slug={p.slug}
    data-area={area} data-theme={theme} data-texture={p.texture} data-provinces={p.provinces.map((x) => x.file).join(" ")} data-search={search}>
-  <div class="card-visual" style={`view-transition-name:${vtName("pan", p.slug)}`} set:html={panHtml(p)} />
+  <div class="card-visual" style={`view-transition-name:${vtName("pan", p.slug)}`}>
+    {p.spec && <img class="pan" src={`/pans/${p.slug}.svg`} width="228" height="228" alt="" loading={i < 6 ? "eager" : "lazy"} decoding="async" />}
+  </div>
   <div class="card-body">
     <div class="card-meta"><Chip lang={m.lang} texture={p.texture} />{p.spec && <span class="vessel">{vesselLabel(m.lang, p.spec.vessel)}</span>}</div>
     <h3 dir="auto">{p.title}</h3>

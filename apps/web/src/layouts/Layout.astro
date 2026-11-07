@@ -2,6 +2,7 @@
 import { LANGS, HTML_LANG, langBase, tr, isRtl, type Lang } from "../lib/site";
 import { UI } from "../lib/i18n";
 import { ADS } from "../lib/ads";
+import { OG_LOCALE, abs } from "../lib/seo";
 
 interface Props {
   lang: Lang;
@@ -14,8 +15,14 @@ interface Props {
   theme?: string;
   /** Breadcrumb trail above the page (area › region), each [label, href]. */
   crumbs?: [string, string][];
+  /** Complete <title> (already including the brand); otherwise "{title} · {siteName}". */
+  seoTitle?: string;
+  /** Social card image (absolute or root-relative) — defaults to the language's home card. */
+  ogImage?: { url: string; width: number; height: number; alt?: string };
+  /** schema.org JSON-LD object(s) for this page. */
+  jsonLd?: object;
 }
-const { lang, path, title, active, description, bodyClass, theme = "spain", crumbs = [] } = Astro.props;
+const { lang, path, title, active, description, bodyClass, theme = "spain", crumbs = [], seoTitle, ogImage, jsonLd } = Astro.props;
 const base = langBase(lang);
 // Clean URLs: "x.html" → "x", "index.html" / "a/index.html" → "" / "a/". Files are still built as .html;
 // Cloudflare serves /x from x.html and 307-redirects old /x.html links (wrangler html_handling auto-trailing-slash).
@@ -23,7 +30,9 @@ const clean = (p: string) => p.replace(/(^|\/)index\.html$/, "$1").replace(/\.ht
 const isErrorPage = path === "404.html";
 const switchPath = isErrorPage ? "" : clean(path);
 const site = tr(lang, "siteName");
-const fullTitle = title === site ? title : `${title} · ${site}`;
+const fullTitle = seoTitle ?? (title === site ? title : `${title} · ${site}`);
+const og = ogImage ?? { url: `/og/${lang}/_home.jpg`, width: 1200, height: 675, alt: site };
+const ogUrl = og.url.startsWith("http") ? og.url : abs(og.url);
 const pretty = (lg: Lang) => `${langBase(lg)}${clean(path)}`;
 const canonical = new URL(pretty(lang), Astro.site).href;
 const nav = [
@@ -49,13 +58,28 @@ const nav = [
 <meta property="og:description" content={description ?? tr(lang, "metaDescription")}>
 <meta property="og:type" content={path.startsWith("recipes/") ? "article" : "website"}>
 <meta property="og:url" content={canonical}>
-<meta property="og:locale" content={HTML_LANG[lang]}>
+<meta property="og:locale" content={OG_LOCALE[lang]}>
+{LANGS.filter((lg) => lg !== lang).map((lg) => <meta property="og:locale:alternate" content={OG_LOCALE[lg]}>)}
+<meta property="og:site_name" content="Khaorroz">
+<meta property="og:image" content={ogUrl}>
+<meta property="og:image:width" content={String(og.width)}>
+<meta property="og:image:height" content={String(og.height)}>
+{og.alt && <meta property="og:image:alt" content={og.alt}>}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content={fullTitle}>
+<meta name="twitter:description" content={description ?? tr(lang, "metaDescription")}>
+<meta name="twitter:image" content={ogUrl}>
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt">
+{jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, "\\u003c")} />}
 <script is:inline>document.documentElement.classList.add("js")</script>
 <link rel="preload" href="/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts.css">
 <link rel="stylesheet" href="/fonts-arabic.css">
 <link rel="stylesheet" href="/style.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥘</text></svg>">
 {ADS.mode === "live" && ADS.head && <Fragment set:html={ADS.head} />}
 </head>
 <body class={bodyClass} data-theme={theme}>

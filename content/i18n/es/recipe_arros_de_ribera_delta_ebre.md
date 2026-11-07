@@ -1,5 +1,5 @@
 ---
-source_hash: 9da9c8cad132c664
+source_hash: a437d5d23c959c59
 ---
 
 # Arroz de Ribera del Delta del Ebro / Arròs de Ribera (Arròs a Banda del Delta, amb Ànec i Anguila)

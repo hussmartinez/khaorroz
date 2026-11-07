@@ -1,5 +1,5 @@
 ---
-source_hash: 24da3d53c4df7595
+source_hash: d36422d0b8d9730f
 ---
 
 # Arroz Caldoso con Bogavante / Arròs Caldós amb Llamàntol

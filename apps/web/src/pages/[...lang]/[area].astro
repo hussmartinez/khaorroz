@@ -4,14 +4,22 @@ import Layout from "../../layouts/Layout.astro";
 import HomeView from "../../components/HomeView.astro";
 import { LANGS, langParam, site, tr, type Lang } from "../../lib/site";
 import { areaIds, areaView } from "../../lib/areas";
+import { graph, organization, itemList, breadcrumbs, pageUrl, plainTitle, BRAND } from "../../lib/seo";
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => areaIds().map((id) => ({ params: { lang: langParam(lang), area: id }, props: { lang, id } })));
 }
 const { lang, id } = Astro.props as { lang: Lang; id: string };
 const m = site(lang);
 const area = areaView(id, lang)!;
+const url = pageUrl(lang, `${id}.html`);
+const recipes = m.areas.find((a) => a.id === id)!.recipes;
+const desc = area.copy.heroLede.length > 155 ? area.copy.heroLede.slice(0, 152).replace(/\s+\S*$/, "") + "…" : area.copy.heroLede;
+const jsonLd = graph(organization(),
+  { "@type": "CollectionPage", "@id": url, url, name: plainTitle(area.copy.heroTitle), description: area.copy.heroLede, inLanguage: lang, mainEntity: itemList(recipes, lang) },
+  breadcrumbs([[tr(lang, "home"), pageUrl(lang, "index.html")], [area.name, url]]));
 ---
 <Layout lang={lang} path={`${id}.html`} title={area.name} active="recipes" bodyClass="is-home" theme={area.theme}
-        description={area.copy.heroLede} crumbs={[[area.name, ""]]}>
+        description={desc} crumbs={[[area.name, ""]]} seoTitle={`${plainTitle(area.copy.heroTitle)} | ${BRAND}`} jsonLd={jsonLd}
+        ogImage={{ url: `/og/${lang}/_area-${id}.jpg`, width: 1200, height: 675, alt: area.name }}>
   <HomeView m={m} area={area} />
 </Layout>

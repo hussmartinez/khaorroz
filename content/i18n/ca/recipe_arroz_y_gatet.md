@@ -1,5 +1,5 @@
 ---
-source_hash: f03a9b941d03da49
+source_hash: 4170c945cbca05db
 ---
 
 # Arroz y Gatet (Arroz con Pintarroja) / Arròs amb Gatet

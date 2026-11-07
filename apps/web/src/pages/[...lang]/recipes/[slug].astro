@@ -3,7 +3,12 @@ import Layout from "../../../layouts/Layout.astro";
 import Chip from "../../../components/Chip.astro";
 import Toc from "../../../components/Toc.astro";
 import Notice from "../../../components/Notice.astro";
-import { LANGS, langParam, langBase, site, renderPage, panHtml, tr, vtName, vesselLabel, provSlug, HTML_LANG, DEFAULT_LANG, isRtl, type Lang } from "../../../lib/site";
+import Related from "../../../components/Related.astro";
+import { Image, getImage } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import { LANGS, langParam, langBase, site, renderPage, panHtml, tr, vtName, vesselLabel, provSlug, HTML_LANG, DEFAULT_LANG, isRtl, esc, type Lang } from "../../../lib/site";
+import { recipeTitle, recipeDescription, recipeLD, breadcrumbs, organization, graph, pageUrl, photoFor, recipeData, abs } from "../../../lib/seo";
+import { cuisinesOf } from "../../../lib/areas";
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => site(lang).recipes.map((p) => ({ params: { lang: langParam(lang), slug: p.slug }, props: { lang, file: p.file } })));
@@ -11,18 +16,46 @@ export function getStaticPaths() {
 const { lang, file } = Astro.props as { lang: Lang; file: string };
 const m = site(lang);
 const p = m.byFile.get(file)!;
+const base = langBase(lang);
 const areaId = m.areaOfRecipe(p);
 const area = m.areas.find((a) => a.id === areaId);
 const firstRegion = p.provinces[0];
+const regionLabel = firstRegion ? m.regionName(firstRegion.file, firstRegion.name) : "";
 const crumbs: [string, string][] = [
-  ...(area ? [[area.name, `${langBase(lang)}${area.id}`] as [string, string]] : []),
-  ...(firstRegion ? [[m.regionName(firstRegion.file, firstRegion.name), `${langBase(lang)}provinces/${provSlug(firstRegion.file)}`] as [string, string]] : []),
+  ...(area ? [[area.name, `${base}${area.id}`] as [string, string]] : []),
+  ...(firstRegion ? [[regionLabel, `${base}provinces/${provSlug(firstRegion.file)}`] as [string, string]] : []),
 ];
-const { html, headings } = renderPage(p, m);
-const base = langBase(lang);
+
+// Photo (content/images.json → content/images/*.webp), optimised by astro:assets into hashed files.
+const IMAGES = import.meta.glob<{ default: ImageMetadata }>("../../../../../../content/images/*.{webp,jpg,jpeg,png}", { eager: true });
+const photo = photoFor(file);
+const photoMeta = photo ? Object.entries(IMAGES).find(([k]) => k.endsWith("/" + photo.file.split("/").pop()))?.[1].default : undefined;
+const photoAlt = photo?.alt?.[lang] ?? photo?.alt?.en ?? p.title;
+const ogPhoto = photoMeta ? await getImage({ src: photoMeta, width: Math.min(1200, photoMeta.width), format: "jpeg", quality: 80 }) : undefined;
+const creditInner = photo && photoMeta
+  ? `${esc(tr(lang, "photo"))}: ${esc(photo.author ?? "")}${photo.license ? ` · ${photo.licenseUrl ? `<a href="${esc(photo.licenseUrl)}" rel="license noopener" target="_blank">${esc(photo.license)}</a>` : esc(photo.license)}` : ""} · ${photo.source ? `<a href="${esc(photo.source)}" target="_blank" rel="noopener">${esc(tr(lang, "viaCommons"))}</a>` : esc(tr(lang, "viaCommons"))}`
+  : "";
+
+const { html, headings } = renderPage(p, m, { appendToSection: creditInner ? { "5": `<p class="photo-credit">${creditInner}</p>` } : {} });
+const sourcesId = headings.find((h) => h.num === "5")?.id;
+const nSources = recipeData(p).sources.length;
+
+const url = pageUrl(lang, p.url);
+const description = recipeDescription(p, lang, regionLabel);
+const homeUrl = pageUrl(lang, "index.html");
+const jsonLd = graph(
+  organization(),
+  recipeLD(p, m, { url, description, photoUrl: ogPhoto ? abs(ogPhoto.src) : undefined, cuisine: cuisinesOf(p) }),
+  { "@type": "WebPage", "@id": url, url, name: p.title, inLanguage: lang, isPartOf: { "@id": `${abs("/")}#website` } },
+  breadcrumbs([[tr(lang, "home"), homeUrl], ...crumbs.map(([n, h]) => [n, abs(h)] as [string, string]), [p.title, url]]),
+);
+const ogImage = ogPhoto && photoMeta
+  ? { url: abs(ogPhoto.src), width: Math.min(1200, photoMeta.width), height: Math.round((Math.min(1200, photoMeta.width) * photoMeta.height) / photoMeta.width), alt: photoAlt }
+  : { url: `/og/${lang}/${p.slug}.jpg`, width: 1200, height: 675, alt: p.gloss ? `${p.title} — ${p.gloss}` : p.title };
 ---
-<Layout lang={lang} path={p.url} title={p.gloss ? `${p.title} · ${p.gloss}` : p.title} active="recipes" description={p.summary} bodyClass="is-recipe" theme={area?.theme} crumbs={crumbs}>
-  <main class={`recipe base-${p.spec?.base ?? "none"}`}>
+<Layout lang={lang} path={p.url} title={p.title} seoTitle={recipeTitle(p, lang)} active="recipes" description={description}
+        bodyClass="is-recipe" theme={area?.theme} crumbs={crumbs} jsonLd={jsonLd} ogImage={ogImage}>
+  <main class={`recipe base-${p.spec?.base ?? "none"}${photoMeta ? " has-photo" : ""}`}>
     <header class="recipe-hero">
       <div class="rh-text">
         <p class="kicker">{tr(lang, "kickerRecipe")} · {tr(lang, "readTime", { n: p.minutes })}</p>
@@ -33,6 +66,7 @@ const base = langBase(lang);
           <Chip lang={lang} texture={p.texture} />
           {p.spec && <span class="tag"><span class="tag-k">{tr(lang, "vessel")}</span> {vesselLabel(lang, p.spec.vessel)}</span>}
           {p.provinces.map((x) => <a class="tag" href={`${base}provinces/${provSlug(x.file)}`}><span class="pin" aria-hidden="true"></span>{m.regionName(x.file, x.name)}</a>)}
+          {sourcesId && nSources > 0 && <a class="tag tag-sources" href={`#${sourcesId}`}><span aria-hidden="true">§</span> {tr(lang, "sources")} ({nSources})</a>}
         </div>
         <Notice lang={lang} status={p.status} />
         <div class="rh-actions">
@@ -41,11 +75,20 @@ const base = langBase(lang);
         </div>
         <p class="cook-hint" hidden>{tr(lang, "cookingModeOn")} · {tr(lang, "tapToCheck")}</p>
       </div>
-      <div class="rh-visual" style={`view-transition-name:${vtName("pan", p.slug)}`} set:html={panHtml(p, { cls: "hero-pan", label: true })} />
+      {photoMeta ? (
+        <figure class="rh-visual rh-photo">
+          <Image src={photoMeta} alt={photoAlt} widths={[480, 800, 1200, 1600].filter((w) => w <= photoMeta.width)} sizes="(max-width: 980px) 92vw, 40vw" loading="eager" fetchpriority="high" class="photo" />
+          <div class="rh-pan-badge" style={`view-transition-name:${vtName("pan", p.slug)}`} set:html={panHtml(p, { steam: false })} />
+          <figcaption set:html={creditInner} />
+        </figure>
+      ) : (
+        <div class="rh-visual" style={`view-transition-name:${vtName("pan", p.slug)}`} set:html={panHtml(p, { cls: "hero-pan", label: true })} />
+      )}
     </header>
     <div class={`page${headings.length > 1 ? " with-toc" : ""}`}>
       <Toc lang={lang} headings={headings} />
       <article class="prose" data-pagefind-body data-timer-label={tr(lang, "timerStart", { n: "{n}" })} lang={p.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined} dir={p.status === "missing" && isRtl(lang) ? "ltr" : undefined} set:html={html} />
     </div>
+    <Related p={p} m={m} />
   </main>
 </Layout>

@@ -1,5 +1,5 @@
 ---
-source_hash: aea570b70ab4f490
+source_hash: aea1ed12a33331ea
 ---
 
 # Arroz de Montaña Catalán / Arròs de Muntanya (Cerdanya, Terres de Lleida)

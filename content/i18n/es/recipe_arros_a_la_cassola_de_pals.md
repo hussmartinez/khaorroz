@@ -1,5 +1,5 @@
 ---
-source_hash: 7f234b3f32aa4754
+source_hash: e91d4b81b98bf921
 ---
 
 # Arroz de Pals a la Cazuela / Arròs de Pals a la Cassola (Empordà)

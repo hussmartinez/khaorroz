@@ -1,5 +1,5 @@
 ---
-source_hash: b8047e1b0bb95625
+source_hash: 0f29155c834cbb50
 ---
 
 # Arroz Negro Catalán / Arròs Negre de l'Empordà

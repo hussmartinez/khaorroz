@@ -93,10 +93,10 @@ export function site(lang: Lang): SiteModel {
 const anchorId = (s: string) =>
   stripMd(s).normalize("NFC").toLowerCase().replace(/[^\p{L}\p{M}\p{N}]+/gu, "-").replace(/^-|-$/g, "");
 
-export function renderPage(page: Page, m: SiteModel) {
+export function renderPage(page: Page, m: SiteModel, opts: { appendToSection?: Record<string, string> } = {}) {
   const lang = m.lang;
   const base = langBase(lang);
-  const headings: { id: string; text: string }[] = [];
+  const headings: { id: string; text: string; num?: string }[] = [];
   const used = new Set<string>();
   const renderer = new marked.Renderer();
   renderer.heading = function ({ tokens, depth, text }) {
@@ -105,8 +105,8 @@ export function renderPage(page: Page, m: SiteModel) {
     let id = anchorId(clean) || "section";
     while (used.has(id)) id += "-x";
     used.add(id);
-    if (depth === 2) headings.push({ id, text: clean });
     const num = depth === 2 ? text.match(/^(\d+)\./)?.[1] : undefined;
+    if (depth === 2) headings.push({ id, text: clean, num });
     const shown = depth === 2 ? `${num ? `<span class="h-num">${num.padStart(2, "0")}</span>` : ""}${esc(clean)}` : inner;
     return `<h${depth} id="${id}"><a class="anchor" href="#${id}">${shown}</a></h${depth}>\n`;
   };
@@ -128,14 +128,17 @@ export function renderPage(page: Page, m: SiteModel) {
   const chunks = page.body.split(/^(?=## )/m);
   let adsPlaced = 0;
   const html = chunks.map((chunk, i) => {
+    const num = chunk.match(/^## (\d+)\./)?.[1];
+    // §6 "Related Dishes" is legacy generated text; recipe pages render families.json instead.
+    if (num === "6" && page.kind === "recipe") return "";
     const inner = marked.parse(chunk, { renderer, gfm: true, async: false }) as string;
     if (!inner.trim()) return "";
-    const num = chunk.match(/^## (\d+)\./)?.[1];
     const cls = num === "4" && page.kind === "recipe" ? " sec-recipe" : !chunk.startsWith("## ") ? " sec-intro" : "";
     // Never inside the recipe itself: after the history (2) and after the recipe (4); max two per page.
     const adHere = adsPlaced < 2 && i < chunks.length - 1 && (page.kind === "recipe" ? num === "2" || num === "4" : i === 2 || i === 6);
     if (adHere) adsPlaced++;
-    return `<section class="sec${cls}"${num ? ` data-sec="${num}"` : ""} data-reveal>${inner}</section>${adHere ? adHtml("inArticle", tr(lang, "advertisement")) : ""}`;
+    const extra = num ? opts.appendToSection?.[num] ?? "" : "";
+    return `<section class="sec${cls}"${num ? ` data-sec="${num}"` : ""} data-reveal>${inner}${extra}</section>${adHere ? adHtml("inArticle", tr(lang, "advertisement")) : ""}`;
   }).join("\n");
   return { html, headings };
 }

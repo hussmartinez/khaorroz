@@ -1,5 +1,5 @@
 ---
-source_hash: 5bd01e97a9b17048
+source_hash: 55199900f9361711
 ---
 
 # Arroz, Col y Alubias / Arròs, Col i Fesols (Delta de l'Ebre)

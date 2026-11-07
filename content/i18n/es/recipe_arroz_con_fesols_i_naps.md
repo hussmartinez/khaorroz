@@ -1,5 +1,5 @@
 ---
-source_hash: 416be534d0f8d167
+source_hash: 57579028fbf46d06
 ---
 
 # Arroz con Alubias y Nabos / Arròs amb (en) Fesols i Naps

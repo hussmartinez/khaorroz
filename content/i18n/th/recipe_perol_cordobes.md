@@ -1,5 +1,5 @@
 ---
-source_hash: 44e4e96266709677
+source_hash: b2cbd18fd79edb42
 ---
 
 # Perol Cordobés / Arroz de Perol (Día de San Rafael)

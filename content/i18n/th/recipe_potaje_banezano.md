@@ -1,5 +1,5 @@
 ---
-source_hash: e61f9d8f7372e141
+source_hash: 201ae7dbba92f5a5
 ---
 
 # Potaje Bañezano (Garbanzos con Arroz) / Potaje de La Bañeza

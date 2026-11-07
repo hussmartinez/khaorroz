@@ -1,5 +1,5 @@
 ---
-source_hash: 103888b72592ae72
+source_hash: f24e470b75d4b47d
 ---
 
 # Arroz de los Tres Puñaos / Arroz de Vigilia (Arroz Clarico de Vigilia)

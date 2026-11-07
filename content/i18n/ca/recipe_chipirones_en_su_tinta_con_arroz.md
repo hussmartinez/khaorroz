@@ -1,5 +1,5 @@
 ---
-source_hash: a382711a00a0c5ef
+source_hash: 4b65a03853e8770e
 ---
 
 # Chipirones en su Tinta con Arroz Blanco / Txipiroiak Bere Tintan Arroz Zuriarekin

@@ -1,5 +1,5 @@
 ---
-source_hash: ae26702ff82fc2cb
+source_hash: 68effa0a5fef50ba
 ---
 
 # Arroz del Señorito / Arròs del Senyoret

@@ -1,5 +1,5 @@
 ---
-source_hash: b53d0f037773d2b1
+source_hash: bca180bdc7f5f8c4
 ---
 
 # Escudilla de Ángel / Escudella d'Àngel (Arroz con Leche Mallorquín Antiguo)

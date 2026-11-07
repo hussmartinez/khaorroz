@@ -1,5 +1,5 @@
 ---
-source_hash: 8602a4ff8ba178af
+source_hash: a0046c83770712a5
 ---
 
 # Arroz con Perdiz / Arroz Caldoso de Perdiz (Sierras de Jaén y Córdoba)

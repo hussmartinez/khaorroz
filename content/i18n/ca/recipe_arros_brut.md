@@ -1,5 +1,5 @@
 ---
-source_hash: 2e55ecd8043fdab4
+source_hash: 96d6a98b617518c4
 ---
 
 # Arroz Sucio Mallorquín / Arròs Brut

@@ -22,7 +22,7 @@ const m = site(lang);
           <div class="regions">
             {a.regionList.map((r, i) => (
               <a class="region" href={`${langBase(lang)}provinces/${r.slug}`} style={`--i:${i % 12}`} data-reveal>
-                <div class="region-pans" aria-hidden="true" set:html={r.recipes.slice(0, 3).map((d) => panHtml(d, { steam: false })).join("")} />
+                <div class="region-pans" aria-hidden="true" set:html={r.recipes.slice(0, 3).map((d) => `<img class="pan" src="/pans/${d.slug}.svg" width="228" height="228" alt="" loading="lazy" decoding="async">`).join("")} />
                 <div class="region-text"><h3>{r.name}</h3><p>{nDishes(lang, r.recipes.length)}</p></div>
                 <span class="arrow" aria-hidden="true">→</span>
               </a>

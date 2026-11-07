@@ -69,3 +69,18 @@ export const areaIds = () => AREAS.map((a) => a.id);
 export const recipeArea = (p: Page) => p.provinces.map((x) => areaOf(x.file)).find(Boolean);
 export const regionArea = (file: string) => areaOf(file);
 export { AREAS };
+
+/** schema.org recipeCuisine labels: area-level plus a regional one where it adds meaning. */
+const AREA_CUISINE: Record<string, string> = { spain: "Spanish", sham: "Levantine" };
+const REGION_CUISINE: Record<string, string> = {
+  "provincial_valencia.md": "Valencian", "provincial_alicante.md": "Valencian", "provincial_castellon.md": "Valencian",
+  "provincial_catalunya.md": "Catalan", "provincial_baleares.md": "Balearic", "provincial_murcia.md": "Murcian",
+  "provincial_andalucia.md": "Andalusian", "provincial_canarias.md": "Canarian", "provincial_madrid.md": "Madrilenian",
+  "provincial_aragon_navarra_rioja.md": "Aragonese", "provincial_castilla_la_mancha_extremadura.md": "Manchegan",
+  "provincial_castilla_y_leon.md": "Castilian", "provincial_norte.md": "Northern Spanish",
+  "provincial_palestine.md": "Palestinian", "provincial_lebanon.md": "Lebanese", "provincial_jordan.md": "Jordanian", "provincial_syria.md": "Syrian",
+};
+export const cuisinesOf = (p: Page) => {
+  const a = recipeArea(p);
+  return [...new Set([a && AREA_CUISINE[a], ...p.provinces.map((x) => REGION_CUISINE[x.file])].filter(Boolean) as string[])];
+};

@@ -1,5 +1,5 @@
 ---
-source_hash: 7799e90737453425
+source_hash: 906d7f2cac1be932
 ---
 
 # Arroz de Langosta Menorquín / Arròs de Llagosta (Fornells)

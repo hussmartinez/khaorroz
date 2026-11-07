@@ -1,5 +1,5 @@
 ---
-source_hash: 8f6507d9909efea9
+source_hash: 4ef4e4f78863ec2a
 ---
 
 # Arroz con Miel de Bogarra / Arroz con Miel Navideño (Sierra de Albacete)

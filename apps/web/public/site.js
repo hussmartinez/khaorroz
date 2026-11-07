@@ -150,6 +150,9 @@
         apply(false);
       }, 140);
     });
+    // ?q=… (sitelinks search box / shared links) pre-fills the search
+    const q0 = new URLSearchParams(location.search).get("q");
+    if (q0) { q.value = q0; q.dispatchEvent(new Event("input")); }
     // Texture tiles set the filter, then scroll to the grid
     $$("[data-set-texture]").forEach((tile) => tile.addEventListener("click", (e) => {
       e.preventDefault();

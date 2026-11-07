@@ -1,5 +1,5 @@
 ---
-source_hash: accefb9a45b1192e
+source_hash: 89fb01afc17f069b
 ---
 
 # Arroz con Pato / Arròs amb Ànec (Arròs d'Ànec de l'Albufera)

@@ -67,6 +67,10 @@ const en = {
   areaSoon: "Being researched: first dishes soon.",
   exploreArea: "Explore {name}",
   home: "Home",
+  relatedDishes: "Related dishes",
+  photo: "Photo",
+  viaCommons: "via Wikimedia Commons",
+  sources: "Sources",
   missingLink: "Page not written yet",
 };
 type Strings = typeof en;
@@ -136,6 +140,10 @@ const es: Strings = {
   areaSoon: "En investigación: pronto, los primeros platos.",
   exploreArea: "Explorar {name}",
   home: "Inicio",
+  relatedDishes: "Platos relacionados",
+  photo: "Foto",
+  viaCommons: "vía Wikimedia Commons",
+  sources: "Fuentes",
   missingLink: "Página aún no escrita",
 };
 
@@ -204,6 +212,10 @@ const ca: Strings = {
   areaSoon: "En investigació: aviat, els primers plats.",
   exploreArea: "Explorar {name}",
   home: "Inici",
+  relatedDishes: "Plats relacionats",
+  photo: "Foto",
+  viaCommons: "via Wikimedia Commons",
+  sources: "Fonts",
   missingLink: "Pàgina encara no escrita",
 };
 
@@ -272,6 +284,10 @@ const th: Strings = {
   areaSoon: "กำลังค้นคว้า: เมนูแรกเร็ว ๆ นี้",
   exploreArea: "สำรวจ{name}",
   home: "หน้าแรก",
+  relatedDishes: "เมนูที่เกี่ยวข้อง",
+  photo: "รูป",
+  viaCommons: "จาก Wikimedia Commons",
+  sources: "แหล่งอ้างอิง",
   missingLink: "ยังไม่ได้เขียนหน้านี้",
 };
 
@@ -340,6 +356,10 @@ const ar: Strings = {
   areaSoon: "قيد البحث: قريبًا أولى الأطباق.",
   exploreArea: "استكشف {name}",
   home: "الرئيسية",
+  relatedDishes: "أطباق ذات صلة",
+  photo: "صورة",
+  viaCommons: "عبر ويكيميديا كومنز",
+  sources: "المصادر",
   missingLink: "لم تُكتب هذه الصفحة بعد",
 };
 

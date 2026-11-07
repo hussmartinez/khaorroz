@@ -1,5 +1,5 @@
 ---
-source_hash: 7d7c18e1d7ef1829
+source_hash: 6ed2dbf2622b3834
 ---
 
 # Arroz Meloso de Pulpo / Arròs Melós de Polp (i Arròs amb Polp Sec)

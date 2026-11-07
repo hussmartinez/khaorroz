@@ -1,0 +1,36 @@
+---
+// "Related dishes": the recipe's dish families (content/families.json), across areas, localised.
+import { familiesOf } from "@arros/content";
+import { langBase, tr, type SiteModel, type Page } from "../lib/site";
+interface Props { p: Page; m: SiteModel }
+const { p, m } = Astro.props;
+const lang = m.lang;
+const fams = familiesOf(p.file)
+  .map((f) => ({ f, members: f.members.filter((x) => x !== p.file).map((x) => m.byFile.get(x)).filter((x): x is Page => !!x) }))
+  .filter((x) => x.members.length);
+---
+{fams.length > 0 && (
+  <section class="related wrap" id="related" data-pagefind-ignore>
+    <h2 class="section-title">{tr(lang, "relatedDishes")}</h2>
+    {fams.map(({ f, members }) => (
+      <div class="family">
+        <h3 dir="auto">{f.name[lang] ?? f.name.en}</h3>
+        {f.description?.[lang] && <p class="family-desc" dir="auto">{f.description[lang]}</p>}
+        <ul class="family-list">
+          {members.slice(0, 10).map((r) => {
+            const area = m.areas.find((a) => a.id === m.areaOfRecipe(r));
+            const region = r.provinces[0] ? m.regionName(r.provinces[0].file, r.provinces[0].name) : "";
+            return (
+              <li data-theme={area?.theme}>
+                <a href={`${langBase(lang)}${r.url}`}>
+                  <img src={`/pans/${r.slug}.svg`} width="56" height="56" alt="" loading="lazy" decoding="async" />
+                  <span><strong dir="auto">{r.title}</strong>{r.gloss && <small dir="auto">{r.gloss}</small>}<em>{[region, area?.name].filter(Boolean).join(" · ")}</em></span>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    ))}
+  </section>
+)}

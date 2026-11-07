@@ -2,10 +2,14 @@
 import Layout from "../../layouts/Layout.astro";
 import HomeView from "../../components/HomeView.astro";
 import { langPaths, site, tr, type Lang } from "../../lib/site";
+import { graph, organization, website, itemList, pageUrl, plainTitle, BRAND } from "../../lib/seo";
 export const getStaticPaths = langPaths;
 const { lang } = Astro.props as { lang: Lang };
 const m = site(lang);
+const url = pageUrl(lang, "index.html");
+const jsonLd = graph(organization(), website(lang),
+  { "@type": "CollectionPage", "@id": url, url, name: `${BRAND} — ${plainTitle(tr(lang, "heroTitle"))}`, inLanguage: lang, isPartOf: { "@id": `${url.replace(/\/[a-z]{2}\/$/, "/")}#website` }, mainEntity: itemList(m.recipes, lang) });
 ---
-<Layout lang={lang} path="index.html" title={tr(lang, "siteName")} active="recipes" bodyClass="is-home" theme="spain">
+<Layout lang={lang} path="index.html" title={tr(lang, "siteName")} seoTitle={`${BRAND} — ${plainTitle(tr(lang, "heroTitle"))}`} jsonLd={jsonLd} ogImage={{ url: `/og/${lang}/_home.jpg`, width: 1200, height: 675, alt: BRAND }} active="recipes" bodyClass="is-home" theme="spain">
   <HomeView m={m} />
 </Layout>

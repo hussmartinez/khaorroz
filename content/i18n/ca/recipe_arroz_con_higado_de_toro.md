@@ -1,5 +1,5 @@
 ---
-source_hash: 211f6bebd2142545
+source_hash: 56e8eaa4ebd841f2
 ---
 
 # Arroz con Hígado de Toro / Arròs amb Fetge de Bou

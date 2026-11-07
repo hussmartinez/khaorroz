@@ -1,5 +1,5 @@
 ---
-source_hash: 9f752a7b33f816eb
+source_hash: 1df821d2532006f7
 ---
 
 # Arroz con Galeras y Alcachofas / Arròs amb Galeres i Carxofes

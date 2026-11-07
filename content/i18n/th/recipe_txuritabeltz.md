@@ -1,5 +1,5 @@
 ---
-source_hash: 1322308963666010
+source_hash: b1fb585b4db0fd11
 ---
 
 # Txuritabeltz (Relleno Navarro y Sangrecilla) / Txuri-Beltz

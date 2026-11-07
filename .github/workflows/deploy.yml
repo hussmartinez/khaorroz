@@ -16,6 +16,8 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history: per-page datePublished/dateModified and IndexNow diffs
 
       - uses: actions/setup-node@v4
         with:
@@ -41,3 +43,7 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: bunx wrangler@4 deploy
+
+      - name: Notify search engines (IndexNow)
+        continue-on-error: true
+        run: bun scripts/indexnow.ts "${{ github.event.before }}"

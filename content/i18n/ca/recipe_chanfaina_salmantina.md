@@ -1,5 +1,5 @@
 ---
-source_hash: 34e0f1c9a2b047e6
+source_hash: a1ee25f2eb5bacf6
 ---
 
 # Chanfaina Salmantina / Arroz de Chanfaina

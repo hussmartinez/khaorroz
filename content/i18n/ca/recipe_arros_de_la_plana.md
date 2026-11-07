@@ -1,5 +1,5 @@
 ---
-source_hash: 58e1351b631b6450
+source_hash: 16632f2701481c78
 ---
 
 # Arroz de la Plana / Arròs de la Plana (Paella de l'Horta Castellonenca)

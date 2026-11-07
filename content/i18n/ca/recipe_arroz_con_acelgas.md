@@ -1,5 +1,5 @@
 ---
-source_hash: 7e7adc793aa21330
+source_hash: fff1c00635dc2a42
 ---
 
 # Arroz con Acelgas / Arròs amb Bledes (Arròs en Banderetes)
