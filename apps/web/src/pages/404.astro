@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { site, panHtml } from "../lib/site";
+const m = site("en");
+const dish = m.recipes.find((r) => r.spec?.base === "negro") ?? m.recipes[0];
+---
+<Layout lang="en" path="404.html" title="Page not found" active="">
+  <main class="wrap" style="text-align:center;padding:4rem 0 6rem">
+    <div style="max-width:260px;margin:0 auto" set:html={dish ? panHtml(dish, { steam: true, cls: "hero-pan" }) : ""} />
+    <h1 style="font-size:clamp(2.4rem,6vw,4.4rem);margin:1.5rem 0 .5rem">This pan is empty.</h1>
+    <p class="lede" style="margin:0 auto 2rem">The page you were looking for isn't here. Maybe it's still simmering.</p>
+    <a class="btn btn-primary" href="/index.html">Back to the recipes</a>
+  </main>
+</Layout>

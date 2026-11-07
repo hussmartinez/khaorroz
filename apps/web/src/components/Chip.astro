@@ -1,0 +1,6 @@
+---
+import { texLabel, type Lang } from "../lib/site";
+const { lang, texture } = Astro.props as { lang: Lang; texture: string };
+const label = texLabel(lang, texture);
+---
+{label && <span class={`chip chip-${texture}`}><i></i>{label}</span>}

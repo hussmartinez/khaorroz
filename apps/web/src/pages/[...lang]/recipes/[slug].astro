@@ -1,0 +1,43 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import Chip from "../../../components/Chip.astro";
+import Toc from "../../../components/Toc.astro";
+import Notice from "../../../components/Notice.astro";
+import { LANGS, langParam, langBase, site, renderPage, panHtml, tr, vtName, VESSEL, provSlug, HTML_LANG, DEFAULT_LANG, type Lang } from "../../../lib/site";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => site(lang).recipes.map((p) => ({ params: { lang: langParam(lang), slug: p.slug }, props: { lang, file: p.file } })));
+}
+const { lang, file } = Astro.props as { lang: Lang; file: string };
+const m = site(lang);
+const p = m.byFile.get(file)!;
+const { html, headings } = renderPage(p, m);
+const base = langBase(lang);
+---
+<Layout lang={lang} path={p.url} title={p.title} active="recipes" description={p.summary} bodyClass="is-recipe">
+  <main class={`recipe base-${p.spec?.base ?? "none"}`}>
+    <header class="recipe-hero">
+      <div class="rh-text">
+        <p class="kicker">{tr(lang, "kickerRecipe")} · {tr(lang, "readTime", { n: p.minutes })}</p>
+        <h1 class="rh-title" data-pagefind-meta="title">{p.title}</h1>
+        {p.altTitle && <p class="alt-title">{p.altTitle}</p>}
+        <div class="tags">
+          <Chip lang={lang} texture={p.texture} />
+          {p.spec && <span class="tag"><span class="tag-k">{tr(lang, "vessel")}</span> {VESSEL[p.spec.vessel]}</span>}
+          {p.provinces.map((x) => <a class="tag" href={`${base}provinces/${provSlug(x.file)}.html`}><span class="pin" aria-hidden="true"></span>{m.regionName(x.file, x.name)}</a>)}
+        </div>
+        <Notice lang={lang} status={p.status} />
+        <div class="rh-actions">
+          <button class="btn btn-primary" type="button" data-cook aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h16v2a7 7 0 0 1-7 7h-2a7 7 0 0 1-7-7zM2 11h2M20 11h2M9 4c-1 1 1 2 0 4M13 3c-1 1 1 3 0 5"/></svg><span>{tr(lang, "cookingMode")}</span></button>
+          <button class="btn" type="button" onclick="window.print()"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M6 14h12v7H6z"/></svg><span>{tr(lang, "print")}</span></button>
+        </div>
+        <p class="cook-hint" hidden>{tr(lang, "cookingModeOn")} · {tr(lang, "tapToCheck")}</p>
+      </div>
+      <div class="rh-visual" style={`view-transition-name:${vtName("pan", p.slug)}`} set:html={panHtml(p, { cls: "hero-pan", label: true })} />
+    </header>
+    <div class={`page${headings.length > 1 ? " with-toc" : ""}`}>
+      <Toc lang={lang} headings={headings} />
+      <article class="prose" data-pagefind-body data-timer-label={tr(lang, "timerStart", { n: "{n}" })} lang={p.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined} set:html={html} />
+    </div>
+  </main>
+</Layout>

@@ -1,0 +1,20 @@
+---
+import Chip from "./Chip.astro";
+import { langBase, panHtml, vtName, VESSEL, type SiteModel, type Page } from "../lib/site";
+interface Props { p: Page; m: SiteModel; i?: number }
+const { p, m, i = 0 } = Astro.props;
+const provs = p.provinces.map((x) => m.regionName(x.file, x.name)).join(" · ");
+const search = `${p.title} ${p.altTitle} ${p.zone} ${p.summary}`.toLowerCase();
+---
+<a class={`card base-${p.spec?.base ?? "none"}`} href={`${langBase(m.lang)}${p.url}`}
+   style={`--i:${i % 12};view-transition-name:${vtName("card", p.slug)}`} data-reveal data-slug={p.slug}
+   data-texture={p.texture} data-provinces={p.provinces.map((x) => x.file).join(" ")} data-search={search}>
+  <div class="card-visual" style={`view-transition-name:${vtName("pan", p.slug)}`} set:html={panHtml(p)} />
+  <div class="card-body">
+    <div class="card-meta"><Chip lang={m.lang} texture={p.texture} />{p.spec && <span class="vessel">{VESSEL[p.spec.vessel]}</span>}</div>
+    <h3>{p.title}</h3>
+    {p.altTitle && <p class="alt">{p.altTitle}</p>}
+    <p class="summary">{p.summary}</p>
+    {provs && <p class="card-foot"><span class="pin" aria-hidden="true"></span>{provs}<span class="arrow" aria-hidden="true">→</span></p>}
+  </div>
+</a>

@@ -1,0 +1,14 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Article from "../../components/Article.astro";
+import { langPaths, site, tr, type Lang } from "../../lib/site";
+export const getStaticPaths = langPaths;
+const { lang } = Astro.props as { lang: Lang };
+const m = site(lang);
+const page = m.byFile.get("README.md");
+---
+<Layout lang={lang} path="about.html" title={page?.title ?? tr(lang, "aboutTitle")} active="about" description={page?.summary}>
+  {page ? <Article p={page} m={m} kicker={tr(lang, "kickerAbout")} /> : (
+    <main><header class="page-hero"><div class="wrap"><h1>{tr(lang, "aboutTitle")}</h1><p class="note">{tr(lang, "stillResearched")}</p></div></header></main>
+  )}
+</Layout>

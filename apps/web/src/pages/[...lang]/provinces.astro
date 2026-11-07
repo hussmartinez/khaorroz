@@ -1,0 +1,25 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { langPaths, langBase, site, tr, nDishes, panHtml, type Lang } from "../../lib/site";
+export const getStaticPaths = langPaths;
+const { lang } = Astro.props as { lang: Lang };
+const m = site(lang);
+---
+<Layout lang={lang} path="provinces.html" title={tr(lang, "navRegions")} active="provinces">
+  <main>
+    <header class="page-hero"><div class="wrap">
+      <p class="kicker">{tr(lang, "navRegions")}</p>
+      <h1>{tr(lang, "regionsTitle")}</h1>
+      <p class="lede">{tr(lang, "regionsLede")}</p>
+    </div></header>
+    <section class="wrap"><div class="regions">
+      {m.regions.map((r, i) => (
+        <a class="region" href={`${langBase(lang)}provinces/${r.slug}.html`} style={`--i:${i % 12}`} data-reveal>
+          <div class="region-pans" aria-hidden="true" set:html={r.recipes.slice(0, 3).map((d) => panHtml(d, { steam: false })).join("")} />
+          <div class="region-text"><h3>{r.name}</h3><p>{nDishes(lang, r.recipes.length)}</p></div>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      ))}
+    </div></section>
+  </main>
+</Layout>

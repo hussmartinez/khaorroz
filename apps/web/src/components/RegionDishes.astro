@@ -1,0 +1,11 @@
+---
+import Grid from "./Grid.astro";
+import { tr, type SiteModel, type Page } from "../lib/site";
+const { m, name, list } = Astro.props as { m: SiteModel; name: string; list: Page[] };
+---
+{list.length > 0 && (
+  <section class="wrap dishes">
+    <h2 class="section-title" data-reveal>{tr(m.lang, "dishesFrom", { name })}</h2>
+    <Grid list={list} m={m} />
+  </section>
+)}

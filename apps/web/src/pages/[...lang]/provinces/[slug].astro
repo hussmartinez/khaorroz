@@ -1,0 +1,26 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import Article from "../../../components/Article.astro";
+import RegionDishes from "../../../components/RegionDishes.astro";
+import { LANGS, langParam, site, tr, panHtml, type Lang } from "../../../lib/site";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => site(lang).regions.map((r) => ({ params: { lang: langParam(lang), slug: r.slug }, props: { lang, file: r.file } })));
+}
+const { lang, file } = Astro.props as { lang: Lang; file: string };
+const m = site(lang);
+const r = m.regions.find((x) => x.file === file)!;
+---
+<Layout lang={lang} path={`provinces/${r.slug}.html`} title={r.name} active="provinces" description={r.page?.summary}>
+  {r.page ? (
+    <Article p={r.page} m={m} kicker={tr(lang, "kickerRegion")} title={r.name}>
+      {r.recipes.length > 0 && <div slot="head" class="mini-pans" aria-hidden="true" set:html={r.recipes.slice(0, 5).map((d) => panHtml(d, { steam: false })).join("")} />}
+      <RegionDishes m={m} name={r.name} list={r.recipes} />
+    </Article>
+  ) : (
+    <main>
+      <header class="page-hero"><div class="wrap"><h1>{r.name}</h1><p class="note">{tr(lang, "stillResearched")}</p></div></header>
+      <RegionDishes m={m} name={r.name} list={r.recipes} />
+    </main>
+  )}
+</Layout>

@@ -1,0 +1,6 @@
+---
+import { adHtml, type AdKind } from "../lib/ads";
+import { tr, type Lang } from "../lib/site";
+const { lang, kind } = Astro.props as { lang: Lang; kind: AdKind };
+---
+<Fragment set:html={adHtml(kind, tr(lang, "advertisement"))} />

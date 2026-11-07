@@ -1,0 +1,80 @@
+---
+import { LANGS, HTML_LANG, langBase, tr, type Lang } from "../lib/site";
+import { UI } from "../lib/i18n";
+import { ADS } from "../lib/ads";
+
+interface Props {
+  lang: Lang;
+  path: string; // page path relative to a language root, e.g. "recipes/paella-valenciana.html"
+  title: string;
+  active: "recipes" | "history" | "provinces" | "about" | "";
+  description?: string;
+  bodyClass?: string;
+}
+const { lang, path, title, active, description, bodyClass } = Astro.props;
+const base = langBase(lang);
+const isErrorPage = path === "404.html";
+const switchPath = isErrorPage ? "index.html" : path;
+const site = tr(lang, "siteName");
+const fullTitle = title === site ? title : `${title} · ${site}`;
+const pretty = (lg: Lang) => `${langBase(lg)}${path === "index.html" ? "" : path}`;
+const canonical = new URL(pretty(lang), Astro.site).href;
+const nav = [
+  ["index.html", tr(lang, "navRecipes"), "recipes"],
+  ["history.html", tr(lang, "navHistory"), "history"],
+  ["provinces.html", tr(lang, "navRegions"), "provinces"],
+  ["about.html", tr(lang, "navAbout"), "about"],
+] as const;
+---
+<!doctype html>
+<html lang={HTML_LANG[lang]}>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fbf6ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16120e" media="(prefers-color-scheme: dark)">
+<title>{fullTitle}</title>
+<meta name="description" content={description ?? tr(lang, "metaDescription")}>
+{!isErrorPage && <link rel="canonical" href={canonical}>}
+{!isErrorPage && LANGS.map((lg) => <link rel="alternate" hreflang={HTML_LANG[lg]} href={new URL(pretty(lg), Astro.site).href}>)}
+{!isErrorPage && <link rel="alternate" hreflang="x-default" href={new URL(pretty("en"), Astro.site).href}>}
+<meta property="og:title" content={fullTitle}>
+<meta property="og:description" content={description ?? tr(lang, "metaDescription")}>
+<meta property="og:type" content={path.startsWith("recipes/") ? "article" : "website"}>
+<meta property="og:url" content={canonical}>
+<meta property="og:locale" content={HTML_LANG[lang]}>
+<script is:inline>document.documentElement.classList.add("js")</script>
+<link rel="preload" href="/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/fonts.css">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥘</text></svg>">
+{ADS.mode === "live" && ADS.head && <Fragment set:html={ADS.head} />}
+</head>
+<body class={bodyClass}>
+<div class="progress" aria-hidden="true"></div>
+<a class="skip" href="#main">↓</a>
+<header class="site-header" data-pagefind-ignore>
+  <a class="brand" href={`${base}index.html`}><span class="brand-pan" aria-hidden="true"></span><span>Arròs</span></a>
+  <nav class="main-nav">
+    {nav.map(([h, l, k]) => <a href={`${base}${h}`} aria-current={k === active ? "page" : undefined}>{l}</a>)}
+  </nav>
+  <details class="lang">
+    <summary aria-label={tr(lang, "language")}><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg><span>{UI[lang].langName}</span></summary>
+    <div class="lang-menu">
+      {LANGS.map((lg) => <a href={`${langBase(lg)}${switchPath}`} hreflang={HTML_LANG[lg]} lang={HTML_LANG[lg]} data-lang={lg} aria-current={lg === lang ? "true" : undefined}>{UI[lg].langName}</a>)}
+    </div>
+  </details>
+</header>
+<div id="main">
+<slot />
+</div>
+<footer class="site-footer" data-pagefind-ignore>
+  <div class="footer-pan" aria-hidden="true"></div>
+  <p class="footer-big">{tr(lang, "footer1")}</p>
+  <p class="small">{tr(lang, "footer2")}</p>
+  <p class="small"><a href="#top" data-top>{tr(lang, "backToTop")} ↑</a></p>
+</footer>
+<div class="timers" aria-live="polite" data-done={tr(lang, "timerDone")}></div>
+<script is:inline src="/site.js" defer></script>
+</body>
+</html>

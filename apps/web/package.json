@@ -1,0 +1,18 @@
+{
+  "name": "@arros/web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist --output-subdir pagefind",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@arros/content": "workspace:*",
+    "@arros/pans": "workspace:*",
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.4.7",
+    "marked": "^18.1.3",
+    "pagefind": "^1.6.0"
+  }
+}

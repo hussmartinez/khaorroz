@@ -1,0 +1,11 @@
+---
+// Card grid with an in-feed ad slot after every 9 cards.
+import Card from "./Card.astro";
+import Ad from "./Ad.astro";
+import type { SiteModel, Page } from "../lib/site";
+interface Props { list: Page[]; m: SiteModel; id?: string }
+const { list, m, id } = Astro.props;
+---
+<div class="grid" id={id}>
+  {list.map((p, i) => <>{i > 0 && i % 9 === 0 && <Ad lang={m.lang} kind="inFeed" />}<Card p={p} m={m} i={i} /></>)}
+</div>

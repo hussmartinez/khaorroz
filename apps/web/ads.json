@@ -1,0 +1,11 @@
+{
+  "_comment": "mode: placeholder (reserved, labelled boxes) | off (no slots at all) | live (inject the snippets below). In live mode, 'head' goes into <head> and each slot's HTML replaces its placeholder. Leave a slot empty to keep its space blank.",
+  "mode": "placeholder",
+  "head": "",
+  "slots": {
+    "banner": "",
+    "inFeed": "",
+    "inArticle": "",
+    "sidebar": ""
+  }
+}

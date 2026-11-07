@@ -1,0 +1,32 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Article from "../../components/Article.astro";
+import { langPaths, langBase, site, tr, panHtml, renderPage, HTML_LANG, DEFAULT_LANG, type Lang } from "../../lib/site";
+import { marked } from "marked";
+export const getStaticPaths = langPaths;
+const { lang } = Astro.props as { lang: Lang };
+const m = site(lang);
+const page = m.byFile.get("history.md");
+// Until history.md exists: each dish's own history section.
+const entries = page ? [] : m.recipes.map((r) => {
+  const sec = r.body.split(/^## /m).find((s) => /^(2\.|.*Histor)/i.test(s));
+  return sec ? { r, html: marked.parse(sec.split("\n").slice(1).join("\n"), { async: false }) as string } : null;
+}).filter((x) => x !== null);
+---
+<Layout lang={lang} path="history.html" title={page?.title ?? tr(lang, "navHistory")} active="history" description={page?.summary}>
+  {page ? <Article p={page} m={m} kicker={tr(lang, "kickerHistory")} /> : (
+    <main>
+      <header class="page-hero"><div class="wrap">
+        <p class="kicker">{tr(lang, "kickerHistory")}</p><h1>{tr(lang, "historyFallbackTitle")}</h1><p class="lede">{tr(lang, "historyFallbackLede")}</p>
+      </div></header>
+      <div class="page"><article class="prose wide">
+        {entries.map(({ r, html }) => (
+          <section class="history-entry" data-reveal lang={r.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined}>
+            <a class="he-pan" href={`${langBase(lang)}${r.url}`} aria-hidden="true" tabindex="-1" set:html={panHtml(r, { steam: false })} />
+            <div><h2 id={r.slug}><a href={`${langBase(lang)}${r.url}`}>{r.title}</a></h2>{r.altTitle && <p class="alt">{r.altTitle}</p>}<Fragment set:html={html} /></div>
+          </section>
+        ))}
+      </article></div>
+    </main>
+  )}
+</Layout>

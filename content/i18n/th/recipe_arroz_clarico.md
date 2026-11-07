@@ -1,0 +1,84 @@
+---
+source_hash: 1f50657f5e070d9e
+---
+
+# Arroz Clarico (con Hierbabuena) / Arroz Clarico de la Vega Baja
+
+> ⬅ [หน้าหลัก](README.md) · [จังหวัด Alacant](provincial_alicante.md) · [Región de Murcia (แคว้นมูร์เซีย)](provincial_murcia.md)
+
+> ⚠️ **หมายเหตุเรื่องความน่าเชื่อถือของแหล่งข้อมูล:** เป็นอาหารบ้านที่ยังทำกันอยู่ แต่แทบ**ไม่มีบันทึกออนไลน์** ร่องรอยที่เป็นลายลักษณ์อักษรมีดังนี้ (1) บทความสำรวจอาหารของ Orihuela โดย Directo al Paladar จัด *arroz clarico* ไว้ในกลุ่มอาหารของ huerta (สวนชลประทาน) ร่วมกับ potaje (สตูว์ถั่ว) และข้าวผัก (2) ผู้อ่านจาก Orihuela ในบล็อกสูตรอาหารของ Vega Baja บรรยายว่าเป็น **"สตูว์เนื้อแบบ cocido ใส่ถั่วลูกไก่นิดเดียว และต้องมี *hierbabuena* (สะระแหน่) เสมอ"** ซึ่งต่างจาก *arroz clarico de vigilia* ของช่วงมหาพรตใน Almoradí (ดู [tres puñaos](recipe_arroz_de_los_tres_punaos.md)) (3) ผู้ใช้แอตลาสนี้รายงานว่าเป็น**ข้าวน้ำ (caldoso) ที่ทำกันทั่วไปใน Vega Baja น้ำซุปสีเหลืองอ่อนและใส่สะระแหน่** ตำราอาหารประจำ comarca ของ Vega Baja (CONVEGA) **ไม่ได้**รวมจานนี้ไว้ ปริมาณด้านล่างจึงสร้างขึ้นใหม่จากคำบรรยายดังกล่าวบวกกับวิธีทำ cocido ของ comarca โปรดตรวจสอบกับผู้ปรุงใน Vega Baja โดยเฉพาะเรื่องการเลือกเนื้อสัตว์และจังหวะใส่สะระแหน่
+
+## 1. ข้อมูลพื้นที่และเนื้อสัมผัส
+*   **Primary Geographic Zone:** La Vega Baja del Segura (เวกา บาฆา เดล เซกูรา) ได้แก่ Orihuela และ huerta รอบเมือง ส่วนใน Almoradí ก็ได้ยินชื่อเดียวกัน (สำหรับฉบับวันถือศีลที่ไม่ใส่เนื้อ) และน่าจะแพร่ไปถึง huerta ของ Murcia ด้วย ⚠️
+*   **Liquid & Texture Profile:** **Caldoso** (ข้าวน้ำ) น้ำซุปสีเหลืองที่ "clarico" (คำย่อเชิงเอ็นดูของ *claro* แปลว่าใส) มีข้าวลอยอยู่ กินด้วยช้อน
+*   **ภาชนะและเชื้อเพลิงดั้งเดิม:** *olla* (หม้อทรงสูง) หรือ *cazuela* (หม้อดิน) บนเตา ใบเดียวกับที่ใช้ทำ cocido
+
+## 2. บริบททางประวัติศาสตร์และวัฒนธรรม
+ชื่อบอกทุกอย่าง ***clarico*** คือคำย่อเชิงเอ็นดูของ *claro* ("บาง ใส") ในภาษาถิ่น Vega Baja และ Murcia หมายถึงข้าวที่ต้มใน**น้ำซุปใสปริมาณมาก** ตรงข้ามกับ potaje ถั่วที่ข้นหรือ paella แบบแห้ง จานนี้อยู่ใน**วัฒนธรรม cocido** (สตูว์ต้มเนื้อกับถั่ว) ของ comarca ครัวเดียวกับที่ทำ *cocido con pelotas* (cocido ใส่ลูกชิ้น) ช่วงคริสต์มาสและ *olla gitana* ก็ทำ clarico เป็นอาหารประจำวัน โดยต้มเนื้อและกระดูกกับ**ถั่วลูกไก่กำมือเล็กๆ** แล้วแต่งสีน้ำซุปให้**เหลือง**ด้วยหญ้าฝรั่น หรือที่พบบ่อยมากในบ้านสมัยนี้คือ *colorante* (ผงสีผสมอาหาร) จากนั้นหุงข้าวลงในน้ำซุปโดยตรง กลิ่นหอมที่เป็นหัวใจของจานคือ ***hierbabuena*** (สะระแหน่สเปียร์มินต์) ซึ่งเป็นเอกลักษณ์ของ Murcia และ Vega Baja ที่เชื่อมโยงจานนี้กับ *olla gitana* ที่หอมสะระแหน่ และกับสะระแหน่ที่ใส่ใน *pelotas* (ลูกชิ้น) ของ Vega Baja ท้ายที่สุดแล้วสะท้อนการใช้สะระแหน่สดในน้ำซุปแบบอันดาลูซีสมัยมุสลิม
+
+**ชื่อที่ซ้ำกัน**เป็นตัวอย่างคลาสสิกของความเป็นท้องถิ่นเฉพาะจุด ใน **Orihuela** "arroz clarico" คือน้ำซุปเนื้อใส่สะระแหน่จานนี้ แต่ใน **Almoradí** "arroz clarico de vigilia" คือข้าวไม่ใส่เนื้อของช่วงมหาพรต ที่คน Orihuela เรียกว่า *de los tres puñaos* คำที่ใช้ร่วมกันคือ *clarico* หมายถึงเนื้อสัมผัส (ข้าวน้ำใส) ไม่ได้หมายถึงวัตถุดิบใดโดยเฉพาะ
+
+**วิทยาศาสตร์การทำอาหาร:** กลิ่นของสะระแหน่ (คาร์โวนและลิโมนีน) **ระเหยง่ายและไวต่อความร้อน** การต้มนานทำให้กลิ่นจางเหลือแค่กลิ่นสมุนไพรทื่อๆ ส่วนการใส่ตอนท้ายจะคงความสดชื่นไว้ ด้วยเหตุนี้สตูว์ของ Murcia ที่หอมสะระแหน่ส่วนใหญ่จึงใส่ *hierbabuena* ในไม่กี่นาทีสุดท้าย หรือวางกิ่งหนึ่งไว้ในแต่ละชาม สารโครซินในหญ้าฝรั่นละลายน้ำได้และให้น้ำซุป "สีเหลืองอ่อน" ส่วน colorante (ประเภททาร์ทราซีน) ให้สีได้เหมือนแต่ไม่มีกลิ่นของหญ้าฝรั่น
+
+## 3. ความแตกต่างของแต่ละเมือง (สำคัญ)
+*   **สไตล์ Orihuela (บันทึกโดยผู้อ่านชาว Orihuela):** น้ำซุปเนื้อ "แบบ cocido" **ถั่วลูกไก่น้อย** **ต้องใส่ hierbabuena** เป็นข้าวน้ำ (caldoso)
+*   **"Clarico de vigilia" ของ Almoradí (มหาพรต):** ชื่อและเนื้อสัมผัสเหมือนกัน แต่**ไม่ใส่เนื้อ** ใช้ถั่วแขก ถั่วเลนทิล ผัก และข้าว มีบันทึกแยกไว้ในหน้า [arroz de los tres puñaos](recipe_arroz_de_los_tres_punaos.md)
+*   **ฉบับตามบ้านที่อาจมี:** ⚠️ ไม่มีบันทึก เช่น ใช้ไก่หรือแม่ไก่ (*gallina*) แทนกระดูกหมูและ *magro* (เนื้อหมูไม่ติดมัน) ใส่หรือไม่ใส่มันฝรั่ง ใช้หญ้าฝรั่นหรือ colorante และใส่ *pelotas* ในวันพิเศษหรือไม่ ถือเป็นคำถามสำหรับผู้ปรุงท้องถิ่น
+
+## 4. สูตรหลัก (พิมพ์เขียวสำหรับ 4 คน)
+*สูตรที่นำเสนอ: **clarico เนื้อแบบ Orihuela** ที่สร้างขึ้นใหม่*
+
+### ฐานรสชาติ (El Fondo)
+| ส่วนผสม | ปริมาณ |
+|---|---|
+| ไก่บ้านหรือแม่ไก่ (*gallina*) หั่นเป็นชิ้น | 600 g |
+| กระดูกสันหลังหมู (*espinazo*) + *magro* หรือซี่โครงหมู 1 ชิ้น | 300 g + 200 g |
+| ถั่วลูกไก่ แช่น้ำ 12 ชม. ("น้อยๆ") | 80–100 g |
+| มันฝรั่ง หั่นเป็นชิ้น | 1 หัวใหญ่ (300 g) |
+| มะเขือเทศสุก ผ่าครึ่ง (หรือขูด) | 1 ลูก |
+| กระเทียม | 2 กลีบ |
+| น้ำมันมะกอก | 40 ml |
+| เส้นหญ้าฝรั่น (หรือ colorante) | 0.2–0.3 g |
+| น้ำ | 3 L |
+| **Hierbabuena** (สะระแหน่สด) | 1 กำใหญ่ (≈ 15 g) |
+| เกลือ | ตามชอบ |
+
+### สัดส่วนการประกอบ
+| องค์ประกอบ | ปริมาณ |
+|---|---|
+| ข้าวเมล็ดกลม (Calasparra หรือ Senia/Bahía) | 250–280 g |
+| น้ำซุปตอนใส่ข้าว | ≈ 2 L (≈ 7–8 : 1 เป็นข้าวน้ำใส) |
+
+### ขั้นตอนการทำทีละขั้น
+1. **ฐาน cocido:** ใส่ไก่ กระดูกหมู magro และถั่วลูกไก่ที่แช่แล้วลงในน้ำเย็น 3 L ค่อยๆ ต้มให้เดือด แล้ว**ช้อนฟอง**ออกอย่างพิถีพิถัน เพราะหัวใจของจานคือน้ำซุปใส เคี่ยวไฟอ่อน **1 ชม. 15 นาที** (หรือ 30 นาทีในหม้ออัดแรงดัน)
+2. **Sofrito (ซอฟริโต ฐานผัด):** ในกระทะ เจียวกระเทียมในน้ำมัน ตามด้วยมะเขือเทศ 5 นาที เทลงหม้อพร้อมหญ้าฝรั่นและมันฝรั่ง เคี่ยวไฟอ่อน **15 นาที** ตอนนี้น้ำซุปควรเป็นสีเหลืองทอง
+3. **เนื้อ:** ยกกระดูกออก แกะเนื้อแล้วใส่กลับลงหม้อ ปรับรสเกลือ ควรมีน้ำซุปเหลือ ≈ 2 L
+4. **ข้าว:** ต้มให้เดือดปุดๆ ใส่ข้าวแล้วต้ม **16–17 นาที** คนเบาๆ เท่านั้น เพราะน้ำซุปควรยัง *clarico* ไม่ข้นด้วยแป้ง
+5. **สะระแหน่:** ใน **2–3 นาทีสุดท้าย** ใส่สะระแหน่ครึ่งหนึ่ง (ทั้งกิ่ง) ตักออกตอนเสิร์ฟ หรือทิ้งไว้ถ้าชอบกลิ่นแรงขึ้น
+6. **จบ:** เสิร์ฟทันทีในจานลึก วางใบสะระแหน่สดจานละหนึ่งหรือสองใบ ข้าวน้ำไม่ต้องพัก
+
+## 5. ลิงก์อ้างอิงที่น่าเชื่อถือ
+*   [Directo al Paladar – La cocina de Orihuela ("arroz clarico" ในกลุ่มอาหารของ huerta)](https://www.directoalpaladar.com/cultura-gastronomica/la-cocina-de-orihuela)
+*   [Mercado Calabajío – Arroz de los 3 puñaos (ความคิดเห็น: "arroz clarico" ใส่เนื้อของ Orihuela ที่ต้องมี hierbabuena เทียบกับ "clarico de vigilia" ของ Almoradí)](https://www.mercadocalabajio.com/2018/03/arroz-clarico-o-de-los-3-punaos-receta.html)
+*   [Los domingos cocino yo – Arroz clarico de vigilia (o de los tres "puñaos")](http://losdomingoscocinoyo.blogspot.com/2012/10/arroz-clarico-de-vigilia-o-de-los-tres.html)
+*   [CONVEGA – Recetario de la Vega Baja (PDF; บริบทเรื่อง cocido และข้าวน้ำของ comarca)](https://convega.com/wp-content/uploads/2026/05/Recetario.pdf)
+
+## 6. เมนูที่เกี่ยวข้อง
+
+**ข้าวหม้อฤดูหนาวและข้าวฤดู matanza (ฆ่าหมู):** หม้อตุ๋นแบบ olla ใส่ถั่ว เนื้อหมู และเครื่องใน แล้วหุงข้าวลงไปในหม้อ
+
+*   [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md): València · Caldoso
+*   [Olla de Benicarló (con Arroz)](recipe_olla_de_benicarlo.md): Castellón · Caldoso
+*   [Arroz con Pata de Ternera](recipe_arroz_con_pata_de_ternera.md): Alicante · Meloso
+*   [Arroz de Matanza Ibicenco](recipe_arros_de_matances_eivissa.md): Illes Balears · Caldoso
+*   [Arroz Sucio Mallorquín](recipe_arros_brut.md): Illes Balears · Caldoso
+*   [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md): Alicante · Meloso
+*   [Arroz con Hígado de Toro](recipe_arroz_con_higado_de_toro.md): València · Meloso
+*   [Colas de Cordero con Arroz](recipe_arroz_con_colas_de_cordero.md): Aragón, Navarra และ La Rioja · Caldoso
+*   [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md): Catalunya · Caldoso
+*   [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md): Región de Murcia · Caldoso
+*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
+*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): València · Seco
+*   [Arroz a la Zamorana](recipe_arroz_a_la_zamorana.md): Castilla y León · Meloso
+*   [Chanfaina Salmantina](recipe_chanfaina_salmantina.md): Castilla y León · Meloso
+*   [Txuritabeltz (Relleno Navarro y Sangrecilla)](recipe_txuritabeltz.md): Aragón, Navarra และ La Rioja · Seco

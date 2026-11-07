@@ -1,0 +1,19 @@
+{
+  "name": "arros",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "cd apps/web && bun run dev",
+    "build": "cd apps/web && bun run build",
+    "check": "bun scripts/check.ts",
+    "i18n-status": "bun scripts/i18n-status.ts",
+    "deploy": "scripts/deploy.sh"
+  },
+  "dependencies": {
+    "@arros/content": "workspace:*"
+  }
+}
