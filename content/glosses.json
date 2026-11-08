@@ -1334,6 +1334,237 @@
    "ca": "Arròs fregit de palau dels receptaris dels anys 30 i 40, fregit amb greix de porc amb gambes i ou",
    "th": "ข้าวผัดชาววังจากตำราอาหารงานศพ พ.ศ. 2478–2492 ผัดน้ำมันหมูกับกุ้งและไข่",
    "ar": "أرز القصر المقلي من كتب الطبخ في الثلاثينيات والأربعينيات، مقلي بدهن الخنزير مع الروبيان والبيض"
+  },
+  "recipe_kaeng_khiao_wan.md": {
+   "en": "Green coconut curry with chicken and Thai basil, ladled over jasmine rice",
+   "es": "Curry verde de coco con pollo y albahaca tailandesa, servido sobre arroz jazmín",
+   "ca": "Curri verd de coco amb pollastre i alfàbrega tailandesa, servit sobre arròs jasmí",
+   "th": "แกงเขียวหวานไก่ใส่โหระพา ราดบนข้าวหอมมะลิ",
+   "ar": "كاري أخضر بجوز الهند مع الدجاج والريحان التايلاندي يُسكب على أرز الياسمين"
+  },
+  "recipe_kaeng_phet.md": {
+   "en": "Red coconut curry with chicken or beef and bamboo shoots, eaten with jasmine rice",
+   "es": "Curry rojo de coco con pollo o ternera y brotes de bambú, con arroz jazmín",
+   "ca": "Curri vermell de coco amb pollastre o vedella i brots de bambú, amb arròs jasmí",
+   "th": "แกงเผ็ดไก่หรือเนื้อใส่หน่อไม้ กินกับข้าวหอมมะลิ",
+   "ar": "كاري أحمر بجوز الهند مع الدجاج أو اللحم وبراعم الخيزران يؤكل مع أرز الياسمين"
+  },
+  "recipe_kaeng_phet_pet_yang.md": {
+   "en": "Red curry with Chinese roast duck, pineapple or lychee and tomatoes, served with rice",
+   "es": "Curry rojo con pato asado chino, piña o lichi y tomates, servido con arroz",
+   "ca": "Curri vermell amb ànec rostit xinès, pinya o litxi i tomàquets, servit amb arròs",
+   "th": "แกงเผ็ดเป็ดย่างใส่สับปะรดหรือลิ้นจี่และมะเขือเทศ กินกับข้าว",
+   "ar": "كاري أحمر بالبط الصيني المشوي والأناناس أو الليتشي والطماطم يُقدَّم مع الأرز"
+  },
+  "recipe_kaeng_matsaman.md": {
+   "en": "Mild spiced coconut curry with beef, potato and peanuts, of Persian-Muslim memory, eaten with rice",
+   "es": "Curry suave de coco especiado con ternera, patata y cacahuetes, de memoria persa-musulmana, con arroz",
+   "ca": "Curri suau de coco especiat amb vedella, patata i cacauets, de memòria persa-musulmana, amb arròs",
+   "th": "แกงมัสมั่นเนื้อใส่มันฝรั่งและถั่วลิสง แกงเครื่องเทศรสกลมกล่อม กินกับข้าว",
+   "ar": "كاري ماسمان بجوز الهند والتوابل مع اللحم والبطاطا والفول السوداني، ذو أصول فارسية إسلامية، يؤكل مع الأرز"
+  },
+  "recipe_phanaeng.md": {
+   "en": "Thick red coconut curry with sliced beef and makrut lime leaf, eaten with rice",
+   "es": "Curry rojo espeso de coco con ternera en lonchas y hoja de lima kafir, con arroz",
+   "ca": "Curri vermell espès de coco amb vedella a làmines i fulla de llima kaffir, amb arròs",
+   "th": "พะแนงเนื้อ แกงกะทิข้นโรยใบมะกรูด กินกับข้าว",
+   "ar": "كاري أحمر كثيف بجوز الهند مع شرائح اللحم وورق الليمون الكافيري يؤكل مع الأرز"
+  },
+  "recipe_kaeng_som_central.md": {
+   "en": "Sour tamarind curry-soup with fish or prawns and vegetables, eaten with rice",
+   "es": "Sopa-curry ácida de tamarindo con pescado o gambas y verduras, con arroz",
+   "ca": "Sopa-curri àcida de tamarinde amb peix o gambes i verdures, amb arròs",
+   "th": "แกงส้มปลาหรือกุ้งใส่ผัก รสเปรี้ยวจากมะขาม กินกับข้าว",
+   "ar": "شوربة كاري حامضة بالتمر الهندي مع السمك أو الروبيان والخضار تؤكل مع الأرز"
+  },
+  "recipe_kaeng_liang.md": {
+   "en": "Peppery vegetable soup with prawns, pumpkin and lemon basil, eaten with rice",
+   "es": "Sopa de verduras a la pimienta con gambas, calabaza y albahaca limón, con arroz",
+   "ca": "Sopa de verdures amb pebre, gambes, carbassa i alfàbrega llimona, amb arròs",
+   "th": "แกงเลียงกุ้งใส่ฟักทองและใบแมงลัก กินกับข้าว",
+   "ar": "شوربة خضار بالفلفل مع الروبيان واليقطين والريحان الليموني تؤكل مع الأرز"
+  },
+  "recipe_kaeng_khua_sapparot_hoi.md": {
+   "en": "Sweet-sour red curry with green mussels and pineapple, eaten with rice",
+   "es": "Curry rojo agridulce con mejillones verdes y piña, con arroz",
+   "ca": "Curri vermell agredolç amb musclos verds i pinya, amb arròs",
+   "th": "แกงคั่วสับปะรดหอยแมลงภู่ กินกับข้าว",
+   "ar": "كاري أحمر حلو حامض بالمحار الأخضر والأناناس يؤكل مع الأرز"
+  },
+  "recipe_kaeng_pa.md": {
+   "en": "Fiery jungle curry without coconut milk, with wild herbs and green peppercorns, eaten with rice",
+   "es": "Curry de la selva picante sin leche de coco, con hierbas y pimienta verde, con arroz",
+   "ca": "Curri de la selva picant sense llet de coco, amb herbes i pebre verd, amb arròs",
+   "th": "แกงป่าไม่ใส่กะทิ รสจัด ใส่กระชายและพริกไทยอ่อน กินกับข้าว",
+   "ar": "كاري الغابة الحار بلا حليب جوز الهند مع الأعشاب والفلفل الأخضر يؤكل مع الأرز"
+  },
+  "recipe_kaeng_chuet.md": {
+   "en": "Mild clear soup with minced pork, tofu and cabbage, eaten with rice to balance spicy dishes",
+   "es": "Sopa clara suave con cerdo picado, tofu y col, con arroz para equilibrar platos picantes",
+   "ca": "Sopa clara suau amb porc picat, tofu i col, amb arròs per equilibrar plats picants",
+   "th": "แกงจืดเต้าหู้หมูสับ กินกับข้าวเพื่อตัดรสเผ็ด",
+   "ar": "شوربة صافية خفيفة بلحم الخنزير المفروم والتوفو والملفوف تؤكل مع الأرز لموازنة الأطباق الحارة"
+  },
+  "recipe_tom_yum_kung.md": {
+   "en": "Hot and sour prawn soup with lemongrass, galangal and lime, served with rice (UNESCO 2024)",
+   "es": "Sopa picante y ácida de gambas con limoncillo, galanga y lima, con arroz (UNESCO 2024)",
+   "ca": "Sopa picant i àcida de gambes amb llimona herba, galanga i llima, amb arròs (UNESCO 2024)",
+   "th": "ต้มยำกุ้ง ซุปเปรี้ยวเผ็ดตะไคร้ ข่า มะนาว กินกับข้าว (มรดกยูเนสโก 2567)",
+   "ar": "شوربة الروبيان الحارة الحامضة بعشبة الليمون والخولنجان والليمون تؤكل مع الأرز (يونسكو 2024)"
+  },
+  "recipe_tom_kha_kai.md": {
+   "en": "Chicken soup in coconut milk with galangal, lemongrass and lime, eaten with rice",
+   "es": "Sopa de pollo en leche de coco con galanga, limoncillo y lima, con arroz",
+   "ca": "Sopa de pollastre amb llet de coco, galanga, llimona herba i llima, amb arròs",
+   "th": "ต้มข่าไก่ ซุปกะทิหอมข่าและตะไคร้ กินกับข้าว",
+   "ar": "شوربة دجاج بحليب جوز الهند مع الخولنجان وعشبة الليمون والليمون تؤكل مع الأرز"
+  },
+  "recipe_tom_khlong_pla_krop.md": {
+   "en": "Smoky sour soup of dried snakehead fish with charred chilies and tamarind, eaten with rice",
+   "es": "Sopa ácida y ahumada de pescado seco con chiles tostados y tamarindo, con arroz",
+   "ca": "Sopa àcida i fumada de peix sec amb bitxos torrats i tamarinde, amb arròs",
+   "th": "ต้มโคล้งปลากรอบ รสเปรี้ยวหอมพริกแห้งเผา กินกับข้าว",
+   "ar": "شوربة حامضة مدخنة بالسمك المجفف مع الفلفل المحمص والتمر الهندي تؤكل مع الأرز"
+  },
+  "recipe_chu_chi_pla.md": {
+   "en": "Fried fish under a thick red coconut-cream curry with makrut lime leaf, eaten with rice",
+   "es": "Pescado frito bajo un curry rojo espeso de crema de coco y lima kafir, con arroz",
+   "ca": "Peix fregit sota un curri vermell espès de crema de coco i llima kaffir, amb arròs",
+   "th": "ฉู่ฉี่ปลาทอด ราดแกงกะทิข้นโรยใบมะกรูด กินกับข้าว",
+   "ar": "سمك مقلي تحت كاري أحمر كثيف بكريمة جوز الهند وورق الليمون يؤكل مع الأرز"
+  },
+  "recipe_phat_phrik_khing.md": {
+   "en": "Sweet dry red curry stir-fry of pork and long beans, spooned over rice",
+   "es": "Salteado de curry rojo seco y dulce con cerdo y judías largas, sobre arroz",
+   "ca": "Saltat de curri vermell sec i dolç amb porc i mongetes llargues, sobre arròs",
+   "th": "ผัดพริกขิงหมูกับถั่วฝักยาว ราดข้าว",
+   "ar": "قلي كاري أحمر جاف حلو مع لحم الخنزير والفاصوليا الطويلة يُسكب على الأرز"
+  },
+  "recipe_khai_palo.md": {
+   "en": "Eggs and pork belly braised in sweet five-spice soy broth, ladled over rice",
+   "es": "Huevos y panceta guisados en caldo dulce de soja y cinco especias, sobre arroz",
+   "ca": "Ous i ventresca estofats en brou dolç de soja i cinc espècies, sobre arròs",
+   "th": "ไข่พะโล้กับหมูสามชั้น ราดข้าว",
+   "ar": "بيض ولحم بطن الخنزير مطهوان في مرق صويا حلو بالتوابل الخمس يُسكب على الأرز"
+  },
+  "recipe_khao_nam_phrik_kapi_pla_thu.md": {
+   "en": "The classic Central Thai set: rice, shrimp-paste chili relish, fried mackerel and vegetables",
+   "es": "El clásico del centro de Tailandia: arroz, salsa de pasta de gambas y chile, caballa frita y verduras",
+   "ca": "El clàssic del centre de Tailàndia: arròs, salsa de pasta de gamba i bitxo, verat fregit i verdures",
+   "th": "สำรับข้าว น้ำพริกกะปิ ปลาทูทอด และผักสด",
+   "ar": "الوجبة الكلاسيكية لوسط تايلاند: أرز وصلصة معجون الروبيان الحارة وسمك الماكريل المقلي والخضار"
+  },
+  "recipe_nam_phrik_long_ruea.md": {
+   "en": "Court chili relish fried with sweet pork and crisp catfish, eaten with rice and vegetables",
+   "es": "Salsa de chile de la corte frita con cerdo dulce y siluro crujiente, con arroz y verduras",
+   "ca": "Salsa de bitxo de la cort fregida amb porc dolç i peix gat cruixent, amb arròs i verdures",
+   "th": "น้ำพริกลงเรือตำรับชาววัง ผัดกับหมูหวานและปลาดุกฟู กินกับข้าวและผัก",
+   "ar": "صلصة الفلفل الملكية المقلية مع لحم الخنزير الحلو والسلور المقرمش تؤكل مع الأرز والخضار"
+  },
+  "recipe_phat_kaphrao_rad_khao.md": {
+   "en": "Holy-basil stir-fry with minced pork and chili over rice, topped with a crisp fried egg",
+   "es": "Salteado de albahaca sagrada con cerdo picado y chile sobre arroz, con huevo frito crujiente",
+   "ca": "Saltat d'alfàbrega sagrada amb porc picat i bitxo sobre arròs, amb ou ferrat cruixent",
+   "th": "ผัดกะเพราหมูสับราดข้าว โปะไข่ดาวกรอบ",
+   "ar": "قلي الريحان المقدس مع لحم الخنزير المفروم والفلفل الحار فوق الأرز، مع بيضة مقلية مقرمشة"
+  },
+  "recipe_khao_khai_jiao.md": {
+   "en": "Puffy deep-fried Thai omelette over jasmine rice with chili sauce",
+   "es": "Tortilla tailandesa frita e hinchada sobre arroz jazmín con salsa de chile",
+   "ca": "Truita tailandesa fregida i inflada sobre arròs gessamí amb salsa de bitxo",
+   "th": "ข้าวไข่เจียวฟูกรอบ กินกับซอสพริก",
+   "ar": "عجة تايلاندية منتفخة مقلية فوق أرز الياسمين مع صلصة الفلفل الحار"
+  },
+  "recipe_khao_na_pet.md": {
+   "en": "Roast duck slices over rice with soy gravy, pickled ginger and duck broth",
+   "es": "Pato asado en lonchas sobre arroz con salsa de soja, jengibre encurtido y caldo de pato",
+   "ca": "Ànec rostit a llesques sobre arròs amb salsa de soja, gingebre adobat i brou d'ànec",
+   "th": "ข้าวหน้าเป็ดย่าง ราดน้ำซอส กินกับขิงดองและน้ำซุป",
+   "ar": "شرائح بط مشوي فوق الأرز مع صلصة الصويا والزنجبيل المخلل ومرق البط"
+  },
+  "recipe_khao_man_som_tam.md": {
+   "en": "Coconut-cream rice set with papaya salad, red chicken curry and sweet shredded beef",
+   "es": "Arroz con crema de coco servido con ensalada de papaya, curry rojo de pollo y ternera dulce desmenuzada",
+   "ca": "Arròs amb crema de coco servit amb amanida de papaia, curri vermell de pollastre i vedella dolça esfilagarsada",
+   "th": "ข้าวมันส้มตำ กินกับแกงเผ็ดไก่และเนื้อฝอยหวาน",
+   "ar": "أرز بكريمة جوز الهند مع سلطة البابايا وكاري الدجاج الأحمر ولحم بقري حلو مفتت"
+  },
+  "recipe_khao_tom_kui.md": {
+   "en": "Plain Teochew rice gruel eaten with many small salty side dishes",
+   "es": "Gacha teochew de arroz sin sazonar con muchas guarniciones saladas",
+   "ca": "Farinetes teochew d'arròs sense condiment amb molts acompanyaments salats",
+   "th": "ข้าวต้มกุ๊ย ข้าวต้มเปล่ากินกับกับข้าวรสเค็มหลายอย่าง",
+   "ar": "عصيدة أرز تيوتشيو بسيطة تؤكل مع أطباق جانبية مالحة صغيرة كثيرة"
+  },
+  "recipe_khao_phat_nam_liap.md": {
+   "en": "Fried rice with minced pork and salted black Chinese olives",
+   "es": "Arroz frito con cerdo picado y aceitunas negras chinas saladas",
+   "ca": "Arròs fregit amb porc picat i olives negres xineses salades",
+   "th": "ข้าวผัดหนำเลี๊ยบหมูสับ",
+   "ar": "أرز مقلي مع لحم الخنزير المفروم والزيتون الصيني الأسود المملح"
+  },
+  "recipe_khao_man_kai_thot.md": {
+   "en": "Chicken-fat rice topped with crisp fried chicken and sweet chili sauce",
+   "es": "Arroz con grasa de pollo cubierto de pollo frito crujiente y salsa dulce de chile",
+   "ca": "Arròs amb greix de pollastre amb pollastre fregit cruixent i salsa dolça de bitxo",
+   "th": "ข้าวมันไก่ทอด กินกับน้ำจิ้มไก่หวาน",
+   "ar": "أرز بدهن الدجاج مع دجاج مقلي مقرمش وصلصة الفلفل الحلوة"
+  },
+  "recipe_khao_kriap_pak_mo.md": {
+   "en": "Steamed rice-flour sheets folded around sweet-savoury pork and peanut, with garlic oil",
+   "es": "Láminas de harina de arroz al vapor rellenas de cerdo y cacahuete dulce-salado, con aceite de ajo",
+   "ca": "Làmines de farina d'arròs al vapor farcides de porc i cacauet dolç-salat, amb oli d'all",
+   "th": "ข้าวเกรียบปากหม้อไส้หมูถั่ว ราดน้ำมันกระเทียมเจียว",
+   "ar": "رقائق دقيق أرز مطهوة بالبخار ملفوفة حول حشوة لحم وفول سوداني، مع زيت الثوم"
+  },
+  "recipe_yam_naem_khao_thot.md": {
+   "en": "Crispy fried curried-rice balls broken up and tossed with sour fermented pork, lime and herbs",
+   "es": "Bolas de arroz al curry fritas y desmenuzadas, aliñadas con cerdo fermentado, lima y hierbas",
+   "ca": "Boles d'arròs al curri fregides i esmicolades, amanides amb porc fermentat, llima i herbes",
+   "th": "ยำแหนมข้าวทอด ข้าวทอดกรอบคลุกแหนม มะนาว และสมุนไพร",
+   "ar": "كرات أرز بالكاري مقلية ومفتتة تُخلط مع لحم خنزير مخمّر وليمون وأعشاب"
+  },
+  "recipe_mu_ping_khao_niao.md": {
+   "en": "Steamed sticky rice with sweet garlic grilled pork skewers, Thailand's street breakfast",
+   "es": "Arroz glutinoso al vapor con brochetas de cerdo a la brasa dulces y con ajo, el desayuno callejero tailandés",
+   "ca": "Arròs glutinós al vapor amb broquetes de porc a la brasa dolces i amb all, l'esmorzar de carrer tailandès",
+   "th": "ข้าวเหนียวหมูปิ้ง อาหารเช้าริมทางของคนไทย",
+   "ar": "أرز دبق مطهو بالبخار مع أسياخ لحم خنزير مشوي حلو بالثوم، فطور الشارع التايلاندي"
+  },
+  "recipe_khao_phat_khi_mao.md": {
+   "en": "Fiery 'drunkard's' fried rice with chili, green peppercorn and holy basil",
+   "es": "Arroz frito picante 'del borracho' con chile, pimienta verde y albahaca sagrada",
+   "ca": "Arròs fregit picant 'de l'embriac' amb bitxo, pebre verd i alfàbrega sagrada",
+   "th": "ข้าวผัดขี้เมา เผ็ดร้อนด้วยพริก พริกไทยอ่อน และกะเพรา",
+   "ar": "أرز مقلي حار «للسكارى» بالفلفل الحار والفلفل الأخضر والريحان المقدس"
+  },
+  "recipe_khao_phat_tom_yum.md": {
+   "en": "Fried rice with prawns and tom yum aromatics: lemongrass, galangal, lime leaf and chili",
+   "es": "Arroz frito con gambas y aromas de tom yum: limoncillo, galanga, hoja de lima y chile",
+   "ca": "Arròs fregit amb gambes i aromes de tom yum: llimona, galanga, fulla de llima i bitxo",
+   "th": "ข้าวผัดต้มยำกุ้ง หอมตะไคร้ ข่า ใบมะกรูด และพริก",
+   "ar": "أرز مقلي بالروبيان ونكهات توم يام: عشب الليمون والخولنجان وورق الليمون والفلفل الحار"
+  },
+  "recipe_khao_op_mo_din.md": {
+   "en": "Rice baked with chicken, ginger and mushrooms in a sealed clay pot, with a crisp base",
+   "es": "Arroz horneado con pollo, jengibre y setas en olla de barro cerrada, con base crujiente",
+   "ca": "Arròs al forn amb pollastre, gingebre i bolets en olla de fang tancada, amb base cruixent",
+   "th": "ข้าวอบหม้อดินไก่ ขิง และเห็ดหอม ก้นหม้อกรอบ",
+   "ar": "أرز مطهو مع الدجاج والزنجبيل والفطر في قدر فخاري مغلق، بقاع مقرمش"
+  },
+  "recipe_mu_thot_kratiam_rad_khao.md": {
+   "en": "Garlic and white-pepper fried pork over rice with a fried egg",
+   "es": "Cerdo frito con ajo y pimienta blanca sobre arroz, con huevo frito",
+   "ca": "Porc fregit amb all i pebre blanc sobre arròs, amb ou ferrat",
+   "th": "หมูทอดกระเทียมพริกไทยราดข้าว โปะไข่ดาว",
+   "ar": "لحم خنزير مقلي بالثوم والفلفل الأبيض فوق الأرز مع بيضة مقلية"
+  },
+  "recipe_khao_phat_naem.md": {
+   "en": "Fried rice with sour fermented pork sausage, egg and chili",
+   "es": "Arroz frito con salchicha de cerdo fermentada ácida, huevo y chile",
+   "ca": "Arròs fregit amb embotit de porc fermentat àcid, ou i bitxo",
+   "th": "ข้าวผัดแหนม ใส่ไข่และพริก",
+   "ar": "أرز مقلي مع نقانق لحم خنزير مخمّرة حامضة وبيض وفلفل حار"
   }
  },
  "regions": {
@@ -1815,7 +2046,8 @@
       "recipe_khao_niao_nueng.md",
       "recipe_khao_jee.md",
       "recipe_khao_puk_nga.md",
-      "recipe_khao_lam.md"
+      "recipe_khao_lam.md",
+      "recipe_mu_ping_khao_niao.md"
      ]
     },
     {
@@ -1840,7 +2072,14 @@
       "recipe_khao_mu_daeng.md",
       "recipe_khao_rad_kaeng.md",
       "recipe_khao_mok_kai.md",
-      "recipe_nasi_dagae.md"
+      "recipe_nasi_dagae.md",
+      "recipe_phat_kaphrao_rad_khao.md",
+      "recipe_khao_khai_jiao.md",
+      "recipe_khao_na_pet.md",
+      "recipe_khao_man_som_tam.md",
+      "recipe_khao_man_kai_thot.md",
+      "recipe_khao_op_mo_din.md",
+      "recipe_mu_thot_kratiam_rad_khao.md"
      ]
     },
     {
@@ -1861,7 +2100,11 @@
      },
      "members": [
       "recipe_khao_phat.md",
-      "recipe_khao_phat_amerikan.md"
+      "recipe_khao_phat_amerikan.md",
+      "recipe_khao_phat_nam_liap.md",
+      "recipe_khao_phat_khi_mao.md",
+      "recipe_khao_phat_tom_yum.md",
+      "recipe_khao_phat_naem.md"
      ]
     },
     {
@@ -1882,7 +2125,8 @@
      },
      "members": [
       "recipe_khao_tom.md",
-      "recipe_jok.md"
+      "recipe_jok.md",
+      "recipe_khao_tom_kui.md"
      ]
     },
     {
@@ -1908,7 +2152,9 @@
       "recipe_khao_kua.md",
       "recipe_khao_buea.md",
       "recipe_khao_phan_phak.md",
-      "recipe_khao_yam.md"
+      "recipe_khao_yam.md",
+      "recipe_khao_kriap_pak_mo.md",
+      "recipe_yam_naem_khao_thot.md"
      ]
     },
     {
@@ -1929,7 +2175,8 @@
      },
      "members": [
       "recipe_khao_chae.md",
-      "recipe_khao_tang_na_tang.md"
+      "recipe_khao_tang_na_tang.md",
+      "recipe_nam_phrik_long_ruea.md"
      ]
     },
     {
@@ -2006,6 +2253,42 @@
       "recipe_khao_nasi_prajit.md",
       "recipe_khao_bplee.md",
       "recipe_khao_phat_chao_wang.md"
+     ]
+    },
+    {
+     "id": "kapkhao",
+     "name": {
+      "en": "Curries & relishes with rice (kap khao)",
+      "es": "Currys y salsas con arroz (kap khao)",
+      "ca": "Curris i salses amb arròs (kap khao)",
+      "th": "กับข้าว: แกง ต้ม และน้ำพริกกินกับข้าว",
+      "ar": "أطباق تؤكل مع الأرز: الكاري والصلصات (كاب خاو)"
+     },
+     "description": {
+      "en": "Dishes defined by being eaten with rice: curries, soups, stir-fries and chili relishes of the Thai rice meal.",
+      "es": "Platos que se definen por comerse con arroz: currys, sopas, salteados y salsas de chile de la comida tailandesa.",
+      "ca": "Plats que es defineixen per menjar-se amb arròs: curris, sopes, saltats i salses de bitxo de l'àpat tailandès.",
+      "th": "อาหารที่กินกับข้าว ได้แก่ แกง ต้ม ผัด และน้ำพริก ในสำรับข้าวไทย",
+      "ar": "أطباق تُعرَّف بأنها تؤكل مع الأرز: الكاري والشوربات والمقليات وصلصات الفلفل في الوجبة التايلاندية."
+     },
+     "members": [
+      "recipe_kaeng_khiao_wan.md",
+      "recipe_kaeng_phet.md",
+      "recipe_kaeng_phet_pet_yang.md",
+      "recipe_kaeng_matsaman.md",
+      "recipe_phanaeng.md",
+      "recipe_kaeng_som_central.md",
+      "recipe_kaeng_liang.md",
+      "recipe_kaeng_khua_sapparot_hoi.md",
+      "recipe_kaeng_pa.md",
+      "recipe_kaeng_chuet.md",
+      "recipe_tom_yum_kung.md",
+      "recipe_tom_kha_kai.md",
+      "recipe_tom_khlong_pla_krop.md",
+      "recipe_chu_chi_pla.md",
+      "recipe_phat_phrik_khing.md",
+      "recipe_khai_palo.md",
+      "recipe_khao_nam_phrik_kapi_pla_thu.md"
      ]
     }
    ]

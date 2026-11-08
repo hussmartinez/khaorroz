@@ -43,7 +43,8 @@
     "recipe_arroz_con_perdiz.md",
     "recipe_arroz_con_pitu_de_caleya.md",
     "recipe_arroz_con_conejo.md",
-    "recipe_arroz_conejo_y_caracoles.md"
+    "recipe_arroz_conejo_y_caracoles.md",
+    "recipe_kaeng_pa.md"
    ]
   },
   {
@@ -63,7 +64,9 @@
     "recipe_arroz_caldoso_con_pato_marismas.md",
     "recipe_arros_de_ribera_delta_ebre.md",
     "recipe_arroz_con_cangrejos_isla_mayor.md",
-    "recipe_arros_al_forn_d_anguiles_i_bajoques.md"
+    "recipe_arros_al_forn_d_anguiles_i_bajoques.md",
+    "recipe_kaeng_phet_pet_yang.md",
+    "recipe_khao_na_pet.md"
    ]
   },
   {
@@ -115,7 +118,10 @@
     "recipe_arroz_y_gatet.md",
     "recipe_fideua.md",
     "recipe_sayadieh.md",
-    "recipe_hbari_u_ruz.md"
+    "recipe_hbari_u_ruz.md",
+    "recipe_kaeng_som_central.md",
+    "recipe_chu_chi_pla.md",
+    "recipe_khao_nam_phrik_kapi_pla_thu.md"
    ]
   },
   {
@@ -166,7 +172,9 @@
     "recipe_arroz_con_borrajas_y_almejas.md",
     "recipe_arroz_con_cangrejos_isla_mayor.md",
     "recipe_arroz_con_rape_y_gamba_roja.md",
-    "recipe_arroz_con_mariscos_candamo.md"
+    "recipe_arroz_con_mariscos_candamo.md",
+    "recipe_kaeng_khua_sapparot_hoi.md",
+    "recipe_tom_yum_kung.md"
    ]
   },
   {
@@ -186,7 +194,8 @@
     "recipe_arroz_del_pedron_de_parayo.md",
     "recipe_lamprea_a_la_bordelesa_con_arroz.md",
     "recipe_arroz_con_cangrejos_isla_mayor.md",
-    "recipe_arros_al_forn_d_anguiles_i_bajoques.md"
+    "recipe_arros_al_forn_d_anguiles_i_bajoques.md",
+    "recipe_tom_khlong_pla_krop.md"
    ]
   },
   {
@@ -234,7 +243,8 @@
     "recipe_qidreh.md",
     "recipe_ouzi.md",
     "recipe_maqluba.md",
-    "recipe_rabiya.md"
+    "recipe_rabiya.md",
+    "recipe_khao_op_mo_din.md"
    ]
   },
   {
@@ -285,7 +295,8 @@
     "recipe_arroz_clarico.md",
     "recipe_fasoulia_w_riz.md",
     "recipe_ghammeh.md",
-    "recipe_fawaregh.md"
+    "recipe_fawaregh.md",
+    "recipe_khai_palo.md"
    ]
   },
   {
@@ -349,7 +360,9 @@
     "recipe_arroz_con_boquerones_y_pava_murciano.md",
     "recipe_arroz_y_pollo_con_alcaciles.md",
     "recipe_arroz_y_verduras_con_bacalao_murciano.md",
-    "recipe_arros_de_les_riberes_del_turia.md"
+    "recipe_arros_de_les_riberes_del_turia.md",
+    "recipe_kaeng_som_central.md",
+    "recipe_kaeng_liang.md"
    ]
   },
   {
@@ -371,7 +384,8 @@
     "recipe_arros_de_les_riberes_del_turia.md",
     "recipe_riz_a_djej.md",
     "recipe_ruz_bi_djaj_hashweh.md",
-    "recipe_maqluba.md"
+    "recipe_maqluba.md",
+    "recipe_kaeng_phet_pet_yang.md"
    ]
   },
   {
@@ -439,7 +453,9 @@
     "recipe_daoud_basha.md",
     "recipe_mayit_bandora_u_bayd.md",
     "recipe_khao_kap_pla_haeng_ayutthaya.md",
-    "recipe_khao_hung_chet_nam.md"
+    "recipe_khao_hung_chet_nam.md",
+    "recipe_khao_nam_phrik_kapi_pla_thu.md",
+    "recipe_khao_khai_jiao.md"
    ]
   },
   {
@@ -523,7 +539,8 @@
     "recipe_aruzz_mufalfal_wusla.md",
     "recipe_harisat_al_aruzz.md",
     "recipe_kharuf_mahshi_halabi.md",
-    "recipe_khao_hung_prung_yang_thet.md"
+    "recipe_khao_hung_prung_yang_thet.md",
+    "recipe_kaeng_matsaman.md"
    ]
   },
   {
@@ -567,7 +584,11 @@
     "recipe_khao_phat_amerikan.md",
     "recipe_khao_kluk_kapi.md",
     "recipe_khao_bplee.md",
-    "recipe_khao_phat_chao_wang.md"
+    "recipe_khao_phat_chao_wang.md",
+    "recipe_khao_phat_nam_liap.md",
+    "recipe_khao_phat_khi_mao.md",
+    "recipe_khao_phat_tom_yum.md",
+    "recipe_khao_phat_naem.md"
    ]
   },
   {
@@ -586,7 +607,13 @@
     "recipe_khao_tom.md",
     "recipe_jok.md",
     "recipe_shurba_al_baghdadi.md",
-    "recipe_kibbeh_hamda.md"
+    "recipe_kibbeh_hamda.md",
+    "recipe_kaeng_liang.md",
+    "recipe_kaeng_chuet.md",
+    "recipe_tom_yum_kung.md",
+    "recipe_tom_kha_kai.md",
+    "recipe_tom_khlong_pla_krop.md",
+    "recipe_khao_tom_kui.md"
    ]
   },
   {
@@ -606,7 +633,10 @@
     "recipe_khao_mok_kai.md",
     "recipe_riz_a_djej.md",
     "recipe_ruz_bi_djaj_hashweh.md",
-    "recipe_muhallabiyya_medieval.md"
+    "recipe_muhallabiyya_medieval.md",
+    "recipe_tom_kha_kai.md",
+    "recipe_khao_man_kai_thot.md",
+    "recipe_khao_op_mo_din.md"
    ]
   },
   {
@@ -630,7 +660,9 @@
     "recipe_khao_hung_prung_yang_thet.md",
     "recipe_khao_nasi_prajit.md",
     "recipe_khao_phat_chao_wang.md",
-    "recipe_khao_bplee.md"
+    "recipe_khao_bplee.md",
+    "recipe_kaeng_matsaman.md",
+    "recipe_nam_phrik_long_ruea.md"
    ]
   },
   {
@@ -651,7 +683,18 @@
     "recipe_khao_rad_kaeng.md",
     "recipe_arroz_a_la_cubana_canario.md",
     "recipe_galayet_bandora_bi_ruz.md",
-    "recipe_nasi_dagae.md"
+    "recipe_nasi_dagae.md",
+    "recipe_kaeng_khiao_wan.md",
+    "recipe_kaeng_phet.md",
+    "recipe_phanaeng.md",
+    "recipe_phat_phrik_khing.md",
+    "recipe_khai_palo.md",
+    "recipe_phat_kaphrao_rad_khao.md",
+    "recipe_khao_khai_jiao.md",
+    "recipe_khao_na_pet.md",
+    "recipe_khao_man_som_tam.md",
+    "recipe_khao_man_kai_thot.md",
+    "recipe_mu_thot_kratiam_rad_khao.md"
    ]
   },
   {
@@ -675,7 +718,8 @@
     "recipe_khao_tom_mat.md",
     "recipe_khao_niao_sangkhaya.md",
     "recipe_khao_pradap_din.md",
-    "recipe_khao_tom_luk_yon.md"
+    "recipe_khao_tom_luk_yon.md",
+    "recipe_mu_ping_khao_niao.md"
    ]
   },
   {
@@ -743,7 +787,8 @@
     "recipe_khanom_krok.md",
     "recipe_khanom_chan.md",
     "recipe_khanom_la.md",
-    "recipe_bua_loy.md"
+    "recipe_bua_loy.md",
+    "recipe_khao_kriap_pak_mo.md"
    ]
   },
   {
@@ -762,7 +807,8 @@
     "recipe_khao_yam.md",
     "recipe_khao_kluk_kapi.md",
     "recipe_khao_som_tai_yai.md",
-    "recipe_khao_nasi_prajit.md"
+    "recipe_khao_nasi_prajit.md",
+    "recipe_yam_naem_khao_thot.md"
    ]
   },
   {

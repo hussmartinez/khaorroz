@@ -41,6 +41,24 @@ Four communities shape the region's rice dishes:
 | [Jok](recipe_jok.md) | Smooth rice congee | Bangkok (Cantonese/Teochew) |
 
 ⚠️ = see the file's source-confidence note.
+| [Kaeng Khiao Wan](recipe_kaeng_khiao_wan.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Kaeng Phet](recipe_kaeng_phet.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Kaeng Phet Pet Yang](recipe_kaeng_phet_pet_yang.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Kaeng Matsaman](recipe_kaeng_matsaman.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Phanaeng](recipe_phanaeng.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Kaeng Som (Central)](recipe_kaeng_som_central.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Kaeng Liang](recipe_kaeng_liang.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Kaeng Khua Sapparot Hoi Malaeng Phu](recipe_kaeng_khua_sapparot_hoi.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Kaeng Pa](recipe_kaeng_pa.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Kaeng Chuet Tao Hu Mu Sap](recipe_kaeng_chuet.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Tom Yum Kung](recipe_tom_yum_kung.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Tom Kha Kai](recipe_tom_kha_kai.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Tom Khlong Pla Krop](recipe_tom_khlong_pla_krop.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Chu Chi Pla](recipe_chu_chi_pla.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Phat Phrik Khing](recipe_phat_phrik_khing.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Khai Palo](recipe_khai_palo.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Khao Nam Phrik Kapi Pla Thu](recipe_khao_nam_phrik_kapi_pla_thu.md) | Eaten with rice (kap khao) | Central Thailand |
+| [Nam Phrik Long Ruea](recipe_nam_phrik_long_ruea.md) | Court relish with rice | Central Thailand |
 
 ## 4. Reference Links
 *   [Matichon – History of jasmine rice since 1950](https://www.matichon.co.th/education/news_342342)
