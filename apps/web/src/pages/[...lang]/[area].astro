@@ -18,7 +18,7 @@ const jsonLd = graph(organization(),
   { "@type": "CollectionPage", "@id": url, url, name: plainTitle(area.copy.heroTitle), description: area.copy.heroLede, inLanguage: lang, mainEntity: itemList(recipes, lang) },
   breadcrumbs([[tr(lang, "home"), pageUrl(lang, "index.html")], [area.name, url]]));
 ---
-<Layout lang={lang} path={`${id}.html`} title={area.name} active="recipes" bodyClass="is-home" theme={area.theme} section={id}
+<Layout lang={lang} path={`${id}.html`} title={area.name} active="" bodyClass="is-home" theme={area.theme} section={id}
         description={desc} crumbs={[[area.name, ""]]} seoTitle={`${plainTitle(area.copy.heroTitle)} | ${BRAND}`} jsonLd={jsonLd}
         ogImage={{ url: `/og/${lang}/_area-${id}.jpg`, width: 1200, height: 675, alt: area.name }}>
   <HomeView m={m} area={area} />

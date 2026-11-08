@@ -4,10 +4,11 @@ const CANONICAL = "khaorroz.forfreedom.app";
 const OLD_HOSTS = new Set(["arroz.forfreedom.app", "khaorice.forfreedom.app"]);
 
 // Fingerprinted/rarely-changing files get long caching; HTML keeps the platform default (revalidate).
-function cacheControl(path: string): string | undefined {
+function cacheControl(path: string, hasVersion = false): string | undefined {
   if (path.startsWith("/_astro/") || path.startsWith("/fonts/")) return "public, max-age=31536000, immutable";
   if (path.startsWith("/pans/") || path.startsWith("/og/") || path.startsWith("/icons/") || /\.(ico|png|svg|webp|jpg)$/.test(path)) return "public, max-age=86400";
-  if (/\.(css|js)$/.test(path) || path.startsWith("/pagefind/")) return "public, max-age=3600";
+  if (/\.(css|js)$/.test(path) && hasVersion) return "public, max-age=31536000, immutable"; // ?v=<content hash>
+  if (/\.(css|js)$/.test(path) || path.startsWith("/pagefind/")) return "public, max-age=300";
   if (/\.(txt|md|xml)$/.test(path)) return "public, max-age=3600";
   return undefined;
 }
@@ -22,7 +23,7 @@ export default {
       return Response.redirect(url.toString(), 301); // same path + query
     }
     const res = await env.ASSETS.fetch(req);
-    const cc = cacheControl(url.pathname);
+    const cc = cacheControl(url.pathname, url.searchParams.has("v"));
     if (!cc || res.status !== 200) return res;
     const out = new Response(res.body, res);
     out.headers.set("Cache-Control", cc);

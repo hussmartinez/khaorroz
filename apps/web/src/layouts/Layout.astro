@@ -3,6 +3,11 @@ import { LANGS, HTML_LANG, langBase, tr, isRtl, site as siteModel, type Lang } f
 import { UI } from "../lib/i18n";
 import { ADS } from "../lib/ads";
 import { OG_LOCALE, abs } from "../lib/seo";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+import { createHash } from "node:crypto";
+// Cache-busting: link CSS/JS with a content fingerprint so a new page never pairs with a stale cached file.
+const ver = (f: string) => createHash("sha256").update(readFileSync(join(process.cwd(), "public", f))).digest("hex").slice(0, 10);
 
 interface Props {
   lang: Lang;
@@ -80,9 +85,9 @@ const nav = [
 {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, "\\u003c")} />}
 <script is:inline>document.documentElement.classList.add("js")</script>
 <link rel="preload" href="/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/fonts.css">
-<link rel="stylesheet" href="/fonts-arabic.css">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href={`/fonts.css?v=${ver("fonts.css")}`}>
+<link rel="stylesheet" href={`/fonts-arabic.css?v=${ver("fonts-arabic.css")}`}>
+<link rel="stylesheet" href={`/style.css?v=${ver("style.css")}`}>
 {ADS.mode === "live" && ADS.head && <Fragment set:html={ADS.head} />}
 </head>
 <body class={bodyClass} data-theme={theme}>
@@ -125,6 +130,6 @@ const nav = [
   <p class="small"><a href="#top" data-top>{tr(lang, "backToTop")} ↑</a></p>
 </footer>
 <div class="timers" aria-live="polite" data-done={tr(lang, "timerDone")}></div>
-<script is:inline src="/site.js" defer></script>
+<script is:inline src={`/site.js?v=${ver("site.js")}`} defer></script>
 </body>
 </html>

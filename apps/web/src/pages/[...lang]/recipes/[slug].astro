@@ -53,7 +53,7 @@ const ogImage = ogPhoto && photoMeta
   ? { url: abs(ogPhoto.src), width: Math.min(1200, photoMeta.width), height: Math.round((Math.min(1200, photoMeta.width) * photoMeta.height) / photoMeta.width), alt: photoAlt }
   : { url: `/og/${lang}/${p.slug}.jpg`, width: 1200, height: 675, alt: p.gloss ? `${p.title} — ${p.gloss}` : p.title };
 ---
-<Layout lang={lang} path={p.url} title={p.title} seoTitle={recipeTitle(p, lang)} active="recipes" description={description}
+<Layout lang={lang} path={p.url} title={p.title} seoTitle={recipeTitle(p, lang)} active="" description={description}
         bodyClass="is-recipe" theme={area?.theme} section={areaId} crumbs={crumbs} jsonLd={jsonLd} ogImage={ogImage}>
   <main class={`recipe base-${p.spec?.base ?? "none"}${photoMeta ? " has-photo" : ""}`}>
     <header class="recipe-hero">
