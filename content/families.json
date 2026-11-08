@@ -395,7 +395,16 @@
     "recipe_meghli.md",
     "recipe_mufattaka.md",
     "recipe_aruzz_khatuni.md",
-    "recipe_muhallabiyya_medieval.md"
+    "recipe_muhallabiyya_medieval.md",
+    "recipe_khao_niao_mamuang.md",
+    "recipe_khao_tom_mat.md",
+    "recipe_khao_niao_sangkhaya.md",
+    "recipe_khao_mak.md",
+    "recipe_bua_loy.md",
+    "recipe_khanom_krok.md",
+    "recipe_khanom_chan.md",
+    "recipe_khao_mathu_payat.md",
+    "recipe_khao_lam.md"
    ]
   },
   {
@@ -536,6 +545,233 @@
     "recipe_bazella_w_ruz.md",
     "recipe_arroz_arabe_chileno.md",
     "recipe_pilav_ottoman_aleppo.md"
+   ]
+  },
+  {
+   "id": "fried-rices",
+   "name": {
+    "en": "Fried rices",
+    "es": "Arroces fritos",
+    "ca": "Arrossos fregits",
+    "th": "ข้าวผัด",
+    "ar": "الأرز المقلي"
+   },
+   "description": {
+    "en": "Cooked rice tossed in a hot wok or pan."
+   },
+   "members": [
+    "recipe_khao_phat.md",
+    "recipe_khao_phat_amerikan.md",
+    "recipe_khao_kluk_kapi.md"
+   ]
+  },
+  {
+   "id": "rice-soups-porridges",
+   "name": {
+    "en": "Rice soups & porridges",
+    "es": "Sopas y gachas de arroz",
+    "ca": "Sopes i farinetes d'arròs",
+    "th": "ข้าวต้มและโจ๊ก",
+    "ar": "شوربات وعصائد الأرز"
+   },
+   "description": {
+    "en": "Rice in broth, from Thai khao tom and jok to medieval shurba and Aleppine kibbeh hamda."
+   },
+   "members": [
+    "recipe_khao_tom.md",
+    "recipe_jok.md",
+    "recipe_shurba_al_baghdadi.md",
+    "recipe_kibbeh_hamda.md"
+   ]
+  },
+  {
+   "id": "chicken-rices",
+   "name": {
+    "en": "Chicken rices",
+    "es": "Arroces con pollo",
+    "ca": "Arrossos amb pollastre",
+    "th": "ข้าวกับไก่",
+    "ar": "أرز بالدجاج"
+   },
+   "description": {
+    "en": "Rice built around chicken: Hainanese-Thai khao man kai, Thai-Muslim khao mok, Levantine riz a djej."
+   },
+   "members": [
+    "recipe_khao_man_kai.md",
+    "recipe_khao_mok_kai.md",
+    "recipe_riz_a_djej.md",
+    "recipe_ruz_bi_djaj_hashweh.md",
+    "recipe_muhallabiyya_medieval.md"
+   ]
+  },
+  {
+   "id": "court-royal-rices",
+   "name": {
+    "en": "Court & royal rices",
+    "es": "Arroces de corte y reales",
+    "ca": "Arrossos de cort i reials",
+    "th": "ข้าวราชสำนัก",
+    "ar": "أرز البلاط الملكي"
+   },
+   "description": {
+    "en": "Refined palace rices: Siamese khao chae and khao tang, Ayyubid aruzz khatuni, Ottoman Aleppo's stuffed lamb."
+   },
+   "members": [
+    "recipe_khao_chae.md",
+    "recipe_khao_tang_na_tang.md",
+    "recipe_aruzz_khatuni.md",
+    "recipe_kharuf_mahshi_halabi.md",
+    "recipe_pilav_ottoman_aleppo.md"
+   ]
+  },
+  {
+   "id": "rice-and-topping-plates",
+   "name": {
+    "en": "Rice-and-topping plates",
+    "es": "Platos de arroz con cobertura",
+    "ca": "Plats d'arròs amb cobertura",
+    "th": "ข้าวราดหน้า",
+    "ar": "أطباق الأرز مع الإضافات"
+   },
+   "description": {
+    "en": "One plate of rice with something ladled or laid over it."
+   },
+   "members": [
+    "recipe_khao_kha_mu.md",
+    "recipe_khao_mu_daeng.md",
+    "recipe_khao_rad_kaeng.md",
+    "recipe_arroz_a_la_cubana_canario.md",
+    "recipe_galayet_bandora_bi_ruz.md",
+    "recipe_nasi_dagae.md"
+   ]
+  },
+  {
+   "id": "sticky-rices",
+   "name": {
+    "en": "Sticky rices",
+    "es": "Arroces glutinosos",
+    "ca": "Arrossos glutinosos",
+    "th": "ข้าวเหนียว",
+    "ar": "الأرز الدبق"
+   },
+   "description": {
+    "en": "Glutinous rice: steamed in the huad, roasted in bamboo, grilled, pounded and sweetened."
+   },
+   "members": [
+    "recipe_khao_niao_nueng.md",
+    "recipe_khao_jee.md",
+    "recipe_khao_puk_nga.md",
+    "recipe_khao_lam.md",
+    "recipe_khao_niao_mamuang.md",
+    "recipe_khao_tom_mat.md",
+    "recipe_khao_niao_sangkhaya.md",
+    "recipe_khao_pradap_din.md",
+    "recipe_khao_tom_luk_yon.md"
+   ]
+  },
+  {
+   "id": "leaf-bamboo-wrapped-rices",
+   "name": {
+    "en": "Leaf & bamboo-wrapped rices",
+    "es": "Arroces en hoja y bambú",
+    "ca": "Arrossos en fulla i bambú",
+    "th": "ข้าวห่อใบไม้และกระบอกไม้ไผ่",
+    "ar": "أرز ملفوف بالأوراق والخيزران"
+   },
+   "description": {
+    "en": "Rice cooked or carried in leaves and bamboo: Thai parcels and tubes, Levantine stuffed leaves."
+   },
+   "members": [
+    "recipe_khao_lam.md",
+    "recipe_khao_kan_chin.md",
+    "recipe_khao_tom_mat.md",
+    "recipe_khao_tom_luk_yon.md",
+    "recipe_khao_pradap_din.md",
+    "recipe_warak_enab.md",
+    "recipe_yalanji.md"
+   ]
+  },
+  {
+   "id": "ritual-festival-rices",
+   "name": {
+    "en": "Ritual & festival rices",
+    "es": "Arroces rituales y de fiesta",
+    "ca": "Arrossos rituals i de festa",
+    "th": "ข้าวในพิธีกรรมและงานประเพณี",
+    "ar": "أرز الطقوس والمواسم"
+   },
+   "description": {
+    "en": "Rices made for gods, ancestors, monks, births and weddings."
+   },
+   "members": [
+    "recipe_khao_tom_luk_yon.md",
+    "recipe_khanom_la.md",
+    "recipe_khao_mathu_payat.md",
+    "recipe_khao_pradap_din.md",
+    "recipe_khao_jee.md",
+    "recipe_meghli.md",
+    "recipe_mufattaka.md",
+    "recipe_ruz_w_lahm_al_urs.md"
+   ]
+  },
+  {
+   "id": "rice-crackers-rice-flour-sweets",
+   "name": {
+    "en": "Rice crackers & rice-flour sweets",
+    "es": "Galletas y dulces de harina de arroz",
+    "ca": "Galetes i dolços de farina d'arròs",
+    "th": "ข้าวเกรียบและขนมแป้งข้าว",
+    "ar": "مقرمشات وحلويات طحين الأرز"
+   },
+   "description": {
+    "en": "Rice turned into crisp sheets, lace, pancakes and layered sweets."
+   },
+   "members": [
+    "recipe_khao_pong.md",
+    "recipe_khao_taen.md",
+    "recipe_khao_phan_phak.md",
+    "recipe_khao_tang_na_tang.md",
+    "recipe_khanom_krok.md",
+    "recipe_khanom_chan.md",
+    "recipe_khanom_la.md",
+    "recipe_bua_loy.md"
+   ]
+  },
+  {
+   "id": "tossed-salad-rices",
+   "name": {
+    "en": "Tossed & salad rices",
+    "es": "Arroces mezclados y en ensalada",
+    "ca": "Arrossos barrejats i en amanida",
+    "th": "ข้าวคลุกและข้าวยำ",
+    "ar": "الأرز المخلوط والسلطات"
+   },
+   "description": {
+    "en": "Cooked rice tossed with pastes, herbs, fish sauce or tomato."
+   },
+   "members": [
+    "recipe_khao_yam.md",
+    "recipe_khao_kluk_kapi.md",
+    "recipe_khao_som_tai_yai.md"
+   ]
+  },
+  {
+   "id": "rice-as-ingredient",
+   "name": {
+    "en": "Rice as ingredient",
+    "es": "El arroz como ingrediente",
+    "ca": "L'arròs com a ingredient",
+    "th": "ข้าวในฐานะวัตถุดิบ",
+    "ar": "الأرز كمكوّن"
+   },
+   "description": {
+    "en": "Rice toasted, pounded or ground to season, thicken or bind other dishes."
+   },
+   "members": [
+    "recipe_khao_kua.md",
+    "recipe_khao_buea.md",
+    "recipe_kibbeh_hamda.md",
+    "recipe_kibbeh_labanieh.md"
    ]
   }
  ]

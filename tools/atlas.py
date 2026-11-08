@@ -96,7 +96,7 @@ FAMILIES = {
         ["arroz_con_pava", "arroz_con_pitu_de_caleya", "arroz_con_pato", "arros_de_les_riberes_del_turia", "riz_a_djej", "ruz_bi_djaj_hashweh", "maqluba"]),
     "Sweet rices": (
         "Desserts: rice cooked in milk or honey.",
-        ["arroz_con_leche", "arroz_con_miel_bogarra", "escudella_d_angel", "riz_bi_haleeb", "muhallabiyeh", "meghli", "mufattaka", "aruzz_khatuni", "muhallabiyya_medieval"]),
+        ["arroz_con_leche", "arroz_con_miel_bogarra", "escudella_d_angel", "riz_bi_haleeb", "muhallabiyeh", "meghli", "mufattaka", "aruzz_khatuni", "muhallabiyya_medieval", "khao_niao_mamuang", "khao_tom_mat", "khao_niao_sangkhaya", "khao_mak", "bua_loy", "khanom_krok", "khanom_chan", "khao_mathu_payat", "khao_lam"]),
     "Home-style & country rices": (
         "Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had.",
         ["arroz_amarillo_canario", "arroz_a_la_cubana_canario", "arroz_a_la_sevillana", "arroz_campero_andaluz",
@@ -114,6 +114,41 @@ FAMILIES = {
     "Rice with noodles": (
         "Rice and toasted vermicelli or noodles cooked together, and the noodle 'paellas'.",
         ["riz_bi_shariyyeh", "shakriyeh", "fasoulia_w_riz", "fideua", "arrossejat", "bamyeh_ma_ruz", "bazella_w_ruz", "arroz_arabe_chileno", "pilav_ottoman_aleppo"]),
+
+    "Fried rices": (
+        "Cooked rice tossed in a hot wok or pan.",
+        ["khao_phat", "khao_phat_amerikan", "khao_kluk_kapi"]),
+    "Rice soups & porridges": (
+        "Rice in broth, from Thai khao tom and jok to medieval shurba and Aleppine kibbeh hamda.",
+        ["khao_tom", "jok", "shurba_al_baghdadi", "kibbeh_hamda"]),
+    "Chicken rices": (
+        "Rice built around chicken: Hainanese-Thai khao man kai, Thai-Muslim khao mok, Levantine riz a djej.",
+        ["khao_man_kai", "khao_mok_kai", "riz_a_djej", "ruz_bi_djaj_hashweh", "muhallabiyya_medieval"]),
+    "Court & royal rices": (
+        "Refined palace rices: Siamese khao chae and khao tang, Ayyubid aruzz khatuni, Ottoman Aleppo's stuffed lamb.",
+        ["khao_chae", "khao_tang_na_tang", "aruzz_khatuni", "kharuf_mahshi_halabi", "pilav_ottoman_aleppo"]),
+    "Rice-and-topping plates": (
+        "One plate of rice with something ladled or laid over it.",
+        ["khao_kha_mu", "khao_mu_daeng", "khao_rad_kaeng", "arroz_a_la_cubana_canario", "galayet_bandora_bi_ruz", "nasi_dagae"]),
+
+    "Sticky rices": (
+        "Glutinous rice: steamed in the huad, roasted in bamboo, grilled, pounded and sweetened.",
+        ["khao_niao_nueng", "khao_jee", "khao_puk_nga", "khao_lam", "khao_niao_mamuang", "khao_tom_mat", "khao_niao_sangkhaya", "khao_pradap_din", "khao_tom_luk_yon"]),
+    "Leaf & bamboo-wrapped rices": (
+        "Rice cooked or carried in leaves and bamboo: Thai parcels and tubes, Levantine stuffed leaves.",
+        ["khao_lam", "khao_kan_chin", "khao_tom_mat", "khao_tom_luk_yon", "khao_pradap_din", "warak_enab", "yalanji"]),
+    "Ritual & festival rices": (
+        "Rices made for gods, ancestors, monks, births and weddings.",
+        ["khao_tom_luk_yon", "khanom_la", "khao_mathu_payat", "khao_pradap_din", "khao_jee", "meghli", "mufattaka", "ruz_w_lahm_al_urs"]),
+    "Rice crackers & rice-flour sweets": (
+        "Rice turned into crisp sheets, lace, pancakes and layered sweets.",
+        ["khao_pong", "khao_taen", "khao_phan_phak", "khao_tang_na_tang", "khanom_krok", "khanom_chan", "khanom_la", "bua_loy"]),
+    "Tossed & salad rices": (
+        "Cooked rice tossed with pastes, herbs, fish sauce or tomato.",
+        ["khao_yam", "khao_kluk_kapi", "khao_som_tai_yai"]),
+    "Rice as ingredient": (
+        "Rice toasted, pounded or ground to season, thicken or bind other dishes.",
+        ["khao_kua", "khao_buea", "kibbeh_hamda", "kibbeh_labanieh"]),
 
 }
 
@@ -140,6 +175,17 @@ FAMILY_I18N = {  # name: {lang: (name, description)}; English description comes 
     "Rice & legumes": {"es": "Arroces con legumbres", "ca": "Arrossos amb llegums", "th": "ข้าวกับถั่ว", "ar": "الأرز مع البقول"},
     "Stuffed vegetables & leaves": {"es": "Verduras y hojas rellenas de arroz", "ca": "Verdures i fulles farcides d'arròs", "th": "ผักและใบไม้ยัดไส้ข้าว", "ar": "المحاشي وورق العنب"},
     "Lamb feast rices": {"es": "Arroces de banquete con cordero", "ca": "Arrossos de banquet amb xai", "th": "ข้าวงานเลี้ยงกับเนื้อแกะ", "ar": "أرز الولائم باللحم"},
+    "Fried rices": {"es": "Arroces fritos", "ca": "Arrossos fregits", "th": "ข้าวผัด", "ar": "الأرز المقلي"},
+    "Rice soups & porridges": {"es": "Sopas y gachas de arroz", "ca": "Sopes i farinetes d'arròs", "th": "ข้าวต้มและโจ๊ก", "ar": "شوربات وعصائد الأرز"},
+    "Chicken rices": {"es": "Arroces con pollo", "ca": "Arrossos amb pollastre", "th": "ข้าวกับไก่", "ar": "أرز بالدجاج"},
+    "Court & royal rices": {"es": "Arroces de corte y reales", "ca": "Arrossos de cort i reials", "th": "ข้าวราชสำนัก", "ar": "أرز البلاط الملكي"},
+    "Rice-and-topping plates": {"es": "Platos de arroz con cobertura", "ca": "Plats d'arròs amb cobertura", "th": "ข้าวราดหน้า", "ar": "أطباق الأرز مع الإضافات"},
+    "Sticky rices": {"es": "Arroces glutinosos", "ca": "Arrossos glutinosos", "th": "ข้าวเหนียว", "ar": "الأرز الدبق"},
+    "Leaf & bamboo-wrapped rices": {"es": "Arroces en hoja y bambú", "ca": "Arrossos en fulla i bambú", "th": "ข้าวห่อใบไม้และกระบอกไม้ไผ่", "ar": "أرز ملفوف بالأوراق والخيزران"},
+    "Ritual & festival rices": {"es": "Arroces rituales y de fiesta", "ca": "Arrossos rituals i de festa", "th": "ข้าวในพิธีกรรมและงานประเพณี", "ar": "أرز الطقوس والمواسم"},
+    "Rice crackers & rice-flour sweets": {"es": "Galletas y dulces de harina de arroz", "ca": "Galetes i dolços de farina d'arròs", "th": "ข้าวเกรียบและขนมแป้งข้าว", "ar": "مقرمشات وحلويات طحين الأرز"},
+    "Tossed & salad rices": {"es": "Arroces mezclados y en ensalada", "ca": "Arrossos barrejats i en amanida", "th": "ข้าวคลุกและข้าวยำ", "ar": "الأرز المخلوط والسلطات"},
+    "Rice as ingredient": {"es": "El arroz como ingrediente", "ca": "L'arròs com a ingredient", "th": "ข้าวในฐานะวัตถุดิบ", "ar": "الأرز كمكوّن"},
     "Rice with noodles": {"es": "Arroces con fideos", "ca": "Arrossos amb fideus", "th": "ข้าวกับเส้น", "ar": "الأرز بالشعيرية"},
 }
 

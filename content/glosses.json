@@ -1040,6 +1040,258 @@
    "ca": "Pilav otomà amb mantega, l'últim plat de la taula d'Alep del segle XVIII",
    "th": "พิลาฟเนยแบบออตโตมัน อาหารจานสุดท้ายบนโต๊ะอะเลปโปศตวรรษที่ 18",
    "ar": "رز بالسمن على الطريقة العثمانية، آخر أطباق المائدة الحلبية في القرن الثامن عشر"
+  },
+  "recipe_khao_chae.md": {
+   "en": "Court rice served in jasmine-scented iced water with sweet-salty fried side dishes",
+   "es": "Arroz cortesano servido en agua helada perfumada con jazmin y acompañamientos fritos dulces y salados",
+   "ca": "Arròs de cort servit en aigua gelada perfumada amb gessamí i acompanyaments fregits dolços i salats",
+   "th": "ข้าวแช่ชาววัง ข้าวในน้ำลอยดอกมะลิเย็นเฉียบ กินกับเครื่องเคียงหวานเค็ม",
+   "ar": "أرز البلاط يُقدَّم في ماء مثلّج معطّر بالياسمين مع مقبلات مقلية حلوة ومالحة"
+  },
+  "recipe_khao_tang_na_tang.md": {
+   "en": "Crisp rice crackers with a rich coconut, pork and prawn dip",
+   "es": "Galletas crujientes de arroz con una salsa espesa de coco, cerdo y gambas",
+   "ca": "Galetes cruixents d'arròs amb una salsa espessa de coco, porc i gambes",
+   "th": "ข้าวตังกรอบกับหน้าตั้งกะทิ หมูสับ และกุ้ง",
+   "ar": "رقائق أرز مقرمشة مع صلصة غنية من جوز الهند ولحم الخنزير والروبيان"
+  },
+  "recipe_khao_man_kai.md": {
+   "en": "Hainanese-Thai chicken rice: rice cooked in chicken fat with poached chicken and soybean sauce",
+   "es": "Arroz con pollo hainanés-tailandés: arroz cocido en grasa de pollo con pollo escalfado y salsa de soja fermentada",
+   "ca": "Arròs amb pollastre hainanès-tailandès: arròs cuit amb greix de pollastre, pollastre escalfat i salsa de soja fermentada",
+   "th": "ข้าวมันไก่ไหหลำ ข้าวหุงกับมันไก่ ไก่ต้ม และน้ำจิ้มเต้าเจี้ยว",
+   "ar": "أرز الدجاج الهايناني التايلاندي: أرز مطبوخ بدهن الدجاج مع دجاج مسلوق وصلصة فول الصويا المخمّر"
+  },
+  "recipe_khao_kha_mu.md": {
+   "en": "Five-spice braised pork leg over rice with egg and pickled greens",
+   "es": "Codillo de cerdo guisado con cinco especias sobre arroz, con huevo y verduras encurtidas",
+   "ca": "Garró de porc estofat amb cinc espècies sobre arròs, amb ou i verdures adobades",
+   "th": "ข้าวขาหมูพะโล้ราดน้ำพะโล้ กับไข่และผักกาดดอง",
+   "ar": "ساق خنزير مطهوة بالتوابل الخمس فوق الأرز مع بيض وخضار مخللة"
+  },
+  "recipe_khao_mu_daeng.md": {
+   "en": "Red roast pork over rice under a sweet, glossy red gravy",
+   "es": "Cerdo asado rojo sobre arroz con una salsa roja dulce y brillante",
+   "ca": "Porc rostit vermell sobre arròs amb una salsa vermella dolça i brillant",
+   "th": "ข้าวหมูแดงราดน้ำซอสสีแดงหวานข้น",
+   "ar": "لحم خنزير مشوي أحمر فوق الأرز مع صلصة حمراء حلوة لامعة"
+  },
+  "recipe_khao_rad_kaeng.md": {
+   "en": "A plate of rice with two or three curries ladled over it",
+   "es": "Un plato de arroz con dos o tres currys servidos por encima",
+   "ca": "Un plat d'arròs amb dos o tres curris servits al damunt",
+   "th": "ข้าวราดแกง ข้าวหนึ่งจานราดแกงสองสามอย่าง",
+   "ar": "طبق أرز تُسكب فوقه نوعان أو ثلاثة من الكاري"
+  },
+  "recipe_khao_mok_kai.md": {
+   "en": "Thai-Muslim yellow spiced rice with chicken, served with a sweet-sour green chili sauce",
+   "es": "Arroz amarillo especiado tailandés-musulman con pollo y salsa agridulce de chile verde",
+   "ca": "Arròs groc especiat tailandès-musulmà amb pollastre i salsa agredolça de bitxo verd",
+   "th": "ข้าวหมกไก่ ข้าวขมิ้นเครื่องเทศแบบไทยมุสลิม กินกับน้ำจิ้มเขียวเปรี้ยวหวาน",
+   "ar": "أرز أصفر متبّل على طريقة مسلمي تايلاند مع الدجاج وصلصة الفلفل الأخضر الحلوة الحامضة"
+  },
+  "recipe_khao_phat.md": {
+   "en": "Thai wok-fried rice with egg, garlic and fish sauce, served with lime and chili fish sauce",
+   "es": "Arroz frito tailandés al wok con huevo, ajo y salsa de pescado, con lima y salsa de chile",
+   "ca": "Arròs fregit tailandès al wok amb ou, all i salsa de peix, amb llima i salsa de bitxo",
+   "th": "ข้าวผัดกระทะ ใส่ไข่ กระเทียม และน้ำปลา กินกับมะนาวและพริกน้ำปลา",
+   "ar": "أرز مقلي تايلاندي في المقلاة مع البيض والثوم وصلصة السمك، يُقدَّم مع الليمون وصلصة الفلفل"
+  },
+  "recipe_khao_phat_amerikan.md": {
+   "en": "Thai-invented ketchup fried rice with raisins, fried chicken, ham, hot dog and fried egg",
+   "es": "Arroz frito con kétchup inventado en Tailandia, con pasas, pollo frito, jamón, salchicha y huevo frito",
+   "ca": "Arròs fregit amb quètxup inventat a Tailàndia, amb panses, pollastre fregit, pernil, salsitxa i ou ferrat",
+   "th": "ข้าวผัดอเมริกัน ข้าวผัดซอสมะเขือเทศใส่ลูกเกด กับไก่ทอด แฮม ไส้กรอก และไข่ดาว",
+   "ar": "أرز مقلي بالكاتشب ابتُكر في تايلاند مع الزبيب والدجاج المقلي واللحم المقدد والنقانق والبيض المقلي"
+  },
+  "recipe_khao_kluk_kapi.md": {
+   "en": "Rice tossed with shrimp paste, ringed with sweet pork, egg, green mango and chilies",
+   "es": "Arroz salteado con pasta de gambas, rodeado de cerdo dulce, huevo, mango verde y chiles",
+   "ca": "Arròs saltat amb pasta de gamba, envoltat de porc dolç, ou, mango verd i bitxos",
+   "th": "ข้าวคลุกกะปิ กินกับหมูหวาน ไข่ฝอย มะม่วงเปรี้ยว และพริก",
+   "ar": "أرز مقلّب بمعجون الروبيان، تحيط به لحوم حلوة وبيض ومانجو خضراء وفلفل حار"
+  },
+  "recipe_khao_tom.md": {
+   "en": "Thai rice soup with whole grains in light broth, with pork, garlic oil and celery",
+   "es": "Sopa tailandesa de arroz en grano en caldo ligero, con cerdo, aceite de ajo y apio",
+   "ca": "Sopa tailandesa d'arròs en gra en brou lleuger, amb porc, oli d'all i api",
+   "th": "ข้าวต้มหมู ข้าวเม็ดในน้ำซุปใส ใส่กระเทียมเจียวและขึ้นฉ่าย",
+   "ar": "شوربة أرز تايلاندية بحبوب كاملة في مرق خفيف مع لحم الخنزير وزيت الثوم والكرفس"
+  },
+  "recipe_jok.md": {
+   "en": "Silky broken-rice congee with pork balls, egg, ginger and fried garlic",
+   "es": "Congee sedoso de arroz partido con albondiguillas de cerdo, huevo, jengibre y ajo frito",
+   "ca": "Congee sedós d'arròs trencat amb mandonguilles de porc, ou, gingebre i all fregit",
+   "th": "โจ๊กข้าวหักเนื้อเนียน ใส่หมูเด้ง ไข่ ขิง และกระเทียมเจียว",
+   "ar": "عصيدة أرز مكسور ناعمة مع كرات لحم الخنزير والبيض والزنجبيل والثوم المقلي"
+  },
+  "recipe_khao_niao_nueng.md": {
+   "en": "Steamed sticky rice, the daily staple of the north and Isan, eaten by hand",
+   "es": "Arroz glutinoso al vapor, el alimento diario del norte y de Isan, que se come con la mano",
+   "ca": "Arròs glutinós al vapor, l'aliment diari del nord i d'Isan, que es menja amb la mà",
+   "th": "ข้าวเหนียวนึ่ง อาหารหลักประจำวันของภาคเหนือและอีสาน กินด้วยมือ",
+   "ar": "أرز دبق مطهو على البخار، الغذاء اليومي في شمال تايلاند وإيسان، يؤكل باليد"
+  },
+  "recipe_khao_jee.md": {
+   "en": "Grilled sticky-rice cakes glazed with egg, offered to monks in the cool season",
+   "es": "Pastelitos de arroz glutinoso a la brasa glaseados con huevo, ofrecidos a los monjes en la estación fresca",
+   "ca": "Pastissets d'arròs glutinós a la brasa glacejats amb ou, oferts als monjos a l'estació fresca",
+   "th": "ข้าวเหนียวปั้นชุบไข่ย่างไฟ ถวายพระในฤดูหนาว",
+   "ar": "أقراص أرز دبق مشوية مطلية بالبيض، تُقدَّم للرهبان في الموسم البارد"
+  },
+  "recipe_khao_kan_chin.md": {
+   "en": "Rice steamed with pork blood and minced pork in banana leaf, topped with fried garlic",
+   "es": "Arroz al vapor con sangre y carne picada de cerdo en hoja de plátano, con ajo frito",
+   "ca": "Arròs al vapor amb sang i carn picada de porc en fulla de plataner, amb all fregit",
+   "th": "ข้าวนึ่งคลุกเลือดหมูและหมูสับห่อใบตอง โรยกระเทียมเจียว",
+   "ar": "أرز مطهو على البخار مع دم الخنزير ولحمه المفروم في ورق الموز، مع الثوم المقلي"
+  },
+  "recipe_khao_som_tai_yai.md": {
+   "en": "Tai Yai rice balls kneaded with sour tomato, fish and turmeric garlic oil",
+   "es": "Bolas de arroz tai yai amasadas con tomate ácido, pescado y aceite de ajo y cúrcuma",
+   "ca": "Boles d'arròs tai yai pastades amb tomàquet àcid, peix i oli d'all i cúrcuma",
+   "th": "ข้าวส้มไทใหญ่ ข้าวปั้นคลุกมะเขือเทศเปรี้ยว ปลา และน้ำมันกระเทียมขมิ้น",
+   "ar": "كرات أرز من شعب التاي يا معجونة بالطماطم الحامضة والسمك وزيت الثوم والكركم"
+  },
+  "recipe_khao_puk_nga.md": {
+   "en": "Warm new-crop sticky rice pounded with toasted perilla seed, a cool-season snack",
+   "es": "Arroz glutinoso nuevo machacado en caliente con semillas de perilla tostadas, tentempié de invierno",
+   "ca": "Arròs glutinós nou picat en calent amb llavors de perilla torrades, berenar d'hivern",
+   "th": "ข้าวเหนียวใหม่ตำร้อนๆ กับงาขี้ม่อนคั่ว ของกินเล่นหน้าหนาว",
+   "ar": "أرز دبق من المحصول الجديد يُدق ساخناً مع بذور البريلا المحمصة، وجبة خفيفة للموسم البارد"
+  },
+  "recipe_khao_lam.md": {
+   "en": "Sticky rice with coconut milk and black beans roasted inside bamboo tubes",
+   "es": "Arroz glutinoso con leche de coco y alubias negras asado dentro de cañas de bambú",
+   "ca": "Arròs glutinós amb llet de coco i mongetes negres rostit dins de canyes de bambú",
+   "th": "ข้าวเหนียวกะทิใส่ถั่วดำ เผาในกระบอกไม้ไผ่",
+   "ar": "أرز دبق بحليب جوز الهند والفاصوليا السوداء يُشوى داخل أنابيب الخيزران"
+  },
+  "recipe_khao_kua.md": {
+   "en": "Toasted ground sticky rice, the nutty seasoning of larb",
+   "es": "Arroz glutinoso tostado y molido, el condimento de nuez del larb",
+   "ca": "Arròs glutinós torrat i mòlt, el condiment amb gust de fruit sec del larb",
+   "th": "ข้าวคั่ว ข้าวเหนียวคั่วป่น เครื่องปรุงหอมของลาบ",
+   "ar": "أرز دبق محمص ومطحون، التتبيلة ذات النكهة الجوزية لطبق اللارب"
+  },
+  "recipe_khao_buea.md": {
+   "en": "Soaked sticky rice pounded to a paste to thicken Isan bamboo-shoot curries",
+   "es": "Arroz glutinoso remojado y machacado en pasta para espesar los curris de brotes de bambú de Isan",
+   "ca": "Arròs glutinós remullat i picat en pasta per espessir els curris de brots de bambú d'Isan",
+   "th": "ข้าวเบือ ข้าวเหนียวแช่ตำละเอียด ใช้ทำให้แกงหน่อไม้อีสานข้น",
+   "ar": "أرز دبق منقوع ومدقوق حتى يصير معجوناً لتكثيف كاري براعم الخيزران في إيسان"
+  },
+  "recipe_khao_pong.md": {
+   "en": "Sun-dried sticky-rice sheets puffed over embers into crisp crackers",
+   "es": "Láminas de arroz glutinoso secadas al sol que se inflan sobre las brasas en galletas crujientes",
+   "ca": "Làmines d'arròs glutinós assecades al sol que s'inflen sobre les brases en galetes cruixents",
+   "th": "ข้าวโป่ง แผ่นข้าวเหนียวตากแห้ง ปิ้งไฟให้พองกรอบ",
+   "ar": "رقائق أرز دبق مجففة في الشمس تنتفخ على الجمر لتصبح مقرمشات هشة"
+  },
+  "recipe_khao_taen.md": {
+   "en": "Lampang fried sticky-rice crackers tinted with watermelon juice and drizzled with cane sugar",
+   "es": "Galletas fritas de arroz glutinoso de Lampang teñidas con zumo de sandía y bañadas con azúcar de caña",
+   "ca": "Galetes fregides d'arròs glutinós de Lampang tenyides amb suc de síndria i regades amb sucre de canya",
+   "th": "ข้าวแต๋นลำปาง ข้าวเหนียวทอดผสมน้ำแตงโม ราดน้ำอ้อย",
+   "ar": "مقرمشات أرز دبق مقلية من لامبانغ ملونة بعصير البطيخ ومغطاة بسكر القصب"
+  },
+  "recipe_khao_phan_phak.md": {
+   "en": "Laplae steamed rice-flour sheets rolled around stir-fried vegetables",
+   "es": "Láminas de harina de arroz al vapor de Laplae enrolladas con verduras salteadas",
+   "ca": "Làmines de farina d'arròs al vapor de Laplae enrotllades amb verdures saltejades",
+   "th": "ข้าวพันผักลับแล แผ่นแป้งข้าวเจ้านึ่งห่อผักผัด",
+   "ar": "رقائق دقيق أرز مطهوة على البخار من لابلاي ملفوفة حول خضار مقلية"
+  },
+  "recipe_khao_yam.md": {
+   "en": "Southern Thai rice salad with shredded herbs, sour fruit, toasted coconut and sweet budu fish sauce",
+   "es": "Ensalada de arroz del sur de Tailandia con hierbas picadas, fruta ácida, coco tostado y salsa budu dulce",
+   "ca": "Amanida d'arròs del sud de Tailàndia amb herbes picades, fruita àcida, coco torrat i salsa budu dolça",
+   "th": "ข้าวยำปักษ์ใต้ คลุกสมุนไพรซอย ผลไม้เปรี้ยว มะพร้าวคั่ว และน้ำบูดูหวาน",
+   "ar": "سلطة أرز من جنوب تايلاند بالأعشاب المفرومة والفاكهة الحامضة وجوز الهند المحمّص وصلصة البودو"
+  },
+  "recipe_nasi_dagae.md": {
+   "en": "Pattani coconut rice steamed with fenugreek, served with tuna curry and egg",
+   "es": "Arroz de coco de Pattani al vapor con fenogreco, con curry de atún y huevo",
+   "ca": "Arròs de coco de Pattani al vapor amb fenigrec, amb curri de tonyina i ou",
+   "th": "ข้าวมันปัตตานีนึ่งกับลูกซัด กินกับแกงปลาทูน่าและไข่",
+   "ar": "أرز جوز الهند من فطاني مطهو على البخار بالحلبة، يُقدَّم مع كاري التونة والبيض"
+  },
+  "recipe_khao_tom_luk_yon.md": {
+   "en": "Tailed parcels of coconut sticky rice thrown to monks at the end of Buddhist Lent",
+   "es": "Paquetitos de arroz glutinoso con coco y 'cola', lanzados a los monjes al final de la Cuaresma budista",
+   "ca": "Paquets d'arròs glutinós amb coco i 'cua', llançats als monjos al final de la Quaresma budista",
+   "th": "ข้าวต้มลูกโยนห่อใบไม้มีหาง โยนใส่บาตรพระในวันออกพรรษา",
+   "ar": "صُرر أرز دبق بجوز الهند ذات ذيل تُرمى للرهبان في نهاية الصوم البوذي"
+  },
+  "recipe_khanom_la.md": {
+   "en": "Lacy golden rice-flour sheets offered to the ancestors at the southern Tenth-Month festival",
+   "es": "Láminas doradas de encaje de harina de arroz ofrecidas a los antepasados en la fiesta sureña del Décimo Mes",
+   "ca": "Làmines daurades de puntes de farina d'arròs ofertes als avantpassats a la festa del Desè Mes",
+   "th": "ขนมลาแผ่นแป้งข้าวเจ้าลายฝอยสีทอง ถวายบรรพบุรุษในประเพณีสารทเดือนสิบ",
+   "ar": "رقائق دانتيل ذهبية من طحين الأرز تُقدَّم للأسلاف في مهرجان الشهر العاشر بالجنوب"
+  },
+  "recipe_khao_mathu_payat.md": {
+   "en": "Honeyed milk-rice stirred into a sacred sweet for Buddhist holy days",
+   "es": "Arroz con leche y miel removido hasta formar un dulce sagrado para las fiestas budistas",
+   "ca": "Arròs amb llet i mel remenat fins a fer un dolç sagrat per a les festes budistes",
+   "th": "ข้าวมธุปายาส ข้าวกวนน้ำผึ้งและนม ขนมศักดิ์สิทธิ์ในวันสำคัญทางพุทธศาสนา",
+   "ar": "أرز بالحليب والعسل يُحرَّك حتى يصبح حلوى مقدسة للأعياد البوذية"
+  },
+  "recipe_khao_pradap_din.md": {
+   "en": "Little banana-leaf parcels of sticky rice laid on the earth for ancestors and hungry ghosts",
+   "es": "Paquetitos de hoja de plátano con arroz glutinoso depositados en la tierra para los antepasados",
+   "ca": "Paquets de fulla de plàtan amb arròs glutinós deixats a terra per als avantpassats",
+   "th": "ห่อข้าวน้อยใบตองใส่ข้าวเหนียว วางบนดินอุทิศให้บรรพบุรุษและเปรต",
+   "ar": "صُرر صغيرة من ورق الموز بالأرز الدبق تُوضع على الأرض للأسلاف والأرواح الجائعة"
+  },
+  "recipe_khao_niao_mamuang.md": {
+   "en": "Sticky rice soaked in sweet coconut milk, served with ripe mango and salted coconut cream",
+   "es": "Arroz glutinoso empapado en leche de coco dulce, con mango maduro y crema de coco salada",
+   "ca": "Arròs glutinós amarat en llet de coco dolça, amb mango madur i crema de coco salada",
+   "th": "ข้าวเหนียวมูนกะทิหวาน เสิร์ฟกับมะม่วงสุกและหัวกะทิเค็ม",
+   "ar": "أرز دبق منقوع بحليب جوز الهند المحلّى، يُقدَّم مع المانجو الناضجة وكريمة جوز الهند المملحة"
+  },
+  "recipe_khao_tom_mat.md": {
+   "en": "Banana and coconut sticky rice wrapped in banana leaf, tied in pairs and boiled",
+   "es": "Arroz glutinoso con coco y plátano envuelto en hoja de plátano, atado por parejas y hervido",
+   "ca": "Arròs glutinós amb coco i plàtan embolicat en fulla de plàtan, lligat per parelles i bullit",
+   "th": "ข้าวต้มมัดไส้กล้วย ข้าวเหนียวผัดกะทิห่อใบตอง มัดเป็นคู่แล้วต้ม",
+   "ar": "أرز دبق بجوز الهند والموز ملفوف بورق الموز، مربوط أزواجاً ومسلوق"
+  },
+  "recipe_khao_niao_sangkhaya.md": {
+   "en": "Coconut sticky rice topped with steamed palm-sugar and duck-egg custard",
+   "es": "Arroz glutinoso con coco cubierto de natilla al vapor de azúcar de palma y huevo de pato",
+   "ca": "Arròs glutinós amb coco cobert de crema al vapor de sucre de palma i ou d'ànec",
+   "th": "ข้าวเหนียวมูนหน้าสังขยาไข่เป็ดน้ำตาลโตนด",
+   "ar": "أرز دبق بجوز الهند تعلوه كاسترد مطهو على البخار بسكر النخيل وبيض البط"
+  },
+  "recipe_khao_mak.md": {
+   "en": "Sticky rice fermented with starter cakes into a juicy, sweet, lightly alcoholic dessert",
+   "es": "Arroz glutinoso fermentado con pastillas de levadura en un postre jugoso, dulce y ligeramente alcohólico",
+   "ca": "Arròs glutinós fermentat amb pastilles de llevat en unes postres sucoses, dolces i lleugerament alcohòliques",
+   "th": "ข้าวหมาก ข้าวเหนียวหมักลูกแป้ง หวานฉ่ำ มีแอลกอฮอล์อ่อนๆ",
+   "ar": "أرز دبق مخمّر بأقراص الخميرة يصبح حلوى عصيرية حلوة خفيفة الكحول"
+  },
+  "recipe_bua_loy.md": {
+   "en": "Chewy coloured glutinous-rice balls in warm coconut milk, often with a sweet egg",
+   "es": "Bolitas de colores de harina de arroz glutinoso en leche de coco caliente, a menudo con huevo dulce",
+   "ca": "Boletes de colors de farina d'arròs glutinós en llet de coco calenta, sovint amb ou dolç",
+   "th": "บัวลอยแป้งข้าวเหนียวหลากสีในน้ำกะทิอุ่น มักใส่ไข่หวาน",
+   "ar": "كرات ملوّنة من طحين الأرز الدبق في حليب جوز الهند الدافئ، غالباً مع بيضة محلّاة"
+  },
+  "recipe_khanom_krok.md": {
+   "en": "Crisp rice-flour and coconut cups with a molten salty-sweet top, cooked in a dimpled iron pan",
+   "es": "Cazoletas crujientes de harina de arroz y coco con cobertura fundente agridulce, en sartén de hoyos",
+   "ca": "Cassoletes cruixents de farina d'arròs i coco amb cobertura fosa, en paella de forats",
+   "th": "ขนมครกแป้งข้าวเจ้ากับกะทิ ขอบกรอบ หน้านุ่มหวานเค็ม อบในเตาหลุม",
+   "ar": "أكواب مقرمشة من طحين الأرز وجوز الهند بقمة ذائبة حلوة مالحة، تُطهى في مقلاة حديدية مجوّفة"
+  },
+  "recipe_khanom_chan.md": {
+   "en": "Springy layered rice-flour and coconut sweet, steamed one layer at a time",
+   "es": "Dulce de capas elástico de harina de arroz y coco, cocido al vapor capa a capa",
+   "ca": "Dolç de capes elàstic de farina d'arròs i coco, cuit al vapor capa a capa",
+   "th": "ขนมชั้นแป้งข้าวเจ้ากะทิ นุ่มหนึบ นึ่งทีละชั้น",
+   "ar": "حلوى طبقات مرنة من طحين الأرز وجوز الهند، تُطهى على البخار طبقة بعد طبقة"
   }
  },
  "regions": {
@@ -1148,6 +1400,34 @@
    "ca": "Síria",
    "th": "ซีเรีย",
    "ar": "سوريا"
+  },
+  "provincial_central_thailand.md": {
+   "en": "Central Thailand",
+   "es": "Tailandia central",
+   "ca": "Tailàndia central",
+   "th": "ภาคกลาง",
+   "ar": "وسط تايلاند"
+  },
+  "provincial_lanna.md": {
+   "en": "Northern Thailand (Lanna)",
+   "es": "Norte de Tailandia (Lanna)",
+   "ca": "Nord de Tailàndia (Lanna)",
+   "th": "ภาคเหนือ (ล้านนา)",
+   "ar": "شمال تايلاند (لانا)"
+  },
+  "provincial_isan.md": {
+   "en": "Isan (Northeast)",
+   "es": "Isan (Noreste)",
+   "ca": "Isan (Nord-est)",
+   "th": "ภาคอีสาน",
+   "ar": "إيسان (الشمال الشرقي)"
+  },
+  "provincial_southern_thailand.md": {
+   "en": "Southern Thailand",
+   "es": "Sur de Tailandia",
+   "ca": "Sud de Tailàndia",
+   "th": "ภาคใต้",
+   "ar": "جنوب تايلاند"
   }
  },
  "areas": {
@@ -1466,7 +1746,220 @@
     "ar": "تايلاند"
    },
    "theme": "thai",
-   "regions": []
+   "regions": [
+    "provincial_central_thailand.md",
+    "provincial_lanna.md",
+    "provincial_isan.md",
+    "provincial_southern_thailand.md"
+   ],
+   "categories": [
+    {
+     "id": "sticky",
+     "name": {
+      "en": "Sticky rice & its companions",
+      "es": "Arroz glutinoso y sus acompañantes",
+      "ca": "Arròs glutinós i els seus acompanyants",
+      "th": "ข้าวเหนียวและสำรับ",
+      "ar": "الأرز الدبق ومرافقاته"
+     },
+     "description": {
+      "en": "Glutinous rice steamed in the huad, eaten by hand in the north and Isan.",
+      "es": "Arroz glutinoso cocido al vapor en el huad, comido con la mano en el norte e Isan.",
+      "ca": "Arròs glutinós cuit al vapor al huad, menjat amb la mà al nord i a Isan.",
+      "th": "ข้าวเหนียวนึ่งในหวด ปั้นกินด้วยมือ วัฒนธรรมภาคเหนือและอีสาน",
+      "ar": "أرز دبق يُطهى بالبخار في سلة الهواد ويؤكل باليد في الشمال وإيسان."
+     },
+     "members": [
+      "recipe_khao_niao_nueng.md",
+      "recipe_khao_jee.md",
+      "recipe_khao_puk_nga.md",
+      "recipe_khao_lam.md"
+     ]
+    },
+    {
+     "id": "oneplate",
+     "name": {
+      "en": "One-plate rices",
+      "es": "Platos únicos de arroz",
+      "ca": "Plats únics d'arròs",
+      "th": "ข้าวจานเดียว",
+      "ar": "أطباق الأرز الفردية"
+     },
+     "description": {
+      "en": "Rice with a topping or curry ladled over: the shophouse and street-stall plate.",
+      "es": "Arroz con su acompañamiento o curry por encima: el plato de tienda y puesto callejero.",
+      "ca": "Arròs amb el seu acompanyament o curri al damunt: el plat de botiga i parada de carrer.",
+      "th": "ข้าวราดกับข้าวหรือแกง อาหารจานเดียวของร้านห้องแถวและแผงริมทาง",
+      "ar": "أرز مع طبق أو كاري فوقه: طبق المحلات وأكشاك الشارع."
+     },
+     "members": [
+      "recipe_khao_man_kai.md",
+      "recipe_khao_kha_mu.md",
+      "recipe_khao_mu_daeng.md",
+      "recipe_khao_rad_kaeng.md",
+      "recipe_khao_mok_kai.md",
+      "recipe_nasi_dagae.md"
+     ]
+    },
+    {
+     "id": "fried",
+     "name": {
+      "en": "Fried rices",
+      "es": "Arroces fritos",
+      "ca": "Arrossos fregits",
+      "th": "ข้าวผัด",
+      "ar": "الأرز المقلي"
+     },
+     "description": {
+      "en": "Cooked rice tossed in a hot wok.",
+      "es": "Arroz cocido salteado en un wok bien caliente.",
+      "ca": "Arròs cuit saltat en un wok ben calent.",
+      "th": "ข้าวสุกผัดในกระทะร้อนจัด",
+      "ar": "أرز مطبوخ يُقلّب في مقلاة شديدة الحرارة."
+     },
+     "members": [
+      "recipe_khao_phat.md",
+      "recipe_khao_phat_amerikan.md"
+     ]
+    },
+    {
+     "id": "porridge",
+     "name": {
+      "en": "Rice soups & porridges",
+      "es": "Sopas y gachas de arroz",
+      "ca": "Sopes i farinetes d'arròs",
+      "th": "ข้าวต้มและโจ๊ก",
+      "ar": "شوربات وعصائد الأرز"
+     },
+     "description": {
+      "en": "Khao tom, jok and other rice in broth: breakfast and late-night food.",
+      "es": "Khao tom, jok y otros arroces en caldo: desayuno y comida de madrugada.",
+      "ca": "Khao tom, jok i altres arrossos en brou: esmorzar i menjar de matinada.",
+      "th": "ข้าวต้ม โจ๊ก และข้าวในน้ำซุป อาหารเช้าและมื้อดึก",
+      "ar": "خاو توم وجوك وأرز بالمرق: فطور ووجبة آخر الليل."
+     },
+     "members": [
+      "recipe_khao_tom.md",
+      "recipe_jok.md"
+     ]
+    },
+    {
+     "id": "mixed",
+     "name": {
+      "en": "Mixed & tossed rices",
+      "es": "Arroces mezclados y aliñados",
+      "ca": "Arrossos barrejats i amanits",
+      "th": "ข้าวคลุกและข้าวยำ",
+      "ar": "الأرز المخلوط والمتبّل"
+     },
+     "description": {
+      "en": "Rice tossed with pastes, herbs and condiments: khao yam, khao kluk kapi.",
+      "es": "Arroz mezclado con pastas, hierbas y condimentos: khao yam, khao kluk kapi.",
+      "ca": "Arròs barrejat amb pastes, herbes i condiments: khao yam, khao kluk kapi.",
+      "th": "ข้าวคลุกเคล้ากับกะปิ สมุนไพร และเครื่องปรุง เช่น ข้าวยำ ข้าวคลุกกะปิ",
+      "ar": "أرز يُخلط بالمعاجين والأعشاب والتوابل: خاو يام وخاو كلوك كابي."
+     },
+     "members": [
+      "recipe_khao_kluk_kapi.md",
+      "recipe_khao_kan_chin.md",
+      "recipe_khao_som_tai_yai.md",
+      "recipe_khao_kua.md",
+      "recipe_khao_buea.md",
+      "recipe_khao_phan_phak.md",
+      "recipe_khao_yam.md"
+     ]
+    },
+    {
+     "id": "court",
+     "name": {
+      "en": "Court & royal rices",
+      "es": "Arroces de corte y reales",
+      "ca": "Arrossos de cort i reials",
+      "th": "อาหารชาววังและข้าวราชสำนัก",
+      "ar": "أرز البلاط الملكي"
+     },
+     "description": {
+      "en": "Refined rices of the Siamese palaces, from khao chae to khao tang na tang.",
+      "es": "Arroces refinados de los palacios siameses, del khao chae al khao tang na tang.",
+      "ca": "Arrossos refinats dels palaus siamesos, del khao chae al khao tang na tang.",
+      "th": "ข้าวประณีตจากวังสยาม ตั้งแต่ข้าวแช่ถึงข้าวตังหน้าตั้ง",
+      "ar": "أطباق أرز راقية من قصور سيام، من خاو تشاي إلى خاو تانغ نا تانغ."
+     },
+     "members": [
+      "recipe_khao_chae.md",
+      "recipe_khao_tang_na_tang.md"
+     ]
+    },
+    {
+     "id": "dessert",
+     "name": {
+      "en": "Rice desserts",
+      "es": "Postres de arroz",
+      "ca": "Postres d'arròs",
+      "th": "ขนมและของหวานจากข้าว",
+      "ar": "حلويات الأرز"
+     },
+     "description": {
+      "en": "Sticky rice, rice flour and coconut: khanom and sweets.",
+      "es": "Arroz glutinoso, harina de arroz y coco: khanom y dulces.",
+      "ca": "Arròs glutinós, farina d'arròs i coco: khanom i dolços.",
+      "th": "ข้าวเหนียว แป้งข้าว และกะทิ ขนมและของหวาน",
+      "ar": "أرز دبق وطحين أرز وجوز هند: حلويات الخانوم."
+     },
+     "members": [
+      "recipe_khao_pong.md",
+      "recipe_khao_taen.md",
+      "recipe_khao_niao_mamuang.md",
+      "recipe_khao_tom_mat.md",
+      "recipe_khao_niao_sangkhaya.md",
+      "recipe_khao_mak.md",
+      "recipe_bua_loy.md",
+      "recipe_khanom_krok.md",
+      "recipe_khanom_chan.md"
+     ]
+    },
+    {
+     "id": "ritual",
+     "name": {
+      "en": "Ritual & merit rices",
+      "es": "Arroces rituales y de ofrenda",
+      "ca": "Arrossos rituals i d'ofrena",
+      "th": "ข้าวในพิธีกรรมและงานบุญ",
+      "ar": "أرز الطقوس والقرابين"
+     },
+     "description": {
+      "en": "Rices for temple offerings, festivals and the rice goddess Mae Phosop.",
+      "es": "Arroces para ofrendas en templos, fiestas y la diosa del arroz Mae Phosop.",
+      "ca": "Arrossos per a ofrenes als temples, festes i la deessa de l'arròs Mae Phosop.",
+      "th": "ข้าวสำหรับทำบุญ ถวายวัด งานประเพณี และแม่โพสพ",
+      "ar": "أرز لقرابين المعابد والمهرجانات وإلهة الأرز ماي فوسوب."
+     },
+     "members": [
+      "recipe_khao_tom_luk_yon.md",
+      "recipe_khanom_la.md",
+      "recipe_khao_mathu_payat.md",
+      "recipe_khao_pradap_din.md"
+     ]
+    },
+    {
+     "id": "historical",
+     "name": {
+      "en": "Historical rices",
+      "es": "Arroces históricos",
+      "ca": "Arrossos històrics",
+      "th": "ข้าวในประวัติศาสตร์",
+      "ar": "أرز تاريخي"
+     },
+     "description": {
+      "en": "Rices reconstructed from Ayutthaya-era accounts, royal poems and the first Thai cookbooks.",
+      "es": "Arroces reconstruidos a partir de relatos de la época de Ayutthaya, poemas reales y los primeros recetarios tailandeses.",
+      "ca": "Arrossos reconstruïts a partir de relats de l'època d'Ayutthaya, poemes reials i els primers receptaris tailandesos.",
+      "th": "ข้าวที่สร้างขึ้นใหม่จากบันทึกสมัยอยุธยา บทพระราชนิพนธ์ และตำรากับข้าวไทยเล่มแรก",
+      "ar": "أطباق أرز أُعيد بناؤها من روايات عصر أيوثايا والقصائد الملكية وأوائل كتب الطبخ التايلاندية."
+     },
+     "members": []
+    }
+   ]
   }
  }
 }
