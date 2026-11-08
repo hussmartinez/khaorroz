@@ -2788,6 +2788,125 @@
     "th": "ข้าวเนื้อครีมกับปลาหมึกยักษ์และกุ้งจากรินโล (กาลิเซีย) ญาติทางเหนือของอาหารจานนี้",
     "ar": "أرز كريمي بالأخطبوط والروبيان من رينلو (غاليسيا)، قريب شمالي لهذا الطبق"
    }
+  },
+  "recipe_kousa_bi_laban.md": {
+   "file": "images/kousa-bi-laban.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:مخشي الكوسا باللبن.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AE%D8%B4%D9%8A_%D8%A7%D9%84%D9%83%D9%88%D8%B3%D8%A7_%D8%A8%D8%A7%D9%84%D9%84%D8%A8%D9%86.jpg",
+   "author": "Osps7",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Zucchini stuffed with rice simmering in yogurt, Burin village near Nablus",
+    "es": "Calabacines rellenos de arroz cociendo en yogur, aldea de Burin cerca de Nablus",
+    "ca": "Carbassons farcits d'arròs coent-se en iogurt, poble de Burin prop de Nablus",
+    "th": "ซูกินียัดไส้ข้าวเคี่ยวในโยเกิร์ต หมู่บ้านบูรินใกล้นาบลุส",
+    "ar": "كوسا محشي يُطهى باللبن، قرية بورين قرب نابلس"
+   }
+  },
+  "recipe_ghammeh.md": {
+   "file": "images/ghammeh.webp",
+   "width": 720,
+   "height": 1328,
+   "commonsTitle": "File:كرشة على الطريقة الفلسطينية.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D9%83%D8%B1%D8%B4%D8%A9_%D8%B9%D9%84%D9%89_%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82%D8%A9_%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D8%A9.jpg",
+   "author": "Osps7",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Palestinian kirsheh: goat tripe stuffed with rice, the same dish as Lebanese ghammeh",
+    "es": "Kirsheh palestina: callos de cabra rellenos de arroz, el mismo plato que la ghammeh libanesa",
+    "ca": "Kirsheh palestina: tripa de cabra farcida d'arròs, el mateix plat que la ghammeh libanesa",
+    "th": "เคียร์เชห์แบบปาเลสไตน์ ผ้าขี้ริ้วแพะยัดไส้ข้าว อาหารเดียวกับฆัมเมห์ของเลบานอน",
+    "ar": "كرشة على الطريقة الفلسطينية محشوة بالأرز، وهي الطبق نفسه المعروف بالغمّة في لبنان"
+   }
+  },
+  "recipe_ouzi.md": {
+   "file": "images/ouzi.webp",
+   "width": 1600,
+   "height": 900,
+   "commonsTitle": "File:أوزي.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D8%A3%D9%88%D8%B2%D9%8A.jpg",
+   "author": "براء",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Ouzi in its open, pastry-free form: spiced rice with peas and carrots under roast meat",
+    "es": "Ouzi en su forma abierta, sin masa: arroz especiado con guisantes y zanahoria bajo carne asada",
+    "ca": "Ouzi en la seva forma oberta, sense pasta: arròs especiat amb pèsols i pastanaga sota carn rostida",
+    "th": "อูซีแบบไม่ห่อแป้ง ข้าวเครื่องเทศกับถั่วลันเตาและแครอท วางเนื้ออบด้านบน",
+    "ar": "الأوزي بصيغته المكشوفة دون عجين: أرز متبّل بالبازلاء والجزر تحت اللحم المشوي"
+   }
+  },
+  "recipe_malfouf_mehshi.md": {
+   "file": "images/malfouf-mehshi.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:محشي الملفوف الفلسطيني.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AD%D8%B4%D9%8A_%D8%A7%D9%84%D9%85%D9%84%D9%81%D9%88%D9%81_%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A.jpg",
+   "author": "Osps7",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Palestinian-style cabbage leaves rolled around rice",
+    "es": "Hojas de col enrolladas con arroz al estilo palestino",
+    "ca": "Fulles de col enrotllades amb arròs a l'estil palestí",
+    "th": "กะหล่ำปลีม้วนไส้ข้าวแบบปาเลสไตน์",
+    "ar": "ورق ملفوف محشي بالأرز على الطريقة الفلسطينية"
+   }
+  },
+  "recipe_mehshi_felfel.md": {
+   "file": "images/mehshi-felfel.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:محشي الفليفلة الحولية.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AD%D8%B4%D9%8A_%D8%A7%D9%84%D9%81%D9%84%D9%8A%D9%81%D9%84%D8%A9_%D8%A7%D9%84%D8%AD%D9%88%D9%84%D9%8A%D8%A9.jpg",
+   "author": "Osps7",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Nablus-style peppers (and a few eggplants) stuffed with rice in a pot",
+    "es": "Pimientos al estilo de Nablus (y algunas berenjenas) rellenos de arroz en la olla",
+    "ca": "Pebrots a l'estil de Nablus (i algunes albergínies) farcits d'arròs a l'olla",
+    "th": "พริกหวาน (และมะเขือยาวบางลูก) ยัดไส้ข้าวแบบนาบลุสในหม้อ",
+    "ar": "فليفلة (وبعض الباذنجان) محشوة بالأرز على الطريقة النابلسية في القدر"
+   }
+  },
+  "recipe_qara_mahshi.md": {
+   "file": "images/qara-mahshi.webp",
+   "width": 1600,
+   "height": 1202,
+   "commonsTitle": "File:Mahshi.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Mahshi.jpg",
+   "author": "Aseel zm",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Tray of stuffed pumpkin (yaqtin) with stuffed onions and potatoes",
+    "es": "Bandeja de calabaza rellena (yaqtin) con cebollas y patatas rellenas",
+    "ca": "Safata de carabassa farcida (yaqtin) amb cebes i patates farcides",
+    "th": "ถาดฟักทองยัดไส้กับหัวหอมและมันฝรั่งยัดไส้",
+    "ar": "صينية محشي يقطين مع بصل وبطاطا محشية"
+   }
+  },
+  "recipe_arroz_arabe_chileno.md": {
+   "file": "images/arroz-arabe-chileno.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Arabic rice.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arabic_rice.jpg",
+   "author": "El Mono Español",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Rice with toasted fine noodles, the Levantine dish known in Chile as arroz arabe",
+    "es": "Arroz con fideos finos tostados, el plato levantino conocido en Chile como arroz árabe",
+    "ca": "Arròs amb fideus fins torrats, el plat llevantí conegut a Xile com a arroz árabe",
+    "th": "ข้าวผัดเส้นหมี่คั่วแบบลิแวนต์ ที่ชิลีเรียกว่าอาร์รอซอาราเบ",
+    "ar": "أرز بالشعيرية المحمّصة، الطبق الشامي المعروف في تشيلي باسم الأرز العربي"
+   }
   }
  }
 }
