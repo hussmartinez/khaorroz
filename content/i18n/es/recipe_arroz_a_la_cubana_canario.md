@@ -1,5 +1,5 @@
 ---
-source_hash: 2c6f2f7760abe52d
+source_hash: d6b14ad13e6809a6
 ---
 
 # Arroz a la Cubana (Canarias) / Arroz con Huevo y Plátano
@@ -29,7 +29,11 @@ Un plato de **arroz blanco**, **salsa de tomate**, **huevo frito** y **plátano 
 ### La base de sabor (el fondo)
 | Ingrediente | Cantidad |
 |---|---|
-| Salsa de tomate: aceite de oliva 40 ml, cebolla 1, ajo 2, tomate triturado 600 g, una pizca de azúcar | ≈ 500 ml |
+| Aceite de oliva (salsa) | 40 ml |
+| Cebolla, picada fina (salsa) | 1 |
+| Ajo, laminado (salsa) | 2 dientes |
+| Tomate triturado (salsa; rinde ≈ 500 ml) | 600 g |
+| Azúcar (salsa) | una pizca |
 | Diente de ajo + hoja de laurel (para el arroz) | 1 + 1 |
 
 ### Proporciones de montaje
@@ -49,14 +53,3 @@ Un plato de **arroz blanco**, **salsa de tomate**, **huevo frito** y **plátano 
 
 ## 5. Enlaces de referencia
 *   [Directo al Paladar – Arroz a la cubana (típico de Canarias)](https://www.directoalpaladar.com/recetario/arroz-a-la-cubana-receta)
-
-## 6. Platos relacionados
-
-**Arroces caseros y de campo:** Arroces de diario y de cortijo de Canarias y Andalucía: arroz «con cosas», con lo que hubiera en casa.
-
-*   [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md): Canarias · Seco
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md): Andalucía · Seco
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso
-*   [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md): Norte de España · Seco

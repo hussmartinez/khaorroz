@@ -1,5 +1,5 @@
 ---
-source_hash: 681b4187a6f8e404
+source_hash: 59d1d8e77c808276
 ---
 
 # Colas de Cordero con Arroz / Guiso de Colas de Viernes Santo
@@ -48,28 +48,12 @@ El **Viernes Santo**, los pastores *escodaban*: cortaban la cola a las ovejas qu
 | Caldo en la olla | ≈ 1,8 L |
 
 ### Paso a paso
-1. **Arroz:** Añadir el arroz al guiso, que debe estar hirviendo suavemente, durante los últimos **18 min**.
-2. **Final:** Dejar reposar 2 min. Servir con una pizca de canela.
+1. **Preparar las colas:** Chamuscar los restos de lana, lavarlas y cortarlas en trozos por las articulaciones.
+2. **Freír:** Calentar el aceite y freír las colas hasta que estén doradas por todos lados (**12 min**). Reservar.
+3. **Caldo:** En una olla, llevar a ebullición el agua con las patatas, el ajo, el laurel, la canela, el perejil y la sal.
+4. **Guiso:** Añadir las colas fritas y cocer a fuego suave **60–75 min**, hasta que la carne se separe del hueso. Ir añadiendo agua caliente para mantener ≈ 1,8 L de caldo.
+5. **Arroz:** Añadir el arroz al guiso, que debe estar hirviendo suavemente, durante los últimos **18 min**, removiendo de vez en cuando.
+6. **Final:** Dejar reposar 2 min. Servir con una pizca de canela.
 
 ## 5. Enlaces de referencia
 *   [RENC – Platos olvidados de Aragón (Colas de cordero, PDF)](https://www.renc.es/imagenes/auxiliar/files/2022_RENC_VOL_28_SUPL1_PLATOS_OLVIDADOS_ARAGON__1_.pdf)
-
-## 6. Platos relacionados
-
-**Arroces de olla de invierno y de matanza:** Ollas de legumbres, cerdo y casquería con el arroz cocido dentro.
-
-*   [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md): Valencia · Caldoso
-*   [Olla de Benicarló (con Arroz)](recipe_olla_de_benicarlo.md): Castellón · Caldoso
-*   [Arroz con Pata de Ternera](recipe_arroz_con_pata_de_ternera.md): Alicante · Meloso
-*   [Arroz de Matanza Ibicenco](recipe_arros_de_matances_eivissa.md): Islas Baleares · Caldoso
-*   [Arroz Sucio Mallorquín](recipe_arros_brut.md): Islas Baleares · Caldoso
-*   [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md): Alicante · Meloso
-*   [Arroz con Hígado de Toro](recipe_arroz_con_higado_de_toro.md): Valencia · Meloso
-*   [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md): Cataluña · Caldoso
-*   [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md): Región de Murcia · Caldoso
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): Valencia · Seco
-*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): Valencia · Seco
-*   [Arroz a la Zamorana](recipe_arroz_a_la_zamorana.md): Castilla y León · Meloso
-*   [Chanfaina Salmantina](recipe_chanfaina_salmantina.md): Castilla y León · Meloso
-*   [Txuritabeltz (Relleno Navarro y Sangrecilla)](recipe_txuritabeltz.md): Aragón, Navarra y La Rioja · Seco
-*   [Arroz Clarico (con Hierbabuena)](recipe_arroz_clarico.md): Alicante · Caldoso

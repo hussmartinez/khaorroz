@@ -1,5 +1,5 @@
 ---
-source_hash: 1f50657f5e070d9e
+source_hash: 475127795e423ef1
 ---
 
 # Arroz Clarico (con Hierbabuena) / Arroz Clarico de la Vega Baja
@@ -62,23 +62,3 @@ La **coincidencia de nombres** es un caso de manual de hiperlocalismo. En **Orih
 *   [Mercado Calabajío – Arroz de los 3 puñaos (comentarios: el «arroz clarico» de carne de Orihuela, con hierbabuena obligatoria, frente al «clarico de vigilia» de Almoradí)](https://www.mercadocalabajio.com/2018/03/arroz-clarico-o-de-los-3-punaos-receta.html)
 *   [Los domingos cocino yo – Arroz clarico de vigilia (o de los tres "puñaos")](http://losdomingoscocinoyo.blogspot.com/2012/10/arroz-clarico-de-vigilia-o-de-los-tres.html)
 *   [CONVEGA – Recetario de la Vega Baja (PDF; contexto comarcal de cocidos y caldosos)](https://convega.com/wp-content/uploads/2026/05/Recetario.pdf)
-
-## 6. Platos relacionados
-
-**Arroces de olla de invierno y de matanza:** Ollas de legumbres, cerdo y casquería con el arroz cocido dentro.
-
-*   [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md): Valencia · Caldoso
-*   [Olla de Benicarló (con Arroz)](recipe_olla_de_benicarlo.md): Castellón · Caldoso
-*   [Arroz con Pata de Ternera](recipe_arroz_con_pata_de_ternera.md): Alicante · Meloso
-*   [Arroz de Matanza Ibicenco](recipe_arros_de_matances_eivissa.md): Islas Baleares · Caldoso
-*   [Arroz Sucio Mallorquín](recipe_arros_brut.md): Islas Baleares · Caldoso
-*   [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md): Alicante · Meloso
-*   [Arroz con Hígado de Toro](recipe_arroz_con_higado_de_toro.md): Valencia · Meloso
-*   [Colas de Cordero con Arroz](recipe_arroz_con_colas_de_cordero.md): Aragón, Navarra y La Rioja · Caldoso
-*   [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md): Cataluña · Caldoso
-*   [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md): Región de Murcia · Caldoso
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): Valencia · Seco
-*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): Valencia · Seco
-*   [Arroz a la Zamorana](recipe_arroz_a_la_zamorana.md): Castilla y León · Meloso
-*   [Chanfaina Salmantina](recipe_chanfaina_salmantina.md): Castilla y León · Meloso
-*   [Txuritabeltz (Relleno Navarro y Sangrecilla)](recipe_txuritabeltz.md): Aragón, Navarra y La Rioja · Seco

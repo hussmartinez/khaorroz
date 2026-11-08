@@ -1,5 +1,5 @@
 ---
-source_hash: 2c6f2f7760abe52d
+source_hash: d6b14ad13e6809a6
 ---
 
 # Arroz a la Cubana (Canarias) / Arroz con Huevo y Plátano
@@ -29,7 +29,11 @@ source_hash: 2c6f2f7760abe52d
 ### ฐานรสชาติ (El Fondo)
 | วัตถุดิบ | ปริมาณ |
 |---|---|
-| ซอสมะเขือเทศ: น้ำมันมะกอก 40 ml หอมใหญ่ 1 หัว กระเทียม 2 กลีบ มะเขือเทศบด 600 g น้ำตาลหนึ่งหยิบมือ | ≈ 500 ml |
+| น้ำมันมะกอก (สำหรับซอส) | 40 ml |
+| หอมใหญ่ สับละเอียด (สำหรับซอส) | 1 หัว |
+| กระเทียม หั่นแว่น (สำหรับซอส) | 2 กลีบ |
+| มะเขือเทศบด (สำหรับซอส ได้ซอสราว 500 ml) | 600 g |
+| น้ำตาล (สำหรับซอส) | หนึ่งหยิบมือ |
 | กระเทียม 1 กลีบ + ใบกระวาน (สำหรับหุงข้าว) | 1 + 1 |
 
 ### สัดส่วนการประกอบ
@@ -49,14 +53,3 @@ source_hash: 2c6f2f7760abe52d
 
 ## 5. ลิงก์อ้างอิงที่น่าเชื่อถือ
 *   [Directo al Paladar – Arroz a la cubana (típico de Canarias)](https://www.directoalpaladar.com/recetario/arroz-a-la-cubana-receta)
-
-## 6. เมนูที่เกี่ยวข้อง
-
-**ข้าวบ้านและข้าวชนบท:** ข้าวประจำวันและข้าวแบบ cortijo (ไร่นาชนบท) ของหมู่เกาะคานารีและอันดาลูเซีย คือข้าว 'con cosas' (ข้าวใส่ของ) ใส่อะไรก็ได้ที่มีในบ้าน
-
-*   [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md): Canarias · Seco
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalucía · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalucía · Seco
-*   [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md): Andalucía · Seco
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalucía · Meloso
-*   [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md): สเปนตอนเหนือ · Seco

@@ -1,5 +1,5 @@
 ---
-source_hash: 2c6f2f7760abe52d
+source_hash: d6b14ad13e6809a6
 ---
 
 # Arroz a la Cubana (Canarias) / Arroz con Huevo y Plátano
@@ -29,7 +29,11 @@ Un plat d'**arròs blanc**, **salsa de tomaca**, **ou fregit** i **plàtan mascl
 ### La base de sabor (el fondo)
 | Ingredient | Quantitat |
 |---|---|
-| Salsa de tomaca: oli d'oliva 40 ml, ceba 1, all 2, tomaca triturada 600 g, un pessic de sucre | ≈ 500 ml |
+| Oli d'oliva (salsa) | 40 ml |
+| Ceba, picada fina (salsa) | 1 |
+| All, a làmines (salsa) | 2 grans |
+| Tomaca triturada (salsa; en surten ≈ 500 ml) | 600 g |
+| Sucre (salsa) | un pessic |
 | Gra d'all + fulla de llorer (per a l'arròs) | 1 + 1 |
 
 ### Proporcions del muntatge
@@ -49,14 +53,3 @@ Un plat d'**arròs blanc**, **salsa de tomaca**, **ou fregit** i **plàtan mascl
 
 ## 5. Enllaços de referència
 *   [Directo al Paladar – Arròs a la cubana (típic de Canàries)](https://www.directoalpaladar.com/recetario/arroz-a-la-cubana-receta)
-
-## 6. Plats relacionats
-
-**Arrossos casolans i de camp:** Arrossos de cada dia i de cortijo de les Canàries i Andalusia: arròs «con cosas», amb el que hi haguera a casa.
-
-*   [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md): Canàries · Seco
-*   [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md): Andalusia · Meloso
-*   [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md): Andalusia · Seco
-*   [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md): Andalusia · Seco
-*   [Perol Cordobés](recipe_perol_cordobes.md): Andalusia · Meloso
-*   [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md): Nord d'Espanya · Seco

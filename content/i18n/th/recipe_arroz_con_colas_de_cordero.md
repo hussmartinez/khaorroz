@@ -1,5 +1,5 @@
 ---
-source_hash: 681b4187a6f8e404
+source_hash: 59d1d8e77c808276
 ---
 
 # Colas de Cordero con Arroz / Guiso de Colas de Viernes Santo
@@ -48,28 +48,12 @@ source_hash: 681b4187a6f8e404
 | น้ำซุปในหม้อ | ≈ 1.8 L |
 
 ### ขั้นตอนการทำทีละขั้น
-1. **ข้าว:** ใส่ข้าวลงในสตูว์ที่กำลังเดือดเบา ๆ ใน **18 นาที**สุดท้าย
-2. **ขั้นสุดท้าย:** พัก 2 นาที เสิร์ฟพร้อมโรยอบเชยเล็กน้อย
+1. **เตรียมหางแกะ:** ลนไฟกำจัดขนแกะที่หลงเหลือ ล้างให้สะอาด แล้วตัดหางเป็นท่อนตามข้อต่อ
+2. **ทอด:** ตั้งน้ำมันให้ร้อน ทอดหางแกะจนเหลืองทั่วทุกด้าน (**12 นาที**) แล้วตักพักไว้
+3. **น้ำซุป:** ใส่น้ำลงในหม้อพร้อมมันฝรั่ง กระเทียม ใบกระวาน อบเชย ผักชีฝรั่ง และเกลือ ต้มจนเดือด
+4. **ตุ๋น:** ใส่หางแกะที่ทอดแล้ว เคี่ยวไฟอ่อน **60–75 นาที** จนเนื้อหลุดจากกระดูก เติมน้ำร้อนเป็นระยะเพื่อให้มีน้ำซุปราว 1.8 L
+5. **ข้าว:** ใส่ข้าวลงในสตูว์ที่กำลังเดือดเบา ๆ ใน **18 นาที**สุดท้าย คนเป็นครั้งคราว
+6. **ขั้นสุดท้าย:** พัก 2 นาที เสิร์ฟพร้อมโรยอบเชยเล็กน้อย
 
 ## 5. แหล่งอ้างอิง
 *   [RENC – Platos olvidados de Aragón (อาหารที่ถูกลืมของอารากอน: หางแกะ, PDF)](https://www.renc.es/imagenes/auxiliar/files/2022_RENC_VOL_28_SUPL1_PLATOS_OLVIDADOS_ARAGON__1_.pdf)
-
-## 6. เมนูที่เกี่ยวข้อง
-
-**ข้าวหม้อฤดูหนาวและข้าวฤดู matanza (ฆ่าหมู):** หม้อตุ๋นแบบ olla ใส่ถั่ว เนื้อหมู และเครื่องใน แล้วหุงข้าวลงไปในหม้อ
-
-*   [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md): València · Caldoso
-*   [Olla de Benicarló (con Arroz)](recipe_olla_de_benicarlo.md): Castellón · Caldoso
-*   [Arroz con Pata de Ternera](recipe_arroz_con_pata_de_ternera.md): Alicante · Meloso
-*   [Arroz de Matanza Ibicenco](recipe_arros_de_matances_eivissa.md): Illes Balears · Caldoso
-*   [Arroz Sucio Mallorquín](recipe_arros_brut.md): Illes Balears · Caldoso
-*   [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md): Alicante · Meloso
-*   [Arroz con Hígado de Toro](recipe_arroz_con_higado_de_toro.md): València · Meloso
-*   [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md): Catalunya · Caldoso
-*   [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md): Región de Murcia · Caldoso
-*   [Paella de Costillas y Coliflor](recipe_paella_de_costelletes_i_coliflor.md): València · Seco
-*   [Arroz al Horno de Alubias y Nabos](recipe_arros_al_forn_de_fesols_i_naps.md): València · Seco
-*   [Arroz a la Zamorana](recipe_arroz_a_la_zamorana.md): Castilla y León · Meloso
-*   [Chanfaina Salmantina](recipe_chanfaina_salmantina.md): Castilla y León · Meloso
-*   [Txuritabeltz (Relleno Navarro y Sangrecilla)](recipe_txuritabeltz.md): Aragón, Navarra และ La Rioja · Seco
-*   [Arroz Clarico (con Hierbabuena)](recipe_arroz_clarico.md): Alicante · Caldoso
