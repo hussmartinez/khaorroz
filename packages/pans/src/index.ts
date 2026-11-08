@@ -2,8 +2,8 @@
 // its recipe — the vessel it is cooked in, the colour of its rice, and the ingredients on top.
 // Deterministic per slug, so a dish always looks the same.
 
-export type Vessel = "paella" | "cassola" | "caldero" | "olla" | "tray" | "tanjara";
-export type Base = "seco" | "banda" | "negro" | "meloso" | "caldoso" | "caldoso-negro" | "horno" | "costra" | "leche" | "white" | "vermicelli" | "maqluba" | "mujaddara" | "yellow";
+export type Vessel = "paella" | "cassola" | "caldero" | "olla" | "tray" | "tanjara" | "kratip" | "plate" | "bowl" | "claypot" | "banana";
+export type Base = "seco" | "banda" | "negro" | "meloso" | "caldoso" | "caldoso-negro" | "horno" | "costra" | "leche" | "white" | "vermicelli" | "maqluba" | "mujaddara" | "yellow" | "jasmine" | "sticky" | "friedrice" | "porridge" | "khaoyam" | "khaochae";
 
 export interface PanSpec {
   vessel: Vessel;
@@ -16,6 +16,7 @@ type Glyph =
   | "prawn" | "galera" | "lobster" | "mussel" | "clam" | "ring" | "sepia" | "fish" | "artichoke" | "bean"
   | "garrofo" | "chickpea" | "potato" | "garlic" | "tomato" | "morcilla" | "chorizo" | "meat" | "snail"
   | "pinenut" | "almond" | "eggplant" | "parsley" | "onion"
+  | "chili" | "basil" | "lime" | "cucumber" | "mango" | "peanut" | "ice" | "jasmineflower"
   | "egg" | "lemon" | "rosemary" | "pepper" | "chard" | "turnip" | "cauli" | "mushroom" | "pea" | "fava" | "cinnamon" | "peel";
 
 // ---------- deterministic randomness ----------
@@ -67,6 +68,12 @@ const RULES: [Glyph, RegExp, number][] = [
   ["almond", /almond|lawz|almendra|ametlla/, 9],
   ["onion", /crisp(y)? onion|fried onion|caramelis(ed|ized) onion|birista/, 9],
   ["parsley", /chopped parsley|parsley (to|for) garnish|garnish.*parsley/, 8],
+  ["chili", /bird'?s?[- ]eye chil|prik|thai chil|chilli|chili/, 6],
+  ["basil", /thai basil|holy basil|bai horapha|bai kaprao|kaphrao|basil leaves/, 7],
+  ["lime", /\blime\b|manao/, 2],
+  ["cucumber", /cucumber|taeng kwa/, 4],
+  ["mango", /\bmango\b|mamuang/, 1],
+  ["peanut", /peanut|thua lisong/, 10],
   ["egg", /fried egg|huevo frito|ou ferrat|ous ferrats/, 2],
   ["lemon", /lemon|limón|llima/, 2],
   ["rosemary", /rosemary|romero|romer\b/, 1],
@@ -75,6 +82,7 @@ const RULES: [Glyph, RegExp, number][] = [
 export function specFrom(opts: { slug: string; title: string; texture: string; vessel: string; recipeText: string; area?: string }): PanSpec {
   const { title, texture } = opts;
   if (opts.area === "sham") return levantSpec(opts);
+  if (opts.area === "thai") return thaiSpec(opts);
   const t = opts.recipeText.toLowerCase();
   const name = title.toLowerCase();
   const v = opts.vessel.toLowerCase();
@@ -144,6 +152,35 @@ function levantSpec(opts: { title: string; texture: string; vessel: string; reci
   return { vessel, base, items };
 }
 
+// Thailand: sticky rice in a woven kratip, one-plate dishes on a plate, porridge in a bowl,
+// rice salads (blue khao yam), khao chae in iced water, mango sticky rice.
+function thaiSpec(opts: { title: string; texture: string; vessel: string; recipeText: string }): PanSpec {
+  const t = opts.recipeText.toLowerCase();
+  const name = opts.title.toLowerCase();
+  const v = opts.vessel.toLowerCase();
+  const all = name + " " + t;
+  const base: Base =
+    /khao chae|ข้าวแช่|iced water|jasmine[- ]scented water/.test(all) ? "khaochae"
+    : /khao yam|ข้าวยำ|butterfly pea|anchan/.test(all) ? "khaoyam"
+    : /mamuang|mango sticky|ข้าวเหนียวมะม่วง/.test(all) ? "sticky"
+    : /khao niao|sticky rice|glutinous|ข้าวเหนียว/.test(all) ? "sticky"
+    : /jok|joke|khao tom|porridge|congee|rice soup|โจ๊ก|ข้าวต้ม/.test(all) ? "porridge"
+    : /khao pad|khao phat|fried rice|ข้าวผัด/.test(all) ? "friedrice"
+    : "jasmine";
+  const vessel: Vessel =
+    /kratip|กระติ๊บ|basket/.test(v) || (base === "sticky" && !/mango|mamuang/.test(all)) ? "kratip"
+    : /banana leaf|bai tong|ใบตอง/.test(v) ? "banana"
+    : /clay|mor din|หม้อดิน/.test(v) ? "claypot"
+    : base === "porridge" || base === "khaochae" ? "bowl"
+    : "plate";
+  const items: PanSpec["items"] = [];
+  for (const [g, re, n] of RULES) if (re.test(t)) items.push({ kind: g, n });
+  if (base === "khaochae") items.push({ kind: "ice", n: 5 }, { kind: "jasmineflower", n: 4 });
+  if (/mamuang|mango sticky|ข้าวเหนียวมะม่วง/.test(all) && !items.some((i) => i.kind === "mango")) items.push({ kind: "mango", n: 1 });
+  if (base === "friedrice" && !items.some((i) => i.kind === "lime")) items.push({ kind: "lime", n: 1 });
+  return { vessel, base, items };
+}
+
 // ---------- glyphs (drawn around 0,0, roughly 20 units wide) ----------
 const G: Record<Glyph, { r: number; svg: string }> = {
   prawn: { r: 11, svg: `<path d="M-8 3C-11-4-5-11 3-10c6 1 9 6 7 11-1 3-4 4-6 3l1-3c2 0 2-2 1-4-1-3-6-4-9-1-2 2-2 5 0 8z" fill="#ef7f52" stroke="#b9472c" stroke-width="1.1"/><path d="M-4-7l2 3M1-9l0 4M6-6l-2 3" stroke="#f6b08c" stroke-width="1.1" stroke-linecap="round"/><path d="M-8 3l-4 3 5 1z" fill="#d85f3a"/><circle cx="7.3" cy="-2.5" r="1" fill="#2a1a14"/><path d="M9-3c4-2 7-1 9 1M8-1c4 0 6 2 7 4" stroke="#b9472c" stroke-width=".7" fill="none"/>` },
@@ -176,6 +213,14 @@ const G: Record<Glyph, { r: number; svg: string }> = {
   eggplant: { r: 8, svg: `<circle r="7.6" fill="#4a2350" stroke="#2c1230" stroke-width="1"/><circle r="5.8" fill="#e7d6a8"/><circle r="5.8" fill="#c08a3e" opacity=".35"/><g fill="#8a6a3a">${[0, 60, 120, 180, 240, 300].map((a) => `<circle cx="${f1(3 * Math.cos((a * Math.PI) / 180))}" cy="${f1(3 * Math.sin((a * Math.PI) / 180))}" r=".6"/>`).join("")}</g>` },
   parsley: { r: 3, svg: `<path d="M-3 0c0-2 2-3 3-2 1-1 3 0 3 2-1 1-1 2-3 2s-3-1-3-2z" fill="#3f7d34" stroke="#2c5a24" stroke-width=".4"/>` },
   onion: { r: 4.5, svg: `<path d="M-4 1c1-3 4-4 6-3 2 1 2 3 0 4-1 1-3 0-3-1" fill="none" stroke="#7a3f12" stroke-width="1.8" stroke-linecap="round"/><path d="M-4 1c1-3 4-4 6-3" fill="none" stroke="#b56a24" stroke-width=".8" stroke-linecap="round"/>` },
+  chili: { r: 6, svg: `<path d="M-6 1c3-4 8-5 12-3-3 0-6 2-8 4-1 1-3 1-4-1z" fill="#d42a1e" stroke="#9c1a12" stroke-width=".6"/><path d="M6-2l2-2" stroke="#3f7d34" stroke-width="1.4" stroke-linecap="round"/>` },
+  basil: { r: 5, svg: `<path d="M-5 0C-3-4 3-4 5 0 3 4-3 4-5 0z" fill="#2f6a2a" stroke="#1e4a1b" stroke-width=".5"/><path d="M-4 0h8" stroke="#6aa25a" stroke-width=".6"/>` },
+  lime: { r: 7, svg: `<path d="M-7 2a7 7 0 0 1 14 0z" fill="#7cb342" stroke="#4e7d1f" stroke-width="1"/><path d="M-5 2a5 5 0 0 1 10 0z" fill="#d7ec9a"/><path d="M0 2v-4.6M0 2l-3.4-3.2M0 2l3.4-3.2" stroke="#b5d46a" stroke-width=".7"/>` },
+  cucumber: { r: 5.5, svg: `<circle r="5.3" fill="#e8f2d0" stroke="#3f7d34" stroke-width="1.2"/><g fill="#b9d58e">${[0, 72, 144, 216, 288].map((a) => `<circle cx="${f1(2.4 * Math.cos((a * Math.PI) / 180))}" cy="${f1(2.4 * Math.sin((a * Math.PI) / 180))}" r=".7"/>`).join("")}</g>` },
+  mango: { r: 26, svg: `<g>${[-16, -5, 6, 17].map((x) => `<path d="M${x - 6} -14c4-3 9-3 12 0v28c-3 3-8 3-12 0z" fill="#f6b51e" stroke="#d48b0b" stroke-width=".9"/>`).join("")}</g>` },
+  peanut: { r: 2.4, svg: `<ellipse rx="2.3" ry="1.6" fill="#c98f4f" stroke="#8f5e2a" stroke-width=".4"/>` },
+  ice: { r: 7, svg: `<rect x="-6" y="-6" width="12" height="12" rx="2.5" fill="#e9f6fb" stroke="#a8d3e2" stroke-width="1" opacity=".9"/><path d="M-3-3l3 3" stroke="#fff" stroke-width="1.2"/>` },
+  jasmineflower: { r: 4, svg: `<g fill="#fffdf5" stroke="#e6dcc4" stroke-width=".4">${[0, 72, 144, 216, 288].map((a) => `<ellipse cx="${f1(2.2 * Math.cos((a * Math.PI) / 180))}" cy="${f1(2.2 * Math.sin((a * Math.PI) / 180))}" rx="1.9" ry="1.1" transform="rotate(${a} ${f1(2.2 * Math.cos((a * Math.PI) / 180))} ${f1(2.2 * Math.sin((a * Math.PI) / 180))})"/>`).join("")}</g><circle r=".9" fill="#f2d16b"/>` },
   egg: { r: 12, svg: `<path d="M-11-2c0-7 8-10 13-9 7 1 10 6 9 11-1 6-7 10-13 9-6-1-9-5-9-11z" fill="#fbf7ee" stroke="#e8dcc4" stroke-width=".8"/><path d="M-10 4c1 2 3 4 5 4" stroke="#d9a14a" stroke-width="1.3" fill="none" opacity=".7"/><circle cx="1" cy="-.5" r="5" fill="#f5b21c"/><circle cx="-.5" cy="-2" r="1.6" fill="#fde08a"/>` },
   lemon: { r: 9, svg: `<path d="M-9 2a9 9 0 0 1 18 0z" fill="#f5d33c" stroke="#d9a915" stroke-width="1.2"/><path d="M-6.6 2a6.6 6.6 0 0 1 13.2 0z" fill="#fbe98a"/><path d="M0 2V-4.6M0 2l-4.6-4.6M0 2l4.6-4.6" stroke="#f6dc5c" stroke-width=".9"/>` },
   rosemary: { r: 12, svg: `<path d="M-12 4C-4 1 4-1 12-5" stroke="#4d6a37" stroke-width="1.3" fill="none"/>${Array.from({ length: 9 }, (_, i) => { const x = -10 + i * 2.6, y = 3.4 - i * 1.0; return `<path d="M${f1(x)} ${f1(y)}l-1.5-3.5M${f1(x)} ${f1(y)}l1.6 3.4" stroke="#6d8f4f" stroke-width="1.1" stroke-linecap="round"/>`; }).join("")}` },
@@ -200,6 +245,12 @@ const PAL: Record<Base, Pal> = {
   yellow: { bg: "#e9c159", grainA: "#f7dc8e", grainB: "#d7a33a", edge: "#a9781f", gloss: 0.15, tile: 9, grains: 4 },
   maqluba: { bg: "#c98a45", grainA: "#e8b874", grainB: "#a8682a", edge: "#7c4516", gloss: 0.2, tile: 9, grains: 4 },
   mujaddara: { bg: "#b89a72", grainA: "#e2cfac", grainB: "#5c4630", edge: "#6f5435", gloss: 0.12, tile: 8, grains: 5 },
+  jasmine: { bg: "#f6f1e6", grainA: "#ffffff", grainB: "#e7e0d0", edge: "#d3c9b2", gloss: 0.25, tile: 8, grains: 5 },
+  sticky: { bg: "#f2ecdc", grainA: "#fffdf6", grainB: "#ddd4bd", edge: "#c8bb98", gloss: 0.4, tile: 7, grains: 6 },
+  friedrice: { bg: "#d9a65a", grainA: "#ecc584", grainB: "#b57a32", edge: "#8a5520", gloss: 0.15, tile: 8, grains: 5 },
+  porridge: { bg: "#efe8d6", grainA: "#fbf7ee", grainB: "#e0d6bf", edge: "#cfc3a5", gloss: 0.45, tile: 12, grains: 3 },
+  khaoyam: { bg: "#6f78c9", grainA: "#a9b0ea", grainB: "#4c55a8", edge: "#3a4290", gloss: 0.2, tile: 8, grains: 5 },
+  khaochae: { bg: "#dceff4", grainA: "#ffffff", grainB: "#c6e2ea", edge: "#a9cfdb", gloss: 0.5, tile: 12, grains: 3 },
   leche: { bg: "#f5ead2", grainA: "#fffaf0", grainB: "#eadcc0", edge: "#d9c6a0", gloss: 0.35, tile: 10, grains: 4 },
 };
 
@@ -218,7 +269,7 @@ export function panSVG(spec: PanSpec, slug: string, opts: { label?: string; stea
       : "#c99a3e";
   }
   const C = 100;
-  const R = spec.vessel === "olla" ? 66 : spec.vessel === "caldero" ? 72 : spec.vessel === "tray" ? 74 : spec.vessel === "tanjara" ? 70 : 80; // food radius
+  const R = { olla: 66, caldero: 72, tray: 74, tanjara: 70, kratip: 64, plate: 62, bowl: 64, claypot: 66, banana: 64 }[spec.vessel as string] ?? 80; // food radius
 
   // grain tile
   const grains = Array.from({ length: pal.grains }, (_, i) => {
@@ -244,6 +295,32 @@ export function panSVG(spec: PanSpec, slug: string, opts: { label?: string; stea
       + `<circle cx="${C}" cy="${C}" r="${R + 11}" fill="url(#iron${uid})"/><circle cx="${C}" cy="${C}" r="${R + 3}" fill="#121110"/>`
       + [-1, 1].map((s) => `<circle cx="${C + s * (R + 10)}" cy="${C}" r="4" fill="#2a2725"/>`).join("");
     rimTop = `<circle cx="${C}" cy="${C}" r="${R + 8}" fill="none" stroke="#5a5550" stroke-width="1" opacity=".7"/>`;
+  } else if (spec.vessel === "kratip") {
+    // woven bamboo sticky-rice basket, seen from above: woven rim + lid-band
+    back = `<circle cx="${C}" cy="${C}" r="${R + 22}" fill="#c9a46a"/>`
+      + Array.from({ length: 36 }, (_, i) => { const a = (i * Math.PI) / 18; return `<path d="M${f1(C + Math.cos(a) * (R + 4))} ${f1(C + Math.sin(a) * (R + 4))}L${f1(C + Math.cos(a + 0.09) * (R + 21))} ${f1(C + Math.sin(a + 0.09) * (R + 21))}" stroke="${i % 2 ? "#a47c3f" : "#dcbb83"}" stroke-width="5"/>`; }).join("")
+      + `<circle cx="${C}" cy="${C}" r="${R + 22}" fill="none" stroke="#7a5826" stroke-width="2"/><circle cx="${C}" cy="${C}" r="${R + 4}" fill="#8a6430"/>`;
+    rimTop = `<circle cx="${C}" cy="${C}" r="${R + 1}" fill="none" stroke="#5e421b" stroke-width="1" opacity=".5"/>`;
+  } else if (spec.vessel === "plate") {
+    // white plate with a blue rim (one-plate rice: khao man kai, khao pad …)
+    back = `<circle cx="${C}" cy="${C}" r="${R + 26}" fill="#fdfcf8" stroke="#d9d6cc" stroke-width="1.2"/><circle cx="${C}" cy="${C}" r="${R + 22}" fill="none" stroke="#2f5fa8" stroke-width="2.4"/><circle cx="${C}" cy="${C}" r="${R + 10}" fill="#f4f2ec"/>`;
+    rimTop = "";
+  } else if (spec.vessel === "bowl") {
+    back = `<circle cx="${C}" cy="${C}" r="${R + 18}" fill="#fbfaf6" stroke="#cfcac0" stroke-width="1.2"/>`
+      + Array.from({ length: 16 }, (_, i) => { const a = (i * Math.PI) / 8; return `<circle cx="${f1(C + Math.cos(a) * (R + 11))}" cy="${f1(C + Math.sin(a) * (R + 11))}" r="2.2" fill="#2f5fa8" opacity=".8"/>`; }).join("")
+      + `<circle cx="${C}" cy="${C}" r="${R + 5}" fill="#e9e6de"/>`;
+    rimTop = `<circle cx="${C}" cy="${C}" r="${R + 2}" fill="none" stroke="#bdb8ad" stroke-width="1" opacity=".6"/>`;
+  } else if (spec.vessel === "claypot") {
+    back = [-1, 1].map((s) => `<path d="M${C + s * (R + 12)} ${C - 8}q${s * 10} 8 0 16" fill="none" stroke="#3b2418" stroke-width="5" stroke-linecap="round"/>`).join("")
+      + `<circle cx="${C}" cy="${C}" r="${R + 14}" fill="#5a3825"/><circle cx="${C}" cy="${C}" r="${R + 5}" fill="#2e1b11"/>`;
+    rimTop = `<circle cx="${C}" cy="${C}" r="${R + 10}" fill="none" stroke="#8a5d40" stroke-width="1.2" opacity=".6"/>`;
+  } else if (spec.vessel === "banana") {
+    // banana-leaf parcel opened flat (veins clipped to the leaf)
+    const leaf = `M${C} ${C - R - 26}C${C + R + 34} ${C - R - 10} ${C + R + 34} ${C + R + 10} ${C} ${C + R + 26}C${C - R - 34} ${C + R + 10} ${C - R - 34} ${C - R - 10} ${C} ${C - R - 26}z`;
+    back = `<clipPath id="leaf${uid}"><path d="${leaf}"/></clipPath><path d="${leaf}" fill="#3f8a3a" stroke="#2a6127" stroke-width="2"/><g clip-path="url(#leaf${uid})">`
+      + Array.from({ length: 9 }, (_, i) => { const y = C - R - 10 + i * ((2 * R + 20) / 8); return `<path d="M${C} ${f1(y)}L${C + R + 30} ${f1(y - 14)}M${C} ${f1(y)}L${C - R - 30} ${f1(y - 14)}" stroke="#5aa64f" stroke-width="1" opacity=".7"/>`; }).join("")
+      + `</g><path d="M${C} ${C - R - 24}V${C + R + 24}" stroke="#2a6127" stroke-width="2.5"/>`;
+    rimTop = "";
   } else if (spec.vessel === "tray") {
     // round brass serving tray (siniyyeh / sedr) with a chased rim
     back = `<circle cx="${C}" cy="${C}" r="${R + 20}" fill="url(#brass${uid})"/><circle cx="${C}" cy="${C}" r="${R + 13}" fill="none" stroke="#8a6418" stroke-width="1.2"/>`
