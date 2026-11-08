@@ -1496,6 +1496,1162 @@
     "th": "ตำขนุนกับแคบหมู",
     "ar": "تام خانون، جاك فروت صغير مدقوق مع لحم الخنزير والفلفل ومقرمشات الخنزير"
    }
+  },
+  "recipe_bua_loy.md": {
+   "file": "images/bua-loy.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Bualoy kaiwan - Thai food.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Bualoy_kaiwan_-_Thai_food.JPG",
+   "author": "User:Mattes",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "alt": {
+    "en": "Bowl of bua loy: coloured glutinous-rice balls in coconut milk",
+    "es": "Cuenco de bua loy: bolitas de colores de arroz glutinoso en leche de coco",
+    "ca": "Bol de bua loy: boletes de colors d'arròs glutinós en llet de coco",
+    "th": "บัวลอยแป้งข้าวเหนียวหลากสีในน้ำกะทิ",
+    "ar": "وعاء بوا لوي: كرات ملونة من الأرز الدبق في حليب جوز الهند"
+   }
+  },
+  "recipe_chu_chi_pla.md": {
+   "file": "images/chu-chi-pla.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Chuchi pla thu sot.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Chuchi_pla_thu_sot.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Chu chi pla: a whole fish under thick red coconut curry",
+    "es": "Chu chi pla: pescado entero bajo un curry rojo espeso de coco",
+    "ca": "Chu chi pla: peix sencer sota un curri vermell espès de coco",
+    "th": "ฉู่ฉี่ปลาทูสด ปลาทั้งตัวราดแกงกะทิสีแดงข้น",
+    "ar": "تشو تشي بلا: سمكة كاملة تحت كاري أحمر كثيف بجوز الهند"
+   }
+  },
+  "recipe_jok.md": {
+   "file": "images/jok.webp",
+   "width": 1600,
+   "height": 1072,
+   "commonsTitle": "File:Jok mu sap.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Jok_mu_sap.JPG",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Bowl of jok, smooth Thai rice congee with minced pork, ginger and spring onion",
+    "es": "Cuenco de jok, congee tailandés de arroz con cerdo picado, jengibre y cebolleta",
+    "ca": "Bol de jok, congee tailandès d'arròs amb porc picat, gingebre i ceba tendra",
+    "th": "โจ๊กหมูสับ ใส่ขิงซอยและต้นหอม",
+    "ar": "وعاء جوك، عصيدة أرز تايلاندية مع لحم خنزير مفروم وزنجبيل وبصل أخضر"
+   }
+  },
+  "recipe_kaeng_chuet.md": {
+   "file": "images/kaeng-chuet.webp",
+   "width": 1600,
+   "height": 1600,
+   "commonsTitle": "File:Tom chuet taohu.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Tom_chuet_taohu.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Kaeng chuet: clear soup with tofu, minced pork and spring onion",
+    "es": "Kaeng chuet: sopa clara con tofu, cerdo picado y cebolleta",
+    "ca": "Kaeng chuet: sopa clara amb tofu, porc picat i ceba tendra",
+    "th": "แกงจืดเต้าหู้หมูสับ",
+    "ar": "كاينغ تشويت: حساء صافٍ بالتوفو ولحم الخنزير المفروم والبصل الأخضر"
+   }
+  },
+  "recipe_kaeng_khiao_wan.md": {
+   "file": "images/kaeng-khiao-wan.webp",
+   "width": 1600,
+   "height": 900,
+   "commonsTitle": "File:Green Curry, Siam House, Paris 002.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Green_Curry,_Siam_House,_Paris_002.jpg",
+   "author": "Guilhem Vellut from Paris, France",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "en": "Bowl of Thai green curry with chicken, red chili and basil",
+    "es": "Cuenco de curry verde tailandés con pollo, chile rojo y albahaca",
+    "ca": "Bol de curri verd tailandès amb pollastre, bitxo vermell i alfàbrega",
+    "th": "แกงเขียวหวานไก่ ใส่พริกแดงและใบโหระพา",
+    "ar": "وعاء كاري أخضر تايلاندي بالدجاج والفلفل الأحمر والريحان"
+   }
+  },
+  "recipe_kaeng_liang.md": {
+   "file": "images/kaeng-liang.webp",
+   "width": 768,
+   "height": 768,
+   "commonsTitle": "File:แกงเลียง.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B8%B5%E0%B8%A2%E0%B8%87.jpg",
+   "author": "Phuphiphat Phumi",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Kaeng liang: peppery vegetable soup with prawns, pumpkin and baby corn",
+    "es": "Kaeng liang: sopa de verduras con pimienta, gambas, calabaza y mazorquitas",
+    "ca": "Kaeng liang: sopa de verdures amb pebre, gambes, carbassa i panotxetes",
+    "th": "แกงเลียงกุ้ง ใส่ฟักทองและข้าวโพดอ่อน",
+    "ar": "كاينغ ليانغ: حساء خضار بالفلفل مع الروبيان واليقطين والذرة الصغيرة"
+   }
+  },
+  "recipe_kaeng_matsaman.md": {
+   "file": "images/kaeng-matsaman.webp",
+   "width": 1600,
+   "height": 1067,
+   "commonsTitle": "File:Massaman curry, Bang Kapi, Bangkok.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Massaman_curry,_Bang_Kapi,_Bangkok.jpg",
+   "author": "Vee Satayamas",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Massaman curry with beef and potatoes, Bangkok",
+    "es": "Curry massaman con ternera y patatas, Bangkok",
+    "ca": "Curri massaman amb vedella i patates, Bangkok",
+    "th": "แกงมัสมั่นเนื้อกับมันฝรั่ง กรุงเทพฯ",
+    "ar": "كاري مسمان باللحم والبطاطا، بانكوك"
+   }
+  },
+  "recipe_kaeng_phet.md": {
+   "file": "images/kaeng-phet.webp",
+   "width": 1600,
+   "height": 1088,
+   "commonsTitle": "File:Kaeng phet mu.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Kaeng_phet_mu.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Kaeng phet mu: Thai red curry with pork",
+    "es": "Kaeng phet mu: curry rojo tailandés con cerdo",
+    "ca": "Kaeng phet mu: curri vermell tailandès amb porc",
+    "th": "แกงเผ็ดหมู",
+    "ar": "كاينغ فيت مو: كاري أحمر تايلاندي بلحم الخنزير"
+   }
+  },
+  "recipe_kaeng_phet_pet_yang.md": {
+   "file": "images/kaeng-phet-pet-yang.webp",
+   "width": 1600,
+   "height": 1226,
+   "commonsTitle": "File:Red roast duck curry.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Red_roast_duck_curry.jpg",
+   "author": "Terence Ong",
+   "license": "CC BY 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+   "alt": {
+    "en": "Red curry with roast duck, cherry tomatoes and basil",
+    "es": "Curry rojo con pato asado, tomates cherry y albahaca",
+    "ca": "Curri vermell amb ànec rostit, tomàquets cherry i alfàbrega",
+    "th": "แกงเผ็ดเป็ดย่าง ใส่มะเขือเทศและโหระพา",
+    "ar": "كاري أحمر بالبط المشوي والطماطم الكرزية والريحان"
+   }
+  },
+  "recipe_kaeng_som_central.md": {
+   "file": "images/kaeng-som-central.webp",
+   "width": 1600,
+   "height": 1601,
+   "commonsTitle": "File:Kaeng som kung.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Kaeng_som_kung.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Kaeng som kung: sour orange curry with prawns",
+    "es": "Kaeng som kung: curry naranja agrio con gambas",
+    "ca": "Kaeng som kung: curri taronja àcid amb gambes",
+    "th": "แกงส้มกุ้ง",
+    "ar": "كاينغ سوم كونغ: كاري برتقالي حامض بالروبيان"
+   }
+  },
+  "recipe_khai_palo.md": {
+   "file": "images/khai-palo.webp",
+   "width": 1280,
+   "height": 853,
+   "commonsTitle": "File:ไข่พะโล้ (9042871426).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%9E%E0%B8%B0%E0%B9%82%E0%B8%A5%E0%B9%89_(9042871426).jpg",
+   "author": "Vee Satayamas from Bangkok, Thailand",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "en": "Khai palo: eggs braised in dark five-spice broth",
+    "es": "Khai palo: huevos guisados en caldo oscuro de cinco especias",
+    "ca": "Khai palo: ous estofats en brou fosc de cinc espècies",
+    "th": "ไข่พะโล้",
+    "ar": "كاي بالو: بيض مطهو في مرق داكن بالتوابل الخمس"
+   }
+  },
+  "recipe_khanom_bueang.md": {
+   "file": "images/khanom-bueang.webp",
+   "width": 1600,
+   "height": 1067,
+   "commonsTitle": "File:Khanom bueang 01.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khanom_bueang_01.jpg",
+   "author": "Ilya Plekhanov",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khanom bueang: crisp folded crepes with meringue cream and golden egg threads",
+    "es": "Khanom bueang: crepes crujientes doblados con crema de merengue e hilos de huevo",
+    "ca": "Khanom bueang: creps cruixents plegades amb crema de merenga i fils d'ou",
+    "th": "ขนมเบื้องไทย หน้าครีมและฝอยทอง",
+    "ar": "خانوم بوانغ: كريب مقرمش مطوي بكريمة المرينغ وخيوط البيض الذهبية"
+   }
+  },
+  "recipe_khanom_chan.md": {
+   "file": "images/khanom-chan.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Khanom chan.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khanom_chan.jpg",
+   "author": "Jane and Xuan",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Khanom chan: green layered rice-flour and coconut sweet",
+    "es": "Khanom chan: dulce verde de capas de harina de arroz y coco",
+    "ca": "Khanom chan: dolç verd de capes de farina d'arròs i coco",
+    "th": "ขนมชั้นสีเขียว",
+    "ar": "خانوم تشان: حلوى طبقات خضراء من طحين الأرز وجوز الهند"
+   }
+  },
+  "recipe_khanom_krok.md": {
+   "file": "images/khanom-krok.webp",
+   "width": 1200,
+   "height": 1600,
+   "commonsTitle": "File:Khanom Krok.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khanom_Krok.jpg",
+   "author": "Boonlert",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Khanom krok cooking in a dimpled iron pan",
+    "es": "Khanom krok cocinándose en una sartén de hierro con hoyos",
+    "ca": "Khanom krok coent-se en una paella de ferro amb forats",
+    "th": "ขนมครกในกระทะหลุม",
+    "ar": "خانوم كروك تُطهى في مقلاة حديدية مجوّفة"
+   }
+  },
+  "recipe_khanom_sot_sai.md": {
+   "file": "images/khanom-sot-sai.webp",
+   "width": 1600,
+   "height": 2133,
+   "commonsTitle": "File:Khanom sai sai - Chiang Mai - 2017-07-10 (001).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khanom_sai_sai_-_Chiang_Mai_-_2017-07-10_(001).jpg",
+   "author": "Iudexvivorum",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Khanom sot sai: sticky-rice sweets wrapped in pointed banana-leaf parcels",
+    "es": "Khanom sot sai: dulces de arroz glutinoso envueltos en paquetes puntiagudos de hoja de plátano",
+    "ca": "Khanom sot sai: dolços d'arròs glutinós embolicats en paquets punxeguts de fulla de plàtan",
+    "th": "ขนมสอดไส้ห่อใบตองทรงสูง",
+    "ar": "خانوم سوت ساي: حلويات أرز دبق ملفوفة في صُرر مدببة من ورق الموز"
+   }
+  },
+  "recipe_khanom_tako.md": {
+   "file": "images/khanom-tako.webp",
+   "width": 1600,
+   "height": 1600,
+   "commonsTitle": "File:Khanom tako sai.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khanom_tako_sai.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khanom tako: coconut-topped sweets in pandan-leaf cups",
+    "es": "Khanom tako: dulces cubiertos de coco en vasitos de hoja de pandan",
+    "ca": "Khanom tako: dolços coberts de coco en gotets de fulla de pandan",
+    "th": "ขนมตะโก้ในกระทงใบเตย",
+    "ar": "خانوم تاكو: حلويات مغطاة بجوز الهند في أكواب من ورق الباندان"
+   }
+  },
+  "recipe_khanom_thuai.md": {
+   "file": "images/khanom-thuai.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Khanom thuay.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khanom_thuay.jpg",
+   "author": "Paul_012",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khanom thuai: steamed coconut custard in small bowls",
+    "es": "Khanom thuai: natilla de coco al vapor en cuencos pequeños",
+    "ca": "Khanom thuai: crema de coco al vapor en bols petits",
+    "th": "ขนมถ้วย",
+    "ar": "خانوم ثواي: كاسترد جوز الهند المطهو بالبخار في أوعية صغيرة"
+   }
+  },
+  "recipe_khao_chae.md": {
+   "file": "images/khao-chae.webp",
+   "width": 1600,
+   "height": 1067,
+   "commonsTitle": "File:KhaoChae.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:KhaoChae.JPG",
+   "author": "Williamvonga",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Khao chae: rice in iced jasmine water with its side dishes",
+    "es": "Khao chae: arroz en agua helada de jazmín con sus acompañamientos",
+    "ca": "Khao chae: arròs en aigua gelada de gessamí amb els seus acompanyaments",
+    "th": "ข้าวแช่กับเครื่องเคียง",
+    "ar": "خاو تشاي: أرز في ماء مثلج بالياسمين مع أطباقه الجانبية"
+   }
+  },
+  "recipe_khao_kha_mu.md": {
+   "file": "images/khao-kha-mu.webp",
+   "width": 1600,
+   "height": 1600,
+   "commonsTitle": "File:Khao kha mu 02.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_kha_mu_02.JPG",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khao kha mu: braised pork leg over rice with egg, greens and chili sauce",
+    "es": "Khao kha mu: codillo de cerdo guisado sobre arroz con huevo, verduras y salsa de chile",
+    "ca": "Khao kha mu: garró de porc estofat sobre arròs amb ou, verdures i salsa de bitxo",
+    "th": "ข้าวขาหมู ไข่พะโล้ ผักคะน้า และน้ำจิ้ม",
+    "ar": "خاو كا مو: ساق خنزير مطهوة فوق الأرز مع بيض وخضار وصلصة فلفل"
+   }
+  },
+  "recipe_khao_khai_jiao.md": {
+   "file": "images/khao-khai-jiao.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Khao khaichiao (omelette with rice), Bangkok, 2018-05-15.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_khaichiao_(omelette_with_rice),_Bangkok,_2018-05-15.jpg",
+   "author": "Bitterschoko",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Khao khai jiao: fluffy Thai omelette on rice, Bangkok",
+    "es": "Khao khai jiao: tortilla tailandesa esponjosa sobre arroz, Bangkok",
+    "ca": "Khao khai jiao: truita tailandesa esponjosa sobre arròs, Bangkok",
+    "th": "ข้าวไข่เจียว กรุงเทพฯ",
+    "ar": "خاو كاي جياو: عجة تايلاندية منفوشة فوق الأرز، بانكوك"
+   }
+  },
+  "recipe_khao_kluk_kapi.md": {
+   "file": "images/khao-kluk-kapi.webp",
+   "width": 1600,
+   "height": 1185,
+   "commonsTitle": "File:Khao khluk kapi, Pathum Thani, 2018-04-02 (3).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_khluk_kapi,_Pathum_Thani,_2018-04-02_(3).jpg",
+   "author": "Bitterschoko",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Khao kluk kapi with sweet pork, egg threads, green mango and chilies",
+    "es": "Khao kluk kapi con cerdo dulce, hilos de huevo, mango verde y chiles",
+    "ca": "Khao kluk kapi amb porc dolç, fils d'ou, mango verd i bitxos",
+    "th": "ข้าวคลุกกะปิ หมูหวาน ไข่ฝอย มะม่วง และพริก",
+    "ar": "خاو كلوك كابي مع لحم خنزير حلو وخيوط البيض والمانجو الخضراء والفلفل"
+   }
+  },
+  "recipe_khao_kriap_pak_mo.md": {
+   "file": "images/khao-kriap-pak-mo.webp",
+   "width": 1600,
+   "height": 1060,
+   "commonsTitle": "File:Sakhu Sai Mu and Khao Kriap Pak Mo.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Sakhu_Sai_Mu_and_Khao_Kriap_Pak_Mo.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khao kriap pak mo (steamed rice-sheet dumplings) beside sakhu sai mu",
+    "es": "Khao kriap pak mo (empanadillas de lámina de arroz al vapor) junto a sakhu sai mu",
+    "ca": "Khao kriap pak mo (farcellets de làmina d'arròs al vapor) al costat de sakhu sai mu",
+    "th": "ข้าวเกรียบปากหม้อและสาคูไส้หมู",
+    "ar": "خاو كرياب باك مو (فطائر رقائق الأرز المطهوة بالبخار) بجانب ساكو ساي مو"
+   }
+  },
+  "recipe_khao_man_kai.md": {
+   "file": "images/khao-man-kai.webp",
+   "width": 1600,
+   "height": 1067,
+   "commonsTitle": "File:Khao Man Kai (31114251256).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_Man_Kai_(31114251256).jpg",
+   "author": "pelican from Tokyo, Japan",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": {
+    "en": "Khao man kai on a canteen tray with chicken, rice, soup and sauce",
+    "es": "Khao man kai en bandeja de comedor con pollo, arroz, sopa y salsa",
+    "ca": "Khao man kai en safata de menjador amb pollastre, arròs, sopa i salsa",
+    "th": "ข้าวมันไก่ในถาดพร้อมน้ำซุปและน้ำจิ้ม",
+    "ar": "خاو مان كاي على صينية مع الدجاج والأرز والحساء والصلصة"
+   }
+  },
+  "recipe_khao_mok_kai.md": {
+   "file": "images/khao-mok-kai.webp",
+   "width": 1600,
+   "height": 1233,
+   "commonsTitle": "File:Khao mok kai (chicken biryani), Bangkok, 2018-10-09.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_mok_kai_(chicken_biryani),_Bangkok,_2018-10-09.jpg",
+   "author": "Bitterschoko",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Khao mok kai: yellow spiced rice with chicken and fried shallots, Bangkok",
+    "es": "Khao mok kai: arroz amarillo especiado con pollo y chalota frita, Bangkok",
+    "ca": "Khao mok kai: arròs groc especiat amb pollastre i escalunya fregida, Bangkok",
+    "th": "ข้าวหมกไก่ โรยหอมเจียว กรุงเทพฯ",
+    "ar": "خاو موك كاي: أرز أصفر متبّل بالدجاج والكراث المقلي، بانكوك"
+   }
+  },
+  "recipe_khao_mu_daeng.md": {
+   "file": "images/khao-mu-daeng.webp",
+   "width": 1600,
+   "height": 1600,
+   "commonsTitle": "File:Khao mu daeng.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_mu_daeng.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khao mu daeng: red roast pork over rice with gravy and egg",
+    "es": "Khao mu daeng: cerdo asado rojo sobre arroz con salsa y huevo",
+    "ca": "Khao mu daeng: porc rostit vermell sobre arròs amb salsa i ou",
+    "th": "ข้าวหมูแดงราดน้ำ",
+    "ar": "خاو مو دانغ: لحم خنزير مشوي أحمر فوق الأرز مع صلصة وبيض"
+   }
+  },
+  "recipe_khao_na_pet.md": {
+   "file": "images/khao-na-pet.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Khao na pet (duck rice), Pathum Thani, 2017-12-15 (1).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_na_pet_(duck_rice),_Pathum_Thani,_2017-12-15_(1).jpg",
+   "author": "Bitterschoko",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Khao na pet: sliced roast duck over rice with gravy",
+    "es": "Khao na pet: pato asado en lonchas sobre arroz con salsa",
+    "ca": "Khao na pet: ànec rostit a llesques sobre arròs amb salsa",
+    "th": "ข้าวหน้าเป็ด",
+    "ar": "خاو نا بيت: شرائح بط مشوي فوق الأرز مع صلصة"
+   }
+  },
+  "recipe_khao_nam_phrik_kapi_pla_thu.md": {
+   "file": "images/khao-nam-phrik-kapi-pla-thu.webp",
+   "width": 1600,
+   "height": 1600,
+   "commonsTitle": "File:Nam phrik kapi 2.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Nam_phrik_kapi_2.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Nam phrik kapi relish with fresh vegetables and fried sides",
+    "es": "Salsa nam phrik kapi con verduras frescas y acompañamientos fritos",
+    "ca": "Salsa nam phrik kapi amb verdures fresques i acompanyaments fregits",
+    "th": "น้ำพริกกะปิกับผักสดและของทอด",
+    "ar": "صلصة نام بريك كابي مع خضار طازجة وأطباق مقلية"
+   }
+  },
+  "recipe_khao_niao_mamuang.md": {
+   "file": "images/khao-niao-mamuang.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Mango sticky rice served in Thailand.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Mango_sticky_rice_served_in_Thailand.jpg",
+   "author": "Arthur Taksin",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": {
+    "en": "Mango sticky rice served in Thailand",
+    "es": "Arroz glutinoso con mango servido en Tailandia",
+    "ca": "Arròs glutinós amb mango servit a Tailàndia",
+    "th": "ข้าวเหนียวมะม่วง",
+    "ar": "أرز دبق بالمانجو يُقدَّم في تايلاند"
+   }
+  },
+  "recipe_khao_niao_piak.md": {
+   "file": "images/khao-niao-piak.webp",
+   "width": 1024,
+   "height": 683,
+   "commonsTitle": "File:Khao nieaw daam bieak (8653101059).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_nieaw_daam_bieak_(8653101059).jpg",
+   "author": "Charles Haynes",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": {
+    "en": "Black sticky rice pudding with coconut cream",
+    "es": "Pudin de arroz glutinoso negro con crema de coco",
+    "ca": "Púding d'arròs glutinós negre amb crema de coco",
+    "th": "ข้าวเหนียวดำเปียกราดกะทิ",
+    "ar": "بودينغ الأرز الدبق الأسود بكريمة جوز الهند"
+   }
+  },
+  "recipe_khao_niao_sangkhaya.md": {
+   "file": "images/khao-niao-sangkhaya.webp",
+   "width": 1600,
+   "height": 1060,
+   "commonsTitle": "File:Khao niao sangkhaya.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_niao_sangkhaya.JPG",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Sticky rice topped with sangkhaya custard on banana leaf",
+    "es": "Arroz glutinoso con natilla sangkhaya sobre hoja de plátano",
+    "ca": "Arròs glutinós amb crema sangkhaya sobre fulla de plàtan",
+    "th": "ข้าวเหนียวสังขยาบนใบตอง",
+    "ar": "أرز دبق تعلوه كاسترد سانغكايا على ورق الموز"
+   }
+  },
+  "recipe_khao_phat.md": {
+   "file": "images/khao-phat.webp",
+   "width": 1600,
+   "height": 1026,
+   "commonsTitle": "File:Khao phat mu.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_phat_mu.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khao phat mu: Thai pork fried rice with lime and cucumber",
+    "es": "Khao phat mu: arroz frito tailandés con cerdo, lima y pepino",
+    "ca": "Khao phat mu: arròs fregit tailandès amb porc, llima i cogombre",
+    "th": "ข้าวผัดหมู กับมะนาวและแตงกวา",
+    "ar": "خاو فات مو: أرز مقلي تايلاندي بلحم الخنزير مع الليمون والخيار"
+   }
+  },
+  "recipe_khao_phat_amerikan.md": {
+   "file": "images/khao-phat-amerikan.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:American fried rice.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:American_fried_rice.jpg",
+   "author": "Biyu Lau",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "en": "American fried rice with fried egg, sausage and bacon",
+    "es": "Arroz frito americano con huevo frito, salchicha y beicon",
+    "ca": "Arròs fregit americà amb ou ferrat, salsitxa i cansalada",
+    "th": "ข้าวผัดอเมริกัน",
+    "ar": "أرز مقلي أمريكي مع بيض مقلي ونقانق ولحم مقدد"
+   }
+  },
+  "recipe_khao_phat_naem.md": {
+   "file": "images/khao-phat-naem.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Khao phat naem.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_phat_naem.jpg",
+   "author": "lazy fri13th",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "en": "Khao phat naem: fried rice with sour pork sausage, lime and cucumber",
+    "es": "Khao phat naem: arroz frito con embutido agrio de cerdo, lima y pepino",
+    "ca": "Khao phat naem: arròs fregit amb embotit àcid de porc, llima i cogombre",
+    "th": "ข้าวผัดแหนม",
+    "ar": "خاو فات نايم: أرز مقلي مع نقانق لحم الخنزير الحامضة والليمون والخيار"
+   }
+  },
+  "recipe_khao_phat_nam_liap.md": {
+   "file": "images/khao-phat-nam-liap.webp",
+   "width": 1600,
+   "height": 1600,
+   "commonsTitle": "File:Khao phat nam liap.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_phat_nam_liap.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khao phat nam liap: dark fried rice with black olive paste and pork",
+    "es": "Khao phat nam liap: arroz frito oscuro con pasta de aceituna negra china y cerdo",
+    "ca": "Khao phat nam liap: arròs fregit fosc amb pasta d'oliva negra xinesa i porc",
+    "th": "ข้าวผัดหนำเลี้ยบ",
+    "ar": "خاو فات نام لياب: أرز مقلي داكن بمعجون الزيتون الأسود الصيني ولحم الخنزير"
+   }
+  },
+  "recipe_khao_phat_tom_yum.md": {
+   "file": "images/khao-phat-tom-yum.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Tom Yum Seafood Fried Rice - Thai Pad Thai 2023-06-04.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Tom_Yum_Seafood_Fried_Rice_-_Thai_Pad_Thai_2023-06-04.jpg",
+   "author": "Andy Li",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Tom yum seafood fried rice with mussels and squid",
+    "es": "Arroz frito tom yum de marisco con mejillones y calamar",
+    "ca": "Arròs fregit tom yum de marisc amb musclos i calamar",
+    "th": "ข้าวผัดต้มยำทะเล",
+    "ar": "أرز مقلي توم يام بالمأكولات البحرية مع بلح البحر والحبار"
+   }
+  },
+  "recipe_khao_rad_kaeng.md": {
+   "file": "images/khao-rad-kaeng.webp",
+   "width": 1600,
+   "height": 2000,
+   "commonsTitle": "File:Khao kaeng.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_kaeng.jpg",
+   "author": "Tree Lightbulb",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Khao rad kaeng: a plate of rice with curries, fried egg and stir-fried vegetables",
+    "es": "Khao rad kaeng: plato de arroz con currys, huevo frito y verduras salteadas",
+    "ca": "Khao rad kaeng: plat d'arròs amb curris, ou ferrat i verdures saltades",
+    "th": "ข้าวราดแกง ไข่ดาว และผัดผัก",
+    "ar": "خاو راد كاينغ: طبق أرز مع أنواع من الكاري وبيضة مقلية وخضار مقلية"
+   }
+  },
+  "recipe_khao_tang_na_tang.md": {
+   "file": "images/khao-tang-na-tang.webp",
+   "width": 1600,
+   "height": 1064,
+   "commonsTitle": "File:Rice cakes with pork.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Rice_cakes_with_pork.jpg",
+   "author": "stu_spivack",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": {
+    "en": "Khao tang na tang: rice crackers with a pork and coconut dip",
+    "es": "Khao tang na tang: galletas de arroz con salsa de cerdo y coco",
+    "ca": "Khao tang na tang: galetes d'arròs amb salsa de porc i coco",
+    "th": "ข้าวตังหน้าตั้ง",
+    "ar": "خاو تانغ نا تانغ: رقائق أرز مع صلصة لحم الخنزير وجوز الهند"
+   }
+  },
+  "recipe_khao_tom.md": {
+   "file": "images/khao-tom.webp",
+   "width": 1600,
+   "height": 1060,
+   "commonsTitle": "File:Khao tom pla.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_tom_pla.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khao tom pla: Thai rice soup with fish, celery and fried garlic",
+    "es": "Khao tom pla: sopa tailandesa de arroz con pescado, apio y ajo frito",
+    "ca": "Khao tom pla: sopa tailandesa d'arròs amb peix, api i all fregit",
+    "th": "ข้าวต้มปลา",
+    "ar": "خاو توم بلا: حساء أرز تايلاندي بالسمك والكرفس والثوم المقلي"
+   }
+  },
+  "recipe_khao_tom_kui.md": {
+   "file": "images/khao-tom-kui.webp",
+   "width": 1600,
+   "height": 1060,
+   "commonsTitle": "File:Khao tom kui.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_tom_kui.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khao tom kui: plain rice gruel with side dishes",
+    "es": "Khao tom kui: gacha de arroz blanco con acompañamientos",
+    "ca": "Khao tom kui: farinetes d'arròs blanc amb acompanyaments",
+    "th": "ข้าวต้มกุ๊ยกับกับข้าว",
+    "ar": "خاو توم كوي: عصيدة أرز بيضاء مع أطباق جانبية"
+   }
+  },
+  "recipe_khao_tom_mat.md": {
+   "file": "images/khao-tom-mat.webp",
+   "width": 1600,
+   "height": 1601,
+   "commonsTitle": "File:Khao tom mat sai kluai.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_tom_mat_sai_kluai.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khao tom mat: banana sticky rice in banana-leaf parcels",
+    "es": "Khao tom mat: arroz glutinoso con plátano en paquetes de hoja de plátano",
+    "ca": "Khao tom mat: arròs glutinós amb plàtan en paquets de fulla de plàtan",
+    "th": "ข้าวต้มมัดไส้กล้วย",
+    "ar": "خاو توم مات: أرز دبق بالموز في صُرر من ورق الموز"
+   }
+  },
+  "recipe_mu_ping_khao_niao.md": {
+   "file": "images/mu-ping-khao-niao.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Mu ping.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Mu_ping.jpg",
+   "author": "Phoebus 28",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Mu ping: grilled pork skewers, eaten with sticky rice",
+    "es": "Mu ping: brochetas de cerdo a la parrilla, que se comen con arroz glutinoso",
+    "ca": "Mu ping: broquetes de porc a la graella, que es mengen amb arròs glutinós",
+    "th": "หมูปิ้งบนเตาย่าง",
+    "ar": "مو بينغ: أسياخ لحم خنزير مشوية تؤكل مع الأرز الدبق"
+   }
+  },
+  "recipe_mu_thot_kratiam_rad_khao.md": {
+   "file": "images/mu-thot-kratiam-rad-khao.webp",
+   "width": 1600,
+   "height": 1600,
+   "commonsTitle": "File:Mu thot krathiam.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Mu_thot_krathiam.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Mu thot kratiam: garlic fried pork",
+    "es": "Mu thot kratiam: cerdo frito con ajo",
+    "ca": "Mu thot kratiam: porc fregit amb all",
+    "th": "หมูทอดกระเทียม",
+    "ar": "مو توت كراتيام: لحم خنزير مقلي بالثوم"
+   }
+  },
+  "recipe_nam_phrik_long_ruea.md": {
+   "file": "images/nam-phrik-long-ruea.webp",
+   "width": 1272,
+   "height": 1920,
+   "commonsTitle": "File:Nam phrik long ruea.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Nam_phrik_long_ruea.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Nam phrik long ruea with sweet pork, salted egg and vegetables",
+    "es": "Nam phrik long ruea con cerdo dulce, huevo salado y verduras",
+    "ca": "Nam phrik long ruea amb porc dolç, ou salat i verdures",
+    "th": "น้ำพริกลงเรือ กับหมูหวาน ไข่เค็ม และผัก",
+    "ar": "نام بريك لونغ روا مع لحم خنزير حلو وبيض مملح وخضار"
+   }
+  },
+  "recipe_phanaeng.md": {
+   "file": "images/phanaeng.webp",
+   "width": 1600,
+   "height": 1600,
+   "commonsTitle": "File:Phanaeng mu.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Phanaeng_mu.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Phanaeng mu: thick coconut curry with pork and kaffir lime leaf",
+    "es": "Phanaeng mu: curry espeso de coco con cerdo y hoja de lima kaffir",
+    "ca": "Phanaeng mu: curri espès de coco amb porc i fulla de llima kaffir",
+    "th": "พะแนงหมู",
+    "ar": "فانانغ مو: كاري جوز هند كثيف بلحم الخنزير وورق الكافير"
+   }
+  },
+  "recipe_phat_kaphrao_rad_khao.md": {
+   "file": "images/phat-kaphrao-rad-khao.webp",
+   "width": 1600,
+   "height": 1067,
+   "commonsTitle": "File:ข้าวราดผัดกะเพราหมูไข่ดาว.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%94%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%94%E0%B8%B2%E0%B8%A7.jpg",
+   "author": "Vee Satayamas",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": {
+    "en": "Phat kaphrao mu over rice with a fried egg",
+    "es": "Phat kaphrao de cerdo sobre arroz con huevo frito",
+    "ca": "Phat kaphrao de porc sobre arròs amb ou ferrat",
+    "th": "ข้าวราดผัดกะเพราหมูไข่ดาว",
+    "ar": "فات كابراو بلحم الخنزير فوق الأرز مع بيضة مقلية"
+   }
+  },
+  "recipe_phat_phrik_khing.md": {
+   "file": "images/phat-phrik-khing.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Phrik khing fried crispy pork with rice - Chiang Mai - 2017-07-09.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Phrik_khing_fried_crispy_pork_with_rice_-_Chiang_Mai_-_2017-07-09.jpg",
+   "author": "Iudexvivorum",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Phrik khing stir-fry with crispy pork and long beans over rice, Chiang Mai",
+    "es": "Salteado phrik khing con cerdo crujiente y judías largas sobre arroz, Chiang Mai",
+    "ca": "Saltat phrik khing amb porc cruixent i mongetes llargues sobre arròs, Chiang Mai",
+    "th": "ผัดพริกขิงหมูกรอบราดข้าว เชียงใหม่",
+    "ar": "فات بريك كينغ بلحم الخنزير المقرمش والفاصوليا الطويلة فوق الأرز، تشيانغ ماي"
+   }
+  },
+  "recipe_tom_kha_kai.md": {
+   "file": "images/tom-kha-kai.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Tom Kha Kai in Phra Nakhon District, Bangkok, Thailand.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Tom_Kha_Kai_in_Phra_Nakhon_District,_Bangkok,_Thailand.jpg",
+   "author": "Globe-trotter",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Tom kha kai: chicken and galangal coconut soup, Bangkok",
+    "es": "Tom kha kai: sopa de coco con pollo y galanga, Bangkok",
+    "ca": "Tom kha kai: sopa de coco amb pollastre i galanga, Bangkok",
+    "th": "ต้มข่าไก่ กรุงเทพฯ",
+    "ar": "توم كا كاي: حساء جوز الهند بالدجاج والخولنجان، بانكوك"
+   }
+  },
+  "recipe_tom_khlong_pla_krop.md": {
+   "file": "images/tom-khlong-pla-krop.webp",
+   "width": 1600,
+   "height": 1060,
+   "commonsTitle": "File:Tom khlong.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Tom_khlong.JPG",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Tom khlong: smoky sour Thai soup with mushrooms",
+    "es": "Tom khlong: sopa tailandesa ahumada y agria con setas",
+    "ca": "Tom khlong: sopa tailandesa fumada i àcida amb bolets",
+    "th": "ต้มโคล้ง",
+    "ar": "توم كلونغ: حساء تايلاندي حامض مدخن بالفطر"
+   }
+  },
+  "recipe_tom_yum_kung.md": {
+   "file": "images/tom-yum-kung.webp",
+   "width": 1600,
+   "height": 900,
+   "commonsTitle": "File:Tom yam kung 1.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Tom_yam_kung_1.jpg",
+   "author": "Vee Satayamas",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "en": "Tom yum kung in a hot pot with prawns and herbs",
+    "es": "Tom yum kung en olla caliente con gambas y hierbas",
+    "ca": "Tom yum kung en olla calenta amb gambes i herbes",
+    "th": "ต้มยำกุ้งในหม้อไฟ",
+    "ar": "توم يام كونغ في قدر ساخن مع الروبيان والأعشاب"
+   }
+  },
+  "recipe_yam_naem_khao_thot.md": {
+   "file": "images/yam-naem-khao-thot.webp",
+   "width": 1600,
+   "height": 1060,
+   "commonsTitle": "File:Naem khluk.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Naem_khluk.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Naem khluk: crispy rice salad with sour pork and fresh herbs",
+    "es": "Naem khluk: ensalada de arroz crujiente con cerdo agrio y hierbas frescas",
+    "ca": "Naem khluk: amanida d'arròs cruixent amb porc àcid i herbes fresques",
+    "th": "แหนมคลุก (ยำแหนมข้าวทอด) กับผักสด",
+    "ar": "نايم كلوك: سلطة أرز مقرمش مع لحم خنزير حامض وأعشاب طازجة"
+   }
+  },
+  "recipe_djaj_mahshi.md": {
+   "file": "images/djaj-mahshi.webp",
+   "width": 640,
+   "height": 640,
+   "commonsTitle": "File:دجاج محشي1.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D8%AF%D8%AC%D8%A7%D8%AC_%D9%85%D8%AD%D8%B4%D9%8A1.jpg",
+   "author": "تالا",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Roast chicken stuffed with spiced rice, peas and nuts",
+    "es": "Pollo asado relleno de arroz especiado, guisantes y frutos secos",
+    "ca": "Pollastre rostit farcit d'arròs especiat, pèsols i fruits secs",
+    "th": "ไก่อบยัดไส้ข้าวเครื่องเทศ ถั่วลันเตา และถั่ว",
+    "ar": "دجاج محشي بالأرز المتبّل والبازلاء والمكسرات"
+   }
+  },
+  "recipe_fawaregh.md": {
+   "file": "images/fawaregh.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Mumbar dolması.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Mumbar_dolmas%C4%B1.jpg",
+   "author": "Tpinar",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Lamb intestines stuffed with rice, simmered in a tomato broth (Turkish mumbar dolmasi, the same preparation)",
+    "es": "Tripas de cordero rellenas de arroz cocidas en caldo de tomate (mumbar dolması turco, la misma preparación)",
+    "ca": "Budells de xai farcits d'arròs cuits en brou de tomàquet (mumbar dolması turc, la mateixa preparació)",
+    "th": "ไส้แกะยัดไส้ข้าว ต้มในน้ำซุปมะเขือเทศ (มุมบาร์ดอลมาซึของตุรกี วิธีทำแบบเดียวกัน)",
+    "ar": "فوارغ محشوة بالأرز مطبوخة بمرق البندورة (ممبار دولمه التركي، التحضير نفسه)"
+   }
+  },
+  "recipe_kharuf_mahshi_halabi.md": {
+   "file": "images/kharuf-mahshi-halabi.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:خروف محشي 02.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D8%AE%D8%B1%D9%88%D9%81_%D9%85%D8%AD%D8%B4%D9%8A_02.jpg",
+   "author": "Fjmustak",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Modern kharuf mahshi: roast lamb on spiced rice with almonds and pine nuts (the present-day descendant of this historical dish)",
+    "es": "Kharuf mahshi actual: cordero asado sobre arroz especiado con almendras y piñones (descendiente actual de este plato histórico)",
+    "ca": "Kharuf mahshi actual: xai rostit sobre arròs especiat amb ametlles i pinyons (descendent actual d'aquest plat històric)",
+    "th": "คะรูฟมะห์ชีสมัยปัจจุบัน: เนื้อแกะอบบนข้าวเครื่องเทศกับอัลมอนด์และเมล็ดสน (ทายาทยุคปัจจุบันของอาหารโบราณนี้)",
+    "ar": "خاروف محشي معاصر: لحم ضأن محمّر على أرز متبّل باللوز والصنوبر (الوريث الحالي لهذا الطبق التاريخي)"
+   }
+  },
+  "recipe_kibbeh_halabiyeh.md": {
+   "file": "images/kibbeh-halabiyeh.webp",
+   "width": 630,
+   "height": 300,
+   "commonsTitle": "File:Rice Kubbeh.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Rice_Kubbeh.jpg",
+   "author": "Eng Omer Akram",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Golden rice-crust kibbeh, one cut open to show the minced-meat filling",
+    "es": "Kibbeh dorado de costra de arroz, uno abierto para mostrar el relleno de carne picada",
+    "ca": "Kibbeh daurat de crosta d'arròs, un d'obert per mostrar el farciment de carn picada",
+    "th": "คิบเบห์เปลือกข้าวสีทอง ผ่าให้เห็นไส้เนื้อสับ",
+    "ar": "كبة حلب بقشرة الأرز الذهبية، إحداها مفتوحة تُظهر حشوة اللحم المفروم"
+   }
+  },
+  "recipe_shishbarak.md": {
+   "file": "images/shishbarak.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:شيش برك لبناني.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D8%B4%D9%8A%D8%B4_%D8%A8%D8%B1%D9%83_%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A.jpg",
+   "author": "منال شحادة",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Lebanese shishbarak: meat dumplings in warm yogurt sauce with pine nuts and pomegranate",
+    "es": "Shishbarak libanés: raviolis de carne en salsa caliente de yogur con piñones y granada",
+    "ca": "Shishbarak libanès: raviolis de carn en salsa calenta de iogurt amb pinyons i magrana",
+    "th": "ชิชบารักแบบเลบานอน: เกี๊ยวไส้เนื้อในซอสโยเกิร์ตอุ่น โรยเมล็ดสนและทับทิม",
+    "ar": "شيش برك لبناني: عجينة محشوة باللحم في لبن ساخن مع الصنوبر والرمان"
+   }
+  },
+  "recipe_riz_bi_haleeb.md": {
+   "file": "images/riz-bi-haleeb.webp",
+   "width": 1600,
+   "height": 2133,
+   "commonsTitle": "File:Sütlaç (Turkish rice pudding).jpeg",
+   "source": "https://commons.wikimedia.org/wiki/File:S%C3%BCtla%C3%A7_(Turkish_rice_pudding).jpeg",
+   "author": "E4024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Milk rice pudding dusted with cinnamon (Turkish sutlac, the same dessert)",
+    "es": "Arroz con leche espolvoreado con canela (sütlaç turco, el mismo postre)",
+    "ca": "Arròs amb llet amb canyella (sütlaç turc, les mateixes postres)",
+    "th": "ขนมข้าวต้มนมโรยอบเชย (ซึทลัชของตุรกี ขนมชนิดเดียวกัน)",
+    "ar": "رز بحليب مرشوش بالقرفة (السوتلاتش التركي، الحلوى نفسها)"
+   }
+  },
+  "recipe_yakhnet_khudra.md": {
+   "file": "images/yakhnet-khudra.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Türlü-pilav.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:T%C3%BCrl%C3%BC-pilav.jpg",
+   "author": "E4024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Mixed-vegetable and meat stew served with a bowl of rice (Turkish turlu, a close relative)",
+    "es": "Guiso de verduras variadas y carne con un cuenco de arroz (türlü turco, pariente cercano)",
+    "ca": "Guisat de verdures variades i carn amb un bol d'arròs (türlü turc, parent proper)",
+    "th": "สตูว์ผักรวมกับเนื้อ เสิร์ฟกับข้าวหนึ่งถ้วย (ทือร์ลือของตุรกี อาหารเครือญาติ)",
+    "ar": "يخنة خضار مشكّلة باللحم مع صحن أرز (التورلو التركي، قريب جداً)"
+   }
+  },
+  "recipe_loubieh_bi_lahmeh.md": {
+   "file": "images/loubieh-bi-lahmeh.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Etli taze fasulye in Ankara.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Etli_taze_fasulye_in_Ankara.jpg",
+   "author": "E4024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Green beans stewed with meat in tomato (Turkish etli taze fasulye, the same stew)",
+    "es": "Judías verdes guisadas con carne y tomate (etli taze fasulye turco, el mismo guiso)",
+    "ca": "Mongetes tendres guisades amb carn i tomàquet (etli taze fasulye turc, el mateix guisat)",
+    "th": "ถั่วแขกตุ๋นเนื้อในซอสมะเขือเทศ (เอตลิ ทาเซ ฟาซุลเยของตุรกี สตูว์แบบเดียวกัน)",
+    "ar": "لوبية باللحمة والبندورة (إتلي تازه فاصولية التركية، اليخنة نفسها)"
+   }
+  },
+  "recipe_fasoulia_w_riz.md": {
+   "file": "images/fasoulia-w-riz.webp",
+   "width": 1200,
+   "height": 2667,
+   "commonsTitle": "File:Kuru Fasulye pilav.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Kuru_Fasulye_pilav.jpg",
+   "author": "Satirdan kahraman",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "White bean stew in tomato served beside rice (Turkish kuru fasulye with pilav, the same pairing)",
+    "es": "Guiso de alubias blancas con tomate junto a arroz (kuru fasulye turco con pilav, la misma combinación)",
+    "ca": "Guisat de mongetes blanques amb tomàquet al costat d'arròs (kuru fasulye turc amb pilav, la mateixa combinació)",
+    "th": "สตูว์ถั่วขาวซอสมะเขือเทศเสิร์ฟคู่ข้าว (คูรู ฟาซุลเยกับพิลาฟของตุรกี การจับคู่แบบเดียวกัน)",
+    "ar": "فاصوليا بيضاء بالبندورة مع الأرز (كورو فاصولية التركية مع البيلاف، الجمعة نفسها)"
+   }
+  },
+  "recipe_pilav_ottoman_aleppo.md": {
+   "file": "images/pilav-ottoman-aleppo.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Turkish Pilaf Rice - degustation - Ottoman Cuisine (3061206332).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Turkish_Pilaf_Rice_-_degustation_-_Ottoman_Cuisine_(3061206332).jpg",
+   "author": "Alpha",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": {
+    "en": "Modern Turkish butter pilaf with vermicelli (the present-day descendant of the Ottoman pilav)",
+    "es": "Pilav turco actual con mantequilla y fideos (descendiente actual del pilav otomano)",
+    "ca": "Pilav turc actual amb mantega i fideus (descendent actual del pilav otomà)",
+    "th": "พิลาฟเนยกับเส้นหมี่แบบตุรกีปัจจุบัน (ทายาทยุคปัจจุบันของพิลาฟออตโตมัน)",
+    "ar": "رز بالسمن والشعيرية على الطريقة التركية الحديثة (الوريث الحالي للبيلاف العثماني)"
+   }
+  },
+  "recipe_muhallabiyya_medieval.md": {
+   "file": "images/muhallabiyya-medieval.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Tavuk Göğsü.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Tavuk_G%C3%B6%C4%9Fs%C3%BC.JPG",
+   "author": "Maderibeyza",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Modern tavuk gogsu, a milk pudding made with chicken (the present-day descendant of this historical dish)",
+    "es": "Tavuk göğsü actual, pudin de leche con pollo (descendiente actual de este plato histórico)",
+    "ca": "Tavuk göğsü actual, púding de llet amb pollastre (descendent actual d'aquest plat històric)",
+    "th": "ทาวุก เกอซึสมัยปัจจุบัน พุดดิ้งนมผสมเนื้อไก่ (ทายาทยุคปัจจุบันของอาหารโบราณนี้)",
+    "ar": "طاووق كوكسو الحديثة، مهلبية بالحليب ولحم الدجاج (الوريث الحالي لهذا الطبق التاريخي)"
+   }
+  },
+  "recipe_mujaddara_medieval.md": {
+   "file": "images/mujaddara-medieval.webp",
+   "width": 1600,
+   "height": 1067,
+   "commonsTitle": "File:Mujaddara.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Mujaddara.jpg",
+   "author": "Bazel",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "alt": {
+    "en": "Modern mujaddara of rice and lentils under fried onions (the present-day descendant of the 1226 dish)",
+    "es": "Mujaddara actual de arroz y lentejas con cebolla frita (descendiente actual del plato de 1226)",
+    "ca": "Mujaddara actual d'arròs i llenties amb ceba fregida (descendent actual del plat de 1226)",
+    "th": "มุจัดดาราปัจจุบัน ข้าวกับถั่วเลนทิลโรยหอมทอด (ทายาทยุคปัจจุบันของอาหารปี 1226)",
+    "ar": "مجدرة حديثة من الأرز والعدس تحت البصل المقلي (الوريث الحالي لطبق عام 1226)"
+   }
+  },
+  "recipe_ardi_shawki_mehshi.md": {
+   "file": "images/ardi-shawki-mehshi.webp",
+   "width": 1080,
+   "height": 811,
+   "commonsTitle": "File:Enginar dolmam.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Enginar_dolmam.jpg",
+   "author": "E4024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Artichoke stuffed with rice and herbs (Turkish enginar dolmasi, the same dish)",
+    "es": "Alcachofa rellena de arroz y hierbas (enginar dolması turco, el mismo plato)",
+    "ca": "Carxofa farcida d'arròs i herbes (enginar dolması turc, el mateix plat)",
+    "th": "อาร์ติโชกยัดไส้ข้าวและสมุนไพร (เอนจินาร์ดอลมาซึของตุรกี อาหารเดียวกัน)",
+    "ar": "خرشوف محشي بالأرز والأعشاب (إنجينار دولمه التركي، الطبق نفسه)"
+   }
+  },
+  "recipe_hbari_mahshi.md": {
+   "file": "images/hbari-mahshi.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Kalamar dolması.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Kalamar_dolmas%C4%B1.jpg",
+   "author": "E4024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Squid stuffed with rice, served in a light sauce (Turkish kalamar dolmasi, the same preparation)",
+    "es": "Calamares rellenos de arroz en salsa ligera (kalamar dolması turco, la misma preparación)",
+    "ca": "Calamars farcits d'arròs en salsa lleugera (kalamar dolması turc, la mateixa preparació)",
+    "th": "ปลาหมึกยัดไส้ข้าวในซอสใส (คาลามาร์ดอลมาซึของตุรกี วิธีทำเดียวกัน)",
+    "ar": "حبار محشي بالأرز بصلصة خفيفة (كالامار دولمه التركي، التحضير نفسه)"
+   }
+  },
+  "recipe_bazella_w_ruz.md": {
+   "file": "images/bazella-w-ruz.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Etli bezelye.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Etli_bezelye.jpg",
+   "author": "E4024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Stew of peas, carrots, potatoes and meat (Turkish etli bezelye, the same stew)",
+    "es": "Guiso de guisantes, zanahorias, patatas y carne (etli bezelye turco, el mismo guiso)",
+    "ca": "Guisat de pèsols, pastanagues, patates i carn (etli bezelye turc, el mateix guisat)",
+    "th": "สตูว์ถั่วลันเตา แครอท มันฝรั่ง และเนื้อ (เอตลิ เบเซลเยของตุรกี สตูว์แบบเดียวกัน)",
+    "ar": "يخنة بازيلا وجزر وبطاطا ولحم (إتلي بزلية التركية، اليخنة نفسها)"
+   }
+  },
+  "recipe_yakhnet_kousa.md": {
+   "file": "images/yakhnet-kousa.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Kabak kalye.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Kabak_kalye.jpg",
+   "author": "E4024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Zucchini stewed in tomato (Turkish kabak kalye, a close relative)",
+    "es": "Calabacín guisado en tomate (kabak kalye turco, pariente cercano)",
+    "ca": "Carbassó guisat amb tomàquet (kabak kalye turc, parent proper)",
+    "th": "ซูกินีตุ๋นซอสมะเขือเทศ (คาบัค คาลเยของตุรกี อาหารเครือญาติ)",
+    "ar": "كوسا مطبوخة بالبندورة (كباك كاليه التركي، قريب جداً)"
+   }
+  },
+  "recipe_ships_w_pasta.md": {
+   "file": "images/ships-w-pasta.webp",
+   "width": 640,
+   "height": 480,
+   "commonsTitle": "File:Ships (476463893).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Ships_(476463893).jpg",
+   "author": "skhakirov from Donetsk, Ukraine",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": {
+    "en": "Circassian ships: chicken in a garlicky cream sauce over grain (the Caucasian original of the Jordanian dish)",
+    "es": "Ships circasiano: pollo en salsa cremosa de ajo sobre cereal (el original caucásico del plato jordano)",
+    "ca": "Ships circassià: pollastre en salsa cremosa d'all sobre cereal (l'original caucàsic del plat jordà)",
+    "th": "ชิปส์ของชาวเซอร์แคสเซียน: ไก่ในซอสครีมกระเทียมบนธัญพืช (ต้นฉบับจากคอเคซัสของอาหารจอร์แดน)",
+    "ar": "شبس شركسي: دجاج بصلصة الثوم الكريمية فوق الحبوب (الأصل القوقازي للطبق الأردني)"
+   }
+  },
+  "recipe_khao_buea.md": {
+   "file": "images/khao-buea.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Kaeng no mai.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Kaeng_no_mai.jpg",
+   "author": "User:Mattes",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "alt": {
+    "en": "Kaeng no mai, the Isan bamboo-shoot curry thickened with pounded rice (khao buea)",
+    "es": "Kaeng no mai, el curry de brotes de bambú de Isan espesado con arroz machacado (khao buea)",
+    "ca": "Kaeng no mai, el curri de brots de bambú d'Isan espessit amb arròs picat (khao buea)",
+    "th": "แกงหน่อไม้อีสานที่ใส่ข้าวเบือให้ข้น",
+    "ar": "كاري براعم الخيزران من إيسان المكثّف بالأرز المدقوق (خاو بوا)"
+   }
   }
  }
 }
