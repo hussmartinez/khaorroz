@@ -20,6 +20,8 @@
 *   **Bil-zeit (fasting, vegetarian):** Olive oil, onion, garlic, tomato, okra; cooked about 15 minutes; served with vermicelli rice or eaten cool.
 *   **Deir ez-Zor / Jazira:** *Tharid bamyeh*: okra and broth poured over bread rather than rice.
 *   **Lebanon / Palestine:** Very similar; Lebanon adds more coriander, Palestine sometimes cubes of beef.
+*   **Lebanese style (Beirut / Mount Lebanon, *bamieh bi lahmeh*):** Small whole okra pods, caps on, fried briefly first; a fry of garlic and **fresh coriander** stirred in at the end, and a spoon of **pomegranate molasses** just before the heat goes off ("it makes a big difference"). Almost always served over buttery vermicelli rice. Anissa Helou includes it as *bamyeh bil-lahmeh* in *Cooking the Foods of My Homeland*.
+*   **Lebanese variants:** A tomato-free family version (a minority style) and a meatless version with chickpeas.
 
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: **Syrian bamyeh bil-lahmeh** with vermicelli rice.*
@@ -59,3 +61,7 @@
 *   [Wikipedia – Bamia](https://en.wikipedia.org/wiki/Bamia)
 *   [Orange Blossom Water (Syrian food blog) – Bamieh bel-bandourah](https://orangeblossomwater.net/?p=16138)
 *   [Diwan al-Arab – المأكولات الشعبية في تراث الجزيرة السورية (tharid bamyeh)](https://www.diwanalarab.com/%D8%A7%D9%84%D9%85%D8%A3%D9%83%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%B9%D8%A8%D9%8A%D8%A9)
+*   [Za'atar and Zaytoun – Lebanese okra stew with meat (bamia bi lahme)](https://zaatarandzaytoun.com/wprm_print/lebanese-okra-stew-with-meat-bamia-bi-lahme)
+*   [Eat Your Books – Okra and meat stew (bamyeh bil-lahmeh), *Cooking the Foods of My Homeland* by Anissa Helou](https://www.eatyourbooks.com/library/recipes/3584870/okra-and-meat-stew-bamyeh)
+*   [The Salt and Sweet – Lebanese okra stew](https://thesaltandsweet.com/lebanese-okra-stew/)
+*   [Lana Yassine – Bemieh b lahme (okra with meat)](https://bylanayassine.com/blogs/news/bemieh)

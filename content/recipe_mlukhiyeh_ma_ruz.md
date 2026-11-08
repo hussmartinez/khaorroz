@@ -22,6 +22,8 @@ The dish's backbone is the *ta'leyeh*: crushed garlic and coriander (fresh and d
 *   **Lebanon:** Fresh leaves in summer; chicken and lamb; toasted bread and rice alongside.
 *   **Palestine:** Often whole leaves with chicken; in Gaza, chopped leaves closer to the Egyptian style ⚠️.
 *   **Egypt (contrast):** Minced leaves, a soup rather than a stew, with *ta'leya* of garlic and coriander; also served with rice.
+*   **Lebanese style (*mloukhieh*):** The leaves are kept **whole**, not minced as in Egypt, giving a dish of leaves in broth. Its flavour rests on fresh and dried **coriander fried with crushed garlic** and plenty of lemon (added "so the texture does not change"), with chicken boiled with cinnamon, cardamom and bay. Served over vermicelli rice, often with toasted bread and onion in vinegar.
+*   **Lebanese vs Egyptian vs Shami (Asharq Al-Awsat):** Lebanese = coriander and garlic; Egyptians add tomato; Shami (Damascus) cooks use bay and cardamom in the broth. A Georgetown essay contrasts Egyptian abundance (bread, vinegar, onions, soupiness) with Lebanese restraint, though many Lebanese homes also serve bread and vinegar-onion.
 
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: **Syrian dried whole-leaf mlukhiyeh with chicken**, after published Syrian recipes.*
@@ -60,3 +62,7 @@ The dish's backbone is the *ta'leyeh*: crushed garlic and coriander (fresh and d
 *   [Arabic Post – Tunisian, Egyptian and Syrian mlukhiyeh, served with vermicelli rice](https://arabicpost.net/%d9%84%d8%a7%d9%8a%d9%81-%d8%b3%d8%aa%d8%a7%d9%8a%d9%84/2024/03/08/%d8%b7%d8%b1%d9%8a%d9%82%d8%a9-%d8%b9%d9%85%d9%84-%d8%a7%d9%84%d9%85%d9%84%d9%88%d8%ae%d9%8a%d8%a9-2/)
 *   [WebTeb – طريقة عمل الملوخية اليابسة](https://www.webteb.com/diet/recipes/الملوخية اليابسة_1311)
 *   [Wikipedia – Mulukhiyah](https://en.wikipedia.org/wiki/Mulukhiyah)
+*   [Asharq Al-Awsat – الملوخية بين اللبناني والمصري](https://aawsat.com/node/278146)
+*   [Mawdoo3 – أكلات لبنانية بالدجاج (Lebanese mloukhieh)](https://mawdoo3.com/أكلات_لبنانية_بالدجاج)
+*   [Alphafoodie – Mom's authentic Lebanese molokhia (mloukhiyeh)](https://www.alphafoodie.com/lebanese-molokhia-with-chicken/)
+*   [Georgetown CCAS – Tabletop debates: reflections on molokhia, identity and forks vs spoons](https://ccas.georgetown.edu/2022/08/30/tabletop-debates-reflections-on-molokhia-identity-and-forks-vs-spoons/)

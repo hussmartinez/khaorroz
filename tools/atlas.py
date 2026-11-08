@@ -81,11 +81,11 @@ FAMILIES = {
     "Winter pot & matanza rices": (
         "Olla-style pots of legumes, pork and offal with the rice cooked in.",
         ["arroz_con_fesols_i_naps", "olla_de_benicarlo", "arroz_con_pata_de_ternera", "arros_de_matances_eivissa",
-         "arros_brut", "arros_amb_fava_pela", "arroz_con_higado_de_toro", "arroz_con_colas_de_cordero", "arros_col_i_fesols", "arroz_y_habichuelas_murciano", "paella_de_costelletes_i_coliflor", "arros_al_forn_de_fesols_i_naps", "arroz_a_la_zamorana", "chanfaina_salmantina", "txuritabeltz", "arroz_clarico", "fasoulia_w_riz"]),
+         "arros_brut", "arros_amb_fava_pela", "arroz_con_higado_de_toro", "arroz_con_colas_de_cordero", "arros_col_i_fesols", "arroz_y_habichuelas_murciano", "paella_de_costelletes_i_coliflor", "arros_al_forn_de_fesols_i_naps", "arroz_a_la_zamorana", "chanfaina_salmantina", "txuritabeltz", "arroz_clarico", "fasoulia_w_riz", "ghammeh", "fawaregh"]),
     "Lent & vigil rices": (
         "Meatless rices of Cuaresma and fast days: legumes, greens and salt cod.",
         ["arroz_de_los_tres_punaos", "arroz_con_acelgas", "arroz_empedrado", "arroz_empedrao_murciano",
-         "arroz_con_bacalao_y_coliflor", "arroz_de_ayuno_calasparra", "arroz_con_bacalao_de_vigilia", "cardillos_con_arroz", "arroz_de_boquerones_y_espinacas", "arroz_y_habichuelas_murciano", "arroz_con_boquerones_y_pava_murciano", "arroz_y_verduras_con_bacalao_murciano", "arros_al_forn_amb_panses_i_cigrons", "paella_de_ceba_i_bacalla", "potaje_banezano", "mujaddara", "warak_enab", "yalanji"]),
+         "arroz_con_bacalao_y_coliflor", "arroz_de_ayuno_calasparra", "arroz_con_bacalao_de_vigilia", "cardillos_con_arroz", "arroz_de_boquerones_y_espinacas", "arroz_y_habichuelas_murciano", "arroz_con_boquerones_y_pava_murciano", "arroz_y_verduras_con_bacalao_murciano", "arros_al_forn_amb_panses_i_cigrons", "paella_de_ceba_i_bacalla", "potaje_banezano", "mujaddara", "warak_enab", "yalanji", "mehshi_selek"]),
     "Huerta & artichoke rices": (
         "Irrigated-garden vegetables: artichoke, broad beans, chard and peppers lead the dish.",
         ["arroz_de_verduras_vega_baja", "paella_de_verduras", "arroz_con_alcachofas_benicarlo",
@@ -96,21 +96,21 @@ FAMILIES = {
         ["arroz_con_pava", "arroz_con_pitu_de_caleya", "arroz_con_pato", "arros_de_les_riberes_del_turia", "riz_a_djej", "ruz_bi_djaj_hashweh", "maqluba"]),
     "Sweet rices": (
         "Desserts: rice cooked in milk or honey.",
-        ["arroz_con_leche", "arroz_con_miel_bogarra", "escudella_d_angel", "riz_bi_haleeb", "muhallabiyeh"]),
+        ["arroz_con_leche", "arroz_con_miel_bogarra", "escudella_d_angel", "riz_bi_haleeb", "muhallabiyeh", "meghli", "mufattaka"]),
     "Home-style & country rices": (
         "Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had.",
         ["arroz_amarillo_canario", "arroz_a_la_cubana_canario", "arroz_a_la_sevillana", "arroz_campero_andaluz",
-         "arroz_cortijero_jaen", "perol_cordobes", "arroz_a_la_asturiana", "riz_bi_foul", "riz_bi_shariyyeh", "ships_w_pasta", "galayet_bandora_bi_ruz", "mlukhiyeh_ma_ruz", "bamyeh_ma_ruz", "bazella_w_ruz", "kibbeh_hamda"]),
+         "arroz_cortijero_jaen", "perol_cordobes", "arroz_a_la_asturiana", "riz_bi_foul", "riz_bi_shariyyeh", "ships_w_pasta", "galayet_bandora_bi_ruz", "mlukhiyeh_ma_ruz", "bamyeh_ma_ruz", "bazella_w_ruz", "kibbeh_hamda", "sabanekh_w_riz", "daoud_basha"]),
     "Rice & legumes": (
         "Rice cooked with lentils, beans or fava: the poor-and-sustaining pot from Orihuela to Beirut.",
         ["mujaddara", "arroz_de_los_tres_punaos", "arroz_y_habichuelas_murciano", "potaje_banezano", "arros_amb_fava_pela",
          "riz_bi_foul", "arros_col_i_fesols", "arroz_con_fesols_i_naps"]),
     "Stuffed vegetables & leaves": (
         "Rice used as a filling: vine leaves, zucchini and eggplant simmered in broth.",
-        ["mahshi", "mahshi_halabi", "warak_enab", "yalanji", "sheikh_al_mahshi", "mehshi_basal", "yebra"]),
+        ["mahshi", "mahshi_halabi", "warak_enab", "yalanji", "sheikh_al_mahshi", "mehshi_basal", "yebra", "malfouf_mehshi", "mehshi_selek", "ghammeh", "fawaregh"]),
     "Lamb feast rices": (
         "Celebration platters of lamb over rice: yogurt sauces, sealed pots, pit ovens and pastry domes.",
-        ["mansaf", "zarb", "qidreh", "shakriyeh", "ouzi", "sheikh_al_mahshi"]),
+        ["mansaf", "zarb", "qidreh", "shakriyeh", "ouzi", "sheikh_al_mahshi", "kibbeh_labanieh"]),
     "Rice with noodles": (
         "Rice and toasted vermicelli or noodles cooked together, and the noodle 'paellas'.",
         ["riz_bi_shariyyeh", "shakriyeh", "fasoulia_w_riz", "fideua", "arrossejat", "bamyeh_ma_ruz", "bazella_w_ruz"]),

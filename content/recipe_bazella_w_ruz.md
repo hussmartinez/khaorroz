@@ -1,6 +1,6 @@
 # Bazella w Ruz / بازيلا ورز
 
-> ⬅ [README](README.md) · [Syria](provincial_syria.md)
+> ⬅ [README](README.md) · [Syria](provincial_syria.md) · [Lebanon](provincial_lebanon.md)
 
 > ⚠️ **Source-confidence note:** the Homs-born author Anas Atassi documents this as a Syrian family *yakhni* served with vermicelli rice. A Syrian-Jewish (Aleppo) version, "green peas and rice with coriander and meat", is listed in Poopa Dweck's *Aromas of Aleppo*, but the recipe text was not accessible; that variant is described from the title only.
 
@@ -21,6 +21,8 @@ In Aleppo's Jewish community the same pairing appears as a rice dish of green pe
 *   **Damascus ⚠️:** Lamb more common; finished with lemon instead of molasses.
 *   **Aleppo, Jewish community ⚠️:** Peas, rice, coriander and meat (*Aromas of Aleppo*, p. 118 per reader notes).
 *   **Lebanon / Palestine:** Similar; Palestinian cooks may cook the rice *with* peas and minced meat as one pot, topped with pine nuts.
+*   **Lebanese style (*bazella w riz*, everyday Beirut and Mount Lebanon lunch):** Peas and **carrots** with lamb shoulder or leg, beef shank (bone in), chuck or oxtail, browned in olive oil, then simmered with tomato paste, garlic, bay and seven-spice. Served over vermicelli rice.
+*   **Lebanese variants:** A quick version with minced beef and frozen peas and carrots; some households add diced potato; a vegan version with vegetable stock and an extra onion.
 
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: **Homs**, after Anas Atassi, scaled to 4.*
@@ -60,3 +62,7 @@ In Aleppo's Jewish community the same pairing appears as a rice dish of green pe
 *   [AramcoWorld – Flavors: Beef stew with green peas (Bazela bil roz), from Anas Atassi's *Sumac*](https://www.aramcoworld.com/en/articles/2023/flavors-beef-stew-with-green-peas-bazela-bil-roz)
 *   [Eat Your Books – *Aromas of Aleppo* (Poopa Dweck) index](https://www.eatyourbooks.com/library/15746/aromas-of-aleppo)
 *   [Mawdoo3 – طريقة تحضير أرز أبيض بالبازلاء](https://mawdoo3.com/طريقة_تحضير_أرز_أبيض_بالبازلاء)
+*   [SBS Food – Lebanese stew with peas and rice (bazella w riz), Norma Dakhoul](https://www.sbs.com.au/food/recipe/lebanese-stew-with-peas-and-rice-bazella-w-riz/30rca07di)
+*   [The Matbakh – Bazella, pea stew with meat chunks](https://thematbakh.com/bazella/)
+*   [Simply Lebanese – Bazella w riz](https://www.simplyleb.com/?p=3727)
+*   [Alphafoodie – Lebanese carrot and pea stew (bazella w riz)](https://www.alphafoodie.com/lebanese-carrot-and-pea-stew-bazella/)

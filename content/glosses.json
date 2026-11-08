@@ -844,6 +844,69 @@
    "ca": "Crema de llet i farina d'arròs amb aigua de flor de taronger i festucs (postres)",
    "th": "พุดดิ้งนมแป้งข้าวเนื้อเนียน หอมน้ำดอกส้ม โรยพิสตาชิโอ (ของหวาน)",
    "ar": "مهلبية بطحين الرز وماء الزهر والفستق الحلبي (حلوى)"
+  },
+  "recipe_malfouf_mehshi.md": {
+   "en": "Cabbage leaves rolled around rice and meat, cooked with garlic, lemon and mint",
+   "es": "Hojas de col enrolladas con arroz y carne, guisadas con ajo, limón y menta",
+   "ca": "Fulles de col enrotllades amb arròs i carn, cuites amb all, llimona i menta",
+   "th": "กะหล่ำปลีม้วนไส้ข้าวและเนื้อ ต้มกับกระเทียม มะนาว และสะระแหน่",
+   "ar": "ورق ملفوف محشو بالأرز واللحم مطبوخ بالثوم والليمون والنعناع"
+  },
+  "recipe_mehshi_selek.md": {
+   "en": "Lenten chard rolls filled with rice, chickpeas and herbs, cooked in olive oil and lemon",
+   "es": "Rollitos de acelga de Cuaresma con arroz, garbanzos y hierbas, en aceite de oliva y limón",
+   "ca": "Rotllets de bleda de Quaresma amb arròs, cigrons i herbes, amb oli d'oliva i llimona",
+   "th": "ผักชาร์ดม้วนไส้ข้าว ถั่วลูกไก่ และสมุนไพร ปรุงด้วยน้ำมันมะกอกและมะนาว (ช่วงถือศีล)",
+   "ar": "محشي سلق صيامي بالأرز والحمص والأعشاب، مطبوخ بزيت الزيتون والليمون"
+  },
+  "recipe_ghammeh.md": {
+   "en": "Lamb tripe sewn into pouches and stuffed with rice, chickpeas and meat, simmered with trotters",
+   "es": "Callos de cordero cosidos en bolsitas rellenas de arroz, garbanzos y carne, cocidos con manitas",
+   "ca": "Tripa de xai cosida en bossetes farcides d'arròs, cigrons i carn, cuita amb peus",
+   "th": "ผ้าขี้ริ้วแกะเย็บเป็นถุงยัดไส้ข้าว ถั่วลูกไก่ และเนื้อ ตุ๋นกับขาแกะ",
+   "ar": "كرش الغنم مخيط ومحشو بالأرز والحمص واللحم، مطبوخ مع الكوارع"
+  },
+  "recipe_fawaregh.md": {
+   "en": "Lamb intestines stuffed with rice and minced meat, simmered in spiced broth",
+   "es": "Tripas de cordero rellenas de arroz y carne picada, cocidas en caldo especiado",
+   "ca": "Budells de xai farcits d'arròs i carn picada, bullits en brou especiat",
+   "th": "ไส้แกะยัดไส้ข้าวและเนื้อสับ ต้มในน้ำซุปเครื่องเทศ",
+   "ar": "فوارغ غنم محشوة بالأرز واللحم المفروم مطبوخة بمرق متبّل"
+  },
+  "recipe_meghli.md": {
+   "en": "Spiced rice-flour pudding with caraway and cinnamon, made to celebrate a birth (dessert)",
+   "es": "Pudin especiado de harina de arroz con alcaravea y canela, para celebrar un nacimiento (postre)",
+   "ca": "Púding especiat de farina d'arròs amb comí de prat i canyella, per celebrar un naixement (postres)",
+   "th": "พุดดิ้งแป้งข้าวเจ้าใส่เครื่องเทศ ยี่หร่าและอบเชย ทำฉลองการเกิดของทารก (ของหวาน)",
+   "ar": "مغلي من طحين الأرز بالكراوية والقرفة يُحضَّر احتفالاً بالمولود (حلوى)"
+  },
+  "recipe_mufattaka.md": {
+   "en": "Beirut's yellow rice pudding with turmeric, tahini and pine nuts (dessert)",
+   "es": "Pudin amarillo de arroz de Beirut con cúrcuma, tahini y piñones (postre)",
+   "ca": "Púding groc d'arròs de Beirut amb cúrcuma, tahini i pinyons (postres)",
+   "th": "พุดดิ้งข้าวสีเหลืองของเบรุต ใส่ขมิ้น ทาฮินี และเมล็ดสน (ของหวาน)",
+   "ar": "مفتّقة بيروتية: حلوى أرز صفراء بالكركم والطحينة والصنوبر"
+  },
+  "recipe_sabanekh_w_riz.md": {
+   "en": "Spinach and minced lamb stew with lemon and pine nuts over vermicelli rice",
+   "es": "Guiso de espinacas y cordero picado con limón y piñones sobre arroz con fideos",
+   "ca": "Guisat d'espinacs i xai picat amb llimona i pinyons sobre arròs amb fideus",
+   "th": "สตูว์ผักโขมกับเนื้อแกะสับ มะนาว และเมล็ดสน ราดบนข้าวผัดเส้นหมี่",
+   "ar": "يخنة السبانخ باللحم المفروم والليمون والصنوبر مع الرز بالشعيرية"
+  },
+  "recipe_daoud_basha.md": {
+   "en": "Meatballs in tomato sauce with pine nuts, served over rice",
+   "es": "Albóndigas en salsa de tomate con piñones, servidas sobre arroz",
+   "ca": "Mandonguilles amb salsa de tomàquet i pinyons, servides sobre arròs",
+   "th": "ลูกชิ้นเนื้อในซอสมะเขือเทศกับเมล็ดสน เสิร์ฟบนข้าว",
+   "ar": "كرات اللحم بصلصة البندورة والصنوبر تُقدَّم على الرز"
+  },
+  "recipe_kibbeh_labanieh.md": {
+   "en": "Kibbeh dumplings in a warm garlic-mint yogurt sauce thickened with rice",
+   "es": "Bolitas de kibbeh en salsa caliente de yogur con ajo y menta, espesada con arroz",
+   "ca": "Boletes de kibbeh en salsa calenta de iogurt amb all i menta, espessida amb arròs",
+   "th": "คิบเบห์ลูกกลมในซอสโยเกิร์ตร้อน กระเทียม และสะระแหน่ ข้นด้วยข้าว",
+   "ar": "كبة لبنية: أقراص الكبة في لبن مطبوخ بالثوم والنعناع مُكثّف بالأرز"
   }
  },
  "regions": {
@@ -1062,7 +1125,30 @@
       "recipe_yalanji.md",
       "recipe_sheikh_al_mahshi.md",
       "recipe_mehshi_basal.md",
-      "recipe_yebra.md"
+      "recipe_yebra.md",
+      "recipe_malfouf_mehshi.md",
+      "recipe_mehshi_selek.md"
+     ]
+    },
+    {
+     "id": "offal",
+     "name": {
+      "en": "Stuffed offal (ghammeh & fawaregh)",
+      "es": "Casquería rellena (ghammeh y fawaregh)",
+      "ca": "Menuts farcits (ghammeh i fawaregh)",
+      "th": "เครื่องในยัดไส้ข้าว",
+      "ar": "الغمّة والفوارغ"
+     },
+     "description": {
+      "en": "Tripe and intestines filled with rice and meat: festive, frugal, and slowly disappearing.",
+      "es": "Callos y tripas rellenos de arroz y carne: festivos, de aprovechamiento y en retroceso.",
+      "ca": "Tripa i budells farcits d'arròs i carn: festius, d'aprofitament i en retrocés.",
+      "th": "ผ้าขี้ริ้วและไส้ยัดไส้ข้าวกับเนื้อ อาหารเทศกาลแบบใช้ทุกส่วน ที่กำลังหายไป",
+      "ar": "كرش وأمعاء محشوة بالأرز واللحم: طبخة احتفالية مقتصدة تتراجع اليوم."
+     },
+     "members": [
+      "recipe_ghammeh.md",
+      "recipe_fawaregh.md"
      ]
     },
     {
@@ -1110,7 +1196,10 @@
       "recipe_galayet_bandora_bi_ruz.md",
       "recipe_mlukhiyeh_ma_ruz.md",
       "recipe_bamyeh_ma_ruz.md",
-      "recipe_bazella_w_ruz.md"
+      "recipe_bazella_w_ruz.md",
+      "recipe_sabanekh_w_riz.md",
+      "recipe_daoud_basha.md",
+      "recipe_kibbeh_labanieh.md"
      ]
     },
     {
@@ -1171,7 +1260,9 @@
      },
      "members": [
       "recipe_riz_bi_haleeb.md",
-      "recipe_muhallabiyeh.md"
+      "recipe_muhallabiyeh.md",
+      "recipe_meghli.md",
+      "recipe_mufattaka.md"
      ]
     }
    ]
