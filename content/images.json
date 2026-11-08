@@ -2907,6 +2907,23 @@
     "th": "ข้าวผัดเส้นหมี่คั่วแบบลิแวนต์ ที่ชิลีเรียกว่าอาร์รอซอาราเบ",
     "ar": "أرز بالشعيرية المحمّصة، الطبق الشامي المعروف في تشيلي باسم الأرز العربي"
    }
+  },
+  "recipe_ruz_hamid_maani.md": {
+   "file": "images/ruz-hamid-maani.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:رز حامض.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D8%B1%D8%B2_%D8%AD%D8%A7%D9%85%D8%B6.jpg",
+   "author": "Mabuodah",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "alt": {
+    "en": "Sour rice with lentils topped with fried onions on a round tray, with tea glasses",
+    "es": "Arroz agrio con lentejas cubierto de cebolla frita en una bandeja redonda, con vasos de té",
+    "ca": "Arròs àcid amb llenties cobert de ceba fregida en una safata rodona, amb gots de te",
+    "th": "ข้าวเปรี้ยวกับถั่วเลนทิล โรยหอมเจียว บนถาดกลม พร้อมแก้วชา",
+    "ar": "رز حامض بالعدس يعلوه البصل المقلي في صينية مستديرة مع كاسات الشاي"
+   }
   }
  }
 }

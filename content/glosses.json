@@ -2020,6 +2020,13 @@
    "ca": "Mandonguilles jueves sirianes en salsa agredolça de tamarinde i tomàquet, servides sobre arròs",
    "th": "ลูกชิ้นเนื้อสูตรชาวยิวซีเรีย เคี่ยวในซอสมะขามมะเขือเทศเปรี้ยวหวาน ราดบนข้าว",
    "ar": "كفتة يهودية سورية مطبوخة بصلصة التمر الهندي والبندورة الحلوة الحامضة، تُقدَّم مع الرز"
+  },
+  "recipe_ruz_hamid_maani.md": {
+   "en": "Ma'an's Eid dish: rice and lentils cooked in sour dried yogurt, topped with ghee and crisp onions",
+   "es": "Plato de Eid de Ma'an: arroz y lentejas cocidos en yogur seco agrio, con mantequilla clarificada y cebolla crujiente",
+   "ca": "Plat d'Eid de Ma'an: arròs i llenties cuits amb iogurt sec àcid, amb mantega clarificada i ceba cruixent",
+   "th": "อาหารวันอีดของเมืองมาอาน: ข้าวกับถั่วเลนทิลต้มในโยเกิร์ตแห้งรสเปรี้ยว ราดเนยใสและหอมเจียวกรอบ",
+   "ar": "طبق العيد في معان: أرز وعدس مطبوخان باللبن الجميد الحامض، مع السمن البلدي والبصل المقلي"
   }
  },
  "regions": {
@@ -2330,7 +2337,8 @@
       "recipe_mujaddara.md",
       "recipe_riz_bi_foul.md",
       "recipe_musluaa.md",
-      "recipe_ruz_eb_maya.md"
+      "recipe_ruz_eb_maya.md",
+      "recipe_ruz_hamid_maani.md"
      ]
     },
     {

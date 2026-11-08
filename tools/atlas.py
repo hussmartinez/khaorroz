@@ -104,7 +104,7 @@ FAMILIES = {
     "Rice & legumes": (
         "Rice cooked with lentils, beans or fava: the poor-and-sustaining pot from Orihuela to Beirut.",
         ["mujaddara", "arroz_de_los_tres_punaos", "arroz_y_habichuelas_murciano", "potaje_banezano", "arros_amb_fava_pela",
-         "riz_bi_foul", "arros_col_i_fesols", "arroz_con_fesols_i_naps", "musluaa", "shurba_al_baghdadi", "mujaddara_medieval", "ruz_eb_maya", "mansaf_halabi"]),
+         "riz_bi_foul", "arros_col_i_fesols", "arroz_con_fesols_i_naps", "musluaa", "shurba_al_baghdadi", "mujaddara_medieval", "ruz_eb_maya", "mansaf_halabi", "ruz_hamid_maani"]),
     "Stuffed vegetables & leaves": (
         "Rice used as a filling: vine leaves, zucchini and eggplant simmered in broth.",
         ["mahshi", "mahshi_halabi", "warak_enab", "yalanji", "sheikh_al_mahshi", "mehshi_basal", "yebra", "malfouf_mehshi", "mehshi_selek", "ghammeh", "fawaregh", "mahshi_lift", "lakhneh", "kousa_bi_laban", "ardi_shawki_mehshi", "mehshi_felfel", "lsaineh", "hbari_mahshi", "jazar_mahshi", "mahshi_batata", "qara_mahshi", "basmashkat", "mehshi_batinjan_bi_safarjal"]),
@@ -139,7 +139,7 @@ FAMILIES = {
         ["khao_lam", "khao_kan_chin", "khao_tom_mat", "khao_tom_luk_yon", "khao_pradap_din", "warak_enab", "yalanji", "khanom_jak", "khanom_sot_sai", "mok_no_mai"]),
     "Ritual & festival rices": (
         "Rices made for gods, ancestors, monks, births and weddings.",
-        ["khao_tom_luk_yon", "khanom_la", "khao_mathu_payat", "khao_pradap_din", "khao_jee", "meghli", "mufattaka", "ruz_w_lahm_al_urs", "khanom_kong", "khao_mao"]),
+        ["khao_tom_luk_yon", "khanom_la", "khao_mathu_payat", "khao_pradap_din", "khao_jee", "meghli", "mufattaka", "ruz_w_lahm_al_urs", "khanom_kong", "khao_mao", "ruz_hamid_maani"]),
     "Rice crackers & rice-flour sweets": (
         "Rice turned into crisp sheets, lace, pancakes and layered sweets.",
         ["khao_pong", "khao_taen", "khao_phan_phak", "khao_tang_na_tang", "khanom_krok", "khanom_chan", "khanom_la", "bua_loy", "khao_kriap_pak_mo", "khanom_tako", "khanom_thuai", "khanom_bueang", "khanom_kong", "halawet_el_riz"]),

@@ -34,6 +34,7 @@ The national dish, [mansaf](recipe_mansaf.md), brings these worlds together: lam
 Related dishes that also belong to Jordan but are documented on other region pages: **maqluba** ([Palestine](provincial_palestine.md); Karak cooks are known for their spicing with cardamom and cinnamon), **mujaddara** (eaten in Karak with rice or bulgur), and **sayadieh**, the coastal fish rice (Aqaba's best-known dish).
 
 Forgotten Jordanian dishes being revived by heritage cooks in al-Salt (e.g. *rashoof*, lentils with jameed and bulgur; *shorbat al-ja'deh*, wild-herb soup) are grain dishes but **not rice dishes**, so they are not included as recipes; the 2018 Jordanian stamp series on traditional food lists only mansaf and zarb as rice dishes.
+| [Ruz Hamid (Ma'an Sour Rice)](recipe_ruz_hamid_maani.md) | Rice & legumes (Eid) | Ma'an |
 
 ## 4. Reference Links
 *   [Jordan Intangible Cultural Heritage (Ministry of Culture) – المنسف AlMansaf](https://ich.gov.jo/node/71429)
