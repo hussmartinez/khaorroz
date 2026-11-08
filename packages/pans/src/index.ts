@@ -2,8 +2,8 @@
 // its recipe — the vessel it is cooked in, the colour of its rice, and the ingredients on top.
 // Deterministic per slug, so a dish always looks the same.
 
-export type Vessel = "paella" | "cassola" | "caldero" | "olla" | "tray" | "tanjara" | "kratip" | "plate" | "bowl" | "claypot" | "banana";
-export type Base = "seco" | "banda" | "negro" | "meloso" | "caldoso" | "caldoso-negro" | "horno" | "costra" | "leche" | "white" | "vermicelli" | "maqluba" | "mujaddara" | "yellow" | "jasmine" | "sticky" | "friedrice" | "porridge" | "khaoyam" | "khaochae";
+export type Vessel = "paella" | "cassola" | "caldero" | "olla" | "tray" | "tanjara" | "kratip" | "plate" | "bowl" | "claypot" | "banana" | "wok" | "krok";
+export type Base = "seco" | "banda" | "negro" | "meloso" | "caldoso" | "caldoso-negro" | "horno" | "costra" | "leche" | "white" | "vermicelli" | "maqluba" | "mujaddara" | "yellow" | "jasmine" | "sticky" | "friedrice" | "porridge" | "khaoyam" | "khaochae" | "redrice" | "kapi" | "kanchin" | "coconut" | "caramel" | "plain";
 
 export interface PanSpec {
   vessel: Vessel;
@@ -16,6 +16,7 @@ type Glyph =
   | "prawn" | "galera" | "lobster" | "mussel" | "clam" | "ring" | "sepia" | "fish" | "artichoke" | "bean"
   | "garrofo" | "chickpea" | "potato" | "garlic" | "tomato" | "morcilla" | "chorizo" | "meat" | "snail"
   | "pinenut" | "almond" | "eggplant" | "parsley" | "onion"
+  | "ball" | "layer" | "krokcup" | "bamboo" | "patty" | "cracker" | "crackerpink" | "dipbowl" | "parcel" | "halfegg" | "yolk" | "porkred" | "dough"
   | "chili" | "basil" | "lime" | "cucumber" | "mango" | "peanut" | "ice" | "jasmineflower"
   | "egg" | "lemon" | "rosemary" | "pepper" | "chard" | "turnip" | "cauli" | "mushroom" | "pea" | "fava" | "cinnamon" | "peel";
 
@@ -159,8 +160,25 @@ function thaiSpec(opts: { title: string; texture: string; vessel: string; recipe
   const name = opts.title.toLowerCase();
   const v = opts.vessel.toLowerCase();
   const all = name + " " + t;
+  // Dishes whose look isn't "rice + garnish" get their own picture (research descriptions).
+  const N = name;
+  const O = (vessel: Vessel, base: Base, items: PanSpec["items"], center?: Glyph): PanSpec => ({ vessel, base, items, center });
+  if (/bua loy|บัวลอย/.test(N)) return O("bowl", "coconut", [{ kind: "ball", n: 16 }]);
+  if (/khanom chan|ขนมชั้น/.test(N)) return O("plate", "plain", [{ kind: "layer", n: 7 }]);
+  if (/khanom krok|ขนมครก/.test(N)) return O("krok", "plain", [{ kind: "krokcup", n: 19 }]);
+  if (/khao lam|ข้าวหลาม/.test(N)) return O("banana", "plain", [{ kind: "bamboo", n: 5 }]);
+  if (/khao jee|ข้าวจี่/.test(N)) return O("plate", "plain", [{ kind: "patty", n: 6 }]);
+  if (/khao taen|ข้าวแตน/.test(N)) return O("plate", "plain", [{ kind: "crackerpink", n: 7 }]);
+  if (/khao pong|ข้าวโป่ง|cracker/.test(N) && !/na tang/.test(N)) return O("kratip", "plain", [{ kind: "cracker", n: 7 }]);
+  if (/khao tang na tang|ข้าวตังหน้าตั้ง/.test(N)) return O("plate", "plain", [{ kind: "cracker", n: 9 }], "dipbowl");
+  if (/mathu payat|มธุปายาส/.test(N)) return O("wok", "caramel", [{ kind: "peanut", n: 12 }]);
+  if (/pradap din|luk yon|ลูกโยน|tom mat|ข้าวต้มมัด|khao tom luk/.test(N)) return O("tray", "plain", [{ kind: "parcel", n: 7 }]);
+  if (/kan chin|ข้าวกั๊นจิ๊น/.test(N)) return O("banana", "kanchin", [{ kind: "onion", n: 8 }, { kind: "chili", n: 3 }]);
   const base: Base =
     /khao chae|ข้าวแช่|iced water|jasmine[- ]scented water/.test(all) ? "khaochae"
+    : /amerikan|american/.test(N) ? "redrice"
+    : /kluk kapi|คลุกกะปิ/.test(N) ? "kapi"
+    : /khao mok|ข้าวหมก|turmeric/.test(N + " " + t) ? "yellow"
     : /khao yam|ข้าวยำ|butterfly pea|anchan/.test(all) ? "khaoyam"
     : /mamuang|mango sticky|ข้าวเหนียวมะม่วง/.test(all) ? "sticky"
     : /khao niao|sticky rice|glutinous|ข้าวเหนียว/.test(all) ? "sticky"
@@ -176,6 +194,8 @@ function thaiSpec(opts: { title: string; texture: string; vessel: string; recipe
   const items: PanSpec["items"] = [];
   for (const [g, re, n] of RULES) if (re.test(t)) items.push({ kind: g, n });
   if (base === "khaochae") items.push({ kind: "ice", n: 5 }, { kind: "jasmineflower", n: 4 });
+  if (/kha mu|mu daeng|หมูแดง|ขาหมู/.test(N)) { for (const i of items) if (i.kind === "meat") i.kind = "porkred"; if (!items.some((i) => i.kind === "porkred")) items.unshift({ kind: "porkred", n: 6 }); items.push({ kind: "halfegg", n: 2 }); }
+  if (/\bjok\b|โจ๊ก/.test(N)) items.push({ kind: "yolk", n: 1 }, { kind: "dough", n: 2 });
   if (/mamuang|mango sticky|ข้าวเหนียวมะม่วง/.test(all) && !items.some((i) => i.kind === "mango")) items.push({ kind: "mango", n: 1 });
   if (base === "friedrice" && !items.some((i) => i.kind === "lime")) items.push({ kind: "lime", n: 1 });
   return { vessel, base, items };
@@ -213,6 +233,19 @@ const G: Record<Glyph, { r: number; svg: string }> = {
   eggplant: { r: 8, svg: `<circle r="7.6" fill="#4a2350" stroke="#2c1230" stroke-width="1"/><circle r="5.8" fill="#e7d6a8"/><circle r="5.8" fill="#c08a3e" opacity=".35"/><g fill="#8a6a3a">${[0, 60, 120, 180, 240, 300].map((a) => `<circle cx="${f1(3 * Math.cos((a * Math.PI) / 180))}" cy="${f1(3 * Math.sin((a * Math.PI) / 180))}" r=".6"/>`).join("")}</g>` },
   parsley: { r: 3, svg: `<path d="M-3 0c0-2 2-3 3-2 1-1 3 0 3 2-1 1-1 2-3 2s-3-1-3-2z" fill="#3f7d34" stroke="#2c5a24" stroke-width=".4"/>` },
   onion: { r: 4.5, svg: `<path d="M-4 1c1-3 4-4 6-3 2 1 2 3 0 4-1 1-3 0-3-1" fill="none" stroke="#7a3f12" stroke-width="1.8" stroke-linecap="round"/><path d="M-4 1c1-3 4-4 6-3" fill="none" stroke="#b56a24" stroke-width=".8" stroke-linecap="round"/>` },
+  ball: { r: 3, svg: `<circle r="2.9" fill="#f4a3c0" stroke="#d47a9b" stroke-width=".4"/><circle cx="-.8" cy="-.8" r=".8" fill="#fff" opacity=".6"/>` },
+  layer: { r: 11, svg: `<rect x="-10" y="-7" width="20" height="14" rx="1.5" fill="#f4f1e4"/>${[0, 1, 2, 3].map((i) => `<rect x="-10" y="${-7 + i * 3.5}" width="20" height="1.8" fill="${i % 2 ? "#ffffff" : "#5fa86a"}"/>`).join("")}<rect x="-10" y="-7" width="20" height="14" rx="1.5" fill="none" stroke="#3f7d4a" stroke-width=".7"/>` },
+  krokcup: { r: 9, svg: `<circle r="8.6" fill="#1f1d1c"/><circle r="6.8" fill="#f6efdc"/><circle r="4.6" fill="#ecd9a6"/><circle cx="1" cy="-1" r="1.1" fill="#6aa25a"/>` },
+  bamboo: { r: 18, svg: `<rect x="-17" y="-4" width="34" height="8" rx="3.5" fill="#7aa64a" stroke="#4e7a2a" stroke-width=".9"/><path d="M-6-4v8M6-4v8" stroke="#4e7a2a" stroke-width="1.2"/><ellipse cx="-17" cy="0" rx="1.6" ry="3.8" fill="#f2ead2" stroke="#4e7a2a" stroke-width=".5"/><rect x="-14" y="-3" width="28" height="2" fill="#2b2420" opacity=".25"/>` },
+  patty: { r: 9, svg: `<ellipse rx="9" ry="6" fill="#e1a744" stroke="#a8711c" stroke-width=".9"/><path d="M-6-4l9 8M-1-5l8 7" stroke="#6b3f12" stroke-width="1.3" opacity=".7"/>` },
+  cracker: { r: 10, svg: `<circle r="9.6" fill="#ecc372" stroke="#c4913a" stroke-width=".9"/><g fill="#f6dc9c">${Array.from({ length: 10 }, (_, i) => `<circle cx="${f1(5.5 * Math.cos(i * 0.63))}" cy="${f1(5.5 * Math.sin(i * 0.63))}" r="1.1"/>`).join("")}</g><circle r="2" fill="#f6dc9c"/>` },
+  crackerpink: { r: 10, svg: `<circle r="9.6" fill="#f3c4cf" stroke="#d08a9b" stroke-width=".9"/><path d="M-7-2l3 3 3-3 3 3 3-3 3 3" fill="none" stroke="#7a3f12" stroke-width="1.5" stroke-linejoin="round"/>` },
+  dipbowl: { r: 20, svg: `<circle r="19" fill="#fbfaf6" stroke="#cfcac0" stroke-width="1.2"/><circle r="15" fill="#e9893b"/><circle cx="-4" cy="-4" r="4" fill="#f2b06a" opacity=".7"/><g fill="#8a4a1f">${[0, 1, 2, 3, 4].map((i) => `<circle cx="${f1(7 * Math.cos(i * 1.3))}" cy="${f1(7 * Math.sin(i * 1.3))}" r="1.2"/>`).join("")}</g>` },
+  parcel: { r: 9, svg: `<path d="M-7-6h14v12h-14z" fill="#4f9a45" stroke="#2c6a29" stroke-width=".9"/><path d="M-7-2h14M-7 2h14" stroke="#e8d9a8" stroke-width="1.4"/><path d="M7 0c5 0 8 3 10 6" stroke="#4f9a45" stroke-width="2.2" fill="none" stroke-linecap="round"/>` },
+  halfegg: { r: 6, svg: `<ellipse rx="6" ry="4.6" fill="#7a4a24" stroke="#4e2b10" stroke-width=".6"/><circle r="2.6" fill="#f2b23a"/>` },
+  yolk: { r: 6, svg: `<circle r="5.8" fill="#f5a623" stroke="#d1830c" stroke-width=".7"/><circle cx="-1.8" cy="-1.8" r="1.6" fill="#fde39a"/>` },
+  porkred: { r: 8, svg: `<path d="M-8-3h16v6h-16z" fill="#b8322a" stroke="#7a1d16" stroke-width=".8" transform="skewX(-12)"/><path d="M-7-1h14" stroke="#e87a6a" stroke-width="1" transform="skewX(-12)"/>` },
+  dough: { r: 13, svg: `<rect x="-12" y="-3" width="24" height="6" rx="3" fill="#d79a46" stroke="#a46a24" stroke-width=".8"/><path d="M-8-3v6M-2-3v6M4-3v6" stroke="#b97a32" stroke-width=".8"/>` },
   chili: { r: 6, svg: `<path d="M-6 1c3-4 8-5 12-3-3 0-6 2-8 4-1 1-3 1-4-1z" fill="#d42a1e" stroke="#9c1a12" stroke-width=".6"/><path d="M6-2l2-2" stroke="#3f7d34" stroke-width="1.4" stroke-linecap="round"/>` },
   basil: { r: 5, svg: `<path d="M-5 0C-3-4 3-4 5 0 3 4-3 4-5 0z" fill="#2f6a2a" stroke="#1e4a1b" stroke-width=".5"/><path d="M-4 0h8" stroke="#6aa25a" stroke-width=".6"/>` },
   lime: { r: 7, svg: `<path d="M-7 2a7 7 0 0 1 14 0z" fill="#7cb342" stroke="#4e7d1f" stroke-width="1"/><path d="M-5 2a5 5 0 0 1 10 0z" fill="#d7ec9a"/><path d="M0 2v-4.6M0 2l-3.4-3.2M0 2l3.4-3.2" stroke="#b5d46a" stroke-width=".7"/>` },
@@ -245,6 +278,12 @@ const PAL: Record<Base, Pal> = {
   yellow: { bg: "#e9c159", grainA: "#f7dc8e", grainB: "#d7a33a", edge: "#a9781f", gloss: 0.15, tile: 9, grains: 4 },
   maqluba: { bg: "#c98a45", grainA: "#e8b874", grainB: "#a8682a", edge: "#7c4516", gloss: 0.2, tile: 9, grains: 4 },
   mujaddara: { bg: "#b89a72", grainA: "#e2cfac", grainB: "#5c4630", edge: "#6f5435", gloss: 0.12, tile: 8, grains: 5 },
+  redrice: { bg: "#d0503a", grainA: "#ec8a6a", grainB: "#a83a28", edge: "#7a2618", gloss: 0.15, tile: 8, grains: 5 },
+  kapi: { bg: "#9a7046", grainA: "#c49a6a", grainB: "#6e4c2c", edge: "#4e3218", gloss: 0.15, tile: 8, grains: 5 },
+  kanchin: { bg: "#7a2a3a", grainA: "#a84a5c", grainB: "#5a1a28", edge: "#3e0f1a", gloss: 0.2, tile: 8, grains: 5 },
+  coconut: { bg: "#fbf6ea", grainA: "#ffffff", grainB: "#f1e8d2", edge: "#e2d6b8", gloss: 0.45, tile: 14, grains: 2 },
+  caramel: { bg: "#b57a2a", grainA: "#d9a656", grainB: "#8a5518", edge: "#5e370c", gloss: 0.35, tile: 8, grains: 5 },
+  plain: { bg: "#f4efe2", grainA: "#f4efe2", grainB: "#f4efe2", edge: "#e2d9c2", gloss: 0.1, tile: 10, grains: 0 },
   jasmine: { bg: "#f6f1e6", grainA: "#ffffff", grainB: "#e7e0d0", edge: "#d3c9b2", gloss: 0.25, tile: 8, grains: 5 },
   sticky: { bg: "#f2ecdc", grainA: "#fffdf6", grainB: "#ddd4bd", edge: "#c8bb98", gloss: 0.4, tile: 7, grains: 6 },
   friedrice: { bg: "#d9a65a", grainA: "#ecc584", grainB: "#b57a32", edge: "#8a5520", gloss: 0.15, tile: 8, grains: 5 },
@@ -269,7 +308,7 @@ export function panSVG(spec: PanSpec, slug: string, opts: { label?: string; stea
       : "#c99a3e";
   }
   const C = 100;
-  const R = { olla: 66, caldero: 72, tray: 74, tanjara: 70, kratip: 64, plate: 62, bowl: 64, claypot: 66, banana: 64 }[spec.vessel as string] ?? 80; // food radius
+  const R = { olla: 66, caldero: 72, tray: 74, tanjara: 70, kratip: 64, plate: 62, bowl: 64, claypot: 66, banana: 64, wok: 70, krok: 72 }[spec.vessel as string] ?? 80; // food radius
 
   // grain tile
   const grains = Array.from({ length: pal.grains }, (_, i) => {
@@ -295,6 +334,15 @@ export function panSVG(spec: PanSpec, slug: string, opts: { label?: string; stea
       + `<circle cx="${C}" cy="${C}" r="${R + 11}" fill="url(#iron${uid})"/><circle cx="${C}" cy="${C}" r="${R + 3}" fill="#121110"/>`
       + [-1, 1].map((s) => `<circle cx="${C + s * (R + 10)}" cy="${C}" r="4" fill="#2a2725"/>`).join("");
     rimTop = `<circle cx="${C}" cy="${C}" r="${R + 8}" fill="none" stroke="#5a5550" stroke-width="1" opacity=".7"/>`;
+  } else if (spec.vessel === "wok") {
+    // giant brass kratha with two loop handles (khao mathu payat)
+    back = [-1, 1].map((s) => `<path d="M${C + s * (R + 12)} ${C - 12}q${s * 18} 12 0 24" fill="none" stroke="#8a6418" stroke-width="5" stroke-linecap="round"/>`).join("")
+      + `<circle cx="${C}" cy="${C}" r="${R + 16}" fill="url(#brass${uid})"/><circle cx="${C}" cy="${C}" r="${R + 6}" fill="#6e4f12"/>`;
+    rimTop = `<circle cx="${C}" cy="${C}" r="${R + 13}" fill="none" stroke="#f3d48a" stroke-width="1" opacity=".6"/>`;
+  } else if (spec.vessel === "krok") {
+    // cast-iron khanom krok pan (cups are drawn as glyphs)
+    back = `<circle cx="${C}" cy="${C}" r="${R + 16}" fill="#2a2725"/><circle cx="${C}" cy="${C}" r="${R + 4}" fill="#3a3633"/>`;
+    rimTop = `<circle cx="${C}" cy="${C}" r="${R + 12}" fill="none" stroke="#5a5550" stroke-width="1" opacity=".7"/>`;
   } else if (spec.vessel === "kratip") {
     // woven bamboo sticky-rice basket, seen from above: woven rim + lid-band
     back = `<circle cx="${C}" cy="${C}" r="${R + 22}" fill="#c9a46a"/>`
