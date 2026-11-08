@@ -19,7 +19,7 @@ const jsonLd = graph(organization(),
   breadcrumbs([[tr(lang, "home"), pageUrl(lang, "index.html")], ...(area ? [[area.name, abs(`${langBase(lang)}${area.id}`)] as [string, string]] : []), [r.name, url]]));
 ---
 <Layout lang={lang} path={`provinces/${r.slug}.html`} title={r.name} seoTitle={regionTitle(lang, r.name)} active="provinces" description={regionDescription(lang, r.name, r.recipes, r.page?.summary)}
-        theme={area?.theme} crumbs={crumbs} jsonLd={jsonLd} ogImage={area ? { url: `/og/${lang}/_area-${area.id}.jpg`, width: 1200, height: 675, alt: r.name } : undefined}>
+        theme={area?.theme} section={area?.id} crumbs={crumbs} jsonLd={jsonLd} ogImage={area ? { url: `/og/${lang}/_area-${area.id}.jpg`, width: 1200, height: 675, alt: r.name } : undefined}>
   {r.page ? (
     <Article p={r.page} m={m} kicker={tr(lang, "kickerRegion")} title={r.name}>
       {r.recipes.length > 0 && <div slot="head" class="mini-pans" aria-hidden="true" set:html={r.recipes.slice(0, 5).map((d) => `<img class="pan" src="/pans/${d.slug}.svg" width="228" height="228" alt="" loading="lazy" decoding="async">`).join("")} />}

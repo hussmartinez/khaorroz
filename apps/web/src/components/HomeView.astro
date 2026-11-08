@@ -3,7 +3,7 @@
 // limited to that area and the page wears the area's theme (set on <body> by the layout).
 import Grid from "./Grid.astro";
 import Ad from "./Ad.astro";
-import { langBase, tr, nDishes, shortTex, panHtml, vtName, type SiteModel, type AreaView, type Page } from "../lib/site";
+import { langBase, tr, nDishes, panHtml, vtName, facetsFor, facetOf, type SiteModel, type AreaView, type Page } from "../lib/site";
 
 interface Props { m: SiteModel; area?: AreaView }
 const { m, area } = Astro.props;
@@ -12,23 +12,31 @@ const base = langBase(lang);
 const scoped = area ? m.areas.find((a) => a.id === area.id)! : undefined;
 const recipes: Page[] = scoped ? scoped.recipes : m.recipes;
 const regions = (scoped ? scoped.regionList : m.regions).filter((r) => r.recipes.length);
-const counts = { seco: 0, meloso: 0, caldoso: 0 } as Record<string, number>;
-for (const r of recipes) if (r.texture in counts) counts[r.texture]++;
+// Classification of this tradition (Spain: seco/meloso/caldoso; others: their own categories, or none)
+const facets = facetsFor(m, area?.id ?? "spain").map((f) => ({ ...f, n: recipes.filter((r) => facetOf(m, r)?.id === f.id).length })).filter((f) => f.n > 0);
+const isTexture = (area?.facet ?? "texture") === "texture";
 const PREFERRED: Record<string, string> = { spain: "paella-valenciana", sham: "maqluba" };
 const heroDish = recipes.find((r) => r.slug === PREFERRED[area?.id ?? "spain"]) ?? recipes.find((r) => r.slug === "paella-valenciana") ?? recipes[0];
-const sample = (tex: string) => recipes.find((r) => r.texture === tex && r.spec && !["negro", "costra", "horno"].includes(r.spec.base));
+const sample = (fid: string) => recipes.find((r) => facetOf(m, r)?.id === fid && r.spec && !["negro", "costra", "horno"].includes(r.spec.base))
+  ?? recipes.find((r) => facetOf(m, r)?.id === fid);
 const title = area ? area.copy.heroTitle : tr(lang, "heroTitle");
 const lede = area ? area.copy.heroLede : tr(lang, "heroLede");
 const lines = title.split("<br>");
-const textures = [["seco", "secoDesc"], ["meloso", "melosoDesc"], ["caldoso", "caldosoDesc"]] as const;
 // Home: one grid per area that has dishes, so each tradition keeps its own heading and theme.
 const groups = area ? [] : m.areas.filter((a) => a.recipes.length);
 const showAreaFilter = !area && groups.length > 1;
+const theme = area?.theme ?? "spain";
+const WATERMARK: Record<string, string> = { spain: "Arròs", sham: "الشام", thai: "ข้าว" };
+// Spain: a few other paellas drift around the hero
+const floaters = recipes.filter((r) => r !== heroDish && r.spec && ["seco", "negro", "banda"].includes(r.spec.base)).slice(0, 4);
 ---
 <main class={`home${area ? ` area-home area-${area.id}` : ""}`}>
   <section class="hero">
     <div class="hero-bg" aria-hidden="true"><span></span><span></span><span></span></div>
-    {area?.theme === "sham" && <div class="hero-ornament" aria-hidden="true"></div>}
+    <div class="hero-ornament" aria-hidden="true"></div>
+    <div class="hero-watermark" aria-hidden="true">{WATERMARK[theme] ?? ""}</div>
+    {theme === "sham" && <div class="hero-rosette" aria-hidden="true"></div>}
+    {theme === "spain" && floaters.map((d, i) => <img class={`float-pan fp-${i}`} src={`/pans/${d.slug}.svg`} alt="" width="228" height="228" loading="lazy" aria-hidden="true" />)}
     <div class="hero-inner">
       <div class="hero-text">
         <p class="kicker hero-kicker">{area ? area.name : tr(lang, "heroKicker")}</p>
@@ -36,16 +44,17 @@ const showAreaFilter = !area && groups.length > 1;
           {lines.map((line) => <span class="line">{line.split(/\s+/).filter(Boolean).map((w, i) => <><span class="word" style={`--w:${i}`}>{w}</span>{" "}</>)}</span>)}
         </h1>
         <p class="lede hero-lede">{lede}</p>
-        <a class="btn btn-primary hero-cta" href="#recipes">{tr(lang, "exploreDishes")} <span aria-hidden="true">↓</span></a>
+        {recipes.length > 0 && <a class="btn btn-primary hero-cta" href="#recipes">{tr(lang, "exploreDishes")} <span aria-hidden="true">↓</span></a>}
       </div>
-      <div class="hero-visual">
+      <div class={`hero-visual hv-${theme}`}>
         {heroDish && <div class="hero-pan-wrap" style={`view-transition-name:${vtName("pan", heroDish.slug)}`} set:html={panHtml(heroDish, { cls: "hero-pan", label: true })} />}
-        <div class="hero-stat"><strong>{recipes.length}</strong><span>{tr(lang, "navRecipes")}</span></div>
-        <div class="hero-stat hero-stat-2"><strong>{(scoped ? scoped.regionList : m.regions).length}</strong><span>{tr(lang, "navRegions")}</span></div>
+        {recipes.length > 0 && <div class="hero-stat"><strong>{recipes.length}</strong><span>{tr(lang, "navRecipes")}</span></div>}
+        {recipes.length > 0 && <div class="hero-stat hero-stat-2"><strong>{(scoped ? scoped.regionList : m.regions).length}</strong><span>{tr(lang, "navRegions")}</span></div>}
       </div>
     </div>
   </section>
 
+  <div class="theme-band" aria-hidden="true"></div>
   {recipes.length > 0 && (
     <div class="marquee" aria-hidden="true">
       <div class="marquee-track">
@@ -73,18 +82,18 @@ const showAreaFilter = !area && groups.length > 1;
     </section>
   )}
 
-  {recipes.length > 0 && (
+  {facets.length > 0 && (
     <section class="wrap textures-sec">
-      <p class="kicker" data-reveal>{tr(lang, "texturesKicker")}</p>
-      <h2 class="section-title big" data-reveal>{tr(lang, "texturesTitle")}</h2>
+      <p class="kicker" data-reveal>{tr(lang, isTexture ? "texturesKicker" : "categoriesKicker")}</p>
+      <h2 class="section-title big" data-reveal>{tr(lang, isTexture ? "texturesTitle" : "categoriesTitle")}</h2>
       <div class="textures">
-        {textures.map(([tex, desc], i) => {
-          const s = sample(tex);
+        {facets.map((f, i) => {
+          const s = sample(f.id);
           return (
-            <a class={`tex-tile tex-${tex}`} href="#recipes" data-set-texture={tex} data-reveal style={`--i:${i}`}>
+            <a class={`tex-tile tex-${f.cls}`} href="#recipes" data-set-texture={f.id} data-reveal style={`--i:${i}`}>
               <div class="tex-pan" set:html={s ? panHtml(s, { steam: true }) : ""} />
-              <div><strong>{shortTex(lang, tex)}</strong><span>{tr(lang, desc)}</span></div>
-              <em>{counts[tex]}</em>
+              <div><strong>{f.short}</strong><span>{f.desc}</span></div>
+              <em>{f.n}</em>
             </a>
           );
         })}
@@ -105,10 +114,12 @@ const showAreaFilter = !area && groups.length > 1;
               {groups.map((a) => <button type="button" data-filter-area={a.id}>{a.name}</button>)}
             </div>
           )}
-          <div class="filters seg" role="group" aria-label={tr(lang, "texture")}>
-            <button type="button" data-filter-texture="" aria-pressed="true">{tr(lang, "all")}</button>
-            {(["seco", "meloso", "caldoso"] as const).map((tex) => <button type="button" data-filter-texture={tex}><i class={`dot dot-${tex}`}></i>{shortTex(lang, tex)}</button>)}
-          </div>
+          {facets.length > 0 && (
+            <div class="filters seg" role="group" aria-label={tr(lang, isTexture ? "texture" : "category")}>
+              <button type="button" data-filter-texture="" aria-pressed="true">{tr(lang, "all")}</button>
+              {facets.map((f) => <button type="button" data-filter-texture={f.id}><i class={`dot dot-${f.cls}`}></i>{f.short}</button>)}
+            </div>
+          )}
           <div class="filters regions-filter" role="group" aria-label={tr(lang, "region")}>
             <button type="button" data-filter-province="" aria-pressed="true">{tr(lang, "allRegions")}</button>
             {regions.map((r) => <button type="button" data-filter-province={r.file} data-area={r.area}>{r.name}</button>)}
@@ -121,10 +132,12 @@ const showAreaFilter = !area && groups.length > 1;
                 {groups.map((a) => <option value={a.id}>{a.name}</option>)}
               </select>
             )}
-            <select data-select="texture" aria-label={tr(lang, "texture")}>
-              <option value="">{tr(lang, "texture")}: {tr(lang, "all")}</option>
-              {(["seco", "meloso", "caldoso"] as const).map((tex) => <option value={tex}>{shortTex(lang, tex)}</option>)}
-            </select>
+            {facets.length > 0 && (
+              <select data-select="texture" aria-label={tr(lang, isTexture ? "texture" : "category")}>
+                <option value="">{tr(lang, isTexture ? "texture" : "category")}: {tr(lang, "all")}</option>
+                {facets.map((f) => <option value={f.id}>{f.short}</option>)}
+              </select>
+            )}
             <select data-select="province" aria-label={tr(lang, "region")}>
               <option value="">{tr(lang, "allRegions")}</option>
               {regions.map((r) => <option value={r.file} data-area={r.area}>{r.name}</option>)}

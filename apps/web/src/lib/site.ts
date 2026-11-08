@@ -142,3 +142,22 @@ export function renderPage(page: Page, m: SiteModel, opts: { appendToSection?: R
   }).join("\n");
   return { html, headings };
 }
+
+// ---------- classification facet (per tradition) ----------
+// Spain classifies rice by texture (seco/meloso/caldoso); other areas use their own categories
+// (glosses.json areas.<id>.categories) — or show no classification until those exist.
+export interface Facet { id: string; label: string; short: string; desc: string; cls: string }
+const TEX_DESC = { seco: "secoDesc", meloso: "melosoDesc", caldoso: "caldosoDesc" } as const;
+export function facetsFor(m: SiteModel, areaId?: string): Facet[] {
+  const a = m.areas.find((x) => x.id === areaId);
+  if (!a) return [];
+  if (a.facet === "texture")
+    return (["seco", "meloso", "caldoso"] as const).map((t) => ({ id: t, label: texLabel(m.lang, t), short: shortTex(m.lang, t), desc: tr(m.lang, TEX_DESC[t]), cls: t }));
+  return a.categories.map((c, i) => ({ id: c.id, label: c.name, short: c.name, desc: c.description, cls: `cat-${i % 6}` }));
+}
+export function facetOf(m: SiteModel, p: Page): Facet | undefined {
+  const areaId = m.areaOfRecipe(p);
+  const a = m.areas.find((x) => x.id === areaId);
+  const id = !a || a.facet === "texture" ? p.texture : p.category;
+  return id ? facetsFor(m, a?.id ?? "spain").find((f) => f.id === id) : undefined;
+}

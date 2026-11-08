@@ -1,0 +1,65 @@
+---
+// Home: a portal into the rice traditions (sections). No mixed recipe list — each section is its own
+// world (/spain, /sham, /thai …) with its own theme.
+import { Image } from "astro:assets";
+import { langBase, tr, nDishes, panHtml, type SiteModel, type Page } from "../lib/site";
+import { dishPhoto } from "../lib/photos";
+interface Props { m: SiteModel }
+const { m } = Astro.props;
+const lang = m.lang;
+const base = langBase(lang);
+const lines = tr(lang, "heroTitle").split("<br>");
+const FEATURED: Record<string, string[]> = {
+  spain: ["paella-valenciana", "arroz-negro", "arroz-a-banda"],
+  sham: ["maqluba", "mansaf", "mujaddara"],
+};
+const pick = (id: string, list: Page[]) => {
+  const want = (FEATURED[id] ?? []).map((s) => list.find((r) => r.slug === s)).filter((x): x is Page => !!x);
+  const withPhoto = list.filter((r) => dishPhoto(r.file, lang, r.title) && !want.includes(r));
+  return [...want, ...withPhoto, ...list].filter((x, i, a) => a.indexOf(x) === i).slice(0, 3);
+};
+const hero = m.recipes.find((r) => r.slug === "paella-valenciana") ?? m.recipes[0];
+---
+<main class="portal">
+  <section class="portal-hero">
+    <div class="hero-bg" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="portal-hero-inner wrap">
+      <p class="kicker hero-kicker">{tr(lang, "heroKicker")}</p>
+      <h1 class="hero-title">
+        {lines.map((line) => <span class="line">{line.split(/\s+/).filter(Boolean).map((w, i) => <><span class="word" style={`--w:${i}`}>{w}</span>{" "}</>)}</span>)}
+      </h1>
+      <p class="lede hero-lede">{tr(lang, "heroLede")}</p>
+      <p class="lede portal-lede">{tr(lang, "portalLede")}</p>
+    </div>
+    {hero && <div class="portal-pan" aria-hidden="true" set:html={panHtml(hero, { cls: "hero-pan" })} />}
+  </section>
+
+  <section class="doors wrap" aria-label={tr(lang, "areasKicker")}>
+    {m.areas.map((a, i) => {
+      const dishes = pick(a.id, a.recipes);
+      return (
+        <a class={`door door-${a.theme}${a.recipes.length ? "" : " door-soon"}`} href={`${base}${a.id}`} data-theme={a.theme} data-reveal style={`--i:${i}`}>
+          <div class="door-art" aria-hidden="true">
+            <span class="door-pattern"></span>
+            <span class="door-watermark">{a.theme === "sham" ? "الشام" : a.theme === "thai" ? "ข้าว" : "Arròs"}</span>
+            <div class="door-dishes">
+              {dishes.map((d, j) => {
+                const ph = dishPhoto(d.file, lang, d.title);
+                return ph
+                  ? <Image src={ph.meta} alt="" widths={[320, 640].filter((w) => w <= ph.meta.width)} sizes="320px" class={`door-dish door-dish-${j}`} loading="eager" />
+                  : <img src={`/pans/${d.slug}.svg`} alt="" width="228" height="228" class={`door-dish door-pan door-dish-${j}`} loading="eager" />;
+              })}
+              {dishes.length === 0 && <span class="door-emblem"></span>}
+            </div>
+          </div>
+          <div class="door-text">
+            <p class="kicker">{a.recipes.length ? `${nDishes(lang, a.recipes.length)} · ${a.regionList.length} ${tr(lang, "navRegions").toLowerCase()}` : tr(lang, "areaSoon")}</p>
+            <h2>{a.name}</h2>
+            <p class="door-title" set:html={a.copy.heroTitle.replace(/<br>/g, " ")} />
+            <span class="btn btn-primary door-cta">{tr(lang, "enter")} <span class="arrow" aria-hidden="true">→</span></span>
+          </div>
+        </a>
+      );
+    })}
+  </section>
+</main>

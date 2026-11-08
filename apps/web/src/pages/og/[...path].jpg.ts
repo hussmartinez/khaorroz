@@ -2,7 +2,7 @@
 // /og/<lang>/_area-<id>.jpg and /og/sq/<slug>.jpg (1:1 illustration for Recipe JSON-LD).
 import type { APIRoute } from "astro";
 import sharp from "sharp";
-import { LANGS, site, tr, texLabel, type Lang } from "../../lib/site";
+import { LANGS, site, tr, facetOf, type Lang } from "../../lib/site";
 import { plainTitle } from "../../lib/seo";
 import { recipeCard, squareCard, collageCard, type Theme } from "../../lib/og";
 
@@ -30,7 +30,7 @@ export const GET: APIRoute = async ({ props }) => {
     if (kind === "sq") png = squareCard(p, theme(a?.theme));
     else {
       const region = p.provinces[0] ? m.regionName(p.provinces[0].file, p.provinces[0].name) : "";
-      png = recipeCard(p, lang, theme(a?.theme), a?.name ?? tr(lang, "kickerRecipe"), [region, texLabel(lang, p.texture)].filter(Boolean).join(" · "));
+      png = recipeCard(p, lang, theme(a?.theme), a?.name ?? tr(lang, "kickerRecipe"), [region, facetOf(m, p)?.label].filter(Boolean).join(" · "));
     }
   } else if (kind === "area") {
     const a = m.areas.find((x) => x.id === area)!;

@@ -1,21 +1,32 @@
 ---
 import Chip from "./Chip.astro";
-import { langBase, vtName, vesselLabel, type SiteModel, type Page } from "../lib/site";
+import { Image } from "astro:assets";
+import { dishPhoto } from "../lib/photos";
+import { facetOf, langBase, vtName, vesselLabel, type SiteModel, type Page } from "../lib/site";
 interface Props { p: Page; m: SiteModel; i?: number }
 const { p, m, i = 0 } = Astro.props;
 const provs = p.provinces.map((x) => m.regionName(x.file, x.name)).join(" · ");
 const area = m.areaOfRecipe(p);
+const ph = dishPhoto(p.file, m.lang, p.title);
 const theme = m.areas.find((a) => a.id === area)?.theme ?? "spain";
 const search = `${p.title} ${p.gloss} ${p.altTitle} ${p.zone} ${p.summary}`.toLowerCase();
 ---
 <a class={`card base-${p.spec?.base ?? "none"}`} href={`${langBase(m.lang)}${p.url}`}
    style={`--i:${i % 12};view-transition-name:${vtName("card", p.slug)}`} data-reveal data-slug={p.slug}
-   data-area={area} data-theme={theme} data-texture={p.texture} data-provinces={p.provinces.map((x) => x.file).join(" ")} data-search={search}>
-  <div class="card-visual" style={`view-transition-name:${vtName("pan", p.slug)}`}>
-    {p.spec && <img class="pan" src={`/pans/${p.slug}.svg`} width="228" height="228" alt="" loading={i < 6 ? "eager" : "lazy"} decoding="async" />}
-  </div>
+   data-area={area} data-theme={theme} data-texture={facetOf(m, p)?.id ?? ""} data-provinces={p.provinces.map((x) => x.file).join(" ")} data-search={search}>
+  {ph ? (
+    <div class="card-visual card-photo">
+      <Image src={ph.meta} alt={ph.alt} widths={[360, 720].filter((w) => w <= ph.meta.width)} sizes="(max-width: 700px) 92vw, 380px"
+             loading={i < 3 ? "eager" : "lazy"} decoding="async" class="photo" style={`view-transition-name:${vtName("photo", p.slug)}`} />
+      {p.spec && <img class="pan pan-badge" src={`/pans/${p.slug}.svg`} width="228" height="228" alt="" loading="lazy" decoding="async" style={`view-transition-name:${vtName("pan", p.slug)}`} />}
+    </div>
+  ) : (
+    <div class="card-visual" style={`view-transition-name:${vtName("pan", p.slug)}`}>
+      {p.spec && <img class="pan" src={`/pans/${p.slug}.svg`} width="228" height="228" alt="" loading={i < 6 ? "eager" : "lazy"} decoding="async" />}
+    </div>
+  )}
   <div class="card-body">
-    <div class="card-meta"><Chip lang={m.lang} texture={p.texture} />{p.spec && <span class="vessel">{vesselLabel(m.lang, p.spec.vessel)}</span>}</div>
+    <div class="card-meta"><Chip m={m} p={p} />{p.spec && <span class="vessel">{vesselLabel(m.lang, p.spec.vessel)}</span>}</div>
     <h3 dir="auto">{p.title}</h3>
     {p.gloss && <p dir="auto" class="gloss">{p.gloss}</p>}
     {p.altTitle && <p dir="auto" class="alt">{p.altTitle}</p>}

@@ -12,10 +12,10 @@ export const GET: APIRoute = () => {
   L.push("# Khaorroz", "");
   L.push("> Khaorroz is a multilingual atlas of traditional rice dishes — their history, town-by-town variations and detailed, sourced recipes — covering Spain (13 regions) and Bilad al-Sham / the Levant (Palestine, Lebanon, Jordan, Syria). Every recipe cites its sources.", "");
   L.push(`Languages: ${LANGS.map((l) => `${UI[l].langName} (${SITE}${langBase(l)})`).join(", ")}. The same path exists in every language, e.g. /recipes/paella-valenciana and /es/recipes/paella-valenciana.`, "");
-  L.push("Each recipe page has: a texture class (seco = dry, meloso = creamy, caldoso = brothy), the traditional vessel, a history section, town-by-town variations, a 4-person master recipe (ingredient tables + step-by-step method) and reference links. Append `.md` to any recipe URL for clean Markdown.", "");
+  L.push("Spanish recipes carry the Valencian texture class (seco = dry, meloso = creamy, caldoso = brothy); other traditions use their own dish categories. Each recipe page has: the traditional vessel, a history section, town-by-town variations, a 4-person master recipe (ingredient tables + step-by-step method) and reference links. Append `.md` to any recipe URL for clean Markdown.", "");
   L.push("When citing, please link the recipe page and mention Khaorroz; the original sources are listed in each page's \"Authority Reference Links\" section.", "");
   L.push("## Site", "");
-  L.push(`- [History of rice](${pageUrl("en", "history.html")}): how rice spread and became local dishes`);
+  for (const a of m.areas) L.push(`- [History of rice in ${a.name}](${pageUrl("en", `${a.id}/history.html`)}): how rice arrived and became local dishes`);
   L.push(`- [Regions](${pageUrl("en", "provinces.html")}): all regions, grouped by area`);
   L.push(`- [About](${pageUrl("en", "about.html")}): methodology, glossary and sources policy`);
   L.push(`- [Full corpus](${SITE}/llms-full.txt): every English recipe as Markdown in one file`, "");
@@ -26,7 +26,7 @@ export const GET: APIRoute = () => {
       for (const p of r.recipes) {
         const url = pageUrl("en", p.url);
         const n = recipeData(p).sources.length;
-        L.push(`- [${p.title}${p.altTitle ? ` / ${p.altTitle}` : ""}](${md(url)}): ${p.gloss ?? p.summary}${p.texture ? ` (${p.texture})` : ""}${n ? ` — ${n} source${n > 1 ? "s" : ""}` : ""}`);
+        L.push(`- [${p.title}${p.altTitle ? ` / ${p.altTitle}` : ""}](${md(url)}): ${p.gloss ?? p.summary}${p.texture && a.facet === "texture" ? ` (${p.texture})` : ""}${n ? ` — ${n} source${n > 1 ? "s" : ""}` : ""}`);
       }
       L.push("");
     }

@@ -6,6 +6,28 @@ import { UI } from "./i18n";
 
 export interface AreaCopy { heroTitle: string; heroLede: string }
 const COPY: Record<string, Partial<Record<Lang, AreaCopy>>> = {
+  thai: {
+    "en": {
+      "heroTitle": "The rice of Thailand,<br>province by province.",
+      "heroLede": "In Thai, khao means both rice and a meal. Jasmine rice from the central plains, sticky rice from Isan and the north, rice soups, fried rice and rice salads: Thailand's rice dishes are being researched now, with their history, regional variations and detailed recipes."
+    },
+    "es": {
+      "heroTitle": "El arroz de Tailandia,<br>provincia a provincia.",
+      "heroLede": "En tailandés, khao significa a la vez arroz y comida. Arroz jazmín de las llanuras centrales, arroz glutinoso de Isan y del norte, sopas, arroces fritos y ensaladas de arroz: los arroces de Tailandia se están investigando ahora, con su historia, sus variantes regionales y recetas detalladas."
+    },
+    "ca": {
+      "heroTitle": "L'arròs de Tailàndia,<br>província a província.",
+      "heroLede": "En tai, khao vol dir alhora arròs i menjar. Arròs jasmí de les planes centrals, arròs glutinós d'Isan i del nord, sopes, arrossos fregits i amanides d'arròs: els arrossos de Tailàndia s'estan investigant ara, amb la seua història, les variants regionals i receptes detallades."
+    },
+    "th": {
+      "heroTitle": "ข้าวแห่งประเทศไทย<br>จังหวัดต่อจังหวัด",
+      "heroLede": "ในภาษาไทย คำว่าข้าวหมายถึงทั้งเมล็ดข้าวและมื้ออาหาร ข้าวหอมมะลิจากที่ราบภาคกลาง ข้าวเหนียวจากอีสานและภาคเหนือ ข้าวต้ม ข้าวผัด และข้าวยำ อาหารข้าวของไทยกำลังอยู่ระหว่างการค้นคว้า พร้อมประวัติ ความต่างของแต่ละภูมิภาค และสูตรละเอียด"
+    },
+    "ar": {
+      "heroTitle": "أرز تايلاند،<br>مقاطعةً مقاطعة.",
+      "heroLede": "في التايلاندية تعني كلمة «خاو» الأرزَ والوجبةَ معًا. أرز الياسمين من السهول الوسطى، والأرز الدبق من إيسان والشمال، وحساء الأرز والأرز المقلي وسلطات الأرز: أطباق الأرز التايلاندية قيد البحث الآن، مع تاريخها واختلافاتها الإقليمية ووصفات مفصّلة."
+    }
+  },
   spain: {
     "en": {
       "heroTitle": "The rice of Spain,<br>town by town.",
@@ -53,16 +75,19 @@ const COPY: Record<string, Partial<Record<Lang, AreaCopy>>> = {
 };
 
 /** Visual theme per area (CSS: [data-theme="…"]). Spain is the original look. */
-const THEME: Record<string, string> = { spain: "spain", sham: "sham" };
+const THEME: Record<string, string> = { spain: "spain", sham: "sham", thai: "thai" };
 
-export interface AreaView { id: string; name: string; theme: string; regions: string[]; copy: AreaCopy }
+export interface AreaView { id: string; name: string; short: string; theme: string; regions: string[]; copy: AreaCopy; facet: "texture" | "category"; categories: { id: string; name: string; description: string }[] }
 export function areaView(id: string, lang: Lang): AreaView | undefined {
   const a = AREAS.find((x) => x.id === id);
   if (!a) return undefined;
   const name = a.name(lang);
   const copy = (a as any).hero?.[lang] ?? COPY[id]?.[lang] ?? COPY[id]?.en
     ?? { heroTitle: name, heroLede: UI[lang].heroLede };
-  return { id, name, theme: (a as any).theme ?? THEME[id] ?? "default", regions: a.regions, copy };
+  // short label for the section switcher: the name without a parenthetical ("Bilad al-Sham (the Levant)" → "Bilad al-Sham")
+  const short = name.replace(/\s*[(（][^)）]*[)）]\s*$/, "");
+  const categories = a.categories.map((c) => ({ id: c.id, name: c.name[lang] ?? c.name.en ?? c.id, description: c.description?.[lang] ?? c.description?.en ?? "" }));
+  return { id, name, short, theme: (a as any).theme ?? THEME[id] ?? "default", regions: a.regions, copy, facet: a.facet, categories };
 }
 export const areaIds = () => AREAS.map((a) => a.id);
 /** Area of a recipe = area of its first region. */

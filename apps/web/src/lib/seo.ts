@@ -42,15 +42,15 @@ export function recipeTitle(p: Page, lang: Lang) {
   return room > 12 ? `${p.title} — ${clamp(g, room)} | ${BRAND}` : `${p.title} | ${word} | ${BRAND}`;
 }
 
-export function recipeDescription(p: Page, lang: Lang, region: string) {
+export function recipeDescription(p: Page, lang: Lang, region: string, facet?: string) {
   const g = noDot(p.gloss ?? "");
-  const tex = TEXTURE[lang][p.texture] ?? "";
+  const f = facet ? ` (${facet})` : "";
   const tpl: Record<Lang, string> = {
-    en: `Traditional ${p.title} recipe${g ? `: ${g}` : ""}. A ${tex} rice from ${region}, with town-by-town variations, history and sources.`,
-    es: `Receta tradicional de ${p.title}${g ? `: ${g}` : ""}. Arroz ${tex} de ${region}, con variantes pueblo a pueblo, historia y fuentes.`,
-    ca: `Recepta tradicional de ${p.title}${g ? `: ${g}` : ""}. Arròs ${tex} de ${region}, amb variants poble a poble, història i fonts.`,
-    th: `สูตร${p.title}แบบดั้งเดิม${g ? `: ${g}` : ""} ข้าว${tex}จาก${region} พร้อมความต่างของแต่ละท้องถิ่น ประวัติ และแหล่งอ้างอิง`,
-    ar: `وصفة ${p.title} التقليدية${g ? `: ${g}` : ""}. أرز ${tex} من ${region}، مع اختلافات كل بلدة وتاريخه ومصادره.`,
+    en: `Traditional ${p.title} recipe${g ? `: ${g}` : ""}. From ${region}${f}, with town-by-town variations, history and sources.`,
+    es: `Receta tradicional de ${p.title}${g ? `: ${g}` : ""}. De ${region}${f}, con variantes pueblo a pueblo, historia y fuentes.`,
+    ca: `Recepta tradicional de ${p.title}${g ? `: ${g}` : ""}. De ${region}${f}, amb variants poble a poble, història i fonts.`,
+    th: `สูตร${p.title}แบบดั้งเดิม${g ? `: ${g}` : ""} จาก${region}${f} พร้อมความต่างของแต่ละท้องถิ่น ประวัติ และแหล่งอ้างอิง`,
+    ar: `وصفة ${p.title} التقليدية${g ? `: ${g}` : ""}. من ${region}${f}، مع اختلافات كل بلدة وتاريخه ومصادره.`,
   };
   return clamp(tpl[lang], 155);
 }
@@ -106,12 +106,12 @@ export function recipeImages(p: Page, lang: Lang, photoUrl?: string) {
   return [photoUrl, abs(`/og/${lang}/${p.slug}.jpg`), abs(`/og/sq/${p.slug}.jpg`)].filter(Boolean) as string[];
 }
 
-export function recipeLD(p: Page, m: SiteModel, opts: { url: string; description: string; photoUrl?: string; cuisine: string[] }): LD {
+export function recipeLD(p: Page, m: SiteModel, opts: { url: string; description: string; photoUrl?: string; cuisine: string[]; facet?: string }): LD {
   const d = recipeData(p);
   const dates = contentDates(p.file);
   const lang = m.lang;
   const regions = p.provinces.map((x) => m.regionName(x.file, x.name));
-  const keywords = [p.title, p.altTitle, p.gloss, TEXTURE[lang][p.texture], ...regions, ...opts.cuisine]
+  const keywords = [p.title, p.altTitle, p.gloss, opts.facet, ...regions, ...opts.cuisine]
     .filter(Boolean).map((k) => noDot(String(k)));
   return {
     "@type": "Recipe",

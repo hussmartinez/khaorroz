@@ -916,6 +916,17 @@
     "provincial_jordan.md",
     "provincial_syria.md"
    ]
+  },
+  "thai": {
+   "name": {
+    "en": "Thailand",
+    "es": "Tailandia",
+    "ca": "Tailàndia",
+    "th": "ประเทศไทย",
+    "ar": "تايلاند"
+   },
+   "theme": "thai",
+   "regions": []
   }
  }
 }

@@ -6,7 +6,7 @@ import Notice from "../../../components/Notice.astro";
 import Related from "../../../components/Related.astro";
 import { Image, getImage } from "astro:assets";
 import type { ImageMetadata } from "astro";
-import { LANGS, langParam, langBase, site, renderPage, panHtml, tr, vtName, vesselLabel, provSlug, HTML_LANG, DEFAULT_LANG, isRtl, esc, type Lang } from "../../../lib/site";
+import { facetOf, LANGS, langParam, langBase, site, renderPage, panHtml, tr, vtName, vesselLabel, provSlug, HTML_LANG, DEFAULT_LANG, isRtl, esc, type Lang } from "../../../lib/site";
 import { recipeTitle, recipeDescription, recipeLD, breadcrumbs, organization, graph, pageUrl, photoFor, recipeData, abs } from "../../../lib/seo";
 import { cuisinesOf } from "../../../lib/areas";
 
@@ -41,11 +41,11 @@ const sourcesId = headings.find((h) => h.num === "5")?.id;
 const nSources = recipeData(p).sources.length;
 
 const url = pageUrl(lang, p.url);
-const description = recipeDescription(p, lang, regionLabel);
+const description = recipeDescription(p, lang, regionLabel, facetOf(m, p)?.short);
 const homeUrl = pageUrl(lang, "index.html");
 const jsonLd = graph(
   organization(),
-  recipeLD(p, m, { url, description, photoUrl: ogPhoto ? abs(ogPhoto.src) : undefined, cuisine: cuisinesOf(p) }),
+  recipeLD(p, m, { facet: facetOf(m, p)?.short, url, description, photoUrl: ogPhoto ? abs(ogPhoto.src) : undefined, cuisine: cuisinesOf(p) }),
   { "@type": "WebPage", "@id": url, url, name: p.title, inLanguage: lang, isPartOf: { "@id": `${abs("/")}#website` } },
   breadcrumbs([[tr(lang, "home"), homeUrl], ...crumbs.map(([n, h]) => [n, abs(h)] as [string, string]), [p.title, url]]),
 );
@@ -54,7 +54,7 @@ const ogImage = ogPhoto && photoMeta
   : { url: `/og/${lang}/${p.slug}.jpg`, width: 1200, height: 675, alt: p.gloss ? `${p.title} — ${p.gloss}` : p.title };
 ---
 <Layout lang={lang} path={p.url} title={p.title} seoTitle={recipeTitle(p, lang)} active="recipes" description={description}
-        bodyClass="is-recipe" theme={area?.theme} crumbs={crumbs} jsonLd={jsonLd} ogImage={ogImage}>
+        bodyClass="is-recipe" theme={area?.theme} section={areaId} crumbs={crumbs} jsonLd={jsonLd} ogImage={ogImage}>
   <main class={`recipe base-${p.spec?.base ?? "none"}${photoMeta ? " has-photo" : ""}`}>
     <header class="recipe-hero">
       <div class="rh-text">
@@ -63,7 +63,7 @@ const ogImage = ogPhoto && photoMeta
         {p.gloss && <p dir="auto" class="gloss" data-pagefind-meta="gloss">{p.gloss}</p>}
         {p.altTitle && <p dir="auto" class="alt-title">{p.altTitle}</p>}
         <div class="tags">
-          <Chip lang={lang} texture={p.texture} />
+          <Chip m={m} p={p} />
           {p.spec && <span class="tag"><span class="tag-k">{tr(lang, "vessel")}</span> {vesselLabel(lang, p.spec.vessel)}</span>}
           {p.provinces.map((x) => <a class="tag" href={`${base}provinces/${provSlug(x.file)}`}><span class="pin" aria-hidden="true"></span>{m.regionName(x.file, x.name)}</a>)}
           {sourcesId && nSources > 0 && <a class="tag tag-sources" href={`#${sourcesId}`}><span aria-hidden="true">§</span> {tr(lang, "sources")} ({nSources})</a>}
@@ -77,7 +77,7 @@ const ogImage = ogPhoto && photoMeta
       </div>
       {photoMeta ? (
         <figure class="rh-visual rh-photo">
-          <Image src={photoMeta} alt={photoAlt} widths={[480, 800, 1200, 1600].filter((w) => w <= photoMeta.width)} sizes="(max-width: 980px) 92vw, 40vw" loading="eager" fetchpriority="high" class="photo" />
+          <Image src={photoMeta} alt={photoAlt} widths={[480, 800, 1200, 1600].filter((w) => w <= photoMeta.width)} sizes="(max-width: 980px) 92vw, 40vw" loading="eager" fetchpriority="high" class="photo" style={`view-transition-name:${vtName("photo", p.slug)}`} />
           <div class="rh-pan-badge" style={`view-transition-name:${vtName("pan", p.slug)}`} set:html={panHtml(p, { steam: false })} />
           <figcaption set:html={creditInner} />
         </figure>

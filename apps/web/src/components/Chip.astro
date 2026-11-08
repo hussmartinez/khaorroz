@@ -1,6 +1,7 @@
 ---
-import { texLabel, type Lang } from "../lib/site";
-const { lang, texture } = Astro.props as { lang: Lang; texture: string };
-const label = texLabel(lang, texture);
+// Classification chip: texture in Spain (seco/meloso/caldoso), the area's own category elsewhere.
+import { facetOf, type SiteModel, type Page } from "../lib/site";
+const { m, p } = Astro.props as { m: SiteModel; p: Page };
+const f = facetOf(m, p);
 ---
-{label && <span class={`chip chip-${texture}`}><i></i>{label}</span>}
+{f && <span class={`chip chip-${f.cls}`}><i></i>{f.label}</span>}

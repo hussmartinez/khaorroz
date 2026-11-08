@@ -39,7 +39,8 @@ export interface Page {
   gloss: string; // plain-language 'what is this dish' in the page's language (content/glosses.json)
   body: string; // Markdown without front matter, H1 and nav line
   zone: string;
-  texture: "" | "seco" | "meloso" | "caldoso";
+  texture: "" | "seco" | "meloso" | "caldoso"; // Spanish classification — only meaningful where the area's facet is "texture"
+  category?: string; // area-specific dish category id (glosses.json areas.<id>.categories)
   provinces: { name: string; file: string }[];
   summary: string;
   status: TStatus;
@@ -68,7 +69,8 @@ export const provName = (n: string) => n.replace(/^Prov[ií]ncia\s+(de\s+|d')?/i
 // description ("rice with rabbit and snails") in their own language, and region names in their language.
 type Labels = Record<string, Partial<Record<Lang, string>>>;
 const GLOSS_FILE = join(CONTENT_DIR, "glosses.json");
-interface AreaDef { name: Partial<Record<Lang, string>>; regions: string[] }
+interface CategoryDef { id: string; name: Partial<Record<Lang, string>>; description?: Partial<Record<Lang, string>>; members?: string[] }
+interface AreaDef { name: Partial<Record<Lang, string>>; regions: string[]; facet?: "texture" | "category"; categories?: CategoryDef[] }
 const LABELS: { recipes: Labels; regions: Labels; areas: Record<string, AreaDef> } = existsSync(GLOSS_FILE)
   ? { recipes: {}, regions: {}, areas: {}, ...JSON.parse(readFileSync(GLOSS_FILE, "utf8")) }
   : { recipes: {}, regions: {}, areas: {} };
@@ -81,6 +83,10 @@ export interface Area {
   name: (lang: Lang) => string;
   regions: string[];
   theme?: string; // optional visual theme id (defaults to the area id)
+  /** How dishes are classified in this tradition: Spain = seco/meloso/caldoso ("texture");
+   *  other areas use their own categories (glosses.json areas.<id>.categories). */
+  facet: "texture" | "category";
+  categories: CategoryDef[];
   hero?: Partial<Record<Lang, { heroTitle: string; heroLede: string }>>; // optional area-page copy override
 }
 export const AREAS: Area[] = Object.entries(LABELS.areas).map(([id, a]) => ({
@@ -89,20 +95,28 @@ export const AREAS: Area[] = Object.entries(LABELS.areas).map(([id, a]) => ({
   regions: a.regions ?? [],
   theme: (a as any).theme,
   hero: (a as any).hero,
+  facet: a.facet ?? (id === "spain" ? "texture" : "category"),
+  categories: a.categories ?? [],
 }));
 /** Area id of a region file (provincial_x.md), or undefined if it is in no area. */
 export const areaOf = (regionFile: string) => AREAS.find((a) => a.regions.includes(regionFile))?.id;
+export const areaById = (id?: string) => AREAS.find((a) => a.id === id);
+/** Category id of a recipe within its area (if the area defines categories). */
+export const categoryOf = (file: string, areaId?: string) => areaById(areaId)?.categories.find((c) => c.members?.includes(file))?.id;
 
 export function kindOf(file: string): Kind | null {
   if (/^recipe_.+\.md$/.test(file)) return "recipe";
   if (/^provincial_.+\.md$/.test(file)) return "province";
-  if (file === "history.md") return "history";
+  if (/^history(_[a-z0-9]+)?\.md$/.test(file)) return "history";
   if (file === "README.md") return "readme";
   return null;
 }
 
-export function urlFor(kind: Kind, slug: string) {
-  return { recipe: `recipes/${slug}`, province: `provinces/${slug}`, history: "history", readme: "about" }[kind];
+/** Area a history essay belongs to: history.md = Spain (the original essay), history_<area>.md otherwise. */
+export const historyArea = (file: string) => file.match(/^history_([a-z0-9]+)\.md$/)?.[1] ?? "spain";
+export function urlFor(kind: Kind, slug: string, file = "") {
+  if (kind === "history") return `${historyArea(file)}/history`;
+  return { recipe: `recipes/${slug}`, province: `provinces/${slug}`, readme: "about" }[kind as "recipe"];
 }
 
 export function splitFrontMatter(src: string): { meta: Record<string, string>; text: string } {
@@ -120,9 +134,6 @@ export function splitFrontMatter(src: string): { meta: Record<string, string>; t
 const ProvinceRef = z.object({ name: z.string().min(1), file: z.string().regex(/^provincial_[\w-]+\.md$/) });
 const RecipeSchema = z.object({
   title: z.string().min(2, "H1 '# Spanish name / Local name' is missing"),
-  texture: z.enum(["seco", "meloso", "caldoso"], {
-    error: "the '**Liquid & Texture Profile:**' bullet must contain exactly one of Seco / Meloso / Caldoso",
-  }),
   provinces: z.array(ProvinceRef).min(1, "the '> ⬅ [README](README.md) · [Region](provincial_x.md)' nav line has no region link"),
   zone: z.string().min(3, "the '**Primary Geographic Zone:**' bullet is missing"),
   body: z.string().refine((b) => /^## 4\./m.test(b), "section '## 4. …' (the master recipe) is missing"),
@@ -175,8 +186,8 @@ export function parse(file: string, src: string, en?: Page): Page | null {
     spec = specFrom({ slug, title, texture, vessel: field("Traditional Cooking Vessel"), recipeText, area: provinces[0] ? areaOf(provinces[0].file) : undefined });
   }
   return {
-    file, kind, slug, url: urlFor(kind, slug), title, altTitle, gloss: "", body,
-    zone: en?.zone ?? zone, texture: en?.texture ?? texture, provinces: en?.provinces ?? provinces,
+    file, kind, slug, url: urlFor(kind, slug, file), title, altTitle, gloss: "", body,
+    zone: en?.zone ?? zone, texture: en?.texture ?? texture, category: en?.category, provinces: en?.provinces ?? provinces,
     summary, status: en ? "ok" : "source", spec,
     minutes: en?.minutes ?? Math.max(1, Math.round(body.split(/\s+/).length / 220)),
   };
@@ -199,6 +210,15 @@ export function loadEnglish(): Page[] {
     if (p.kind === "province" && !regionLabel(f, DEFAULT_LANG)) problems.push(`${f}: no region name in content/glosses.json`);
     const res = (p.kind === "recipe" ? RecipeSchema : OtherSchema).safeParse(p);
     if (!res.success) errors.push(`${f}: ${res.error.issues.map((i) => i.message).join("; ")}`);
+    if (p.kind === "recipe") {
+      // classification is per tradition: seco/meloso/caldoso only where the area uses it (Spain)
+      const area = areaById(p.provinces[0] ? areaOf(p.provinces[0].file) : undefined);
+      if ((area?.facet ?? "texture") === "texture" && !p.texture)
+        errors.push(`${f}: the '**Liquid & Texture Profile:**' bullet must contain exactly one of Seco / Meloso / Caldoso`);
+      p.category = categoryOf(f, area?.id);
+      if (area?.facet === "category" && area.categories.length && !p.category)
+        problems.push(`${f}: in no "${area.id}" category (glosses.json areas.${area.id}.categories[].members)`);
+    }
     pages.push(p);
   }
   // every region linked from a recipe must exist
