@@ -1,0 +1,7 @@
+{
+  "name": "@arros/audit",
+  "private": true,
+  "type": "module",
+  "scripts": { "audit": "bun run audit.ts" },
+  "devDependencies": { "playwright": "^1.56.0", "@axe-core/playwright": "^4.11.0" }
+}
