@@ -765,6 +765,210 @@
     "th": "ข้าวเอ็มเปดราโอสไตล์มูร์เซียในกระทะปาเอยากับมะนาวฝาน",
     "ar": "أرز إمبيدراو المرسي في مقلاة بايلا مع شرائح الليمون"
    }
+  },
+  "recipe_bamyeh_ma_ruz.md": {
+   "file": "images/bamyeh-ma-ruz.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Du bamia avec du riz en février 2022.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Du_bamia_avec_du_riz_en_f%C3%A9vrier_2022.jpg",
+   "author": "Benoît Prieur",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Okra and meat stew served with white rice",
+    "es": "Guiso de okra y carne servido con arroz blanco",
+    "ca": "Guisat d'okra i carn servit amb arròs blanc",
+    "th": "สตูว์กระเจี๊ยบเขียวกับเนื้อ เสิร์ฟกับข้าวสวย",
+    "ar": "يخنة البامية باللحم مع الأرز الأبيض"
+   }
+  },
+  "recipe_daoud_basha.md": {
+   "file": "images/daoud-basha.webp",
+   "width": 1600,
+   "height": 1238,
+   "commonsTitle": "File:Dawood Basha 01.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Dawood_Basha_01.jpg",
+   "author": "Abdulsalam Al Dabbagh",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Daoud basha meatballs in tomato sauce",
+    "es": "Albondigas daoud basha en salsa de tomate",
+    "ca": "Mandonguilles daoud basha amb salsa de tomàquet",
+    "th": "ลูกชิ้นดาอูดบาชาในซอสมะเขือเทศ",
+    "ar": "كرات داود باشا بصلصة البندورة"
+   }
+  },
+  "recipe_fatteh_ghazawiyya.md": {
+   "file": "images/fatteh-ghazawiyya.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:فتة غزاوية.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D9%81%D8%AA%D8%A9_%D8%BA%D8%B2%D8%A7%D9%88%D9%8A%D8%A9.jpg",
+   "author": "Anassjerjawi",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Gaza fatteh: bread and rice soaked in chicken broth, topped with meat and nuts",
+    "es": "Fatteh de Gaza: pan y arroz en caldo de pollo con carne y frutos secos",
+    "ca": "Fatteh de Gaza: pa i arròs amb brou de pollastre, amb carn i fruits secs",
+    "th": "ฟัตเตห์กาซา: ขนมปังและข้าวชุ่มน้ำซุปไก่ โรยเนื้อและถั่ว",
+    "ar": "فتة غزاوية: خبز وأرز بمرق الدجاج مع اللحم والمكسرات"
+   }
+  },
+  "recipe_galayet_bandora_bi_ruz.md": {
+   "file": "images/galayet-bandora-bi-ruz.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:قلاية بندورة.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D9%82%D9%84%D8%A7%D9%8A%D8%A9_%D8%A8%D9%86%D8%AF%D9%88%D8%B1%D8%A9.jpg",
+   "author": "Rania al-Bahara",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Galayet bandora cooking in a pan over a campfire near the Dead Sea",
+    "es": "Galayet bandora cocinandose en una sarten sobre una hoguera junto al mar Muerto",
+    "ca": "Galayet bandora coent-se en una paella sobre una foguera a prop del mar Mort",
+    "th": "กาลายัตบันโดรากำลังผัดในกระทะบนกองไฟใกล้ทะเลเดดซี",
+    "ar": "قلاية بندورة تُطهى على نار الحطب قرب البحر الميت"
+   }
+  },
+  "recipe_kibbeh_labanieh.md": {
+   "file": "images/kibbeh-labanieh.webp",
+   "width": 640,
+   "height": 480,
+   "commonsTitle": "File:كبة لبنية.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D9%83%D8%A8%D8%A9_%D9%84%D8%A8%D9%86%D9%8A%D8%A9.jpg",
+   "author": "Mr.TAMER.Shlash",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Kibbeh dumplings in a white yogurt sauce",
+    "es": "Bolitas de kibbeh en salsa blanca de yogur",
+    "ca": "Boletes de kibbeh en salsa blanca de iogurt",
+    "th": "คิบเบห์ลูกกลมในซอสโยเกิร์ตสีขาว",
+    "ar": "أقراص الكبة في اللبن المطبوخ"
+   }
+  },
+  "recipe_mahshi_lift.md": {
+   "file": "images/mahshi-lift.webp",
+   "width": 1100,
+   "height": 1388,
+   "commonsTitle": "File:محشي لفت.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AD%D8%B4%D9%8A_%D9%84%D9%81%D8%AA.jpg",
+   "author": "M sh شراونة محمد",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Turnips stuffed with meat, rice and sumac in sauce",
+    "es": "Nabos rellenos de carne, arroz y zumaque en salsa",
+    "ca": "Naps farcits de carn, arròs i sumac amb salsa",
+    "th": "หัวผักกาดยัดไส้เนื้อ ข้าว และซูแมค ในซอส",
+    "ar": "محشي لفت باللحمة والرز والسماق والصلصة"
+   }
+  },
+  "recipe_meghli.md": {
+   "file": "images/meghli.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Мигли с добавками.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B8%D0%B3%D0%BB%D0%B8_%D1%81_%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BA%D0%B0%D0%BC%D0%B8.JPG",
+   "author": "حسين علي قرياني",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "A bowl of meghli topped with coconut and nuts",
+    "es": "Un cuenco de meghli con coco y frutos secos",
+    "ca": "Un bol de meghli amb coco i fruits secs",
+    "th": "มัฆลีในชามโรยมะพร้าวและถั่ว",
+    "ar": "صحن مغلي مزيّن بجوز الهند والمكسرات"
+   }
+  },
+  "recipe_muhallabiyeh.md": {
+   "file": "images/muhallabiyeh.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Muhallebi with mastic.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Muhallebi_with_mastic.jpg",
+   "author": "E4024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Muhallebi milk pudding flavoured with mastic",
+    "es": "Muhallebi, crema de leche aromatizada con almaciga",
+    "ca": "Muhallebi, crema de llet aromatitzada amb màstic",
+    "th": "มุฮัลเลบีพุดดิ้งนมกลิ่นมาสติก",
+    "ar": "مهلبية بالمستكة"
+   }
+  },
+  "recipe_mlukhiyeh_ma_ruz.md": {
+   "file": "images/mlukhiyeh-ma-ruz.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Mulukhiyiwithrice.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Mulukhiyiwithrice.JPG",
+   "author": "Deed89 at English Wikipedia",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Lebanese mlukhiyeh with chicken, served with rice",
+    "es": "Mlujiyeh libanesa con pollo, servida con arroz",
+    "ca": "Mlukhiyeh libanesa amb pollastre, servida amb arròs",
+    "th": "มลูคีเยห์แบบเลบานอนกับไก่ เสิร์ฟกับข้าว",
+    "ar": "ملوخية لبنانية بالدجاج تُقدَّم مع الرز"
+   }
+  },
+  "recipe_sheikh_al_mahshi.md": {
+   "file": "images/sheikh-al-mahshi.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Sheikh al mahshi.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Sheikh_al_mahshi.jpg",
+   "author": "El Mono Español",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Sheikh al-mahshi: zucchini stuffed with meat in yogurt, with rice",
+    "es": "Sheikh al-mahshi: calabacines rellenos de carne en yogur, con arroz",
+    "ca": "Sheikh al-mahshi: carbassons farcits de carn amb iogurt, amb arròs",
+    "th": "ชีคอัลมะห์ชี: ซูกินียัดไส้เนื้อในโยเกิร์ต กับข้าว",
+    "ar": "شيخ المحشي: كوسا محشية باللحم في اللبن مع الرز"
+   }
+  },
+  "recipe_yalanji.md": {
+   "file": "images/yalanji.webp",
+   "width": 1000,
+   "height": 988,
+   "commonsTitle": "File:Yalanji dish.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Yalanji_dish.jpg",
+   "author": "Aseel zm",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Yalanji vine-leaf rolls arranged with lime slices and tomato",
+    "es": "Rollitos de yalanji de hoja de parra con rodajas de lima y tomate",
+    "ca": "Rotllets de yalanji de fulla de parra amb rodanxes de llima i tomàquet",
+    "th": "ยาลันจี ใบองุ่นม้วน จัดกับมะนาวฝานและมะเขือเทศ",
+    "ar": "طبق يالنجي مزيّن بشرائح الليمون والبندورة"
+   }
+  },
+  "recipe_riz_bi_shariyyeh.md": {
+   "file": "images/riz-bi-shariyyeh.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Lebanese style rice.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Lebanese_style_rice.jpg",
+   "author": "El Mono Español",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Rice with toasted vermicelli in the pot",
+    "es": "Arroz con fideos tostados en la olla",
+    "ca": "Arròs amb fideus torrats a l'olla",
+    "th": "ข้าวผัดเส้นหมี่คั่วในหม้อ",
+    "ar": "أرز بالشعيرية في القدر"
+   }
   }
  }
 }

@@ -437,7 +437,9 @@
     "recipe_kibbeh_hamda.md",
     "recipe_sabanekh_w_riz.md",
     "recipe_daoud_basha.md",
-    "recipe_mayit_bandora_u_bayd.md"
+    "recipe_mayit_bandora_u_bayd.md",
+    "recipe_khao_kap_pla_haeng_ayutthaya.md",
+    "recipe_khao_hung_chet_nam.md"
    ]
   },
   {
@@ -520,7 +522,8 @@
     "recipe_ruz_w_lahm_al_urs.md",
     "recipe_aruzz_mufalfal_wusla.md",
     "recipe_harisat_al_aruzz.md",
-    "recipe_kharuf_mahshi_halabi.md"
+    "recipe_kharuf_mahshi_halabi.md",
+    "recipe_khao_hung_prung_yang_thet.md"
    ]
   },
   {
@@ -562,7 +565,9 @@
    "members": [
     "recipe_khao_phat.md",
     "recipe_khao_phat_amerikan.md",
-    "recipe_khao_kluk_kapi.md"
+    "recipe_khao_kluk_kapi.md",
+    "recipe_khao_bplee.md",
+    "recipe_khao_phat_chao_wang.md"
    ]
   },
   {
@@ -621,7 +626,11 @@
     "recipe_khao_tang_na_tang.md",
     "recipe_aruzz_khatuni.md",
     "recipe_kharuf_mahshi_halabi.md",
-    "recipe_pilav_ottoman_aleppo.md"
+    "recipe_pilav_ottoman_aleppo.md",
+    "recipe_khao_hung_prung_yang_thet.md",
+    "recipe_khao_nasi_prajit.md",
+    "recipe_khao_phat_chao_wang.md",
+    "recipe_khao_bplee.md"
    ]
   },
   {
@@ -752,7 +761,8 @@
    "members": [
     "recipe_khao_yam.md",
     "recipe_khao_kluk_kapi.md",
-    "recipe_khao_som_tai_yai.md"
+    "recipe_khao_som_tai_yai.md",
+    "recipe_khao_nasi_prajit.md"
    ]
   },
   {

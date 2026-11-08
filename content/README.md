@@ -1,6 +1,6 @@
 # Arrossos d'Espanya: A Field Atlas of Spanish Rice
 
-A granular, multilingual (Castellano / Valencià / Català / English) atlas of Spain's rice traditions. It is rooted in the **Valencian Community** (València, Alacant/Alicante, Castelló/Castellón) and extends to every other rice-cooking region of Spain. **164 recipes** document **town-by-town variations** wherever the sources support them, plus forgotten and endangered village rices. For the long story see [A History of Rice in Spain](history.md).
+A granular, multilingual (Castellano / Valencià / Català / English) atlas of Spain's rice traditions. It is rooted in the **Valencian Community** (València, Alacant/Alicante, Castelló/Castellón) and extends to every other rice-cooking region of Spain. **206 recipes** document **town-by-town variations** wherever the sources support them, plus forgotten and endangered village rices. For the long story see [A History of Rice in Spain](history.md).
 
 ## 1. How to Use This Atlas
 *   **Region pages** describe cultural sub-regions and link to their recipes.
@@ -246,12 +246,23 @@ The same idea is cooked differently from town to town and region to region. Each
 *   **Lent & vigil rices:** Meatless rices of Cuaresma and fast days: legumes, greens and salt cod. [Arroz de los Tres Puñaos](recipe_arroz_de_los_tres_punaos.md), [Arroz con Acelgas](recipe_arroz_con_acelgas.md), [Arroz Empedrado](recipe_arroz_empedrado.md), [Arroz Empedrao (Empedrado) Murciano](recipe_arroz_empedrao_murciano.md), [Arroz con Bacalao y Coliflor](recipe_arroz_con_bacalao_y_coliflor.md), [Arroz de Ayuno de Calasparra](recipe_arroz_de_ayuno_calasparra.md), [Arroz con Bacalao de Vigilia (La Mancha y Extremadura)](recipe_arroz_con_bacalao_de_vigilia.md), [Cardillos con Arroz](recipe_cardillos_con_arroz.md), [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md), [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md), [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md), [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md), [Arroz al Horno con Pasas y Garbanzos](recipe_arros_al_forn_amb_panses_i_cigrons.md), [Paella de Cebolla y Bacalao](recipe_paella_de_ceba_i_bacalla.md), [Potaje Bañezano (Garbanzos con Arroz)](recipe_potaje_banezano.md), [Mujaddara](recipe_mujaddara.md), [Warak Enab](recipe_warak_enab.md), [Yalanji](recipe_yalanji.md), [Mehshi Selek bi-Zeit](recipe_mehshi_selek.md), [Musluʿa Nabulsiyya (Nablus Lentils and Rice)](recipe_musluaa.md)
 *   **Huerta & artichoke rices:** Irrigated-garden vegetables: artichoke, broad beans, chard and peppers lead the dish. [Arroz de Verduras de la Vega Baja](recipe_arroz_de_verduras_vega_baja.md), [Paella de Verduras](recipe_paella_de_verduras.md), [Arroz con Alcachofas de Benicarló](recipe_arroz_con_alcachofas_benicarlo.md), [Arroz con Galeras y Alcachofas](recipe_arroz_con_galeras_y_alcachofas.md), [Arroz con Sepia y Alcachofas](recipe_arroz_con_sepia_y_alcachofas.md), [Arroz con Magra, Costillejas y Verduras](recipe_arroz_con_costillejas_y_verduras_murcia.md), [Arroz de la Plana](recipe_arros_de_la_plana.md), [Arroz con Acelgas](recipe_arroz_con_acelgas.md), [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md), [Arroz de Boquerones y Espinacas](recipe_arroz_de_boquerones_y_espinacas.md), [Arroz con Boquerones y Pava (Coliflor)](recipe_arroz_con_boquerones_y_pava_murciano.md), [Arroz y Pollo con Alcaciles](recipe_arroz_y_pollo_con_alcaciles.md), [Arroz y Verduras con Bacalao](recipe_arroz_y_verduras_con_bacalao_murciano.md), [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md)
 *   **Festive poultry rices:** Turkey, duck and free-range cockerel for holidays. [Arroz con Pava (Pavo)](recipe_arroz_con_pava.md), [Arroz con Pitu de Caleya](recipe_arroz_con_pitu_de_caleya.md), [Arroz con Pato](recipe_arroz_con_pato.md), [Arroz de las Riberas del Turia](recipe_arros_de_les_riberes_del_turia.md), [Riz a Djej](recipe_riz_a_djej.md), [Ruz bi-Djaj ma'a Hashweh](recipe_ruz_bi_djaj_hashweh.md), [Maqluba](recipe_maqluba.md)
-*   **Sweet rices:** Desserts: rice cooked in milk or honey. [Arroz con Leche](recipe_arroz_con_leche.md), [Arroz con Miel de Bogarra](recipe_arroz_con_miel_bogarra.md), [Escudilla de Ángel](recipe_escudella_d_angel.md), [Riz bi Haleeb (Rice Pudding)](recipe_riz_bi_haleeb.md), [Muhallabiyeh](recipe_muhallabiyeh.md), [Meghli](recipe_meghli.md), [Mufattaka](recipe_mufattaka.md), [Aruzz Khatuni (The Lady's Rice)](recipe_aruzz_khatuni.md), [Muhallabiyya of the Caliphs (Rice with Chicken, Milk and Honey)](recipe_muhallabiyya_medieval.md)
-*   **Home-style & country rices:** Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had. [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md), [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md), [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md), [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md), [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md), [Perol Cordobés](recipe_perol_cordobes.md), [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md), [Riz bi Foul (Rice with Fava Beans)](recipe_riz_bi_foul.md), [Riz bi Sh'ariyyeh](recipe_riz_bi_shariyyeh.md), [Ships w Pasta](recipe_ships_w_pasta.md), [Galayet Bandora with Rice](recipe_galayet_bandora_bi_ruz.md), [Mlukhiyeh ma' Ruz](recipe_mlukhiyeh_ma_ruz.md), [Bamyeh ma' Ruz](recipe_bamyeh_ma_ruz.md), [Bazella w Ruz](recipe_bazella_w_ruz.md), [Kibbeh Hamda (Hamud)](recipe_kibbeh_hamda.md), [Sabanekh w Riz](recipe_sabanekh_w_riz.md), [Daoud Basha](recipe_daoud_basha.md), [Mayit Bandora u Bayd](recipe_mayit_bandora_u_bayd.md)
+*   **Sweet rices:** Desserts: rice cooked in milk or honey. [Arroz con Leche](recipe_arroz_con_leche.md), [Arroz con Miel de Bogarra](recipe_arroz_con_miel_bogarra.md), [Escudilla de Ángel](recipe_escudella_d_angel.md), [Riz bi Haleeb (Rice Pudding)](recipe_riz_bi_haleeb.md), [Muhallabiyeh](recipe_muhallabiyeh.md), [Meghli](recipe_meghli.md), [Mufattaka](recipe_mufattaka.md), [Aruzz Khatuni (The Lady's Rice)](recipe_aruzz_khatuni.md), [Muhallabiyya of the Caliphs (Rice with Chicken, Milk and Honey)](recipe_muhallabiyya_medieval.md), [Khao Niao Mamuang](recipe_khao_niao_mamuang.md), [Khao Tom Mat](recipe_khao_tom_mat.md), [Khao Niao Sangkhaya](recipe_khao_niao_sangkhaya.md), [Khao Mak](recipe_khao_mak.md), [Bua Loy](recipe_bua_loy.md), [Khanom Krok](recipe_khanom_krok.md), [Khanom Chan](recipe_khanom_chan.md), [Khao Mathu Payat](recipe_khao_mathu_payat.md), [Khao Lam](recipe_khao_lam.md)
+*   **Home-style & country rices:** Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had. [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md), [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md), [Arroz a la Sevillana](recipe_arroz_a_la_sevillana.md), [Arroz Campero Andaluz](recipe_arroz_campero_andaluz.md), [Arroz Cortijero de Jaén](recipe_arroz_cortijero_jaen.md), [Perol Cordobés](recipe_perol_cordobes.md), [Arroz a la Asturiana](recipe_arroz_a_la_asturiana.md), [Riz bi Foul (Rice with Fava Beans)](recipe_riz_bi_foul.md), [Riz bi Sh'ariyyeh](recipe_riz_bi_shariyyeh.md), [Ships w Pasta](recipe_ships_w_pasta.md), [Galayet Bandora with Rice](recipe_galayet_bandora_bi_ruz.md), [Mlukhiyeh ma' Ruz](recipe_mlukhiyeh_ma_ruz.md), [Bamyeh ma' Ruz](recipe_bamyeh_ma_ruz.md), [Bazella w Ruz](recipe_bazella_w_ruz.md), [Kibbeh Hamda (Hamud)](recipe_kibbeh_hamda.md), [Sabanekh w Riz](recipe_sabanekh_w_riz.md), [Daoud Basha](recipe_daoud_basha.md), [Mayit Bandora u Bayd](recipe_mayit_bandora_u_bayd.md), [Khao kap Pla Haeng (Ayutthaya Rice and Dry Fish)](recipe_khao_kap_pla_haeng_ayutthaya.md), [Khao Hung Chet Nam (Old Siamese Drained Rice)](recipe_khao_hung_chet_nam.md)
 *   **Rice & legumes:** Rice cooked with lentils, beans or fava: the poor-and-sustaining pot from Orihuela to Beirut. [Mujaddara](recipe_mujaddara.md), [Arroz de los Tres Puñaos](recipe_arroz_de_los_tres_punaos.md), [Arroz y Habichuelas](recipe_arroz_y_habichuelas_murciano.md), [Potaje Bañezano (Garbanzos con Arroz)](recipe_potaje_banezano.md), [Arroz con Habas Peladas](recipe_arros_amb_fava_pela.md), [Riz bi Foul (Rice with Fava Beans)](recipe_riz_bi_foul.md), [Arroz, Col y Alubias](recipe_arros_col_i_fesols.md), [Arroz con Alubias y Nabos](recipe_arroz_con_fesols_i_naps.md), [Musluʿa Nabulsiyya (Nablus Lentils and Rice)](recipe_musluaa.md), [Shurba (Medieval Rice Soup with Lamb and Chickpeas)](recipe_shurba_al_baghdadi.md), [Medieval Mujaddara (Rice, Lentils and Meat)](recipe_mujaddara_medieval.md)
 *   **Stuffed vegetables & leaves:** Rice used as a filling: vine leaves, zucchini and eggplant simmered in broth. [Mahshi Kousa wa Batinjan](recipe_mahshi.md), [Mahshi Halabi (Aleppo Stuffed Vegetables)](recipe_mahshi_halabi.md), [Warak Enab](recipe_warak_enab.md), [Yalanji](recipe_yalanji.md), [Sheikh al-Mahshi](recipe_sheikh_al_mahshi.md), [Mehshi Basal](recipe_mehshi_basal.md), [Yebra](recipe_yebra.md), [Malfouf Mehshi](recipe_malfouf_mehshi.md), [Mehshi Selek bi-Zeit](recipe_mehshi_selek.md), [Ghammeh](recipe_ghammeh.md), [Fawaregh](recipe_fawaregh.md), [Mahshi Lift (Stuffed Turnips)](recipe_mahshi_lift.md), [Lakhneh (Nablus Stuffed Leaves)](recipe_lakhneh.md), [Kousa bi-Laban (Hebron Zucchini in Yogurt)](recipe_kousa_bi_laban.md)
-*   **Lamb feast rices:** Celebration platters of lamb over rice: yogurt sauces, sealed pots, pit ovens and pastry domes. [Mansaf](recipe_mansaf.md), [Zarb](recipe_zarb.md), [Qidreh](recipe_qidreh.md), [Shakriyeh with Vermicelli Rice](recipe_shakriyeh.md), [Ouzi](recipe_ouzi.md), [Sheikh al-Mahshi](recipe_sheikh_al_mahshi.md), [Kibbeh Labanieh](recipe_kibbeh_labanieh.md), [Fate de Velorio (Chilean-Palestinian Funeral Rice)](recipe_fate_chilena.md), [Fatteh Ghazawiyya](recipe_fatteh_ghazawiyya.md), [Ruz w Lahm al-ʿUrs (Village Wedding Rice and Meat)](recipe_ruz_w_lahm_al_urs.md), [Aruzz Mufalfal of the Wusla (Medieval Syrian Pilaf)](recipe_aruzz_mufalfal_wusla.md), [Harisat al-Aruzz (Abbasid Rice Harisa)](recipe_harisat_al_aruzz.md), [Kharuf Mahshi of Ottoman Aleppo (Whole Lamb Stuffed with Rice)](recipe_kharuf_mahshi_halabi.md)
+*   **Lamb feast rices:** Celebration platters of lamb over rice: yogurt sauces, sealed pots, pit ovens and pastry domes. [Mansaf](recipe_mansaf.md), [Zarb](recipe_zarb.md), [Qidreh](recipe_qidreh.md), [Shakriyeh with Vermicelli Rice](recipe_shakriyeh.md), [Ouzi](recipe_ouzi.md), [Sheikh al-Mahshi](recipe_sheikh_al_mahshi.md), [Kibbeh Labanieh](recipe_kibbeh_labanieh.md), [Fate de Velorio (Chilean-Palestinian Funeral Rice)](recipe_fate_chilena.md), [Fatteh Ghazawiyya](recipe_fatteh_ghazawiyya.md), [Ruz w Lahm al-ʿUrs (Village Wedding Rice and Meat)](recipe_ruz_w_lahm_al_urs.md), [Aruzz Mufalfal of the Wusla (Medieval Syrian Pilaf)](recipe_aruzz_mufalfal_wusla.md), [Harisat al-Aruzz (Abbasid Rice Harisa)](recipe_harisat_al_aruzz.md), [Kharuf Mahshi of Ottoman Aleppo (Whole Lamb Stuffed with Rice)](recipe_kharuf_mahshi_halabi.md), [Khao Hung Prung Yang Thet (Rama II's Persian-Style Spiced Rice)](recipe_khao_hung_prung_yang_thet.md)
 *   **Rice with noodles:** Rice and toasted vermicelli or noodles cooked together, and the noodle 'paellas'. [Riz bi Sh'ariyyeh](recipe_riz_bi_shariyyeh.md), [Shakriyeh with Vermicelli Rice](recipe_shakriyeh.md), [Fasoulia w Riz](recipe_fasoulia_w_riz.md), [Fideuá](recipe_fideua.md), [Arroz Rossejat](recipe_arrossejat.md), [Bamyeh ma' Ruz](recipe_bamyeh_ma_ruz.md), [Bazella w Ruz](recipe_bazella_w_ruz.md), [Arroz Árabe (Chilean-Palestinian Rice with Noodles)](recipe_arroz_arabe_chileno.md), [Ottoman Pilav (the Last Course of the Aleppine Table)](recipe_pilav_ottoman_aleppo.md)
+*   **Fried rices:** Cooked rice tossed in a hot wok or pan. [Khao Phat](recipe_khao_phat.md), [Khao Phat Amerikan](recipe_khao_phat_amerikan.md), [Khao Kluk Kapi](recipe_khao_kluk_kapi.md), [Khao Plee (Fried Rice Baked in a Banana Blossom)](recipe_khao_bplee.md), [Khao Phat Chao Wang (Palace Fried Rice of the Cremation Cookbooks)](recipe_khao_phat_chao_wang.md)
+*   **Rice soups & porridges:** Rice in broth, from Thai khao tom and jok to medieval shurba and Aleppine kibbeh hamda. [Khao Tom](recipe_khao_tom.md), [Jok](recipe_jok.md), [Shurba (Medieval Rice Soup with Lamb and Chickpeas)](recipe_shurba_al_baghdadi.md), [Kibbeh Hamda (Hamud)](recipe_kibbeh_hamda.md)
+*   **Chicken rices:** Rice built around chicken: Hainanese-Thai khao man kai, Thai-Muslim khao mok, Levantine riz a djej. [Khao Man Kai](recipe_khao_man_kai.md), [Khao Mok Kai](recipe_khao_mok_kai.md), [Riz a Djej](recipe_riz_a_djej.md), [Ruz bi-Djaj ma'a Hashweh](recipe_ruz_bi_djaj_hashweh.md), [Muhallabiyya of the Caliphs (Rice with Chicken, Milk and Honey)](recipe_muhallabiyya_medieval.md)
+*   **Court & royal rices:** Refined palace rices: Siamese khao chae and khao tang, Ayyubid aruzz khatuni, Ottoman Aleppo's stuffed lamb. [Khao Chae](recipe_khao_chae.md), [Khao Tang Na Tang](recipe_khao_tang_na_tang.md), [Aruzz Khatuni (The Lady's Rice)](recipe_aruzz_khatuni.md), [Kharuf Mahshi of Ottoman Aleppo (Whole Lamb Stuffed with Rice)](recipe_kharuf_mahshi_halabi.md), [Ottoman Pilav (the Last Course of the Aleppine Table)](recipe_pilav_ottoman_aleppo.md), [Khao Hung Prung Yang Thet (Rama II's Persian-Style Spiced Rice)](recipe_khao_hung_prung_yang_thet.md), [Khao Nasi Prajit (Khao Pradap, Siamese-Javanese Seasoned Rice)](recipe_khao_nasi_prajit.md), [Khao Phat Chao Wang (Palace Fried Rice of the Cremation Cookbooks)](recipe_khao_phat_chao_wang.md), [Khao Plee (Fried Rice Baked in a Banana Blossom)](recipe_khao_bplee.md)
+*   **Rice-and-topping plates:** One plate of rice with something ladled or laid over it. [Khao Kha Mu](recipe_khao_kha_mu.md), [Khao Mu Daeng](recipe_khao_mu_daeng.md), [Khao Rad Kaeng](recipe_khao_rad_kaeng.md), [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md), [Galayet Bandora with Rice](recipe_galayet_bandora_bi_ruz.md), [Nasi Dagae](recipe_nasi_dagae.md)
+*   **Sticky rices:** Glutinous rice: steamed in the huad, roasted in bamboo, grilled, pounded and sweetened. [Khao Niao Nueng](recipe_khao_niao_nueng.md), [Khao Jee](recipe_khao_jee.md), [Khao Puk Nga](recipe_khao_puk_nga.md), [Khao Lam](recipe_khao_lam.md), [Khao Niao Mamuang](recipe_khao_niao_mamuang.md), [Khao Tom Mat](recipe_khao_tom_mat.md), [Khao Niao Sangkhaya](recipe_khao_niao_sangkhaya.md), [Khao Pradap Din](recipe_khao_pradap_din.md), [Khao Tom Luk Yon](recipe_khao_tom_luk_yon.md)
+*   **Leaf & bamboo-wrapped rices:** Rice cooked or carried in leaves and bamboo: Thai parcels and tubes, Levantine stuffed leaves. [Khao Lam](recipe_khao_lam.md), [Khao Kan Chin](recipe_khao_kan_chin.md), [Khao Tom Mat](recipe_khao_tom_mat.md), [Khao Tom Luk Yon](recipe_khao_tom_luk_yon.md), [Khao Pradap Din](recipe_khao_pradap_din.md), [Warak Enab](recipe_warak_enab.md), [Yalanji](recipe_yalanji.md)
+*   **Ritual & festival rices:** Rices made for gods, ancestors, monks, births and weddings. [Khao Tom Luk Yon](recipe_khao_tom_luk_yon.md), [Khanom La](recipe_khanom_la.md), [Khao Mathu Payat](recipe_khao_mathu_payat.md), [Khao Pradap Din](recipe_khao_pradap_din.md), [Khao Jee](recipe_khao_jee.md), [Meghli](recipe_meghli.md), [Mufattaka](recipe_mufattaka.md), [Ruz w Lahm al-ʿUrs (Village Wedding Rice and Meat)](recipe_ruz_w_lahm_al_urs.md)
+*   **Rice crackers & rice-flour sweets:** Rice turned into crisp sheets, lace, pancakes and layered sweets. [Khao Pong (Sun-Dried Sticky-Rice Crackers)](recipe_khao_pong.md), [Khao Taen (Lampang Rice Crackers)](recipe_khao_taen.md), [Khao Phan Phak (Laplae Steamed Rice Sheets with Vegetables)](recipe_khao_phan_phak.md), [Khao Tang Na Tang](recipe_khao_tang_na_tang.md), [Khanom Krok](recipe_khanom_krok.md), [Khanom Chan](recipe_khanom_chan.md), [Khanom La](recipe_khanom_la.md), [Bua Loy](recipe_bua_loy.md)
+*   **Tossed & salad rices:** Cooked rice tossed with pastes, herbs, fish sauce or tomato. [Khao Yam](recipe_khao_yam.md), [Khao Kluk Kapi](recipe_khao_kluk_kapi.md), [Khao Som (Tai Yai Tomato Rice)](recipe_khao_som_tai_yai.md), [Khao Nasi Prajit (Khao Pradap, Siamese-Javanese Seasoned Rice)](recipe_khao_nasi_prajit.md)
+*   **Rice as ingredient:** Rice toasted, pounded or ground to season, thicken or bind other dishes. [Khao Kua (Toasted Rice Powder)](recipe_khao_kua.md), [Khao Buea (Pounded Rice for Curries)](recipe_khao_buea.md), [Kibbeh Hamda (Hamud)](recipe_kibbeh_hamda.md), [Kibbeh Labanieh](recipe_kibbeh_labanieh.md)
 
 ## 5. Quick Matrix (all recipes)
 Texture totals: **Seco 50** · **Meloso 30** · **Caldoso 28**.
@@ -364,7 +375,7 @@ Texture totals: **Seco 50** · **Meloso 30** · **Caldoso 28**.
 | [Arroz del Pedrón de Parayo](recipe_arroz_del_pedron_de_parayo.md) | Northern Spain | Seco | River & freshwater rices | ⚠️ |
 | [Chipirones en su Tinta con Arroz Blanco](recipe_chipirones_en_su_tinta_con_arroz.md) | Northern Spain | Seco | Cephalopod & ink rices | ⚠️ |
 | [Lamprea a la Bordelesa con Arroz](recipe_lamprea_a_la_bordelesa_con_arroz.md) | Northern Spain | Seco | River & freshwater rices | ⚠️ |
-| [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md) | Canary Islands | Seco | Home-style & country rices | ⚠️ |
+| [Arroz a la Cubana (Canarias)](recipe_arroz_a_la_cubana_canario.md) | Canary Islands | Seco | Home-style & country rices; Rice-and-topping plates | ⚠️ |
 | [Arroz Amarillo Canario](recipe_arroz_amarillo_canario.md) | Canary Islands | Seco | Home-style & country rices | ⚠️ |
 | [Arroz Árabe (Chilean-Palestinian Rice with Noodles)](recipe_arroz_arabe_chileno.md) | Palestine | ? | Rice with noodles | ⚠️ |
 | [Fate de Velorio (Chilean-Palestinian Funeral Rice)](recipe_fate_chilena.md) | Palestine | ? | Lamb feast rices | ⚠️ |
@@ -379,49 +390,91 @@ Texture totals: **Seco 50** · **Meloso 30** · **Caldoso 28**.
 | [Musluʿa Nabulsiyya (Nablus Lentils and Rice)](recipe_musluaa.md) | Palestine | ? | Lent & vigil rices; Rice & legumes | ⚠️ |
 | [Qidreh](recipe_qidreh.md) | Palestine | ? | Baked & crust rices; Lamb feast rices |  |
 | [Rabiʿiyya (Spring Fava-Bean Maqluba)](recipe_rabiya.md) | Palestine | ? | Baked & crust rices | ⚠️ |
-| [Ruz bi-Djaj ma'a Hashweh](recipe_ruz_bi_djaj_hashweh.md) | Palestine | ? | Festive poultry rices | ⚠️ |
-| [Ruz w Lahm al-ʿUrs (Village Wedding Rice and Meat)](recipe_ruz_w_lahm_al_urs.md) | Palestine | ? | Lamb feast rices | ⚠️ |
+| [Ruz bi-Djaj ma'a Hashweh](recipe_ruz_bi_djaj_hashweh.md) | Palestine | ? | Festive poultry rices; Chicken rices | ⚠️ |
+| [Ruz w Lahm al-ʿUrs (Village Wedding Rice and Meat)](recipe_ruz_w_lahm_al_urs.md) | Palestine | ? | Lamb feast rices; Ritual & festival rices | ⚠️ |
 | [Daoud Basha](recipe_daoud_basha.md) | Lebanon | ? | Home-style & country rices | ⚠️ |
 | [Fasoulia w Riz](recipe_fasoulia_w_riz.md) | Lebanon | ? | Winter pot & matanza rices; Rice with noodles | ⚠️ |
 | [Fawaregh](recipe_fawaregh.md) | Lebanon | ? | Winter pot & matanza rices; Stuffed vegetables & leaves | ⚠️ |
 | [Ghammeh](recipe_ghammeh.md) | Lebanon | ? | Winter pot & matanza rices; Stuffed vegetables & leaves | ⚠️ |
-| [Kibbeh Labanieh](recipe_kibbeh_labanieh.md) | Lebanon | ? | Lamb feast rices |  |
+| [Kibbeh Labanieh](recipe_kibbeh_labanieh.md) | Lebanon | ? | Lamb feast rices; Rice as ingredient |  |
 | [Malfouf Mehshi](recipe_malfouf_mehshi.md) | Lebanon | ? | Stuffed vegetables & leaves |  |
-| [Meghli](recipe_meghli.md) | Lebanon | ? | Sweet rices |  |
+| [Meghli](recipe_meghli.md) | Lebanon | ? | Sweet rices; Ritual & festival rices |  |
 | [Mehshi Selek bi-Zeit](recipe_mehshi_selek.md) | Lebanon | ? | Lent & vigil rices; Stuffed vegetables & leaves |  |
-| [Mufattaka](recipe_mufattaka.md) | Lebanon | ? | Sweet rices | ⚠️ |
+| [Mufattaka](recipe_mufattaka.md) | Lebanon | ? | Sweet rices; Ritual & festival rices | ⚠️ |
 | [Mujaddara](recipe_mujaddara.md) | Lebanon | ? | Lent & vigil rices; Rice & legumes |  |
-| [Riz a Djej](recipe_riz_a_djej.md) | Lebanon | ? | Festive poultry rices | ⚠️ |
+| [Riz a Djej](recipe_riz_a_djej.md) | Lebanon | ? | Festive poultry rices; Chicken rices | ⚠️ |
 | [Riz bi Sh'ariyyeh](recipe_riz_bi_shariyyeh.md) | Lebanon | ? | Home-style & country rices; Rice with noodles |  |
 | [Sabanekh w Riz](recipe_sabanekh_w_riz.md) | Lebanon | ? | Home-style & country rices |  |
 | [Sayadieh](recipe_sayadieh.md) | Lebanon | ? | Fishermen's broth rices | ⚠️ |
-| [Warak Enab](recipe_warak_enab.md) | Lebanon | ? | Lent & vigil rices; Stuffed vegetables & leaves | ⚠️ |
-| [Galayet Bandora with Rice](recipe_galayet_bandora_bi_ruz.md) | Jordan | ? | Home-style & country rices | ⚠️ |
+| [Warak Enab](recipe_warak_enab.md) | Lebanon | ? | Lent & vigil rices; Stuffed vegetables & leaves; Leaf & bamboo-wrapped rices | ⚠️ |
+| [Galayet Bandora with Rice](recipe_galayet_bandora_bi_ruz.md) | Jordan | ? | Home-style & country rices; Rice-and-topping plates | ⚠️ |
 | [Mansaf](recipe_mansaf.md) | Jordan | ? | Lamb feast rices | ⚠️ |
 | [Ships w Pasta](recipe_ships_w_pasta.md) | Jordan | ? | Home-style & country rices | ⚠️ |
 | [Zarb](recipe_zarb.md) | Jordan | ? | Lamb feast rices | ⚠️ |
-| [Aruzz Khatuni (The Lady's Rice)](recipe_aruzz_khatuni.md) | Syria | ? | Sweet rices | ⚠️ |
+| [Aruzz Khatuni (The Lady's Rice)](recipe_aruzz_khatuni.md) | Syria | ? | Sweet rices; Court & royal rices | ⚠️ |
 | [Aruzz Mufalfal of the Wusla (Medieval Syrian Pilaf)](recipe_aruzz_mufalfal_wusla.md) | Syria | ? | Lamb feast rices | ⚠️ |
 | [Bamyeh ma' Ruz](recipe_bamyeh_ma_ruz.md) | Syria | ? | Home-style & country rices; Rice with noodles | ⚠️ |
 | [Bazella w Ruz](recipe_bazella_w_ruz.md) | Syria | ? | Home-style & country rices; Rice with noodles | ⚠️ |
 | [Harisat al-Aruzz (Abbasid Rice Harisa)](recipe_harisat_al_aruzz.md) | Syria | ? | Lamb feast rices | ⚠️ |
-| [Kharuf Mahshi of Ottoman Aleppo (Whole Lamb Stuffed with Rice)](recipe_kharuf_mahshi_halabi.md) | Syria | ? | Lamb feast rices | ⚠️ |
-| [Kibbeh Hamda (Hamud)](recipe_kibbeh_hamda.md) | Syria | ? | Home-style & country rices | ⚠️ |
+| [Kharuf Mahshi of Ottoman Aleppo (Whole Lamb Stuffed with Rice)](recipe_kharuf_mahshi_halabi.md) | Syria | ? | Lamb feast rices; Court & royal rices | ⚠️ |
+| [Kibbeh Hamda (Hamud)](recipe_kibbeh_hamda.md) | Syria | ? | Home-style & country rices; Rice soups & porridges; Rice as ingredient | ⚠️ |
 | [Mahshi Halabi (Aleppo Stuffed Vegetables)](recipe_mahshi_halabi.md) | Syria | ? | Stuffed vegetables & leaves | ⚠️ |
 | [Medieval Mujaddara (Rice, Lentils and Meat)](recipe_mujaddara_medieval.md) | Syria | ? | Rice & legumes | ⚠️ |
 | [Mehshi Basal](recipe_mehshi_basal.md) | Syria | ? | Stuffed vegetables & leaves | ⚠️ |
 | [Mlukhiyeh ma' Ruz](recipe_mlukhiyeh_ma_ruz.md) | Syria | ? | Home-style & country rices | ⚠️ |
 | [Muhallabiyeh](recipe_muhallabiyeh.md) | Syria | ? | Sweet rices | ⚠️ |
-| [Muhallabiyya of the Caliphs (Rice with Chicken, Milk and Honey)](recipe_muhallabiyya_medieval.md) | Syria | ? | Sweet rices | ⚠️ |
-| [Ottoman Pilav (the Last Course of the Aleppine Table)](recipe_pilav_ottoman_aleppo.md) | Syria | ? | Rice with noodles | ⚠️ |
+| [Muhallabiyya of the Caliphs (Rice with Chicken, Milk and Honey)](recipe_muhallabiyya_medieval.md) | Syria | ? | Sweet rices; Chicken rices | ⚠️ |
+| [Ottoman Pilav (the Last Course of the Aleppine Table)](recipe_pilav_ottoman_aleppo.md) | Syria | ? | Rice with noodles; Court & royal rices | ⚠️ |
 | [Ouzi](recipe_ouzi.md) | Syria | ? | Baked & crust rices; Lamb feast rices | ⚠️ |
 | [Riz bi Foul (Rice with Fava Beans)](recipe_riz_bi_foul.md) | Syria | ? | Home-style & country rices; Rice & legumes | ⚠️ |
 | [Riz bi Haleeb (Rice Pudding)](recipe_riz_bi_haleeb.md) | Syria | ? | Sweet rices |  |
 | [Shakriyeh with Vermicelli Rice](recipe_shakriyeh.md) | Syria | ? | Lamb feast rices; Rice with noodles |  |
 | [Sheikh al-Mahshi](recipe_sheikh_al_mahshi.md) | Syria | ? | Stuffed vegetables & leaves; Lamb feast rices | ⚠️ |
-| [Shurba (Medieval Rice Soup with Lamb and Chickpeas)](recipe_shurba_al_baghdadi.md) | Syria | ? | Rice & legumes | ⚠️ |
-| [Yalanji](recipe_yalanji.md) | Syria | ? | Lent & vigil rices; Stuffed vegetables & leaves | ⚠️ |
+| [Shurba (Medieval Rice Soup with Lamb and Chickpeas)](recipe_shurba_al_baghdadi.md) | Syria | ? | Rice & legumes; Rice soups & porridges | ⚠️ |
+| [Yalanji](recipe_yalanji.md) | Syria | ? | Lent & vigil rices; Stuffed vegetables & leaves; Leaf & bamboo-wrapped rices | ⚠️ |
 | [Yebra](recipe_yebra.md) | Syria | ? | Stuffed vegetables & leaves | ⚠️ |
+| [Bua Loy](recipe_bua_loy.md) | — | ? | Sweet rices; Rice crackers & rice-flour sweets | ⚠️ |
+| [Jok](recipe_jok.md) | — | ? | Rice soups & porridges |  |
+| [Khanom Chan](recipe_khanom_chan.md) | — | ? | Sweet rices; Rice crackers & rice-flour sweets | ⚠️ |
+| [Khanom Krok](recipe_khanom_krok.md) | — | ? | Sweet rices; Rice crackers & rice-flour sweets |  |
+| [Khanom La](recipe_khanom_la.md) | — | ? | Ritual & festival rices; Rice crackers & rice-flour sweets | ⚠️ |
+| [Khao Buea (Pounded Rice for Curries)](recipe_khao_buea.md) | — | ? | Rice as ingredient |  |
+| [Khao Chae](recipe_khao_chae.md) | — | ? | Court & royal rices | ⚠️ |
+| [Khao Hung Chet Nam (Old Siamese Drained Rice)](recipe_khao_hung_chet_nam.md) | — | ? | Home-style & country rices | ⚠️ |
+| [Khao Hung Prung Yang Thet (Rama II's Persian-Style Spiced Rice)](recipe_khao_hung_prung_yang_thet.md) | — | ? | Lamb feast rices; Court & royal rices | ⚠️ |
+| [Khao Jee](recipe_khao_jee.md) | — | ? | Sticky rices; Ritual & festival rices |  |
+| [Khao Kan Chin](recipe_khao_kan_chin.md) | — | ? | Leaf & bamboo-wrapped rices |  |
+| [Khao kap Pla Haeng (Ayutthaya Rice and Dry Fish)](recipe_khao_kap_pla_haeng_ayutthaya.md) | — | ? | Home-style & country rices | ⚠️ |
+| [Khao Kha Mu](recipe_khao_kha_mu.md) | — | ? | Rice-and-topping plates |  |
+| [Khao Kluk Kapi](recipe_khao_kluk_kapi.md) | — | ? | Fried rices; Tossed & salad rices | ⚠️ |
+| [Khao Kua (Toasted Rice Powder)](recipe_khao_kua.md) | — | ? | Rice as ingredient |  |
+| [Khao Lam](recipe_khao_lam.md) | — | ? | Sweet rices; Sticky rices; Leaf & bamboo-wrapped rices |  |
+| [Khao Mak](recipe_khao_mak.md) | — | ? | Sweet rices | ⚠️ |
+| [Khao Man Kai](recipe_khao_man_kai.md) | — | ? | Chicken rices |  |
+| [Khao Mathu Payat](recipe_khao_mathu_payat.md) | — | ? | Sweet rices; Ritual & festival rices | ⚠️ |
+| [Khao Mok Kai](recipe_khao_mok_kai.md) | — | ? | Chicken rices | ⚠️ |
+| [Khao Mu Daeng](recipe_khao_mu_daeng.md) | — | ? | Rice-and-topping plates | ⚠️ |
+| [Khao Nasi Prajit (Khao Pradap, Siamese-Javanese Seasoned Rice)](recipe_khao_nasi_prajit.md) | — | ? | Court & royal rices; Tossed & salad rices | ⚠️ |
+| [Khao Niao Mamuang](recipe_khao_niao_mamuang.md) | — | ? | Sweet rices; Sticky rices |  |
+| [Khao Niao Nueng](recipe_khao_niao_nueng.md) | — | ? | Sticky rices |  |
+| [Khao Niao Sangkhaya](recipe_khao_niao_sangkhaya.md) | — | ? | Sweet rices; Sticky rices | ⚠️ |
+| [Khao Phan Phak (Laplae Steamed Rice Sheets with Vegetables)](recipe_khao_phan_phak.md) | — | ? | Rice crackers & rice-flour sweets | ⚠️ |
+| [Khao Phat](recipe_khao_phat.md) | — | ? | Fried rices |  |
+| [Khao Phat Amerikan](recipe_khao_phat_amerikan.md) | — | ? | Fried rices | ⚠️ |
+| [Khao Phat Chao Wang (Palace Fried Rice of the Cremation Cookbooks)](recipe_khao_phat_chao_wang.md) | — | ? | Fried rices; Court & royal rices | ⚠️ |
+| [Khao Plee (Fried Rice Baked in a Banana Blossom)](recipe_khao_bplee.md) | — | ? | Fried rices; Court & royal rices | ⚠️ |
+| [Khao Pong (Sun-Dried Sticky-Rice Crackers)](recipe_khao_pong.md) | — | ? | Rice crackers & rice-flour sweets | ⚠️ |
+| [Khao Pradap Din](recipe_khao_pradap_din.md) | — | ? | Sticky rices; Leaf & bamboo-wrapped rices; Ritual & festival rices | ⚠️ |
+| [Khao Puk Nga](recipe_khao_puk_nga.md) | — | ? | Sticky rices |  |
+| [Khao Rad Kaeng](recipe_khao_rad_kaeng.md) | — | ? | Rice-and-topping plates |  |
+| [Khao Som (Tai Yai Tomato Rice)](recipe_khao_som_tai_yai.md) | — | ? | Tossed & salad rices | ⚠️ |
+| [Khao Taen (Lampang Rice Crackers)](recipe_khao_taen.md) | — | ? | Rice crackers & rice-flour sweets | ⚠️ |
+| [Khao Tang Na Tang](recipe_khao_tang_na_tang.md) | — | ? | Court & royal rices; Rice crackers & rice-flour sweets | ⚠️ |
+| [Khao Tom](recipe_khao_tom.md) | — | ? | Rice soups & porridges |  |
+| [Khao Tom Luk Yon](recipe_khao_tom_luk_yon.md) | — | ? | Sticky rices; Leaf & bamboo-wrapped rices; Ritual & festival rices |  |
+| [Khao Tom Mat](recipe_khao_tom_mat.md) | — | ? | Sweet rices; Sticky rices; Leaf & bamboo-wrapped rices |  |
+| [Khao Yam](recipe_khao_yam.md) | — | ? | Tossed & salad rices |  |
+| [Nasi Dagae](recipe_nasi_dagae.md) | — | ? | Rice-and-topping plates | ⚠️ |
 
 ## 6. Detailed Comparison Matrix: Valencian Community Core
 | Dish | Province | Category | Texture | Vessel | Fuel (traditional) | Base / Fondo | Rice : Liquid* | Signature element |

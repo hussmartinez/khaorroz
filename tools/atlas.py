@@ -100,7 +100,7 @@ FAMILIES = {
     "Home-style & country rices": (
         "Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had.",
         ["arroz_amarillo_canario", "arroz_a_la_cubana_canario", "arroz_a_la_sevillana", "arroz_campero_andaluz",
-         "arroz_cortijero_jaen", "perol_cordobes", "arroz_a_la_asturiana", "riz_bi_foul", "riz_bi_shariyyeh", "ships_w_pasta", "galayet_bandora_bi_ruz", "mlukhiyeh_ma_ruz", "bamyeh_ma_ruz", "bazella_w_ruz", "kibbeh_hamda", "sabanekh_w_riz", "daoud_basha", "mayit_bandora_u_bayd"]),
+         "arroz_cortijero_jaen", "perol_cordobes", "arroz_a_la_asturiana", "riz_bi_foul", "riz_bi_shariyyeh", "ships_w_pasta", "galayet_bandora_bi_ruz", "mlukhiyeh_ma_ruz", "bamyeh_ma_ruz", "bazella_w_ruz", "kibbeh_hamda", "sabanekh_w_riz", "daoud_basha", "mayit_bandora_u_bayd", "khao_kap_pla_haeng_ayutthaya", "khao_hung_chet_nam"]),
     "Rice & legumes": (
         "Rice cooked with lentils, beans or fava: the poor-and-sustaining pot from Orihuela to Beirut.",
         ["mujaddara", "arroz_de_los_tres_punaos", "arroz_y_habichuelas_murciano", "potaje_banezano", "arros_amb_fava_pela",
@@ -110,14 +110,14 @@ FAMILIES = {
         ["mahshi", "mahshi_halabi", "warak_enab", "yalanji", "sheikh_al_mahshi", "mehshi_basal", "yebra", "malfouf_mehshi", "mehshi_selek", "ghammeh", "fawaregh", "mahshi_lift", "lakhneh", "kousa_bi_laban"]),
     "Lamb feast rices": (
         "Celebration platters of lamb over rice: yogurt sauces, sealed pots, pit ovens and pastry domes.",
-        ["mansaf", "zarb", "qidreh", "shakriyeh", "ouzi", "sheikh_al_mahshi", "kibbeh_labanieh", "fate_chilena", "fatteh_ghazawiyya", "ruz_w_lahm_al_urs", "aruzz_mufalfal_wusla", "harisat_al_aruzz", "kharuf_mahshi_halabi"]),
+        ["mansaf", "zarb", "qidreh", "shakriyeh", "ouzi", "sheikh_al_mahshi", "kibbeh_labanieh", "fate_chilena", "fatteh_ghazawiyya", "ruz_w_lahm_al_urs", "aruzz_mufalfal_wusla", "harisat_al_aruzz", "kharuf_mahshi_halabi", "khao_hung_prung_yang_thet"]),
     "Rice with noodles": (
         "Rice and toasted vermicelli or noodles cooked together, and the noodle 'paellas'.",
         ["riz_bi_shariyyeh", "shakriyeh", "fasoulia_w_riz", "fideua", "arrossejat", "bamyeh_ma_ruz", "bazella_w_ruz", "arroz_arabe_chileno", "pilav_ottoman_aleppo"]),
 
     "Fried rices": (
         "Cooked rice tossed in a hot wok or pan.",
-        ["khao_phat", "khao_phat_amerikan", "khao_kluk_kapi"]),
+        ["khao_phat", "khao_phat_amerikan", "khao_kluk_kapi", "khao_bplee", "khao_phat_chao_wang"]),
     "Rice soups & porridges": (
         "Rice in broth, from Thai khao tom and jok to medieval shurba and Aleppine kibbeh hamda.",
         ["khao_tom", "jok", "shurba_al_baghdadi", "kibbeh_hamda"]),
@@ -126,7 +126,7 @@ FAMILIES = {
         ["khao_man_kai", "khao_mok_kai", "riz_a_djej", "ruz_bi_djaj_hashweh", "muhallabiyya_medieval"]),
     "Court & royal rices": (
         "Refined palace rices: Siamese khao chae and khao tang, Ayyubid aruzz khatuni, Ottoman Aleppo's stuffed lamb.",
-        ["khao_chae", "khao_tang_na_tang", "aruzz_khatuni", "kharuf_mahshi_halabi", "pilav_ottoman_aleppo"]),
+        ["khao_chae", "khao_tang_na_tang", "aruzz_khatuni", "kharuf_mahshi_halabi", "pilav_ottoman_aleppo", "khao_hung_prung_yang_thet", "khao_nasi_prajit", "khao_phat_chao_wang", "khao_bplee"]),
     "Rice-and-topping plates": (
         "One plate of rice with something ladled or laid over it.",
         ["khao_kha_mu", "khao_mu_daeng", "khao_rad_kaeng", "arroz_a_la_cubana_canario", "galayet_bandora_bi_ruz", "nasi_dagae"]),
@@ -145,7 +145,7 @@ FAMILIES = {
         ["khao_pong", "khao_taen", "khao_phan_phak", "khao_tang_na_tang", "khanom_krok", "khanom_chan", "khanom_la", "bua_loy"]),
     "Tossed & salad rices": (
         "Cooked rice tossed with pastes, herbs, fish sauce or tomato.",
-        ["khao_yam", "khao_kluk_kapi", "khao_som_tai_yai"]),
+        ["khao_yam", "khao_kluk_kapi", "khao_som_tai_yai", "khao_nasi_prajit"]),
     "Rice as ingredient": (
         "Rice toasted, pounded or ground to season, thicken or bind other dishes.",
         ["khao_kua", "khao_buea", "kibbeh_hamda", "kibbeh_labanieh"]),

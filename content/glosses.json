@@ -1292,6 +1292,48 @@
    "ca": "Dolç de capes elàstic de farina d'arròs i coco, cuit al vapor capa a capa",
    "th": "ขนมชั้นแป้งข้าวเจ้ากะทิ นุ่มหนึบ นึ่งทีละชั้น",
    "ar": "حلوى طبقات مرنة من طحين الأرز وجوز الهند، تُطهى على البخار طبقة بعد طبقة"
+  },
+  "recipe_khao_kap_pla_haeng_ayutthaya.md": {
+   "en": "The 17th-century Siamese meal: boiled rice with dried fish and a shrimp-paste relish",
+   "es": "La comida siamesa del siglo XVII: arroz hervido con pescado seco y salsa de pasta de gambas",
+   "ca": "El menjar siamès del segle XVII: arròs bullit amb peix sec i salsa de pasta de gamba",
+   "th": "สำรับสยามสมัยอยุธยา: ข้าวสวยกับปลาแห้งและน้ำพริกกะปิ",
+   "ar": "وجبة سيامية من القرن السابع عشر: أرز مسلوق مع سمك مجفف وصلصة معجون الروبيان"
+  },
+  "recipe_khao_hung_chet_nam.md": {
+   "en": "Old Siamese plain rice: boiled in plenty of water, drained, then dried over low heat",
+   "es": "Arroz blanco siamés antiguo: hervido en mucha agua, escurrido y secado a fuego lento",
+   "ca": "Arròs blanc siamès antic: bullit amb molta aigua, escorregut i assecat a foc lent",
+   "th": "ข้าวหุงเช็ดน้ำแบบโบราณ ต้มในน้ำมาก รินน้ำทิ้ง แล้วดงบนไฟอ่อน",
+   "ar": "أرز سيامي تقليدي: يُسلق في ماء وفير ثم يُصفّى ويُجفَّف على نار هادئة"
+  },
+  "recipe_khao_hung_prung_yang_thet.md": {
+   "en": "Early Bangkok court pilaf in the Persian manner, named in a royal poem of about 1800",
+   "es": "Pilaf de la corte de Bangkok al estilo persa, citado en un poema real de hacia 1800",
+   "ca": "Pilaf de la cort de Bangkok a l'estil persa, citat en un poema reial de cap al 1800",
+   "th": "ข้าวหุงปรุงอย่างเทศแบบเปอร์เซียของราชสำนักต้นรัตนโกสินทร์ ในกาพย์เห่ชมเครื่องคาวหวาน",
+   "ar": "أرز البلاط في بانكوك على الطريقة الفارسية، مذكور في قصيدة ملكية نحو عام 1800"
+  },
+  "recipe_khao_nasi_prajit.md": {
+   "en": "Palace rice of about 1901 in the Javanese style, tossed with chili relish and roasted coconut",
+   "es": "Arroz palaciego de hacia 1901 al estilo javanés, mezclado con salsa de chile y coco tostado",
+   "ca": "Arròs de palau de cap al 1901 a l'estil javanès, barrejat amb salsa de bitxo i coco torrat",
+   "th": "ข้าวนาซิประจิตแบบชวาของห้องเครื่องวัง ราว พ.ศ. 2444 คลุกน้ำพริกและมะพร้าวคั่ว",
+   "ar": "أرز القصر نحو 1901 على الطريقة الجاوية، مخلوط بصلصة الفلفل الحار وجوز الهند المحمّص"
+  },
+  "recipe_khao_bplee.md": {
+   "en": "1935 court fried rice with tamarind and salted fish, baked inside a charred banana blossom",
+   "es": "Arroz frito de la corte (1935) con tamarindo y pescado salado, horneado dentro de una flor de plátano asada",
+   "ca": "Arròs fregit de la cort (1935) amb tamarinde i peix salat, enfornat dins d'una flor de plàtan rostida",
+   "th": "ข้าวผัดน้ำพริกมะขามกับปลาเค็ม ยัดในหัวปลีย่างแล้วอบ ตำรับสายเยาวภา พ.ศ. 2478",
+   "ar": "أرز مقلي من البلاط (1935) بالتمر الهندي والسمك المملح، مخبوز داخل زهرة موز مشوية"
+  },
+  "recipe_khao_phat_chao_wang.md": {
+   "en": "Palace fried rice from 1930s-40s cookbooks, fried in pork fat with shrimp and egg",
+   "es": "Arroz frito de palacio de los recetarios de los años 30 y 40, frito en grasa de cerdo con gambas y huevo",
+   "ca": "Arròs fregit de palau dels receptaris dels anys 30 i 40, fregit amb greix de porc amb gambes i ou",
+   "th": "ข้าวผัดชาววังจากตำราอาหารงานศพ พ.ศ. 2478–2492 ผัดน้ำมันหมูกับกุ้งและไข่",
+   "ar": "أرز القصر المقلي من كتب الطبخ في الثلاثينيات والأربعينيات، مقلي بدهن الخنزير مع الروبيان والبيض"
   }
  },
  "regions": {
@@ -1957,7 +1999,14 @@
       "th": "ข้าวที่สร้างขึ้นใหม่จากบันทึกสมัยอยุธยา บทพระราชนิพนธ์ และตำรากับข้าวไทยเล่มแรก",
       "ar": "أطباق أرز أُعيد بناؤها من روايات عصر أيوثايا والقصائد الملكية وأوائل كتب الطبخ التايلاندية."
      },
-     "members": []
+     "members": [
+      "recipe_khao_kap_pla_haeng_ayutthaya.md",
+      "recipe_khao_hung_chet_nam.md",
+      "recipe_khao_hung_prung_yang_thet.md",
+      "recipe_khao_nasi_prajit.md",
+      "recipe_khao_bplee.md",
+      "recipe_khao_phat_chao_wang.md"
+     ]
     }
    ]
   }
