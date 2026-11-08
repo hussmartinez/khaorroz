@@ -6,7 +6,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** The Bedouin south of Jordan: Wadi Rum, the Hisma desert and the Ma'an–Aqaba hinterland. It is now cooked for guests at desert camps across the south.
-*   **Liquid & Texture Profile:** **Seco** (dry): spiced rice steamed in a covered tray beneath the meat, catching its juices; fluffy, never soupy.
+*   **Dish Type & Texture:** Bedouin pit-oven feast. Spiced rice steamed in a covered tray beneath the meat, catching its juices; fluffy, never wet.
 *   **Traditional Cooking Vessel & Fuel:** A **pit dug in the sand** (or a buried metal drum), lined with glowing **wood coals**, holding a multi-tiered metal rack. The pit is sealed with a lid or tin sheet, blankets and sand, and the food cooks for hours.
 
 ## 2. Historical & Cultural Context

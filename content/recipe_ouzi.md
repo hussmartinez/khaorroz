@@ -6,7 +6,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** Damascus and southern Syria; also cooked in Jordan, Lebanon and the Gulf under the same name in different forms.
-*   **Liquid & Texture Profile:** **Seco** (dry): separate, spiced grains, baked inside crisp pastry.
+*   **Dish Type & Texture:** Pastry-wrapped feast rice. Separate, spiced grains with meat, peas and nuts, baked inside crisp filo.
 *   **Traditional Cooking Vessel & Fuel:** A heavy pot for the rice, then individual bowls lined with filo (or a large tray) baked in a household or bakery oven.
 
 ## 2. Historical & Cultural Context

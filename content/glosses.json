@@ -915,6 +915,158 @@
     "provincial_lebanon.md",
     "provincial_jordan.md",
     "provincial_syria.md"
+   ],
+   "categories": [
+    {
+     "id": "maqluba",
+     "name": {
+      "en": "Upside-down rices",
+      "es": "Arroces volteados",
+      "ca": "Arrossos girats",
+      "th": "ข้าวคว่ำ",
+      "ar": "المقلوبة"
+     },
+     "description": {
+      "en": "Rice layered with meat and fried vegetables in one pot, then turned over onto the tray.",
+      "es": "Arroz en capas con carne y verduras fritas en una olla, que se vuelca sobre la bandeja.",
+      "ca": "Arròs en capes amb carn i verdures fregides en una olla, que es gira sobre la safata.",
+      "th": "ข้าวหุงเป็นชั้นกับเนื้อและผักทอดในหม้อเดียว แล้วคว่ำลงบนถาด",
+      "ar": "أرز يُطهى طبقات مع اللحم والخضار المقلية في قدر واحد ثم يُقلب على الصينية."
+     },
+     "members": [
+      "recipe_maqluba.md"
+     ]
+    },
+    {
+     "id": "feast",
+     "name": {
+      "en": "Feast rices (wala'im)",
+      "es": "Arroces de banquete",
+      "ca": "Arrossos de banquet",
+      "th": "ข้าวงานเลี้ยง",
+      "ar": "أرز الولائم"
+     },
+     "description": {
+      "en": "Platters of spiced rice under lamb or chicken for weddings, Eid and guests: mansaf, qidreh, ouzi and their kin.",
+      "es": "Bandejas de arroz especiado bajo cordero o pollo para bodas, Eid e invitados.",
+      "ca": "Safates d'arròs especiat sota xai o pollastre per a noces, Eid i convidats.",
+      "th": "ถาดข้าวเครื่องเทศราดเนื้อแกะหรือไก่ สำหรับงานแต่ง วันอีด และแขก",
+      "ar": "صواني الأرز المتبّل تحت لحم الضأن أو الدجاج للأعراس والأعياد والضيوف."
+     },
+     "members": [
+      "recipe_mansaf.md",
+      "recipe_zarb.md",
+      "recipe_qidreh.md",
+      "recipe_ouzi.md",
+      "recipe_riz_a_djej.md",
+      "recipe_ruz_bi_djaj_hashweh.md"
+     ]
+    },
+    {
+     "id": "mahashi",
+     "name": {
+      "en": "Stuffed vegetables & leaves (mahashi)",
+      "es": "Verduras y hojas rellenas (mahashi)",
+      "ca": "Verdures i fulles farcides (mahashi)",
+      "th": "ผักและใบไม้ยัดไส้ (มะฮาชี)",
+      "ar": "المحاشي"
+     },
+     "description": {
+      "en": "Vine leaves, zucchini and eggplant filled with rice and simmered in broth.",
+      "es": "Hojas de parra, calabacines y berenjenas rellenos de arroz y cocidos en caldo.",
+      "ca": "Fulles de parra, carbassons i albergínies farcits d'arròs i cuits en brou.",
+      "th": "ใบองุ่น ซูกินี และมะเขือยาวยัดไส้ข้าว เคี่ยวในน้ำซุป",
+      "ar": "ورق العنب والكوسا والباذنجان المحشوة بالأرز والمطبوخة بالمرق."
+     },
+     "members": [
+      "recipe_mahshi.md",
+      "recipe_mahshi_halabi.md",
+      "recipe_warak_enab.md"
+     ]
+    },
+    {
+     "id": "legumes",
+     "name": {
+      "en": "Rice & legumes",
+      "es": "Arroz con legumbres",
+      "ca": "Arròs amb llegums",
+      "th": "ข้าวกับถั่ว",
+      "ar": "الأرز مع البقول"
+     },
+     "description": {
+      "en": "Rice cooked with lentils or fava: the everyday and fasting-day pot.",
+      "es": "Arroz cocido con lentejas o habas: la olla diaria y de vigilia.",
+      "ca": "Arròs cuit amb llenties o faves: l'olla diària i de dejuni.",
+      "th": "ข้าวหุงกับถั่วเลนทิลหรือถั่วปากอ้า อาหารประจำวันและวันถือศีลอด",
+      "ar": "أرز مطبوخ مع العدس أو الفول: طبخة الأيام العادية وأيام الصيام."
+     },
+     "members": [
+      "recipe_mujaddara.md",
+      "recipe_riz_bi_foul.md"
+     ]
+    },
+    {
+     "id": "yakhneh",
+     "name": {
+      "en": "Rice with stews (ruz w yakhneh)",
+      "es": "Arroz con guisos (ruz w yakhneh)",
+      "ca": "Arròs amb guisats (ruz w yakhneh)",
+      "th": "ข้าวกับสตูว์ (รุซ วะ ยัคเนห์)",
+      "ar": "الرز مع اليخنة"
+     },
+     "description": {
+      "en": "White or vermicelli rice served under a stew: the backbone of the home table.",
+      "es": "Arroz blanco o con fideos servido bajo un guiso: la base de la mesa diaria.",
+      "ca": "Arròs blanc o amb fideus servit sota un guisat: la base de la taula diària.",
+      "th": "ข้าวสวยหรือข้าวผัดเส้นหมี่ เสิร์ฟคู่กับสตูว์ หัวใจของสำรับประจำบ้าน",
+      "ar": "أرز أبيض أو بالشعيرية يُقدَّم مع اليخنة: أساس المائدة اليومية."
+     },
+     "members": [
+      "recipe_riz_bi_shariyyeh.md",
+      "recipe_fasoulia_w_riz.md",
+      "recipe_shakriyeh.md"
+     ]
+    },
+    {
+     "id": "fish",
+     "name": {
+      "en": "Fish rices",
+      "es": "Arroces de pescado",
+      "ca": "Arrossos de peix",
+      "th": "ข้าวปลา",
+      "ar": "أرز السمك"
+     },
+     "description": {
+      "en": "Coastal rice cooked in fish broth with caramelised onion.",
+      "es": "Arroz costero cocido en caldo de pescado con cebolla caramelizada.",
+      "ca": "Arròs costaner cuit amb brou de peix i ceba caramel·litzada.",
+      "th": "ข้าวชายฝั่งหุงในน้ำซุปปลากับหอมใหญ่เคี่ยว",
+      "ar": "أرز الساحل المطبوخ بمرق السمك مع البصل المحمّر."
+     },
+     "members": [
+      "recipe_sayadieh.md"
+     ]
+    },
+    {
+     "id": "sweet",
+     "name": {
+      "en": "Sweet rices",
+      "es": "Arroces dulces",
+      "ca": "Arrossos dolços",
+      "th": "ข้าวหวาน",
+      "ar": "حلويات الأرز"
+     },
+     "description": {
+      "en": "Rice puddings scented with mastic, rose or orange-blossom water.",
+      "es": "Arroces con leche perfumados con almáciga, agua de rosas o de azahar.",
+      "ca": "Arrossos amb llet perfumats amb màstic, aigua de roses o de flor de taronger.",
+      "th": "ขนมข้าวต้มนมหอมกลิ่นมาสติก น้ำกุหลาบ หรือน้ำดอกส้ม",
+      "ar": "أرز بالحليب معطّر بالمستكة أو ماء الورد أو ماء الزهر."
+     },
+     "members": [
+      "recipe_riz_bi_haleeb.md"
+     ]
+    }
    ]
   },
   "thai": {

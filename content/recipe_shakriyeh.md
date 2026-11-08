@@ -4,7 +4,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** Damascus, Hama and Homs; shared with Lebanon (*laban immo*) and Palestine.
-*   **Liquid & Texture Profile:** **Seco** (dry): the rice itself is a dry vermicelli pilaf, served alongside a hot yogurt-and-lamb stew that is spooned over it.
+*   **Dish Type & Texture:** Stew over rice (*yakhneh w ruz*). A hot yogurt-and-lamb stew spooned over a fluffy vermicelli pilaf.
 *   **Traditional Cooking Vessel & Fuel:** A pot for the meat, a heavy saucepan for the yogurt (stirred constantly), and a separate pot for the rice; stovetop.
 
 ## 2. Historical & Cultural Context

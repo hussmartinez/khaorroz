@@ -4,7 +4,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** The whole of Bilad al-Sham (Lebanon, Syria, Palestine, Jordan). The bulgur version is associated with South Lebanon.
-*   **Liquid & Texture Profile:** **Seco** (dry). The *mudardara* form, with separate grains of rice and lentils under fried onions. The Lebanese puréed *mjaddara* is closer to a porridge (see §3).
+*   **Dish Type & Texture:** Rice and lentils (*mujaddara*). In the *mudardara* form the grains of rice and lentils stay separate under crisp fried onions; the Lebanese puréed *mjaddara* is closer to a soft porridge (see §3).
 *   **Traditional Cooking Vessel & Fuel:** A heavy pot (*tanjara*) on the stove, with a frying pan for the onions.
 
 ## 2. Historical & Cultural Context

@@ -6,7 +6,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** The Levantine coast: Lebanon's fishing towns (Tripoli/Trablous, Batroun, Jbeil, Beirut, Saida/Sidon, Tyre/Sour), the Palestinian coast (Yafa, Akka, Gaza), and the Syrian coast (Latakia, Tartus, Banias), and Jordan's Red Sea port of Aqaba.
-*   **Liquid & Texture Profile:** **Seco** (dry). Fluffy, separate, deep-brown grains cooked in a fish-and-onion broth, served with fish on top.
+*   **Dish Type & Texture:** Fisherman's rice (*sayadieh*). Fluffy, separate grains turned deep brown by caramelised onion and fish broth, with the fish laid on top.
 *   **Traditional Cooking Vessel & Fuel:** A heavy pot (*tanjara* or *qidr*) on the stove. The onions are fried in a wide pan (*meqlaye*), and the dish is served on a large round platter (*sedr*).
 
 ## 2. Historical & Cultural Context

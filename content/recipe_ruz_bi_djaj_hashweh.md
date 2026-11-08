@@ -6,7 +6,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** Urban Palestine (Jerusalem, Nablus, Ramallah, Bethlehem), shared with Jordan and Syria.
-*   **Liquid & Texture Profile:** **Seco** (dry, separate grains). Fluffy, buttery rice (*ruz mfalfal*, "peppered", meaning loose-grained), browned with minced meat.
+*   **Dish Type & Texture:** Festive rice with a meat topping (*hashweh*). Fluffy, separate *mfalfal* grains ("peppered", meaning loose-grained), browned with minced meat and topped with chicken and nuts.
 *   **Traditional Cooking Vessel & Fuel:** A heavy pot (*tanjara*) on the hob for the rice. The chicken is boiled, then roasted or pan-browned. It is served on a large tray.
 
 ## 2. Historical & Cultural Context

@@ -6,7 +6,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** All of Lebanon (urban and village home cooking). The same *yakhneh* (stew) and rice pairing is cooked in Syria and Palestine.
-*   **Liquid & Texture Profile:** **Caldoso** (soupy). A tomato bean stew ladled over vermicelli rice.
+*   **Dish Type & Texture:** Stew over rice (*yakhneh w ruz*). A tomato and white-bean stew ladled over vermicelli rice at the table.
 *   **Traditional Cooking Vessel & Fuel:** A pot for the stew and a second pot for the rice, on the stove.
 
 ## 2. Historical & Cultural Context

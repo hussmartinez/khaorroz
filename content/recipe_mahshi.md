@@ -6,7 +6,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** All of Palestine (especially the agricultural heartlands, where summer squash is abundant), and across Lebanon, Syria and Jordan.
-*   **Liquid & Texture Profile:** **Meloso** (creamy). Rice cooked *inside* the vegetables until soft and juicy, served in its tomato (or yogurt) cooking liquid.
+*   **Dish Type & Texture:** Stuffed vegetables (*mahashi*). The rice is cooked *inside* the zucchini and eggplant until soft and juicy, and served in its tomato (or yogurt) cooking liquid.
 *   **Traditional Cooking Vessel & Fuel:** A wide, heavy pot on the hob. The vegetables are packed upright or in rows and weighed down with an inverted plate. A long thin corer, the ***manakra***, is used to hollow them.
 
 ## 2. Historical & Cultural Context

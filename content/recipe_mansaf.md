@@ -6,7 +6,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** All of Jordan. The towns most famous for it are al-Karak (south) and al-Salt in al-Balqa (west-centre). It is also the main feast dish of the central and southern West Bank and the Naqab/Negev, and is eaten in southern Syria (Hauran).
-*   **Liquid & Texture Profile:** **Seco** (dry): fluffy, separate rice cooked dry, laid on shrak bread; the hot jameed (dried-yogurt) sauce is ladled over at the table, so each mouthful is moistened, not cooked, in the sauce.
+*   **Dish Type & Texture:** Feast platter of rice under meat and yogurt. Fluffy, separate rice laid on *shrak* bread; the hot *jameed* (dried-yogurt) sauce is ladled over at the table, moistening each mouthful.
 *   **Traditional Cooking Vessel & Fuel:** A large copper or aluminium cauldron (*qidr*) for the lamb and jameed over a wood fire, a separate pot for the rice, and the great round tray (*sidr* / *minsaf*) on which it is assembled and served. The dish takes its name from that tray.
 
 ## 2. Historical & Cultural Context

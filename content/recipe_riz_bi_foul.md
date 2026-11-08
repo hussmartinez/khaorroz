@@ -6,7 +6,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** Damascus and Syrian home cooking; also Lebanon.
-*   **Liquid & Texture Profile:** **Seco** (dry): a fluffy pilaf.
+*   **Dish Type & Texture:** Rice with legumes. A fluffy spring pilaf of rice, fresh fava beans and dill, with lamb.
 *   **Traditional Cooking Vessel & Fuel:** A heavy pot with a tight lid; stovetop.
 
 ## 2. Historical & Cultural Context

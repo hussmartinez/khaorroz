@@ -4,7 +4,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** All of Lebanon, and everyday home cooking across Syria, Palestine and Jordan.
-*   **Liquid & Texture Profile:** **Seco** (dry). Fluffy, separate grains flecked with golden toasted vermicelli.
+*   **Dish Type & Texture:** Everyday white rice with vermicelli, the base rice served under stews. Fluffy, separate grains flecked with golden toasted *sh'ariyyeh*.
 *   **Traditional Cooking Vessel & Fuel:** A heavy-bottomed pot with a tight lid, on the stove (today often a rice cooker).
 
 ## 2. Historical & Cultural Context

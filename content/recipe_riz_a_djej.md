@@ -6,7 +6,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** All of Lebanon (Beirut, Mount Lebanon, the North and South), with close relatives in Syria (*riz bi djaj*) and Palestine.
-*   **Liquid & Texture Profile:** **Seco** (dry). Separate spiced grains cooked in chicken stock, topped with shredded chicken and toasted nuts.
+*   **Dish Type & Texture:** Festive rice with meat and chicken. Separate, spiced *mfalfal* grains cooked in chicken stock, topped with shredded chicken and toasted nuts.
 *   **Traditional Cooking Vessel & Fuel:** A large pot for poaching the chicken and a heavy pot for the rice, on the stove. Served on a big platter in the middle of the table.
 
 ## 2. Historical & Cultural Context

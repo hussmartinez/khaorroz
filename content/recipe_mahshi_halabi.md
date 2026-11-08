@@ -6,7 +6,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** Aleppo (Halab), northern Syria; stuffed vegetables are cooked across Syria with city-specific fillings.
-*   **Liquid & Texture Profile:** **Meloso** (creamy): the rice inside the vegetables turns soft and saucy, cooked in a tart tomato broth.
+*   **Dish Type & Texture:** Stuffed vegetables, Aleppo style (*mahashi halabiyeh*). The rice inside the zucchini turns soft and saucy, cooked in a tart tomato broth.
 *   **Traditional Cooking Vessel & Fuel:** A wide, heavy pot; the stuffed vegetables are packed upright or in layers, weighted with a plate, and simmered on the stovetop.
 
 ## 2. Historical & Cultural Context

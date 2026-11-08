@@ -4,7 +4,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** al-Khalil / Hebron, its home and signature dish. A distinct version is made in Gaza.
-*   **Liquid & Texture Profile:** **Seco** (dry, separate grains). Buttery rice that has absorbed all the broth, under browned meat.
+*   **Dish Type & Texture:** Feast rice baked in a sealed pot (*qidra*). Buttery grains that have absorbed all the broth, under browned lamb and whole chickpeas.
 *   **Traditional Cooking Vessel & Fuel:** The *qidra* itself, which gives the dish its name. In Hebron it is a **copper or brass pot**; in Gaza an **unglazed clay urn**. Either way it is carried to a **neighbourhood wood-fired bakery oven**, with each pot marked with its family's name.
 
 ## 2. Historical & Cultural Context

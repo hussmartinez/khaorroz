@@ -6,7 +6,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** The vine-growing mountains and plains of Lebanon (Mount Lebanon, the Bekaa, Zahle), Syria (Damascus, Aleppo) and Palestine.
-*   **Liquid & Texture Profile:** **Meloso** (creamy). The rice is cooked inside the leaves in a lemony broth until tender and juicy, and the rolls stay moist.
+*   **Dish Type & Texture:** Stuffed vine leaves (*mahashi*). The rice is cooked inside the leaves in a lemony broth until tender, and the rolls stay moist.
 *   **Traditional Cooking Vessel & Fuel:** A deep, heavy pot (*tanjara*) with an inverted plate weighing down the packed rolls, on the stove.
 
 ## 2. Historical & Cultural Context

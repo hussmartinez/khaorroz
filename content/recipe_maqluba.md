@@ -6,7 +6,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** All of Palestine (Jerusalem, Nablus, Hebron, Gaza, Galilee), and equally Jordan and Syria. It is also cooked in Lebanon and Iraq.
-*   **Liquid & Texture Profile:** **Seco** (dry, separate grains). All the broth is absorbed, so the moulded rice holds its shape when the pot is turned over.
+*   **Dish Type & Texture:** Upside-down rice (*maqluba*, "turned over"). Firm, separate grains that have absorbed all the broth, so the layered pot keeps its shape when it is flipped onto the tray.
 *   **Traditional Cooking Vessel & Fuel:** A deep, straight-sided pot (*tanjara* or *ṭunjara*) on a gas or wood flame. It is inverted at the table onto a large round tray (*siniyyeh*).
 
 ## 2. Historical & Cultural Context

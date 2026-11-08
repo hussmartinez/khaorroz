@@ -4,7 +4,7 @@
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** Aleppo and Damascus; the same family of milk puddings is made across Lebanon, Palestine and Jordan.
-*   **Liquid & Texture Profile:** **Meloso** (creamy): a spoonable pudding, set by chilling. This is a dessert.
+*   **Dish Type & Texture:** Sweet rice (dessert). A smooth, spoonable rice pudding, set by chilling and scented with mastic and orange blossom.
 *   **Traditional Cooking Vessel & Fuel:** A heavy-bottomed pot on low heat (stirred), then individual bowls chilled.
 
 ## 2. Historical & Cultural Context
