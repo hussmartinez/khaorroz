@@ -125,7 +125,7 @@ export function renderPage(page: Page, m: SiteModel, opts: { appendToSection?: R
   renderer.table = function (token) {
     return `<div class="table-wrap">${marked.Renderer.prototype.table.call(this, token)}</div>`;
   };
-  const chunks = page.body.split(/^(?=## )/m);
+  const chunks = localiseLabels(page.body, lang).split(/^(?=## )/m);
   let adsPlaced = 0;
   const html = chunks.map((chunk, i) => {
     const num = chunk.match(/^## (\d+)\./)?.[1];
@@ -160,4 +160,31 @@ export function facetOf(m: SiteModel, p: Page): Facet | undefined {
   const a = m.areas.find((x) => x.id === areaId);
   const id = !a || a.facet === "texture" ? p.texture : p.category;
   return id ? facetsFor(m, a?.id ?? "spain").find((f) => f.id === id) : undefined;
+}
+
+// The Markdown keeps a few field labels and table headers in English on purpose (the parser reads them);
+// on other-language pages they are swapped for UI strings at render time.
+const FIELD_LABELS: [RegExp, Key][] = [
+  [/\*\*Primary Geographic Zone:\*\*/g, "lblZone"],
+  [/\*\*Liquid & Texture Profile:\*\*/g, "lblTexture"],
+  [/\*\*Dish Type & Texture:\*\*/g, "lblDishType"],
+  [/\*\*Traditional Cooking Vessel(?: & Fuel)?:\*\*/g, "lblVessel"],
+  [/\*\*Historical Source:\*\*/g, "lblHistSource"],
+];
+const HEADER_WORDS: Record<string, Key> = { ingredient: "thIngredient", ingredients: "thIngredient", quantity: "thQuantity", element: "thElement", note: "thNote", notes: "thNote" };
+function localiseLabels(md: string, lang: Lang) {
+  if (lang === DEFAULT_LANG) return md;
+  let out = md;
+  for (const [re, key] of FIELD_LABELS) out = out.replace(re, `**${tr(lang, key)}:**`);
+  // header row = a table line directly followed by a |---| separator line
+  const lines = out.split("\n");
+  for (let i = 0; i < lines.length - 1; i++) {
+    if (lines[i].trim().startsWith("|") && /^\s*\|[\s:|-]+\|\s*$/.test(lines[i + 1])) {
+      lines[i] = lines[i].replace(/\|\s*([A-Za-z]+)\s*(?=\|)/g, (m, w) => {
+        const k = HEADER_WORDS[w.toLowerCase()];
+        return k ? `| ${tr(lang, k)} ` : m;
+      });
+    }
+  }
+  return lines.join("\n");
 }
