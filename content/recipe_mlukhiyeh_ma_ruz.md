@@ -1,6 +1,6 @@
 # Mlukhiyeh ma' Ruz / ملوخية مع رز
 
-> ⬅ [README](README.md) · [Syria](provincial_syria.md) · [Lebanon](provincial_lebanon.md)
+> ⬅ [README](README.md) · [Syria](provincial_syria.md) · [Lebanon](provincial_lebanon.md) · [Palestine](provincial_palestine.md)
 
 > ⚠️ **Source-confidence note:** the Syrian whole-leaf style (dried leaves, served over vermicelli rice) is documented in Arabic recipe media; a specifically **Damascene** source was not found, so city-level attributions below are flagged. The Egyptian minced-leaf soup is a separate tradition, noted only for contrast.
 
@@ -24,6 +24,14 @@ The dish's backbone is the *ta'leyeh*: crushed garlic and coriander (fresh and d
 *   **Egypt (contrast):** Minced leaves, a soup rather than a stew, with *ta'leya* of garlic and coriander; also served with rice.
 *   **Lebanese style (*mloukhieh*):** The leaves are kept **whole**, not minced as in Egypt, giving a dish of leaves in broth. Its flavour rests on fresh and dried **coriander fried with crushed garlic** and plenty of lemon (added "so the texture does not change"), with chicken boiled with cinnamon, cardamom and bay. Served over vermicelli rice, often with toasted bread and onion in vinegar.
 *   **Lebanese vs Egyptian vs Shami (Asharq Al-Awsat):** Lebanese = coriander and garlic; Egyptians add tomato; Shami (Damascus) cooks use bay and cardamom in the broth. A Georgetown essay contrasts Egyptian abundance (bread, vinegar, onions, soupiness) with Lebanese restraint, though many Lebanese homes also serve bread and vinegar-onion.
+
+### Palestinian style (mlukhiyyeh w ruz)
+*(Merged from the Palestine research.)*
+
+*   **Galilee (Saffuriya, Saʿsaʿ tradition):** Celebrated for the dish. Families now largely in refugee communities in Lebanon and Syria ⚠️ (style details not documented).
+*   **West Bank:** Whole leaves, chicken or lamb, plenty of garlic and coriander, lemon; served with vermicelli rice.
+*   **Gaza (⚠️):** Finely chopped (Egyptian-style), with green chilli and lemon; also eaten with bread.
+*   **Ramadan:** Green mulukhiyah is a classic iftar dish on Palestinian tables.
 
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: **Syrian dried whole-leaf mlukhiyeh with chicken**, after published Syrian recipes.*
@@ -66,3 +74,6 @@ The dish's backbone is the *ta'leyeh*: crushed garlic and coriander (fresh and d
 *   [Mawdoo3 – أكلات لبنانية بالدجاج (Lebanese mloukhieh)](https://mawdoo3.com/أكلات_لبنانية_بالدجاج)
 *   [Alphafoodie – Mom's authentic Lebanese molokhia (mloukhiyeh)](https://www.alphafoodie.com/lebanese-molokhia-with-chicken/)
 *   [Georgetown CCAS – Tabletop debates: reflections on molokhia, identity and forks vs spoons](https://ccas.georgetown.edu/2022/08/30/tabletop-debates-reflections-on-molokhia-identity-and-forks-vs-spoons/)
+*   [Mawdoo3 – طريقة طبخ الملوخية الفلسطينية (Palestinian mulukhiyah with chicken and vermicelli rice)](https://mawdoo3.com/طريقة_طبخ_الملوخية_الفلسطينية)
+*   [Arabic Post – «الملوخية» وحقوق اللاجئين الفلسطينيين في لبنان (Saffuriya, Saʿsaʿ, refugees, origin dispute)](https://arabicpost.net/%d8%a3%d8%ae%d8%a8%d8%a7%d8%b1/2016/04/26/%d8%a7%d9%84%d9%85%d9%84%d9%88%d8%ae%d9%8a%d8%a9-%d9%88%d8%ad%d9%82%d9%88%d9%82-%d8%a7%d9%84%d9%84%d8%a7%d8%ac%d8%a6%d9%8a%d9%86-%d8%a7%d9%84%d9%81%d9%84%d8%b3%d8%b7%d9%8a%d9%86%d9%8a/)
+*   [Al-Bawaba News – Palestinian Ramadan tables (green mulukhiyah)](https://www.albawabhnews.com/print.aspx?id=4780488)

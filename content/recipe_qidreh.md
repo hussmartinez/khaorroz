@@ -24,6 +24,10 @@
 | Additions | (Garlic in samneh) | Chickpeas, onions, whole garlic |
 | Serving | Turned into a tray | Urn cracked open at the table |
 
+**Hebron "qidra with yogurt" (⚠️):** The UAE newspaper *Al-Ittihad* describes Hebron's best-known dish as "القدرة الخليلية أي الأرز مع اللبن ولحم الخروف والسمن البلدي" (*qidra khaliliyya*, rice with yogurt, mutton and village *samneh*, sometimes with bread). It adds that "rice with cooked yogurt" is a Hebron custom. This may describe a yogurt-served qidreh, or the city's mansaf-like rice. It is recorded here as a Hebron variant to verify ([Al-Ittihad](https://www.aletihad.ae/articleamp/23164/2014/الكوسا-باللبن-طبق-من-تراث-مدينة-الخليل-الفلسطينية)). See also [kousa bi-laban](recipe_kousa_bi_laban.md).
+
+**Village feast ancestor:** Before the copper *qidra* became a bakery dish, Bethlehem-hill weddings served plain broth-cooked rice and mutton on wooden trays; see [ruz w lahm al-ʿurs](recipe_ruz_w_lahm_al_urs.md).
+
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: **home oven version of the Hebron qidra**, with the optional Gaza chickpeas and garlic.*
 

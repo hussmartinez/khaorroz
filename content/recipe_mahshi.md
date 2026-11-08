@@ -26,6 +26,8 @@
 | Sauce | Fresh tomato | Cooked yogurt (+ starch) | Yogurt |
 | Herb | — | Dried + fresh mint | Mint |
 
+**The wider Palestinian mahashi family (separate pages):** [kousa bi-laban](recipe_kousa_bi_laban.md) (Hebron, zucchini in yogurt), [malfuf mahshi](recipe_malfouf_mehshi.md) (cabbage, cumin and whole garlic; Gaza and the West Bank), [mahshi lift](recipe_mahshi_lift.md) (winter turnips with sumac, tomato or tamarind), and [lakhneh](recipe_lakhneh.md) (Nablus, a disappearing stuffed-leaf dish). Lists of Palestinian dishes also record **ari'ih**, pumpkin (*qarʿ*) stuffed with rice and minced meat, associated with the Galilee ⚠️ ([Wikipedia – List of Palestinian dishes](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)). In Chile's Palestinian community, stuffed vegetables (*rellenos*) are on every *comida árabe* menu ([Jerusalem Quarterly 99](https://ps.boell.org/sites/default/files/2025-06/jerusalem-quarterly-issue-99.pdf)).
+
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: **general Palestinian tomato mahshi** (eggplant + kousa). The Hebron yogurt finish is given as an alternative.*
 

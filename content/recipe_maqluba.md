@@ -28,6 +28,13 @@ Maqluba is layered. Chicken or lamb poached in a spiced broth goes at the bottom
 | Extras | Broad beans (spring) | Vermicelli, chickpeas | Chilli heat; almonds on top |
 | Meat | Chicken or lamb | Chicken or lamb | Chicken (fish on the coast) |
 
+**More variants and diaspora:**
+*   **Al-Khalil (Hebron) family style:** Chicken with **fried cauliflower** is "typical of my city, al-Khalil", writes the Hebron-born scholar Lila Sharif, contrasting it with Gaza's eggplant and lamb. She serves it with an Arabic salad and full-fat yogurt ([Jerusalem Quarterly 99, 2024](https://ps.boell.org/sites/default/files/2025-06/jerusalem-quarterly-issue-99.pdf)).
+*   **"Orphan maqluba" (Gaza, wartime):** With meat and frying oil scarce, Gaza cooks documented on social media a meatless *maqluba* of a few vegetables and spiced rice cooked over open fires, with **chickpeas replacing meat** as protein ("meat is very rare to find, so we added chickpeas"). The flip remains a gesture of steadfastness (#flipyourmaqluba) ([Jerusalem Quarterly 99](https://ps.boell.org/sites/default/files/2025-06/jerusalem-quarterly-issue-99.pdf)).
+*   **Spring fava maqluba (*rabiʿiyya*):** Fresh broad beans replace the fried vegetables; see [rabiʿiyya](recipe_rabiya.md).
+*   **Chile ("makloubeh"):** Cooked in Chilean-Palestinian homes of Beit Jala and Bethlehem descent, and remembered as the neighbourly dish of the homeland ([Mashriq & Mahjar, 2019](https://lebanesestudies.ojs.chass.ncsu.edu/index.php/mashriq/article/download/239/691)).
+*   **Hebrew-language and Israeli framing (⚠️ contested):** Israeli food media and institutions publish maqluba, often crediting Palestinian cooks (e.g. Muzna Bishara at [Asif](https://asif.org/en/recipes/rabiya-fresh-fava-bean-maqluba/)). Palestinians regard labelling it Israeli as cultural appropriation ([Wikipedia – Maqluba](https://en.wikipedia.org/wiki/Maqluba)). This atlas attributes the dish to its Palestinian and wider Levantine communities of origin.
+
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: **chicken with eggplant and cauliflower** (Nablus/Jerusalem household style). The Gaza method is noted.*
 

@@ -1,6 +1,6 @@
 # Malfouf Mehshi / ملفوف محشي
 
-> ⬅ [README](README.md) · [Lebanon](provincial_lebanon.md)
+> ⬅ [README](README.md) · [Lebanon](provincial_lebanon.md) · [Palestine](provincial_palestine.md)
 
 ## 1. Geographic & Texture Profile
 *   **Primary Geographic Zone:** All of Lebanon, especially in winter, when cabbage is in season. It is a home dish rather than a restaurant one, cooked in Beirut, Mount Lebanon and the Bekaa alike.
@@ -17,6 +17,14 @@ Cabbage rolls are the winter partner of [warak enab](recipe_warak_enab.md). When
 *   **Lenten / meatless version (*bi-zeit*):** Rice with chopped tomato, onion, parsley and plenty of lemon and olive oil; one published variant replaces the meat with lentils. This is the Christian fasting-day form, parallel to [mehshi selek](recipe_mehshi_selek.md).
 *   **Serving variants:** Some households serve it with a garlic-yogurt sauce on the side, others just with Lebanese bread.
 *   ⚠️ Specific town-level differences (e.g. Zahle vs Tripoli) were not found in published sources.
+
+### Palestinian style (malfuf mahshi): Nablus, Jerusalem, Hebron
+*(Merged from the Palestine research.)*
+
+*   **Gaza (The Gaza Kitchen):** Garlic-forward broth; the sweet Gaza cabbage; leftover stuffing rolled in romaine lettuce.
+*   **West Bank family style (Palestine in a Dish):** Lamb or beef, 1 tbsp **cumin**, allspice, oil and butter; unpeeled garlic layered in; flipped onto a platter like maqluba; served with lemon, yogurt or cucumber-yogurt salad.
+*   **Lenten / vegetarian (Christian households of Bethlehem and Beit Jala) (⚠️):** Rice, tomato, parsley and chickpeas without meat. A common Levantine practice, not specifically documented here.
+*   **Diaspora (Chile):** *Rellenos* (stuffed vegetables) are ubiquitous on Santiago's *comida árabe* menus.
 
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: classic Lebanese home version with meat.*
@@ -56,3 +64,7 @@ Cabbage rolls are the winter partner of [warak enab](recipe_warak_enab.md). When
 *   [Simply Lebanese – Lebanese stuffed cabbage rolls](https://www.simplyleb.com/recipe/lebanese-stuffed-cabbage-rolls/)
 *   [Archana's Kitchen – Veg Lebanese Mihshi Malfuf (meatless version)](https://archanaskitchen.com/veg-lebanese-mihshi-malfuf-recipe-stuffed-cabbage-leaves)
 *   [Muna Ty Cooking – Stuffed Cabbage (Mahshi Malfouf)](https://www.munatycooking.com/stuffed-cabbage/)
+*   [Palestine in a Dish – Malfouf (stuffed cabbage rolls)](https://palestineinadish.com/recipes/malfouf-a-fantastic-and-delicious-stuffed-cabbage-rolls/)
+*   [ckbk – The Gaza Kitchen: Garlicky Stuffed Cabbage Rolls (Malfoof)](https://app.ckbk.com/recipe/gaza70968c08s001r009/garlicky-stuffed-cabbage-rolls)
+*   [Wikipedia – List of Palestinian dishes (malfuf)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
+*   [Jerusalem Quarterly 99 – Chilean Palestinian cookbooks (rellenos in Santiago, PDF)](https://ps.boell.org/sites/default/files/2025-06/jerusalem-quarterly-issue-99.pdf)

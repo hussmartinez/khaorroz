@@ -907,6 +907,139 @@
    "ca": "Boletes de kibbeh en salsa calenta de iogurt amb all i menta, espessida amb arròs",
    "th": "คิบเบห์ลูกกลมในซอสโยเกิร์ตร้อน กระเทียม และสะระแหน่ ข้นด้วยข้าว",
    "ar": "كبة لبنية: أقراص الكبة في لبن مطبوخ بالثوم والنعناع مُكثّف بالأرز"
+  },
+  "recipe_arroz_arabe_chileno.md": {
+   "en": "Chilean-Palestinian everyday rice cooked with toasted fine noodles",
+   "es": "Arroz diario chileno-palestino cocido con fideos finos tostados",
+   "ca": "Arròs de cada dia xilè-palestí cuit amb fideus fins torrats",
+   "th": "ข้าวประจำวันของชาวชิลีเชื้อสายปาเลสไตน์ หุงกับเส้นหมี่คั่ว",
+   "ar": "أرز يومي فلسطيني تشيلي مطبوخ مع الشعيرية المحمّصة"
+  },
+  "recipe_fate_chilena.md": {
+   "en": "Chilean-Palestinian wake dish: rice with goat, fried cauliflower and warm yogurt",
+   "es": "Plato de velorio chileno-palestino: arroz con cabrito, coliflor frita y yogur caliente",
+   "ca": "Plat de vetlla xilè-palestí: arròs amb cabrit, col-i-flor fregida i iogurt calent",
+   "th": "อาหารงานศพของชาวชิลีเชื้อสายปาเลสไตน์: ข้าวกับเนื้อแพะ กะหล่ำดอกทอด และโยเกิร์ตอุ่น",
+   "ar": "طبق العزاء الفلسطيني في تشيلي: أرز مع لحم الماعز والزهرة المقلية واللبن الساخن"
+  },
+  "recipe_fatteh_ghazawiyya.md": {
+   "en": "Gaza feast of toasted bread, rice and lamb with a fiery chilli-garlic dugga",
+   "es": "Festín de Gaza de pan tostado, arroz y cordero con dugga picante de guindilla y ajo",
+   "ca": "Festí de Gaza de pa torrat, arròs i xai amb dugga picant de bitxo i all",
+   "th": "อาหารงานเลี้ยงกาซา ขนมปังกรอบ ข้าว และเนื้อแกะ กับซอสพริกกระเทียมเผ็ดร้อน",
+   "ar": "فتة غزاوية: خبز محمّص وأرز ولحم ضأن مع الدقة الحارة بالفلفل والثوم"
+  },
+  "recipe_mayit_bandora_u_bayd.md": {
+   "en": "Gaza village rice simmered in tomato water with eggs poached on top",
+   "es": "Arroz de los pueblos de Gaza cocido en agua de tomate con huevos escalfados encima",
+   "ca": "Arròs dels pobles de Gaza cuit amb aigua de tomàquet i ous escalfats al damunt",
+   "th": "ข้าวหมู่บ้านกาซาเคี่ยวในน้ำมะเขือเทศ วางไข่ลวกด้านบน",
+   "ar": "أرز قرى غزة مطبوخ بماء البندورة مع بيض مسلوق فوقه"
+  },
+  "recipe_hbari_u_ruz.md": {
+   "en": "Gaza squid with rice toasted in deep-brown caramelised onions",
+   "es": "Calamar de Gaza con arroz tostado en cebolla muy caramelizada",
+   "ca": "Calamar de Gaza amb arròs torrat amb ceba molt caramel·litzada",
+   "th": "ปลาหมึกกาซากับข้าวคั่วในหอมใหญ่เคี่ยวจนสีน้ำตาลเข้ม",
+   "ar": "حبار غزاوي مع أرز محمّص بالبصل المكرمل"
+  },
+  "recipe_mahshi_lift.md": {
+   "en": "Winter turnips stuffed with rice, meat and sumac in a tangy tomato or tamarind sauce",
+   "es": "Nabos de invierno rellenos de arroz, carne y zumaque en salsa ácida de tomate o tamarindo",
+   "ca": "Naps d'hivern farcits d'arròs, carn i sumac amb salsa àcida de tomàquet o tamarinde",
+   "th": "หัวผักกาดฤดูหนาวยัดไส้ข้าว เนื้อ และซูแมค ในซอสมะเขือเทศหรือมะขามรสเปรี้ยว",
+   "ar": "لفت شتوي محشي بالأرز واللحم والسماق بصلصة البندورة أو التمر الهندي"
+  },
+  "recipe_lakhneh.md": {
+   "en": "Nablus leaves rolled around rice and cumin-spiced meat, a disappearing dish",
+   "es": "Hojas de Nablus enrolladas con arroz y carne al comino, un plato en extinción",
+   "ca": "Fulles de Nablus enrotllades amb arròs i carn amb comí, un plat en perill",
+   "th": "ใบผักห่อข้าวและเนื้อปรุงยี่หร่าแบบนาบลุส อาหารที่ใกล้สูญหาย",
+   "ar": "لخنة نابلسية: أوراق ملفوفة بالأرز واللحم المتبّل بالكمون، طبق مهدد بالاندثار"
+  },
+  "recipe_musluaa.md": {
+   "en": "Nablus winter pot of lentils and rice with a fried onion topping",
+   "es": "Olla de invierno de Nablus con lentejas y arroz y cebolla frita por encima",
+   "ca": "Olla d'hivern de Nablus amb llenties i arròs i ceba fregida al damunt",
+   "th": "หม้อฤดูหนาวแบบนาบลุส ถั่วเลนทิลกับข้าว โรยหอมใหญ่ทอด",
+   "ar": "المسلوعة النابلسية: عدس وأرز شتوي مع صبّة بصل مقلي"
+  },
+  "recipe_rabiya.md": {
+   "en": "Spring upside-down rice with fresh fava beans and lamb",
+   "es": "Arroz volteado de primavera con habas frescas y cordero",
+   "ca": "Arròs girat de primavera amb faves tendres i xai",
+   "th": "ข้าวคว่ำฤดูใบไม้ผลิกับถั่วปากอ้าสดและเนื้อแกะ",
+   "ar": "ربيعية: مقلوبة الربيع بالفول الأخضر ولحم الضأن"
+  },
+  "recipe_kousa_bi_laban.md": {
+   "en": "Zucchini stuffed with rice and meat, simmered in hot yogurt with garlic and mint",
+   "es": "Calabacines rellenos de arroz y carne cocidos en yogur caliente con ajo y menta",
+   "ca": "Carbassons farcits d'arròs i carn cuits en iogurt calent amb all i menta",
+   "th": "ซูกินียัดไส้ข้าวและเนื้อ เคี่ยวในโยเกิร์ตร้อนกับกระเทียมและสะระแหน่",
+   "ar": "كوسا محشية بالأرز واللحم مطبوخة باللبن الساخن مع الثوم والنعناع"
+  },
+  "recipe_ruz_w_lahm_al_urs.md": {
+   "en": "Historic village wedding feast: broth-cooked rice heaped on trays under boiled mutton",
+   "es": "Banquete de boda aldeano histórico: arroz cocido en caldo en bandejas bajo carnero hervido",
+   "ca": "Banquet de noces de poble històric: arròs cuit en brou en safates sota xai bullit",
+   "th": "งานเลี้ยงแต่งงานหมู่บ้านในอดีต: ข้าวหุงในน้ำซุปพูนบนถาด วางเนื้อแกะต้มด้านบน",
+   "ar": "رز ولحم العرس القروي قديمًا: أرز مطبوخ بالمرق على صوانٍ تحت لحم الضأن المسلوق"
+  },
+  "recipe_aruzz_khatuni.md": {
+   "en": "13th-century Syrian court rice cooked in fat, with pistachios toasted in sesame oil, sugar and rose water",
+   "es": "Arroz cortesano sirio del siglo XIII cocido en grasa, con pistachos tostados en aceite de sésamo, azúcar y agua de rosas",
+   "ca": "Arròs de cort sirià del segle XIII cuit en greix, amb festucs torrats en oli de sèsam, sucre i aigua de roses",
+   "th": "ข้าวราชสำนักซีเรียศตวรรษที่ 13 หุงกับไขมัน ใส่พิสตาชิโอคั่วน้ำมันงา น้ำตาล และน้ำกุหลาบ",
+   "ar": "أرز البلاط السوري من القرن الثالث عشر مطبوخ بالدهن مع فستق محمّص بزيت السمسم والسكر وماء الورد"
+  },
+  "recipe_aruzz_mufalfal_wusla.md": {
+   "en": "Medieval Syrian pilaf of loose rice with lamb, chickpeas and garlic",
+   "es": "Pilaf sirio medieval de arroz suelto con cordero, garbanzos y ajo",
+   "ca": "Pilaf sirià medieval d'arròs solt amb xai, cigrons i all",
+   "th": "พิลาฟซีเรียยุคกลาง ข้าวร่วนกับเนื้อแกะ ถั่วลูกไก่ และกระเทียม",
+   "ar": "أرز مفلفل سوري من العصور الوسطى مع لحم الضأن والحمص والثوم"
+  },
+  "recipe_shurba_al_baghdadi.md": {
+   "en": "Medieval rice soup with lamb, chickpeas, cinnamon and dill (Baghdad, 1226)",
+   "es": "Sopa medieval de arroz con cordero, garbanzos, canela y eneldo (Bagdad, 1226)",
+   "ca": "Sopa medieval d'arròs amb xai, cigrons, canyella i anet (Bagdad, 1226)",
+   "th": "ซุปข้าวยุคกลางกับเนื้อแกะ ถั่วลูกไก่ อบเชย และผักชีลาว (แบกแดด ค.ศ. 1226)",
+   "ar": "شوربة أرز من العصور الوسطى باللحم والحمص والقرفة والشبت (بغداد، 1226)"
+  },
+  "recipe_muhallabiyya_medieval.md": {
+   "en": "10th-century caliphs' rice with chicken cooked in milk and glazed with honey",
+   "es": "Arroz de los califas del siglo X con pollo cocido en leche y glaseado con miel",
+   "ca": "Arròs dels califes del segle X amb pollastre cuit amb llet i glacejat amb mel",
+   "th": "ข้าวของเคาะลีฟะฮ์ศตวรรษที่ 10 กับไก่ต้มนม เคลือบน้ำผึ้ง",
+   "ar": "مهلبية الخلفاء من القرن العاشر: أرز ودجاج مطبوخ بالحليب ومغطى بالعسل"
+  },
+  "recipe_mujaddara_medieval.md": {
+   "en": "The first recorded mujaddara: rice and lentils cooked with lamb (1226)",
+   "es": "La primera mujaddara documentada: arroz y lentejas cocidos con cordero (1226)",
+   "ca": "La primera mujaddara documentada: arròs i llenties cuits amb xai (1226)",
+   "th": "มุจัดดาราสูตรแรกที่มีบันทึก: ข้าวกับถั่วเลนทิลต้มกับเนื้อแกะ (ค.ศ. 1226)",
+   "ar": "أول مجدّرة مدوّنة: أرز وعدس مطبوخان مع لحم الضأن (1226)"
+  },
+  "recipe_harisat_al_aruzz.md": {
+   "en": "Lost Abbasid feast porridge of rice and lamb beaten smooth with milk and sesame oil",
+   "es": "Gacha festiva abasí perdida de arroz y cordero batidos con leche y aceite de sésamo",
+   "ca": "Farinetes festives abbàssides perdudes d'arròs i xai batuts amb llet i oli de sèsam",
+   "th": "โจ๊กงานเลี้ยงยุคอับบาซียะฮ์ที่สูญหาย ข้าวกับเนื้อแกะตีจนเนียนกับนมและน้ำมันงา",
+   "ar": "هريسة الأرز العباسية المندثرة: أرز ولحم ضأن يُضربان بالحليب وزيت السمسم"
+  },
+  "recipe_kharuf_mahshi_halabi.md": {
+   "en": "18th-century Aleppine feast: lamb stuffed with rice, almonds, raisins and pistachios",
+   "es": "Banquete alepino del siglo XVIII: cordero relleno de arroz, almendras, pasas y pistachos",
+   "ca": "Banquet d'Alep del segle XVIII: xai farcit d'arròs, ametlles, panses i festucs",
+   "th": "งานเลี้ยงอะเลปโปศตวรรษที่ 18: เนื้อแกะยัดไส้ข้าว อัลมอนด์ ลูกเกด และพิสตาชิโอ",
+   "ar": "وليمة حلبية من القرن الثامن عشر: خاروف محشي بالأرز واللوز والزبيب والفستق"
+  },
+  "recipe_pilav_ottoman_aleppo.md": {
+   "en": "Ottoman butter pilaf, the closing course of the 18th-century Aleppine table",
+   "es": "Pilav otomano con mantequilla, el último plato de la mesa alepina del siglo XVIII",
+   "ca": "Pilav otomà amb mantega, l'últim plat de la taula d'Alep del segle XVIII",
+   "th": "พิลาฟเนยแบบออตโตมัน อาหารจานสุดท้ายบนโต๊ะอะเลปโปศตวรรษที่ 18",
+   "ar": "رز بالسمن على الطريقة العثمانية، آخر أطباق المائدة الحلبية في القرن الثامن عشر"
   }
  },
  "regions": {
@@ -1074,7 +1207,8 @@
       "ar": "أرز يُطهى طبقات مع اللحم والخضار المقلية في قدر واحد ثم يُقلب على الصينية."
      },
      "members": [
-      "recipe_maqluba.md"
+      "recipe_maqluba.md",
+      "recipe_rabiya.md"
      ]
     },
     {
@@ -1099,7 +1233,8 @@
       "recipe_qidreh.md",
       "recipe_ouzi.md",
       "recipe_riz_a_djej.md",
-      "recipe_ruz_bi_djaj_hashweh.md"
+      "recipe_ruz_bi_djaj_hashweh.md",
+      "recipe_fatteh_ghazawiyya.md"
      ]
     },
     {
@@ -1127,7 +1262,10 @@
       "recipe_mehshi_basal.md",
       "recipe_yebra.md",
       "recipe_malfouf_mehshi.md",
-      "recipe_mehshi_selek.md"
+      "recipe_mehshi_selek.md",
+      "recipe_mahshi_lift.md",
+      "recipe_lakhneh.md",
+      "recipe_kousa_bi_laban.md"
      ]
     },
     {
@@ -1169,7 +1307,8 @@
      },
      "members": [
       "recipe_mujaddara.md",
-      "recipe_riz_bi_foul.md"
+      "recipe_riz_bi_foul.md",
+      "recipe_musluaa.md"
      ]
     },
     {
@@ -1199,7 +1338,8 @@
       "recipe_bazella_w_ruz.md",
       "recipe_sabanekh_w_riz.md",
       "recipe_daoud_basha.md",
-      "recipe_kibbeh_labanieh.md"
+      "recipe_kibbeh_labanieh.md",
+      "recipe_mayit_bandora_u_bayd.md"
      ]
     },
     {
@@ -1219,7 +1359,8 @@
       "ar": "أرز الساحل المطبوخ بمرق السمك مع البصل المحمّر."
      },
      "members": [
-      "recipe_sayadieh.md"
+      "recipe_sayadieh.md",
+      "recipe_hbari_u_ruz.md"
      ]
     },
     {
@@ -1263,6 +1404,55 @@
       "recipe_muhallabiyeh.md",
       "recipe_meghli.md",
       "recipe_mufattaka.md"
+     ]
+    },
+    {
+     "id": "diaspora",
+     "name": {
+      "en": "Diaspora rices",
+      "es": "Arroces de la diáspora",
+      "ca": "Arrossos de la diàspora",
+      "th": "ข้าวของชุมชนพลัดถิ่น",
+      "ar": "أرز المهجر"
+     },
+     "description": {
+      "en": "Rices carried abroad and reshaped by Palestinian, Lebanese and Syrian communities in Chile and the Americas.",
+      "es": "Arroces llevados al extranjero y transformados por las comunidades palestina, libanesa y siria de Chile y América.",
+      "ca": "Arrossos portats a l'estranger i transformats per les comunitats palestina, libanesa i síria de Xile i Amèrica.",
+      "th": "ข้าวที่ชุมชนชาวปาเลสไตน์ เลบานอน และซีเรียนำไปยังชิลีและทวีปอเมริกา แล้วปรับเปลี่ยนไป",
+      "ar": "أطباق أرز حملتها الجاليات الفلسطينية واللبنانية والسورية إلى تشيلي والأمريكتين وطوّرتها."
+     },
+     "members": [
+      "recipe_arroz_arabe_chileno.md",
+      "recipe_fate_chilena.md"
+     ]
+    },
+    {
+     "id": "historical",
+     "name": {
+      "en": "Historical & court rices",
+      "es": "Arroces históricos y de corte",
+      "ca": "Arrossos històrics i de cort",
+      "th": "ข้าวโบราณและข้าวราชสำนัก",
+      "ar": "أرز تاريخي وأطباق البلاط"
+     },
+     "description": {
+      "en": "Rices reconstructed from medieval Arabic and Ottoman sources and early ethnography, with honest modern adaptations.",
+      "es": "Arroces reconstruidos a partir de fuentes árabes medievales, otomanas y etnográficas, con adaptaciones modernas honestas.",
+      "ca": "Arrossos reconstruïts a partir de fonts àrabs medievals, otomanes i etnogràfiques, amb adaptacions modernes honestes.",
+      "th": "ข้าวที่สร้างขึ้นใหม่จากตำราอาหรับยุคกลาง ออตโตมัน และงานชาติพันธุ์วรรณนา พร้อมการปรับสูตรสมัยใหม่อย่างซื่อตรง",
+      "ar": "أطباق أرز أُعيد بناؤها من المصادر العربية الوسيطة والعثمانية والإثنوغرافية، مع تكييف حديث أمين."
+     },
+     "members": [
+      "recipe_aruzz_khatuni.md",
+      "recipe_aruzz_mufalfal_wusla.md",
+      "recipe_shurba_al_baghdadi.md",
+      "recipe_muhallabiyya_medieval.md",
+      "recipe_mujaddara_medieval.md",
+      "recipe_harisat_al_aruzz.md",
+      "recipe_kharuf_mahshi_halabi.md",
+      "recipe_pilav_ottoman_aleppo.md",
+      "recipe_ruz_w_lahm_al_urs.md"
      ]
     }
    ]
