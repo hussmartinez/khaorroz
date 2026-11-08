@@ -781,6 +781,69 @@
    "ca": "Tomàquets fregits amb oli d'oliva, ceba i bitxo verd, servits sobre arròs",
    "th": "มะเขือเทศผัดน้ำมันมะกอก หอมใหญ่ และพริกเขียว ราดบนข้าว",
    "ar": "بندورة مقلية بزيت الزيتون والبصل والفلفل الأخضر الحار تُسكب على الأرز"
+  },
+  "recipe_yalanji.md": {
+   "en": "Meatless vine leaves stuffed with rice, tomato and herbs, cooked in oil and lemon, served cold",
+   "es": "Hojas de parra sin carne rellenas de arroz, tomate y hierbas, cocidas en aceite y limón, servidas frías",
+   "ca": "Fulles de parra sense carn farcides d'arròs, tomàquet i herbes, cuites amb oli i llimona, servides fredes",
+   "th": "ใบองุ่นยัดไส้ข้าว มะเขือเทศ และสมุนไพร ไม่ใส่เนื้อ ตุ๋นในน้ำมันมะกอกและมะนาว เสิร์ฟเย็น",
+   "ar": "ورق عنب بالزيت محشو بالأرز والبندورة والأعشاب، يُطهى بالزيت والليمون ويُقدَّم بارداً"
+  },
+  "recipe_sheikh_al_mahshi.md": {
+   "en": "Zucchini stuffed with lamb and pine nuts, cooked in yogurt sauce and served with rice",
+   "es": "Calabacines rellenos de cordero y piñones, guisados en salsa de yogur y servidos con arroz",
+   "ca": "Carbassons farcits de xai i pinyons, cuits en salsa de iogurt i servits amb arròs",
+   "th": "ซูกินียัดไส้เนื้อแกะและเมล็ดสน เคี่ยวในซอสโยเกิร์ต เสิร์ฟกับข้าว",
+   "ar": "كوسا محشية باللحم والصنوبر مطبوخة باللبن، تُقدَّم مع الرز"
+  },
+  "recipe_mehshi_basal.md": {
+   "en": "Onion layers rolled around meat and rice, braised in a sticky tamarind glaze",
+   "es": "Capas de cebolla enrolladas con carne y arroz, guisadas en un glaseado de tamarindo",
+   "ca": "Capes de ceba enrotllades amb carn i arròs, cuites amb un glacejat de tamarinde",
+   "th": "กลีบหัวหอมม้วนไส้เนื้อและข้าว ตุ๋นในซอสมะขามเหนียวข้น",
+   "ar": "طبقات بصل محشوة باللحم والرز مطبوخة بصلصة التمر الهندي الدبقة"
+  },
+  "recipe_yebra.md": {
+   "en": "Aleppo Jewish vine leaves stuffed with meat and rice in sweet-sour apricot and tamarind sauce",
+   "es": "Hojas de parra judías de Alepo rellenas de carne y arroz en salsa agridulce de albaricoque y tamarindo",
+   "ca": "Fulles de parra jueves d'Alep farcides de carn i arròs en salsa agredolça d'albercoc i tamarinde",
+   "th": "ใบองุ่นยัดไส้เนื้อและข้าวสูตรชาวยิวเมืองอะเลปโป ในซอสเปรี้ยวหวานแอปริคอตและมะขาม",
+   "ar": "يبرق يهودي حلبي محشو باللحم والرز بصلصة المشمش والتمر الهندي الحلوة الحامضة"
+  },
+  "recipe_mlukhiyeh_ma_ruz.md": {
+   "en": "Whole jute leaves stewed with chicken, garlic and coriander, served over rice",
+   "es": "Hojas enteras de mulujía guisadas con pollo, ajo y cilantro, servidas sobre arroz",
+   "ca": "Fulles senceres de melokhia guisades amb pollastre, all i coriandre, servides sobre arròs",
+   "th": "ใบปอกระเจาทั้งใบตุ๋นกับไก่ กระเทียม และผักชี ราดบนข้าว",
+   "ar": "ملوخية ورق مطبوخة مع الدجاج والثوم والكزبرة، تُقدَّم مع الرز"
+  },
+  "recipe_bamyeh_ma_ruz.md": {
+   "en": "Baby okra and lamb in garlicky tomato sauce, served over vermicelli rice",
+   "es": "Okra tierna y cordero en salsa de tomate con ajo, sobre arroz con fideos",
+   "ca": "Ocra tendra i xai en salsa de tomàquet amb all, sobre arròs amb fideus",
+   "th": "กระเจี๊ยบเขียวอ่อนกับเนื้อแกะในซอสมะเขือเทศกระเทียม ราดบนข้าวผัดเส้นหมี่",
+   "ar": "بامية صغيرة ولحم ضأن بصلصة البندورة والثوم، تُقدَّم مع الرز بالشعيرية"
+  },
+  "recipe_bazella_w_ruz.md": {
+   "en": "Beef and green pea stew with pomegranate molasses, served with vermicelli rice",
+   "es": "Guiso de ternera y guisantes con melaza de granada, servido con arroz con fideos",
+   "ca": "Guisat de vedella i pèsols amb melassa de magrana, servit amb arròs amb fideus",
+   "th": "สตูว์เนื้อวัวกับถั่วลันเตาและกากน้ำตาลทับทิม เสิร์ฟกับข้าวผัดเส้นหมี่",
+   "ar": "يخنة لحم وبازيلا بدبس الرمان، تُقدَّم مع الرز بالشعيرية"
+  },
+  "recipe_kibbeh_hamda.md": {
+   "en": "Aleppo Jewish ground-rice kibbeh dumplings in a sour lemon and mint broth",
+   "es": "Albondiguillas de kibbeh de arroz molido en caldo agrio de limón y menta, de los judíos de Alepo",
+   "ca": "Mandonguilles de kibbeh d'arròs mòlt en brou àcid de llimona i menta, dels jueus d'Alep",
+   "th": "เกี๊ยวคิบเบะห์แป้งข้าวในน้ำซุปเปรี้ยวมะนาวและมินต์ สูตรชาวยิวเมืองอะเลปโป",
+   "ar": "كبة رز يهودية حلبية في مرق حامض بالليمون والنعنع"
+  },
+  "recipe_muhallabiyeh.md": {
+   "en": "Silky rice-flour milk pudding with orange-blossom water and pistachios (dessert)",
+   "es": "Crema de leche y harina de arroz con agua de azahar y pistachos (postre)",
+   "ca": "Crema de llet i farina d'arròs amb aigua de flor de taronger i festucs (postres)",
+   "th": "พุดดิ้งนมแป้งข้าวเนื้อเนียน หอมน้ำดอกส้ม โรยพิสตาชิโอ (ของหวาน)",
+   "ar": "مهلبية بطحين الرز وماء الزهر والفستق الحلبي (حلوى)"
   }
  },
  "regions": {
@@ -995,7 +1058,11 @@
      "members": [
       "recipe_mahshi.md",
       "recipe_mahshi_halabi.md",
-      "recipe_warak_enab.md"
+      "recipe_warak_enab.md",
+      "recipe_yalanji.md",
+      "recipe_sheikh_al_mahshi.md",
+      "recipe_mehshi_basal.md",
+      "recipe_yebra.md"
      ]
     },
     {
@@ -1040,7 +1107,10 @@
       "recipe_fasoulia_w_riz.md",
       "recipe_shakriyeh.md",
       "recipe_ships_w_pasta.md",
-      "recipe_galayet_bandora_bi_ruz.md"
+      "recipe_galayet_bandora_bi_ruz.md",
+      "recipe_mlukhiyeh_ma_ruz.md",
+      "recipe_bamyeh_ma_ruz.md",
+      "recipe_bazella_w_ruz.md"
      ]
     },
     {
@@ -1064,6 +1134,26 @@
      ]
     },
     {
+     "id": "soups",
+     "name": {
+      "en": "Rice soups & dumplings",
+      "es": "Sopas de arroz y albondiguillas",
+      "ca": "Sopes d'arròs i mandonguilles",
+      "th": "ซุปข้าวและเกี๊ยว",
+      "ar": "شوربات الأرز والكبب"
+     },
+     "description": {
+      "en": "Broths with rice or rice-based dumplings, often sour with lemon.",
+      "es": "Caldos con arroz o albondiguillas de arroz, a menudo ácidos de limón.",
+      "ca": "Brous amb arròs o mandonguilles d'arròs, sovint àcids de llimona.",
+      "th": "น้ำซุปใส่ข้าวหรือเกี๊ยวแป้งข้าว มักมีรสเปรี้ยวมะนาว",
+      "ar": "مرق بالأرز أو بكبب الرز، غالباً حامض بالليمون."
+     },
+     "members": [
+      "recipe_kibbeh_hamda.md"
+     ]
+    },
+    {
      "id": "sweet",
      "name": {
       "en": "Sweet rices",
@@ -1080,7 +1170,8 @@
       "ar": "أرز بالحليب معطّر بالمستكة أو ماء الورد أو ماء الزهر."
      },
      "members": [
-      "recipe_riz_bi_haleeb.md"
+      "recipe_riz_bi_haleeb.md",
+      "recipe_muhallabiyeh.md"
      ]
     }
    ]

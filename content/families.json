@@ -312,7 +312,8 @@
     "recipe_paella_de_ceba_i_bacalla.md",
     "recipe_potaje_banezano.md",
     "recipe_mujaddara.md",
-    "recipe_warak_enab.md"
+    "recipe_warak_enab.md",
+    "recipe_yalanji.md"
    ]
   },
   {
@@ -382,7 +383,8 @@
     "recipe_arroz_con_leche.md",
     "recipe_arroz_con_miel_bogarra.md",
     "recipe_escudella_d_angel.md",
-    "recipe_riz_bi_haleeb.md"
+    "recipe_riz_bi_haleeb.md",
+    "recipe_muhallabiyeh.md"
    ]
   },
   {
@@ -408,7 +410,11 @@
     "recipe_riz_bi_foul.md",
     "recipe_riz_bi_shariyyeh.md",
     "recipe_ships_w_pasta.md",
-    "recipe_galayet_bandora_bi_ruz.md"
+    "recipe_galayet_bandora_bi_ruz.md",
+    "recipe_mlukhiyeh_ma_ruz.md",
+    "recipe_bamyeh_ma_ruz.md",
+    "recipe_bazella_w_ruz.md",
+    "recipe_kibbeh_hamda.md"
    ]
   },
   {
@@ -449,7 +455,11 @@
    "members": [
     "recipe_mahshi.md",
     "recipe_mahshi_halabi.md",
-    "recipe_warak_enab.md"
+    "recipe_warak_enab.md",
+    "recipe_yalanji.md",
+    "recipe_sheikh_al_mahshi.md",
+    "recipe_mehshi_basal.md",
+    "recipe_yebra.md"
    ]
   },
   {
@@ -469,7 +479,8 @@
     "recipe_zarb.md",
     "recipe_qidreh.md",
     "recipe_shakriyeh.md",
-    "recipe_ouzi.md"
+    "recipe_ouzi.md",
+    "recipe_sheikh_al_mahshi.md"
    ]
   },
   {
@@ -489,7 +500,9 @@
     "recipe_shakriyeh.md",
     "recipe_fasoulia_w_riz.md",
     "recipe_fideua.md",
-    "recipe_arrossejat.md"
+    "recipe_arrossejat.md",
+    "recipe_bamyeh_ma_ruz.md",
+    "recipe_bazella_w_ruz.md"
    ]
   }
  ]

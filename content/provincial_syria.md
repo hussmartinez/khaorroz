@@ -20,17 +20,32 @@ Between and beyond them sit distinct regional kitchens. **Homs and Hama** are kn
 | **Euphrates & Jazira (east)** | Bread-and-broth *tharid* (e.g. okra tharid); rice less central ⚠️ | Deir ez-Zor, Raqqa, Hasakah |
 
 ## 3. Recipes in this Region
-| Recipe | Texture | Zone |
+| Recipe | Dish type | Zone |
 |---|---|---|
-| [Ouzi](recipe_ouzi.md) | Seco | Damascus (also Jordan, Lebanon) |
-| [Shakriyeh with Vermicelli Rice](recipe_shakriyeh.md) | Seco | Damascus, Hama, Homs (also Lebanon, Palestine) |
-| [Mahshi Halabi (Aleppo Stuffed Vegetables)](recipe_mahshi_halabi.md) | Meloso | Aleppo |
-| [Riz bi Foul (Rice with Fava Beans)](recipe_riz_bi_foul.md) ⚠️ | Seco | Damascus, Syrian & Lebanese home cooking |
-| [Riz bi Haleeb (Rice Pudding)](recipe_riz_bi_haleeb.md) | Meloso | Aleppo, Damascus (also Lebanon, Palestine) |
+| [Ouzi](recipe_ouzi.md) | Feast rice in pastry | Damascus (also Jordan, Lebanon) |
+| [Shakriyeh with Vermicelli Rice](recipe_shakriyeh.md) | Rice with stew (yogurt) | Damascus, Hama, Homs (also Lebanon, Palestine) |
+| [Mahshi Halabi (Aleppo Stuffed Vegetables)](recipe_mahshi_halabi.md) | Stuffed vegetables | Aleppo |
+| [Riz bi Foul (Rice with Fava Beans)](recipe_riz_bi_foul.md) ⚠️ | Rice & legumes | Damascus, Syrian & Lebanese home cooking |
+| [Riz bi Haleeb (Rice Pudding)](recipe_riz_bi_haleeb.md) | Sweet rice | Aleppo (mbattan), Damascus (also Lebanon, Palestine) |
+| [Yalanji](recipe_yalanji.md) ⚠️ | Stuffed vine leaves in oil (meatless, cold) | Aleppo, Damascus |
+| [Sheikh al-Mahshi](recipe_sheikh_al_mahshi.md) ⚠️ | Stuffed zucchini in yogurt, served with rice | Damascus (also Palestine, Jordan) |
+| [Mehshi Basal](recipe_mehshi_basal.md) ⚠️ | Stuffed onions, tamarind glaze | Aleppo (incl. Jewish community) |
+| [Mlukhiyeh ma' Ruz](recipe_mlukhiyeh_ma_ruz.md) ⚠️ | Rice with stew (jute leaves) | Syria-wide, Ramadan |
+| [Bamyeh ma' Ruz](recipe_bamyeh_ma_ruz.md) ⚠️ | Rice with stew (okra) | Damascus, Aleppo, Homs |
+| [Bazella w Ruz](recipe_bazella_w_ruz.md) ⚠️ | Rice with stew (peas) | Homs, Damascus, Aleppo |
+| [Muhallabiyeh](recipe_muhallabiyeh.md) ⚠️ | Sweet rice (rice-flour pudding) | Damascus, Aleppo |
+| [Yebra](recipe_yebra.md) ⚠️ | Stuffed vine leaves, sweet-sour (Aleppo Jewish) | Aleppo → Brooklyn, Mexico, Israel |
+| [Kibbeh Hamda (Hamud)](recipe_kibbeh_hamda.md) ⚠️ | Ground-rice kibbeh in sour broth (Aleppo Jewish) | Aleppo → Brooklyn, Mexico |
 
 ⚠️ = thinner documentation; see the file's confidence note.
 
+### Syria's Jewish rice traditions
+Aleppo (and to a lesser extent Damascus) had ancient Jewish communities whose cooking shared the city's ingredients but developed a recognisable style: **sweet-sour sauces** of *ou'* (tamarind concentrate), dried apricots and prunes, and **kibbeh made from ground rice**. Most of the community emigrated in the 20th century, chiefly to **Brooklyn and Deal (US)**, **Mexico City** (where Aleppine and Damascene Jews founded separate congregations, the Aleppine one known as *Maguén David*), Panama, Argentina and Israel. Their dishes (*yebra*, *mehshi*, *kibbeh hamda*) are documented today mostly from those diaspora kitchens and from Poopa Dweck's *Aromas of Aleppo*. Many Syrian-Jewish families eat rice at Passover, so rice dishes feature at the Seder.
+
 ## 4. Reference Links
+*   [Eat Your Books – *Aromas of Aleppo: The Legendary Cuisine of Syrian Jews* (Poopa Dweck)](https://www.eatyourbooks.com/library/15746/aromas-of-aleppo)
+*   [Wikipedia – Syrian Mexicans (Aleppine and Damascene communities)](https://wiki.riteme.site/wiki/Syrian_Mexicans)
+*   [Aramco World – Bazela bil roz, from Anas Atassi's *Sumac* (Homs)](https://www.aramcoworld.com/en/articles/2023/flavors-beef-stew-with-green-peas-bazela-bil-roz)
 *   [Aramco World (1975) – Meats and Sweets of Syria (Damascus vs. Aleppo)](https://archive.aramcoworld.com/issue/197506/meats.and.sweets.of.syria.htm)
 *   [International Academy of Gastronomy – Syria](https://intergastronom.com/syria/)
 *   [Wikipedia – Syrian cuisine](https://en.wikipedia.com/wiki/Syrian_cuisine)
