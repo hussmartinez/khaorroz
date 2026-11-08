@@ -100,7 +100,7 @@ FAMILIES = {
     "Home-style & country rices": (
         "Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had.",
         ["arroz_amarillo_canario", "arroz_a_la_cubana_canario", "arroz_a_la_sevillana", "arroz_campero_andaluz",
-         "arroz_cortijero_jaen", "perol_cordobes", "arroz_a_la_asturiana", "riz_bi_foul", "riz_bi_shariyyeh"]),
+         "arroz_cortijero_jaen", "perol_cordobes", "arroz_a_la_asturiana", "riz_bi_foul", "riz_bi_shariyyeh", "ships_w_pasta", "galayet_bandora_bi_ruz"]),
     "Rice & legumes": (
         "Rice cooked with lentils, beans or fava: the poor-and-sustaining pot from Orihuela to Beirut.",
         ["mujaddara", "arroz_de_los_tres_punaos", "arroz_y_habichuelas_murciano", "potaje_banezano", "arros_amb_fava_pela",

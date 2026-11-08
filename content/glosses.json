@@ -767,6 +767,20 @@
    "ca": "Festí beduí al forn sota terra: xai i pollastre rostits sobre arròs especiat",
    "th": "งานเลี้ยงชาวเบดูอินอบในหลุมใต้ดิน: เนื้อแกะและไก่อบบนข้าวปรุงเครื่องเทศ",
    "ar": "وليمة بدوية تُطهى في حفرة تحت الأرض: لحم ضأن ودجاج فوق أرز متبّل"
+  },
+  "recipe_ships_w_pasta.md": {
+   "en": "Circassian squares of pressed rice and bulgur under a walnut-garlic chicken gravy",
+   "es": "Cuadrados circasianos de arroz y bulgur prensados con salsa de nueces, ajo y pollo",
+   "ca": "Quadrats circassians d'arròs i bulgur premsats amb salsa de nous, all i pollastre",
+   "th": "ข้าวและบัลเกอร์อัดเป็นชิ้นสี่เหลี่ยมสไตล์เซอร์แคสเซียน ราดซอสวอลนัตกระเทียมกับไก่",
+   "ar": "مربعات شركسية من الأرز والبرغل المضغوط مع صلصة الجوز والثوم والدجاج"
+  },
+  "recipe_galayet_bandora_bi_ruz.md": {
+   "en": "Tomatoes fried with olive oil, onion and green chili, ladled over rice",
+   "es": "Tomates fritos con aceite de oliva, cebolla y guindilla verde, servidos sobre arroz",
+   "ca": "Tomàquets fregits amb oli d'oliva, ceba i bitxo verd, servits sobre arròs",
+   "th": "มะเขือเทศผัดน้ำมันมะกอก หอมใหญ่ และพริกเขียว ราดบนข้าว",
+   "ar": "بندورة مقلية بزيت الزيتون والبصل والفلفل الأخضر الحار تُسكب على الأرز"
   }
  },
  "regions": {
@@ -1024,7 +1038,9 @@
      "members": [
       "recipe_riz_bi_shariyyeh.md",
       "recipe_fasoulia_w_riz.md",
-      "recipe_shakriyeh.md"
+      "recipe_shakriyeh.md",
+      "recipe_ships_w_pasta.md",
+      "recipe_galayet_bandora_bi_ruz.md"
      ]
     },
     {

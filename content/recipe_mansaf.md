@@ -16,6 +16,8 @@ The dish brings together the two halves of Jordanian rural life. Its yogurt come
 
 **Culinary science:** jameed is yogurt strained, salted and sun-dried into hard balls, which preserves milk protein for the dry season. Reconstituted and blended, it gives a sour, salty, intensely savoury sauce. It **curdles** easily: casein clumps if boiled hard, so the sauce is stirred continuously, in one direction, as it heats and the lamb finishes in it. The rice is cooked plainly, fluffy and separate, often tinted with a little turmeric, so it can absorb the sauce at the table without turning to mush. The fat (*samn baladi*, clarified sheep's butter) carries the aroma of the toasted nuts and the spice blend (*hwajeh* / *baharat*).
 
+> ⚠️ **When did rice enter mansaf?** The sources disagree. Culture Trip dates it to the **late 1920s**, under the early Hashemite emirate. Wikipedia and its mirrors date the switch from bulgur to rice to **around the 1950s**, explaining it by trade across the Syrian and Palestinian borders (rice reached towns such as Hartha first). They describe the pre-1945 dish as **bread, meat and clarified butter** only. Several sources also say jameed in *cooked* dishes is a sedentary-era development rather than an old Bedouin practice. ([Culture Trip – A brief history of mansaf](https://theculturetrip.com/middle-east/jordan/articles/a-brief-history-of-mansaf-jordans-national-dish); [Wikipedia – Mansaf](https://en.wikipedia.org/wiki/Mansaf))
+
 ## 3. Local Town-by-Town Variations (Crucial)
 
 *   **The Karak Style (al-Karak, the south):** Built on **jameed karaki**, the most prized jameed in Jordan. In Karak villages such as Zahoum, families make it each spring from sheep's milk, shaping strained yogurt into fist-sized balls and drying them. Karak mansaf is reputed to be sharper and saltier, with a thicker sauce. ⚠️ The "sharper, thicker" characterisation is common oral lore, not documented in print.
@@ -24,6 +26,8 @@ The dish brings together the two halves of Jordanian rural life. Its yogurt come
 *   **The Bedouin / Old Style (desert, south and east):** The documented older form is **meat, broth or clarified butter, and shrak**, with bulgur rather than rice, and in some groups without jameed at all. In some Bedouin villages men cook the meat and yogurt over an open fire while women prepare the grain and shrak in a separate tent.
 *   **The Palestinian Style (central & southern West Bank, the Naqab/Negev):** Mansaf is the main feast dish there too, eaten in the same way. Palestinian cooks often use **laban jameed** or liquid jameed and markook (similar to shrak) bread. See [Palestine](provincial_palestine.md).
 *   **The Aqaba Note (the Red Sea coast):** A **fish mansaf** is reported around Aqaba. ⚠️ Only one secondary source mentions it, and it is not documented further. Aqaba's signature fish-and-rice dish is the coastal *sayadieh*.
+*   **Christian towns (Madaba, Fuheis, al-Salt):** Mansaf is also the feast dish of Jordan's Christian communities. A travel guide reports it at Easter lunches and baptisms there, with maqluba as the usual Sunday meal after church. ⚠️ This comes from a commercial travel source. ([Sunheron – What to eat in Jordan's Christian and wine areas](https://sunheron.com/blog/cuisine/what-to-eat-in-jordan-christian-wine-areas/))
+*   **Chicken mansaf (modern household variant):** A lighter, cheaper version with a whole chicken cut into pieces instead of lamb. It is cooked with cardamom, bay and black pepper, sometimes on turmeric-yellow Egyptian rice, and sometimes with fresh yogurt stabilised with egg instead of jameed. It appears in Jordanian recipe sites and diaspora cookbooks; no source presents it as traditional. ([E3arabi – منسف الدجاج](https://e3arabi.com/%D9%81%D9%86-%D8%A7%D9%84%D8%B7%D9%87%D9%8A/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%B9%D9%85%D9%84-%D9%85%D9%86%D8%B3%D9%81-%D8%A7%D9%84%D8%AF%D8%AC%D8%A7%D8%AC/); [The Spice House – Chicken mansaf](https://www.thespicehouse.com/blogs/recipes/chicken-mansaf-recipe))
 
 | Variable | Karak | Salt / Balqa | North (Irbid, Ajloun) | Bedouin / older form |
 |---|---|---|---|---|
@@ -69,6 +73,9 @@ The dish brings together the two halves of Jordanian rural life. Its yogurt come
 8. **Serving:** Bring the hot jameed to the table in a bowl and ladle it over each portion. Traditionally everyone eats standing around the tray, **right hand only**, forming the rice and sauce into balls.
 
 ## 5. Authority Reference Links
+*   [Jordan Intangible Cultural Heritage (Ministry of Culture) – المنسف AlMansaf](https://ich.gov.jo/node/71429)
+*   [Al-Ahram – طبق غيّر مجرى التاريخ: القصة الحقيقية وراء المنسف الأردني](https://gate.ahram.org.eg/News/5300624.aspx)
+*   [Culture Trip – A brief history of mansaf](https://theculturetrip.com/middle-east/jordan/articles/a-brief-history-of-mansaf-jordans-national-dish)
 *   [UNESCO – Al-Mansaf in Jordan, a festive banquet and its social and cultural meanings (2022)](https://ich.unesco.org/en/RL/al-mansaf-in-jordan-a-festive-banquet-and-its-social-and-cultural-meanings-01849?RL=01849)
 *   [Jordan Times – Flavours of hospitality, tradition take Jordan's mansaf to world's table](https://jordantimes.com/news/local/flavours-hospitality-tradition-take-jordans-mansaf-worlds-table)
 *   [Arab News – UNESCO adds Jordanian mansaf to intangible cultural heritage list](https://arabnews.com/node/2208976/food-health)
