@@ -64,7 +64,7 @@
     const cards = $$(".card", sec);
     const groupsEl = $$(".area-group", sec);
     const q = $("#q"), count = $("#count"), empty = $("#empty");
-    const state = { area: "", texture: "", province: "", q: "", ft: new Map() };
+    const state = { area: "", texture: "", province: "", historical: "", q: "", ft: new Map() };
     const apply = (animate = true) => {
       const run = () => {
         let n = 0;
@@ -72,6 +72,7 @@
           const text = !state.q || c.dataset.search.includes(state.q);
           const hit = state.ft.get(c.dataset.slug);
           const ok = (!state.area || c.dataset.area === state.area)
+            && (!state.historical || c.dataset.historical === "1")
             && (!state.texture || c.dataset.texture === state.texture)
             && (!state.province || c.dataset.provinces.split(" ").includes(state.province))
             && (text || hit !== undefined);
@@ -114,6 +115,7 @@
       }));
     };
     group("data-filter-area", "area");
+    group("data-filter-historical", "historical");
     group("data-filter-texture", "texture");
     group("data-filter-province", "province");
     // choosing an area clears a region filter that belongs to another area

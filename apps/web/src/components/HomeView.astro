@@ -114,6 +114,12 @@ const floaters = recipes.filter((r) => r !== heroDish && r.spec && ["seco", "neg
               {groups.map((a) => <button type="button" data-filter-area={a.id}>{a.name}</button>)}
             </div>
           )}
+          {recipes.some((r) => r.historical) && (
+            <div class="filters" role="group" aria-label={tr(lang, "historical")}>
+              <button type="button" data-filter-historical="" aria-pressed="true">{tr(lang, "all")}</button>
+              <button type="button" data-filter-historical="1"><span aria-hidden="true">⌛</span> {tr(lang, "historical")}</button>
+            </div>
+          )}
           {facets.length > 0 && (
             <div class="filters seg" role="group" aria-label={tr(lang, isTexture ? "texture" : "category")}>
               <button type="button" data-filter-texture="" aria-pressed="true">{tr(lang, "all")}</button>

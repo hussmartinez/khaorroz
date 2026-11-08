@@ -133,6 +133,7 @@ export function recipeLD(p: Page, m: SiteModel, opts: { url: string; description
     dateModified: dates.modified,
     author: { "@id": ORG_ID },
     publisher: { "@id": ORG_ID },
+    ...(p.historical ? { temporalCoverage: p.historical, genre: "Historical recipe" } : {}),
     ...(d.sources.length ? {
       citation: d.sources.map((s) => ({ "@type": "CreativeWork", name: s.title, url: s.url })),
       isBasedOn: d.sources.map((s) => s.url),

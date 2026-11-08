@@ -848,3 +848,8 @@ body[data-theme="thai"]::after { content: ""; position: fixed; inset: 0; z-index
 .chip-cat-6 i, .dot-cat-6 { background: #6b4fa0; }
 .chip-cat-7 i, .dot-cat-7 { background: #2f7d6d; }
 .tex-cat-6 { --tint: var(--tint-meloso); } .tex-cat-7 { --tint: var(--tint-caldoso); }
+
+/* Historical / lost recipes ("**Historical Source:**") */
+.chip-historical { background: color-mix(in srgb, var(--ink) 88%, transparent); color: var(--paper); }
+.chip-historical i { background: var(--saffron-2); }
+.tag-historical { border-style: dashed; border-color: var(--saffron); color: var(--ink); max-width: 100%; }

@@ -80,6 +80,8 @@ const en = {
   historyOf: "The history of rice in {name}",
   historyIndexTitle: "The history of rice",
   historyIndexLede: "Each rice tradition has its own story: how rice arrived, who grew it and how it became local dishes. Choose one.",
+  historicalRecipe: "Historical recipe",
+  historical: "Historical",
   missingLink: "Page not written yet",
 };
 type Strings = typeof en;
@@ -162,6 +164,8 @@ const es: Strings = {
   historyOf: "Historia del arroz en {name}",
   historyIndexTitle: "La historia del arroz",
   historyIndexLede: "Cada tradición del arroz tiene su propia historia: cómo llegó el arroz, quién lo cultivó y cómo se convirtió en platos locales. Elige una.",
+  historicalRecipe: "Receta histórica",
+  historical: "Históricas",
   missingLink: "Página aún no escrita",
 };
 
@@ -243,6 +247,8 @@ const ca: Strings = {
   historyOf: "Història de l'arròs a {name}",
   historyIndexTitle: "La història de l'arròs",
   historyIndexLede: "Cada tradició de l'arròs té la seua pròpia història: com va arribar l'arròs, qui el conreava i com es va convertir en plats locals. Trieu-ne una.",
+  historicalRecipe: "Recepta històrica",
+  historical: "Històriques",
   missingLink: "Pàgina encara no escrita",
 };
 
@@ -324,6 +330,8 @@ const th: Strings = {
   historyOf: "ประวัติข้าวใน{name}",
   historyIndexTitle: "ประวัติศาสตร์ของข้าว",
   historyIndexLede: "แต่ละวัฒนธรรมข้าวมีเรื่องราวของตัวเอง ข้าวมาถึงอย่างไร ใครปลูก และกลายเป็นอาหารท้องถิ่นได้อย่างไร เลือกได้เลย",
+  historicalRecipe: "สูตรโบราณ",
+  historical: "สูตรโบราณ",
   missingLink: "ยังไม่ได้เขียนหน้านี้",
 };
 
@@ -405,6 +413,8 @@ const ar: Strings = {
   historyOf: "تاريخ الأرز في {name}",
   historyIndexTitle: "تاريخ الأرز",
   historyIndexLede: "لكل تقليد من تقاليد الأرز قصته: كيف وصل الأرز، ومن زرعه، وكيف صار أطباقًا محلية. اختر واحدًا.",
+  historicalRecipe: "وصفة تاريخية",
+  historical: "تاريخية",
   missingLink: "لم تُكتب هذه الصفحة بعد",
 };
 

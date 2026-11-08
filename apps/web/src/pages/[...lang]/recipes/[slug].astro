@@ -64,6 +64,7 @@ const ogImage = ogPhoto && photoMeta
         {p.altTitle && <p dir="auto" class="alt-title">{p.altTitle}</p>}
         <div class="tags">
           <Chip m={m} p={p} />
+          {p.historical && <span class="tag tag-historical" title={tr(lang, "historicalRecipe")}><span aria-hidden="true">⌛</span> <span dir="auto">{p.historical}</span></span>}
           {p.spec && <span class="tag"><span class="tag-k">{tr(lang, "vessel")}</span> {vesselLabel(lang, p.spec.vessel)}</span>}
           {p.provinces.map((x) => <a class="tag" href={`${base}provinces/${provSlug(x.file)}`}><span class="pin" aria-hidden="true"></span>{m.regionName(x.file, x.name)}</a>)}
           {sourcesId && nSources > 0 && <a class="tag tag-sources" href={`#${sourcesId}`}><span aria-hidden="true">§</span> {tr(lang, "sources")} ({nSources})</a>}

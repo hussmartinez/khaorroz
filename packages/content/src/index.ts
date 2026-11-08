@@ -41,6 +41,7 @@ export interface Page {
   zone: string;
   texture: "" | "seco" | "meloso" | "caldoso"; // Spanish classification — only meaningful where the area's facet is "texture"
   category?: string; // area-specific dish category id (glosses.json areas.<id>.categories)
+  historical?: string; // "**Historical Source:**" line: reconstructed historical/lost recipe (work, author, date, place)
   provinces: { name: string; file: string }[];
   summary: string;
   status: TStatus;
@@ -187,7 +188,7 @@ export function parse(file: string, src: string, en?: Page): Page | null {
   }
   return {
     file, kind, slug, url: urlFor(kind, slug, file), title, altTitle, gloss: "", body,
-    zone: en?.zone ?? zone, texture: en?.texture ?? texture, category: en?.category, provinces: en?.provinces ?? provinces,
+    zone: en?.zone ?? zone, texture: en?.texture ?? texture, category: en?.category, historical: en?.historical ?? (field("Historical Source") || undefined), provinces: en?.provinces ?? provinces,
     summary, status: en ? "ok" : "source", spec,
     minutes: en?.minutes ?? Math.max(1, Math.round(body.split(/\s+/).length / 220)),
   };
