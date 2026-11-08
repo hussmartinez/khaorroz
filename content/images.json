@@ -969,6 +969,533 @@
     "th": "ข้าวผัดเส้นหมี่คั่วในหม้อ",
     "ar": "أرز بالشعيرية في القدر"
    }
+  },
+  "recipe_jaew_bong.md": {
+   "file": "images/jaew-bong.webp",
+   "width": 1000,
+   "height": 1192,
+   "commonsTitle": "File:Jeow Bong - Laotian chili dip.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Jeow_Bong_-_Laotian_chili_dip.jpg",
+   "author": "Isan1985",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "A bowl of jaew bong, a dark red relish of roasted chilli and fermented fish (Lao-style jeow bong)",
+    "es": "Un cuenco de jaew bong, una salsa rojo oscuro de chile asado y pescado fermentado (jeow bong al estilo lao)",
+    "ca": "Un bol de jaew bong, una salsa vermell fosc de bitxo rostit i peix fermentat (jeow bong d'estil lao)",
+    "th": "แจ่วบองในถ้วย น้ำพริกสีแดงเข้มจากพริกเผาและปลาร้า (แบบลาว)",
+    "ar": "وعاء من جاو بونغ، صلصة حمراء داكنة من الفلفل المشوي والسمك المخمّر (على الطريقة اللاوية)"
+   }
+  },
+  "recipe_jaew_mak_len.md": {
+   "file": "images/jaew-mak-len.webp",
+   "width": 1600,
+   "height": 1708,
+   "commonsTitle": "File:Jeow mak len.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Jeow_mak_len.jpg",
+   "author": "Isan1985",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "A bowl of roasted tomato and chilli relish (Lao jeow mak len, the same relish as Isan jaew mak len)",
+    "es": "Un cuenco de salsa de tomate y chile asados (jeow mak len lao, la misma salsa que el jaew mak len de Isan)",
+    "ca": "Un bol de salsa de tomàquet i bitxo rostits (jeow mak len lao, la mateixa salsa que el jaew mak len d'Isan)",
+    "th": "แจ่วมะเขือเทศเผาในถ้วย (แจ่วหมากเล่นแบบลาว ชนิดเดียวกับของอีสาน)",
+    "ar": "وعاء من صلصة الطماطم والفلفل المشويين (جاو ماك لين اللاوية، وهي الصلصة نفسها في إيسان)"
+   }
+  },
+  "recipe_kaeng_hang_le.md": {
+   "file": "images/kaeng-hang-le.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:แกงฮังเล ที่ หลู้ลำ.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AE%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%A5_%E0%B8%97%E0%B8%B5%E0%B9%88_%E0%B8%AB%E0%B8%A5%E0%B8%B9%E0%B9%89%E0%B8%A5%E0%B8%B3.jpg",
+   "author": "Chainwit.",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Kaeng hang le, northern Thai pork curry with ginger, in a bowl",
+    "es": "Kaeng hang le, curry de cerdo del norte de Tailandia con jengibre, en un cuenco",
+    "ca": "Kaeng hang le, curri de porc del nord de Tailàndia amb gingebre, en un bol",
+    "th": "แกงฮังเลหมูใส่ขิงในถ้วย",
+    "ar": "كاري هانغ لي بلحم الخنزير والزنجبيل من شمال تايلاند في وعاء"
+   }
+  },
+  "recipe_kaeng_khae.md": {
+   "file": "images/kaeng-khae.webp",
+   "width": 1389,
+   "height": 1015,
+   "commonsTitle": "File:Kaeng khae-963.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Kaeng_khae-963.JPG",
+   "author": "Xufanc",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Kaeng khae, a green northern Thai herb and vegetable curry",
+    "es": "Kaeng khae, un curry verde de hierbas y verduras del norte de Tailandia",
+    "ca": "Kaeng khae, un curri verd d'herbes i verdures del nord de Tailàndia",
+    "th": "แกงแคผักพื้นบ้านภาคเหนือ",
+    "ar": "كاري كاي الأخضر بالأعشاب والخضار من شمال تايلاند"
+   }
+  },
+  "recipe_kaeng_lueang.md": {
+   "file": "images/kaeng-lueang.webp",
+   "width": 1600,
+   "height": 1192,
+   "commonsTitle": "File:Kaeng lueang.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Kaeng_lueang.JPG",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Kaeng lueang, a yellow sour southern Thai fish curry, in a bowl",
+    "es": "Kaeng lueang, un curry amarillo y ácido de pescado del sur de Tailandia, en un cuenco",
+    "ca": "Kaeng lueang, un curri groc i àcid de peix del sud de Tailàndia, en un bol",
+    "th": "แกงเหลืองปลาในถ้วย",
+    "ar": "كاري لوانغ الأصفر الحامض بالسمك من جنوب تايلاند في وعاء"
+   }
+  },
+  "recipe_kaeng_om.md": {
+   "file": "images/kaeng-om.webp",
+   "width": 1600,
+   "height": 1052,
+   "commonsTitle": "File:Kaeng om 01.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Kaeng_om_01.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Two bowls of kaeng om, an Isan herb stew",
+    "es": "Dos cuencos de kaeng om, un guiso de hierbas de Isan",
+    "ca": "Dos bols de kaeng om, un guisat d'herbes d'Isan",
+    "th": "แกงอ่อมสองถ้วย",
+    "ar": "وعاءان من كاينغ أوم، يخنة الأعشاب من إيسان"
+   }
+  },
+  "recipe_kaeng_tai_pla.md": {
+   "file": "images/kaeng-tai-pla.webp",
+   "width": 1600,
+   "height": 1600,
+   "commonsTitle": "File:Kaeng tai pla 02.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Kaeng_tai_pla_02.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Kaeng tai pla, a southern Thai fish-innards curry with vegetables",
+    "es": "Kaeng tai pla, curry del sur de Tailandia con vísceras de pescado y verduras",
+    "ca": "Kaeng tai pla, curri del sud de Tailàndia amb vísceres de peix i verdures",
+    "th": "แกงไตปลาใส่ผัก",
+    "ar": "كاري تاي بلا الجنوبي بأحشاء السمك والخضار"
+   }
+  },
+  "recipe_kai_yang_isan.md": {
+   "file": "images/kai-yang-isan.webp",
+   "width": 1600,
+   "height": 1097,
+   "commonsTitle": "File:Somtam kaiyang khaoniaow.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Somtam_kaiyang_khaoniaow.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Kai yang grilled chicken with som tam, dipping sauces and a basket of sticky rice",
+    "es": "Pollo a la parrilla kai yang con som tam, salsas y una cesta de arroz glutinoso",
+    "ca": "Pollastre a la brasa kai yang amb som tam, salses i un cistell d'arròs glutinós",
+    "th": "ไก่ย่างกับส้มตำ น้ำจิ้ม และข้าวเหนียวในกระติบ",
+    "ar": "دجاج كاي يانغ المشوي مع سوم تام والصلصات وسلة أرز دبق"
+   }
+  },
+  "recipe_khanom_babin.md": {
+   "file": "images/khanom-babin.webp",
+   "width": 1600,
+   "height": 1052,
+   "commonsTitle": "File:ขนมบ้าบิ่น20250309.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%82%E0%B8%99%E0%B8%A1%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%9A%E0%B8%B4%E0%B9%88%E0%B8%9920250309.jpg",
+   "author": "ยุทธนาสาระขันธ์",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Khanom babin coconut cakes on a plate",
+    "es": "Pastelitos de coco khanom babin en un plato",
+    "ca": "Pastissets de coco khanom babin en un plat",
+    "th": "ขนมบ้าบิ่นบนจาน",
+    "ar": "كعكات جوز الهند خانوم بابين على طبق"
+   }
+  },
+  "recipe_khantok.md": {
+   "file": "images/khantok.webp",
+   "width": 1200,
+   "height": 1600,
+   "commonsTitle": "File:Khantok with dishes, served in Chiang Mai (2026).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khantok_with_dishes,_served_in_Chiang_Mai_(2026).jpg",
+   "author": "Chainwit.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": {
+    "en": "A khantok tray with northern Thai dishes, served in Chiang Mai",
+    "es": "Una bandeja khantok con platos del norte de Tailandia, servida en Chiang Mai",
+    "ca": "Una safata khantok amb plats del nord de Tailàndia, servida a Chiang Mai",
+    "th": "ขันโตกอาหารเหนือ เชียงใหม่",
+    "ar": "صينية خانتوك بأطباق شمال تايلاند تُقدَّم في شيانغ ماي"
+   }
+  },
+  "recipe_khao_kan_chin.md": {
+   "file": "images/khao-kan-chin.webp",
+   "width": 1600,
+   "height": 1600,
+   "commonsTitle": "File:2013 Khao kan chin.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:2013_Khao_kan_chin.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khao kan chin, rice steamed with pork blood, on banana leaf with coriander and shallots",
+    "es": "Khao kan chin, arroz al vapor con sangre de cerdo, sobre hoja de plátano con cilantro y chalotas",
+    "ca": "Khao kan chin, arròs al vapor amb sang de porc, sobre fulla de plàtan amb coriandre i escalunyes",
+    "th": "ข้าวกั๊นจิ๊นบนใบตอง กับผักชีและหอมแดง",
+    "ar": "خاو كان تشين، أرز مطهو على البخار بدم الخنزير على ورق الموز مع الكزبرة والكراث"
+   }
+  },
+  "recipe_khao_kua.md": {
+   "file": "images/khao-kua.webp",
+   "width": 900,
+   "height": 1268,
+   "commonsTitle": "File:Lao toasted rice powder (khao khua) for laab and jeow.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Lao_toasted_rice_powder_(khao_khua)_for_laab_and_jeow.jpg",
+   "author": "Isan1985",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": {
+    "en": "Toasted rice powder (khao kua) in a mortar, Lao and Isan style",
+    "es": "Arroz tostado molido (khao kua) en un mortero, al estilo lao e isan",
+    "ca": "Arròs torrat i mòlt (khao kua) en un morter, a l'estil lao i isan",
+    "th": "ข้าวคั่วในครก แบบลาวและอีสาน",
+    "ar": "مسحوق الأرز المحمّص (خاو كوا) في هاون، على الطريقة اللاوية والإيسانية"
+   }
+  },
+  "recipe_khao_lam.md": {
+   "file": "images/khao-lam.webp",
+   "width": 458,
+   "height": 375,
+   "commonsTitle": "File:Khao lam ข้าวหลาม riz gluant cuit avec du lait de noix de coco dans un tube de bambou thailand.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_lam_%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A1_riz_gluant_cuit_avec_du_lait_de_noix_de_coco_dans_un_tube_de_bambou_thailand.jpg",
+   "author": "Renaudsechet",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Khao lam: sticky rice cooked with coconut milk inside split bamboo",
+    "es": "Khao lam: arroz glutinoso cocido con leche de coco dentro de una caña de bambú abierta",
+    "ca": "Khao lam: arròs glutinós cuit amb llet de coco dins d'una canya de bambú oberta",
+    "th": "ข้าวหลาม ข้าวเหนียวกะทิในกระบอกไม้ไผ่ผ่าครึ่ง",
+    "ar": "خاو لام: أرز دبق مطهو بحليب جوز الهند داخل أنبوب خيزران مشقوق"
+   }
+  },
+  "recipe_khao_niao_nueng.md": {
+   "file": "images/khao-niao-nueng.webp",
+   "width": 1280,
+   "height": 960,
+   "commonsTitle": "File:Lao sticky rice.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Lao_sticky_rice.jpg",
+   "author": "Thomas Wanhoff",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "alt": {
+    "en": "Steamed sticky rice in a woven bamboo basket",
+    "es": "Arroz glutinoso al vapor en una cesta de bambú trenzado",
+    "ca": "Arròs glutinós al vapor en un cistell de bambú trenat",
+    "th": "ข้าวเหนียวนึ่งในกระติบไม้ไผ่",
+    "ar": "أرز دبق مطهو على البخار في سلة من الخيزران المنسوج"
+   }
+  },
+  "recipe_khao_phan_phak.md": {
+   "file": "images/khao-phan-phak.webp",
+   "width": 1600,
+   "height": 1060,
+   "commonsTitle": "File:Khao phan phak.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_phan_phak.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Khao phan phak, steamed rice-flour sheets rolled with vegetables, with a dipping sauce",
+    "es": "Khao phan phak, láminas de harina de arroz al vapor enrolladas con verduras, con salsa",
+    "ca": "Khao phan phak, làmines de farina d'arròs al vapor enrotllades amb verdures, amb salsa",
+    "th": "ข้าวพันผักกับน้ำจิ้ม",
+    "ar": "خاو فان فاك، رقائق دقيق أرز مطهوة على البخار ملفوفة بالخضار مع صلصة"
+   }
+  },
+  "recipe_khao_pong.md": {
+   "file": "images/khao-pong.webp",
+   "width": 640,
+   "height": 480,
+   "commonsTitle": "File:Picture 122tarin9.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Picture_122tarin9.jpg",
+   "author": "Skythailand99",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Two round khao pong sticky-rice crackers on a bamboo mat",
+    "es": "Dos galletas redondas de arroz glutinoso khao pong sobre una estera de bambú",
+    "ca": "Dues galetes rodones d'arròs glutinós khao pong sobre una estora de bambú",
+    "th": "ข้าวโป่งแผ่นกลมสองแผ่นบนแคร่ไม้ไผ่",
+    "ar": "قرصان مستديران من مقرمشات الأرز الدبق خاو بونغ على حصيرة خيزران"
+   }
+  },
+  "recipe_khao_puk_nga.md": {
+   "file": "images/khao-puk-nga.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Khao puk nga.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khao_puk_nga.jpg",
+   "author": "Phoebus 28",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Khao puk nga sticky-rice cakes on banana leaves at a Chiang Mai market",
+    "es": "Pastelitos de arroz glutinoso khao puk nga sobre hojas de plátano en un mercado de Chiang Mai",
+    "ca": "Pastissets d'arròs glutinós khao puk nga sobre fulles de plàtan en un mercat de Chiang Mai",
+    "th": "ข้าวปุกงาเชียงใหม่วางบนใบตองที่ตลาด",
+    "ar": "أقراص الأرز الدبق خاو بوك نغا على ورق الموز في سوق شيانغ ماي"
+   }
+  },
+  "recipe_khao_taen.md": {
+   "file": "images/khao-taen.webp",
+   "width": 900,
+   "height": 1196,
+   "commonsTitle": "File:ข้าวแต๋น.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B9%81%E0%B8%95%E0%B9%8B%E0%B8%99.jpg",
+   "author": "Dharmadana",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": {
+    "en": "Khao taen rice crackers on a market stall",
+    "es": "Galletas de arroz khao taen en un puesto de mercado",
+    "ca": "Galetes d'arròs khao taen en una parada de mercat",
+    "th": "ข้าวแต๋นที่แผงตลาด",
+    "ar": "مقرمشات الأرز خاو تاين في كشك بالسوق"
+   }
+  },
+  "recipe_khao_yam.md": {
+   "file": "images/khao-yam.webp",
+   "width": 1600,
+   "height": 1488,
+   "commonsTitle": "File:Nasi Kerabu J&K Restaurant.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Nasi_Kerabu_J%26K_Restaurant.jpg",
+   "author": "Encik Tekateki",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Nasi kerabu, the Kelantan (Malaysia) counterpart of southern Thai khao yam: blue rice with herbs and butterfly-pea flowers",
+    "es": "Nasi kerabu, el equivalente de Kelantan (Malasia) del khao yam del sur de Tailandia: arroz azul con hierbas y flores de guisante de mariposa",
+    "ca": "Nasi kerabu, l'equivalent de Kelantan (Malàisia) del khao yam del sud de Tailàndia: arròs blau amb herbes i flors de pèsol papallona",
+    "th": "นาซิกราบูของกลันตัน (มาเลเซีย) คู่แฝดของข้าวยำปักษ์ใต้ ข้าวสีฟ้ากับผักและดอกอัญชัน",
+    "ar": "ناسي كيرابو، نظير خاو يام الجنوب التايلاندي في كلانتان (ماليزيا): أرز أزرق بالأعشاب وأزهار البازلاء الفراشية"
+   }
+  },
+  "recipe_khua_kling.md": {
+   "file": "images/khua-kling.webp",
+   "width": 1200,
+   "height": 900,
+   "commonsTitle": "File:Khua Kling Moo Sab.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Khua_Kling_Moo_Sab.jpg",
+   "author": "Zheng Zhou",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Khua kling dry-fried minced pork with fresh vegetables and herbs",
+    "es": "Khua kling, cerdo picado salteado en seco con verduras y hierbas frescas",
+    "ca": "Khua kling, porc picat saltat en sec amb verdures i herbes fresques",
+    "th": "คั่วกลิ้งหมูสับกับผักสด",
+    "ar": "خوا كلينغ، لحم خنزير مفروم مقلي جافاً مع الخضار والأعشاب الطازجة"
+   }
+  },
+  "recipe_larb_isan.md": {
+   "file": "images/larb-isan.webp",
+   "width": 1600,
+   "height": 1086,
+   "commonsTitle": "File:Lap mu isan.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Lap_mu_isan.JPG",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Isan pork larb with mint and lettuce, served with sticky rice and fresh vegetables",
+    "es": "Larb de cerdo de Isan con menta y lechuga, servido con arroz glutinoso y verduras frescas",
+    "ca": "Larb de porc d'Isan amb menta i enciam, servit amb arròs glutinós i verdures fresques",
+    "th": "ลาบหมูอีสานกับสะระแหน่ ผักสด และข้าวเหนียว",
+    "ar": "لارب لحم الخنزير من إيسان بالنعناع والخس مع الأرز الدبق والخضار الطازجة"
+   }
+  },
+  "recipe_larb_mueang.md": {
+   "file": "images/larb-mueang.webp",
+   "width": 1200,
+   "height": 1600,
+   "commonsTitle": "File:ลาบหมูคั่ว หลู้ลำ.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A5%E0%B8%B2%E0%B8%9A%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7_%E0%B8%AB%E0%B8%A5%E0%B8%B9%E0%B9%89%E0%B8%A5%E0%B8%B3.jpg",
+   "author": "Chainwit.",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Northern Thai larb khua (cooked pork larb) at a Lanna restaurant",
+    "es": "Larb khua del norte de Tailandia (larb de cerdo cocinado) en un restaurante lanna",
+    "ca": "Larb khua del nord de Tailàndia (larb de porc cuinat) en un restaurant lanna",
+    "th": "ลาบหมูคั่วเมือง ร้านอาหารล้านนา",
+    "ar": "لارب خوا من شمال تايلاند (لارب لحم خنزير مطبوخ) في مطعم لانا"
+   }
+  },
+  "recipe_nam_phrik_num.md": {
+   "file": "images/nam-phrik-num.webp",
+   "width": 1600,
+   "height": 1599,
+   "commonsTitle": "File:Nam phrik num.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Nam_phrik_num.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "A bowl of nam phrik num, the smoky green-chilli relish of Chiang Mai",
+    "es": "Un cuenco de nam phrik num, la salsa ahumada de chile verde de Chiang Mai",
+    "ca": "Un bol de nam phrik num, la salsa fumada de bitxo verd de Chiang Mai",
+    "th": "น้ำพริกหนุ่มในถ้วย",
+    "ar": "وعاء من نام فريك نوم، صلصة الفلفل الأخضر المدخّنة من شيانغ ماي"
+   }
+  },
+  "recipe_nam_phrik_ong.md": {
+   "file": "images/nam-phrik-ong.webp",
+   "width": 1600,
+   "height": 1077,
+   "commonsTitle": "File:Nam phrik ong.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Nam_phrik_ong.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Nam phrik ong pork and tomato relish with cabbage and cucumber",
+    "es": "Nam phrik ong, salsa de cerdo y tomate con col y pepino",
+    "ca": "Nam phrik ong, salsa de porc i tomàquet amb col i cogombre",
+    "th": "น้ำพริกอ่องกับกะหล่ำปลีและแตงกวา",
+    "ar": "نام فريك أونغ، صلصة لحم الخنزير والطماطم مع الملفوف والخيار"
+   }
+  },
+  "recipe_nam_tok_mu.md": {
+   "file": "images/nam-tok-mu.webp",
+   "width": 1600,
+   "height": 1071,
+   "commonsTitle": "File:Moo nam tok.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Moo_nam_tok.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Nam tok mu, grilled pork salad with herbs and toasted rice",
+    "es": "Nam tok mu, ensalada de cerdo a la parrilla con hierbas y arroz tostado",
+    "ca": "Nam tok mu, amanida de porc a la brasa amb herbes i arròs torrat",
+    "th": "น้ำตกหมูกับผักสมุนไพรและข้าวคั่ว",
+    "ar": "نام توك مو، سلطة لحم خنزير مشوي بالأعشاب والأرز المحمّص"
+   }
+  },
+  "recipe_nasi_dagae.md": {
+   "file": "images/nasi-dagae.webp",
+   "width": 960,
+   "height": 720,
+   "commonsTitle": "File:Nasi Dagang PSU.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Nasi_Dagang_PSU.jpg",
+   "author": "Amirudin Mohd Zani",
+   "license": "CC BY 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+   "alt": {
+    "en": "Nasi dagae (nasi dagang) on banana leaf with fish curry, egg and chilli",
+    "es": "Nasi dagae (nasi dagang) sobre hoja de plátano con curry de pescado, huevo y chile",
+    "ca": "Nasi dagae (nasi dagang) sobre fulla de plàtan amb curri de peix, ou i bitxo",
+    "th": "นาซิดาแฆบนใบตอง กับแกงปลา ไข่ และพริก",
+    "ar": "ناسي داغاي على ورق الموز مع كاري السمك والبيض والفلفل"
+   }
+  },
+  "recipe_sai_krok_isan.md": {
+   "file": "images/sai-krok-isan.webp",
+   "width": 1600,
+   "height": 900,
+   "commonsTitle": "File:Sai krok Isan.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Sai_krok_Isan.jpg",
+   "author": "Vee Satayamas",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "en": "Grilled round Isan sour sausages with cucumber and cabbage",
+    "es": "Salchichas ácidas de Isan a la parrilla con pepino y col",
+    "ca": "Salsitxes àcides d'Isan a la brasa amb cogombre i col",
+    "th": "ไส้กรอกอีสานย่างกับแตงกวาและกะหล่ำปลี",
+    "ar": "نقانق إيسان الحامضة المشوية مع الخيار والملفوف"
+   }
+  },
+  "recipe_sai_ua.md": {
+   "file": "images/sai-ua.webp",
+   "width": 1600,
+   "height": 1600,
+   "commonsTitle": "File:Sai ua.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Sai_ua.JPG",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Sliced sai ua, the northern Thai herb sausage, on banana leaf",
+    "es": "Sai ua en rodajas, la salchicha de hierbas del norte de Tailandia, sobre hoja de plátano",
+    "ca": "Sai ua a rodanxes, la salsitxa d'herbes del nord de Tailàndia, sobre fulla de plàtan",
+    "th": "ไส้อั่วหั่นบนใบตอง",
+    "ar": "شرائح ساي أوا، نقانق الأعشاب من شمال تايلاند، على ورق الموز"
+   }
+  },
+  "recipe_sataw_phat_kapi_kung.md": {
+   "file": "images/sataw-phat-kapi-kung.webp",
+   "width": 1600,
+   "height": 2133,
+   "commonsTitle": "File:Methavalai Sorndaeng \"sato phat kung\" เมธาวลัย ศรแดง สะตอผัดกุ้ง (Dec 2021).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Methavalai_Sorndaeng_%22sato_phat_kung%22_%E0%B9%80%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%A7%E0%B8%A5%E0%B8%B1%E0%B8%A2_%E0%B8%A8%E0%B8%A3%E0%B9%81%E0%B8%94%E0%B8%87_%E0%B8%AA%E0%B8%B0%E0%B8%95%E0%B8%AD%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87_(Dec_2021).jpg",
+   "author": "Chainwit.",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Stink beans (sataw) stir-fried with prawns in shrimp paste",
+    "es": "Judías sataw salteadas con gambas y pasta de gambas",
+    "ca": "Mongetes sataw saltejades amb gambes i pasta de gamba",
+    "th": "สะตอผัดกุ้ง",
+    "ar": "فاصوليا ساتاو مقلية مع الروبيان ومعجون الروبيان"
+   }
+  },
+  "recipe_som_tam.md": {
+   "file": "images/som-tam.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Som Tam green papaya salad, Bangkok, Thailand.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Som_Tam_green_papaya_salad,_Bangkok,_Thailand.jpg",
+   "author": "Vyacheslav Argenberg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": {
+    "en": "Som tam green papaya salad on a plate in Bangkok",
+    "es": "Ensalada de papaya verde som tam en un plato en Bangkok",
+    "ca": "Amanida de papaia verda som tam en un plat a Bangkok",
+    "th": "ส้มตำในจาน กรุงเทพฯ",
+    "ar": "سلطة البابايا الخضراء سوم تام في طبق في بانكوك"
+   }
+  },
+  "recipe_tam_khanun.md": {
+   "file": "images/tam-khanun.webp",
+   "width": 1600,
+   "height": 1060,
+   "commonsTitle": "File:Tam khanun.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Tam_khanun.jpg",
+   "author": "Takeaway",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Tam khanun, pounded young jackfruit with pork and chilli, with pork cracklings",
+    "es": "Tam khanun, yaca joven machacada con cerdo y chile, con cortezas de cerdo",
+    "ca": "Tam khanun, jaca jove picada amb porc i bitxo, amb cotnes de porc",
+    "th": "ตำขนุนกับแคบหมู",
+    "ar": "تام خانون، جاك فروت صغير مدقوق مع لحم الخنزير والفلفل ومقرمشات الخنزير"
+   }
   }
  }
 }
