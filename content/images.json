@@ -2652,6 +2652,142 @@
     "th": "แกงหน่อไม้อีสานที่ใส่ข้าวเบือให้ข้น",
     "ar": "كاري براعم الخيزران من إيسان المكثّف بالأرز المدقوق (خاو بوا)"
    }
+  },
+  "recipe_arroz_campero_andaluz.md": {
+   "file": "images/arroz-campero-andaluz.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Arroz campero.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_campero.jpg",
+   "author": "Eduardo Milla",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Arroz campero in a paella pan with mushrooms and rosemary, from a Granada restaurant (plant-based version)",
+    "es": "Arroz campero en paellera con setas y romero, de un restaurante de Granada (versión vegetal)",
+    "ca": "Arròs de camp en paella amb bolets i romaní, d'un restaurant de Granada (versió vegetal)",
+    "th": "ข้าวกัมเปโรในกระทะปาเอยา ใส่เห็ดและโรสแมรี จากร้านอาหารในกรานาดา (สูตรมังสวิรัติ)",
+    "ar": "أرز كامبيرو في مقلاة الباييا مع الفطر وإكليل الجبل، من مطعم في غرناطة (نسخة نباتية)"
+   }
+  },
+  "recipe_arroz_conejo_y_caracoles.md": {
+   "file": "images/arroz-conejo-y-caracoles.webp",
+   "width": 450,
+   "height": 338,
+   "commonsTitle": "File:Arroz-con-conejo-y-caracoles.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz-con-conejo-y-caracoles.jpg",
+   "author": "Cehegin4u",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Rice with rabbit and snails in a large paella pan",
+    "es": "Arroz con conejo y caracoles en una paella grande",
+    "ca": "Arròs amb conill i caragols en una paella gran",
+    "th": "ข้าวกับกระต่ายและหอยทากในกระทะปาเอยาใบใหญ่",
+    "ar": "أرز بالأرانب والحلزون في مقلاة باييا كبيرة"
+   }
+  },
+  "recipe_paella_amb_mandonguilles.md": {
+   "file": "images/paella-amb-mandonguilles.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Plato de paella con pelotas dulce y salada (Torreblanca).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Plato_de_paella_con_pelotas_dulce_y_salada_(Torreblanca).jpg",
+   "author": "Juan Emilio Prades Bel",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Plate of paella with large meatballs (pelotas), Torreblanca",
+    "es": "Plato de paella con pelotas, Torreblanca",
+    "ca": "Plat de paella amb pilotes, Torreblanca",
+    "th": "จานปาเอยากับลูกชิ้นก้อนใหญ่ (เปโลตัส) เมืองตอร์เรบลังกา",
+    "ar": "طبق باييا مع كرات لحم كبيرة (بيلوتاس)، توريبلانكا"
+   }
+  },
+  "recipe_paella_de_costelletes_i_coliflor.md": {
+   "file": "images/paella-de-costelletes-i-coliflor.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Arroz caldoso con costilla de cerdo y coliflor.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arroz_caldoso_con_costilla_de_cerdo_y_coliflor.jpg",
+   "author": "Juan Emilio Prades Bel",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Soupy rice with pork ribs and cauliflower (the caldoso version of this dish)",
+    "es": "Arroz caldoso con costilla de cerdo y coliflor (la versión caldosa de este plato)",
+    "ca": "Arròs caldós amb costella de porc i col-i-flor (la versió caldosa d'aquest plat)",
+    "th": "ข้าวน้ำซุปกับซี่โครงหมูและกะหล่ำดอก (แบบมีน้ำของอาหารจานนี้)",
+    "ar": "أرز بالمرق مع ضلوع الخنزير والقرنبيط (النسخة المرقية من هذا الطبق)"
+   }
+  },
+  "recipe_olla_de_benicarlo.md": {
+   "file": "images/olla-de-benicarlo.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:Cocido de olla con judías blancas y cardos verdes, comarca de La Plana Alta.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Cocido_de_olla_con_jud%C3%ADas_blancas_y_cardos_verdes,_comarca_de_La_Plana_Alta.jpg",
+   "author": "Juan Emilio Prades Bel",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "alt": {
+    "en": "Olla of La Plana Alta with white beans, meat and green cardoons, the neighbouring cousin of the Benicarlo olla",
+    "es": "Olla de La Plana Alta con judías blancas, carne y cardos verdes, prima vecina de la olla de Benicarló",
+    "ca": "Olla de la Plana Alta amb fesols blancs, carn i cards verds, cosina veïna de l'olla de Benicarló",
+    "th": "หม้อโอยาแห่งปลานาอัลตา ใส่ถั่วขาว เนื้อ และผักคาร์ดูน ญาติใกล้ชิดของโอยาเบนิการ์โล",
+    "ar": "قدر أويا من بلانا ألتا بالفاصوليا البيضاء واللحم والخرشوف البري، قريبة أويا بينيكارلو"
+   }
+  },
+  "recipe_arroz_con_almejas.md": {
+   "file": "images/arroz-con-almejas.webp",
+   "width": 1600,
+   "height": 1200,
+   "commonsTitle": "File:090114-arroz9.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:090114-arroz9.jpg",
+   "author": "Jrfdiaz",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Soupy rice with clams in a pan, at a gastronomic society in Oviedo, Asturias",
+    "es": "Arroz caldoso con almejas en una cazuela, en una sociedad gastronómica de Oviedo",
+    "ca": "Arròs caldós amb cloïsses en una cassola, en una societat gastronòmica d'Oviedo",
+    "th": "ข้าวน้ำซุปหอยลายในกระทะ ที่สมาคมอาหารในเมืองโอเบียโด แคว้นอัสตูเรียส",
+    "ar": "أرز بالمرق مع البطلينوس في قدر، في جمعية طهي في أوفييدو بأستورياس"
+   }
+  },
+  "recipe_arroz_y_verduras_con_bacalao_murciano.md": {
+   "file": "images/arroz-y-verduras-con-bacalao-murciano.webp",
+   "width": 1600,
+   "height": 1067,
+   "commonsTitle": "File:Arros bacalla.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Arros_bacalla.jpg",
+   "author": "Mgclape",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "en": "Rice with salt cod and vegetables in a two-handled pan",
+    "es": "Arroz con bacalao y verduras en una cazuela de dos asas",
+    "ca": "Arròs amb bacallà i verdures en una cassola de dues anses",
+    "th": "ข้าวกับปลาค็อดเค็มและผักในกระทะสองหู",
+    "ar": "أرز مع القد المملح والخضار في قدر بمقبضين"
+   }
+  },
+  "recipe_arroz_meloso_de_pulpo.md": {
+   "file": "images/arroz-meloso-de-pulpo.webp",
+   "width": 1600,
+   "height": 1062,
+   "commonsTitle": "File:Hotel y restaurante 23.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Hotel_y_restaurante_23.jpg",
+   "author": "Porto de Rinlo",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "en": "Creamy octopus and prawn rice from Rinlo (Galicia), a northern cousin of this dish",
+    "es": "Arroz meloso de pulpo y gambas de Rinlo (Galicia), primo norteño de este plato",
+    "ca": "Arròs melós de polp i gambes de Rinlo (Galícia), cosí del nord d'aquest plat",
+    "th": "ข้าวเนื้อครีมกับปลาหมึกยักษ์และกุ้งจากรินโล (กาลิเซีย) ญาติทางเหนือของอาหารจานนี้",
+    "ar": "أرز كريمي بالأخطبوط والروبيان من رينلو (غاليسيا)، قريب شمالي لهذا الطبق"
+   }
   }
  }
 }
