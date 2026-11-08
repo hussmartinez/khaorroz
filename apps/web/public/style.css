@@ -845,3 +845,6 @@ body[data-theme="thai"]::after { content: ""; position: fixed; inset: 0; z-index
 .textures:has(.tex-tile:nth-child(4)) { grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
 .door-art-short { height: 150px; }
 .door-desc { margin: 0.2rem 0 0; color: var(--ink-soft); font-size: 0.95rem; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.chip-cat-6 i, .dot-cat-6 { background: #6b4fa0; }
+.chip-cat-7 i, .dot-cat-7 { background: #2f7d6d; }
+.tex-cat-6 { --tint: var(--tint-meloso); } .tex-cat-7 { --tint: var(--tint-caldoso); }
