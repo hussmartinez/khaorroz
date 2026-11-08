@@ -3,7 +3,13 @@
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const vt = (fn) => (document.startViewTransition && !reduce ? document.startViewTransition(fn) : fn());
+  // View transitions only on fine pointers; swallow aborted-transition rejections (e.g. viewport resize)
+  const vt = (fn) => {
+    if (!document.startViewTransition || reduce || matchMedia("(pointer: coarse)").matches) return fn();
+    const t = document.startViewTransition(fn);
+    t.ready?.catch(() => {}); t.finished?.catch(() => {}); t.updateCallbackDone?.catch(() => {});
+    return t;
+  };
 
   // ---------- Language preference ----------
   $$(".lang-menu a[data-lang]").forEach((a) =>
@@ -81,10 +87,17 @@
           // full-text matches show where the word was found
           let ex = c.querySelector(".ft-hit");
           if (ok && !text && hit) {
-            if (!ex) { ex = document.createElement("p"); ex.className = "ft-hit"; c.querySelector(".summary").after(ex); }
+            if (!ex) { ex = document.createElement("p"); ex.className = "ft-hit"; (c.querySelector(".gloss") ?? c.querySelector("h3")).after(ex); }
             ex.innerHTML = hit;
           } else ex?.remove();
         }
+        // group headings with nothing visible under them disappear
+        { let head = null, any = false;
+          for (const el of ($("#grid")?.children ?? [])) {
+            if (el.classList.contains("grid-group-head")) { if (head) head.hidden = !any; head = el; any = false; }
+            else if (el.classList.contains("card") && !el.hidden) any = true;
+          }
+          if (head) head.hidden = !any; }
         // area groups with nothing visible disappear (heading included)
         for (const g of groupsEl) g.hidden = !$$(".card", g).some((c) => !c.hidden);
         if (count) count.textContent = (n === 1 ? sec.dataset.one : sec.dataset.many).replace("{n}", n);
@@ -115,7 +128,46 @@
       }));
     };
     group("data-filter-area", "area");
-    group("data-filter-historical", "historical");
+    $$("[data-filter-historical]").forEach((b) => b.addEventListener("click", () => {
+      const on = b.getAttribute("aria-pressed") !== "true";
+      b.setAttribute("aria-pressed", String(on));
+      state.historical = on ? "1" : "";
+      apply();
+    }));
+    // ----- grouping, sorting, grid/list view -----
+    const gridEl = $("#grid");
+    const groupSel = $("[data-group]"), sortSel = $("[data-sort]");
+    const arrange = () => {
+      if (!gridEl) return;
+      $$(".grid-group-head", gridEl).forEach((h) => h.parentNode.removeChild(h));
+      const sort = sortSel?.value || "az", group = groupSel?.value || "";
+      const key = (c) => group === "region" ? (c.dataset.region || "—") : group === "facet" ? (c.dataset.facetLabel || "—") : "";
+      const list = [...cards].sort((a, b) =>
+        (group ? key(a).localeCompare(key(b)) : 0)
+        || (sort === "photo" ? Number(b.dataset.photo) - Number(a.dataset.photo) : 0)
+        || a.dataset.title.localeCompare(b.dataset.title));
+      let last = null;
+      for (const c of list) {
+        if (group && key(c) !== last) {
+          last = key(c);
+          const h = document.createElement("h3"); h.className = "grid-group-head"; h.textContent = last; gridEl.append(h);
+        }
+        gridEl.append(c);
+      }
+      try { localStorage.setItem("arros-arrange", JSON.stringify({ sort, group })); } catch {}
+      apply(false);
+    };
+    try { const saved = JSON.parse(localStorage.getItem("arros-arrange") || "{}");
+      if (saved.sort && sortSel) sortSel.value = saved.sort;
+      if (saved.group && groupSel && [...groupSel.options].some((o) => o.value === saved.group)) groupSel.value = saved.group; } catch {}
+    groupSel?.addEventListener("change", arrange);
+    sortSel?.addEventListener("change", arrange);
+    if ((groupSel && groupSel.value) || (sortSel && sortSel.value !== "az")) arrange();
+    const viewBtns = $$("[data-view]");
+    const setView = (v) => { sec.dataset.view = v; viewBtns.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === v))); };
+    let savedView = null; try { savedView = localStorage.getItem("arros-view"); } catch {}
+    setView(savedView || (matchMedia("(max-width: 720px)").matches ? "list" : "grid"));
+    viewBtns.forEach((b) => b.addEventListener("click", () => { setView(b.dataset.view); try { localStorage.setItem("arros-view", b.dataset.view); } catch {} }));
     group("data-filter-texture", "texture");
     group("data-filter-province", "province");
     // choosing an area clears a region filter that belongs to another area
@@ -162,6 +214,103 @@
       sec.scrollIntoView({ behavior: reduce ? "auto" : "smooth" });
     }));
   }
+
+  // ---------- Header: hide on scroll down, show on scroll up ----------
+  { let lastY = scrollY;
+    addEventListener("scroll", () => {
+      const y = scrollY;
+      if (y > 160 && y > lastY + 4 && !document.body.classList.contains("menu-open")) document.body.classList.add("hdr-hidden");
+      if (y < lastY - 4 || y < 160) document.body.classList.remove("hdr-hidden");
+      lastY = y;
+    }, { passive: true }); }
+
+  // ---------- Menu sheet ----------
+  { const sheet = $("#site-menu"), openBtn = $("[data-open-menu]");
+    const open = (on) => {
+      if (!sheet) return;
+      sheet.hidden = !on; document.body.classList.toggle("menu-open", on);
+      openBtn?.setAttribute("aria-expanded", String(on));
+      if (on) sheet.querySelector("a, button")?.focus(); else openBtn?.focus();
+    };
+    openBtn?.addEventListener("click", () => open(true));
+    $$("[data-close-menu]").forEach((b) => b.addEventListener("click", () => open(false)));
+    sheet?.addEventListener("click", (e) => { if (e.target === sheet) open(false); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && sheet && !sheet.hidden) open(false); });
+    if (sheet) $$("a", sheet).forEach((a) => a.addEventListener("click", () => open(false))); }
+
+  // ---------- Site-wide search (Pagefind, current language) ----------
+  { const dlg = $(".search-dialog");
+    if (dlg) {
+      const input = dlg.querySelector("input"), out = dlg.querySelector(".sd-results");
+      let pfP = null, seqS = 0, tmoS;
+      const pf = () => (pfP ??= import("/pagefind/pagefind.js").then(async (m) => { await m.options({ excerptLength: 18 }); return m; }).catch(() => null));
+      const openS = () => { const sh = $("#site-menu"); if (sh) sh.hidden = true; document.body.classList.remove("menu-open"); dlg.showModal(); input.focus(); input.select(); pf(); };
+      $$("[data-open-search]").forEach((b) => b.addEventListener("click", openS));
+      document.addEventListener("keydown", (e) => {
+        const typing = /INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName || "");
+        if ((e.key === "/" && !typing) || ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k")) { e.preventDefault(); openS(); }
+      });
+      dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+      input.addEventListener("input", () => {
+        clearTimeout(tmoS);
+        tmoS = setTimeout(async () => {
+          const my = ++seqS, q = input.value.trim();
+          if (q.length < 2) { out.innerHTML = ""; return; }
+          const m = await pf(); if (!m) return;
+          const res = await m.search(q);
+          const data = await Promise.all(res.results.slice(0, 14).map((r) => r.data()));
+          if (my !== seqS) return;
+          out.innerHTML = data.length ? data.map((d) => {
+            const kind = /\/recipes\//.test(d.url) ? "🍚" : /\/provinces\//.test(d.url) ? "📍" : /history/.test(d.url) ? "📜" : "📄";
+            return `<li><a href="${d.url.replace(/\.html$/, "")}"><span class="sd-kind" aria-hidden="true">${kind}</span><span><strong>${d.meta?.title ?? d.url}</strong>${d.meta?.gloss ? `<em>${d.meta.gloss}</em>` : ""}<small>${d.excerpt}</small></span></a></li>`;
+          }).join("") : `<li class="sd-empty">${dlg.dataset.empty}</li>`;
+        }, 160);
+      });
+    } }
+
+  // ---------- Recipe tabs ----------
+  { const tabs = $$(".rtabs [role=tab]"), panels = $$(".rpanel");
+    if (tabs.length) {
+      document.body.classList.add("has-tabs");
+      const show = (id, scroll = false) => {
+        if (!panels.some((p) => p.dataset.panel === id)) id = panels[0].dataset.panel;
+        tabs.forEach((t) => { const on = t.dataset.tab === id; t.setAttribute("aria-selected", String(on)); t.tabIndex = on ? 0 : -1; });
+        panels.forEach((p) => { p.hidden = p.dataset.panel !== id; if (!p.hidden) p.querySelectorAll("[data-reveal]").forEach((el) => el.classList.add("in")); });
+        if (scroll) $(".rtabs-bar")?.scrollIntoView({ behavior: reduce ? "auto" : "smooth" });
+      };
+      window.__showTab = show;
+      const fromHash = () => {
+        const h = decodeURIComponent(location.hash.slice(1));
+        if (!h) return show(panels[0].dataset.panel);
+        const panel = panels.find((p) => p.dataset.panel === h) ?? document.getElementById(h)?.closest(".rpanel");
+        show(panel ? panel.dataset.panel : panels[0].dataset.panel);
+        if (panel && panel.dataset.panel !== h) document.getElementById(h)?.scrollIntoView();
+      };
+      fromHash();
+      addEventListener("hashchange", fromHash);
+      tabs.forEach((t, i) => {
+        t.addEventListener("click", (e) => { e.preventDefault(); show(t.dataset.tab); history.replaceState(null, "", "#" + t.dataset.tab); });
+        t.addEventListener("keydown", (e) => {
+          if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+          const fwd = (e.key === "ArrowRight") !== (document.documentElement.dir === "rtl");
+          e.preventDefault(); const n = tabs[(i + (fwd ? 1 : -1) + tabs.length) % tabs.length]; n.focus(); n.click();
+        });
+      });
+      $$("[data-tab-link]").forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); show(a.dataset.tabLink, true); history.replaceState(null, "", "#" + a.dataset.tabLink); }));
+    } }
+
+  // ---------- A–Z index: section filter ----------
+  { const btns = $$("[data-az-area]");
+    if (btns.length) btns.forEach((b) => b.addEventListener("click", () => {
+      const a = b.dataset.azArea;
+      btns.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      $$(".az-group").forEach((g) => {
+        let any = false;
+        g.querySelectorAll("li").forEach((li) => { li.hidden = !!a && li.dataset.area !== a; if (!li.hidden) any = true; });
+        g.hidden = !any;
+        const link = document.querySelector(`.az-letters a[href="#${g.id}"]`); if (link) link.hidden = !any;
+      });
+    })); }
 
   // ---------- Table of contents: highlight current section ----------
   const tocLinks = $$(".toc a[href^='#']");
@@ -277,7 +426,7 @@
       if (on && "wakeLock" in navigator) lock = await navigator.wakeLock.request("screen");
       else if (!on && lock) { await lock.release(); lock = null; }
     } catch {}
-    if (on) recipe.scrollIntoView({ behavior: reduce ? "auto" : "smooth" });
+    if (on) { window.__showTab?.("recipe"); recipe.scrollIntoView({ behavior: reduce ? "auto" : "smooth" }); }
   };
   cookBtn?.addEventListener("click", () => setCook(cookBtn.getAttribute("aria-pressed") !== "true"));
   document.addEventListener("visibilitychange", async () => {

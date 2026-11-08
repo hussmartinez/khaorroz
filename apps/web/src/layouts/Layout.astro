@@ -13,7 +13,7 @@ interface Props {
   lang: Lang;
   path: string; // page path relative to a language root, e.g. "recipes/paella-valenciana" (".html"/"index.html" are tolerated and stripped)
   title: string;
-  active: "recipes" | "history" | "provinces" | "about" | "";
+  active: "recipes" | "history" | "provinces" | "about" | "dishes" | "credits" | "";
   description?: string;
   bodyClass?: string;
   /** Area theme id ("spain" = original look, "sham" = Shami); see style.css [data-theme]. */
@@ -44,9 +44,9 @@ const ogUrl = og.url.startsWith("http") ? og.url : abs(og.url);
 const pretty = (lg: Lang) => `${langBase(lg)}${clean(path)}`;
 const canonical = new URL(pretty(lang), Astro.site).href;
 const nav = [
-  ["", tr(lang, "home"), "recipes"],
   [section ? `${section}/history` : "history", tr(lang, "navHistory"), "history"],
-  ["provinces", tr(lang, "navRegions"), "provinces"],
+  [section ? `provinces#${section}` : "provinces", tr(lang, "navRegions"), "provinces"],
+  ["dishes", tr(lang, "dishesAZ"), "dishes"],
   ["about", tr(lang, "navAbout"), "about"],
 ] as const;
 ---
@@ -94,7 +94,7 @@ const nav = [
 <div class="progress" aria-hidden="true"></div>
 <a class="skip" href="#main">↓</a>
 <header class="site-header" data-pagefind-ignore>
-  <a class="brand" href={base}><span class="brand-pan" aria-hidden="true"></span><span>Khaorroz</span></a>
+  <a class="brand" href={base} aria-label="Khaorroz"><span class="brand-pan" aria-hidden="true"></span><span class="brand-name">Khaorroz</span></a>
   <nav class="sections" aria-label={tr(lang, "areasKicker")}>
     {sections.map((a) => (
       <a class="sec-pill" href={`${base}${a.id}`} data-theme={a.theme} aria-current={a.id === section ? "page" : undefined}>
@@ -102,16 +102,37 @@ const nav = [
       </a>
     ))}
   </nav>
-  <nav class="main-nav">
+  <nav class="main-nav" aria-label={tr(lang, "menu")}>
     {nav.map(([h, l, k]) => <a href={`${base}${h}`} aria-current={k === active ? "page" : undefined}>{l}</a>)}
   </nav>
+  <button class="icon-btn search-btn" type="button" data-open-search aria-label={tr(lang, "search")}><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><kbd>/</kbd></button>
   <details class="lang">
     <summary aria-label={tr(lang, "language")}><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg><span>{UI[lang].langName}</span></summary>
     <div class="lang-menu">
       {LANGS.map((lg) => <a href={`${langBase(lg)}${switchPath}`} hreflang={HTML_LANG[lg]} lang={HTML_LANG[lg]} data-lang={lg} aria-current={lg === lang ? "true" : undefined}>{UI[lg].langName}</a>)}
     </div>
   </details>
+  <button class="icon-btn menu-btn" type="button" data-open-menu aria-label={tr(lang, "menu")} aria-expanded="false" aria-controls="site-menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
 </header>
+<div class="menu-sheet" id="site-menu" hidden data-pagefind-ignore>
+  <div class="menu-panel" role="dialog" aria-modal="true" aria-label={tr(lang, "menu")}>
+    <div class="menu-top"><span class="brand"><span class="brand-pan" aria-hidden="true"></span>Khaorroz</span><button class="icon-btn" type="button" data-close-menu aria-label={tr(lang, "close")}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <button class="menu-search" type="button" data-open-search><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>{tr(lang, "searchSite")}</button>
+    <p class="menu-label">{tr(lang, "areasKicker")}</p>
+    <div class="menu-sections">{sections.map((a) => <a href={`${base}${a.id}`} data-theme={a.theme} aria-current={a.id === section ? "page" : undefined}><span class={`sec-icon sec-icon-${a.theme}`} aria-hidden="true"></span>{a.name}</a>)}</div>
+    <div class="menu-links">{nav.map(([h, l, k]) => <a href={`${base}${h}`} aria-current={k === active ? "page" : undefined}>{l}</a>)}</div>
+    <p class="menu-label">{tr(lang, "language")}</p>
+    <div class="menu-langs">{LANGS.map((lg) => <a href={`${langBase(lg)}${switchPath}`} hreflang={HTML_LANG[lg]} lang={HTML_LANG[lg]} data-lang={lg} aria-current={lg === lang ? "true" : undefined}>{UI[lg].langName}</a>)}</div>
+  </div>
+</div>
+<dialog class="search-dialog" data-pagefind-ignore data-empty={tr(lang, "searchEmpty")} aria-label={tr(lang, "search")}>
+  <form method="dialog" class="sd-bar">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+    <input type="search" name="q" placeholder={tr(lang, "searchSite")} aria-label={tr(lang, "search")} autocomplete="off" />
+    <button class="icon-btn" value="close" aria-label={tr(lang, "close")}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </form>
+  <ol class="sd-results" aria-live="polite"></ol>
+</dialog>
 <div id="main">
 {crumbs.length > 0 && (
   <nav class="crumbs wrap" aria-label="Breadcrumb" data-pagefind-ignore>
@@ -124,10 +145,23 @@ const nav = [
 <slot />
 </div>
 <footer class="site-footer" data-pagefind-ignore>
-  <div class="footer-pan" aria-hidden="true"></div>
-  <p class="footer-big">{tr(lang, "footer1")}</p>
-  <p class="small">{tr(lang, "footer2")}</p>
-  <p class="small"><a href="#top" data-top>{tr(lang, "backToTop")} ↑</a></p>
+  <div class="footer-grid wrap">
+    <div class="footer-brand">
+      <span class="brand"><span class="brand-pan" aria-hidden="true"></span>Khaorroz</span>
+      <p>{tr(lang, "footer1")}</p>
+      <p class="small">{tr(lang, "footer2")}</p>
+    </div>
+    <nav aria-label={tr(lang, "footerSections")}><p class="footer-h">{tr(lang, "footerSections")}</p>{sections.map((a) => <a href={`${base}${a.id}`}>{a.name}</a>)}</nav>
+    <nav aria-label={tr(lang, "footerExplore")}><p class="footer-h">{tr(lang, "footerExplore")}</p>
+      <a href={`${base}history`}>{tr(lang, "navHistory")}</a><a href={`${base}provinces`}>{tr(lang, "navRegions")}</a><a href={`${base}dishes`}>{tr(lang, "dishesAZ")}</a>
+    </nav>
+    <nav aria-label={tr(lang, "footerProject")}><p class="footer-h">{tr(lang, "footerProject")}</p>
+      <a href={`${base}about`}>{tr(lang, "navAbout")}</a><a href={`${base}credits`}>{tr(lang, "credits")}</a><a href={`${base}notes`}>{tr(lang, "notes")}</a>
+      <a href="https://github.com/hussmartinez/khaorroz/issues" rel="noopener" target="_blank">{tr(lang, "corrections")}</a><a href="/llms.txt">llms.txt</a>
+    </nav>
+    <nav aria-label={tr(lang, "language")}><p class="footer-h">{tr(lang, "language")}</p>{LANGS.map((lg) => <a href={`${langBase(lg)}${switchPath}`} hreflang={HTML_LANG[lg]} lang={HTML_LANG[lg]}>{UI[lg].langName}</a>)}</nav>
+  </div>
+  <p class="small footer-bottom"><a href="#top" data-top>{tr(lang, "backToTop")} ↑</a></p>
 </footer>
 <div class="timers" aria-live="polite" data-done={tr(lang, "timerDone")}></div>
 <script is:inline src={`/site.js?v=${ver("site.js")}`} defer></script>

@@ -19,7 +19,7 @@ const { html, headings } = renderPage(p, m);
   </header>
   <div class={`page${headings.length > 1 ? " with-toc" : ""}`}>
     <Toc lang={m.lang} headings={headings} />
-    <article class="prose" lang={p.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined} dir={p.status === "missing" && isRtl(m.lang) ? "ltr" : undefined} set:html={html} />
+    <article class="prose" data-pagefind-body lang={p.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined} dir={p.status === "missing" && isRtl(m.lang) ? "ltr" : undefined} set:html={html} />
   </div>
   <slot />
 </main>

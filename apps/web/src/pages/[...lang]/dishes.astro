@@ -1,0 +1,56 @@
+---
+// Dishes A–Z: every dish in every tradition, alphabetical, with a letter bar and a section filter.
+import Layout from "../../layouts/Layout.astro";
+import { langPaths, langBase, site, tr, nDishes, type Lang, type Page } from "../../lib/site";
+import { photoFor } from "@arros/content";
+import { graph, organization, itemList, pageUrl, BRAND } from "../../lib/seo";
+export const getStaticPaths = langPaths;
+const { lang } = Astro.props as { lang: Lang };
+const m = site(lang);
+const base = langBase(lang);
+const fold = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/^(the|el|la|l'|al-|el-)\s*/i, "");
+const sorted = [...m.recipes].sort((a, b) => fold(a.title).localeCompare(fold(b.title), "en", { sensitivity: "base" }));
+const letterOf = (p: Page) => { const c = fold(p.title).charAt(0).toUpperCase(); return /[A-Z]/.test(c) ? c : "#"; };
+const groups = new Map<string, Page[]>();
+for (const p of sorted) { const l = letterOf(p); if (!groups.has(l)) groups.set(l, []); groups.get(l)!.push(p); }
+const url = pageUrl(lang, "dishes.html");
+const jsonLd = graph(organization(), { "@type": "CollectionPage", "@id": url, url, name: tr(lang, "dishesAZ"), inLanguage: lang, mainEntity: itemList(sorted, lang) });
+---
+<Layout lang={lang} path="dishes.html" title={tr(lang, "dishesAZ")} seoTitle={`${tr(lang, "dishesAZ")} | ${BRAND}`} description={tr(lang, "dishesAZLede")} active="dishes" theme="home" jsonLd={jsonLd}>
+  <main class="az">
+    <header class="page-hero"><div class="wrap">
+      <h1>{tr(lang, "dishesAZ")}</h1>
+      <p class="lede">{tr(lang, "dishesAZLede")} {nDishes(lang, sorted.length)}.</p>
+    </div></header>
+    <div class="wrap">
+      <div class="az-tools">
+        <div class="filters" role="group" aria-label={tr(lang, "areasKicker")}>
+          <button type="button" data-az-area="" aria-pressed="true">{tr(lang, "all2")}</button>
+          {m.areas.filter((a) => a.recipes.length).map((a) => <button type="button" data-az-area={a.id}><span class={`sec-icon sec-icon-${a.theme}`} aria-hidden="true"></span>{a.short}</button>)}
+        </div>
+        <nav class="az-letters" aria-label="A–Z">{[...groups.keys()].map((l) => <a href={`#az-${l}`}>{l}</a>)}</nav>
+      </div>
+      {[...groups.entries()].map(([l, list]) => (
+        <section class="az-group" id={`az-${l}`}>
+          <h2>{l}</h2>
+          <ul>
+            {list.map((p) => {
+              const area = m.areas.find((a) => a.id === m.areaOfRecipe(p));
+              const region = p.provinces[0] ? m.regionName(p.provinces[0].file, p.provinces[0].name) : "";
+              return (
+                <li data-area={area?.id} data-theme={area?.theme}>
+                  <a href={`${base}${p.url}`}>
+                    <img src={`/pans/${p.slug}.svg`} alt="" width="40" height="40" loading="lazy" decoding="async" />
+                    <span class="az-name"><strong dir="auto">{p.title}</strong>{p.altTitle && p.altTitle !== p.title && <span class="local" dir="auto">{p.altTitle}</span>}</span>
+                    <span class="az-gloss" dir="auto">{p.gloss}</span>
+                    <span class="az-where">{[region, area?.short].filter(Boolean).join(" · ")}{photoFor(p.file) && <span class="az-photo" title={tr(lang, "photo")}>📷</span>}</span>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </main>
+</Layout>

@@ -1,7 +1,6 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 import Chip from "../../../components/Chip.astro";
-import Toc from "../../../components/Toc.astro";
 import Notice from "../../../components/Notice.astro";
 import Related from "../../../components/Related.astro";
 import { Image, getImage } from "astro:assets";
@@ -36,9 +35,18 @@ const creditInner = photo && photoMeta
   ? `${esc(tr(lang, "photo"))}: ${esc(photo.author ?? "")}${photo.license ? ` · ${photo.licenseUrl ? `<a href="${esc(photo.licenseUrl)}" rel="license noopener" target="_blank">${esc(photo.license)}</a>` : esc(photo.license)}` : ""} · ${photo.source ? `<a href="${esc(photo.source)}" target="_blank" rel="noopener">${esc(tr(lang, "viaCommons"))}</a>` : esc(tr(lang, "viaCommons"))}`
   : "";
 
-const { html, headings } = renderPage(p, m, { appendToSection: creditInner ? { "5": `<p class="photo-credit">${creditInner}</p>` } : {} });
-const sourcesId = headings.find((h) => h.num === "5")?.id;
-const nSources = recipeData(p).sources.length;
+const { headings, parts } = renderPage(p, m, { appendToSection: creditInner ? { "5": `<p class="photo-credit">${creditInner}</p>` } : {} });
+const rd = recipeData(p);
+const nSources = rd.sources.length;
+// Tabs: the recipe first. Section numbers are language-neutral (## 1. … ## 5.).
+const TABS = [["4", "recipe", "tabRecipe"], ["3", "variations", "tabVariations"], ["2", "history", "tabHistory"], ["1", "profile", "tabProfile"], ["5", "sources", "tabSources"]] as const;
+const intro = parts.filter((x) => !x.num).map((x) => x.html).join("");
+const known = new Set(TABS.map(([n]) => n));
+const extra = parts.filter((x) => x.num && !known.has(x.num)).map((x) => x.html).join("");
+const tabs = TABS.map(([n, id, key]) => ({ id, label: tr(lang, key), html: parts.filter((x) => x.num === n).map((x) => x.html).join("") + (id === "history" ? extra : ""), anchors: headings.filter((h) => h.num === n).map((h) => h.id) }))
+  .filter((t) => t.html);
+const facet = facetOf(m, p);
+const notMissing = p.status !== "missing";
 
 const url = pageUrl(lang, p.url);
 const description = recipeDescription(p, lang, regionLabel, facetOf(m, p)?.short);
@@ -58,27 +66,14 @@ const ogImage = ogPhoto && photoMeta
   <main class={`recipe base-${p.spec?.base ?? "none"}${photoMeta ? " has-photo" : ""}`}>
     <header class="recipe-hero">
       <div class="rh-text">
-        <p class="kicker">{tr(lang, "kickerRecipe")} · {tr(lang, "readTime", { n: p.minutes })}</p>
         <h1 dir="auto" class="rh-title" data-pagefind-meta="title">{p.title}</h1>
+        {p.altTitle && p.altTitle !== p.title && <p dir="auto" class="alt-title">{p.altTitle}</p>}
         {p.gloss && <p dir="auto" class="gloss" data-pagefind-meta="gloss">{p.gloss}</p>}
-        {p.altTitle && <p dir="auto" class="alt-title">{p.altTitle}</p>}
-        <div class="tags">
-          <Chip m={m} p={p} />
-          {p.historical && <span class="tag tag-historical" title={tr(lang, "historicalRecipe")}><span aria-hidden="true">⌛</span> <span dir="auto">{p.historical}</span></span>}
-          {p.spec && <span class="tag"><span class="tag-k">{tr(lang, "vessel")}</span> {vesselLabel(lang, p.spec.vessel)}</span>}
-          {p.provinces.map((x) => <a class="tag" href={`${base}provinces/${provSlug(x.file)}`}><span class="pin" aria-hidden="true"></span>{m.regionName(x.file, x.name)}</a>)}
-          {sourcesId && nSources > 0 && <a class="tag tag-sources" href={`#${sourcesId}`}><span aria-hidden="true">§</span> {tr(lang, "sources")} ({nSources})</a>}
-        </div>
-        <Notice lang={lang} status={p.status} />
-        <div class="rh-actions">
-          <button class="btn btn-primary" type="button" data-cook aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h16v2a7 7 0 0 1-7 7h-2a7 7 0 0 1-7-7zM2 11h2M20 11h2M9 4c-1 1 1 2 0 4M13 3c-1 1 1 3 0 5"/></svg><span>{tr(lang, "cookingMode")}</span></button>
-          <button class="btn" type="button" onclick="window.print()"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M6 14h12v7H6z"/></svg><span>{tr(lang, "print")}</span></button>
-        </div>
-        <p class="cook-hint" hidden>{tr(lang, "cookingModeOn")} · {tr(lang, "tapToCheck")}</p>
+        <Notice lang={lang} status={p.status} englishHref={p.status === "missing" ? `/${p.url}` : undefined} />
       </div>
       {photoMeta ? (
         <figure class="rh-visual rh-photo">
-          <Image src={photoMeta} alt={photoAlt} widths={[480, 800, 1200, 1600].filter((w) => w <= photoMeta.width)} sizes="(max-width: 980px) 92vw, 40vw" loading="eager" fetchpriority="high" class="photo" style={`view-transition-name:${vtName("photo", p.slug)}`} />
+          <Image src={photoMeta} alt={photoAlt} widths={[480, 800, 1200, 1600].filter((w) => w <= photoMeta.width)} sizes="(max-width: 980px) 92vw, 44vw" loading="eager" fetchpriority="high" class="photo" style={`view-transition-name:${vtName("photo", p.slug)}`} />
           <div class="rh-pan-badge" style={`view-transition-name:${vtName("pan", p.slug)}`} set:html={panHtml(p, { steam: false })} />
           <figcaption set:html={creditInner} />
         </figure>
@@ -86,10 +81,44 @@ const ogImage = ogPhoto && photoMeta
         <div class="rh-visual" style={`view-transition-name:${vtName("pan", p.slug)}`} set:html={panHtml(p, { cls: "hero-pan", label: true })} />
       )}
     </header>
-    <div class={`page${headings.length > 1 ? " with-toc" : ""}`}>
-      <Toc lang={lang} headings={headings} />
-      <article class="prose" data-pagefind-body data-timer-label={tr(lang, "timerStart", { n: "{n}" })} lang={p.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined} dir={p.status === "missing" && isRtl(lang) ? "ltr" : undefined} set:html={html} />
+
+    <section class="glance wrap" aria-label={tr(lang, "atAGlance")}>
+      <dl class="glance-facts">
+        <div><dt>{tr(lang, "serves")}</dt><dd>4</dd></div>
+        {rd.ingredients.length > 0 && <div><dt>{tr(lang, "ingredientsN")}</dt><dd>{rd.ingredients.length}</dd></div>}
+        {rd.steps.length > 0 && <div><dt>{tr(lang, "stepsN")}</dt><dd>{rd.steps.length}</dd></div>}
+        {facet && <div><dt>{tr(lang, area?.facet === "texture" ? "texture" : "category")}</dt><dd><Chip m={m} p={p} /></dd></div>}
+        {p.spec && <div><dt>{tr(lang, "vessel")}</dt><dd>{vesselLabel(lang, p.spec.vessel)}</dd></div>}
+        <div class="glance-where"><dt>{tr(lang, "region")}</dt><dd>{p.provinces.map((x) => <a href={`${base}provinces/${provSlug(x.file)}`}>{m.regionName(x.file, x.name)}</a>)}</dd></div>
+        {nSources > 0 && <div><dt>{tr(lang, "sources")}</dt><dd><a href="#sources" data-tab-link="sources">{nSources}</a></dd></div>}
+        {p.historical && <div class="glance-hist"><dt>{tr(lang, "historicalRecipe")}</dt><dd dir="auto">{p.historical}</dd></div>}
+      </dl>
+      <div class="glance-actions">
+        <a class="btn btn-primary" href="#recipe" data-tab-link="recipe">{tr(lang, "jumpToRecipe")} <span aria-hidden="true">↓</span></a>
+        <button class="btn" type="button" data-cook aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h16v2a7 7 0 0 1-7 7h-2a7 7 0 0 1-7-7zM2 11h2M20 11h2M9 4c-1 1 1 2 0 4M13 3c-1 1 1 3 0 5"/></svg><span>{tr(lang, "cookingMode")}</span></button>
+        <button class="btn" type="button" onclick="window.print()"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M6 14h12v7H6z"/></svg><span>{tr(lang, "print")}</span></button>
+      </div>
+      <p class="cook-hint" hidden>{tr(lang, "cookingModeOn")} · {tr(lang, "tapToCheck")}</p>
+    </section>
+
+    {intro && <div class="wrap recipe-intro prose" set:html={intro} />}
+
+    <div class="rtabs-bar" data-pagefind-ignore>
+      <div class="wrap rtabs-inner">
+        <span class="rtabs-title" dir="auto">{p.title}</span>
+        <div class="rtabs" role="tablist" aria-label={p.title}>
+          {tabs.map((t, i) => <a role="tab" href={`#${t.id}`} id={`tab-${t.id}`} aria-controls={`panel-${t.id}`} aria-selected={i === 0 ? "true" : "false"} data-tab={t.id}>{t.label}</a>)}
+        </div>
+      </div>
     </div>
+    <article class="prose rpanels wrap" data-pagefind-body data-timer-label={tr(lang, "timerStart", { n: "{n}" })} lang={p.status === "missing" ? HTML_LANG[DEFAULT_LANG] : undefined} dir={p.status === "missing" && isRtl(lang) ? "ltr" : undefined}>
+      {tabs.map((t) => (
+        <section class="rpanel" role="tabpanel" id={`panel-${t.id}`} aria-labelledby={`tab-${t.id}`} data-panel={t.id} data-anchors={t.anchors.join(" ")}>
+          <span class="anchor-target" id={t.id}></span>
+          <Fragment set:html={t.html} />
+        </section>
+      ))}
+    </article>
     <Related p={p} m={m} />
   </main>
 </Layout>

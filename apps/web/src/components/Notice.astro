@@ -1,6 +1,6 @@
 ---
 import { tr, type Lang } from "../lib/site";
-const { lang, status } = Astro.props as { lang: Lang; status: string };
+const { lang, status, englishHref } = Astro.props as { lang: Lang; status: string; englishHref?: string };
 ---
-{status === "missing" && <p class="i18n-note">{tr(lang, "notTranslated")}</p>}
+{status === "missing" && <p class="i18n-note">{tr(lang, "notTranslated")}{englishHref && <> <a href={englishHref} hreflang="en">{tr(lang, "readInEnglish")} →</a></>}</p>}
 {status === "stale" && <p class="i18n-note">{tr(lang, "staleTranslation")}</p>}

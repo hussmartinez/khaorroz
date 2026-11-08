@@ -31,7 +31,7 @@ const jsonLd = graph(organization(), { "@type": "CollectionPage", "@id": url, ur
             <p class="kicker">{a.name}</p>
             <h2 dir="auto">{title}</h2>
             <p class="door-desc" dir="auto">{summary}</p>
-            <span class="btn btn-primary door-cta">{tr(lang, "enter")} <span class="arrow" aria-hidden="true">→</span></span>
+            <span class="door-link">{tr(lang, "enter")} <span class="arrow" aria-hidden="true">→</span></span>
           </div>
         </a>
       ))}

@@ -1,14 +1,23 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import Article from "../../components/Article.astro";
-import { langPaths, site, tr, type Lang } from "../../lib/site";
+import { langPaths, langBase, site, tr, type Lang } from "../../lib/site";
+import { ABOUT } from "../../lib/about";
+import { photoFor } from "@arros/content";
+import { marked } from "marked";
+import { BRAND } from "../../lib/seo";
 export const getStaticPaths = langPaths;
 const { lang } = Astro.props as { lang: Lang };
 const m = site(lang);
-const page = m.byFile.get("README.md");
+const base = langBase(lang);
+const count = (id: string) => String(m.areas.find((a) => a.id === id)?.recipes.length ?? 0);
+const photos = String(m.recipes.filter((r) => photoFor(r.file)).length);
+const md = ABOUT[lang].replace("{spain}", count("spain")).replace("{sham}", count("sham")).replace("{thai}", count("thai")).replace("{photos}", photos)
+  .replace(/\]\((credits|notes)\)/g, (_, p) => `](${base}${p})`);
+const html = marked.parse(md, { async: false }) as string;
 ---
-<Layout lang={lang} path="about.html" title={page?.title ?? tr(lang, "aboutTitle")} active="about" description={page?.summary}>
-  {page ? <Article p={page} m={m} kicker={tr(lang, "kickerAbout")} /> : (
-    <main><header class="page-hero"><div class="wrap"><h1>{tr(lang, "aboutTitle")}</h1><p class="note">{tr(lang, "stillResearched")}</p></div></header></main>
-  )}
+<Layout lang={lang} path="about.html" title={tr(lang, "aboutTitle")} seoTitle={`${tr(lang, "aboutTitle")} | ${BRAND}`} active="about" theme="home" description={md.split("\n")[0].replace(/[*_]/g, "").slice(0, 155)}>
+  <main>
+    <header class="page-hero"><div class="wrap"><p class="kicker">{tr(lang, "navAbout")}</p><h1>{tr(lang, "aboutTitle")}</h1></div></header>
+    <div class="page"><article class="prose wide about-prose" set:html={html} /></div>
+  </main>
 </Layout>

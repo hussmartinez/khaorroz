@@ -123,10 +123,11 @@ export function renderPage(page: Page, m: SiteModel, opts: { appendToSection?: R
     return `<a href="${esc(href)}"${tt}${ext}>${text}</a>`;
   };
   renderer.table = function (token) {
-    return `<div class="table-wrap">${marked.Renderer.prototype.table.call(this, token)}</div>`;
+    return `<div class="table-wrap" tabindex="0" role="region" aria-label="${esc(stripMd(String((token as any).header?.map((h: any) => h.text).join(" · ") ?? "")).slice(0, 80))}">${marked.Renderer.prototype.table.call(this, token)}</div>`;
   };
   const chunks = localiseLabels(page.body, lang).split(/^(?=## )/m);
   let adsPlaced = 0;
+  const parts: { num?: string; html: string }[] = [];
   const html = chunks.map((chunk, i) => {
     const num = chunk.match(/^## (\d+)\./)?.[1];
     // §6 "Related Dishes" is legacy generated text; recipe pages render families.json instead.
@@ -138,9 +139,11 @@ export function renderPage(page: Page, m: SiteModel, opts: { appendToSection?: R
     const adHere = adsPlaced < 2 && i < chunks.length - 1 && (page.kind === "recipe" ? num === "2" || num === "4" : i === 2 || i === 6);
     if (adHere) adsPlaced++;
     const extra = num ? opts.appendToSection?.[num] ?? "" : "";
-    return `<section class="sec${cls}"${num ? ` data-sec="${num}"` : ""} data-reveal>${inner}${extra}</section>${adHere ? adHtml("inArticle", tr(lang, "advertisement")) : ""}`;
+    const secHtml = `<section class="sec${cls}"${num ? ` data-sec="${num}"` : ""} data-reveal>${inner}${extra}</section>`;
+    parts.push({ num, html: secHtml });
+    return `${secHtml}${adHere ? adHtml("inArticle", tr(lang, "advertisement")) : ""}`;
   }).join("\n");
-  return { html, headings };
+  return { html, headings, parts };
 }
 
 // ---------- classification facet (per tradition) ----------

@@ -56,7 +56,7 @@ const hero = m.recipes.find((r) => r.slug === "paella-valenciana") ?? m.recipes[
             <p class="kicker">{a.recipes.length ? `${nDishes(lang, a.recipes.length)} · ${a.regionList.length} ${tr(lang, "navRegions").toLowerCase()}` : tr(lang, "areaSoon")}</p>
             <h2>{a.name}</h2>
             <p class="door-title" set:html={a.copy.heroTitle.replace(/<br>/g, " ")} />
-            <span class="btn btn-primary door-cta">{tr(lang, "enter")} <span class="arrow" aria-hidden="true">→</span></span>
+            <span class="door-link">{tr(lang, "enter")} <span class="arrow" aria-hidden="true">→</span></span>
           </div>
         </a>
       );

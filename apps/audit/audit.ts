@@ -19,7 +19,7 @@ const PAGES: [string, string][] = [
   ["history-index", "/history"], ["history-spain", "/spain/history"], ["history-sham", "/sham/history"],
   ["regions", "/provinces"], ["region-valencia", "/provinces/valencia"],
   ["recipe-paella", "/recipes/paella-valenciana"], ["recipe-maqluba", "/recipes/maqluba"], ["recipe-khaomankai", "/recipes/khao-man-kai"],
-  ["about", "/about"], ["ar-sham", "/ar/sham"], ["ar-recipe-maqluba", "/ar/recipes/maqluba"], ["es-spain", "/es/spain"], ["notfound", "/this-does-not-exist"],
+  ["about", "/about"], ["dishes", "/dishes"], ["credits", "/credits"], ["ar-sham", "/ar/sham"], ["ar-recipe-maqluba", "/ar/recipes/maqluba"], ["es-spain", "/es/spain"], ["notfound", "/this-does-not-exist"],
 ];
 
 type Row = Record<string, unknown>;
@@ -142,33 +142,71 @@ for (const [vpName, vp] of Object.entries(VIEWPORTS)) {
     const qParam = await visible();
     return { count0, all, afterTexture, afterRegion, search_garrofo: searchVisible, fullTextExcerpts: ftHits, q_allioli: qParam };
   });
-  await journey(`${vpName}: recipe tools`, ctx, async (p) => {
-    await p.goto(BASE + "/recipes/paella-valenciana");
-    const tocVisible = await p.locator(".toc").isVisible();
+  await journey(`${vpName}: recipe tabs + tools`, ctx, async (p) => {
+    await p.goto(BASE + "/recipes/maqluba");
+    const recipeTop = await p.evaluate(() => Math.round((document.querySelector(".sec-recipe")?.getBoundingClientRect().top ?? 0) + scrollY));
+    const tabs = await p.locator(".rtabs [role=tab]").count();
+    const selected = await p.locator('.rtabs [aria-selected="true"]').innerText();
+    await p.locator('.rtabs [data-tab="history"]').click();
+    const historyVisible = await p.locator('[data-panel="history"]').isVisible();
+    const recipeHidden = await p.locator('[data-panel="recipe"]').isHidden();
+    await p.locator('[data-tab-link="recipe"]').first().click();
+    await p.waitForTimeout(600);
     await p.locator("[data-cook]").click();
-    await p.waitForTimeout(800);
+    await p.waitForTimeout(600);
     const cooking = await p.evaluate(() => document.body.classList.contains("cooking"));
     const row = p.locator(".sec-recipe tbody tr").first();
     await row.scrollIntoViewIfNeeded(); await row.click();
     const checked = await row.getAttribute("aria-checked");
     const timers = await p.locator(".timer-btn").count();
     if (timers) { await p.locator(".timer-btn").first().scrollIntoViewIfNeeded(); await p.locator(".timer-btn").first().click(); }
-    await p.waitForTimeout(1200);
+    await p.waitForTimeout(1000);
     const timerShown = await p.locator(".timer").count();
-    const sourcesLink = await p.locator(".tag-sources").count();
+    await p.goto(BASE + "/recipes/maqluba#sources");
+    const deepLink = await p.locator('[data-panel="sources"]').isVisible();
     await p.screenshot({ path: join(OUT, "shots", `${vpName}-journey-recipe-tools.png`) });
-    return { tocVisible, cooking, ingredientChecked: checked, timerButtons: timers, timerShown, sourcesLink };
+    return { recipeSectionY: recipeTop, recipeScreens: Math.round((recipeTop / p.viewportSize()!.height) * 10) / 10, tabs, selected: selected.trim(), historyVisible, recipeHidden, cooking, ingredientChecked: checked, timerButtons: timers, timerShown, deepLinkSources: deepLink };
+  });
+  await journey(`${vpName}: site search dialog`, ctx, async (p) => {
+    await p.goto(BASE + "/");
+    await p.locator(".search-btn").click();
+    await p.locator(".search-dialog input").fill("maqluba");
+    await p.waitForTimeout(2500);
+    const results = await p.locator(".sd-results li a").count();
+    const first = results ? await p.locator(".sd-results li a strong").first().innerText() : "";
+    await p.screenshot({ path: join(OUT, "shots", `${vpName}-journey-search.png`) });
+    return { results, first };
+  });
+  await journey(`${vpName}: group / sort / view`, ctx, async (p) => {
+    await p.goto(BASE + "/spain");
+    await p.selectOption("[data-group]", "region");
+    await p.waitForTimeout(600);
+    const heads = await p.locator(".grid-group-head").count();
+    await p.locator('button[data-view="list"]').click();
+    const view = await p.evaluate(() => document.querySelector("#recipes")?.getAttribute("data-view"));
+    const cardH = await p.locator(".card").first().evaluate((e) => Math.round(e.getBoundingClientRect().height));
+    await p.selectOption("[data-group]", "");
+    return { groupHeads: heads, view, listCardHeight: cardH };
+  });
+  await journey(`${vpName}: A–Z filter`, ctx, async (p) => {
+    await p.goto(BASE + "/dishes");
+    const all = await p.locator(".az-group li:not([hidden])").count();
+    await p.locator('[data-az-area="thai"]').click();
+    const thai = await p.locator(".az-group li:not([hidden])").count();
+    return { all, thai };
   });
   await journey(`${vpName}: language switch → Arabic RTL keeps path`, ctx, async (p) => {
     await p.goto(BASE + "/recipes/maqluba");
-    await p.locator("details.lang summary").click();
-    await p.locator('.lang-menu a[data-lang="ar"]').click();
+    if (await p.locator("[data-open-menu]").isVisible()) {
+      await p.locator("[data-open-menu]").click();
+      await p.locator('.menu-langs a[data-lang="ar"]').click();
+    } else {
+      await p.locator("details.lang summary").click();
+      await p.locator('.lang-menu a[data-lang="ar"]').click();
+    }
     await p.waitForURL(/\/ar\//);
     const dir = await p.evaluate(() => document.documentElement.dir);
-    const url = p.url();
-    const notice = await p.locator(".i18n-note").count();
-    await p.screenshot({ path: join(OUT, "shots", `${vpName}-journey-ar.png`), fullPage: false });
-    return { url, dir, untranslatedNotice: notice };
+    return { url: p.url(), dir, untranslatedNotice: await p.locator(".i18n-note").count() };
   });
   await journey(`${vpName}: 404`, ctx, async (p) => {
     const r = await p.goto(BASE + "/nope-xyz");

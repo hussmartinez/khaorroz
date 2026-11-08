@@ -1,0 +1,14 @@
+---
+// The research team's README (methodology, glossary, index tables) — linked from About.
+import Layout from "../../layouts/Layout.astro";
+import Article from "../../components/Article.astro";
+import { langPaths, site, tr, type Lang } from "../../lib/site";
+import { BRAND } from "../../lib/seo";
+export const getStaticPaths = langPaths;
+const { lang } = Astro.props as { lang: Lang };
+const m = site(lang);
+const page = m.byFile.get("README.md");
+---
+<Layout lang={lang} path="notes.html" title={tr(lang, "notes")} seoTitle={`${tr(lang, "notes")} | ${BRAND}`} active="about" theme="home">
+  {page ? <Article p={page} m={m} kicker={tr(lang, "notes")} /> : <main><header class="page-hero"><div class="wrap"><h1>{tr(lang, "notes")}</h1></div></header></main>}
+</Layout>

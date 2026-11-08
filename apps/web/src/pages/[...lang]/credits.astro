@@ -1,0 +1,34 @@
+---
+// Photo credits: every Wikimedia Commons photo with author, licence and source.
+import Layout from "../../layouts/Layout.astro";
+import { langPaths, langBase, site, tr, type Lang } from "../../lib/site";
+import { photoFor } from "@arros/content";
+import { BRAND } from "../../lib/seo";
+export const getStaticPaths = langPaths;
+const { lang } = Astro.props as { lang: Lang };
+const m = site(lang);
+const base = langBase(lang);
+const rows = m.recipes.map((p) => ({ p, ph: photoFor(p.file) })).filter((x) => x.ph).sort((a, b) => a.p.title.localeCompare(b.p.title));
+---
+<Layout lang={lang} path="credits.html" title={tr(lang, "credits")} seoTitle={`${tr(lang, "credits")} | ${BRAND}`} description={tr(lang, "creditsLede")} active="credits" theme="home">
+  <main>
+    <header class="page-hero"><div class="wrap"><h1>{tr(lang, "credits")}</h1><p class="lede">{tr(lang, "creditsLede")}</p></div></header>
+    <div class="page"><div class="prose wide">
+      <div class="table-wrap" tabindex="0" role="region" aria-label={tr(lang, "credits")}>
+        <table class="credits-table">
+          <thead><tr><th>{tr(lang, "dishCol")}</th><th>{tr(lang, "authorCol")}</th><th>{tr(lang, "licenseCol")}</th><th>{tr(lang, "sourceCol")}</th></tr></thead>
+          <tbody>
+            {rows.map(({ p, ph }) => (
+              <tr>
+                <td><a href={`${base}${p.url}`} dir="auto">{p.title}</a></td>
+                <td dir="auto">{ph!.author ?? "—"}</td>
+                <td>{ph!.licenseUrl ? <a href={ph!.licenseUrl} rel="license noopener" target="_blank">{ph!.license}</a> : ph!.license ?? "—"}</td>
+                <td>{ph!.source ? <a href={ph!.source} rel="noopener" target="_blank">Wikimedia Commons</a> : "—"}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div></div>
+  </main>
+</Layout>
