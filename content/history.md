@@ -1,4 +1,4 @@
-# Historia del arroz en España / A History of Rice in Spain
+# A History of Rice in Spain / Historia del arroz en España
 
 > ⬅ [README](README.md)
 
