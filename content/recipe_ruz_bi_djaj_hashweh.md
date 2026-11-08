@@ -19,6 +19,7 @@
 *   **Festive stuffed-chicken version (*djaj mahshi*):** The hashweh is cooked halfway, stuffed into the chicken, and the bird is boiled then roasted. Arabic recipe sites document a "Palestinian-style" chicken stuffed with rice, onion, peppers and thyme.
 *   **Jordanian / Bedouin-leaning tables:** Lamb hashweh, sometimes with yogurt. Hashweh is associated with Bedouin-style cuisine. ⚠️ Reconstructed.
 *   **Christian Easter and Christmas tables:** Hashweh under chicken or turkey (cf. the Valencian festive [arroz con pava](recipe_arroz_con_pava.md)). ⚠️ Reconstructed.
+*   **Bethlehem Christmas *hashweh* (Kattan family):** Chef Fadi Kattan's family serves *hashweh* (rice and minced meat) on Christmas Eve, and his grandmother added **chestnuts**. Bethlehem cooks also use the same stuffing in [djaj mahshi](recipe_djaj_mahshi.md) and the lamb-rib centrepiece [taj al-malek](recipe_taj_al_malek.md) ([Middle East Eye](https://www.middleeasteye.net/discover/christmas-dinner-palestine-bethlehem-dinner)).
 
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: **festive chicken on hashweh with pine nuts and almonds**.*
@@ -59,3 +60,4 @@ Simmer the chicken for **40 min**, skimming. Lift it out, rub it with the spices
 *   [Wikipedia – List of Palestinian dishes](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
 *   [Phaidon – An insider's guide to Palestinian cookery (Reem Kassis on the nine-spice mix)](https://staging2.phaidon.com/agenda/food/articles/2017/october/30/an-insider-s-guide-to-palestinian-cookery)
 *   [Wikipedia – Palestinian cuisine](https://en.wikipedia.org/wiki/Palestinian_cuisine)
+*   [Middle East Eye – Christmas dinner in Bethlehem (hashweh with chestnuts)](https://www.middleeasteye.net/discover/christmas-dinner-palestine-bethlehem-dinner)

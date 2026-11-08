@@ -48,6 +48,14 @@ Rice dishes shared with the rest of Bilad al-Sham are documented on the region p
 
 ### Diaspora: Chile and Latin America
 Chile has the largest Palestinian community outside the Arab world, estimated at several hundred thousand people of Palestinian descent. Most descend from Christian families of **Beit Jala, Bethlehem and Beit Sahour** who emigrated from the late 19th century onward. Santiago's **Patronato** neighbourhood was the first area of settlement, and the **Club Palestino** (founded 1939) is the community's social hub. Ethnographers describe cooking as a form of diasporic *sumud* (steadfastness): recipes passed on by watching rather than written down, local substitutions (beef or goat for lamb, Chilean grape leaves for *dawali*), and a canon fixed by recent Chilean-Palestinian cookbooks (*Cocina de la diáspora*, Dalal Halabi, 2021; *Cocinando con Thermohabibi*, Elizabeth Aduay, 2022; *Nafas*, Mujeres Palestinas por Gaza, 2024; and the older *Lo mejor de la cocina árabe*, Berr & Yunis, 1983). All of these feature **arroz árabe** (rice with noodles), stuffed vine leaves and *rellenos*. Honduras (San Pedro Sula) and El Salvador have large Palestinian communities too. Their rice traditions are not documented in the sources found.
+| [Djaj Mahshi](recipe_djaj_mahshi.md) | Feast rice (stuffed chicken) | Bethlehem, Jerusalem; nationwide |
+| [Taj al-Malek](recipe_taj_al_malek.md) ⚠️ | Feast rice (stuffed lamb ribs) | Bethlehem (Christmas) |
+| [Lsaineh](recipe_lsaineh.md) ⚠️ | Stuffed leaves | Villages, spring |
+| [Ruz eb Maya](recipe_ruz_eb_maya.md) | Rice & chickpeas | Gaza (post-1948) |
+| [Hbari Mahshi](recipe_hbari_mahshi.md) | Stuffed squid | Gaza City port, old Yafa |
+| [Jazar Mahshi bil-Tamr Hindi](recipe_jazar_mahshi.md) ⚠️ | Stuffed carrots (tamarind) | Palestinian home cooking |
+| [Mahshi Batata](recipe_mahshi_batata.md) ⚠️ | Stuffed potatoes | Gaza |
+| [Qara' Mahshi (Ari'ih)](recipe_qara_mahshi.md) ⚠️ | Stuffed pumpkin | Nationwide |
 
 ## 4. Reference Links
 *   [Wikipedia – Palestinian cuisine](https://en.wikipedia.org/wiki/Palestinian_cuisine)

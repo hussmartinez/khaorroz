@@ -41,6 +41,13 @@ Between and beyond them sit distinct regional kitchens. **Homs and Hama** are kn
 
 ### Syria's Jewish rice traditions
 Aleppo (and to a lesser extent Damascus) had ancient Jewish communities whose cooking shared the city's ingredients but developed a recognisable style: **sweet-sour sauces** of *ou'* (tamarind concentrate), dried apricots and prunes, and **kibbeh made from ground rice**. Most of the community emigrated in the 20th century, chiefly to **Brooklyn and Deal (US)**, **Mexico City** (where Aleppine and Damascene Jews founded separate congregations, the Aleppine one known as *Maguén David*), Panama, Argentina and Israel. Their dishes (*yebra*, *mehshi*, *kibbeh hamda*) are documented today mostly from those diaspora kitchens and from Poopa Dweck's *Aromas of Aleppo*. Many Syrian-Jewish families eat rice at Passover, so rice dishes feature at the Seder.
+| [Mansaf Halabi](recipe_mansaf_halabi.md) | Feast rices (rice over freekeh) | Aleppo |
+| [Basmashkat](recipe_basmashkat.md) | Feast rices (rice-stuffed meat rolls) | Damascus |
+| [Al-Basha wa Asakru](recipe_al_basha_w_asakru.md) ⚠️ | Rice with stews (yogurt) | Damascus |
+| [Yakhnet al-Kama'](recipe_yakhnet_kamaa.md) ⚠️ | Rice with stews (desert truffles) | Damascus / Palmyra steppe |
+| [Mehshi Batinjan bi-Safarjal](recipe_mehshi_batinjan_bi_safarjal.md) ⚠️ | Stuffed (Aleppo-Jewish, Passover) | Aleppo / diaspora |
+| [Kibbeh Halabiyeh](recipe_kibbeh_halabiyeh.md) ⚠️ | Rice-crust kibbeh (Iraqi-origin, contested) | Iraq / named after Aleppo |
+| [Keftes bi-Ou](recipe_keftes_bi_ou.md) ⚠️ | Rice with stews (Aleppo-Jewish) | Aleppo / Brooklyn |
 
 ## 4. Reference Links
 *   [Eat Your Books – *Aromas of Aleppo: The Legendary Cuisine of Syrian Jews* (Poopa Dweck)](https://www.eatyourbooks.com/library/15746/aromas-of-aleppo)

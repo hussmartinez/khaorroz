@@ -21,6 +21,7 @@ Stuffed vegetables follow the seasons. In summer there are zucchini, aubergines 
 *   **Damascus:** Filling seasoned with **cumin and safflower** rather than tomato paste; milder broth.
 *   **Winter (all Syria):** *Mahshi malfouf*: cabbage leaves rolled around the rice-and-meat filling, with garlic and lemon.
 *   **Aleppo bulgur version:** *Mehshi al-burghul bi-zeit*, aubergines filled with bulgur and vegetables, meatless.
+*   **Aleppo-Jewish (round 3):** The community stuffs zucchini with *hashu* (raw soaked rice, ground beef, allspice, cinnamon) and braises it in a sweet-sour **tamarind** (*ou*) sauce, sometimes with **dried apricots** in a tomato broth, a version printed as "Syrian stuffed zucchini in tomato-apricot sauce" in Jayne Cohen's *Jewish Holiday Cooking*. See also [mehshi batinjan bi-safarjal](recipe_mehshi_batinjan_bi_safarjal.md). ([ckbk – Jayne Cohen](https://app.ckbk.com/recipe/jewi63871c06s001ss003r006); [CJN – Aromas of Aleppo recipes](https://thecjn.ca/arts-culture/traditional-syrian-recipes))
 
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: **Aleppo kousa mahshi** (zucchini) in a tart tomato broth.*
@@ -61,3 +62,4 @@ Stuffed vegetables follow the seasons. In summer there are zucchini, aubergines 
 *   [Aramco World (1975) – Meats and Sweets of Syria](https://archive.aramcoworld.com/issue/197506/meats.and.sweets.of.syria.htm)
 *   [Orange Blossom Water – To Aleppo with Love: mehshi al-burghul bi-zeit az-zeitoun](https://orangeblossomwater.net/index.php/2016/08/27/mehshi-al-burghul-bi-zeit-az-zeitoun/)
 *   [Mawdoo3 – طريقة عمل المحاشي](https://mawdoo3.com/طريقة_عمل_المحاشي)
+

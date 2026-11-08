@@ -20,6 +20,8 @@ The dish sits in a family of yogurt-cooked meats across al-Sham. Jordan's [mansa
 *   **Homs:** **Safflower** (*'usfur*) added, with or without mint; some cooks add **garlic**.
 *   **Lebanon — laban immo:** Lamb with **small whole onions** in the yogurt; garlic and dried mint fried in butter on top.
 *   **Chicken versions:** Common in modern home cooking (cardamom, bay, cinnamon in the broth), served with vermicelli rice.
+*   **Hama and Homs (round 3):** Al-Ittihad notes that the dish's preparation "differs from one Syrian city to another": Hama is prized for the quality of its *laban ʿarabi* (local yogurt) and mint, while Homs sometimes adds **safflower** (*ʿusfur*); it is "usually served with rice". ([Al-Ittihad](https://www.aletihad.ae/articleamp/16671/2011/الكبّة-اللبنية-أشهى-الأكلات-الشامية-وأكثرها-شهرة))
+*   **Damascene name story (round 3):** Damascenes tell that a mother who first cooked it named it after her beloved son Shakir; other accounts give the name a Turkish origin. An-Nahar recommends serving it with "rice fluffy with vermicelli or cooked bulgur". ([An-Nahar – الشاكرية باللحم على الطريقة السورية](https://www.annahar.com/lifestyle/cooking/216712/الشاكرية-باللحم-على-الطريقة-السورية-وسبب-اسمها-الطريف))
 
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: **Damascus** (no mint in the yogurt), with the Hama and Homs finishes noted.*
@@ -61,3 +63,4 @@ The dish sits in a family of yogurt-cooked meats across al-Sham. Jordan's [mansa
 *   [Mawdoo3 – طريقة طبخ الشاكرية](https://mawdoo3.com/طريقة_طبخ_الشاكرية)
 *   [Al-Quds al-Arabi – الشاكرية بالدجاج (chicken version with vermicelli rice)](https://www.alquds.co.uk/الشاكرية-بالدجاج/)
 *   [Al Ittihad – شاكرية وأرز بالشعيرية](https://www.aletihad.ae/articleamp/76750/2011/شاكرية-وأرز-بالشعيرية-وسلطة-الحلوم)
+

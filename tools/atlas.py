@@ -44,7 +44,7 @@ FAMILIES = {
     "Mountain & game rices": (
         "Upland rices built on game, farmyard birds and wild mushrooms.",
         ["arroz_de_montana_castellon", "arros_de_muntanya_catala", "arroz_con_liebre", "arroz_con_perdiz",
-         "arroz_con_pitu_de_caleya", "arroz_con_conejo", "arroz_conejo_y_caracoles", "kaeng_pa"]),
+         "arroz_con_pitu_de_caleya", "arroz_con_conejo", "arroz_conejo_y_caracoles", "kaeng_pa", "yakhnet_kamaa"]),
     "Duck & wetland rices": (
         "Rices of the great rice marshes: Albufera, Ebro Delta, Guadalquivir.",
         ["arroz_con_pato", "arroz_caldoso_con_pato_marismas", "arros_de_ribera_delta_ebre", "arroz_con_cangrejos_isla_mayor", "arros_al_forn_d_anguiles_i_bajoques", "kaeng_phet_pet_yang", "khao_na_pet"]),
@@ -54,11 +54,11 @@ FAMILIES = {
     "Fishermen's broth rices": (
         "Unsaleable catch boiled into broth; fish often eaten first, rice cooked in what remains.",
         ["arroz_a_banda", "caldero_santa_pola_tabarca", "caldero_del_mar_menor", "arroz_del_senyoret", "arrossejat",
-         "arros_de_peix_balear", "arroz_marinero_andaluz", "arros_de_ribera_delta_ebre", "arroz_y_gatet", "fideua", "sayadieh", "hbari_u_ruz", "kaeng_som_central", "chu_chi_pla", "khao_nam_phrik_kapi_pla_thu"]),
+         "arros_de_peix_balear", "arroz_marinero_andaluz", "arros_de_ribera_delta_ebre", "arroz_y_gatet", "fideua", "sayadieh", "hbari_u_ruz", "kaeng_som_central", "chu_chi_pla", "khao_nam_phrik_kapi_pla_thu", "kaeng_lueang"]),
     "Cephalopod & ink rices": (
         "Cuttlefish, squid, choco and octopus, with or without their ink.",
         ["arroz_negro", "arros_negre_catala", "arroz_con_choco", "arroz_meloso_de_pulpo", "arroz_con_sepia_y_alcachofas",
-         "arrocito_del_grau", "arroz_con_chipirones_y_ajos_tiernos", "arros_de_sepia_i_coliflor", "chipirones_en_su_tinta_con_arroz", "hbari_u_ruz"]),
+         "arrocito_del_grau", "arroz_con_chipirones_y_ajos_tiernos", "arros_de_sepia_i_coliflor", "chipirones_en_su_tinta_con_arroz", "hbari_u_ruz", "hbari_mahshi"]),
     "Shellfish caldosos & melosos": (
         "Lobster, prawns, mantis shrimp and clams, usually soupy or creamy.",
         ["arroz_caldoso_con_bogavante", "arroz_con_bogavante_norte", "arros_de_llagosta_menorca",
@@ -74,7 +74,7 @@ FAMILIES = {
          "arrocito_del_grau", "perol_cordobes"]),
     "Baked & crust rices": (
         "Finished in the oven (or under embers): the leftover-cocido logic, sometimes sealed with egg.",
-        ["arroz_al_horno", "arroz_con_costra", "arroz_empedrado", "arroz_con_pava", "arros_al_forn_amb_panses_i_cigrons", "arros_al_forn_amb_pesols", "arros_al_forn_d_anguiles_i_bajoques", "arros_al_forn_de_fesols_i_naps", "qidreh", "ouzi", "maqluba", "rabiya", "khao_op_mo_din"]),
+        ["arroz_al_horno", "arroz_con_costra", "arroz_empedrado", "arroz_con_pava", "arros_al_forn_amb_panses_i_cigrons", "arros_al_forn_amb_pesols", "arros_al_forn_d_anguiles_i_bajoques", "arros_al_forn_de_fesols_i_naps", "qidreh", "ouzi", "maqluba", "rabiya", "khao_op_mo_din", "kafta_bi_tahini", "kafta_bil_saniyeh"]),
     "Empedrado ('cobbled') rices": (
         "Rice studded with beans like cobblestones; Valencian and Murcian versions differ.",
         ["arroz_empedrado", "arroz_empedrao_murciano"]),
@@ -90,30 +90,30 @@ FAMILIES = {
         "Irrigated-garden vegetables: artichoke, broad beans, chard and peppers lead the dish.",
         ["arroz_de_verduras_vega_baja", "paella_de_verduras", "arroz_con_alcachofas_benicarlo",
          "arroz_con_galeras_y_alcachofas", "arroz_con_sepia_y_alcachofas", "arroz_con_costillejas_y_verduras_murcia",
-         "arros_de_la_plana", "arroz_con_acelgas", "arroz_campero_andaluz", "arroz_de_boquerones_y_espinacas", "arroz_con_boquerones_y_pava_murciano", "arroz_y_pollo_con_alcaciles", "arroz_y_verduras_con_bacalao_murciano", "arros_de_les_riberes_del_turia", "kaeng_som_central", "kaeng_liang"]),
+         "arros_de_la_plana", "arroz_con_acelgas", "arroz_campero_andaluz", "arroz_de_boquerones_y_espinacas", "arroz_con_boquerones_y_pava_murciano", "arroz_y_pollo_con_alcaciles", "arroz_y_verduras_con_bacalao_murciano", "arros_de_les_riberes_del_turia", "kaeng_som_central", "kaeng_liang", "ardi_shawki_mehshi", "yakhnet_kousa", "mnazalet_batinjan", "mnazalet_zahra", "tabakh_rouho", "yakhnet_ardi_shawki", "yakhnet_khudra"]),
     "Festive poultry rices": (
         "Turkey, duck and free-range cockerel for holidays.",
-        ["arroz_con_pava", "arroz_con_pitu_de_caleya", "arroz_con_pato", "arros_de_les_riberes_del_turia", "riz_a_djej", "ruz_bi_djaj_hashweh", "maqluba", "kaeng_phet_pet_yang"]),
+        ["arroz_con_pava", "arroz_con_pitu_de_caleya", "arroz_con_pato", "arros_de_les_riberes_del_turia", "riz_a_djej", "ruz_bi_djaj_hashweh", "maqluba", "kaeng_phet_pet_yang", "fattet_djaj", "djaj_mahshi"]),
     "Sweet rices": (
         "Desserts: rice cooked in milk or honey.",
-        ["arroz_con_leche", "arroz_con_miel_bogarra", "escudella_d_angel", "riz_bi_haleeb", "muhallabiyeh", "meghli", "mufattaka", "aruzz_khatuni", "muhallabiyya_medieval", "khao_niao_mamuang", "khao_tom_mat", "khao_niao_sangkhaya", "khao_mak", "bua_loy", "khanom_krok", "khanom_chan", "khao_mathu_payat", "khao_lam"]),
+        ["arroz_con_leche", "arroz_con_miel_bogarra", "escudella_d_angel", "riz_bi_haleeb", "muhallabiyeh", "meghli", "mufattaka", "aruzz_khatuni", "muhallabiyya_medieval", "khao_niao_mamuang", "khao_tom_mat", "khao_niao_sangkhaya", "khao_mak", "bua_loy", "khanom_krok", "khanom_chan", "khao_mathu_payat", "khao_lam", "khanom_tako", "khanom_thuai", "khao_niao_piak", "khanom_jak", "khao_mao", "khanom_babin", "khanom_sot_sai", "halawet_el_riz"]),
     "Home-style & country rices": (
         "Everyday and cortijo rices of the Canaries and Andalusia: rice 'con cosas', whatever the house had.",
         ["arroz_amarillo_canario", "arroz_a_la_cubana_canario", "arroz_a_la_sevillana", "arroz_campero_andaluz",
-         "arroz_cortijero_jaen", "perol_cordobes", "arroz_a_la_asturiana", "riz_bi_foul", "riz_bi_shariyyeh", "ships_w_pasta", "galayet_bandora_bi_ruz", "mlukhiyeh_ma_ruz", "bamyeh_ma_ruz", "bazella_w_ruz", "kibbeh_hamda", "sabanekh_w_riz", "daoud_basha", "mayit_bandora_u_bayd", "khao_kap_pla_haeng_ayutthaya", "khao_hung_chet_nam", "khao_nam_phrik_kapi_pla_thu", "khao_khai_jiao"]),
+         "arroz_cortijero_jaen", "perol_cordobes", "arroz_a_la_asturiana", "riz_bi_foul", "riz_bi_shariyyeh", "ships_w_pasta", "galayet_bandora_bi_ruz", "mlukhiyeh_ma_ruz", "bamyeh_ma_ruz", "bazella_w_ruz", "kibbeh_hamda", "sabanekh_w_riz", "daoud_basha", "mayit_bandora_u_bayd", "khao_kap_pla_haeng_ayutthaya", "khao_hung_chet_nam", "khao_nam_phrik_kapi_pla_thu", "khao_khai_jiao", "yakhnet_batata", "loubieh_bi_lahmeh", "shishbarak", "mnazalet_batinjan", "mnazalet_zahra", "ruz_eb_maya", "keftes_bi_ou"]),
     "Rice & legumes": (
         "Rice cooked with lentils, beans or fava: the poor-and-sustaining pot from Orihuela to Beirut.",
         ["mujaddara", "arroz_de_los_tres_punaos", "arroz_y_habichuelas_murciano", "potaje_banezano", "arros_amb_fava_pela",
-         "riz_bi_foul", "arros_col_i_fesols", "arroz_con_fesols_i_naps", "musluaa", "shurba_al_baghdadi", "mujaddara_medieval"]),
+         "riz_bi_foul", "arros_col_i_fesols", "arroz_con_fesols_i_naps", "musluaa", "shurba_al_baghdadi", "mujaddara_medieval", "ruz_eb_maya", "mansaf_halabi"]),
     "Stuffed vegetables & leaves": (
         "Rice used as a filling: vine leaves, zucchini and eggplant simmered in broth.",
-        ["mahshi", "mahshi_halabi", "warak_enab", "yalanji", "sheikh_al_mahshi", "mehshi_basal", "yebra", "malfouf_mehshi", "mehshi_selek", "ghammeh", "fawaregh", "mahshi_lift", "lakhneh", "kousa_bi_laban"]),
+        ["mahshi", "mahshi_halabi", "warak_enab", "yalanji", "sheikh_al_mahshi", "mehshi_basal", "yebra", "malfouf_mehshi", "mehshi_selek", "ghammeh", "fawaregh", "mahshi_lift", "lakhneh", "kousa_bi_laban", "ardi_shawki_mehshi", "mehshi_felfel", "lsaineh", "hbari_mahshi", "jazar_mahshi", "mahshi_batata", "qara_mahshi", "basmashkat", "mehshi_batinjan_bi_safarjal"]),
     "Lamb feast rices": (
         "Celebration platters of lamb over rice: yogurt sauces, sealed pots, pit ovens and pastry domes.",
-        ["mansaf", "zarb", "qidreh", "shakriyeh", "ouzi", "sheikh_al_mahshi", "kibbeh_labanieh", "fate_chilena", "fatteh_ghazawiyya", "ruz_w_lahm_al_urs", "aruzz_mufalfal_wusla", "harisat_al_aruzz", "kharuf_mahshi_halabi", "khao_hung_prung_yang_thet", "kaeng_matsaman"]),
+        ["mansaf", "zarb", "qidreh", "shakriyeh", "ouzi", "sheikh_al_mahshi", "kibbeh_labanieh", "fate_chilena", "fatteh_ghazawiyya", "ruz_w_lahm_al_urs", "aruzz_mufalfal_wusla", "harisat_al_aruzz", "kharuf_mahshi_halabi", "khao_hung_prung_yang_thet", "kaeng_matsaman", "tabakh_rouho", "taj_al_malek", "mansaf_halabi", "al_basha_w_asakru"]),
     "Rice with noodles": (
         "Rice and toasted vermicelli or noodles cooked together, and the noodle 'paellas'.",
-        ["riz_bi_shariyyeh", "shakriyeh", "fasoulia_w_riz", "fideua", "arrossejat", "bamyeh_ma_ruz", "bazella_w_ruz", "arroz_arabe_chileno", "pilav_ottoman_aleppo"]),
+        ["riz_bi_shariyyeh", "shakriyeh", "fasoulia_w_riz", "fideua", "arrossejat", "bamyeh_ma_ruz", "bazella_w_ruz", "arroz_arabe_chileno", "pilav_ottoman_aleppo", "yakhnet_batata", "loubieh_bi_lahmeh", "shishbarak", "kafta_bil_saniyeh", "kabab_hindi", "yakhnet_khudra"]),
 
     "Fried rices": (
         "Cooked rice tossed in a hot wok or pan.",
@@ -123,33 +123,36 @@ FAMILIES = {
         ["khao_tom", "jok", "shurba_al_baghdadi", "kibbeh_hamda", "kaeng_liang", "kaeng_chuet", "tom_yum_kung", "tom_kha_kai", "tom_khlong_pla_krop", "khao_tom_kui"]),
     "Chicken rices": (
         "Rice built around chicken: Hainanese-Thai khao man kai, Thai-Muslim khao mok, Levantine riz a djej.",
-        ["khao_man_kai", "khao_mok_kai", "riz_a_djej", "ruz_bi_djaj_hashweh", "muhallabiyya_medieval", "tom_kha_kai", "khao_man_kai_thot", "khao_op_mo_din"]),
+        ["khao_man_kai", "khao_mok_kai", "riz_a_djej", "ruz_bi_djaj_hashweh", "muhallabiyya_medieval", "tom_kha_kai", "khao_man_kai_thot", "khao_op_mo_din", "fattet_djaj", "djaj_mahshi"]),
     "Court & royal rices": (
         "Refined palace rices: Siamese khao chae and khao tang, Ayyubid aruzz khatuni, Ottoman Aleppo's stuffed lamb.",
-        ["khao_chae", "khao_tang_na_tang", "aruzz_khatuni", "kharuf_mahshi_halabi", "pilav_ottoman_aleppo", "khao_hung_prung_yang_thet", "khao_nasi_prajit", "khao_phat_chao_wang", "khao_bplee", "kaeng_matsaman", "nam_phrik_long_ruea"]),
+        ["khao_chae", "khao_tang_na_tang", "aruzz_khatuni", "kharuf_mahshi_halabi", "pilav_ottoman_aleppo", "khao_hung_prung_yang_thet", "khao_nasi_prajit", "khao_phat_chao_wang", "khao_bplee", "kaeng_matsaman", "nam_phrik_long_ruea", "basmashkat"]),
     "Rice-and-topping plates": (
         "One plate of rice with something ladled or laid over it.",
-        ["khao_kha_mu", "khao_mu_daeng", "khao_rad_kaeng", "arroz_a_la_cubana_canario", "galayet_bandora_bi_ruz", "nasi_dagae", "kaeng_khiao_wan", "kaeng_phet", "phanaeng", "phat_phrik_khing", "khai_palo", "phat_kaphrao_rad_khao", "khao_khai_jiao", "khao_na_pet", "khao_man_som_tam", "khao_man_kai_thot", "mu_thot_kratiam_rad_khao"]),
+        ["khao_kha_mu", "khao_mu_daeng", "khao_rad_kaeng", "arroz_a_la_cubana_canario", "galayet_bandora_bi_ruz", "nasi_dagae", "kaeng_khiao_wan", "kaeng_phet", "phanaeng", "phat_phrik_khing", "khai_palo", "phat_kaphrao_rad_khao", "khao_khai_jiao", "khao_na_pet", "khao_man_som_tam", "khao_man_kai_thot", "mu_thot_kratiam_rad_khao", "mu_hong", "kibbeh_arnabieh", "samkeh_harra", "yakhnet_batata", "loubieh_bi_lahmeh", "yakhnet_kousa", "kafta_bi_tahini", "kafta_bil_saniyeh", "kabab_hindi", "yakhnet_khudra", "al_basha_w_asakru", "yakhnet_kamaa", "keftes_bi_ou"]),
 
     "Sticky rices": (
         "Glutinous rice: steamed in the huad, roasted in bamboo, grilled, pounded and sweetened.",
-        ["khao_niao_nueng", "khao_jee", "khao_puk_nga", "khao_lam", "khao_niao_mamuang", "khao_tom_mat", "khao_niao_sangkhaya", "khao_pradap_din", "khao_tom_luk_yon", "mu_ping_khao_niao"]),
+        ["khao_niao_nueng", "khao_jee", "khao_puk_nga", "khao_lam", "khao_niao_mamuang", "khao_tom_mat", "khao_niao_sangkhaya", "khao_pradap_din", "khao_tom_luk_yon", "mu_ping_khao_niao", "khao_niao_piak", "khanom_jak", "khanom_babin", "khantok", "khao_mao"]),
     "Leaf & bamboo-wrapped rices": (
         "Rice cooked or carried in leaves and bamboo: Thai parcels and tubes, Levantine stuffed leaves.",
-        ["khao_lam", "khao_kan_chin", "khao_tom_mat", "khao_tom_luk_yon", "khao_pradap_din", "warak_enab", "yalanji"]),
+        ["khao_lam", "khao_kan_chin", "khao_tom_mat", "khao_tom_luk_yon", "khao_pradap_din", "warak_enab", "yalanji", "khanom_jak", "khanom_sot_sai", "mok_no_mai"]),
     "Ritual & festival rices": (
         "Rices made for gods, ancestors, monks, births and weddings.",
-        ["khao_tom_luk_yon", "khanom_la", "khao_mathu_payat", "khao_pradap_din", "khao_jee", "meghli", "mufattaka", "ruz_w_lahm_al_urs"]),
+        ["khao_tom_luk_yon", "khanom_la", "khao_mathu_payat", "khao_pradap_din", "khao_jee", "meghli", "mufattaka", "ruz_w_lahm_al_urs", "khanom_kong", "khao_mao"]),
     "Rice crackers & rice-flour sweets": (
         "Rice turned into crisp sheets, lace, pancakes and layered sweets.",
-        ["khao_pong", "khao_taen", "khao_phan_phak", "khao_tang_na_tang", "khanom_krok", "khanom_chan", "khanom_la", "bua_loy", "khao_kriap_pak_mo"]),
+        ["khao_pong", "khao_taen", "khao_phan_phak", "khao_tang_na_tang", "khanom_krok", "khanom_chan", "khanom_la", "bua_loy", "khao_kriap_pak_mo", "khanom_tako", "khanom_thuai", "khanom_bueang", "khanom_kong", "halawet_el_riz"]),
     "Tossed & salad rices": (
         "Cooked rice tossed with pastes, herbs, fish sauce or tomato.",
         ["khao_yam", "khao_kluk_kapi", "khao_som_tai_yai", "khao_nasi_prajit", "yam_naem_khao_thot"]),
     "Rice as ingredient": (
         "Rice toasted, pounded or ground to season, thicken or bind other dishes.",
-        ["khao_kua", "khao_buea", "kibbeh_hamda", "kibbeh_labanieh"]),
+        ["khao_kua", "khao_buea", "kibbeh_hamda", "kibbeh_labanieh", "larb_isan", "nam_tok_mu", "kaeng_om", "sup_no_mai", "sai_krok_isan", "kibbeh_arnabieh", "kibbeh_halabiyeh"]),
 
+    "Curries & relishes with rice": (
+        "Thai kap khao: curries, relishes, salads and soups whose whole purpose is to be eaten with rice.",
+        ["kaeng_khiao_wan", "kaeng_phet", "kaeng_phet_pet_yang", "kaeng_matsaman", "phanaeng", "kaeng_som_central", "kaeng_liang", "kaeng_khua_sapparot_hoi", "kaeng_pa", "kaeng_chuet", "tom_yum_kung", "tom_kha_kai", "tom_khlong_pla_krop", "chu_chi_pla", "phat_phrik_khing", "khai_palo", "khao_nam_phrik_kapi_pla_thu", "kaeng_tai_pla", "kaeng_lueang", "khua_kling", "mu_hong", "sataw_phat_kapi_kung", "larb_isan", "larb_mueang", "nam_tok_mu", "som_tam", "kai_yang_isan", "jaew_bong", "jaew_mak_len", "nam_phrik_num", "nam_phrik_ong", "kaeng_hang_le", "kaeng_khae", "kaeng_om", "sup_no_mai", "mok_no_mai", "sai_ua", "tam_khanun", "khantok"]),
 }
 
 
@@ -186,6 +189,7 @@ FAMILY_I18N = {  # name: {lang: (name, description)}; English description comes 
     "Rice crackers & rice-flour sweets": {"es": "Galletas y dulces de harina de arroz", "ca": "Galetes i dolços de farina d'arròs", "th": "ข้าวเกรียบและขนมแป้งข้าว", "ar": "مقرمشات وحلويات طحين الأرز"},
     "Tossed & salad rices": {"es": "Arroces mezclados y en ensalada", "ca": "Arrossos barrejats i en amanida", "th": "ข้าวคลุกและข้าวยำ", "ar": "الأرز المخلوط والسلطات"},
     "Rice as ingredient": {"es": "El arroz como ingrediente", "ca": "L'arròs com a ingredient", "th": "ข้าวในฐานะวัตถุดิบ", "ar": "الأرز كمكوّن"},
+    "Curries & relishes with rice": {"es": "Curris y salsas para el arroz", "ca": "Curris i salses per a l'arròs", "th": "กับข้าว: แกงและน้ำพริกกินกับข้าว", "ar": "الكاري والصلصات مع الأرز"},
     "Rice with noodles": {"es": "Arroces con fideos", "ca": "Arrossos amb fideus", "th": "ข้าวกับเส้น", "ar": "الأرز بالشعيرية"},
 }
 

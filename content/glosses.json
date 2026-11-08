@@ -1565,6 +1565,461 @@
    "ca": "Arròs fregit amb embotit de porc fermentat àcid, ou i bitxo",
    "th": "ข้าวผัดแหนม ใส่ไข่และพริก",
    "ar": "أرز مقلي مع نقانق لحم خنزير مخمّرة حامضة وبيض وفلفل حار"
+  },
+  "recipe_kaeng_tai_pla.md": {
+   "en": "Fiery southern curry of fermented fish innards with mackerel and vegetables, eaten over rice",
+   "es": "Curry picante del sur con visceras de pescado fermentadas, caballa y verduras, sobre arroz",
+   "ca": "Curri picant del sud amb vísceres de peix fermentades, verat i verdures, sobre arròs",
+   "th": "แกงไตปลาปักษ์ใต้ เผ็ดร้อน ใส่ปลาทูและผัก กินกับข้าวสวย",
+   "ar": "كاري جنوبي حار بأحشاء السمك المخمّرة مع الماكريل والخضار، يؤكل مع الأرز"
+  },
+  "recipe_kaeng_lueang.md": {
+   "en": "Sour turmeric-yellow southern fish curry without coconut milk, ladled over rice",
+   "es": "Curry amarillo y ácido de pescado del sur, con cúrcuma y sin coco, sobre arroz",
+   "ca": "Curri groc i àcid de peix del sud, amb cúrcuma i sense coco, sobre arròs",
+   "th": "แกงเหลือง (แกงส้มใต้) ปลาเปรี้ยวเผ็ดไม่ใส่กะทิ ราดข้าว",
+   "ar": "كاري سمك جنوبي حامض أصفر بالكركم دون جوز الهند، يُسكب على الأرز"
+  },
+  "recipe_khua_kling.md": {
+   "en": "Dry-fried minced pork rolled in a fiery southern curry paste, eaten with rice",
+   "es": "Cerdo picado salteado en seco con una pasta de curry del sur muy picante, con arroz",
+   "ca": "Porc picat saltat en sec amb una pasta de curri del sud molt picant, amb arròs",
+   "th": "คั่วกลิ้งหมู ผัดแห้งกับพริกแกงใต้เผ็ดจัด กินกับข้าว",
+   "ar": "لحم خنزير مفروم يُقلى جافاً بمعجون كاري جنوبي حار، يؤكل مع الأرز"
+  },
+  "recipe_mu_hong.md": {
+   "en": "Phuket pork belly braised in soy, garlic and black pepper, served over rice",
+   "es": "Panceta de cerdo de Phuket guisada con soja, ajo y pimienta negra, sobre arroz",
+   "ca": "Cansalada de porc de Phuket estofada amb soja, all i pebre negre, sobre arròs",
+   "th": "หมูฮ้องภูเก็ต หมูสามชั้นตุ๋นซีอิ๊ว กระเทียม พริกไทยดำ กินกับข้าว",
+   "ar": "بطن خنزير من بوكيت مطهو بالصويا والثوم والفلفل الأسود، يُقدَّم على الأرز"
+  },
+  "recipe_sataw_phat_kapi_kung.md": {
+   "en": "Stink beans and prawns stir-fried in shrimp paste and chili, eaten over rice",
+   "es": "Judías sataw y gambas salteadas con pasta de gambas y chile, sobre arroz",
+   "ca": "Mongetes sataw i gambes saltades amb pasta de gamba i bitxo, sobre arròs",
+   "th": "สะตอผัดกะปิกุ้ง กินกับข้าวสวยร้อนๆ",
+   "ar": "فاصوليا ساتاو وروبيان مقلية بمعجون الروبيان والفلفل الحار، تؤكل مع الأرز"
+  },
+  "recipe_khanom_tako.md": {
+   "en": "Two-layer rice-flour sweet in pandan boxes: sweet jelly base, salty coconut top",
+   "es": "Dulce de harina de arroz en dos capas en cajitas de pandan: base dulce y cobertura salada de coco",
+   "ca": "Dolç de farina d'arròs en dues capes en capsetes de pandà: base dolça i cobertura salada de coco",
+   "th": "ขนมตะโก้ในกระทงใบเตย ตัวขนมหวาน หน้ากะทิเค็มมัน",
+   "ar": "حلوى طبقتين من طحين الأرز في علب من أوراق الباندان: قاعدة حلوة وطبقة جوز هند مالحة"
+  },
+  "recipe_khanom_thuai.md": {
+   "en": "Rice-flour sweets steamed in tiny cups: pandan base under a salty coconut top",
+   "es": "Dulces de harina de arroz al vapor en tacitas: base de pandan y cobertura salada de coco",
+   "ca": "Dolços de farina d'arròs al vapor en tasses petites: base de pandà i cobertura salada de coco",
+   "th": "ขนมถ้วยตะไล ตัวแป้งใบเตยหวาน หน้ากะทิเค็ม นึ่งในถ้วยเล็ก",
+   "ar": "حلويات من طحين الأرز مطهوة على البخار في أكواب صغيرة: قاعدة بالباندان وطبقة جوز هند مالحة"
+  },
+  "recipe_khao_niao_piak.md": {
+   "en": "Warm sticky-rice pudding (black or white) with palm sugar and salted coconut cream",
+   "es": "Pudin caliente de arroz glutinoso (negro o blanco) con azúcar de palma y crema de coco salada",
+   "ca": "Púding calent d'arròs glutinós (negre o blanc) amb sucre de palma i crema de coco salada",
+   "th": "ข้าวเหนียวเปียก (ข้าวเหนียวดำหรือขาว) หวานน้ำตาลปี๊บ ราดหัวกะทิเค็ม",
+   "ar": "حلوى أرز دبق دافئة (سوداء أو بيضاء) بسكر النخيل وكريمة جوز الهند المملحة"
+  },
+  "recipe_khanom_bueang.md": {
+   "en": "Paper-thin crisp rice-flour crepes folded around cream and sweet or savoury toppings",
+   "es": "Crepes finísimas y crujientes de harina de arroz, dobladas con crema y relleno dulce o salado",
+   "ca": "Creps finíssimes i cruixents de farina d'arròs, plegades amb crema i farciment dolç o salat",
+   "th": "ขนมเบื้องไทย แผ่นแป้งข้าวเจ้ากรอบบาง หน้าครีมกับฝอยทองหรือหน้าเค็ม",
+   "ar": "كريب رقيق ومقرمش من طحين الأرز يُطوى حول كريمة وحشوة حلوة أو مالحة"
+  },
+  "recipe_khanom_jak.md": {
+   "en": "Sticky rice, coconut and palm sugar grilled inside nipa-palm leaves",
+   "es": "Arroz glutinoso, coco y azúcar de palma asados dentro de hojas de palmera nipa",
+   "ca": "Arròs glutinós, coco i sucre de palma rostits dins de fulles de palmera nipa",
+   "th": "ขนมจาก แป้งข้าวเหนียว มะพร้าว น้ำตาล ห่อใบจากปิ้ง",
+   "ar": "أرز دبق وجوز هند وسكر نخيل يُشوى داخل أوراق نخيل النيبا"
+  },
+  "recipe_khanom_kong.md": {
+   "en": "Wheel-shaped mung-bean sweets in a toasted rice-flour batter, fried for weddings and festivals",
+   "es": "Ruedas de pasta de judía mungo rebozadas en harina de arroz tostada y fritas, para bodas y fiestas",
+   "ca": "Rodes de pasta de mongeta mung arrebossades amb farina d'arròs torrada i fregides, per a noces i festes",
+   "th": "ขนมกง ถั่วเขียวกวนปั้นเป็นวงล้อ ชุบแป้งข้าวคั่วทอด ทำในงานแต่งและงานบุญ",
+   "ar": "حلوى على شكل عجلة من عجينة الماش مغلفة بطحين أرز محمّص ومقلية، للأعراس والمواسم"
+  },
+  "recipe_khao_mao.md": {
+   "en": "Young green rice roasted and pounded into flakes, tossed with coconut and sugar",
+   "es": "Arroz verde joven tostado y machacado en copos, mezclado con coco y azúcar",
+   "ca": "Arròs verd jove torrat i picat en flocs, barrejat amb coco i sucre",
+   "th": "ข้าวเม่า ข้าวอ่อนคั่วตำเป็นแผ่น คลุกมะพร้าวและน้ำตาล",
+   "ar": "أرز أخضر يافع محمص ومدقوق رقائق، مخلوط بجوز الهند والسكر"
+  },
+  "recipe_khanom_babin.md": {
+   "en": "Chewy coconut cakes of glutinous rice flour, baked until crisp at the edges",
+   "es": "Pastelitos de coco y harina de arroz glutinoso, horneados hasta quedar crujientes por los bordes",
+   "ca": "Pastissets de coco i farina d'arròs glutinós, enfornats fins que queden cruixents a les vores",
+   "th": "ขนมบ้าบิ่น แป้งข้าวเหนียวกับมะพร้าวอ่อน อบจนขอบกรอบ",
+   "ar": "كعكات جوز هند مطاطية من طحين الأرز الدبق تُخبز حتى تتحمص أطرافها"
+  },
+  "recipe_khanom_sot_sai.md": {
+   "en": "Glutinous rice dumplings with coconut-palm sugar filling, steamed in banana-leaf pyramids",
+   "es": "Bolitas de arroz glutinoso rellenas de coco y azúcar de palma, al vapor en pirámides de hoja de plátano",
+   "ca": "Boletes d'arròs glutinós farcides de coco i sucre de palma, al vapor en piràmides de fulla de plàtan",
+   "th": "ขนมสอดไส้ แป้งข้าวเหนียวหุ้มไส้มะพร้าว ห่อใบตองนึ่ง",
+   "ar": "كرات أرز دبق محشوة بجوز الهند وسكر النخيل، مطهوة على البخار في أهرامات من ورق الموز"
+  },
+  "recipe_larb_isan.md": {
+   "en": "Isan minced-meat salad with lime, chilli, mint and toasted rice, eaten with sticky rice",
+   "es": "Ensalada de carne picada de Isan con lima, chile, menta y arroz tostado, con arroz glutinoso",
+   "ca": "Amanida de carn picada d'Isan amb llima, bitxo, menta i arròs torrat, amb arròs glutinós",
+   "th": "ลาบอีสาน เนื้อสับคลุกมะนาว พริก สะระแหน่ และข้าวคั่ว กินกับข้าวเหนียว",
+   "ar": "سلطة لحم مفروم من إيسان بالليمون والفلفل الحار والنعناع والأرز المحمص، تؤكل مع الأرز الدبق"
+  },
+  "recipe_larb_mueang.md": {
+   "en": "Northern spiced minced pork stir-dried with chilli and toasted spices, eaten with sticky rice",
+   "es": "Cerdo picado especiado del norte salteado en seco con chile y especias tostadas, con arroz glutinoso",
+   "ca": "Porc picat especiat del nord saltat en sec amb bitxo i espècies torrades, amb arròs glutinós",
+   "th": "ลาบเมืองคั่ว หมูสับคั่วพริกลาบเครื่องเทศแบบล้านนา กินกับข้าวเหนียว",
+   "ar": "لحم خنزير مفروم متبّل على طريقة الشمال يُقلّب جافاً مع الفلفل والتوابل المحمصة، يؤكل مع الأرز الدبق"
+  },
+  "recipe_nam_tok_mu.md": {
+   "en": "Sliced grilled pork neck dressed with lime, chilli, herbs and toasted rice, with sticky rice",
+   "es": "Cuello de cerdo a la brasa en lonchas aliñado con lima, chile, hierbas y arroz tostado, con arroz glutinoso",
+   "ca": "Coll de porc a la brasa a llesques amanit amb llima, bitxo, herbes i arròs torrat, amb arròs glutinós",
+   "th": "น้ำตกหมู คอหมูย่างหั่นชิ้น คลุกมะนาว พริก สมุนไพร และข้าวคั่ว กินกับข้าวเหนียว",
+   "ar": "رقبة خنزير مشوية مقطعة متبلة بالليمون والفلفل والأعشاب والأرز المحمص، مع الأرز الدبق"
+  },
+  "recipe_som_tam.md": {
+   "en": "Pounded green papaya salad with chilli, lime and fermented fish, eaten with sticky rice and grilled chicken",
+   "es": "Ensalada de papaya verde machacada con chile, lima y pescado fermentado, con arroz glutinoso y pollo a la brasa",
+   "ca": "Amanida de papaia verda picada amb bitxo, llima i peix fermentat, amb arròs glutinós i pollastre a la brasa",
+   "th": "ส้มตำ มะละกอตำกับพริก มะนาว และปลาร้า กินกับข้าวเหนียวและไก่ย่าง",
+   "ar": "سلطة البابايا الخضراء المدقوقة مع الفلفل والليمون والسمك المخمر، تؤكل مع الأرز الدبق والدجاج المشوي"
+  },
+  "recipe_kai_yang_isan.md": {
+   "en": "Charcoal-grilled marinated chicken with jaew dip, sold with sticky rice in banana leaf",
+   "es": "Pollo marinado a la brasa con salsa jaew, vendido con arroz glutinoso en hoja de plátano",
+   "ca": "Pollastre marinat a la brasa amb salsa jaew, venut amb arròs glutinós en fulla de plàtan",
+   "th": "ไก่ย่างเตาถ่านหมักเครื่อง กินกับแจ่วและข้าวเหนียวห่อใบตอง",
+   "ar": "دجاج متبّل مشوي على الفحم مع صلصة الجاو، يباع مع الأرز الدبق في ورق الموز"
+  },
+  "recipe_jaew_bong.md": {
+   "en": "Thick smoky relish of roasted chilli, galangal and fermented fish, pinched up with sticky rice",
+   "es": "Salsa espesa y ahumada de chile asado, galanga y pescado fermentado, para comer con arroz glutinoso",
+   "ca": "Salsa espessa i fumada de bitxo rostit, galanga i peix fermentat, per menjar amb arròs glutinós",
+   "th": "แจ่วบอง ปลาร้าบองพริกคั่ว ข่า ตะไคร้ หอมควันไฟ กินกับข้าวเหนียว",
+   "ar": "صلصة كثيفة مدخنة من الفلفل المحمص والخولنجان والسمك المخمر، تؤكل مع الأرز الدبق"
+  },
+  "recipe_jaew_mak_len.md": {
+   "en": "Roasted tomato and chilli relish with fermented fish, eaten with sticky rice and vegetables",
+   "es": "Salsa de tomate y chile asados con pescado fermentado, con arroz glutinoso y verduras",
+   "ca": "Salsa de tomàquet i bitxo rostits amb peix fermentat, amb arròs glutinós i verdures",
+   "th": "แจ่วมะเขือเทศเผา พริกและปลาร้า กินกับข้าวเหนียวและผัก",
+   "ar": "صلصة الطماطم والفلفل المشويين مع السمك المخمر، تؤكل مع الأرز الدبق والخضار"
+  },
+  "recipe_nam_phrik_num.md": {
+   "en": "Smoky roasted green-chilli relish from Chiang Mai, eaten with sticky rice and pork crackling",
+   "es": "Salsa ahumada de chile verde asado de Chiang Mai, con arroz glutinoso y corteza de cerdo",
+   "ca": "Salsa fumada de bitxo verd rostit de Chiang Mai, amb arròs glutinós i cotna de porc",
+   "th": "น้ำพริกหนุ่มเชียงใหม่ พริกหนุ่มเผา กินกับข้าวเหนียวและแคบหมู",
+   "ar": "صلصة فلفل أخضر مشوي مدخنة من تشيانغ ماي، تؤكل مع الأرز الدبق وجلد الخنزير المقرمش"
+  },
+  "recipe_nam_phrik_ong.md": {
+   "en": "Northern pork and tomato chilli relish with fermented soybean, eaten with sticky rice and vegetables",
+   "es": "Salsa norteña de cerdo y tomate con chile y soja fermentada, con arroz glutinoso y verduras",
+   "ca": "Salsa del nord de porc i tomàquet amb bitxo i soja fermentada, amb arròs glutinós i verdures",
+   "th": "น้ำพริกอ่อง หมูสับมะเขือเทศกับถั่วเน่า กินกับข้าวเหนียวและผัก",
+   "ar": "صلصة شمالية من لحم الخنزير والطماطم والفلفل مع فول الصويا المخمر، تؤكل مع الأرز الدبق والخضار"
+  },
+  "recipe_kaeng_hang_le.md": {
+   "en": "Rich Burmese-influenced pork-belly curry with tamarind, ginger and pickled garlic, served over rice",
+   "es": "Curry de panceta de influencia birmana con tamarindo, jengibre y ajo encurtido, sobre arroz",
+   "ca": "Curri de cansalada d'influència birmana amb tamarinde, gingebre i all confitat, sobre arròs",
+   "th": "แกงฮังเลหมูสามชั้นอิทธิพลพม่า ใส่มะขาม ขิง และกระเทียมดอง กินกับข้าว",
+   "ar": "كاري لحم بطن الخنزير الغني بتأثير بورمي مع التمر الهندي والزنجبيل والثوم المخلل، يقدم على الأرز"
+  },
+  "recipe_kaeng_khae.md": {
+   "en": "Northern herbal vegetable curry with wild betel leaf and chicken, eaten with sticky rice",
+   "es": "Curry norteño de hierbas y verduras con hoja de betel silvestre y pollo, con arroz glutinoso",
+   "ca": "Curri del nord d'herbes i verdures amb fulla de betel silvestre i pollastre, amb arròs glutinós",
+   "th": "แกงแคไก่ ผักพื้นบ้านและผักแค กินกับข้าวเหนียว",
+   "ar": "كاري شمالي بالأعشاب والخضار مع ورق التنبول البري والدجاج، يؤكل مع الأرز الدبق"
+  },
+  "recipe_kaeng_om.md": {
+   "en": "Little-water herb stew with chicken, dill and fermented fish, eaten with sticky rice",
+   "es": "Guiso de hierbas con poca agua, pollo, eneldo y pescado fermentado, con arroz glutinoso",
+   "ca": "Guisat d'herbes amb poca aigua, pollastre, anet i peix fermentat, amb arròs glutinós",
+   "th": "แกงอ่อมไก่ ผักชีลาว และปลาร้า กินกับข้าวเหนียว",
+   "ar": "يخنة أعشاب قليلة الماء مع الدجاج والشبت والسمك المخمر، تؤكل مع الأرز الدبق"
+  },
+  "recipe_sup_no_mai.md": {
+   "en": "Bamboo-shoot salad in green yanang juice with toasted rice and lime, eaten with sticky rice",
+   "es": "Ensalada de brotes de bambú en jugo verde de yanang con arroz tostado y lima, con arroz glutinoso",
+   "ca": "Amanida de brots de bambú en suc verd de yanang amb arròs torrat i llima, amb arròs glutinós",
+   "th": "ซุปหน่อไม้ใบย่านาง ข้าวคั่ว และมะนาว กินกับข้าวเหนียว",
+   "ar": "سلطة براعم الخيزران بعصير اليانانغ الأخضر مع الأرز المحمص والليمون، تؤكل مع الأرز الدبق"
+  },
+  "recipe_mok_no_mai.md": {
+   "en": "Bamboo shoot and pork belly steamed in banana leaf, eaten with hot sticky rice",
+   "es": "Brotes de bambú y panceta al vapor en hoja de plátano, con arroz glutinoso caliente",
+   "ca": "Brots de bambú i cansalada al vapor en fulla de plàtan, amb arròs glutinós calent",
+   "th": "หมกหน่อไม้หมูสามชั้นนึ่งใบตอง กินกับข้าวเหนียวร้อนๆ",
+   "ar": "براعم الخيزران ولحم بطن الخنزير على البخار في ورق الموز، تؤكل مع الأرز الدبق الساخن"
+  },
+  "recipe_sai_ua.md": {
+   "en": "Grilled northern herb sausage with red curry paste, eaten with sticky rice and chilli relish",
+   "es": "Salchicha norteña de hierbas a la brasa con pasta de curry rojo, con arroz glutinoso y salsa de chile",
+   "ca": "Salsitxa del nord d'herbes a la brasa amb pasta de curri vermell, amb arròs glutinós i salsa de bitxo",
+   "th": "ไส้อั่วย่าง กินกับข้าวเหนียวและน้ำพริกหนุ่ม",
+   "ar": "نقانق شمالية بالأعشاب مشوية مع معجون الكاري الأحمر، تؤكل مع الأرز الدبق وصلصة الفلفل"
+  },
+  "recipe_sai_krok_isan.md": {
+   "en": "Sour Isan pork sausage fermented with rice and garlic, grilled and served with ginger and chilli",
+   "es": "Salchicha ácida de cerdo de Isan fermentada con arroz y ajo, a la brasa con jengibre y chile",
+   "ca": "Salsitxa àcida de porc d'Isan fermentada amb arròs i all, a la brasa amb gingebre i bitxo",
+   "th": "ไส้กรอกอีสานหมักข้าวและกระเทียม ย่างกินกับขิงและพริก",
+   "ar": "نقانق خنزير حامضة من إيسان مخمرة بالأرز والثوم، تشوى وتقدم مع الزنجبيل والفلفل"
+  },
+  "recipe_tam_khanun.md": {
+   "en": "Pounded young jackfruit with minced pork and northern chilli paste, eaten with sticky rice",
+   "es": "Yaca tierna machacada con cerdo picado y pasta de chile del norte, con arroz glutinoso",
+   "ca": "Fruit del pa jove picat amb porc picat i pasta de bitxo del nord, amb arròs glutinós",
+   "th": "ตำขนุนอ่อนกับหมูสับและน้ำพริกเหนือ กินกับข้าวเหนียว",
+   "ar": "جاك فروت صغير مدقوق مع لحم الخنزير المفروم ومعجون الفلفل الشمالي، يؤكل مع الأرز الدبق"
+  },
+  "recipe_khantok.md": {
+   "en": "Northern shared tray of curries, relishes and sausage around baskets of sticky rice",
+   "es": "Bandeja norteña compartida de currys, salsas y salchicha alrededor de cestas de arroz glutinoso",
+   "ca": "Safata del nord compartida de curris, salses i salsitxa al voltant de cistells d'arròs glutinós",
+   "th": "ขันโตก สำรับรวมแกง น้ำพริก และไส้อั่ว กินกับข้าวเหนียวในก่อง",
+   "ar": "صينية شمالية مشتركة من الكاري والصلصات والنقانق حول سلال الأرز الدبق"
+  },
+  "recipe_kibbeh_arnabieh.md": {
+   "en": "Kibbeh simmered in a tahini and bitter-orange sauce, ladled over rice",
+   "es": "Kibbeh cocidas en salsa de tahini y naranja amarga, servidas sobre arroz",
+   "ca": "Kibbeh cuites en salsa de tahini i taronja amarga, servides sobre arròs",
+   "th": "คิบเบห์ต้มในซอสทาฮินีกับส้มขม ราดบนข้าว",
+   "ar": "كبة أرنبية: أقراص الكبة مطبوخة بصلصة الطحينة والحامض والبوصفير، تُسكب على الرز"
+  },
+  "recipe_halawet_el_riz.md": {
+   "en": "Tripoli rice-and-cheese sweet, chilled and served with clotted cream and pistachio (dessert)",
+   "es": "Dulce de arroz y queso de Trípoli, frío, con nata cuajada (ashta) y pistacho (postre)",
+   "ca": "Dolç d'arròs i formatge de Trípoli, fred, amb nata quallada (ashta) i festuc (postres)",
+   "th": "ขนมข้าวกับชีสจากเมืองตริโปลี เสิร์ฟเย็นกับครีมอัชตาและพิสตาชิโอ (ของหวาน)",
+   "ar": "حلاوة الرز الطرابلسية بالجبن، تُقدَّم باردة مع القشطة والفستق"
+  },
+  "recipe_ardi_shawki_mehshi.md": {
+   "en": "Artichoke bottoms stuffed with meat and pine nuts, braised in tomato and served over rice",
+   "es": "Fondos de alcachofa rellenos de carne y piñones, guisados en tomate y servidos sobre arroz",
+   "ca": "Fons de carxofa farcits de carn i pinyons, cuits amb tomàquet i servits sobre arròs",
+   "th": "ก้นอาร์ติโชกยัดไส้เนื้อและเมล็ดสน ตุ๋นในซอสมะเขือเทศ เสิร์ฟบนข้าว",
+   "ar": "أرضي شوكي محشي باللحم والصنوبر، مطبوخ بصلصة البندورة ويُقدَّم على الرز"
+  },
+  "recipe_mehshi_felfel.md": {
+   "en": "Bell peppers stuffed with rice and minced meat, simmered in tomato sauce",
+   "es": "Pimientos rellenos de arroz y carne picada, cocidos en salsa de tomate",
+   "ca": "Pebrots farcits d'arròs i carn picada, cuits amb salsa de tomàquet",
+   "th": "พริกหยวกยัดไส้ข้าวและเนื้อสับ เคี่ยวในซอสมะเขือเทศ",
+   "ar": "فليفلة محشية بالأرز واللحم المفروم مطبوخة بصلصة البندورة"
+  },
+  "recipe_samkeh_harra.md": {
+   "en": "Tripoli spicy baked fish with chilli, coriander and tahini, served with rice",
+   "es": "Pescado picante al horno de Trípoli con guindilla, cilantro y tahini, servido con arroz",
+   "ca": "Peix picant al forn de Trípoli amb bitxo, coriandre i tahini, servit amb arròs",
+   "th": "ปลาอบรสเผ็ดแบบตริโปลี ใส่พริก ผักชี และทาฮินี เสิร์ฟกับข้าว",
+   "ar": "سمكة حرة طرابلسية بالفلفل الحار والكزبرة والطحينة، تُقدَّم مع الرز"
+  },
+  "recipe_yakhnet_batata.md": {
+   "en": "Potato and meat stew in garlicky tomato sauce, ladled over vermicelli rice",
+   "es": "Guiso de patata y carne en salsa de tomate con ajo, servido sobre arroz con fideos",
+   "ca": "Guisat de creïlla i carn amb salsa de tomàquet i all, servit sobre arròs amb fideus",
+   "th": "สตูว์มันฝรั่งกับเนื้อในซอสมะเขือเทศกระเทียม ราดบนข้าวผัดเส้นหมี่",
+   "ar": "يخنة البطاطا باللحم بصلصة البندورة والثوم تُسكب على الأرز بالشعيرية"
+  },
+  "recipe_loubieh_bi_lahmeh.md": {
+   "en": "Green beans stewed with lamb or beef in tomato, served over vermicelli rice",
+   "es": "Judías verdes guisadas con cordero o ternera en tomate, servidas sobre arroz con fideos",
+   "ca": "Mongetes tendres guisades amb xai o vedella amb tomàquet, servides sobre arròs amb fideus",
+   "th": "ถั่วแขกตุ๋นกับเนื้อแกะหรือเนื้อวัวในซอสมะเขือเทศ ราดบนข้าวผัดเส้นหมี่",
+   "ar": "لوبية خضراء مطبوخة مع لحم الضأن أو البقر بالبندورة، تُقدَّم مع الأرز بالشعيرية"
+  },
+  "recipe_shishbarak.md": {
+   "en": "Little meat dumplings simmered in hot garlic-mint yogurt, served with vermicelli rice",
+   "es": "Pequeños ravioles de carne cocidos en yogur caliente con ajo y menta, con arroz con fideos",
+   "ca": "Petits raviolis de carn cuits en iogurt calent amb all i menta, amb arròs amb fideus",
+   "th": "เกี๊ยวไส้เนื้อชิ้นเล็กเคี่ยวในโยเกิร์ตร้อนกับกระเทียมและสะระแหน่ เสิร์ฟกับข้าวผัดเส้นหมี่",
+   "ar": "شيشبرك: عجينة صغيرة محشوة باللحم مطبوخة باللبن الساخن والثوم والنعناع، تُقدَّم مع الأرز بالشعيرية"
+  },
+  "recipe_yakhnet_kousa.md": {
+   "en": "Zucchini and meat stew in tomato, poured over white or vermicelli rice",
+   "es": "Guiso de calabacín y carne en tomate, servido sobre arroz blanco o con fideos",
+   "ca": "Guisat de carbassó i carn amb tomàquet, servit sobre arròs blanc o amb fideus",
+   "th": "สตูว์ซูกินีกับเนื้อในซอสมะเขือเทศ ราดบนข้าวสวยหรือข้าวผัดเส้นหมี่",
+   "ar": "يخنة الكوسا باللحم والبندورة تُسكب على الأرز الأبيض أو بالشعيرية"
+  },
+  "recipe_mnazalet_batinjan.md": {
+   "en": "Eggplant and minced-meat casserole in tomato, served with rice",
+   "es": "Cazuela de berenjena y carne picada en tomate, servida con arroz",
+   "ca": "Cassola d'albergínia i carn picada amb tomàquet, servida amb arròs",
+   "th": "มะเขือยาวตุ๋นกับเนื้อสับในซอสมะเขือเทศ เสิร์ฟกับข้าว",
+   "ar": "منزلة الباذنجان باللحم المفروم والبندورة تُقدَّم مع الأرز"
+  },
+  "recipe_mnazalet_zahra.md": {
+   "en": "Fried cauliflower stewed with spiced minced meat, served with white rice",
+   "es": "Coliflor frita guisada con carne picada especiada, servida con arroz blanco",
+   "ca": "Col-i-flor fregida guisada amb carn picada especiada, servida amb arròs blanc",
+   "th": "กะหล่ำดอกทอดตุ๋นกับเนื้อสับปรุงเครื่องเทศ เสิร์ฟกับข้าวสวย",
+   "ar": "زهرة مقلية مطبوخة مع اللحم المفروم المتبّل، تُقدَّم مع الأرز الأبيض"
+  },
+  "recipe_tabakh_rouho.md": {
+   "en": "Damascene 'cooks itself' stew of lamb, zucchini, eggplant and tomato, served with rice",
+   "es": "Guiso damasceno que 'se cocina solo', de cordero, calabacín, berenjena y tomate, con arroz",
+   "ca": "Guisat de Damasc que 'es cuina sol', de xai, carbassó, albergínia i tomàquet, amb arròs",
+   "th": "สตูว์ดามัสกัส 'สุกเอง' เนื้อแกะ ซูกินี มะเขือยาว และมะเขือเทศ เสิร์ฟกับข้าว",
+   "ar": "طبخ روحه الدمشقي: لحم ضأن وكوسا وباذنجان وبندورة تُطهى وحدها، يُقدَّم مع الأرز"
+  },
+  "recipe_kafta_bi_tahini.md": {
+   "en": "Baked kafta and potatoes under lemony tahini sauce, served with rice or bread",
+   "es": "Kafta al horno con patatas bajo salsa de tahini y limón, con arroz o pan",
+   "ca": "Kafta al forn amb creïlles sota salsa de tahini i llimona, amb arròs o pa",
+   "th": "คอฟตาอบกับมันฝรั่งราดซอสงาบดมะนาว เสิร์ฟกับข้าวหรือขนมปัง",
+   "ar": "كفتة بالطحينة مع البطاطا مخبوزة بصلصة الطحينة والليمون، تُقدَّم مع الأرز أو الخبز"
+  },
+  "recipe_kafta_bil_saniyeh.md": {
+   "en": "Tray-baked kafta with potatoes and tomatoes in tomato sauce, over vermicelli rice",
+   "es": "Kafta al horno en bandeja con patatas y tomates en salsa de tomate, sobre arroz con fideos",
+   "ca": "Kafta al forn en safata amb creïlles i tomàquets amb salsa, sobre arròs amb fideus",
+   "th": "คอฟตาอบถาดกับมันฝรั่งและมะเขือเทศในซอสมะเขือเทศ ราดบนข้าวผัดเส้นหมี่",
+   "ar": "كفتة بالصينية مع البطاطا والبندورة بصلصة البندورة، تُقدَّم مع الأرز بالشعيرية"
+  },
+  "recipe_kabab_hindi.md": {
+   "en": "Spiced meatballs simmered in fresh tomato sauce, served with vermicelli rice",
+   "es": "Albóndigas especiadas cocidas en salsa de tomate fresco, con arroz con fideos",
+   "ca": "Mandonguilles especiades cuites amb salsa de tomàquet fresc, amb arròs amb fideus",
+   "th": "ลูกชิ้นเนื้อเครื่องเทศเคี่ยวในซอสมะเขือเทศสด เสิร์ฟกับข้าวผัดเส้นหมี่",
+   "ar": "كباب هندي: كرات لحم متبّلة مطبوخة بصلصة البندورة الطازجة، تُقدَّم مع الأرز بالشعيرية"
+  },
+  "recipe_yakhnet_ardi_shawki.md": {
+   "en": "Artichoke-bottom and meat stew with lemon, served with rice cooked alongside",
+   "es": "Guiso de fondos de alcachofa y carne con limón, servido con arroz",
+   "ca": "Guisat de cors de carxofa i carn amb llimona, servit amb arròs",
+   "th": "สตูว์ก้นอาร์ติโชกกับเนื้อและมะนาว เสิร์ฟกับข้าว",
+   "ar": "يخنة الأرضي شوكي باللحم والليمون تُقدَّم مع الأرز"
+  },
+  "recipe_yakhnet_khudra.md": {
+   "en": "Mixed vegetable and meat stew in light tomato broth, over vermicelli rice",
+   "es": "Guiso de verduras variadas y carne en caldo ligero de tomate, sobre arroz con fideos",
+   "ca": "Guisat de verdures variades i carn en brou lleuger de tomàquet, sobre arròs amb fideus",
+   "th": "สตูว์ผักรวมกับเนื้อในน้ำซุปมะเขือเทศใส ราดบนข้าวผัดเส้นหมี่",
+   "ar": "يخنة الخضار المشكلة باللحم بمرق البندورة الخفيف، على الأرز بالشعيرية"
+  },
+  "recipe_fattet_djaj.md": {
+   "en": "Layered platter of crisp bread, broth-cooked rice and chicken under garlic yogurt and nuts",
+   "es": "Fuente en capas de pan crujiente, arroz cocido en caldo y pollo bajo yogur con ajo y frutos secos",
+   "ca": "Plata en capes de pa cruixent, arròs cuit en brou i pollastre sota iogurt amb all i fruits secs",
+   "th": "จานซ้อนชั้นขนมปังกรอบ ข้าวหุงน้ำซุป และไก่ ราดโยเกิร์ตกระเทียมกับถั่วคั่ว",
+   "ar": "فتة الدجاج: طبقات من الخبز المقرمش والأرز المطبوخ بالمرق والدجاج، مع اللبن بالثوم والمكسرات"
+  },
+  "recipe_djaj_mahshi.md": {
+   "en": "Festive whole chicken stuffed with spiced rice, minced meat and pine nuts",
+   "es": "Pollo entero festivo relleno de arroz especiado, carne picada y piñones",
+   "ca": "Pollastre sencer de festa farcit d'arròs especiat, carn picada i pinyons",
+   "th": "ไก่ทั้งตัวยัดไส้ข้าวเครื่องเทศ เนื้อสับ และเมล็ดสน สำหรับงานเลี้ยง",
+   "ar": "دجاج محشي كامل بالأرز المتبّل واللحم المفروم والصنوبر للمناسبات"
+  },
+  "recipe_taj_al_malek.md": {
+   "en": "Bethlehem Christmas lamb ribs stuffed with rice and minced meat (the king's crown)",
+   "es": "Costillar de cordero navideño de Belén relleno de arroz y carne picada (la corona del rey)",
+   "ca": "Costellam de xai nadalenc de Betlem farcit d'arròs i carn picada (la corona del rei)",
+   "th": "ซี่โครงแกะยัดไส้ข้าวและเนื้อสับ อาหารคริสต์มาสของเบธเลเฮม (มงกุฎกษัตริย์)",
+   "ar": "تاج الملك: ضلع خروف محشي بالأرز واللحم المفروم على مائدة الميلاد في بيت لحم"
+  },
+  "recipe_lsaineh.md": {
+   "en": "Ox-tongue leaves rolled around rice and minced meat, cooked over tomato and onion",
+   "es": "Hojas de lengua de buey enrolladas con arroz y carne picada, cocidas sobre tomate y cebolla",
+   "ca": "Fulles de llengua de bou enrotllades amb arròs i carn picada, cuites sobre tomàquet i ceba",
+   "th": "ใบลิ้นวัวม้วนไส้ข้าวและเนื้อสับ ต้มบนมะเขือเทศและหอมใหญ่",
+   "ar": "اللسينة: ورق لسان الثور محشو بالأرز واللحم المفروم مطبوخ فوق البندورة والبصل"
+  },
+  "recipe_ruz_eb_maya.md": {
+   "en": "Gaza rice and chickpeas cooked in onion water with dill seed and garlic, a post-1948 dish",
+   "es": "Arroz con garbanzos de Gaza cocido en agua de cebolla con semillas de eneldo y ajo, plato posterior a 1948",
+   "ca": "Arròs amb cigrons de Gaza cuit amb aigua de ceba, llavors d'anet i all, plat posterior al 1948",
+   "th": "ข้าวกับถั่วลูกไก่แบบกาซา หุงในน้ำหัวหอมกับเมล็ดผักชีลาวและกระเทียม อาหารหลังปี 1948",
+   "ar": "رز ع ميّة غزاوي بالحمص مطبوخ بماء البصل مع بذر الشبت والثوم، من أطباق ما بعد 1948"
+  },
+  "recipe_hbari_mahshi.md": {
+   "en": "Gaza squid stuffed with rice, shrimp and dill, slow-baked until tender",
+   "es": "Calamares de Gaza rellenos de arroz, gambas y eneldo, horneados lentamente",
+   "ca": "Calamars de Gaza farcits d'arròs, gambes i anet, enfornats a poc a poc",
+   "th": "ปลาหมึกกาซายัดไส้ข้าว กุ้ง และผักชีลาว อบไฟอ่อนจนนุ่ม",
+   "ar": "حباري محشي غزاوي بالأرز والجمبري والشبت مخبوز على نار هادئة"
+  },
+  "recipe_jazar_mahshi.md": {
+   "en": "Red carrots stuffed with rice and meat, braised in tamarind and pomegranate sauce",
+   "es": "Zanahorias rojas rellenas de arroz y carne, guisadas en salsa de tamarindo y granada",
+   "ca": "Pastanagues vermelles farcides d'arròs i carn, cuites en salsa de tamarinde i magrana",
+   "th": "แครอทแดงยัดไส้ข้าวและเนื้อ ตุ๋นในซอสมะขามและทับทิม",
+   "ar": "جزر أحمر محشي بالأرز واللحم مطبوخ بصلصة التمر الهندي ودبس الرمان"
+  },
+  "recipe_mahshi_batata.md": {
+   "en": "Gaza potatoes hollowed and stuffed with rice and meat, baked in garlicky tomato",
+   "es": "Patatas de Gaza vaciadas y rellenas de arroz y carne, horneadas en tomate con ajo",
+   "ca": "Patates de Gaza buidades i farcides d'arròs i carn, al forn amb tomàquet i all",
+   "th": "มันฝรั่งกาซาคว้านไส้ยัดข้าวและเนื้อ อบในซอสมะเขือเทศกระเทียม",
+   "ar": "بطاطا محشية غزاوية بالأرز واللحم مخبوزة بصلصة البندورة والثوم"
+  },
+  "recipe_qara_mahshi.md": {
+   "en": "Pumpkin or squash stuffed with rice and minced meat, baked until spoon-tender",
+   "es": "Calabaza rellena de arroz y carne picada, horneada hasta quedar tierna",
+   "ca": "Carabassa farcida d'arròs i carn picada, enfornada fins que és tendra",
+   "th": "ฟักทองยัดไส้ข้าวและเนื้อสับ อบจนนุ่ม",
+   "ar": "قرع محشي بالأرز واللحم المفروم مخبوز حتى ينضج"
+  },
+  "recipe_mansaf_halabi.md": {
+   "en": "Aleppo feast tray: smoky freekeh under rice, topped with boiled lamb and toasted nuts",
+   "es": "Bandeja festiva de Alepo: freekeh ahumado bajo arroz, con cordero hervido y frutos secos tostados",
+   "ca": "Safata festiva d'Alep: freekeh fumat sota arròs, amb xai bullit i fruits secs torrats",
+   "th": "ถาดงานเลี้ยงแบบอะเลปโป ข้าวสาลีอ่อนรมควันรองใต้ข้าว ราดเนื้อแกะต้มและถั่วคั่ว",
+   "ar": "المنسف الحلبي: فريكة تحت الأرز ولحم غنم مسلوق ومكسرات محمّصة"
+  },
+  "recipe_basmashkat.md": {
+   "en": "Damascene wedding dish: thin meat slices rolled around saffron rice, sewn shut and braised",
+   "es": "Plato de boda damasceno: finas lonchas de carne enrolladas con arroz al azafrán, cosidas y estofadas",
+   "ca": "Plat de noces de Damasc: llesques fines de carn enrotllades amb arròs de safrà, cosides i estofades",
+   "th": "อาหารงานแต่งดามัสกัส เนื้อแผ่นบางม้วนไส้ข้าวหญ้าฝรั่น เย็บปิดแล้วตุ๋น",
+   "ar": "بسماشكات دمشقية: شرائح لحم رقيقة محشوة بالأرز والزعفران تُخاط وتُطهى بالمرق"
+  },
+  "recipe_al_basha_w_asakru.md": {
+   "en": "Damascene 'pasha and his soldiers': kibbeh and meat dumplings in hot yogurt, served with rice",
+   "es": "'El pachá y sus soldados' de Damasco: kibbeh y empanadillas de carne en yogur caliente, con arroz",
+   "ca": "'El paixà i els seus soldats' de Damasc: kibbeh i farcellets de carn en iogurt calent, amb arròs",
+   "th": "'ปาชากับทหาร' แบบดามัสกัส คิบเบห์และเกี๊ยวเนื้อในโยเกิร์ตร้อน กินกับข้าว",
+   "ar": "الباشا وعساكره: كبة وشيش برك في اللبن المطبوخ، تُقدَّم مع الرز المفلفل"
+  },
+  "recipe_yakhnet_kamaa.md": {
+   "en": "Damascene stew of desert truffles and lamb with lemon, eaten over boiled rice",
+   "es": "Guiso damasceno de trufas del desierto y cordero con limón, sobre arroz hervido",
+   "ca": "Guisat de Damasc de tòfones del desert i xai amb llimona, sobre arròs bullit",
+   "th": "สตูว์เห็ดทรัฟเฟิลทะเลทรายกับเนื้อแกะและมะนาวแบบดามัสกัส ราดบนข้าวสวย",
+   "ar": "يخنة الكمأة الدمشقية باللحم والليمون تُؤكل مع الرز المسلوق"
+  },
+  "recipe_mehshi_batinjan_bi_safarjal.md": {
+   "en": "Aleppo Jewish Passover dish: small eggplants stuffed with rice and beef, braised with quince in tamarind",
+   "es": "Plato judío de Alepo para Pésaj: berenjenas pequeñas rellenas de arroz y carne, guisadas con membrillo y tamarindo",
+   "ca": "Plat jueu d'Alep per a Pasqua: albergínies petites farcides d'arròs i carn, cuites amb codony i tamarinde",
+   "th": "อาหารเทศกาลปัสกาของชาวยิวอะเลปโป มะเขือยาวลูกเล็กยัดไส้ข้าวและเนื้อ ตุ๋นกับควินซ์ในซอสมะขาม",
+   "ar": "محشي باذنجان يهودي حلبي لعيد الفصح بالرز واللحم مطبوخ مع السفرجل والتمر الهندي"
+  },
+  "recipe_kibbeh_halabiyeh.md": {
+   "en": "Rice-crust kibbeh stuffed with spiced meat, named after Aleppo but Iraqi in origin",
+   "es": "Kibbeh con corteza de arroz rellena de carne especiada, con nombre de Alepo pero de origen iraquí",
+   "ca": "Kibbeh amb crosta d'arròs farcida de carn especiada, amb nom d'Alep però d'origen iraquià",
+   "th": "คิบเบห์เปลือกข้าวไส้เนื้อเครื่องเทศ ตั้งชื่อตามอะเลปโปแต่มีที่มาจากอิรัก",
+   "ar": "كبة حلب: كبة بقشرة من الأرز محشوة باللحم المتبّل، تحمل اسم حلب وأصلها عراقي"
+  },
+  "recipe_keftes_bi_ou.md": {
+   "en": "Syrian Jewish meatballs simmered in sweet-sour tamarind and tomato sauce, served over rice",
+   "es": "Albóndigas judías sirias en salsa agridulce de tamarindo y tomate, servidas sobre arroz",
+   "ca": "Mandonguilles jueves sirianes en salsa agredolça de tamarinde i tomàquet, servides sobre arròs",
+   "th": "ลูกชิ้นเนื้อสูตรชาวยิวซีเรีย เคี่ยวในซอสมะขามมะเขือเทศเปรี้ยวหวาน ราดบนข้าว",
+   "ar": "كفتة يهودية سورية مطبوخة بصلصة التمر الهندي والبندورة الحلوة الحامضة، تُقدَّم مع الرز"
   }
  },
  "regions": {
@@ -1787,7 +2242,12 @@
       "recipe_ouzi.md",
       "recipe_riz_a_djej.md",
       "recipe_ruz_bi_djaj_hashweh.md",
-      "recipe_fatteh_ghazawiyya.md"
+      "recipe_fatteh_ghazawiyya.md",
+      "recipe_fattet_djaj.md",
+      "recipe_djaj_mahshi.md",
+      "recipe_taj_al_malek.md",
+      "recipe_mansaf_halabi.md",
+      "recipe_basmashkat.md"
      ]
     },
     {
@@ -1818,7 +2278,15 @@
       "recipe_mehshi_selek.md",
       "recipe_mahshi_lift.md",
       "recipe_lakhneh.md",
-      "recipe_kousa_bi_laban.md"
+      "recipe_kousa_bi_laban.md",
+      "recipe_ardi_shawki_mehshi.md",
+      "recipe_mehshi_felfel.md",
+      "recipe_lsaineh.md",
+      "recipe_jazar_mahshi.md",
+      "recipe_mahshi_batata.md",
+      "recipe_qara_mahshi.md",
+      "recipe_mehshi_batinjan_bi_safarjal.md",
+      "recipe_kibbeh_halabiyeh.md"
      ]
     },
     {
@@ -1861,7 +2329,8 @@
      "members": [
       "recipe_mujaddara.md",
       "recipe_riz_bi_foul.md",
-      "recipe_musluaa.md"
+      "recipe_musluaa.md",
+      "recipe_ruz_eb_maya.md"
      ]
     },
     {
@@ -1892,7 +2361,23 @@
       "recipe_sabanekh_w_riz.md",
       "recipe_daoud_basha.md",
       "recipe_kibbeh_labanieh.md",
-      "recipe_mayit_bandora_u_bayd.md"
+      "recipe_mayit_bandora_u_bayd.md",
+      "recipe_kibbeh_arnabieh.md",
+      "recipe_yakhnet_batata.md",
+      "recipe_loubieh_bi_lahmeh.md",
+      "recipe_shishbarak.md",
+      "recipe_yakhnet_kousa.md",
+      "recipe_mnazalet_batinjan.md",
+      "recipe_mnazalet_zahra.md",
+      "recipe_tabakh_rouho.md",
+      "recipe_kafta_bi_tahini.md",
+      "recipe_kafta_bil_saniyeh.md",
+      "recipe_kabab_hindi.md",
+      "recipe_yakhnet_ardi_shawki.md",
+      "recipe_yakhnet_khudra.md",
+      "recipe_al_basha_w_asakru.md",
+      "recipe_yakhnet_kamaa.md",
+      "recipe_keftes_bi_ou.md"
      ]
     },
     {
@@ -1913,7 +2398,9 @@
      },
      "members": [
       "recipe_sayadieh.md",
-      "recipe_hbari_u_ruz.md"
+      "recipe_hbari_u_ruz.md",
+      "recipe_samkeh_harra.md",
+      "recipe_hbari_mahshi.md"
      ]
     },
     {
@@ -1956,7 +2443,8 @@
       "recipe_riz_bi_haleeb.md",
       "recipe_muhallabiyeh.md",
       "recipe_meghli.md",
-      "recipe_mufattaka.md"
+      "recipe_mufattaka.md",
+      "recipe_halawet_el_riz.md"
      ]
     },
     {
@@ -2047,7 +2535,8 @@
       "recipe_khao_jee.md",
       "recipe_khao_puk_nga.md",
       "recipe_khao_lam.md",
-      "recipe_mu_ping_khao_niao.md"
+      "recipe_mu_ping_khao_niao.md",
+      "recipe_khao_mao.md"
      ]
     },
     {
@@ -2154,7 +2643,8 @@
       "recipe_khao_phan_phak.md",
       "recipe_khao_yam.md",
       "recipe_khao_kriap_pak_mo.md",
-      "recipe_yam_naem_khao_thot.md"
+      "recipe_yam_naem_khao_thot.md",
+      "recipe_sai_krok_isan.md"
      ]
     },
     {
@@ -2204,7 +2694,14 @@
       "recipe_khao_mak.md",
       "recipe_bua_loy.md",
       "recipe_khanom_krok.md",
-      "recipe_khanom_chan.md"
+      "recipe_khanom_chan.md",
+      "recipe_khanom_tako.md",
+      "recipe_khanom_thuai.md",
+      "recipe_khao_niao_piak.md",
+      "recipe_khanom_bueang.md",
+      "recipe_khanom_jak.md",
+      "recipe_khanom_babin.md",
+      "recipe_khanom_sot_sai.md"
      ]
     },
     {
@@ -2227,7 +2724,8 @@
       "recipe_khao_tom_luk_yon.md",
       "recipe_khanom_la.md",
       "recipe_khao_mathu_payat.md",
-      "recipe_khao_pradap_din.md"
+      "recipe_khao_pradap_din.md",
+      "recipe_khanom_kong.md"
      ]
     },
     {
@@ -2288,7 +2786,29 @@
       "recipe_chu_chi_pla.md",
       "recipe_phat_phrik_khing.md",
       "recipe_khai_palo.md",
-      "recipe_khao_nam_phrik_kapi_pla_thu.md"
+      "recipe_khao_nam_phrik_kapi_pla_thu.md",
+      "recipe_kaeng_tai_pla.md",
+      "recipe_kaeng_lueang.md",
+      "recipe_khua_kling.md",
+      "recipe_mu_hong.md",
+      "recipe_sataw_phat_kapi_kung.md",
+      "recipe_larb_isan.md",
+      "recipe_larb_mueang.md",
+      "recipe_nam_tok_mu.md",
+      "recipe_som_tam.md",
+      "recipe_kai_yang_isan.md",
+      "recipe_jaew_bong.md",
+      "recipe_jaew_mak_len.md",
+      "recipe_nam_phrik_num.md",
+      "recipe_nam_phrik_ong.md",
+      "recipe_kaeng_hang_le.md",
+      "recipe_kaeng_khae.md",
+      "recipe_kaeng_om.md",
+      "recipe_sup_no_mai.md",
+      "recipe_mok_no_mai.md",
+      "recipe_sai_ua.md",
+      "recipe_tam_khanun.md",
+      "recipe_khantok.md"
      ]
     }
    ]

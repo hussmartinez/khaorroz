@@ -31,6 +31,8 @@ It is the Levantine cousin of the Vega Baja's Lenten [arroz de los tres puñaos]
 | Rice : lentils | ≈ 1 : 1 | ≈ 1 : 4 | Bulgur ≈ 1 : 1 |
 | Served | Warm | Cold, set | Warm |
 
+*   **Mjaddara safra ("yellow" mujaddara):** made with split yellow lentils instead of whole brown ones, giving a softer, paler dish; Arabic sources distinguish the yellow version (peeled yellow lentils) from the "black" one (whole brown lentils) ([Areq – مجدرة](https://areq.net/m/مجدرة.html); [Cooking with Alia – Lebanese-style mujadarra](https://old.cookingwithalia.com/?p=15375)).
+
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: **Lebanese mudardara** (whole grains, onion-crowned).*
 
@@ -65,3 +67,5 @@ It is the Levantine cousin of the Vega Baja's Lenten [arroz de los tres puñaos]
 *   [Syria Untold – Taking sides in the great war of mujaddara](https://syriauntold.com/?p=69964)
 *   [Little Sunny Kitchen – Mujadara with bulgur](https://littlesunnykitchen.com/mujadara-with-bulgur/)
 *   [Milk Street – Beirut Fast Food (mujaddara with crisped onions; Kamal Mouzawak segment)](https://www.177milkstreet.com/tv/beirut-fast-food)
+*   [Areq – مجدرة (yellow vs black mujaddara)](https://areq.net/m/مجدرة.html)
+*   [Cooking with Alia – Mujadarra, Lebanese style](https://old.cookingwithalia.com/?p=15375)

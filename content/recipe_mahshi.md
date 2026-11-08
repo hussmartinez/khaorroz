@@ -27,6 +27,7 @@
 | Herb | — | Dried + fresh mint | Mint |
 
 **The wider Palestinian mahashi family (separate pages):** [kousa bi-laban](recipe_kousa_bi_laban.md) (Hebron, zucchini in yogurt), [malfuf mahshi](recipe_malfouf_mehshi.md) (cabbage, cumin and whole garlic; Gaza and the West Bank), [mahshi lift](recipe_mahshi_lift.md) (winter turnips with sumac, tomato or tamarind), and [lakhneh](recipe_lakhneh.md) (Nablus, a disappearing stuffed-leaf dish). Lists of Palestinian dishes also record **ari'ih**, pumpkin (*qarʿ*) stuffed with rice and minced meat, associated with the Galilee ⚠️ ([Wikipedia – List of Palestinian dishes](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)). In Chile's Palestinian community, stuffed vegetables (*rellenos*) are on every *comida árabe* menu ([Jerusalem Quarterly 99](https://ps.boell.org/sites/default/files/2025-06/jerusalem-quarterly-issue-99.pdf)).
+*   **Battir (near Bethlehem): *batinjan battiri*:** Battir's own eggplant variety, *battiri*, is harvested in August and celebrated with a village eggplant festival. Its long, even shape makes it a favourite for rice-and-meat stuffing ([Slow Med – Stuffed eggplant](https://slowmed.eu/en/recipe/stuffed-eggplant)). Palestinian cooks insist the filling be fully cooked, with no crunchy grains ([Palestine in a Dish – mahshi batinjan](https://palestineinadish.com/recipes/mahshi-batinjan-stuffed-eggplants/)).
 
 ## 4. The Master Recipe (4-Person Batch Blueprint)
 *Variant represented: **general Palestinian tomato mahshi** (eggplant + kousa). The Hebron yogurt finish is given as an alternative.*
@@ -67,3 +68,5 @@
 *   [Arab America – Kousa mahshi: summer squash stuffed with lamb and rice](https://arabamerica.com/kousa-mahshi-summer-squash-stuffed-with-lamb-and-rice)
 *   [Elena Dudum – Recipe and Palestinian mahshi](https://elenadudum.substack.com/p/recipe-and-palestinian-mahshi)
 *   [TasteAtlas – Best-rated vegetable dishes in Palestine](https://www.tasteatlas.com/best-rated-vegetable-dishes-in-palestine)
+*   [Slow Med – Stuffed eggplant (Battir eggplant)](https://slowmed.eu/en/recipe/stuffed-eggplant)
+*   [Palestine in a Dish – Mahshi batinjan](https://palestineinadish.com/recipes/mahshi-batinjan-stuffed-eggplants/)

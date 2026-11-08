@@ -42,6 +42,11 @@ Lebanon grows little rice, yet rice is at the centre of its table. It is the eve
 
 ### The Lebanese diaspora
 Lebanese emigration to the Americas began in the 1870s. Brazil, Mexico (with Yucatán as an early hub), Argentina, Colombia and Peru received large communities, recorded at the time as *turcos* because they travelled on Ottoman papers. Their everyday vermicelli rice became Latin America's ***arroz árabe***, a Christmas side dish in Peru and Chile (see [riz bi sh'ariyyeh](recipe_riz_bi_shariyyeh.md)). ([INAH – Dimensión Antropológica, Lebanese immigration to Mexico](https://revistas.inah.gob.mx/index.php/dimension/article/download/1618/1560/2963); [Mexico News Daily – Mexico's early Syrian and Lebanese migrants](https://mexiconewsdaily.com/mexicolife/migrants-legacy-everywhere-yet-easily-missed))
+| [Kibbeh Arnabieh](recipe_kibbeh_arnabieh.md) ⚠️ | Eaten with rice (kibbeh in tahini-bitter orange) | Beirut, Tripoli |
+| [Halawet el-Riz](recipe_halawet_el_riz.md) | Sweet rice | Tripoli |
+| [Ardi Shawki Mehshi](recipe_ardi_shawki_mehshi.md) | Eaten with rice (stuffed artichoke) | Lebanon, Syria |
+| [Mehshi Felfel](recipe_mehshi_felfel.md) ⚠️ | Stuffed vegetables | Lebanon |
+| [Samkeh Harra](recipe_samkeh_harra.md) ⚠️ | Eaten with rice (spicy fish) | Tripoli |
 
 ## 4. Reference Links
 *   [Food Heritage Foundation – Lebanese food heritage](https://food-heritage.org/moufataka-yellow-rice-pudding-of-beirut/)
