@@ -3,6 +3,7 @@ import Layout from "../../../layouts/Layout.astro";
 import Chip from "../../../components/Chip.astro";
 import Notice from "../../../components/Notice.astro";
 import Related from "../../../components/Related.astro";
+import RegionMap from "../../../components/RegionMap.astro";
 import { Image, getImage } from "astro:assets";
 import type { ImageMetadata } from "astro";
 import { facetOf, LANGS, langParam, langBase, site, renderPage, panHtml, tr, vtName, vesselLabel, provSlug, HTML_LANG, DEFAULT_LANG, isRtl, esc, type Lang } from "../../../lib/site";
@@ -63,7 +64,7 @@ const ogImage = ogPhoto && photoMeta
 ---
 <Layout lang={lang} path={p.url} title={p.title} seoTitle={recipeTitle(p, lang)} active="" description={description}
         bodyClass="is-recipe" theme={area?.theme} section={areaId} crumbs={crumbs} jsonLd={jsonLd} ogImage={ogImage}>
-  <main class={`recipe base-${p.spec?.base ?? "none"}${photoMeta ? " has-photo" : ""}`}>
+  <main class={`recipe base-${p.spec?.base ?? "none"}${photoMeta ? " has-photo" : ""}`} data-recipe-slug={p.slug}>
     <header class="recipe-hero">
       <div class="rh-text">
         <h1 dir="auto" class="rh-title" data-pagefind-meta="title">{p.title}</h1>
@@ -84,7 +85,11 @@ const ogImage = ogPhoto && photoMeta
 
     <section class="glance wrap" aria-label={tr(lang, "atAGlance")}>
       <dl class="glance-facts">
-        <div><dt>{tr(lang, "serves")}</dt><dd>4</dd></div>
+        <div class="glance-serves"><dt>{tr(lang, "serves")}</dt><dd>
+          <span class="scaler" data-base="4">
+            <button type="button" data-scale="-1" aria-label={tr(lang, "fewer")}>−</button><output aria-live="polite">4</output><button type="button" data-scale="1" aria-label={tr(lang, "more")}>+</button>
+          </span>
+        </dd></div>
         {rd.ingredients.length > 0 && <div><dt>{tr(lang, "ingredientsN")}</dt><dd>{rd.ingredients.length}</dd></div>}
         {rd.steps.length > 0 && <div><dt>{tr(lang, "stepsN")}</dt><dd>{rd.steps.length}</dd></div>}
         {facet && <div><dt>{tr(lang, area?.facet === "texture" ? "texture" : "category")}</dt><dd><Chip m={m} p={p} /></dd></div>}
@@ -96,8 +101,12 @@ const ogImage = ogPhoto && photoMeta
       <div class="glance-actions">
         <a class="btn btn-primary" href="#recipe" data-tab-link="recipe">{tr(lang, "jumpToRecipe")} <span aria-hidden="true">↓</span></a>
         <button class="btn" type="button" data-cook aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h16v2a7 7 0 0 1-7 7h-2a7 7 0 0 1-7-7zM2 11h2M20 11h2M9 4c-1 1 1 2 0 4M13 3c-1 1 1 3 0 5"/></svg><span>{tr(lang, "cookingMode")}</span></button>
+        <button class="btn btn-save" type="button" data-save={p.slug} aria-pressed="false" data-label-on={tr(lang, "savedState")} data-label-off={tr(lang, "save")}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><span>{tr(lang, "save")}</span></button>
+        <button class="btn" type="button" data-share data-copied={tr(lang, "linkCopied")}><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M8.2 10.8l7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>{tr(lang, "share")}</span></button>
         <button class="btn" type="button" onclick="window.print()"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M6 14h12v7H6z"/></svg><span>{tr(lang, "print")}</span></button>
       </div>
+      <p class="scaled-note" hidden data-template={tr(lang, "scaledNote", { n: "{n}" })}></p>
+      {area && <div class="glance-map"><RegionMap m={m} areaId={area.id} mode="locator" highlight={p.provinces.map((x) => x.file)} cls="map-mini" /></div>}
       <p class="cook-hint" hidden>{tr(lang, "cookingModeOn")} · {tr(lang, "tapToCheck")}</p>
     </section>
 

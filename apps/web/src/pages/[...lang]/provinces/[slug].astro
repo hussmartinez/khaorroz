@@ -2,6 +2,7 @@
 import Layout from "../../../layouts/Layout.astro";
 import Article from "../../../components/Article.astro";
 import RegionDishes from "../../../components/RegionDishes.astro";
+import RegionMap from "../../../components/RegionMap.astro";
 import { LANGS, langParam, langBase, site, tr, panHtml, type Lang } from "../../../lib/site";
 import { graph, organization, itemList, breadcrumbs, pageUrl, abs, regionTitle, regionDescription } from "../../../lib/seo";
 
@@ -22,6 +23,7 @@ const jsonLd = graph(organization(),
         theme={area?.theme} section={area?.id} crumbs={crumbs} jsonLd={jsonLd} ogImage={area ? { url: `/og/${lang}/_area-${area.id}.jpg`, width: 1200, height: 675, alt: r.name } : undefined}>
   {r.page ? (
     <Article p={r.page} m={m} kicker={tr(lang, "kickerRegion")} title={r.name}>
+      {area && <div slot="head" class="region-locator"><RegionMap m={m} areaId={area.id} mode="locator" highlight={[r.file]} cls="map-small" /></div>}
       {r.recipes.length > 0 && <div slot="head" class="mini-pans" aria-hidden="true" set:html={r.recipes.slice(0, 5).map((d) => `<img class="pan" src="/pans/${d.slug}.svg" width="228" height="228" alt="" loading="lazy" decoding="async">`).join("")} />}
       <RegionDishes m={m} name={r.name} list={r.recipes} />
     </Article>

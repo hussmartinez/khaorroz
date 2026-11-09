@@ -4,6 +4,7 @@ import Layout from "../../layouts/Layout.astro";
 import { langPaths, langBase, site, tr, type Lang } from "../../lib/site";
 import { photoFor } from "@arros/content";
 import { BRAND } from "../../lib/seo";
+import MAPS from "../../data/maps.json";
 export const getStaticPaths = langPaths;
 const { lang } = Astro.props as { lang: Lang };
 const m = site(lang);
@@ -29,6 +30,8 @@ const rows = m.recipes.map((p) => ({ p, ph: photoFor(p.file) })).filter((x) => x
           </tbody>
         </table>
       </div>
+      <h2>Maps</h2>
+      <p>{(MAPS as any).attribution} — <a href="https://www.geoboundaries.org/" rel="noopener" target="_blank">geoBoundaries</a> · <a href="https://www.ine.es/" rel="noopener" target="_blank">INE</a></p>
     </div></div>
   </main>
 </Layout>

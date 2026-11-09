@@ -1,0 +1,18 @@
+---
+// Saved dishes + recently viewed (localStorage, rendered client-side from dishes.json).
+import Layout from "../../layouts/Layout.astro";
+import { langPaths, langBase, tr, type Lang } from "../../lib/site";
+import { BRAND } from "../../lib/seo";
+export const getStaticPaths = langPaths;
+const { lang } = Astro.props as { lang: Lang };
+const base = langBase(lang);
+---
+<Layout lang={lang} path="saved.html" title={tr(lang, "savedTitle")} seoTitle={`${tr(lang, "savedTitle")} | ${BRAND}`} active="saved" theme="home" noindex>
+  <main class="saved-page" data-dishes-json={`${base}dishes.json`}>
+    <header class="page-hero"><div class="wrap"><h1>{tr(lang, "savedTitle")}</h1><p class="lede">{tr(lang, "savedLede")}</p></div></header>
+    <div class="wrap">
+      <section data-view="list"><div class="grid" data-saved-list></div><p class="note" data-saved-empty hidden>{tr(lang, "savedEmpty")}</p></section>
+      <section data-view="list" class="recent-sec" data-recent-sec hidden><h2 class="section-title">{tr(lang, "recentTitle")}</h2><div class="grid" data-recent-full></div></section>
+    </div>
+  </main>
+</Layout>

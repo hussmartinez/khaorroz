@@ -13,7 +13,7 @@ interface Props {
   lang: Lang;
   path: string; // page path relative to a language root, e.g. "recipes/paella-valenciana" (".html"/"index.html" are tolerated and stripped)
   title: string;
-  active: "recipes" | "history" | "provinces" | "about" | "dishes" | "credits" | "";
+  active: "recipes" | "history" | "provinces" | "about" | "dishes" | "credits" | "saved" | "";
   description?: string;
   bodyClass?: string;
   /** Area theme id ("spain" = original look, "sham" = Shami); see style.css [data-theme]. */
@@ -26,10 +26,12 @@ interface Props {
   ogImage?: { url: string; width: number; height: number; alt?: string };
   /** Area id of the current section (highlights it in the section switcher). */
   section?: string;
+  /** Keep this page out of search engines (personal / empty-for-crawlers pages). */
+  noindex?: boolean;
   /** schema.org JSON-LD object(s) for this page. */
   jsonLd?: object;
 }
-const { lang, path, title, active, description, bodyClass, theme = "spain", crumbs = [], seoTitle, ogImage, jsonLd, section } = Astro.props;
+const { lang, path, title, active, description, bodyClass, theme = "spain", crumbs = [], seoTitle, ogImage, jsonLd, section, noindex = false } = Astro.props;
 const sections = siteModel(lang).areas;
 const base = langBase(lang);
 // Clean URLs: "x.html" → "x", "index.html" / "a/index.html" → "" / "a/". Files are still built as .html;
@@ -58,6 +60,7 @@ const nav = [
 <meta name="theme-color" content="#fbf6ec" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#16120e" media="(prefers-color-scheme: dark)">
 <title>{fullTitle}</title>
+{noindex && <meta name="robots" content="noindex, follow">}
 <meta name="description" content={description ?? tr(lang, "metaDescription")}>
 {!isErrorPage && <link rel="canonical" href={canonical}>}
 {!isErrorPage && LANGS.map((lg) => <link rel="alternate" hreflang={HTML_LANG[lg]} href={new URL(pretty(lg), Astro.site).href}>)}
@@ -90,7 +93,7 @@ const nav = [
 <link rel="stylesheet" href={`/style.css?v=${ver("style.css")}`}>
 {ADS.mode === "live" && ADS.head && <Fragment set:html={ADS.head} />}
 </head>
-<body class={bodyClass} data-theme={theme}>
+<body class={bodyClass} data-theme={theme} data-base={base}>
 <div class="progress" aria-hidden="true"></div>
 <a class="skip" href="#main">↓</a>
 <header class="site-header" data-pagefind-ignore>
@@ -120,7 +123,7 @@ const nav = [
     <button class="menu-search" type="button" data-open-search><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>{tr(lang, "searchSite")}</button>
     <p class="menu-label">{tr(lang, "areasKicker")}</p>
     <div class="menu-sections">{sections.map((a) => <a href={`${base}${a.id}`} data-theme={a.theme} aria-current={a.id === section ? "page" : undefined}><span class={`sec-icon sec-icon-${a.theme}`} aria-hidden="true"></span>{a.name}</a>)}</div>
-    <div class="menu-links">{nav.map(([h, l, k]) => <a href={`${base}${h}`} aria-current={k === active ? "page" : undefined}>{l}</a>)}</div>
+    <div class="menu-links">{nav.map(([h, l, k]) => <a href={`${base}${h}`} aria-current={k === active ? "page" : undefined}>{l}</a>)}<a href={`${base}saved`} aria-current={active === "saved" ? "page" : undefined}>♡ {tr(lang, "savedTitle")} <span class="saved-count" data-saved-count></span></a></div>
     <p class="menu-label">{tr(lang, "language")}</p>
     <div class="menu-langs">{LANGS.map((lg) => <a href={`${langBase(lg)}${switchPath}`} hreflang={HTML_LANG[lg]} lang={HTML_LANG[lg]} data-lang={lg} aria-current={lg === lang ? "true" : undefined}>{UI[lg].langName}</a>)}</div>
   </div>
@@ -151,15 +154,15 @@ const nav = [
       <p>{tr(lang, "footer1")}</p>
       <p class="small">{tr(lang, "footer2")}</p>
     </div>
-    <nav aria-label={tr(lang, "footerSections")}><p class="footer-h">{tr(lang, "footerSections")}</p>{sections.map((a) => <a href={`${base}${a.id}`}>{a.name}</a>)}</nav>
-    <nav aria-label={tr(lang, "footerExplore")}><p class="footer-h">{tr(lang, "footerExplore")}</p>
-      <a href={`${base}history`}>{tr(lang, "navHistory")}</a><a href={`${base}provinces`}>{tr(lang, "navRegions")}</a><a href={`${base}dishes`}>{tr(lang, "dishesAZ")}</a>
+    <nav aria-label={`${tr(lang, "footerSections")} (footer)`}><p class="footer-h">{tr(lang, "footerSections")}</p>{sections.map((a) => <a href={`${base}${a.id}`}>{a.name}</a>)}</nav>
+    <nav aria-label={`${tr(lang, "footerExplore")} (footer)`}><p class="footer-h">{tr(lang, "footerExplore")}</p>
+      <a href={`${base}history`}>{tr(lang, "navHistory")}</a><a href={`${base}provinces`}>{tr(lang, "navRegions")}</a><a href={`${base}dishes`}>{tr(lang, "dishesAZ")}</a><a href={`${base}saved`}>{tr(lang, "savedTitle")}</a>
     </nav>
-    <nav aria-label={tr(lang, "footerProject")}><p class="footer-h">{tr(lang, "footerProject")}</p>
+    <nav aria-label={`${tr(lang, "footerProject")} (footer)`}><p class="footer-h">{tr(lang, "footerProject")}</p>
       <a href={`${base}about`}>{tr(lang, "navAbout")}</a><a href={`${base}credits`}>{tr(lang, "credits")}</a><a href={`${base}notes`}>{tr(lang, "notes")}</a>
       <a href="https://github.com/hussmartinez/khaorroz/issues" rel="noopener" target="_blank">{tr(lang, "corrections")}</a><a href="/llms.txt">llms.txt</a>
     </nav>
-    <nav aria-label={tr(lang, "language")}><p class="footer-h">{tr(lang, "language")}</p>{LANGS.map((lg) => <a href={`${langBase(lg)}${switchPath}`} hreflang={HTML_LANG[lg]} lang={HTML_LANG[lg]}>{UI[lg].langName}</a>)}</nav>
+    <nav aria-label={`${tr(lang, "language")} (footer)`}><p class="footer-h">{tr(lang, "language")}</p>{LANGS.map((lg) => <a href={`${langBase(lg)}${switchPath}`} hreflang={HTML_LANG[lg]} lang={HTML_LANG[lg]}>{UI[lg].langName}</a>)}</nav>
   </div>
   <p class="small footer-bottom"><a href="#top" data-top>{tr(lang, "backToTop")} ↑</a></p>
 </footer>

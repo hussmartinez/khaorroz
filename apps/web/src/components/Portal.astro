@@ -34,6 +34,11 @@ const hero = m.recipes.find((r) => r.slug === "paella-valenciana") ?? m.recipes[
     {hero && <div class="portal-pan" aria-hidden="true" set:html={panHtml(hero, { cls: "hero-pan" })} />}
   </section>
 
+  <section class="wrap recent-strip" data-recent-strip hidden aria-label={tr(lang, "recentTitle")}>
+    <p class="kicker">{tr(lang, "recentTitle")}</p>
+    <div class="recent-list" data-recent-list></div>
+  </section>
+
   <section class="doors wrap" aria-label={tr(lang, "areasKicker")}>
     {m.areas.map((a, i) => {
       const dishes = pick(a.id, a.recipes);

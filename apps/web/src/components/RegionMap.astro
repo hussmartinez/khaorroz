@@ -1,0 +1,41 @@
+---
+// Map of one rice tradition's regions (data: src/data/maps.json, built by scripts/make-maps.py).
+// mode "area": every region clickable with its name + dish count. "locator": highlight `highlight`.
+import MAPS from "../data/maps.json";
+import { langBase, tr, provSlug, type SiteModel } from "../lib/site";
+interface Props { m: SiteModel; areaId: string; highlight?: string[]; mode?: "area" | "locator"; cls?: string }
+const { m, areaId, highlight = [], mode = "area", cls = "" } = Astro.props;
+const data = (MAPS as any)[areaId] as { viewBox: string; context: string[]; regions: Record<string, string[]>; labels: Record<string, [number, number]>; other: string[]; inset?: { x: number; y: number; w: number; h: number } } | undefined;
+const area = m.areas.find((a) => a.id === areaId);
+const base = langBase(m.lang);
+const regionsIn = area?.regionList ?? [];
+const nameOf = (f: string) => regionsIn.find((r) => r.file === f)?.name ?? m.regionName(f, f);
+const countOf = (f: string) => regionsIn.find((r) => r.file === f)?.recipes.length ?? 0;
+const [, , vw, vh] = (data?.viewBox ?? "0 0 1000 1000").split(" ").map(Number);
+const fs = Math.round(Math.max(vw, vh) / 56);
+---
+{data && (
+  <figure class={`region-map map-${mode} ${cls}`} data-theme={area?.theme}>
+    <svg viewBox={data.viewBox} role={mode === "area" ? "group" : "img"} aria-label={tr(m.lang, "mapOf", { name: area?.name ?? "" })}>
+      <g class="map-ctx">{data.context.map((d) => <path d={d} />)}</g>
+      {data.other.length > 0 && <g class="map-other">{data.other.map((d) => <path d={d} />)}</g>}
+      {data.inset && <rect class="map-inset" x={data.inset.x} y={data.inset.y} width={data.inset.w} height={data.inset.h} rx="8" />}
+      <g class="map-regions">
+        {Object.entries(data.regions).map(([file, ds]) => {
+          const on = highlight.includes(file);
+          const shape = <g class={`map-region${on ? " is-on" : ""}${highlight.length && !on ? " is-off" : ""}`} data-file={file}>{ds.map((d) => <path d={d} />)}<title>{nameOf(file)} · {countOf(file)}</title></g>;
+          return mode === "area" ? <a href={`${base}provinces/${provSlug(file)}`}>{shape}</a> : shape;
+        })}
+      </g>
+      {mode === "area" && (
+        <g class="map-labels" aria-hidden="true">
+          {Object.entries(data.labels).map(([file, [x, y]]) => (
+            <text x={x} y={y} font-size={fs} text-anchor="middle"><tspan class="ml-name" x={x}>{nameOf(file)}</tspan><tspan class="ml-n" x={x} dy={fs * 1.1}>{countOf(file)}</tspan></text>
+          ))}
+        </g>
+      )}
+      {mode === "locator" && highlight.map((f) => data.labels[f] && <circle class="map-pin" cx={data.labels[f][0]} cy={data.labels[f][1]} r={fs * 0.55} />)}
+    </svg>
+    {mode === "area" && <figcaption>{tr(m.lang, "mapAttribution")}</figcaption>}
+  </figure>
+)}

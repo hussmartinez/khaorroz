@@ -312,6 +312,61 @@
       });
     })); }
 
+  // ---------- Saved dishes / recently viewed (localStorage only) ----------
+  const store = {
+    get(k) { try { return JSON.parse(localStorage.getItem(k) || "[]"); } catch { return []; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+  };
+  const savedCount = () => { const n = store.get("arros-saved").length; $$("[data-saved-count]").forEach((el) => (el.textContent = n ? `(${n})` : "")); };
+  savedCount();
+  { const main = $("[data-recipe-slug]");
+    if (main) {
+      const slug = main.dataset.recipeSlug;
+      store.set("arros-recent", [slug, ...store.get("arros-recent").filter((s) => s !== slug)].slice(0, 12));
+    } }
+  $$("[data-save]").forEach((b) => {
+    const slug = b.dataset.save, label = b.querySelector("span");
+    const paint = () => { const on = store.get("arros-saved").includes(slug); b.setAttribute("aria-pressed", String(on)); if (label) label.textContent = on ? b.dataset.labelOn : b.dataset.labelOff; };
+    paint();
+    b.addEventListener("click", () => {
+      const cur = store.get("arros-saved");
+      store.set("arros-saved", cur.includes(slug) ? cur.filter((s) => s !== slug) : [slug, ...cur]);
+      paint(); savedCount();
+    });
+  });
+  // toast
+  const toast = (msg) => {
+    let t = $(".toast"); if (!t) { t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status"); document.body.append(t); }
+    t.textContent = msg; t.classList.add("show"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 2200);
+  };
+  $$("[data-share]").forEach((b) => b.addEventListener("click", async () => {
+    const data = { title: document.title, url: location.href.split("#")[0] };
+    if (navigator.share) { try { await navigator.share(data); return; } catch (e) { if (e?.name === "AbortError") return; } }
+    try { await navigator.clipboard.writeText(data.url); toast(b.dataset.copied); } catch { prompt("", data.url); }
+  }));
+  // lists rendered from /dishes.json (saved page + portal strip)
+  const savedPage = $("[data-dishes-json]"), strip = $("[data-recent-strip]");
+  if (savedPage || strip) {
+    const url = savedPage?.dataset.dishesJson ?? `${document.body.dataset.base || "/"}dishes.json`;
+    const esc = (x) => String(x ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    const card = (d) => `<a class="card${d.photo ? " has-photo" : ""}" href="${esc(d.url)}" data-theme="${esc(d.theme)}"><div class="card-visual${d.photo ? " card-photo" : ""}"><img class="${d.photo ? "photo" : "pan"}" src="${esc(d.img)}" alt="" loading="lazy" width="104" height="104"></div><div class="card-body"><h3><span dir="auto">${esc(d.title)}</span>${d.local ? `<span class="local" dir="auto">${esc(d.local)}</span>` : ""}</h3>${d.gloss ? `<p class="gloss" dir="auto">${esc(d.gloss)}</p>` : ""}<p class="card-meta"><span class="where"><span class="pin" aria-hidden="true"></span>${esc(d.region)}${d.area ? ` · ${esc(d.area)}` : ""}</span></p></div></a>`;
+    const chip = (d) => `<a class="recent-chip" href="${esc(d.url)}"><img src="${esc(d.img)}" alt="" width="40" height="40" loading="lazy"><span dir="auto">${esc(d.title)}</span></a>`;
+    const saved = store.get("arros-saved"), recent = store.get("arros-recent");
+    if ((savedPage && (saved.length || recent.length)) || (strip && recent.length)) {
+      fetch(url).then((r) => r.json()).then((all) => {
+        const by = new Map(all.map((d) => [d.slug, d]));
+        const pick = (list) => list.map((s) => by.get(s)).filter(Boolean);
+        if (savedPage) {
+          const sv = pick(saved), rc = pick(recent);
+          $("[data-saved-list]").innerHTML = sv.map(card).join("");
+          $("[data-saved-empty]").hidden = sv.length > 0;
+          if (rc.length) { $("[data-recent-sec]").hidden = false; $("[data-recent-full]").innerHTML = rc.map(card).join(""); }
+        }
+        if (strip) { const rc = pick(recent).slice(0, 8); if (rc.length) { strip.hidden = false; $("[data-recent-list]", strip).innerHTML = rc.map(chip).join(""); } }
+      }).catch(() => {});
+    } else if (savedPage) { $("[data-saved-empty]").hidden = false; }
+  }
+
   // ---------- Table of contents: highlight current section ----------
   const tocLinks = $$(".toc a[href^='#']");
   if (tocLinks.length && "IntersectionObserver" in window) {
@@ -327,6 +382,39 @@
   // ---------- Recipe tools ----------
   const recipe = $(".sec-recipe");
   if (!recipe) return;
+  // Servings scaler: rescale quantity cells (2nd column) of the recipe tables; dimensions,
+  // temperatures, times, ratios and percentages are left alone.
+  { const sc = $(".scaler");
+    if (sc) {
+      const baseN = Number(sc.dataset.base) || 4, out = sc.querySelector("output"), note = $(".scaled-note");
+      const commaLang = /^(es|ca)$/.test(document.documentElement.lang);
+      const cells = $$("tbody tr td:nth-child(2)", recipe);
+      cells.forEach((td) => (td.dataset.orig = td.innerHTML));
+      const FR = { "½": 0.5, "¼": 0.25, "¾": 0.75, "⅓": 1 / 3, "⅔": 2 / 3, "⅛": 0.125 };
+      const num = (t) => (t in FR ? FR[t] : Number(t.replace(",", ".")));
+      const fmt = (v, comma) => {
+        let r = v >= 100 ? Math.round(v / 5) * 5 : v >= 10 ? Math.round(v) : v >= 1 ? Math.round(v * 10) / 10 : Math.round(v * 100) / 100;
+        const back = { 0.5: "½", 0.25: "¼", 0.75: "¾" };
+        if (r < 1 && back[r]) return back[r];
+        let s = String(r); if (comma) s = s.replace(".", ",");
+        return s;
+      };
+      const NUM = /(\d+(?:[.,]\d+)?|[½¼¾⅓⅔⅛])(\s*[–-]\s*)?(\d+(?:[.,]\d+)?)?/g;
+      const SKIP = /^\s*(cm|mm|m\b|°|º|%|min|h\b|hour|hora|minut|นาที|دقيق|ساع|x\b|×|:)/i;
+      const scaleHtml = (html, f) => html.replace(/>([^<]*)</g, (m0, text) => ">" + text.replace(NUM, (m, a, dash, b, off, whole) => {
+        const after = whole.slice(off + m.length), before = whole.slice(0, off);
+        if (SKIP.test(after) || /[:×x/]\s*$/.test(before) || /\d[.,]?$/.test(before)) return m;
+        const comma = /,/.test(m) || (commaLang && !/\./.test(m));
+        return fmt(num(a) * f, comma) + (dash && b ? dash + fmt(num(b) * f, comma) : (dash ?? "") + (b ?? ""));
+      }) + "<");
+      const set = (n) => {
+        n = Math.max(1, Math.min(24, n)); out.value = String(n); out.textContent = String(n);
+        const f = n / baseN;
+        cells.forEach((td) => (td.innerHTML = f === 1 ? td.dataset.orig : scaleHtml(">" + td.dataset.orig + "<", f).slice(1, -1)));
+        if (note) { note.hidden = f === 1; note.textContent = note.dataset.template.replace("{n}", n); }
+      };
+      sc.querySelectorAll("[data-scale]").forEach((b) => b.addEventListener("click", () => set(Number(out.textContent) + Number(b.dataset.scale))));
+    } }
   const key = `arros-check:${location.pathname}`;
 
   // Ingredient checklist (remembered per page)

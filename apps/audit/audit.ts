@@ -19,7 +19,7 @@ const PAGES: [string, string][] = [
   ["history-index", "/history"], ["history-spain", "/spain/history"], ["history-sham", "/sham/history"],
   ["regions", "/provinces"], ["region-valencia", "/provinces/valencia"],
   ["recipe-paella", "/recipes/paella-valenciana"], ["recipe-maqluba", "/recipes/maqluba"], ["recipe-khaomankai", "/recipes/khao-man-kai"],
-  ["about", "/about"], ["dishes", "/dishes"], ["credits", "/credits"], ["ar-sham", "/ar/sham"], ["ar-recipe-maqluba", "/ar/recipes/maqluba"], ["es-spain", "/es/spain"], ["notfound", "/this-does-not-exist"],
+  ["about", "/about"], ["dishes", "/dishes"], ["credits", "/credits"], ["saved", "/saved"], ["ar-sham", "/ar/sham"], ["ar-recipe-maqluba", "/ar/recipes/maqluba"], ["es-spain", "/es/spain"], ["notfound", "/this-does-not-exist"],
 ];
 
 type Row = Record<string, unknown>;
@@ -107,7 +107,7 @@ for (const [vpName, vp] of Object.entries(VIEWPORTS)) {
 
 // ---------- interaction journeys (with motion on, as users have it) ----------
 for (const [vpName, vp] of Object.entries(VIEWPORTS)) {
-  const ctx = await browser.newContext({ ...vp });
+  const ctx = await browser.newContext({ ...vp, permissions: ["clipboard-read", "clipboard-write"] });
   await journey(`${vpName}: portal → Spain door → switcher`, ctx, async (p) => {
     await p.goto(BASE + "/");
     await p.locator(".door-spain").first().click();
@@ -207,6 +207,34 @@ for (const [vpName, vp] of Object.entries(VIEWPORTS)) {
     await p.waitForURL(/\/ar\//);
     const dir = await p.evaluate(() => document.documentElement.dir);
     return { url: p.url(), dir, untranslatedNotice: await p.locator(".i18n-note").count() };
+  });
+  await journey(`${vpName}: P3 scaler / save / share / recent / maps`, ctx, async (p) => {
+    await p.goto(BASE + "/recipes/paella-valenciana");
+    const qty0 = (await p.locator(".sec-recipe tbody tr td:nth-child(2)").first().innerText()).trim();
+    await p.locator('.scaler [data-scale="1"]').click(); await p.locator('.scaler [data-scale="1"]').click();
+    const qty6 = (await p.locator(".sec-recipe tbody tr td:nth-child(2)").first().innerText()).trim();
+    const noteShown = await p.locator(".scaled-note").isVisible();
+    await p.locator('.scaler [data-scale="-1"]').click(); await p.locator('.scaler [data-scale="-1"]').click();
+    const qtyBack = (await p.locator(".sec-recipe tbody tr td:nth-child(2)").first().innerText()).trim();
+    await p.locator("[data-save]").click();
+    const savedPressed = await p.locator("[data-save]").getAttribute("aria-pressed");
+    await p.locator("[data-share]").click();
+    await p.waitForTimeout(500);
+    const toastOrShare = (await p.locator(".toast.show").count()) > 0;
+    const locatorOn = await p.locator(".glance-map .map-region.is-on").count();
+    await p.goto(BASE + "/saved");
+    await p.waitForTimeout(1500);
+    const savedCards = await p.locator("[data-saved-list] .card").count();
+    const recentCards = await p.locator("[data-recent-full] .card").count();
+    await p.goto(BASE + "/");
+    await p.waitForTimeout(1500);
+    const strip = await p.locator("[data-recent-strip]:not([hidden]) .recent-chip").count();
+    await p.goto(BASE + "/provinces");
+    const mapRegions = await p.locator(".map-area .map-region").count();
+    await p.goto(BASE + "/provinces/isan");
+    const regionLocator = await p.locator(".region-locator .map-region.is-on").count();
+    await p.screenshot({ path: join(OUT, "shots", `${vpName}-journey-p3.png`) });
+    return { qty0, qty6, noteShown, qtyBack, savedPressed, toastOrShare, locatorOn, savedCards, recentCards, portalRecentChips: strip, mapRegions, regionLocator };
   });
   await journey(`${vpName}: 404`, ctx, async (p) => {
     const r = await p.goto(BASE + "/nope-xyz");

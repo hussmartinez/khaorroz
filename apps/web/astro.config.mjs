@@ -20,7 +20,7 @@ export default defineConfig({
   integrations: [
     sitemap({
       i18n: { defaultLocale: "en", locales: { en: "en", es: "es", ca: "ca", th: "th", ar: "ar" } },
-      filter: (page) => !/\/404(\.html)?$/.test(page),
+      filter: (page) => !/\/(404|saved)(\.html)?\/?$/.test(page),
       serialize: (item) => ({ ...item, url: canon(item.url), links: item.links?.map((l) => ({ ...l, url: canon(l.url) })) }),
     }),
   ],

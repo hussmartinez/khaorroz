@@ -1139,3 +1139,60 @@ body.hdr-hidden .az-tools { top: 0; }
 .crumbs li { display: inline-flex; align-items: center; min-height: 44px; }
 html[dir="ltr"] .alt-title, html[dir="ltr"] .card h3 .local, html[dir="ltr"] .az-name .local { text-align: left; }
 html[dir="rtl"] .alt-title, html[dir="rtl"] .card h3 .local, html[dir="rtl"] .az-name .local { text-align: right; }
+
+/* ==========================================================================
+   v3 (Phase 3): region maps, servings scaler, save / share, recently viewed, toast
+   ========================================================================== */
+.region-map { margin: 0; }
+.region-map svg { display: block; width: 100%; height: auto; }
+.map-ctx path { fill: var(--paper-3); stroke: var(--card); stroke-width: 1.2; opacity: 0.55; }
+.map-other path { fill: var(--paper-3); stroke: var(--card); stroke-width: 1; }
+.map-inset { fill: none; stroke: var(--line); stroke-width: 2; stroke-dasharray: 6 5; }
+.map-region path { fill: color-mix(in srgb, var(--saffron) 38%, var(--card)); stroke: var(--card); stroke-width: 2.2; stroke-linejoin: round; transition: fill 0.25s; }
+[data-theme="spain"] .map-region path { fill: color-mix(in srgb, var(--azul, #1d4f91) 22%, var(--card)); }
+[data-theme="sham"] .map-region path { fill: color-mix(in srgb, var(--terracotta) 26%, var(--card)); }
+[data-theme="thai"] .map-region path { fill: color-mix(in srgb, var(--sea) 30%, var(--card)); }
+.map-area a:hover .map-region path, .map-area a:focus-visible .map-region path { fill: var(--saffron); }
+[data-theme="spain"] .map-area a:hover .map-region path { fill: var(--azul, #1d4f91); }
+[data-theme="sham"] .map-area a:hover .map-region path { fill: var(--terracotta); }
+[data-theme="thai"] .map-area a:hover .map-region path { fill: var(--sea); }
+.map-area a:focus-visible { outline: none; }
+.map-region.is-on path { fill: var(--terracotta) !important; }
+[data-theme="spain"] .map-region.is-on path { fill: var(--azul, #1d4f91) !important; }
+[data-theme="thai"] .map-region.is-on path { fill: var(--sea) !important; }
+.map-region.is-off path { fill: color-mix(in srgb, var(--paper-3) 70%, var(--card)); }
+.map-labels text { fill: var(--ink); font-family: var(--sans); font-weight: 700; paint-order: stroke; stroke: var(--card); stroke-width: 5px; stroke-linejoin: round; pointer-events: none; }
+.map-labels .ml-n { font-weight: 600; fill: var(--ink-soft); font-size: 0.85em; }
+.map-pin { fill: var(--card); stroke: var(--ink); stroke-width: 3; }
+.region-map figcaption { font-size: 0.72rem; color: var(--ink-faint); margin-top: 0.3rem; }
+.map-area { max-width: 640px; margin: 0.5rem auto 1.4rem; }
+.region-locator { max-width: 260px; margin-top: 1rem; }
+.glance-map { max-width: 180px; margin-top: 0.8rem; }
+@media (min-width: 981px) { .glance { display: grid; grid-template-columns: minmax(0, 1fr) 170px; column-gap: 1.2rem; } .glance-facts, .glance-actions, .scaled-note, .cook-hint { grid-column: 1; } .glance-map { grid-column: 2; grid-row: 1 / span 3; margin-top: 0; align-self: start; } }
+
+/* servings scaler */
+.scaler { display: inline-flex; align-items: center; gap: 0.15rem; margin-top: 0.1rem; }
+.scaler button { all: unset; cursor: pointer; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); font: 700 1.1rem/1 var(--sans); color: var(--ink); }
+.scaler button:hover { border-color: var(--saffron); }
+.scaler button:focus-visible { outline: 2.5px solid var(--saffron); outline-offset: 2px; }
+.scaler output { min-width: 2ch; text-align: center; font: 700 1.2rem var(--display); }
+.scaled-note { margin: 0.7rem 0 0; padding: 0.55rem 0.8rem; border-radius: 10px; font-size: 0.86rem; color: var(--ink-soft); background: color-mix(in srgb, var(--saffron) 12%, transparent); }
+
+/* save / share */
+.btn-save[aria-pressed="true"] { background: var(--terracotta); border-color: var(--terracotta); color: #fff; }
+.btn-save[aria-pressed="true"] svg { fill: currentColor; }
+.toast { position: fixed; z-index: 90; left: 50%; bottom: calc(1.2rem + env(safe-area-inset-bottom)); translate: -50% 20px; opacity: 0; pointer-events: none; padding: 0.7rem 1.1rem; border-radius: 999px; background: var(--ink); color: var(--paper); font-weight: 600; box-shadow: var(--shadow-lg); transition: opacity 0.25s, translate 0.25s var(--ease-out); }
+.toast.show { opacity: 1; translate: -50% 0; }
+
+/* recently viewed (portal strip) + saved page */
+.recent-strip { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.recent-list { display: flex; gap: 0.5rem; overflow-x: auto; padding: 0.5rem 0 0.8rem; scrollbar-width: thin; }
+.recent-chip { flex: none; display: inline-flex; align-items: center; gap: 0.55rem; min-height: 52px; padding: 0.35rem 0.9rem 0.35rem 0.4rem; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--ink); text-decoration: none; font-weight: 650; font-size: 0.92rem; }
+.recent-chip img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; }
+.recent-chip:hover { border-color: var(--saffron); color: var(--ink); }
+.saved-page .grid { margin-bottom: 2rem; }
+.saved-page .card-visual img.photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.saved-count { color: var(--ink-faint); font-weight: 600; }
+@media print { .scaler button, .glance-map, .btn-save, [data-share] { display: none !important; } }
+.map-area svg { max-height: 72vh; width: auto; max-width: 100%; margin-inline: auto; }
+.map-labels text { stroke-width: 6px; }
